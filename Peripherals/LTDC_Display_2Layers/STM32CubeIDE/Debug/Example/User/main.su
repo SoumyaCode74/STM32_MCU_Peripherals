@@ -1,0 +1,6 @@
+D:/Users/soumy/GitHub/EmbeddedSystems/EmbeddedSystems/FastBit Courses/Peripherals/LTDC_Display_2Layers/Src/main.c:65:5:main	24	static
+D:/Users/soumy/GitHub/EmbeddedSystems/EmbeddedSystems/FastBit Courses/Peripherals/LTDC_Display_2Layers/Src/main.c:155:13:PicturesPosition	24	static
+D:/Users/soumy/GitHub/EmbeddedSystems/EmbeddedSystems/FastBit Courses/Peripherals/LTDC_Display_2Layers/Src/main.c:172:6:HAL_LTDC_ReloadEventCallback	16	static
+D:/Users/soumy/GitHub/EmbeddedSystems/EmbeddedSystems/FastBit Courses/Peripherals/LTDC_Display_2Layers/Src/main.c:193:13:LCD_Config	8	static
+D:/Users/soumy/GitHub/EmbeddedSystems/EmbeddedSystems/FastBit Courses/Peripherals/LTDC_Display_2Layers/Src/main.c:355:13:SystemClock_Config	136	static
+D:/Users/soumy/GitHub/EmbeddedSystems/EmbeddedSystems/FastBit Courses/Peripherals/LTDC_Display_2Layers/Src/main.c:411:13:Error_Handler	8	static

@@ -1,0 +1,29 @@
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h:834:26:LL_EXTI_IsActiveFlag_0_31	1
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h:910:22:LL_EXTI_ClearFlag_0_31	1
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h:1137:22:LL_I2C_EnableIT_BUF	1
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h:1236:26:LL_I2C_IsActiveFlag_TXE	1
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h:1249:26:LL_I2C_IsActiveFlag_BTF	1
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h:1262:26:LL_I2C_IsActiveFlag_RXNE	1
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h:1275:26:LL_I2C_IsActiveFlag_SB	1
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h:1288:26:LL_I2C_IsActiveFlag_ADDR	1
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h:1314:26:LL_I2C_IsActiveFlag_AF	1
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h:1503:22:LL_I2C_ClearFlag_ADDR	1
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h:1518:22:LL_I2C_ClearFlag_AF	1
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h:1661:22:LL_I2C_AcknowledgeNextData	1
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h:1697:22:LL_I2C_EnableBitPOS	1
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h:1735:26:LL_I2C_GetTransferDirection	1
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h:1847:22:LL_I2C_TransmitData8	1
+D:/Users/soumy/GitHub/EmbeddedSystems/EmbeddedSystems/FastBit Courses/Peripherals/I2C_OneBoard_Communication_IT/Src/stm32f4xx_it.c:51:6:NMI_Handler	1
+D:/Users/soumy/GitHub/EmbeddedSystems/EmbeddedSystems/FastBit Courses/Peripherals/I2C_OneBoard_Communication_IT/Src/stm32f4xx_it.c:60:6:HardFault_Handler	1
+D:/Users/soumy/GitHub/EmbeddedSystems/EmbeddedSystems/FastBit Courses/Peripherals/I2C_OneBoard_Communication_IT/Src/stm32f4xx_it.c:73:6:MemManage_Handler	1
+D:/Users/soumy/GitHub/EmbeddedSystems/EmbeddedSystems/FastBit Courses/Peripherals/I2C_OneBoard_Communication_IT/Src/stm32f4xx_it.c:86:6:BusFault_Handler	1
+D:/Users/soumy/GitHub/EmbeddedSystems/EmbeddedSystems/FastBit Courses/Peripherals/I2C_OneBoard_Communication_IT/Src/stm32f4xx_it.c:99:6:UsageFault_Handler	1
+D:/Users/soumy/GitHub/EmbeddedSystems/EmbeddedSystems/FastBit Courses/Peripherals/I2C_OneBoard_Communication_IT/Src/stm32f4xx_it.c:112:6:SVC_Handler	1
+D:/Users/soumy/GitHub/EmbeddedSystems/EmbeddedSystems/FastBit Courses/Peripherals/I2C_OneBoard_Communication_IT/Src/stm32f4xx_it.c:121:6:DebugMon_Handler	1
+D:/Users/soumy/GitHub/EmbeddedSystems/EmbeddedSystems/FastBit Courses/Peripherals/I2C_OneBoard_Communication_IT/Src/stm32f4xx_it.c:130:6:PendSV_Handler	1
+D:/Users/soumy/GitHub/EmbeddedSystems/EmbeddedSystems/FastBit Courses/Peripherals/I2C_OneBoard_Communication_IT/Src/stm32f4xx_it.c:139:6:SysTick_Handler	1
+D:/Users/soumy/GitHub/EmbeddedSystems/EmbeddedSystems/FastBit Courses/Peripherals/I2C_OneBoard_Communication_IT/Src/stm32f4xx_it.c:155:6:EXTI0_IRQHandler	2
+D:/Users/soumy/GitHub/EmbeddedSystems/EmbeddedSystems/FastBit Courses/Peripherals/I2C_OneBoard_Communication_IT/Src/stm32f4xx_it.c:172:6:I2C1_EV_IRQHandler	5
+D:/Users/soumy/GitHub/EmbeddedSystems/EmbeddedSystems/FastBit Courses/Peripherals/I2C_OneBoard_Communication_IT/Src/stm32f4xx_it.c:215:6:I2C1_ER_IRQHandler	3
+D:/Users/soumy/GitHub/EmbeddedSystems/EmbeddedSystems/FastBit Courses/Peripherals/I2C_OneBoard_Communication_IT/Src/stm32f4xx_it.c:239:6:I2C2_EV_IRQHandler	7
+D:/Users/soumy/GitHub/EmbeddedSystems/EmbeddedSystems/FastBit Courses/Peripherals/I2C_OneBoard_Communication_IT/Src/stm32f4xx_it.c:294:6:I2C2_ER_IRQHandler	1

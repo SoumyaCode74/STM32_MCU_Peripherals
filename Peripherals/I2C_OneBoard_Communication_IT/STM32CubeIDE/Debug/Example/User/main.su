@@ -1,0 +1,58 @@
+../../Drivers/CMSIS/Include/core_cm4.h:1684:22:__NVIC_EnableIRQ	16	static,ignoring_inline_asm
+../../Drivers/CMSIS/Include/core_cm4.h:1722:22:__NVIC_DisableIRQ	16	static,ignoring_inline_asm
+../../Drivers/CMSIS/Include/core_cm4.h:1814:22:__NVIC_SetPriority	16	static
+../../Drivers/CMSIS/Include/core_cm4.h:2022:26:SysTick_Config	16	static
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h:409:22:LL_AHB1_GRP1_EnableClock	24	static
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h:1185:22:LL_APB1_GRP1_EnableClock	24	static
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h:1704:22:LL_APB2_GRP1_EnableClock	24	static
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h:2987:22:LL_RCC_HSI_Enable	4	static
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h:3007:26:LL_RCC_HSI_IsReady	4	static
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h:3240:22:LL_RCC_SetAPB1Prescaler	16	static
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h:3256:22:LL_RCC_SetAPB2Prescaler	16	static
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h:671:22:LL_SYSCFG_SetEXTISource	32	static,ignoring_inline_asm
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h:1543:22:LL_FLASH_SetLatency	16	static
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h:273:22:LL_GPIO_SetPinMode	48	static,ignoring_inline_asm
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h:342:22:LL_GPIO_SetPinOutputType	24	static
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h:413:22:LL_GPIO_SetPinSpeed	48	static,ignoring_inline_asm
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h:484:22:LL_GPIO_SetPinPull	48	static,ignoring_inline_asm
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h:556:22:LL_GPIO_SetAFPin_0_7	48	static,ignoring_inline_asm
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h:633:22:LL_GPIO_SetAFPin_8_15	48	static,ignoring_inline_asm
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h:881:22:LL_GPIO_SetOutputPin	16	static
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h:910:22:LL_GPIO_ResetOutputPin	16	static
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h:939:22:LL_GPIO_TogglePin	24	static
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h:268:22:LL_EXTI_EnableIT_0_31	16	static
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h:661:22:LL_EXTI_EnableFallingTrig_0_31	16	static
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h:371:22:LL_I2C_Enable	16	static
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h:382:22:LL_I2C_Disable	16	static
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h:644:22:LL_I2C_SetOwnAddress1	24	static
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h:836:22:LL_I2C_ConfigSpeed	32	static
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h:1093:22:LL_I2C_EnableIT_EVT	16	static
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h:1112:22:LL_I2C_DisableIT_EVT	16	static
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h:1151:22:LL_I2C_DisableIT_BUF	16	static
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h:1183:22:LL_I2C_EnableIT_ERR	16	static
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h:1204:22:LL_I2C_DisableIT_ERR	16	static
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h:1661:22:LL_I2C_AcknowledgeNextData	16	static
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h:1674:22:LL_I2C_GenerateStartCondition	16	static
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h:1685:22:LL_I2C_GenerateStopCondition	16	static
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h:1835:25:LL_I2C_ReceiveData8	16	static
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h:1847:22:LL_I2C_TransmitData8	16	static
+D:/Users/soumy/GitHub/EmbeddedSystems/EmbeddedSystems/FastBit Courses/Peripherals/I2C_OneBoard_Communication_IT/Src/main.c:83:5:main	8	static
+D:/Users/soumy/GitHub/EmbeddedSystems/EmbeddedSystems/FastBit Courses/Peripherals/I2C_OneBoard_Communication_IT/Src/main.c:136:6:Configure_I2C_Slave	8	static
+D:/Users/soumy/GitHub/EmbeddedSystems/EmbeddedSystems/FastBit Courses/Peripherals/I2C_OneBoard_Communication_IT/Src/main.c:224:6:Configure_I2C_Master	24	static
+D:/Users/soumy/GitHub/EmbeddedSystems/EmbeddedSystems/FastBit Courses/Peripherals/I2C_OneBoard_Communication_IT/Src/main.c:317:6:Activate_I2C_Slave	8	static
+D:/Users/soumy/GitHub/EmbeddedSystems/EmbeddedSystems/FastBit Courses/Peripherals/I2C_OneBoard_Communication_IT/Src/main.c:338:6:Activate_I2C_Master	8	static
+D:/Users/soumy/GitHub/EmbeddedSystems/EmbeddedSystems/FastBit Courses/Peripherals/I2C_OneBoard_Communication_IT/Src/main.c:356:6:LED_Init	8	static
+D:/Users/soumy/GitHub/EmbeddedSystems/EmbeddedSystems/FastBit Courses/Peripherals/I2C_OneBoard_Communication_IT/Src/main.c:376:6:LED_On	8	static
+D:/Users/soumy/GitHub/EmbeddedSystems/EmbeddedSystems/FastBit Courses/Peripherals/I2C_OneBoard_Communication_IT/Src/main.c:387:6:LED_Off	8	static
+D:/Users/soumy/GitHub/EmbeddedSystems/EmbeddedSystems/FastBit Courses/Peripherals/I2C_OneBoard_Communication_IT/Src/main.c:402:6:LED_Blinking	16	static
+D:/Users/soumy/GitHub/EmbeddedSystems/EmbeddedSystems/FastBit Courses/Peripherals/I2C_OneBoard_Communication_IT/Src/main.c:420:6:UserButton_Init	8	static
+D:/Users/soumy/GitHub/EmbeddedSystems/EmbeddedSystems/FastBit Courses/Peripherals/I2C_OneBoard_Communication_IT/Src/main.c:447:6:WaitForUserButtonPress	8	static
+D:/Users/soumy/GitHub/EmbeddedSystems/EmbeddedSystems/FastBit Courses/Peripherals/I2C_OneBoard_Communication_IT/Src/main.c:465:6:Handle_I2C_Slave	8	static
+D:/Users/soumy/GitHub/EmbeddedSystems/EmbeddedSystems/FastBit Courses/Peripherals/I2C_OneBoard_Communication_IT/Src/main.c:479:6:Handle_I2C_Master	8	static
+D:/Users/soumy/GitHub/EmbeddedSystems/EmbeddedSystems/FastBit Courses/Peripherals/I2C_OneBoard_Communication_IT/Src/main.c:509:6:SystemClock_Config	8	static
+D:/Users/soumy/GitHub/EmbeddedSystems/EmbeddedSystems/FastBit Courses/Peripherals/I2C_OneBoard_Communication_IT/Src/main.c:555:6:UserButton_Callback	4	static
+D:/Users/soumy/GitHub/EmbeddedSystems/EmbeddedSystems/FastBit Courses/Peripherals/I2C_OneBoard_Communication_IT/Src/main.c:567:6:Slave_Ready_To_Transmit_Callback	8	static
+D:/Users/soumy/GitHub/EmbeddedSystems/EmbeddedSystems/FastBit Courses/Peripherals/I2C_OneBoard_Communication_IT/Src/main.c:588:6:Master_Reception_Callback	16	static
+D:/Users/soumy/GitHub/EmbeddedSystems/EmbeddedSystems/FastBit Courses/Peripherals/I2C_OneBoard_Communication_IT/Src/main.c:630:6:Slave_Complete_Callback	8	static
+D:/Users/soumy/GitHub/EmbeddedSystems/EmbeddedSystems/FastBit Courses/Peripherals/I2C_OneBoard_Communication_IT/Src/main.c:647:6:Master_Complete_Callback	16	static
+D:/Users/soumy/GitHub/EmbeddedSystems/EmbeddedSystems/FastBit Courses/Peripherals/I2C_OneBoard_Communication_IT/Src/main.c:724:6:Error_Callback	8	static
