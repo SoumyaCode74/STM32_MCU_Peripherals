@@ -1,0 +1,7 @@
+"./Src/main.o"
+"./Src/signals.o"
+"./Src/syscalls.o"
+"./Src/sysmem.o"
+"./Src/systems.o"
+"./Src/uart1_discovery_board.o"
+"./Startup/startup_stm32f429zitx.o"

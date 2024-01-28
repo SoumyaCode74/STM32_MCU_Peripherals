@@ -1,0 +1,5 @@
+../Src/systems.c:19:6:output_feedback	32	static
+../Src/systems.c:31:6:plant_output	32	static
+../Src/systems.c:39:6:PI_controller	40	static
+../Src/systems.c:46:6:generate_impulse_response_second_order	32	static
+../Src/systems.c:57:6:generate_system_response_second_order	32	static

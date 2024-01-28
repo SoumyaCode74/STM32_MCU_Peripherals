@@ -1,0 +1,7 @@
+../Src/signals.c:100:6:generate_unit_impulse	32	static
+../Src/signals.c:111:6:generate_reference_step	32	static
+../Src/signals.c:119:6:generate_reference_ramp	32	static
+../Src/signals.c:128:6:generate_reference_parabolic	40	static
+../Src/signals.c:137:6:generate_reference_sine	48	static
+../Src/signals.c:147:6:generate_reference_pulse	32	static
+../Src/signals.c:158:6:generate_reference_square	32	static

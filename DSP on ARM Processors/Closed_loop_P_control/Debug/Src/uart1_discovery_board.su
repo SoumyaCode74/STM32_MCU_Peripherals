@@ -1,0 +1,7 @@
+../Src/uart1_discovery_board.c:12:6:configure_UART1_Rx_interrupt	16	static
+../Src/uart1_discovery_board.c:23:6:UART1_write	16	static
+../Src/uart1_discovery_board.c:30:5:__io_putchar	16	static
+../Src/uart1_discovery_board.c:36:29:USART1_Callback	8	static
+../Src/uart1_discovery_board.c:41:6:board_init	4	static
+../Src/uart1_discovery_board.c:49:6:delay	24	static
+../Src/uart1_discovery_board.c:57:6:enable_floating_point	4	static
