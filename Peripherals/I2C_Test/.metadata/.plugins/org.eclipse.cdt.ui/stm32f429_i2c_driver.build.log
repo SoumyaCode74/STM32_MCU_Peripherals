@@ -1,0 +1,24 @@
+22:33:35 **** Incremental Build of configuration Debug for project stm32f429_i2c_driver ****
+make -j12 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F429I_DISC1 -DSTM32 -DSTM32F429ZITx -DSTM32F4 -c -I../Inc -I"C:/Temp_work/Personal/GitHub/STM32_MCU_Peripherals/Peripherals/I2C_Test/stm32f429_i2c_driver/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+../Src/main.c: In function 'main':
+../Src/main.c:30:22: warning: variable 'hI2C_Slave' set but not used [-Wunused-but-set-variable]
+   30 |         I2C_Handle_t hI2C_Slave;
+      |                      ^~~~~~~~~~
+../Src/main.c:29:22: warning: variable 'hI2C_Master' set but not used [-Wunused-but-set-variable]
+   29 |         I2C_Handle_t hI2C_Master;
+      |                      ^~~~~~~~~~~
+arm-none-eabi-gcc -o "stm32f429_i2c_driver.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Temp_work\Personal\GitHub\STM32_MCU_Peripherals\Peripherals\I2C_Test\stm32f429_i2c_driver\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stm32f429_i2c_driver.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: stm32f429_i2c_driver.elf
+ 
+arm-none-eabi-size   stm32f429_i2c_driver.elf 
+arm-none-eabi-objdump -h -S  stm32f429_i2c_driver.elf  > "stm32f429_i2c_driver.list"
+   text	   data	    bss	    dec	    hex	filename
+    696	      8	   1568	   2272	    8e0	stm32f429_i2c_driver.elf
+Finished building: default.size.stdout
+ 
+Finished building: stm32f429_i2c_driver.list
+ 
+
+22:33:38 Build Finished. 0 errors, 2 warnings. (took 2s.471ms)
+
