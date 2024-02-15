@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_f_m_c___bank4___type_def" kind="struct" language="C++" prot="public">
+    <compoundname>FMC_Bank4_TypeDef</compoundname>
+    <includes refid="stm32f429xx_8h" local="no">stm32f429xx.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_f_m_c___bank4___type_def_1a8e32753b3bf53f12290a16ce3439cb57" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t FMC_Bank4_TypeDef::PCR4</definition>
+        <argsstring></argsstring>
+        <name>PCR4</name>
+        <qualifiedname>FMC_Bank4_TypeDef::PCR4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>PC Card control register 4, Address offset: 0xA0 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="550" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="550" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_m_c___bank4___type_def_1a665493ce6898bd71fb6122f4b52ce0d7" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t FMC_Bank4_TypeDef::SR4</definition>
+        <argsstring></argsstring>
+        <name>SR4</name>
+        <qualifiedname>FMC_Bank4_TypeDef::SR4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>PC Card FIFO status and interrupt register 4, Address offset: 0xA4 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="551" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="551" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_m_c___bank4___type_def_1a0360a569f25a4df252938828cd39cd4e" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t FMC_Bank4_TypeDef::PMEM4</definition>
+        <argsstring></argsstring>
+        <name>PMEM4</name>
+        <qualifiedname>FMC_Bank4_TypeDef::PMEM4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>PC Card Common memory space timing register 4, Address offset: 0xA8 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="552" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="552" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_m_c___bank4___type_def_1aaf79bad7e7caaa40b5f830aa06f4c655" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t FMC_Bank4_TypeDef::PATT4</definition>
+        <argsstring></argsstring>
+        <name>PATT4</name>
+        <qualifiedname>FMC_Bank4_TypeDef::PATT4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>PC Card Attribute memory space timing register 4, Address offset: 0xAC </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="553" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="553" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_m_c___bank4___type_def_1a0febbe4cf989073ee8f5ec3ae2eab093" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t FMC_Bank4_TypeDef::PIO4</definition>
+        <argsstring></argsstring>
+        <name>PIO4</name>
+        <qualifiedname>FMC_Bank4_TypeDef::PIO4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>PC Card I/O space timing register 4, Address offset: 0xB0 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="554" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="554" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Flexible Memory Controller Bank4. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Inc/stm32f429xx.h" line="548" column="1" bodyfile="Inc/stm32f429xx.h" bodystart="549" bodyend="555"/>
+    <listofallmembers>
+      <member refid="struct_f_m_c___bank4___type_def_1aaf79bad7e7caaa40b5f830aa06f4c655" prot="public" virt="non-virtual"><scope>FMC_Bank4_TypeDef</scope><name>PATT4</name></member>
+      <member refid="struct_f_m_c___bank4___type_def_1a8e32753b3bf53f12290a16ce3439cb57" prot="public" virt="non-virtual"><scope>FMC_Bank4_TypeDef</scope><name>PCR4</name></member>
+      <member refid="struct_f_m_c___bank4___type_def_1a0febbe4cf989073ee8f5ec3ae2eab093" prot="public" virt="non-virtual"><scope>FMC_Bank4_TypeDef</scope><name>PIO4</name></member>
+      <member refid="struct_f_m_c___bank4___type_def_1a0360a569f25a4df252938828cd39cd4e" prot="public" virt="non-virtual"><scope>FMC_Bank4_TypeDef</scope><name>PMEM4</name></member>
+      <member refid="struct_f_m_c___bank4___type_def_1a665493ce6898bd71fb6122f4b52ce0d7" prot="public" virt="non-virtual"><scope>FMC_Bank4_TypeDef</scope><name>SR4</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

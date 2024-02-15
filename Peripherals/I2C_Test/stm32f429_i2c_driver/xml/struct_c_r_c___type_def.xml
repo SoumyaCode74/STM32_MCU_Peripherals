@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_c_r_c___type_def" kind="struct" language="C++" prot="public">
+    <compoundname>CRC_TypeDef</compoundname>
+    <includes refid="stm32f429xx_8h" local="no">stm32f429xx.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_c_r_c___type_def_1a50cb22870dbb9001241cec694994e5ef" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CRC_TypeDef::DR</definition>
+        <argsstring></argsstring>
+        <name>DR</name>
+        <qualifiedname>CRC_TypeDef::DR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>CRC Data register, Address offset: 0x00 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="288" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="288" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_c_r_c___type_def_1ad84e8694cd4b5375ee533c2d875c3b5a" prot="public" static="no" mutable="no">
+        <type>__IO uint8_t</type>
+        <definition>__IO uint8_t CRC_TypeDef::IDR</definition>
+        <argsstring></argsstring>
+        <name>IDR</name>
+        <qualifiedname>CRC_TypeDef::IDR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>CRC Independent data register, Address offset: 0x04 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="289" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="289" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_c_r_c___type_def_1a70dfd1730dba65041550ef55a44db87c" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t CRC_TypeDef::RESERVED0</definition>
+        <argsstring></argsstring>
+        <name>RESERVED0</name>
+        <qualifiedname>CRC_TypeDef::RESERVED0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved, 0x05 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="290" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="290" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_c_r_c___type_def_1a8b205c6e25b1808ac016db2356b3021d" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t CRC_TypeDef::RESERVED1</definition>
+        <argsstring></argsstring>
+        <name>RESERVED1</name>
+        <qualifiedname>CRC_TypeDef::RESERVED1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved, 0x06 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="291" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="291" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_c_r_c___type_def_1af33fa5c173e1c102e6d0242fe60e569f" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CRC_TypeDef::CR</definition>
+        <argsstring></argsstring>
+        <name>CR</name>
+        <qualifiedname>CRC_TypeDef::CR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>CRC Control register, Address offset: 0x08 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="292" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="292" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>CRC calculation unit. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Inc/stm32f429xx.h" line="286" column="1" bodyfile="Inc/stm32f429xx.h" bodystart="287" bodyend="293"/>
+    <listofallmembers>
+      <member refid="struct_c_r_c___type_def_1af33fa5c173e1c102e6d0242fe60e569f" prot="public" virt="non-virtual"><scope>CRC_TypeDef</scope><name>CR</name></member>
+      <member refid="struct_c_r_c___type_def_1a50cb22870dbb9001241cec694994e5ef" prot="public" virt="non-virtual"><scope>CRC_TypeDef</scope><name>DR</name></member>
+      <member refid="struct_c_r_c___type_def_1ad84e8694cd4b5375ee533c2d875c3b5a" prot="public" virt="non-virtual"><scope>CRC_TypeDef</scope><name>IDR</name></member>
+      <member refid="struct_c_r_c___type_def_1a70dfd1730dba65041550ef55a44db87c" prot="public" virt="non-virtual"><scope>CRC_TypeDef</scope><name>RESERVED0</name></member>
+      <member refid="struct_c_r_c___type_def_1a8b205c6e25b1808ac016db2356b3021d" prot="public" virt="non-virtual"><scope>CRC_TypeDef</scope><name>RESERVED1</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

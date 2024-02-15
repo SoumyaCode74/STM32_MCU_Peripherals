@@ -1,4 +1,4 @@
-22:33:35 **** Incremental Build of configuration Debug for project stm32f429_i2c_driver ****
+08:29:39 **** Incremental Build of configuration Debug for project stm32f429_i2c_driver ****
 make -j12 all 
 arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F429I_DISC1 -DSTM32 -DSTM32F429ZITx -DSTM32F4 -c -I../Inc -I"C:/Temp_work/Personal/GitHub/STM32_MCU_Peripherals/Peripherals/I2C_Test/stm32f429_i2c_driver/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
 ../Src/main.c: In function 'main':

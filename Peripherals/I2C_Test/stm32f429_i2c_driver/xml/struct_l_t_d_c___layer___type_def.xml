@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_l_t_d_c___layer___type_def" kind="struct" language="C++" prot="public">
+    <compoundname>LTDC_Layer_TypeDef</compoundname>
+    <includes refid="stm32f429xx_8h" local="no">stm32f429xx.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_l_t_d_c___layer___type_def_1a3f9827b30a402fd3d85fe4f4b8eb49c9" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t LTDC_Layer_TypeDef::CR</definition>
+        <argsstring></argsstring>
+        <name>CR</name>
+        <qualifiedname>LTDC_Layer_TypeDef::CR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>LTDC Layerx Control Register Address offset: 0x84 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="661" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="661" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_l_t_d_c___layer___type_def_1a9c72a83598a0ee20148f01a486f54ac0" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t LTDC_Layer_TypeDef::WHPCR</definition>
+        <argsstring></argsstring>
+        <name>WHPCR</name>
+        <qualifiedname>LTDC_Layer_TypeDef::WHPCR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>LTDC Layerx Window Horizontal Position Configuration Register Address offset: 0x88 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="662" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="662" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_l_t_d_c___layer___type_def_1aa3238d4c30b3ec500b2007bc061020db" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t LTDC_Layer_TypeDef::WVPCR</definition>
+        <argsstring></argsstring>
+        <name>WVPCR</name>
+        <qualifiedname>LTDC_Layer_TypeDef::WVPCR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>LTDC Layerx Window Vertical Position Configuration Register Address offset: 0x8C </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="663" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="663" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_l_t_d_c___layer___type_def_1a1037f0255519c1c6c14af5b17a4de3ca" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t LTDC_Layer_TypeDef::CKCR</definition>
+        <argsstring></argsstring>
+        <name>CKCR</name>
+        <qualifiedname>LTDC_Layer_TypeDef::CKCR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>LTDC Layerx Color Keying Configuration Register Address offset: 0x90 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="664" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="664" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_l_t_d_c___layer___type_def_1a401b8bbdd7d666b112a747b1a6d163ae" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t LTDC_Layer_TypeDef::PFCR</definition>
+        <argsstring></argsstring>
+        <name>PFCR</name>
+        <qualifiedname>LTDC_Layer_TypeDef::PFCR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>LTDC Layerx Pixel Format Configuration Register Address offset: 0x94 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="665" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="665" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_l_t_d_c___layer___type_def_1af3708f47198ca52e0149584a8c382362" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t LTDC_Layer_TypeDef::CACR</definition>
+        <argsstring></argsstring>
+        <name>CACR</name>
+        <qualifiedname>LTDC_Layer_TypeDef::CACR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>LTDC Layerx Constant Alpha Configuration Register Address offset: 0x98 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="666" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="666" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_l_t_d_c___layer___type_def_1aaedb1dc65cb10a98f4c53f162b19bb39" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t LTDC_Layer_TypeDef::DCCR</definition>
+        <argsstring></argsstring>
+        <name>DCCR</name>
+        <qualifiedname>LTDC_Layer_TypeDef::DCCR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>LTDC Layerx Default Color Configuration Register Address offset: 0x9C </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="667" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="667" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_l_t_d_c___layer___type_def_1ad597faecb079859e9cdb849c8cf78aec" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t LTDC_Layer_TypeDef::BFCR</definition>
+        <argsstring></argsstring>
+        <name>BFCR</name>
+        <qualifiedname>LTDC_Layer_TypeDef::BFCR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>LTDC Layerx Blending Factors Configuration Register Address offset: 0xA0 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="668" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="668" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_l_t_d_c___layer___type_def_1a69d1bd327c7b02f9a1c9372992939406" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t LTDC_Layer_TypeDef::RESERVED0[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>RESERVED0</name>
+        <qualifiedname>LTDC_Layer_TypeDef::RESERVED0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="669" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="669" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_l_t_d_c___layer___type_def_1aa79c0c2be9b6f8e4f034d8d5fe8e9345" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t LTDC_Layer_TypeDef::CFBAR</definition>
+        <argsstring></argsstring>
+        <name>CFBAR</name>
+        <qualifiedname>LTDC_Layer_TypeDef::CFBAR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>LTDC Layerx Color Frame Buffer Address Register Address offset: 0xAC </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="670" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="670" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_l_t_d_c___layer___type_def_1ae4673c5b4a2df7b770d82e43b1806ccf" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t LTDC_Layer_TypeDef::CFBLR</definition>
+        <argsstring></argsstring>
+        <name>CFBLR</name>
+        <qualifiedname>LTDC_Layer_TypeDef::CFBLR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>LTDC Layerx Color Frame Buffer Length Register Address offset: 0xB0 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="671" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="671" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_l_t_d_c___layer___type_def_1adbd3ad2a70d1578d630acfdb9a526320" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t LTDC_Layer_TypeDef::CFBLNR</definition>
+        <argsstring></argsstring>
+        <name>CFBLNR</name>
+        <qualifiedname>LTDC_Layer_TypeDef::CFBLNR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>LTDC Layerx ColorFrame Buffer Line Number Register Address offset: 0xB4 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="672" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="672" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_l_t_d_c___layer___type_def_1ad08bb6a4577311f9dfcc7a3a15f0c7c9" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t LTDC_Layer_TypeDef::RESERVED1[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>RESERVED1</name>
+        <qualifiedname>LTDC_Layer_TypeDef::RESERVED1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="673" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="673" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_l_t_d_c___layer___type_def_1ae4ce84d11912847542fcdc03ae337176" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t LTDC_Layer_TypeDef::CLUTWR</definition>
+        <argsstring></argsstring>
+        <name>CLUTWR</name>
+        <qualifiedname>LTDC_Layer_TypeDef::CLUTWR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>LTDC Layerx CLUT Write Register Address offset: 0x144 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="674" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="674" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>LCD-TFT Display layer x Controller. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Inc/stm32f429xx.h" line="659" column="1" bodyfile="Inc/stm32f429xx.h" bodystart="660" bodyend="675"/>
+    <listofallmembers>
+      <member refid="struct_l_t_d_c___layer___type_def_1ad597faecb079859e9cdb849c8cf78aec" prot="public" virt="non-virtual"><scope>LTDC_Layer_TypeDef</scope><name>BFCR</name></member>
+      <member refid="struct_l_t_d_c___layer___type_def_1af3708f47198ca52e0149584a8c382362" prot="public" virt="non-virtual"><scope>LTDC_Layer_TypeDef</scope><name>CACR</name></member>
+      <member refid="struct_l_t_d_c___layer___type_def_1aa79c0c2be9b6f8e4f034d8d5fe8e9345" prot="public" virt="non-virtual"><scope>LTDC_Layer_TypeDef</scope><name>CFBAR</name></member>
+      <member refid="struct_l_t_d_c___layer___type_def_1adbd3ad2a70d1578d630acfdb9a526320" prot="public" virt="non-virtual"><scope>LTDC_Layer_TypeDef</scope><name>CFBLNR</name></member>
+      <member refid="struct_l_t_d_c___layer___type_def_1ae4673c5b4a2df7b770d82e43b1806ccf" prot="public" virt="non-virtual"><scope>LTDC_Layer_TypeDef</scope><name>CFBLR</name></member>
+      <member refid="struct_l_t_d_c___layer___type_def_1a1037f0255519c1c6c14af5b17a4de3ca" prot="public" virt="non-virtual"><scope>LTDC_Layer_TypeDef</scope><name>CKCR</name></member>
+      <member refid="struct_l_t_d_c___layer___type_def_1ae4ce84d11912847542fcdc03ae337176" prot="public" virt="non-virtual"><scope>LTDC_Layer_TypeDef</scope><name>CLUTWR</name></member>
+      <member refid="struct_l_t_d_c___layer___type_def_1a3f9827b30a402fd3d85fe4f4b8eb49c9" prot="public" virt="non-virtual"><scope>LTDC_Layer_TypeDef</scope><name>CR</name></member>
+      <member refid="struct_l_t_d_c___layer___type_def_1aaedb1dc65cb10a98f4c53f162b19bb39" prot="public" virt="non-virtual"><scope>LTDC_Layer_TypeDef</scope><name>DCCR</name></member>
+      <member refid="struct_l_t_d_c___layer___type_def_1a401b8bbdd7d666b112a747b1a6d163ae" prot="public" virt="non-virtual"><scope>LTDC_Layer_TypeDef</scope><name>PFCR</name></member>
+      <member refid="struct_l_t_d_c___layer___type_def_1a69d1bd327c7b02f9a1c9372992939406" prot="public" virt="non-virtual"><scope>LTDC_Layer_TypeDef</scope><name>RESERVED0</name></member>
+      <member refid="struct_l_t_d_c___layer___type_def_1ad08bb6a4577311f9dfcc7a3a15f0c7c9" prot="public" virt="non-virtual"><scope>LTDC_Layer_TypeDef</scope><name>RESERVED1</name></member>
+      <member refid="struct_l_t_d_c___layer___type_def_1a9c72a83598a0ee20148f01a486f54ac0" prot="public" virt="non-virtual"><scope>LTDC_Layer_TypeDef</scope><name>WHPCR</name></member>
+      <member refid="struct_l_t_d_c___layer___type_def_1aa3238d4c30b3ec500b2007bc061020db" prot="public" virt="non-virtual"><scope>LTDC_Layer_TypeDef</scope><name>WVPCR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

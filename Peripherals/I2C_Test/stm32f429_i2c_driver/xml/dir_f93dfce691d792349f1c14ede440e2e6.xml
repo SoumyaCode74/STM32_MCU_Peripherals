@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_f93dfce691d792349f1c14ede440e2e6" kind="dir">
+    <compoundname>Inc</compoundname>
+    <innerfile refid="stm32f429xx_8h">stm32f429xx.h</innerfile>
+    <innerfile refid="stm32f429xx__general_8h">stm32f429xx_general.h</innerfile>
+    <innerfile refid="stm32f429xx__i2c__driver_8h">stm32f429xx_i2c_driver.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Inc/"/>
+  </compounddef>
+</doxygen>

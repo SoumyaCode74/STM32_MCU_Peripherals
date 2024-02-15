@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_p_w_r___type_def" kind="struct" language="C++" prot="public">
+    <compoundname>PWR_TypeDef</compoundname>
+    <includes refid="stm32f429xx_8h" local="no">stm32f429xx.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_p_w_r___type_def_1aeb6bcdb2b99d58b9a0ffd86deb606eac" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t PWR_TypeDef::CR</definition>
+        <argsstring></argsstring>
+        <name>CR</name>
+        <qualifiedname>PWR_TypeDef::CR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>PWR power control register, Address offset: 0x00 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="683" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="683" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_p_w_r___type_def_1ae17097e69c88b6c00033d6fb84a8182b" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t PWR_TypeDef::CSR</definition>
+        <argsstring></argsstring>
+        <name>CSR</name>
+        <qualifiedname>PWR_TypeDef::CSR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>PWR power control/status register, Address offset: 0x04 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="684" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="684" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Power Control. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Inc/stm32f429xx.h" line="681" column="1" bodyfile="Inc/stm32f429xx.h" bodystart="682" bodyend="685"/>
+    <listofallmembers>
+      <member refid="struct_p_w_r___type_def_1aeb6bcdb2b99d58b9a0ffd86deb606eac" prot="public" virt="non-virtual"><scope>PWR_TypeDef</scope><name>CR</name></member>
+      <member refid="struct_p_w_r___type_def_1ae17097e69c88b6c00033d6fb84a8182b" prot="public" virt="non-virtual"><scope>PWR_TypeDef</scope><name>CSR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

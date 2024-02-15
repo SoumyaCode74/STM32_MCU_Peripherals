@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_c_a_n___filter_register___type_def" kind="struct" language="C++" prot="public">
+    <compoundname>CAN_FilterRegister_TypeDef</compoundname>
+    <includes refid="stm32f429xx_8h" local="no">stm32f429xx.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_c_a_n___filter_register___type_def_1ac9bc1e42212239d6830582bf0c696fc5" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CAN_FilterRegister_TypeDef::FR1</definition>
+        <argsstring></argsstring>
+        <name>FR1</name>
+        <qualifiedname>CAN_FilterRegister_TypeDef::FR1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>CAN Filter bank register 1 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="248" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="248" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_c_a_n___filter_register___type_def_1a77959e28a302b05829f6a1463be7f800" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CAN_FilterRegister_TypeDef::FR2</definition>
+        <argsstring></argsstring>
+        <name>FR2</name>
+        <qualifiedname>CAN_FilterRegister_TypeDef::FR2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>CAN Filter bank register 1 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="249" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="249" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Controller Area Network FilterRegister. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Inc/stm32f429xx.h" line="246" column="1" bodyfile="Inc/stm32f429xx.h" bodystart="247" bodyend="250"/>
+    <listofallmembers>
+      <member refid="struct_c_a_n___filter_register___type_def_1ac9bc1e42212239d6830582bf0c696fc5" prot="public" virt="non-virtual"><scope>CAN_FilterRegister_TypeDef</scope><name>FR1</name></member>
+      <member refid="struct_c_a_n___filter_register___type_def_1a77959e28a302b05829f6a1463be7f800" prot="public" virt="non-virtual"><scope>CAN_FilterRegister_TypeDef</scope><name>FR2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

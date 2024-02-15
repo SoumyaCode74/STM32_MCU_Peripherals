@@ -1,0 +1,32 @@
+22:16:42 **** Incremental Build of configuration Debug for project Linker_map ****
+make -j12 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F429I_DISC1 -DSTM32 -DSTM32F429ZITx -DSTM32F4 -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+../Src/main.c:24:16: warning: initialization of 'int * const' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   24 | int *const d = 2;
+      |                ^
+../Src/main.c:25:16: warning: initialization of 'const int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   25 | const int *e = 3;
+      |                ^
+../Src/main.c:27:16: warning: type defaults to 'int' in declaration of 'p' [-Wimplicit-int]
+   27 | volatile const p = 5;
+      |                ^
+../Src/main.c: In function 'main':
+../Src/main.c:32:20: warning: unused variable 'a' [-Wunused-variable]
+   32 |         static int a = 1;
+      |                    ^
+At top level:
+../Src/main.c:32:20: warning: 'a' defined but not used [-Wunused-variable]
+arm-none-eabi-gcc -o "Linker_map.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Temp_work\Personal\GitHub\STM32_MCU_Peripherals\Peripherals\I2C_Test\Linker_map\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Linker_map.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Linker_map.elf
+ 
+arm-none-eabi-size   Linker_map.elf 
+arm-none-eabi-objdump -h -S  Linker_map.elf  > "Linker_map.list"
+   text	   data	    bss	    dec	    hex	filename
+    708	     12	   1564	   2284	    8ec	Linker_map.elf
+Finished building: default.size.stdout
+ 
+Finished building: Linker_map.list
+ 
+
+22:16:46 Build Finished. 0 errors, 5 warnings. (took 3s.944ms)
+

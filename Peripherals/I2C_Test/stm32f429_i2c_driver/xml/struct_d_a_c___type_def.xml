@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_d_a_c___type_def" kind="struct" language="C++" prot="public">
+    <compoundname>DAC_TypeDef</compoundname>
+    <includes refid="stm32f429xx_8h" local="no">stm32f429xx.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_d_a_c___type_def_1a394324f0b573837ca15a87127b2a37ea" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t DAC_TypeDef::CR</definition>
+        <argsstring></argsstring>
+        <name>CR</name>
+        <qualifiedname>DAC_TypeDef::CR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>DAC control register, Address offset: 0x00 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="301" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="301" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_a_c___type_def_1a4ccb66068a1ebee1179574dda20206b6" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t DAC_TypeDef::SWTRIGR</definition>
+        <argsstring></argsstring>
+        <name>SWTRIGR</name>
+        <qualifiedname>DAC_TypeDef::SWTRIGR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>DAC software trigger register, Address offset: 0x04 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="302" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="302" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_a_c___type_def_1afbfd2855cdb81939b4efc58e08aaf3e5" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t DAC_TypeDef::DHR12R1</definition>
+        <argsstring></argsstring>
+        <name>DHR12R1</name>
+        <qualifiedname>DAC_TypeDef::DHR12R1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>DAC channel1 12-bit right-aligned data holding register, Address offset: 0x08 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="303" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="303" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_a_c___type_def_1a5eb63912e39085e3e13d64bdb0cf38bd" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t DAC_TypeDef::DHR12L1</definition>
+        <argsstring></argsstring>
+        <name>DHR12L1</name>
+        <qualifiedname>DAC_TypeDef::DHR12L1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>DAC channel1 12-bit left aligned data holding register, Address offset: 0x0C </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="304" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="304" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_a_c___type_def_1a3a382d341fb608a04390bacb8c00b0f0" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t DAC_TypeDef::DHR8R1</definition>
+        <argsstring></argsstring>
+        <name>DHR8R1</name>
+        <qualifiedname>DAC_TypeDef::DHR8R1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>DAC channel1 8-bit right aligned data holding register, Address offset: 0x10 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="305" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="305" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_a_c___type_def_1ab1f777540c487c26bf27e6fa37a644cc" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t DAC_TypeDef::DHR12R2</definition>
+        <argsstring></argsstring>
+        <name>DHR12R2</name>
+        <qualifiedname>DAC_TypeDef::DHR12R2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>DAC channel2 12-bit right aligned data holding register, Address offset: 0x14 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="306" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="306" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_a_c___type_def_1a9f612b6b3e065e810e5a2fb254d6a40b" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t DAC_TypeDef::DHR12L2</definition>
+        <argsstring></argsstring>
+        <name>DHR12L2</name>
+        <qualifiedname>DAC_TypeDef::DHR12L2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>DAC channel2 12-bit left aligned data holding register, Address offset: 0x18 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="307" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="307" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_a_c___type_def_1a3b096b71656f8fb32cd18b4c8b1d2334" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t DAC_TypeDef::DHR8R2</definition>
+        <argsstring></argsstring>
+        <name>DHR8R2</name>
+        <qualifiedname>DAC_TypeDef::DHR8R2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>DAC channel2 8-bit right-aligned data holding register, Address offset: 0x1C </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="308" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="308" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_a_c___type_def_1affa5cc9fe0cc9eb594d703bdc9d9abd9" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t DAC_TypeDef::DHR12RD</definition>
+        <argsstring></argsstring>
+        <name>DHR12RD</name>
+        <qualifiedname>DAC_TypeDef::DHR12RD</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dual DAC 12-bit right-aligned data holding register, Address offset: 0x20 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="309" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="309" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_a_c___type_def_1aea4d055e3697999b44cdcf2702d79d40" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t DAC_TypeDef::DHR12LD</definition>
+        <argsstring></argsstring>
+        <name>DHR12LD</name>
+        <qualifiedname>DAC_TypeDef::DHR12LD</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>DUAL DAC 12-bit left aligned data holding register, Address offset: 0x24 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="310" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="310" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_a_c___type_def_1a03f8d95bbf0ce3a53cb79506d5bf995a" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t DAC_TypeDef::DHR8RD</definition>
+        <argsstring></argsstring>
+        <name>DHR8RD</name>
+        <qualifiedname>DAC_TypeDef::DHR8RD</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>DUAL DAC 8-bit right aligned data holding register, Address offset: 0x28 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="311" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="311" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_a_c___type_def_1a50b4f0b0d2a376f729c8d7acf47864c3" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t DAC_TypeDef::DOR1</definition>
+        <argsstring></argsstring>
+        <name>DOR1</name>
+        <qualifiedname>DAC_TypeDef::DOR1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>DAC channel1 data output register, Address offset: 0x2C </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="312" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="312" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_a_c___type_def_1a1bde8391647d6422b39ab5ba4f13848b" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t DAC_TypeDef::DOR2</definition>
+        <argsstring></argsstring>
+        <name>DOR2</name>
+        <qualifiedname>DAC_TypeDef::DOR2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>DAC channel2 data output register, Address offset: 0x30 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="313" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="313" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_a_c___type_def_1a1d3fd83d6ed8b2d90b471db4509b0e70" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t DAC_TypeDef::SR</definition>
+        <argsstring></argsstring>
+        <name>SR</name>
+        <qualifiedname>DAC_TypeDef::SR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>DAC status register, Address offset: 0x34 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="314" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="314" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Digital to Analog Converter. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Inc/stm32f429xx.h" line="299" column="1" bodyfile="Inc/stm32f429xx.h" bodystart="300" bodyend="315"/>
+    <listofallmembers>
+      <member refid="struct_d_a_c___type_def_1a394324f0b573837ca15a87127b2a37ea" prot="public" virt="non-virtual"><scope>DAC_TypeDef</scope><name>CR</name></member>
+      <member refid="struct_d_a_c___type_def_1a5eb63912e39085e3e13d64bdb0cf38bd" prot="public" virt="non-virtual"><scope>DAC_TypeDef</scope><name>DHR12L1</name></member>
+      <member refid="struct_d_a_c___type_def_1a9f612b6b3e065e810e5a2fb254d6a40b" prot="public" virt="non-virtual"><scope>DAC_TypeDef</scope><name>DHR12L2</name></member>
+      <member refid="struct_d_a_c___type_def_1aea4d055e3697999b44cdcf2702d79d40" prot="public" virt="non-virtual"><scope>DAC_TypeDef</scope><name>DHR12LD</name></member>
+      <member refid="struct_d_a_c___type_def_1afbfd2855cdb81939b4efc58e08aaf3e5" prot="public" virt="non-virtual"><scope>DAC_TypeDef</scope><name>DHR12R1</name></member>
+      <member refid="struct_d_a_c___type_def_1ab1f777540c487c26bf27e6fa37a644cc" prot="public" virt="non-virtual"><scope>DAC_TypeDef</scope><name>DHR12R2</name></member>
+      <member refid="struct_d_a_c___type_def_1affa5cc9fe0cc9eb594d703bdc9d9abd9" prot="public" virt="non-virtual"><scope>DAC_TypeDef</scope><name>DHR12RD</name></member>
+      <member refid="struct_d_a_c___type_def_1a3a382d341fb608a04390bacb8c00b0f0" prot="public" virt="non-virtual"><scope>DAC_TypeDef</scope><name>DHR8R1</name></member>
+      <member refid="struct_d_a_c___type_def_1a3b096b71656f8fb32cd18b4c8b1d2334" prot="public" virt="non-virtual"><scope>DAC_TypeDef</scope><name>DHR8R2</name></member>
+      <member refid="struct_d_a_c___type_def_1a03f8d95bbf0ce3a53cb79506d5bf995a" prot="public" virt="non-virtual"><scope>DAC_TypeDef</scope><name>DHR8RD</name></member>
+      <member refid="struct_d_a_c___type_def_1a50b4f0b0d2a376f729c8d7acf47864c3" prot="public" virt="non-virtual"><scope>DAC_TypeDef</scope><name>DOR1</name></member>
+      <member refid="struct_d_a_c___type_def_1a1bde8391647d6422b39ab5ba4f13848b" prot="public" virt="non-virtual"><scope>DAC_TypeDef</scope><name>DOR2</name></member>
+      <member refid="struct_d_a_c___type_def_1a1d3fd83d6ed8b2d90b471db4509b0e70" prot="public" virt="non-virtual"><scope>DAC_TypeDef</scope><name>SR</name></member>
+      <member refid="struct_d_a_c___type_def_1a4ccb66068a1ebee1179574dda20206b6" prot="public" virt="non-virtual"><scope>DAC_TypeDef</scope><name>SWTRIGR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

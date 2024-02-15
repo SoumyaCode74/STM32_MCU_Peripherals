@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_w_w_d_g___type_def" kind="struct" language="C++" prot="public">
+    <compoundname>WWDG_TypeDef</compoundname>
+    <includes refid="stm32f429xx_8h" local="no">stm32f429xx.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_w_w_d_g___type_def_1a4caf530d45f7428c9700d9c0057135f8" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t WWDG_TypeDef::CR</definition>
+        <argsstring></argsstring>
+        <name>CR</name>
+        <qualifiedname>WWDG_TypeDef::CR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>WWDG Control register, Address offset: 0x00 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="892" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="892" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_w_w_d_g___type_def_1adcd6a7e5d75022e46ce60291f4b8544c" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t WWDG_TypeDef::CFR</definition>
+        <argsstring></argsstring>
+        <name>CFR</name>
+        <qualifiedname>WWDG_TypeDef::CFR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>WWDG Configuration register, Address offset: 0x04 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="893" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="893" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_w_w_d_g___type_def_1a15655cda4854cc794db1f27b3c0bba38" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t WWDG_TypeDef::SR</definition>
+        <argsstring></argsstring>
+        <name>SR</name>
+        <qualifiedname>WWDG_TypeDef::SR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>WWDG Status register, Address offset: 0x08 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="894" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="894" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Window WATCHDOG. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Inc/stm32f429xx.h" line="890" column="1" bodyfile="Inc/stm32f429xx.h" bodystart="891" bodyend="895"/>
+    <listofallmembers>
+      <member refid="struct_w_w_d_g___type_def_1adcd6a7e5d75022e46ce60291f4b8544c" prot="public" virt="non-virtual"><scope>WWDG_TypeDef</scope><name>CFR</name></member>
+      <member refid="struct_w_w_d_g___type_def_1a4caf530d45f7428c9700d9c0057135f8" prot="public" virt="non-virtual"><scope>WWDG_TypeDef</scope><name>CR</name></member>
+      <member refid="struct_w_w_d_g___type_def_1a15655cda4854cc794db1f27b3c0bba38" prot="public" virt="non-virtual"><scope>WWDG_TypeDef</scope><name>SR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

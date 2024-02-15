@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_u_s_b___o_t_g___host_channel_type_def" kind="struct" language="C++" prot="public">
+    <compoundname>USB_OTG_HostChannelTypeDef</compoundname>
+    <includes refid="stm32f429xx_8h" local="no">stm32f429xx.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_u_s_b___o_t_g___host_channel_type_def_1a6f1e046a654010fb0da5eec942fb9a8d" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USB_OTG_HostChannelTypeDef::HCCHAR</definition>
+        <argsstring></argsstring>
+        <name>HCCHAR</name>
+        <qualifiedname>USB_OTG_HostChannelTypeDef::HCCHAR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Host Channel Characteristics Register 500h </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1008" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="1008" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_s_b___o_t_g___host_channel_type_def_1a23b3abb27cf5acff0edc709c90e2e5cb" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USB_OTG_HostChannelTypeDef::HCSPLT</definition>
+        <argsstring></argsstring>
+        <name>HCSPLT</name>
+        <qualifiedname>USB_OTG_HostChannelTypeDef::HCSPLT</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Host Channel Split Control Register 504h </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1009" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="1009" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_s_b___o_t_g___host_channel_type_def_1a6735bbd8fbc28f897f1b44df95f52873" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USB_OTG_HostChannelTypeDef::HCINT</definition>
+        <argsstring></argsstring>
+        <name>HCINT</name>
+        <qualifiedname>USB_OTG_HostChannelTypeDef::HCINT</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Host Channel Interrupt Register 508h </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1010" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="1010" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_s_b___o_t_g___host_channel_type_def_1a8edfae19390d323525449d2444e93984" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USB_OTG_HostChannelTypeDef::HCINTMSK</definition>
+        <argsstring></argsstring>
+        <name>HCINTMSK</name>
+        <qualifiedname>USB_OTG_HostChannelTypeDef::HCINTMSK</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Host Channel Interrupt Mask Register 50Ch </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1011" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="1011" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_s_b___o_t_g___host_channel_type_def_1a14cb8c8dbbafdef182c82c0493ca48ab" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USB_OTG_HostChannelTypeDef::HCTSIZ</definition>
+        <argsstring></argsstring>
+        <name>HCTSIZ</name>
+        <qualifiedname>USB_OTG_HostChannelTypeDef::HCTSIZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Host Channel Transfer Size Register 510h </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1012" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="1012" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_s_b___o_t_g___host_channel_type_def_1a4204a2dcbc14fb11d371fc45b9f3170f" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USB_OTG_HostChannelTypeDef::HCDMA</definition>
+        <argsstring></argsstring>
+        <name>HCDMA</name>
+        <qualifiedname>USB_OTG_HostChannelTypeDef::HCDMA</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Host Channel DMA Address Register 514h </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1013" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="1013" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_s_b___o_t_g___host_channel_type_def_1aa85d014d19b79d61bed7fdf134ed1037" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t USB_OTG_HostChannelTypeDef::Reserved[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>Reserved</name>
+        <qualifiedname>USB_OTG_HostChannelTypeDef::Reserved</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1014" column="12" bodyfile="Inc/stm32f429xx.h" bodystart="1014" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>USB_OTG_Host_Channel_Specific_Registers. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Inc/stm32f429xx.h" line="1006" column="1" bodyfile="Inc/stm32f429xx.h" bodystart="1007" bodyend="1015"/>
+    <listofallmembers>
+      <member refid="struct_u_s_b___o_t_g___host_channel_type_def_1a6f1e046a654010fb0da5eec942fb9a8d" prot="public" virt="non-virtual"><scope>USB_OTG_HostChannelTypeDef</scope><name>HCCHAR</name></member>
+      <member refid="struct_u_s_b___o_t_g___host_channel_type_def_1a4204a2dcbc14fb11d371fc45b9f3170f" prot="public" virt="non-virtual"><scope>USB_OTG_HostChannelTypeDef</scope><name>HCDMA</name></member>
+      <member refid="struct_u_s_b___o_t_g___host_channel_type_def_1a6735bbd8fbc28f897f1b44df95f52873" prot="public" virt="non-virtual"><scope>USB_OTG_HostChannelTypeDef</scope><name>HCINT</name></member>
+      <member refid="struct_u_s_b___o_t_g___host_channel_type_def_1a8edfae19390d323525449d2444e93984" prot="public" virt="non-virtual"><scope>USB_OTG_HostChannelTypeDef</scope><name>HCINTMSK</name></member>
+      <member refid="struct_u_s_b___o_t_g___host_channel_type_def_1a23b3abb27cf5acff0edc709c90e2e5cb" prot="public" virt="non-virtual"><scope>USB_OTG_HostChannelTypeDef</scope><name>HCSPLT</name></member>
+      <member refid="struct_u_s_b___o_t_g___host_channel_type_def_1a14cb8c8dbbafdef182c82c0493ca48ab" prot="public" virt="non-virtual"><scope>USB_OTG_HostChannelTypeDef</scope><name>HCTSIZ</name></member>
+      <member refid="struct_u_s_b___o_t_g___host_channel_type_def_1aa85d014d19b79d61bed7fdf134ed1037" prot="public" virt="non-virtual"><scope>USB_OTG_HostChannelTypeDef</scope><name>Reserved</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_s_a_i___type_def" kind="struct" language="C++" prot="public">
+    <compoundname>SAI_TypeDef</compoundname>
+    <includes refid="stm32f429xx_8h" local="no">stm32f429xx.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_s_a_i___type_def_1ada6999b49bbe697c1dd5fdabc9bad7f4" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t SAI_TypeDef::GCR</definition>
+        <argsstring></argsstring>
+        <name>GCR</name>
+        <qualifiedname>SAI_TypeDef::GCR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>SAI global configuration register, Address offset: 0x00 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="781" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="781" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Serial Audio Interface. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Inc/stm32f429xx.h" line="779" column="1" bodyfile="Inc/stm32f429xx.h" bodystart="780" bodyend="782"/>
+    <listofallmembers>
+      <member refid="struct_s_a_i___type_def_1ada6999b49bbe697c1dd5fdabc9bad7f4" prot="public" virt="non-virtual"><scope>SAI_TypeDef</scope><name>GCR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

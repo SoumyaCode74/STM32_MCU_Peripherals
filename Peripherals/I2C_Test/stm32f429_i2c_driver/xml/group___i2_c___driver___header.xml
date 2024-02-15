@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="group___i2_c___driver___header" kind="group">
+    <compoundname>I2C_Driver_Header</compoundname>
+    <title>I2C_Driver_Header</title>
+    <innergroup refid="group___includes">Includes</innergroup>
+    <innergroup refid="group___classes">Classes</innergroup>
+    <innergroup refid="group___functions">Functions</innergroup>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="group___i2_c___driver___header_1gadbb082b2896fb5691b2ba1dceb8ca5ca" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t I2C_PinConfig_t::I2C_SCLSpeed</definition>
+        <argsstring></argsstring>
+        <name>I2C_SCLSpeed</name>
+        <qualifiedname>I2C_PinConfig_t::I2C_SCLSpeed</qualifiedname>
+        <briefdescription>
+<para>The SCLK speed required for the I2C communication. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx_i2c_driver.h" line="30" column="9" bodyfile="Inc/stm32f429xx_i2c_driver.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group___i2_c___driver___header_1gae741b4bdc43cc40ccb24557ae4be6712" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t I2C_PinConfig_t::I2C_DeviceAddress</definition>
+        <argsstring></argsstring>
+        <name>I2C_DeviceAddress</name>
+        <qualifiedname>I2C_PinConfig_t::I2C_DeviceAddress</qualifiedname>
+        <briefdescription>
+<para>The 7-bit device address to configure, if it&apos;s a slave device. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx_i2c_driver.h" line="31" column="8" bodyfile="Inc/stm32f429xx_i2c_driver.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group___i2_c___driver___header_1ga88720fb61655cb514b0f2bdaa4ee8c2f" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t I2C_PinConfig_t::I2C_AckControl</definition>
+        <argsstring></argsstring>
+        <name>I2C_AckControl</name>
+        <qualifiedname>I2C_PinConfig_t::I2C_AckControl</qualifiedname>
+        <bitfield> 1</bitfield>
+        <briefdescription>
+<para>The acknowledgement bit: 0 for No ACK, 1 for ACK, from slave. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx_i2c_driver.h" line="32" column="8" bodyfile="Inc/stm32f429xx_i2c_driver.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group___i2_c___driver___header_1gab4114e274f8848e073de0c689369f420" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t I2C_PinConfig_t::I2C_FMDutyCycle</definition>
+        <argsstring></argsstring>
+        <name>I2C_FMDutyCycle</name>
+        <qualifiedname>I2C_PinConfig_t::I2C_FMDutyCycle</qualifiedname>
+        <bitfield> 3</bitfield>
+        <briefdescription>
+<para>The duty cycle setting for Fast mode communication. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx_i2c_driver.h" line="33" column="8" bodyfile="Inc/stm32f429xx_i2c_driver.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group___i2_c___driver___header_1ga8a620ba905fc88fcbb5515bd4ce2303c" prot="public" static="no" mutable="no">
+        <type><ref refid="stm32f429xx__general_8h_1aae0399166eb7c9e558f61287856a996c" kindref="member">I2C_RegAddr_t</ref> *</type>
+        <definition>I2C_RegAddr_t* I2C_Handle_t::pI2Cx</definition>
+        <argsstring></argsstring>
+        <name>pI2Cx</name>
+        <qualifiedname>I2C_Handle_t::pI2Cx</qualifiedname>
+        <briefdescription>
+<para>Pointer to the base address of the I2C peripheral needed. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx_i2c_driver.h" line="37" column="15" bodyfile="Inc/stm32f429xx_i2c_driver.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group___i2_c___driver___header_1ga0b12cd2c9fc8177f1db4e89ce90627db" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_i2_c___pin_config__t" kindref="compound">I2C_PinConfig_t</ref></type>
+        <definition>I2C_PinConfig_t I2C_Handle_t::I2C_PinConfig</definition>
+        <argsstring></argsstring>
+        <name>I2C_PinConfig</name>
+        <qualifiedname>I2C_Handle_t::I2C_PinConfig</qualifiedname>
+        <briefdescription>
+<para>The PinConfig object for the basic configuration settings. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx_i2c_driver.h" line="38" column="17" bodyfile="Inc/stm32f429xx_i2c_driver.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

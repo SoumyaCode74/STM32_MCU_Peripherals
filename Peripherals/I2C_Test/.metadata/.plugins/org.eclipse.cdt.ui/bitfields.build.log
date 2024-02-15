@@ -1,0 +1,27 @@
+10:53:26 **** Build of configuration Debug for project bitfields ****
+make -j12 all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f429zitx.d" -MT"Startup/startup_stm32f429zitx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Startup/startup_stm32f429zitx.o" "../Startup/startup_stm32f429zitx.s"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F429I_DISC1 -DSTM32 -DSTM32F429ZITx -DSTM32F4 -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F429I_DISC1 -DSTM32 -DSTM32F429ZITx -DSTM32F4 -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F429I_DISC1 -DSTM32 -DSTM32F429ZITx -DSTM32F4 -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/sysmem.o"
+../Src/main.c: In function 'main':
+../Src/main.c:38:18: warning: unused variable 'D2' [-Wunused-variable]
+   38 |     struct date2 D2;
+      |                  ^~
+../Src/main.c:37:18: warning: unused variable 'D1' [-Wunused-variable]
+   37 |     struct date1 D1 = {12, 2, 2024};
+      |                  ^~
+arm-none-eabi-gcc -o "bitfields.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Temp_work\Personal\GitHub\STM32_MCU_Peripherals\Peripherals\I2C_Test\bitfields\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="bitfields.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: bitfields.elf
+ 
+arm-none-eabi-size   bitfields.elf 
+arm-none-eabi-objdump -h -S  bitfields.elf  > "bitfields.list"
+   text	   data	    bss	    dec	    hex	filename
+    720	      8	   1568	   2296	    8f8	bitfields.elf
+Finished building: default.size.stdout
+ 
+Finished building: bitfields.list
+ 
+
+10:53:32 Build Finished. 0 errors, 2 warnings. (took 5s.28ms)
+

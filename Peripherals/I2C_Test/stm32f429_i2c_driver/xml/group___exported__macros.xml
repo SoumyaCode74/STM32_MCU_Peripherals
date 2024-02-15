@@ -1,0 +1,1421 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="group___exported__macros" kind="group">
+    <compoundname>Exported_macros</compoundname>
+    <title>Exported_macros</title>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="group___exported__macros_1ga2204b62b378bcf08b3b9006c184c7c23" prot="public" static="no">
+        <name>IS_ADC_ALL_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>                                       (((INSTANCE) == <ref refid="group___peripheral__declaration_1ga90d2d5c526ce5c0a551f533eccbee71a" kindref="member">ADC1</ref>) || \
+                                       ((INSTANCE) == <ref refid="group___peripheral__declaration_1gac5503ae96c26b4475226f96715a1bf1e" kindref="member">ADC2</ref>) || \
+                                       ((INSTANCE) == <ref refid="group___peripheral__declaration_1gae917784606daf6b04c9b7b96b40c2f74" kindref="member">ADC3</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16649" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16648" bodyend="16650"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga26b4e299ac54d09082645a70f889c143" prot="public" static="no">
+        <name>IS_ADC_MULTIMODE_MASTER_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>((INSTANCE) == <ref refid="group___peripheral__declaration_1ga90d2d5c526ce5c0a551f533eccbee71a" kindref="member">ADC1</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16653" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16652" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1gad8a5831c786b6b265531b890a194cbe2" prot="public" static="no">
+        <name>IS_ADC_COMMON_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>((INSTANCE) == <ref refid="group___peripheral__declaration_1ga813de18391e45c0854aafd470c2d547f" kindref="member">ADC123_COMMON</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16655" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16654" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga974dd363bcb2a5f48ec032509fd4ece3" prot="public" static="no">
+        <name>IS_CAN_ALL_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>                                       (((INSTANCE) == <ref refid="group___peripheral__declaration_1ga4964ecb6a5c689aaf8ee2832b8093aac" kindref="member">CAN1</ref>) || \
+                                       ((INSTANCE) == <ref refid="group___peripheral__declaration_1gac5e4c86ed487dc91418b156e24808033" kindref="member">CAN2</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16658" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16657" bodyend="16658"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1gaa514941a7f02f65eb27450c05e4e8dd1" prot="public" static="no">
+        <name>IS_CRC_ALL_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>((INSTANCE) == <ref refid="group___peripheral__declaration_1ga4381bb54c2dbc34500521165aa7b89b1" kindref="member">CRC</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16661" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16660" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga94426b97cc5f1644d67f291cbcdba6d8" prot="public" static="no">
+        <name>IS_DAC_ALL_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>((INSTANCE) == <ref refid="group___peripheral__declaration_1gaffb5ff8779fa698f3c7165a617d56e4f" kindref="member">DAC1</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16664" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16663" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1gaca27f42a2f7dd5715c74884bd9af310d" prot="public" static="no">
+        <name>IS_DCMI_ALL_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>((INSTANCE) == <ref refid="group___peripheral__declaration_1ga049d9f61cb078d642e68f3c22bb6d90c" kindref="member">DCMI</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16667" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16666" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga5fb07f596b96d00cf74b3aff8735af07" prot="public" static="no">
+        <name>IS_DMA2D_ALL_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>((INSTANCE) == <ref refid="group___peripheral__declaration_1ga46ffe4de9c874b15e9adb93a448d0778" kindref="member">DMA2D</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16670" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16669" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1gafd60def465da605e33644e28072aee9c" prot="public" static="no">
+        <name>IS_DMA_STREAM_ALL_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>                                              (((INSTANCE) == <ref refid="group___peripheral__declaration_1ga61247dd5d594289c404dd8774202dfd8" kindref="member">DMA1_Stream0</ref>) || \
+                                              ((INSTANCE) == <ref refid="group___peripheral__declaration_1gaf7d82f110f19982d483eebc465d222b2" kindref="member">DMA1_Stream1</ref>) || \
+                                              ((INSTANCE) == <ref refid="group___peripheral__declaration_1gad0e2140b8eeec3594035f1a7bf2a7250" kindref="member">DMA1_Stream2</ref>) || \
+                                              ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga96ac1af7a92469fe86a9fbdec091f25d" kindref="member">DMA1_Stream3</ref>) || \
+                                              ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga87df45f4b82e0b3a8c1b17f1a77aecdb" kindref="member">DMA1_Stream4</ref>) || \
+                                              ((INSTANCE) == <ref refid="group___peripheral__declaration_1gac3abc20f80e25c19b02104ad34eae652" kindref="member">DMA1_Stream5</ref>) || \
+                                              ((INSTANCE) == <ref refid="group___peripheral__declaration_1gac95127480470900755953f1cfe68567d" kindref="member">DMA1_Stream6</ref>) || \
+                                              ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga8ecdeaf43d0f4207dab1fdb4d7bf8d26" kindref="member">DMA1_Stream7</ref>) || \
+                                              ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga3a2efe5fd7a7a79be3b08a1670bbd016" kindref="member">DMA2_Stream0</ref>) || \
+                                              ((INSTANCE) == <ref refid="group___peripheral__declaration_1gae96f15d34d3c41c16fce69bc2878151a" kindref="member">DMA2_Stream1</ref>) || \
+                                              ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga71bb410664b861ff0520f08976e24ee1" kindref="member">DMA2_Stream2</ref>) || \
+                                              ((INSTANCE) == <ref refid="group___peripheral__declaration_1gaa6ead6a5ca6b8df70b5505aaeec6fd2e" kindref="member">DMA2_Stream3</ref>) || \
+                                              ((INSTANCE) == <ref refid="group___peripheral__declaration_1gae32674772021620800275dd3b6d62c2f" kindref="member">DMA2_Stream4</ref>) || \
+                                              ((INSTANCE) == <ref refid="group___peripheral__declaration_1gac40f58718761251875b5a897287efd83" kindref="member">DMA2_Stream5</ref>) || \
+                                              ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga11a00b283e0911cd427e277e5a314ccc" kindref="member">DMA2_Stream6</ref>) || \
+                                              ((INSTANCE) == <ref refid="group___peripheral__declaration_1gacc135dbca0eca67d5aa0abc555f053ce" kindref="member">DMA2_Stream7</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16673" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16672" bodyend="16687"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga783626dd2431afebea836a102e318957" prot="public" static="no">
+        <name>IS_GPIO_ALL_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>                                        (((INSTANCE) == <ref refid="group___peripheral__declaration_1gac485358099728ddae050db37924dd6b7" kindref="member">GPIOA</ref>) || \
+                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga68b66ac73be4c836db878a42e1fea3cd" kindref="member">GPIOB</ref>) || \
+                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2dca03332d620196ba943bc2346eaa08" kindref="member">GPIOC</ref>) || \
+                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga7580b1a929ea9df59725ba9c18eba6ac" kindref="member">GPIOD</ref>) || \
+                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1gae04bdb5e8acc47cab1d0532e6b0d0763" kindref="member">GPIOE</ref>) || \
+                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga43c3022dede7c9db7a58d3c3409dbc8d" kindref="member">GPIOF</ref>) || \
+                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga02a2a23a32f9b02166a8c64012842414" kindref="member">GPIOG</ref>) || \
+                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1gadeacbb43ae86c879945afe98c679b285" kindref="member">GPIOH</ref>) || \
+                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1gad15f13545ecdbbabfccf43d5997e5ade" kindref="member">GPIOI</ref>) || \
+                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga7d3020a351195b6600a5d64c01c461fa" kindref="member">GPIOJ</ref>) || \
+                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga273d78d198f0221223b3e9d7798f1649" kindref="member">GPIOK</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16691" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16690" bodyend="16700"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1gacdf0149a4e8c41a6814c13613c38a6b2" prot="public" static="no">
+        <name>IS_I2C_ALL_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>                                       (((INSTANCE) == <ref refid="group___peripheral__declaration_1gab45d257574da6fe1f091cc45b7eda6cc" kindref="member">I2C1</ref>) || \
+                                       ((INSTANCE) == <ref refid="group___peripheral__declaration_1gafa60ac20c1921ef1002083bb3e1f5d16" kindref="member">I2C2</ref>) || \
+                                       ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga1489b37ed2bca9d9c659119590583bda" kindref="member">I2C3</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16704" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16703" bodyend="16705"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga85b79d63f4643c0de9a7519290a0eceb" prot="public" static="no">
+        <name>IS_SMBUS_ALL_INSTANCE</name>
+        <initializer><ref refid="group___exported__macros_1gacdf0149a4e8c41a6814c13613c38a6b2" kindref="member">IS_I2C_ALL_INSTANCE</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16709" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16708" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga0b35685911e3c7a38ee89e5cdc5a82fa" prot="public" static="no">
+        <name>IS_I2S_ALL_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>                                       (((INSTANCE) == <ref refid="group___peripheral__declaration_1gaf2c3d8ce359dcfbb2261e07ed42af72b" kindref="member">SPI2</ref>) || \
+                                       ((INSTANCE) == <ref refid="group___peripheral__declaration_1gab2339cbf25502bf562b19208b1b257fc" kindref="member">SPI3</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16713" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16712" bodyend="16713"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga2f0d621c72fe4e5039562472460e29ab" prot="public" static="no">
+        <name>IS_I2S_EXT_ALL_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>                                           (((INSTANCE) == <ref refid="group___peripheral__declaration_1ga9efe6de71871a01dd38abcb229f30c02" kindref="member">I2S2ext</ref>)|| \
+                                           ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga15b3a03302ed53911099c5216da0b1cf" kindref="member">I2S3ext</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16717" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16716" bodyend="16717"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga839b019f23ec240da66dd50a21ab5025" prot="public" static="no">
+        <name>IS_I2S_ALL_INSTANCE_EXT</name>
+        <initializer><ref refid="group___exported__macros_1ga2f0d621c72fe4e5039562472460e29ab" kindref="member">IS_I2S_EXT_ALL_INSTANCE</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16720" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16719" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1gab61782b63fcfc2b6cd1621d24d5701b0" prot="public" static="no">
+        <name>IS_LTDC_ALL_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>((INSTANCE) == <ref refid="group___peripheral__declaration_1ga4459673012beca799917db0644a908c1" kindref="member">LTDC</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16723" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16722" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga7369db258c1b8931b427262d0673751f" prot="public" static="no">
+        <name>IS_RNG_ALL_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>((INSTANCE) == <ref refid="group___peripheral__declaration_1ga5b0885b8b55bbc13691092b704d9309f" kindref="member">RNG</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16725" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16724" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1gab4230e8bd4d88adc4250f041d67375ce" prot="public" static="no">
+        <name>IS_RTC_ALL_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>((INSTANCE) == <ref refid="group___peripheral__declaration_1ga5359a088f5d8b20ce74d920e46059304" kindref="member">RTC</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16728" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16727" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga06c3dc7b98ee1969a3da22ead03e1f59" prot="public" static="no">
+        <name>IS_SAI_ALL_INSTANCE</name>
+        <param><defname>PERIPH</defname></param>
+        <initializer>                                     (((PERIPH) == <ref refid="group___peripheral__declaration_1gaa29e42155e075c03d156d759b4e69c5c" kindref="member">SAI1_Block_A</ref>) || \
+                                     ((PERIPH) == <ref refid="group___peripheral__declaration_1gaaa4ab9bf6de588a9309acd4bf007c4e0" kindref="member">SAI1_Block_B</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16731" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16730" bodyend="16731"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1gae9459b2e443c3f8139809cca5e15ad09" prot="public" static="no">
+        <name>IS_SAI_BLOCK_PERIPH</name>
+        <initializer><ref refid="group___exported__macros_1ga06c3dc7b98ee1969a3da22ead03e1f59" kindref="member">IS_SAI_ALL_INSTANCE</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16735" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16734" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga59c7619a86c03df3ebeb4bd8aaef982c" prot="public" static="no">
+        <name>IS_SPI_ALL_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>                                       (((INSTANCE) == <ref refid="group___peripheral__declaration_1gad483be344a28ac800be8f03654a9612f" kindref="member">SPI1</ref>)  || \
+                                       ((INSTANCE) == <ref refid="group___peripheral__declaration_1gaf2c3d8ce359dcfbb2261e07ed42af72b" kindref="member">SPI2</ref>)  || \
+                                       ((INSTANCE) == <ref refid="group___peripheral__declaration_1gab2339cbf25502bf562b19208b1b257fc" kindref="member">SPI3</ref>)  || \
+                                       ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2a2e6edef68cfe1946f39a5033da2301" kindref="member">SPI4</ref>)  || \
+                                       ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga5e676c061e19ced149b7c6de6b8985e5" kindref="member">SPI5</ref>)  || \
+                                       ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga0f05da7f4b924ab39c1f8afcea225074" kindref="member">SPI6</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16738" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16737" bodyend="16742"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1gaba506eb03409b21388d7c5a6401a4f98" prot="public" static="no">
+        <name>IS_TIM_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>                                    (((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2e87451fea8dc9380056d3cfc5ed81fb" kindref="member">TIM1</ref>)  || \
+                                    ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga3cfac9f2e43673f790f8668d48b4b92b" kindref="member">TIM2</ref>) || \
+                                    ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga61ee4c391385607d7af432b63905fcc9" kindref="member">TIM3</ref>) || \
+                                    ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga91a09bad8bdc7a1cb3d85cf49c94c8ec" kindref="member">TIM4</ref>) || \
+                                    ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga5125ff6a23a2ed66e2e19bd196128c14" kindref="member">TIM5</ref>) || \
+                                    ((INSTANCE) == <ref refid="group___peripheral__declaration_1gac7b4ed55f9201b498b38c962cca97314" kindref="member">TIM6</ref>) || \
+                                    ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga49267c49946fd61db6af8b49bcf16394" kindref="member">TIM7</ref>) || \
+                                    ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga9a3660400b17735e91331f256095810e" kindref="member">TIM8</ref>) || \
+                                    ((INSTANCE) == <ref refid="group___peripheral__declaration_1gaf52b4b4c36110a0addfa98059f54a50e" kindref="member">TIM9</ref>) || \
+                                    ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga46b2ad3f5f506f0f8df0d2ec3e767267" kindref="member">TIM10</ref>)|| \
+                                    ((INSTANCE) == <ref refid="group___peripheral__declaration_1gacfd11ef966c7165f57e2cebe0abc71ad" kindref="member">TIM11</ref>)|| \
+                                    ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2397f8a0f8e7aa10cf8e8c049e431e53" kindref="member">TIM12</ref>)|| \
+                                    ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga5a959a833074d59bf6cc7fb437c65b18" kindref="member">TIM13</ref>)|| \
+                                    ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2dd30f46fad69dd73e1d8941a43daffe" kindref="member">TIM14</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16747" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16746" bodyend="16759"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga0c02efc77b1bfb640d7f6593f58ad464" prot="public" static="no">
+        <name>IS_TIM_CC1_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>                                         (((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2e87451fea8dc9380056d3cfc5ed81fb" kindref="member">TIM1</ref>)  || \
+                                         ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga3cfac9f2e43673f790f8668d48b4b92b" kindref="member">TIM2</ref>)  || \
+                                         ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga61ee4c391385607d7af432b63905fcc9" kindref="member">TIM3</ref>)  || \
+                                         ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga91a09bad8bdc7a1cb3d85cf49c94c8ec" kindref="member">TIM4</ref>)  || \
+                                         ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga5125ff6a23a2ed66e2e19bd196128c14" kindref="member">TIM5</ref>)  || \
+                                         ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga9a3660400b17735e91331f256095810e" kindref="member">TIM8</ref>)  || \
+                                         ((INSTANCE) == <ref refid="group___peripheral__declaration_1gaf52b4b4c36110a0addfa98059f54a50e" kindref="member">TIM9</ref>)  || \
+                                         ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga46b2ad3f5f506f0f8df0d2ec3e767267" kindref="member">TIM10</ref>) || \
+                                         ((INSTANCE) == <ref refid="group___peripheral__declaration_1gacfd11ef966c7165f57e2cebe0abc71ad" kindref="member">TIM11</ref>) || \
+                                         ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2397f8a0f8e7aa10cf8e8c049e431e53" kindref="member">TIM12</ref>) || \
+                                         ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga5a959a833074d59bf6cc7fb437c65b18" kindref="member">TIM13</ref>) || \
+                                         ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2dd30f46fad69dd73e1d8941a43daffe" kindref="member">TIM14</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16763" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16762" bodyend="16773"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga6ef84d278cf917c7e420b94687b39c7c" prot="public" static="no">
+        <name>IS_TIM_CC2_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>                                       (((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2e87451fea8dc9380056d3cfc5ed81fb" kindref="member">TIM1</ref>) || \
+                                       ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga3cfac9f2e43673f790f8668d48b4b92b" kindref="member">TIM2</ref>) || \
+                                       ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga61ee4c391385607d7af432b63905fcc9" kindref="member">TIM3</ref>) || \
+                                       ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga91a09bad8bdc7a1cb3d85cf49c94c8ec" kindref="member">TIM4</ref>) || \
+                                       ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga5125ff6a23a2ed66e2e19bd196128c14" kindref="member">TIM5</ref>) || \
+                                       ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga9a3660400b17735e91331f256095810e" kindref="member">TIM8</ref>) || \
+                                       ((INSTANCE) == <ref refid="group___peripheral__declaration_1gaf52b4b4c36110a0addfa98059f54a50e" kindref="member">TIM9</ref>) || \
+                                       ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2397f8a0f8e7aa10cf8e8c049e431e53" kindref="member">TIM12</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16777" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16776" bodyend="16783"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga0c37cb8f925fd43622cce7a4c00fd95e" prot="public" static="no">
+        <name>IS_TIM_CC3_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>                                         (((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2e87451fea8dc9380056d3cfc5ed81fb" kindref="member">TIM1</ref>) || \
+                                         ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga3cfac9f2e43673f790f8668d48b4b92b" kindref="member">TIM2</ref>) || \
+                                         ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga61ee4c391385607d7af432b63905fcc9" kindref="member">TIM3</ref>) || \
+                                         ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga91a09bad8bdc7a1cb3d85cf49c94c8ec" kindref="member">TIM4</ref>) || \
+                                         ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga5125ff6a23a2ed66e2e19bd196128c14" kindref="member">TIM5</ref>) || \
+                                         ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga9a3660400b17735e91331f256095810e" kindref="member">TIM8</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16787" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16786" bodyend="16791"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1gae72b7182a73d81c33196265b31091c07" prot="public" static="no">
+        <name>IS_TIM_CC4_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>                                       (((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2e87451fea8dc9380056d3cfc5ed81fb" kindref="member">TIM1</ref>) || \
+                                       ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga3cfac9f2e43673f790f8668d48b4b92b" kindref="member">TIM2</ref>) || \
+                                       ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga61ee4c391385607d7af432b63905fcc9" kindref="member">TIM3</ref>) || \
+                                       ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga91a09bad8bdc7a1cb3d85cf49c94c8ec" kindref="member">TIM4</ref>) || \
+                                       ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga5125ff6a23a2ed66e2e19bd196128c14" kindref="member">TIM5</ref>) || \
+                                       ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga9a3660400b17735e91331f256095810e" kindref="member">TIM8</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16795" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16794" bodyend="16799"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga7e85353dbe9dc9d80ad06f0b935c12e1" prot="public" static="no">
+        <name>IS_TIM_ADVANCED_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>                                           (((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2e87451fea8dc9380056d3cfc5ed81fb" kindref="member">TIM1</ref>) || \
+                                           ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga9a3660400b17735e91331f256095810e" kindref="member">TIM8</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16803" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16802" bodyend="16803"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga6e06388143bb7bb111c78a3686dd753a" prot="public" static="no">
+        <name>IS_TIM_XOR_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>                                         (((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2e87451fea8dc9380056d3cfc5ed81fb" kindref="member">TIM1</ref>) || \
+                                         ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga3cfac9f2e43673f790f8668d48b4b92b" kindref="member">TIM2</ref>) || \
+                                         ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga61ee4c391385607d7af432b63905fcc9" kindref="member">TIM3</ref>) || \
+                                         ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga91a09bad8bdc7a1cb3d85cf49c94c8ec" kindref="member">TIM4</ref>) || \
+                                         ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga5125ff6a23a2ed66e2e19bd196128c14" kindref="member">TIM5</ref>) || \
+                                         ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga9a3660400b17735e91331f256095810e" kindref="member">TIM8</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16807" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16806" bodyend="16811"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1gad51d77b3bcc12a3a5c308d727b561371" prot="public" static="no">
+        <name>IS_TIM_DMA_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>                                       (((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2e87451fea8dc9380056d3cfc5ed81fb" kindref="member">TIM1</ref>) || \
+                                       ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga3cfac9f2e43673f790f8668d48b4b92b" kindref="member">TIM2</ref>) || \
+                                       ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga61ee4c391385607d7af432b63905fcc9" kindref="member">TIM3</ref>) || \
+                                       ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga91a09bad8bdc7a1cb3d85cf49c94c8ec" kindref="member">TIM4</ref>) || \
+                                       ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga5125ff6a23a2ed66e2e19bd196128c14" kindref="member">TIM5</ref>) || \
+                                       ((INSTANCE) == <ref refid="group___peripheral__declaration_1gac7b4ed55f9201b498b38c962cca97314" kindref="member">TIM6</ref>) || \
+                                       ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga49267c49946fd61db6af8b49bcf16394" kindref="member">TIM7</ref>) || \
+                                       ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga9a3660400b17735e91331f256095810e" kindref="member">TIM8</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16815" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16814" bodyend="16821"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1gad80a186286ce3daa92249a8d52111aaf" prot="public" static="no">
+        <name>IS_TIM_DMA_CC_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>                                          (((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2e87451fea8dc9380056d3cfc5ed81fb" kindref="member">TIM1</ref>) || \
+                                          ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga3cfac9f2e43673f790f8668d48b4b92b" kindref="member">TIM2</ref>) || \
+                                          ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga61ee4c391385607d7af432b63905fcc9" kindref="member">TIM3</ref>) || \
+                                          ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga91a09bad8bdc7a1cb3d85cf49c94c8ec" kindref="member">TIM4</ref>) || \
+                                          ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga5125ff6a23a2ed66e2e19bd196128c14" kindref="member">TIM5</ref>) || \
+                                          ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga9a3660400b17735e91331f256095810e" kindref="member">TIM8</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16825" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16824" bodyend="16829"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga8111ef18a809cd882ef327399fdbfc8f" prot="public" static="no">
+        <name>IS_TIM_CCDMA_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>                                          (((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2e87451fea8dc9380056d3cfc5ed81fb" kindref="member">TIM1</ref>) || \
+                                          ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga3cfac9f2e43673f790f8668d48b4b92b" kindref="member">TIM2</ref>) || \
+                                          ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga61ee4c391385607d7af432b63905fcc9" kindref="member">TIM3</ref>) || \
+                                          ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga91a09bad8bdc7a1cb3d85cf49c94c8ec" kindref="member">TIM4</ref>) || \
+                                          ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga5125ff6a23a2ed66e2e19bd196128c14" kindref="member">TIM5</ref>) || \
+                                          ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga9a3660400b17735e91331f256095810e" kindref="member">TIM8</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16833" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16832" bodyend="16837"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga1ed43d4e9823446a1b9d43afc452f42e" prot="public" static="no">
+        <name>IS_TIM_DMABURST_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>                                             (((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2e87451fea8dc9380056d3cfc5ed81fb" kindref="member">TIM1</ref>) || \
+                                             ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga3cfac9f2e43673f790f8668d48b4b92b" kindref="member">TIM2</ref>) || \
+                                             ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga61ee4c391385607d7af432b63905fcc9" kindref="member">TIM3</ref>) || \
+                                             ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga91a09bad8bdc7a1cb3d85cf49c94c8ec" kindref="member">TIM4</ref>) || \
+                                             ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga5125ff6a23a2ed66e2e19bd196128c14" kindref="member">TIM5</ref>) || \
+                                             ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga9a3660400b17735e91331f256095810e" kindref="member">TIM8</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16841" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16840" bodyend="16845"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga98104b1522d066b0c20205ca179d0eba" prot="public" static="no">
+        <name>IS_TIM_MASTER_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>                                          (((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2e87451fea8dc9380056d3cfc5ed81fb" kindref="member">TIM1</ref>)  || \
+                                          ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga3cfac9f2e43673f790f8668d48b4b92b" kindref="member">TIM2</ref>)  || \
+                                          ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga61ee4c391385607d7af432b63905fcc9" kindref="member">TIM3</ref>)  || \
+                                          ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga91a09bad8bdc7a1cb3d85cf49c94c8ec" kindref="member">TIM4</ref>)  || \
+                                          ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga5125ff6a23a2ed66e2e19bd196128c14" kindref="member">TIM5</ref>)  || \
+                                          ((INSTANCE) == <ref refid="group___peripheral__declaration_1gac7b4ed55f9201b498b38c962cca97314" kindref="member">TIM6</ref>)  || \
+                                          ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga49267c49946fd61db6af8b49bcf16394" kindref="member">TIM7</ref>)  || \
+                                          ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga9a3660400b17735e91331f256095810e" kindref="member">TIM8</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16849" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16848" bodyend="16855"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga3ba7d4187dba8dfb4ffd610312e8af14" prot="public" static="no">
+        <name>IS_TIM_SLAVE_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>                                         (((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2e87451fea8dc9380056d3cfc5ed81fb" kindref="member">TIM1</ref>) || \
+                                         ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga3cfac9f2e43673f790f8668d48b4b92b" kindref="member">TIM2</ref>) || \
+                                         ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga61ee4c391385607d7af432b63905fcc9" kindref="member">TIM3</ref>) || \
+                                         ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga91a09bad8bdc7a1cb3d85cf49c94c8ec" kindref="member">TIM4</ref>) || \
+                                         ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga5125ff6a23a2ed66e2e19bd196128c14" kindref="member">TIM5</ref>) || \
+                                         ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga9a3660400b17735e91331f256095810e" kindref="member">TIM8</ref>) || \
+                                         ((INSTANCE) == <ref refid="group___peripheral__declaration_1gaf52b4b4c36110a0addfa98059f54a50e" kindref="member">TIM9</ref>) || \
+                                         ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2397f8a0f8e7aa10cf8e8c049e431e53" kindref="member">TIM12</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16859" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16858" bodyend="16865"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1gac41867bf288927ff8ff10a85e67a591b" prot="public" static="no">
+        <name>IS_TIM_32B_COUNTER_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>                                              (((INSTANCE) == <ref refid="group___peripheral__declaration_1ga3cfac9f2e43673f790f8668d48b4b92b" kindref="member">TIM2</ref>) || \
+                                              ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga5125ff6a23a2ed66e2e19bd196128c14" kindref="member">TIM5</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16868" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16867" bodyend="16868"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1gac71942c3817f1a893ef84fefe69496b7" prot="public" static="no">
+        <name>IS_TIM_ETR_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>                                        (((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2e87451fea8dc9380056d3cfc5ed81fb" kindref="member">TIM1</ref>) || \
+                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga3cfac9f2e43673f790f8668d48b4b92b" kindref="member">TIM2</ref>) || \
+                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga61ee4c391385607d7af432b63905fcc9" kindref="member">TIM3</ref>) || \
+                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga91a09bad8bdc7a1cb3d85cf49c94c8ec" kindref="member">TIM4</ref>) || \
+                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga5125ff6a23a2ed66e2e19bd196128c14" kindref="member">TIM5</ref>) || \
+                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga9a3660400b17735e91331f256095810e" kindref="member">TIM8</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16872" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16871" bodyend="16876"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga6bb03cf116b07bfe1bd527f8ab61a7f9" prot="public" static="no">
+        <name>IS_TIM_REMAP_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>                                         (((INSTANCE) == <ref refid="group___peripheral__declaration_1ga3cfac9f2e43673f790f8668d48b4b92b" kindref="member">TIM2</ref>)  || \
+                                         ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga5125ff6a23a2ed66e2e19bd196128c14" kindref="member">TIM5</ref>)  || \
+                                         ((INSTANCE) == <ref refid="group___peripheral__declaration_1gacfd11ef966c7165f57e2cebe0abc71ad" kindref="member">TIM11</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16880" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16879" bodyend="16881"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga6517a51ea79512a42bc53c718a77f18e" prot="public" static="no">
+        <name>IS_TIM_CCX_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <param><defname>CHANNEL</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16885" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16884" bodyend="16939"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga7181cfd1649c4e65e24b7c863e94a54f" prot="public" static="no">
+        <name>IS_TIM_CCXN_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <param><defname>CHANNEL</defname></param>
+        <initializer>   ((((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2e87451fea8dc9380056d3cfc5ed81fb" kindref="member">TIM1</ref>) &amp;&amp;                    \
+     (((CHANNEL) == TIM_CHANNEL_1) ||           \
+      ((CHANNEL) == TIM_CHANNEL_2) ||           \
+      ((CHANNEL) == TIM_CHANNEL_3)))            \
+    ||                                          \
+    (((INSTANCE) == <ref refid="group___peripheral__declaration_1ga9a3660400b17735e91331f256095810e" kindref="member">TIM8</ref>) &amp;&amp;                    \
+     (((CHANNEL) == TIM_CHANNEL_1) ||           \
+      ((CHANNEL) == TIM_CHANNEL_2) ||           \
+      ((CHANNEL) == TIM_CHANNEL_3))))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16943" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16942" bodyend="16951"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1gaac0e3e7e7a18fd8eb81734b2baf9e3be" prot="public" static="no">
+        <name>IS_TIM_COUNTER_MODE_SELECT_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>                                                        (((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2e87451fea8dc9380056d3cfc5ed81fb" kindref="member">TIM1</ref>) || \
+                                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga3cfac9f2e43673f790f8668d48b4b92b" kindref="member">TIM2</ref>) || \
+                                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga61ee4c391385607d7af432b63905fcc9" kindref="member">TIM3</ref>) || \
+                                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga91a09bad8bdc7a1cb3d85cf49c94c8ec" kindref="member">TIM4</ref>) || \
+                                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga5125ff6a23a2ed66e2e19bd196128c14" kindref="member">TIM5</ref>) || \
+                                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga9a3660400b17735e91331f256095810e" kindref="member">TIM8</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16955" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16954" bodyend="16959"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1gac54b9f42e8ab07c41abe7d96d13d698a" prot="public" static="no">
+        <name>IS_TIM_CLOCK_DIVISION_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>                                                  (((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2e87451fea8dc9380056d3cfc5ed81fb" kindref="member">TIM1</ref>)  || \
+                                                  ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga3cfac9f2e43673f790f8668d48b4b92b" kindref="member">TIM2</ref>) || \
+                                                  ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga61ee4c391385607d7af432b63905fcc9" kindref="member">TIM3</ref>) || \
+                                                  ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga91a09bad8bdc7a1cb3d85cf49c94c8ec" kindref="member">TIM4</ref>) || \
+                                                  ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga5125ff6a23a2ed66e2e19bd196128c14" kindref="member">TIM5</ref>) || \
+                                                  ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga9a3660400b17735e91331f256095810e" kindref="member">TIM8</ref>) || \
+                                                  ((INSTANCE) == <ref refid="group___peripheral__declaration_1gaf52b4b4c36110a0addfa98059f54a50e" kindref="member">TIM9</ref>) || \
+                                                  ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga46b2ad3f5f506f0f8df0d2ec3e767267" kindref="member">TIM10</ref>)|| \
+                                                  ((INSTANCE) == <ref refid="group___peripheral__declaration_1gacfd11ef966c7165f57e2cebe0abc71ad" kindref="member">TIM11</ref>)|| \
+                                                  ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2397f8a0f8e7aa10cf8e8c049e431e53" kindref="member">TIM12</ref>)|| \
+                                                  ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga5a959a833074d59bf6cc7fb437c65b18" kindref="member">TIM13</ref>)|| \
+                                                  ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2dd30f46fad69dd73e1d8941a43daffe" kindref="member">TIM14</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16963" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16962" bodyend="16973"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga5f61206c3c8b20784f9d237dce300afd" prot="public" static="no">
+        <name>IS_TIM_COMMUTATION_EVENT_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>                                                     (((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2e87451fea8dc9380056d3cfc5ed81fb" kindref="member">TIM1</ref>)|| \
+                                                     ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga9a3660400b17735e91331f256095810e" kindref="member">TIM8</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16977" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16976" bodyend="16977"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga7bf2abf939c55a4c8284c184735accdc" prot="public" static="no">
+        <name>IS_TIM_OCXREF_CLEAR_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>                                                       (((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2e87451fea8dc9380056d3cfc5ed81fb" kindref="member">TIM1</ref>) || \
+                                                       ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga3cfac9f2e43673f790f8668d48b4b92b" kindref="member">TIM2</ref>) || \
+                                                       ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga61ee4c391385607d7af432b63905fcc9" kindref="member">TIM3</ref>) || \
+                                                       ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga91a09bad8bdc7a1cb3d85cf49c94c8ec" kindref="member">TIM4</ref>) || \
+                                                       ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga5125ff6a23a2ed66e2e19bd196128c14" kindref="member">TIM5</ref>) || \
+                                                       ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga9a3660400b17735e91331f256095810e" kindref="member">TIM8</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16982" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16981" bodyend="16986"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga0ca20886f56bf7611ad511433b9caade" prot="public" static="no">
+        <name>IS_TIM_CLOCKSOURCE_ETRMODE1_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>                                                        (((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2e87451fea8dc9380056d3cfc5ed81fb" kindref="member">TIM1</ref>) || \
+                                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga3cfac9f2e43673f790f8668d48b4b92b" kindref="member">TIM2</ref>) || \
+                                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga61ee4c391385607d7af432b63905fcc9" kindref="member">TIM3</ref>) || \
+                                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga91a09bad8bdc7a1cb3d85cf49c94c8ec" kindref="member">TIM4</ref>) || \
+                                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga5125ff6a23a2ed66e2e19bd196128c14" kindref="member">TIM5</ref>) || \
+                                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga9a3660400b17735e91331f256095810e" kindref="member">TIM8</ref>) || \
+                                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1gaf52b4b4c36110a0addfa98059f54a50e" kindref="member">TIM9</ref>) || \
+                                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2397f8a0f8e7aa10cf8e8c049e431e53" kindref="member">TIM12</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="16990" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16989" bodyend="16996"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga7beb8f84094e6a1567d10177cc4fdae9" prot="public" static="no">
+        <name>IS_TIM_CLOCKSOURCE_ETRMODE2_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>                                                        (((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2e87451fea8dc9380056d3cfc5ed81fb" kindref="member">TIM1</ref>) || \
+                                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga3cfac9f2e43673f790f8668d48b4b92b" kindref="member">TIM2</ref>) || \
+                                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga61ee4c391385607d7af432b63905fcc9" kindref="member">TIM3</ref>) || \
+                                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga91a09bad8bdc7a1cb3d85cf49c94c8ec" kindref="member">TIM4</ref>) || \
+                                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga5125ff6a23a2ed66e2e19bd196128c14" kindref="member">TIM5</ref>) || \
+                                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga9a3660400b17735e91331f256095810e" kindref="member">TIM8</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17000" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="16999" bodyend="17004"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1gacbd23fd1f9f73dc249b16c89131a671c" prot="public" static="no">
+        <name>IS_TIM_CLOCKSOURCE_TIX_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>                                                        (((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2e87451fea8dc9380056d3cfc5ed81fb" kindref="member">TIM1</ref>) || \
+                                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga3cfac9f2e43673f790f8668d48b4b92b" kindref="member">TIM2</ref>) || \
+                                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga61ee4c391385607d7af432b63905fcc9" kindref="member">TIM3</ref>) || \
+                                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga91a09bad8bdc7a1cb3d85cf49c94c8ec" kindref="member">TIM4</ref>) || \
+                                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga5125ff6a23a2ed66e2e19bd196128c14" kindref="member">TIM5</ref>) || \
+                                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga9a3660400b17735e91331f256095810e" kindref="member">TIM8</ref>) || \
+                                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1gaf52b4b4c36110a0addfa98059f54a50e" kindref="member">TIM9</ref>) || \
+                                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2397f8a0f8e7aa10cf8e8c049e431e53" kindref="member">TIM12</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17008" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17007" bodyend="17014"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga57882c3c75fddf0ccf0c6ecf99b3d3df" prot="public" static="no">
+        <name>IS_TIM_CLOCKSOURCE_ITRX_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>                                                        (((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2e87451fea8dc9380056d3cfc5ed81fb" kindref="member">TIM1</ref>) || \
+                                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga3cfac9f2e43673f790f8668d48b4b92b" kindref="member">TIM2</ref>) || \
+                                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga61ee4c391385607d7af432b63905fcc9" kindref="member">TIM3</ref>) || \
+                                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga91a09bad8bdc7a1cb3d85cf49c94c8ec" kindref="member">TIM4</ref>) || \
+                                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga5125ff6a23a2ed66e2e19bd196128c14" kindref="member">TIM5</ref>) || \
+                                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga9a3660400b17735e91331f256095810e" kindref="member">TIM8</ref>) || \
+                                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1gaf52b4b4c36110a0addfa98059f54a50e" kindref="member">TIM9</ref>) || \
+                                                        ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2397f8a0f8e7aa10cf8e8c049e431e53" kindref="member">TIM12</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17018" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17017" bodyend="17024"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga3b470612fd4c4e29fb985247056b1e07" prot="public" static="no">
+        <name>IS_TIM_REPETITION_COUNTER_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>                                                       (((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2e87451fea8dc9380056d3cfc5ed81fb" kindref="member">TIM1</ref>) || \
+                                                       ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga9a3660400b17735e91331f256095810e" kindref="member">TIM8</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17028" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17027" bodyend="17028"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1gacb14170c4996e004849647d8cb626402" prot="public" static="no">
+        <name>IS_TIM_ENCODER_INTERFACE_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>                                                      (((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2e87451fea8dc9380056d3cfc5ed81fb" kindref="member">TIM1</ref>) || \
+                                                      ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga3cfac9f2e43673f790f8668d48b4b92b" kindref="member">TIM2</ref>) || \
+                                                      ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga61ee4c391385607d7af432b63905fcc9" kindref="member">TIM3</ref>) || \
+                                                      ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga91a09bad8bdc7a1cb3d85cf49c94c8ec" kindref="member">TIM4</ref>) || \
+                                                      ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga5125ff6a23a2ed66e2e19bd196128c14" kindref="member">TIM5</ref>) || \
+                                                      ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga9a3660400b17735e91331f256095810e" kindref="member">TIM8</ref>) || \
+                                                      ((INSTANCE) == <ref refid="group___peripheral__declaration_1gaf52b4b4c36110a0addfa98059f54a50e" kindref="member">TIM9</ref>) || \
+                                                      ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2397f8a0f8e7aa10cf8e8c049e431e53" kindref="member">TIM12</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17032" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17031" bodyend="17038"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga979ea18ba0931f5ed15cc2f3ac84794b" prot="public" static="no">
+        <name>IS_TIM_HALL_SENSOR_INTERFACE_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>                                                          (((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2e87451fea8dc9380056d3cfc5ed81fb" kindref="member">TIM1</ref>) || \
+                                                          ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga3cfac9f2e43673f790f8668d48b4b92b" kindref="member">TIM2</ref>) || \
+                                                          ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga61ee4c391385607d7af432b63905fcc9" kindref="member">TIM3</ref>) || \
+                                                          ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga91a09bad8bdc7a1cb3d85cf49c94c8ec" kindref="member">TIM4</ref>) || \
+                                                          ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga5125ff6a23a2ed66e2e19bd196128c14" kindref="member">TIM5</ref>) || \
+                                                          ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga9a3660400b17735e91331f256095810e" kindref="member">TIM8</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17041" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17040" bodyend="17045"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga68b8d9ca22720c9034753c604d83500d" prot="public" static="no">
+        <name>IS_TIM_BREAK_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>                                          (((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2e87451fea8dc9380056d3cfc5ed81fb" kindref="member">TIM1</ref>) || \
+                                          ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga9a3660400b17735e91331f256095810e" kindref="member">TIM8</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17048" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17047" bodyend="17048"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1gafbce654f84a7c994817453695ac91cbe" prot="public" static="no">
+        <name>IS_USART_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>                                     (((INSTANCE) == <ref refid="group___peripheral__declaration_1ga92871691058ff7ccffd7635930cb08da" kindref="member">USART1</ref>) || \
+                                     ((INSTANCE) == <ref refid="group___peripheral__declaration_1gaf114a9eab03ca08a6fb720e511595930" kindref="member">USART2</ref>) || \
+                                     ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2350115553c1fe0a7bc14e6a7ec6a225" kindref="member">USART3</ref>) || \
+                                     ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2dab39a19ce3dd05fe360dcbb7b5dc84" kindref="member">USART6</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17052" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17051" bodyend="17054"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga69c4aa0c561c4c39c621710fbbb0cb7b" prot="public" static="no">
+        <name>IS_UART_HALFDUPLEX_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>                                               (((INSTANCE) == <ref refid="group___peripheral__declaration_1ga92871691058ff7ccffd7635930cb08da" kindref="member">USART1</ref>) || \
+                                               ((INSTANCE) == <ref refid="group___peripheral__declaration_1gaf114a9eab03ca08a6fb720e511595930" kindref="member">USART2</ref>) || \
+                                               ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2350115553c1fe0a7bc14e6a7ec6a225" kindref="member">USART3</ref>) || \
+                                               ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga7c035f6f443c999fc043b2b7fb598800" kindref="member">UART4</ref>)  || \
+                                               ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga9274e37cf5e8a174fc5dd627b98ec0fe" kindref="member">UART5</ref>)  || \
+                                               ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2dab39a19ce3dd05fe360dcbb7b5dc84" kindref="member">USART6</ref>) || \
+                                               ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga20bc10f5b73e8b51724b2f23c5b2e785" kindref="member">UART7</ref>)  || \
+                                               ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2fe70804956e53dcbdc82dbacbbbfabc" kindref="member">UART8</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17058" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17057" bodyend="17064"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga14e4b19f7c750110f6c27cf26347ba45" prot="public" static="no">
+        <name>IS_UART_INSTANCE</name>
+        <initializer><ref refid="group___exported__macros_1ga69c4aa0c561c4c39c621710fbbb0cb7b" kindref="member">IS_UART_HALFDUPLEX_INSTANCE</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17068" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17067" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1gaf9a11d0720f3efa780126414a4ac50ad" prot="public" static="no">
+        <name>IS_UART_HWFLOW_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>                                           (((INSTANCE) == <ref refid="group___peripheral__declaration_1ga92871691058ff7ccffd7635930cb08da" kindref="member">USART1</ref>) || \
+                                           ((INSTANCE) == <ref refid="group___peripheral__declaration_1gaf114a9eab03ca08a6fb720e511595930" kindref="member">USART2</ref>) || \
+                                           ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2350115553c1fe0a7bc14e6a7ec6a225" kindref="member">USART3</ref>) || \
+                                           ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2dab39a19ce3dd05fe360dcbb7b5dc84" kindref="member">USART6</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17071" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17070" bodyend="17073"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1gaf7905bb5a02acf0e92ddf40bdd8dcdc0" prot="public" static="no">
+        <name>IS_UART_LIN_INSTANCE</name>
+        <initializer><ref refid="group___exported__macros_1ga69c4aa0c561c4c39c621710fbbb0cb7b" kindref="member">IS_UART_HALFDUPLEX_INSTANCE</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17076" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17075" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1gab2734c105403831749ccb34eeb058988" prot="public" static="no">
+        <name>IS_SMARTCARD_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>                                         (((INSTANCE) == <ref refid="group___peripheral__declaration_1ga92871691058ff7ccffd7635930cb08da" kindref="member">USART1</ref>) || \
+                                         ((INSTANCE) == <ref refid="group___peripheral__declaration_1gaf114a9eab03ca08a6fb720e511595930" kindref="member">USART2</ref>) || \
+                                         ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2350115553c1fe0a7bc14e6a7ec6a225" kindref="member">USART3</ref>) || \
+                                         ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2dab39a19ce3dd05fe360dcbb7b5dc84" kindref="member">USART6</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17079" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17078" bodyend="17081"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga98ae6698dc54d8441fce553a65bf5429" prot="public" static="no">
+        <name>IS_IRDA_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>                                    (((INSTANCE) == <ref refid="group___peripheral__declaration_1ga92871691058ff7ccffd7635930cb08da" kindref="member">USART1</ref>) || \
+                                    ((INSTANCE) == <ref refid="group___peripheral__declaration_1gaf114a9eab03ca08a6fb720e511595930" kindref="member">USART2</ref>) || \
+                                    ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2350115553c1fe0a7bc14e6a7ec6a225" kindref="member">USART3</ref>) || \
+                                    ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga7c035f6f443c999fc043b2b7fb598800" kindref="member">UART4</ref>)  || \
+                                    ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga9274e37cf5e8a174fc5dd627b98ec0fe" kindref="member">UART5</ref>)  || \
+                                    ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2dab39a19ce3dd05fe360dcbb7b5dc84" kindref="member">USART6</ref>) || \
+                                    ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga20bc10f5b73e8b51724b2f23c5b2e785" kindref="member">UART7</ref>)  || \
+                                    ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga2fe70804956e53dcbdc82dbacbbbfabc" kindref="member">UART8</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17085" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17084" bodyend="17091"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1gadaf663c55446f04fa69ee912b8890b32" prot="public" static="no">
+        <name>IS_PCD_ALL_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>                                       (((INSTANCE) == <ref refid="group___peripheral__declaration_1ga9ebb053ee138fb47cdfede0e3371123d" kindref="member">USB_OTG_FS</ref>) || \
+                                       ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga820f5f7cb0a7af72a2444a1903fd83bc" kindref="member">USB_OTG_HS</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17095" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17094" bodyend="17095"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga6696ebd1aea007a19e831517f3e1f497" prot="public" static="no">
+        <name>IS_HCD_ALL_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>                                       (((INSTANCE) == <ref refid="group___peripheral__declaration_1ga9ebb053ee138fb47cdfede0e3371123d" kindref="member">USB_OTG_FS</ref>) || \
+                                       ((INSTANCE) == <ref refid="group___peripheral__declaration_1ga820f5f7cb0a7af72a2444a1903fd83bc" kindref="member">USB_OTG_HS</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17099" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17098" bodyend="17099"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga73932cb2c83be6be1884d3cba2fc0063" prot="public" static="no">
+        <name>IS_SDIO_ALL_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>((INSTANCE) == <ref refid="group___peripheral__declaration_1ga8149aa2760fffac16bc75216d5fd9331" kindref="member">SDIO</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17103" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1gad9ec4c52f0572ee67d043e006f1d5e39" prot="public" static="no">
+        <name>IS_IWDG_ALL_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>((INSTANCE) == <ref refid="group___peripheral__declaration_1gad16b79dd94ee85d261d08a8ee94187e7" kindref="member">IWDG</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17106" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1gac2a8aaec233e19987232455643a04d6f" prot="public" static="no">
+        <name>IS_WWDG_ALL_INSTANCE</name>
+        <param><defname>INSTANCE</defname></param>
+        <initializer>((INSTANCE) == <ref refid="group___peripheral__declaration_1ga9821fd01757986612ddb8982e2fe27f1" kindref="member">WWDG</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17109" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga4c58971ce9062c1c7bc42e1c7ea4df32" prot="public" static="no">
+        <name>USB_OTG_FS_HOST_MAX_CHANNEL_NBR</name>
+        <initializer>8U</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17112" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1gaccec7ca403e63ea963c363ceb7301ca6" prot="public" static="no">
+        <name>USB_OTG_FS_MAX_IN_ENDPOINTS</name>
+        <initializer>4U    /* Including EP0 */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17113" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga1d58ab8276cfdef9aa868bfdd2590aae" prot="public" static="no">
+        <name>USB_OTG_FS_MAX_OUT_ENDPOINTS</name>
+        <initializer>4U    /* Including EP0 */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17114" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga1e726d88af0f77cb8a49ff7b666fd990" prot="public" static="no">
+        <name>USB_OTG_FS_TOTAL_FIFO_SIZE</name>
+        <initializer>1280U /* in Bytes */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17115" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1gab0a3c8475d96f7bb0c8a6b8a7e0c943c" prot="public" static="no">
+        <name>RCC_PLLCFGR_RST_VALUE</name>
+        <initializer>0x24003010U</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17120" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1gab5ca7e3fcb49274bb60c660221bbca5b" prot="public" static="no">
+        <name>RCC_PLLI2SCFGR_RST_VALUE</name>
+        <initializer>0x24003000U</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17121" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga0ce0a3354926bb0035c77f91e1813d35" prot="public" static="no">
+        <name>RCC_PLLSAICFGR_RST_VALUE</name>
+        <initializer>0x24003000U</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17122" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga08aeea283003a2c787227347087b5b1f" prot="public" static="no">
+        <name>RCC_MAX_FREQUENCY</name>
+        <initializer>180000000U</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Max frequency of family in Hz </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17124" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga152c4bb0b78589a06d72e0170dd3b304" prot="public" static="no">
+        <name>RCC_MAX_FREQUENCY_SCALE1</name>
+        <initializer><ref refid="group___exported__macros_1ga08aeea283003a2c787227347087b5b1f" kindref="member">RCC_MAX_FREQUENCY</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Maximum frequency for system clock at power scale1, in Hz </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17125" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1gafcb2c5211d9cbed86b111c83a0ce427b" prot="public" static="no">
+        <name>RCC_MAX_FREQUENCY_SCALE2</name>
+        <initializer>168000000U</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Maximum frequency for system clock at power scale2, in Hz </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17126" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga60fbed15643b623aa4541b9d8828d0f1" prot="public" static="no">
+        <name>RCC_MAX_FREQUENCY_SCALE3</name>
+        <initializer>120000000U</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Maximum frequency for system clock at power scale3, in Hz </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17127" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga85746dffdc6d015f5142d7e16489ca84" prot="public" static="no">
+        <name>RCC_PLLVCO_OUTPUT_MIN</name>
+        <initializer>100000000U</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Frequency min for PLLVCO output, in Hz </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17128" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga288d68c2604cea8548eccdef3873923f" prot="public" static="no">
+        <name>RCC_PLLVCO_INPUT_MIN</name>
+        <initializer>950000U</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Frequency min for PLLVCO input, in Hz <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17129" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1gad3fd37dbfa74739a3c698ab4755fa27e" prot="public" static="no">
+        <name>RCC_PLLVCO_INPUT_MAX</name>
+        <initializer>2100000U</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Frequency max for PLLVCO input, in Hz <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17130" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1gaba6ddae0375763847f8dc3e91173d714" prot="public" static="no">
+        <name>RCC_PLLVCO_OUTPUT_MAX</name>
+        <initializer>432000000U</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Frequency max for PLLVCO output, in Hz </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17131" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga6015e60e123ddde47bb3ddfab170c5a1" prot="public" static="no">
+        <name>RCC_PLLN_MIN_VALUE</name>
+        <initializer>50U</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17133" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga9d6c2fd92a420bb80caf8ca2cadb6a62" prot="public" static="no">
+        <name>RCC_PLLN_MAX_VALUE</name>
+        <initializer>432U</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17134" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga980965268c210a75ca5bb1e6b59b4052" prot="public" static="no">
+        <name>FLASH_SCALE1_LATENCY1_FREQ</name>
+        <initializer>30000000U</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>HCLK frequency to set FLASH latency 1 in power scale 1 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17136" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga53673600707f291baa71c30919f8da98" prot="public" static="no">
+        <name>FLASH_SCALE1_LATENCY2_FREQ</name>
+        <initializer>60000000U</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>HCLK frequency to set FLASH latency 2 in power scale 1 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17137" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga547cb8d59cf6a2a73a0f76331e4492df" prot="public" static="no">
+        <name>FLASH_SCALE1_LATENCY3_FREQ</name>
+        <initializer>90000000U</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>HCLK frequency to set FLASH latency 3 in power scale 1 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17138" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga600fe88d1dfa0faef16947e24f52e84e" prot="public" static="no">
+        <name>FLASH_SCALE1_LATENCY4_FREQ</name>
+        <initializer>120000000U</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>HCLK frequency to set FLASH latency 4 in power scale 1 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17139" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1gaf576f3543b7909cf6c889e05829d37a0" prot="public" static="no">
+        <name>FLASH_SCALE1_LATENCY5_FREQ</name>
+        <initializer>150000000U</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>HCLK frequency to set FLASH latency 5 in power scale 1 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17140" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga19ba80e0c72cd041274f831901f302f9" prot="public" static="no">
+        <name>FLASH_SCALE2_LATENCY1_FREQ</name>
+        <initializer>30000000U</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>HCLK frequency to set FLASH latency 1 in power scale 2 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17142" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga98847021d5de23ea0458b490c74e6299" prot="public" static="no">
+        <name>FLASH_SCALE2_LATENCY2_FREQ</name>
+        <initializer>60000000U</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>HCLK frequency to set FLASH latency 2 in power scale 2 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17143" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga6956d1ea5f9484a43213022ebff8cf03" prot="public" static="no">
+        <name>FLASH_SCALE2_LATENCY3_FREQ</name>
+        <initializer>90000000U</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>HCLK frequency to set FLASH latency 3 in power scale 2 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17144" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga8fc5a396df42d76fb41f377e71513ecb" prot="public" static="no">
+        <name>FLASH_SCALE2_LATENCY4_FREQ</name>
+        <initializer>12000000U</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>HCLK frequency to set FLASH latency 4 in power scale 2 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17145" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga682daec68cfc17d207390b25d2e8262b" prot="public" static="no">
+        <name>FLASH_SCALE2_LATENCY5_FREQ</name>
+        <initializer>150000000U</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>HCLK frequency to set FLASH latency 5 in power scale 2 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17146" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga322840abc74aeafafe710d45e4f9c7cd" prot="public" static="no">
+        <name>FLASH_SCALE3_LATENCY1_FREQ</name>
+        <initializer>30000000U</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>HCLK frequency to set FLASH latency 1 in power scale 3 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17148" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga9a6fd257610db9111ae2a291825a86d0" prot="public" static="no">
+        <name>FLASH_SCALE3_LATENCY2_FREQ</name>
+        <initializer>60000000U</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>HCLK frequency to set FLASH latency 2 in power scale 3 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17149" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga830d9e447fdbca14d2e0a3f0ecaa2e93" prot="public" static="no">
+        <name>FLASH_SCALE3_LATENCY3_FREQ</name>
+        <initializer>90000000U</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>HCLK frequency to set FLASH latency 3 in power scale 3 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17150" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga974d43b38d7e7578fa7ac69c64dcc473" prot="public" static="no">
+        <name>USB_OTG_HS_HOST_MAX_CHANNEL_NBR</name>
+        <initializer>12U</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17152" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1gae79bbfa7391870814f10c8025ade8a2a" prot="public" static="no">
+        <name>USB_OTG_HS_MAX_IN_ENDPOINTS</name>
+        <initializer>6U    /* Including EP0 */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17153" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1gace63bb65e2fb24f0df6ebe1e65efa560" prot="public" static="no">
+        <name>USB_OTG_HS_MAX_OUT_ENDPOINTS</name>
+        <initializer>6U    /* Including EP0 */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17154" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga55a4488eac406bcff895de59782fd6a7" prot="public" static="no">
+        <name>USB_OTG_HS_TOTAL_FIFO_SIZE</name>
+        <initializer>4096U /* in Bytes */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17155" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga1e962a05aa13410750964a6ddd58e5cf" prot="public" static="no">
+        <name>FSMC_IRQn</name>
+        <initializer><ref refid="group___peripheral__interrupt__number__definition_1gga7e1129cd8a196f4284d41db3e82ad5c8ab58dc79a081058857f73965f5305479b" kindref="member">FMC_IRQn</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17164" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___exported__macros_1ga5b49d338a67aae8ff880596f373a1d58" prot="public" static="no">
+        <name>FSMC_IRQHandler</name>
+        <initializer>FMC_IRQHandler</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="17167" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="17166" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

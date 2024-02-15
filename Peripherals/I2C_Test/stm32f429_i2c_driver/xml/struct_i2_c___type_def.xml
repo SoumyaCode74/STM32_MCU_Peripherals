@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_i2_c___type_def" kind="struct" language="C++" prot="public">
+    <compoundname>I2C_TypeDef</compoundname>
+    <includes refid="stm32f429xx_8h" local="no">stm32f429xx.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_i2_c___type_def_1a91782f7b81475b0e3c3779273abd26aa" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t I2C_TypeDef::CR1</definition>
+        <argsstring></argsstring>
+        <name>CR1</name>
+        <qualifiedname>I2C_TypeDef::CR1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>I2C Control register 1, Address offset: 0x00 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="606" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="606" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_i2_c___type_def_1a29eb47db03d5ad7e9b399f8895f1768c" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t I2C_TypeDef::CR2</definition>
+        <argsstring></argsstring>
+        <name>CR2</name>
+        <qualifiedname>I2C_TypeDef::CR2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>I2C Control register 2, Address offset: 0x04 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="607" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="607" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_i2_c___type_def_1ae8269169fcbdc2ecb580208d99c2f89f" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t I2C_TypeDef::OAR1</definition>
+        <argsstring></argsstring>
+        <name>OAR1</name>
+        <qualifiedname>I2C_TypeDef::OAR1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>I2C Own address register 1, Address offset: 0x08 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="608" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="608" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_i2_c___type_def_1a73988a218be320999c74a641b3d6e3c1" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t I2C_TypeDef::OAR2</definition>
+        <argsstring></argsstring>
+        <name>OAR2</name>
+        <qualifiedname>I2C_TypeDef::OAR2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>I2C Own address register 2, Address offset: 0x0C </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="609" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="609" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_i2_c___type_def_1a5c1beaa4935359da1c8f0ceb287f90be" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t I2C_TypeDef::DR</definition>
+        <argsstring></argsstring>
+        <name>DR</name>
+        <qualifiedname>I2C_TypeDef::DR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>I2C Data register, Address offset: 0x10 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="610" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="610" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_i2_c___type_def_1a639be124227c03bb3f5fe0e7faf84995" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t I2C_TypeDef::SR1</definition>
+        <argsstring></argsstring>
+        <name>SR1</name>
+        <qualifiedname>I2C_TypeDef::SR1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>I2C Status register 1, Address offset: 0x14 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="611" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="611" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_i2_c___type_def_1ac509048af4b9ac67c808d584fdbc712e" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t I2C_TypeDef::SR2</definition>
+        <argsstring></argsstring>
+        <name>SR2</name>
+        <qualifiedname>I2C_TypeDef::SR2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>I2C Status register 2, Address offset: 0x18 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="612" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="612" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_i2_c___type_def_1a4d81b61d23a54d0d1e28646c3bb9aac5" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t I2C_TypeDef::CCR</definition>
+        <argsstring></argsstring>
+        <name>CCR</name>
+        <qualifiedname>I2C_TypeDef::CCR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>I2C Clock control register, Address offset: 0x1C </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="613" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="613" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_i2_c___type_def_1a9f1a5aee4a26b2fb30e08f88586c436d" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t I2C_TypeDef::TRISE</definition>
+        <argsstring></argsstring>
+        <name>TRISE</name>
+        <qualifiedname>I2C_TypeDef::TRISE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>I2C TRISE register, Address offset: 0x20 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="614" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="614" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_i2_c___type_def_1a6b540b18ea0370e3e45f69902343320c" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t I2C_TypeDef::FLTR</definition>
+        <argsstring></argsstring>
+        <name>FLTR</name>
+        <qualifiedname>I2C_TypeDef::FLTR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>I2C FLTR register, Address offset: 0x24 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="615" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="615" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Inter-integrated Circuit Interface. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Inc/stm32f429xx.h" line="604" column="1" bodyfile="Inc/stm32f429xx.h" bodystart="605" bodyend="616"/>
+    <listofallmembers>
+      <member refid="struct_i2_c___type_def_1a4d81b61d23a54d0d1e28646c3bb9aac5" prot="public" virt="non-virtual"><scope>I2C_TypeDef</scope><name>CCR</name></member>
+      <member refid="struct_i2_c___type_def_1a91782f7b81475b0e3c3779273abd26aa" prot="public" virt="non-virtual"><scope>I2C_TypeDef</scope><name>CR1</name></member>
+      <member refid="struct_i2_c___type_def_1a29eb47db03d5ad7e9b399f8895f1768c" prot="public" virt="non-virtual"><scope>I2C_TypeDef</scope><name>CR2</name></member>
+      <member refid="struct_i2_c___type_def_1a5c1beaa4935359da1c8f0ceb287f90be" prot="public" virt="non-virtual"><scope>I2C_TypeDef</scope><name>DR</name></member>
+      <member refid="struct_i2_c___type_def_1a6b540b18ea0370e3e45f69902343320c" prot="public" virt="non-virtual"><scope>I2C_TypeDef</scope><name>FLTR</name></member>
+      <member refid="struct_i2_c___type_def_1ae8269169fcbdc2ecb580208d99c2f89f" prot="public" virt="non-virtual"><scope>I2C_TypeDef</scope><name>OAR1</name></member>
+      <member refid="struct_i2_c___type_def_1a73988a218be320999c74a641b3d6e3c1" prot="public" virt="non-virtual"><scope>I2C_TypeDef</scope><name>OAR2</name></member>
+      <member refid="struct_i2_c___type_def_1a639be124227c03bb3f5fe0e7faf84995" prot="public" virt="non-virtual"><scope>I2C_TypeDef</scope><name>SR1</name></member>
+      <member refid="struct_i2_c___type_def_1ac509048af4b9ac67c808d584fdbc712e" prot="public" virt="non-virtual"><scope>I2C_TypeDef</scope><name>SR2</name></member>
+      <member refid="struct_i2_c___type_def_1a9f1a5aee4a26b2fb30e08f88586c436d" prot="public" virt="non-virtual"><scope>I2C_TypeDef</scope><name>TRISE</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

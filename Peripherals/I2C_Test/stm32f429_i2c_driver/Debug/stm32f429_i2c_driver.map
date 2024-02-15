@@ -823,9 +823,9 @@ LOAD C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
                                          0x44 (size before relaxing)
  .comment       0x0000000000000043       0x44 ./Src/main.o
 
-.debug_info     0x0000000000000000      0x223
- .debug_info    0x0000000000000000      0x200 ./Src/main.o
- .debug_info    0x0000000000000200       0x23 ./Startup/startup_stm32f429zitx.o
+.debug_info     0x0000000000000000      0x20b
+ .debug_info    0x0000000000000000      0x1e8 ./Src/main.o
+ .debug_info    0x00000000000001e8       0x23 ./Startup/startup_stm32f429zitx.o
 
 .debug_abbrev   0x0000000000000000      0x107
  .debug_abbrev  0x0000000000000000       0xf5 ./Src/main.o
@@ -861,14 +861,14 @@ LOAD C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_macro   0x0000000000002140      0x11f ./Src/main.o
  .debug_macro   0x000000000000225f    0x17fc0 ./Src/main.o
 
-.debug_line     0x0000000000000000      0x5af
- .debug_line    0x0000000000000000      0x534 ./Src/main.o
- .debug_line    0x0000000000000534       0x7b ./Startup/startup_stm32f429zitx.o
+.debug_line     0x0000000000000000      0x5c1
+ .debug_line    0x0000000000000000      0x546 ./Src/main.o
+ .debug_line    0x0000000000000546       0x7b ./Startup/startup_stm32f429zitx.o
 
-.debug_str      0x0000000000000000    0x92c73
- .debug_str     0x0000000000000000    0x92c44 ./Src/main.o
-                                      0x92db9 (size before relaxing)
- .debug_str     0x0000000000092c44       0x2f ./Startup/startup_stm32f429zitx.o
+.debug_str      0x0000000000000000    0x92c68
+ .debug_str     0x0000000000000000    0x92c39 ./Src/main.o
+                                      0x92da5 (size before relaxing)
+ .debug_str     0x0000000000092c39       0x2f ./Startup/startup_stm32f429zitx.o
                                          0x92 (size before relaxing)
 
 .debug_frame    0x0000000000000000       0x58

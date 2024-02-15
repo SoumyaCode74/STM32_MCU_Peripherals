@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="group___peripheral__registers__structures" kind="group">
+    <compoundname>Peripheral_registers_structures</compoundname>
+    <title>Peripheral_registers_structures</title>
+    <innerclass refid="struct_a_d_c___type_def" prot="public">ADC_TypeDef</innerclass>
+    <innerclass refid="struct_a_d_c___common___type_def" prot="public">ADC_Common_TypeDef</innerclass>
+    <innerclass refid="struct_c_a_n___tx_mail_box___type_def" prot="public">CAN_TxMailBox_TypeDef</innerclass>
+    <innerclass refid="struct_c_a_n___f_i_f_o_mail_box___type_def" prot="public">CAN_FIFOMailBox_TypeDef</innerclass>
+    <innerclass refid="struct_c_a_n___filter_register___type_def" prot="public">CAN_FilterRegister_TypeDef</innerclass>
+    <innerclass refid="struct_c_a_n___type_def" prot="public">CAN_TypeDef</innerclass>
+    <innerclass refid="struct_c_r_c___type_def" prot="public">CRC_TypeDef</innerclass>
+    <innerclass refid="struct_d_a_c___type_def" prot="public">DAC_TypeDef</innerclass>
+    <innerclass refid="struct_d_b_g_m_c_u___type_def" prot="public">DBGMCU_TypeDef</innerclass>
+    <innerclass refid="struct_d_c_m_i___type_def" prot="public">DCMI_TypeDef</innerclass>
+    <innerclass refid="struct_d_m_a___stream___type_def" prot="public">DMA_Stream_TypeDef</innerclass>
+    <innerclass refid="struct_d_m_a___type_def" prot="public">DMA_TypeDef</innerclass>
+    <innerclass refid="struct_d_m_a2_d___type_def" prot="public">DMA2D_TypeDef</innerclass>
+    <innerclass refid="struct_e_t_h___type_def" prot="public">ETH_TypeDef</innerclass>
+    <innerclass refid="struct_e_x_t_i___type_def" prot="public">EXTI_TypeDef</innerclass>
+    <innerclass refid="struct_f_l_a_s_h___type_def" prot="public">FLASH_TypeDef</innerclass>
+    <innerclass refid="struct_f_m_c___bank1___type_def" prot="public">FMC_Bank1_TypeDef</innerclass>
+    <innerclass refid="struct_f_m_c___bank1_e___type_def" prot="public">FMC_Bank1E_TypeDef</innerclass>
+    <innerclass refid="struct_f_m_c___bank2__3___type_def" prot="public">FMC_Bank2_3_TypeDef</innerclass>
+    <innerclass refid="struct_f_m_c___bank4___type_def" prot="public">FMC_Bank4_TypeDef</innerclass>
+    <innerclass refid="struct_f_m_c___bank5__6___type_def" prot="public">FMC_Bank5_6_TypeDef</innerclass>
+    <innerclass refid="struct_g_p_i_o___type_def" prot="public">GPIO_TypeDef</innerclass>
+    <innerclass refid="struct_s_y_s_c_f_g___type_def" prot="public">SYSCFG_TypeDef</innerclass>
+    <innerclass refid="struct_i2_c___type_def" prot="public">I2C_TypeDef</innerclass>
+    <innerclass refid="struct_i_w_d_g___type_def" prot="public">IWDG_TypeDef</innerclass>
+    <innerclass refid="struct_l_t_d_c___type_def" prot="public">LTDC_TypeDef</innerclass>
+    <innerclass refid="struct_l_t_d_c___layer___type_def" prot="public">LTDC_Layer_TypeDef</innerclass>
+    <innerclass refid="struct_p_w_r___type_def" prot="public">PWR_TypeDef</innerclass>
+    <innerclass refid="struct_r_c_c___type_def" prot="public">RCC_TypeDef</innerclass>
+    <innerclass refid="struct_r_t_c___type_def" prot="public">RTC_TypeDef</innerclass>
+    <innerclass refid="struct_s_a_i___type_def" prot="public">SAI_TypeDef</innerclass>
+    <innerclass refid="struct_s_a_i___block___type_def" prot="public">SAI_Block_TypeDef</innerclass>
+    <innerclass refid="struct_s_d_i_o___type_def" prot="public">SDIO_TypeDef</innerclass>
+    <innerclass refid="struct_s_p_i___type_def" prot="public">SPI_TypeDef</innerclass>
+    <innerclass refid="struct_t_i_m___type_def" prot="public">TIM_TypeDef</innerclass>
+    <innerclass refid="struct_u_s_a_r_t___type_def" prot="public">USART_TypeDef</innerclass>
+    <innerclass refid="struct_w_w_d_g___type_def" prot="public">WWDG_TypeDef</innerclass>
+    <innerclass refid="struct_r_n_g___type_def" prot="public">RNG_TypeDef</innerclass>
+    <innerclass refid="struct_u_s_b___o_t_g___global_type_def" prot="public">USB_OTG_GlobalTypeDef</innerclass>
+    <innerclass refid="struct_u_s_b___o_t_g___device_type_def" prot="public">USB_OTG_DeviceTypeDef</innerclass>
+    <innerclass refid="struct_u_s_b___o_t_g___i_n_endpoint_type_def" prot="public">USB_OTG_INEndpointTypeDef</innerclass>
+    <innerclass refid="struct_u_s_b___o_t_g___o_u_t_endpoint_type_def" prot="public">USB_OTG_OUTEndpointTypeDef</innerclass>
+    <innerclass refid="struct_u_s_b___o_t_g___host_type_def" prot="public">USB_OTG_HostTypeDef</innerclass>
+    <innerclass refid="struct_u_s_b___o_t_g___host_channel_type_def" prot="public">USB_OTG_HostChannelTypeDef</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>
