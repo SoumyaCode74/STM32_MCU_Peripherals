@@ -1,6 +1,7 @@
-*/Debug/*
-*/Drivers/*
-*/latex/*
+*/Debug/
+*/Drivers/
 */rtf/*
 */xml/*
 *Shortcut
+*.settings
+*.metadata
