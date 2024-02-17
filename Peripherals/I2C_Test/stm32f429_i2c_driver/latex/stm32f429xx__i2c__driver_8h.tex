@@ -5,6 +5,23 @@
 Classes and API functions for driving an I2C peripheral for STM32\+F429xx MCUs Created on\+: Feb 11, 2024.  
 
 
+{\ttfamily \#include "{}stm32f429xx\+\_\+general.\+h"{}}\newline
+{\ttfamily \#include "{}stm32f429xx\+\_\+gpio\+\_\+driver.\+h"{}}\newline
+Include dependency graph for stm32f429xx\+\_\+i2c\+\_\+driver.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=299pt]{stm32f429xx__i2c__driver_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=268pt]{stm32f429xx__i2c__driver_8h__dep__incl}
+\end{center}
+\end{figure}
 \doxysubsubsection*{Classes}
 \begin{DoxyCompactItemize}
 \item 
@@ -12,9 +29,27 @@ struct \mbox{\hyperlink{struct_i2_c___pin_config__t}{I2\+C\+\_\+\+Pin\+Config\+\
 \item 
 struct \mbox{\hyperlink{struct_i2_c___handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}}
 \end{DoxyCompactItemize}
+\doxysubsubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{group___defines_gaa314cf7ad54bb5b7aac40e022704c3bb}{I2\+C\+\_\+\+DISABLE}}~(\texorpdfstring{$\sim$}{\string~}\mbox{\hyperlink{group___defines_gad4d43f8748b542bce39e18790f845ecc}{BIT0}})
+\item 
+\#define \mbox{\hyperlink{group___defines_ga1d30e026f613e2538785f28b708a8173}{I2\+C\+\_\+\+SM\+\_\+\+SPEED\+\_\+\+LIMIT}}~(100\texorpdfstring{$\ast$}{*}1000)
+\item 
+\#define \mbox{\hyperlink{group___defines_gaf79d2f036dfdf7e9f0fe955394bce7ee}{I2\+C\+\_\+\+FM\+\_\+\+SPEED\+\_\+\+LIMIT}}~(400\texorpdfstring{$\ast$}{*}1000)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{group___classes_gadfdf854d8c5df694ffc1ee51fd01f3b9}{Fast\+Mode\+\_\+\+Duty\+Cycle}} \{ \mbox{\hyperlink{group___classes_ggadfdf854d8c5df694ffc1ee51fd01f3b9abc2e72cb3fa9a9cd561c55c8845083a3}{PERCENT\+\_\+33}}
+, \mbox{\hyperlink{group___classes_ggadfdf854d8c5df694ffc1ee51fd01f3b9ad8efbec45c2c7fe076d2206c641e6be3}{PERCENT\+\_\+36}}
+ \}
+\end{DoxyCompactItemize}
 \doxysubsubsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
+uint32\+\_\+t \mbox{\hyperlink{group___functions_gab1b217b9a85be4c9840e243bda3408e9}{Get\+PCLKFrequency}} (\mbox{\hyperlink{struct_i2_c___handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*})
+\begin{DoxyCompactList}\small\item\em Return the clock frequency of PCLK. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{group___functions_ga9b83058c3356c704a9c0f3cdfeff8260}{I2\+C\+\_\+\+Init}} (\mbox{\hyperlink{struct_i2_c___handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*})
 \begin{DoxyCompactList}\small\item\em Initialize the I2C peripheral module based on the SCLK frequency, Device address (if it is a slave), Acknowledgement enable, and Fast Mode Duty Cycle. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{group___functions_gad34e477f4c0f4353b2b94e2e81da4731}{I2\+C\+\_\+\+De\+Init}} (\mbox{\hyperlink{struct_i2_c___handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*})

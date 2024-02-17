@@ -5,8 +5,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>I2C_Driver_Documentation: Src/main.c File Reference</title>
+<title>I2C Driver: Src/main.c File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript">var page_layout=1;</script>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <script type="text/javascript" src="clipboard.js"></script>
@@ -26,17 +27,18 @@
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+<div id="side-nav" class="ui-resizable side-nav-resizable"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">I2C_Driver_Documentation
+   <div id="projectname">I2C Driver<span id="projectnumber">&#160;0.2</span>
    </div>
-   <div id="projectbrief">This document talks about the development of driver source code for I2C peripherals of STM32F429xx 32-bit microcontrollers</div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+ </tr>
+   <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
           <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
           <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
@@ -47,8 +49,7 @@
             <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
           </span>
         </div>
-</td>
- </tr>
+</td></tr>
  </tbody>
 </table>
 </div>
@@ -60,7 +61,6 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
 </div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
     <div id="nav-tree-contents">
       <div id="nav-sync" class="sync"></div>
@@ -99,6 +99,7 @@ $(function(){initNavTree('main_8c.html',''); initResizable(); });
 
 <div class="header">
   <div class="summary">
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">main.c File Reference</div></div>
 </div><!--header-->
@@ -106,7 +107,39 @@ $(function(){initNavTree('main_8c.html',''); initResizable(); });
 
 <p>: Main program body  
 <a href="#details">More...</a></p>
-<table class="memberdecls">
+<div class="textblock"><code>#include &quot;<a class="el" href="stm32f429xx__gpio__driver_8h_source.html">stm32f429xx_gpio_driver.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="stm32f429xx__rcc__driver_8h_source.html">stm32f429xx_rcc_driver.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="stm32f429xx__i2c__driver_8h_source.html">stm32f429xx_i2c_driver.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for main.c:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8c__incl.png" border="0" usemap="#a_src_2main_8c" alt=""/></div>
+<map name="a_src_2main_8c" id="a_src_2main_8c">
+<area shape="rect" title=": Main program body" alt="" coords="95,5,180,32"/>
+<area shape="rect" href="stm32f429xx__gpio__driver_8h.html" title="Classes and API functions for driving a GPIO peripheral for STM32F429xx MCUs Created on: Feb 15,..." alt="" coords="88,155,262,181"/>
+<area shape="poly" title=" " alt="" coords="143,32,171,139,165,140,138,33"/>
+<area shape="rect" href="stm32f429xx__rcc__driver_8h.html" title=" " alt="" coords="5,229,174,256"/>
+<area shape="poly" title=" " alt="" coords="132,34,104,85,89,119,79,155,78,185,83,214,78,215,72,186,74,154,84,118,99,83,127,31"/>
+<area shape="rect" href="stm32f429xx__i2c__driver_8h.html" title="Classes and API functions for driving an I2C peripheral for STM32F429xx MCUs Created on: Feb 11,..." alt="" coords="175,80,343,107"/>
+<area shape="poly" title=" " alt="" coords="160,30,226,69,223,74,157,35"/>
+<area shape="rect" href="stm32f429xx__general_8h.html" title="All purpose defines and includes Created on: Feb 11, 2024." alt="" coords="133,304,289,331"/>
+<area shape="poly" title=" " alt="" coords="180,181,207,288,202,290,175,182"/>
+<area shape="poly" title=" " alt="" coords="162,184,117,221,114,217,158,180"/>
+<area shape="rect" title=" " alt="" coords="124,379,188,405"/>
+<area shape="poly" title=" " alt="" coords="203,333,177,368,173,364,199,330"/>
+<area shape="rect" title=" " alt="" coords="212,379,319,405"/>
+<area shape="poly" title=" " alt="" coords="222,330,249,364,245,368,218,333"/>
+<area shape="poly" title=" " alt="" coords="112,254,178,293,175,298,109,259"/>
+<area shape="poly" title=" " alt="" coords="246,109,203,146,199,142,242,105"/>
+<area shape="poly" title=" " alt="" coords="267,106,276,140,278,161,276,182,255,242,229,292,224,289,250,240,271,181,273,161,271,141,261,108"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a62249e384b997229a3e2ae74ade334e2" id="r_a62249e384b997229a3e2ae74ade334e2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62249e384b997229a3e2ae74ade334e2">DELAY</a>&#160;&#160;&#160;(5000*1)</td></tr>
+<tr class="separator:a62249e384b997229a3e2ae74ade334e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a840291bc02cba5474a4cb46a9b9566fe" id="r_a840291bc02cba5474a4cb46a9b9566fe"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a840291bc02cba5474a4cb46a9b9566fe">main</a> (void)</td></tr>
@@ -118,7 +151,22 @@ Functions</h2></td></tr>
 <dl class="section attention"><dt>Attention</dt><dd></dd></dl>
 <p>Copyright (c) 2024 STMicroelectronics. All rights reserved.</p>
 <p>This software is licensed under terms that can be found in the LICENSE file in the root directory of this software component. If no LICENSE file comes with this software, it is provided AS-IS. </p>
-</div><h2 class="groupheader">Function Documentation</h2>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a62249e384b997229a3e2ae74ade334e2" name="a62249e384b997229a3e2ae74ade334e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62249e384b997229a3e2ae74ade334e2">&#9670;&#160;</a></span>DELAY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DELAY&#160;&#160;&#160;(5000*1)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
 <a id="a840291bc02cba5474a4cb46a9b9566fe" name="a840291bc02cba5474a4cb46a9b9566fe"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a840291bc02cba5474a4cb46a9b9566fe">&#9670;&#160;</a></span>main()</h2>
 
@@ -133,6 +181,29 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>&lt; Configure the RCC object handle</p>
+<p>&lt; Configure the GPIO object handle</p>
+<p>&lt; Configure the RCC object handle for I2C Master</p>
+<p>&lt; Configure the GPIO object handle for I2C Master</p>
+<p>&lt; SCL pin of I2C Master</p>
+<p>&lt; SDA pin of I2C Master</p>
+<p>&lt; Configure the I2C master object handle</p>
+<p>&lt; Set ACK to 1</p>
+<p>&lt; Set SCLK speed of master</p>
+<p>&lt; Set the duty cycle to 0 for Standard mode</p>
+<p>&lt; Use I2C1 as Master</p>
+<p>&lt; Configure the RCC object handle for I2C Slave</p>
+<p>&lt; Configure the GPIO object handle for I2C Slave</p>
+<p>&lt; SCL pin of I2C Slave</p>
+<p>&lt; SDA pin of I2C Slave</p>
+<p>&lt; Configure the I2C slave object handle</p>
+<p>&lt; Set ACK to 1</p>
+<p>&lt; 7-bit slave address</p>
+<p>&lt; Set SCLK speed of master</p>
+<p>&lt; Set the duty cycle to 0 for Standard Mode</p>
+<p>&lt; Use I2C2 as Slave</p>
+<p>&lt; Set up clock access to GPIOG port</p>
+<p>&lt; Initialize GPIOG for LED operation</p>
 
 </div>
 </div>

@@ -5,8 +5,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>I2C_Driver_Documentation: Inc/stm32f429xx_general.h Source File</title>
+<title>I2C Driver: Inc/stm32f429xx_general.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript">var page_layout=1;</script>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <script type="text/javascript" src="clipboard.js"></script>
@@ -26,17 +27,18 @@
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+<div id="side-nav" class="ui-resizable side-nav-resizable"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">I2C_Driver_Documentation
+   <div id="projectname">I2C Driver<span id="projectnumber">&#160;0.2</span>
    </div>
-   <div id="projectbrief">This document talks about the development of driver source code for I2C peripherals of STM32F429xx 32-bit microcontrollers</div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+ </tr>
+   <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
           <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
           <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
@@ -47,8 +49,7 @@
             <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
           </span>
         </div>
-</td>
- </tr>
+</td></tr>
  </tbody>
 </table>
 </div>
@@ -60,7 +61,6 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
 </div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
     <div id="nav-tree-contents">
       <div id="nav-sync" class="sync"></div>
@@ -101,31 +101,40 @@ $(function(){initNavTree('stm32f429xx__general_8h_source.html',''); initResizabl
   <div class="headertitle"><div class="title">stm32f429xx_general.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="stm32f429xx__general_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/*</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment"> * stm32f429xx_general.h</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment"> *</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment"> *  Created on: Feb 11, 2024</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment"> *      Author: Soumyadeep Bose</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment"> */</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<a href="stm32f429xx__general_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#ifndef STM32F429XX_GENERAL_H_</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#define STM32F429XX_GENERAL_H_</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;stm32f429xx.h&quot;</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="stm32f429xx__general_8h.html#a3a62011ea00507b10cf91c5686a25737">   14</a></span><span class="keyword">typedef</span> RCC_TypeDef <a class="code hl_typedef" href="stm32f429xx__general_8h.html#a3a62011ea00507b10cf91c5686a25737">RCC_RegAddr_t</a>;</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="stm32f429xx__general_8h.html#a51e19dcff5aaac032509a7102fd26917">   15</a></span><span class="keyword">typedef</span> GPIO_TypeDef <a class="code hl_typedef" href="stm32f429xx__general_8h.html#a51e19dcff5aaac032509a7102fd26917">GPIO_RegAddr_t</a>;</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="stm32f429xx__general_8h.html#a25c8606314cc943d21b2e264418f6808">   16</a></span><span class="keyword">typedef</span> USART_TypeDef <a class="code hl_typedef" href="stm32f429xx__general_8h.html#a25c8606314cc943d21b2e264418f6808">USART_RegAddr_t</a>;</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="stm32f429xx__general_8h.html#a9f8fc6d34271a3e1701809f9f0980e02">   17</a></span><span class="keyword">typedef</span> SPI_TypeDef <a class="code hl_typedef" href="stm32f429xx__general_8h.html#a9f8fc6d34271a3e1701809f9f0980e02">SPI_RegAddr_t</a>;</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="stm32f429xx__general_8h.html#aae0399166eb7c9e558f61287856a996c">   18</a></span><span class="keyword">typedef</span> I2C_TypeDef <a class="code hl_typedef" href="stm32f429xx__general_8h.html#aae0399166eb7c9e558f61287856a996c">I2C_RegAddr_t</a>;</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#endif </span><span class="comment">/* STM32F429XX_GENERAL_H_ */</span><span class="preprocessor"></span></div>
-<div class="ttc" id="astm32f429xx__general_8h_html_a25c8606314cc943d21b2e264418f6808"><div class="ttname"><a href="stm32f429xx__general_8h.html#a25c8606314cc943d21b2e264418f6808">USART_RegAddr_t</a></div><div class="ttdeci">USART_TypeDef USART_RegAddr_t</div><div class="ttdef"><b>Definition</b> stm32f429xx_general.h:16</div></div>
-<div class="ttc" id="astm32f429xx__general_8h_html_a3a62011ea00507b10cf91c5686a25737"><div class="ttname"><a href="stm32f429xx__general_8h.html#a3a62011ea00507b10cf91c5686a25737">RCC_RegAddr_t</a></div><div class="ttdeci">RCC_TypeDef RCC_RegAddr_t</div><div class="ttdef"><b>Definition</b> stm32f429xx_general.h:14</div></div>
-<div class="ttc" id="astm32f429xx__general_8h_html_a51e19dcff5aaac032509a7102fd26917"><div class="ttname"><a href="stm32f429xx__general_8h.html#a51e19dcff5aaac032509a7102fd26917">GPIO_RegAddr_t</a></div><div class="ttdeci">GPIO_TypeDef GPIO_RegAddr_t</div><div class="ttdef"><b>Definition</b> stm32f429xx_general.h:15</div></div>
-<div class="ttc" id="astm32f429xx__general_8h_html_a9f8fc6d34271a3e1701809f9f0980e02"><div class="ttname"><a href="stm32f429xx__general_8h.html#a9f8fc6d34271a3e1701809f9f0980e02">SPI_RegAddr_t</a></div><div class="ttdeci">SPI_TypeDef SPI_RegAddr_t</div><div class="ttdef"><b>Definition</b> stm32f429xx_general.h:17</div></div>
-<div class="ttc" id="astm32f429xx__general_8h_html_aae0399166eb7c9e558f61287856a996c"><div class="ttname"><a href="stm32f429xx__general_8h.html#aae0399166eb7c9e558f61287856a996c">I2C_RegAddr_t</a></div><div class="ttdeci">I2C_TypeDef I2C_RegAddr_t</div><div class="ttdef"><b>Definition</b> stm32f429xx_general.h:18</div></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &quot;stm32f429xx.h&quot;</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="group___defines.html#gad4d43f8748b542bce39e18790f845ecc">   24</a></span><span class="preprocessor">#define BIT0        (0x1 &lt;&lt; 0)      </span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="group___defines.html#ga601923eba46784638244c1ebf2622a2a">   25</a></span><span class="preprocessor">#define BIT1        (0x1 &lt;&lt; 1)      </span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="group___defines.html#ga9c9560bccccb00174801c728f1ed1399">   26</a></span><span class="preprocessor">#define BIT2        (0x1 &lt;&lt; 2)      </span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="group___defines.html#ga8e44574a8a8becc885b05f3bc367ef6a">   27</a></span><span class="preprocessor">#define BIT3        (0x1 &lt;&lt; 3)      </span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="group___defines.html#gaa731e0b6cf75f4e637ee88959315f5e4">   28</a></span><span class="preprocessor">#define BIT4        (0x1 &lt;&lt; 4)      </span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="group___defines.html#gae692bc3df48028ceb1ddc2534a993bb8">   29</a></span><span class="preprocessor">#define BIT5        (0x1 &lt;&lt; 5)      </span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="group___defines.html#gacc2d074401e2b6322ee8f03476c24677">   30</a></span><span class="preprocessor">#define BIT6        (0x1 &lt;&lt; 6)      </span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="group___defines.html#gaa6b8f3261ae9e2e1043380c192f7b5f0">   31</a></span><span class="preprocessor">#define BIT7        (0x1 &lt;&lt; 7)      </span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="group___defines.html#ga0e80e65237843fa1ff15c68cd78066f8">   32</a></span><span class="preprocessor">#define BIT8        (0x1 &lt;&lt; 8)      </span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="group___defines.html#ga3aa20ab5eb33383fa31b0e94f4401cdf">   33</a></span><span class="preprocessor">#define BIT9        (0x1 &lt;&lt; 9)      </span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="group___defines.html#ga8c0f01fdf020d0f7467449b181fe95cb">   34</a></span><span class="preprocessor">#define BIT10       (0x1 &lt;&lt; 10)     </span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="group___defines.html#ga2cda1debde057b596766eba6a76daca0">   35</a></span><span class="preprocessor">#define BIT11       (0x1 &lt;&lt; 11)     </span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="group___defines.html#gaaa0a6acba8436baabcaa1e91fad6c0bd">   36</a></span><span class="preprocessor">#define BIT12       (0x1 &lt;&lt; 12)     </span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="group___defines.html#ga965dc1748ab1cf91426bd04a2fe16ecf">   37</a></span><span class="preprocessor">#define BIT13       (0x1 &lt;&lt; 13)     </span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="group___defines.html#ga41e750b67eb36c8da10328c565b90dd5">   38</a></span><span class="preprocessor">#define BIT14       (0x1 &lt;&lt; 14)     </span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="group___defines.html#gae40f5db1c57c98c6db42f15e0a56f03a">   39</a></span><span class="preprocessor">#define BIT15       (0x1 &lt;&lt; 15)     </span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="group___aliases.html#ga3a62011ea00507b10cf91c5686a25737">   48</a></span><span class="keyword">typedef</span> RCC_TypeDef <a class="code hl_typedef" href="group___aliases.html#ga3a62011ea00507b10cf91c5686a25737">RCC_RegAddr_t</a>;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="group___aliases.html#ga51e19dcff5aaac032509a7102fd26917">   49</a></span><span class="keyword">typedef</span> GPIO_TypeDef <a class="code hl_typedef" href="group___aliases.html#ga51e19dcff5aaac032509a7102fd26917">GPIO_RegAddr_t</a>;</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="group___aliases.html#ga25c8606314cc943d21b2e264418f6808">   50</a></span><span class="keyword">typedef</span> USART_TypeDef <a class="code hl_typedef" href="group___aliases.html#ga25c8606314cc943d21b2e264418f6808">USART_RegAddr_t</a>;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="group___aliases.html#ga9f8fc6d34271a3e1701809f9f0980e02">   51</a></span><span class="keyword">typedef</span> SPI_TypeDef <a class="code hl_typedef" href="group___aliases.html#ga9f8fc6d34271a3e1701809f9f0980e02">SPI_RegAddr_t</a>;</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="group___aliases.html#gaae0399166eb7c9e558f61287856a996c">   52</a></span><span class="keyword">typedef</span> I2C_TypeDef <a class="code hl_typedef" href="group___aliases.html#gaae0399166eb7c9e558f61287856a996c">I2C_RegAddr_t</a>;</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="preprocessor">#endif </span><span class="comment">/* STM32F429XX_GENERAL_H_ */</span><span class="preprocessor"></span></div>
+<div class="ttc" id="agroup___aliases_html_ga25c8606314cc943d21b2e264418f6808"><div class="ttname"><a href="group___aliases.html#ga25c8606314cc943d21b2e264418f6808">USART_RegAddr_t</a></div><div class="ttdeci">USART_TypeDef USART_RegAddr_t</div><div class="ttdef"><b>Definition</b> stm32f429xx_general.h:50</div></div>
+<div class="ttc" id="agroup___aliases_html_ga3a62011ea00507b10cf91c5686a25737"><div class="ttname"><a href="group___aliases.html#ga3a62011ea00507b10cf91c5686a25737">RCC_RegAddr_t</a></div><div class="ttdeci">RCC_TypeDef RCC_RegAddr_t</div><div class="ttdef"><b>Definition</b> stm32f429xx_general.h:48</div></div>
+<div class="ttc" id="agroup___aliases_html_ga51e19dcff5aaac032509a7102fd26917"><div class="ttname"><a href="group___aliases.html#ga51e19dcff5aaac032509a7102fd26917">GPIO_RegAddr_t</a></div><div class="ttdeci">GPIO_TypeDef GPIO_RegAddr_t</div><div class="ttdef"><b>Definition</b> stm32f429xx_general.h:49</div></div>
+<div class="ttc" id="agroup___aliases_html_ga9f8fc6d34271a3e1701809f9f0980e02"><div class="ttname"><a href="group___aliases.html#ga9f8fc6d34271a3e1701809f9f0980e02">SPI_RegAddr_t</a></div><div class="ttdeci">SPI_TypeDef SPI_RegAddr_t</div><div class="ttdef"><b>Definition</b> stm32f429xx_general.h:51</div></div>
+<div class="ttc" id="agroup___aliases_html_gaae0399166eb7c9e558f61287856a996c"><div class="ttname"><a href="group___aliases.html#gaae0399166eb7c9e558f61287856a996c">I2C_RegAddr_t</a></div><div class="ttdeci">I2C_TypeDef I2C_RegAddr_t</div><div class="ttdef"><b>Definition</b> stm32f429xx_general.h:52</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

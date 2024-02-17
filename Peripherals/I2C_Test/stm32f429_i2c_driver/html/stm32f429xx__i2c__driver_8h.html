@@ -5,8 +5,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>I2C_Driver_Documentation: Inc/stm32f429xx_i2c_driver.h File Reference</title>
+<title>I2C Driver: Inc/stm32f429xx_i2c_driver.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript">var page_layout=1;</script>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <script type="text/javascript" src="clipboard.js"></script>
@@ -26,17 +27,18 @@
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+<div id="side-nav" class="ui-resizable side-nav-resizable"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">I2C_Driver_Documentation
+   <div id="projectname">I2C Driver<span id="projectnumber">&#160;0.2</span>
    </div>
-   <div id="projectbrief">This document talks about the development of driver source code for I2C peripherals of STM32F429xx 32-bit microcontrollers</div>
   </td>
-    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+ </tr>
+   <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
           <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
           <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
@@ -47,8 +49,7 @@
             <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
           </span>
         </div>
-</td>
- </tr>
+</td></tr>
  </tbody>
 </table>
 </div>
@@ -60,7 +61,6 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
 </div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
     <div id="nav-tree-contents">
       <div id="nav-sync" class="sync"></div>
@@ -100,6 +100,8 @@ $(function(){initNavTree('stm32f429xx__i2c__driver_8h.html',''); initResizable()
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#define-members">Macros</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">stm32f429xx_i2c_driver.h File Reference</div></div>
 </div><!--header-->
@@ -107,7 +109,41 @@ $(function(){initNavTree('stm32f429xx__i2c__driver_8h.html',''); initResizable()
 
 <p>Classes and API functions for driving an I2C peripheral for STM32F429xx MCUs Created on: Feb 11, 2024.  
 <a href="#details">More...</a></p>
-
+<div class="textblock"><code>#include &quot;<a class="el" href="stm32f429xx__general_8h_source.html">stm32f429xx_general.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="stm32f429xx__gpio__driver_8h_source.html">stm32f429xx_gpio_driver.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for stm32f429xx_i2c_driver.h:</div>
+<div class="dyncontent">
+<div class="center"><img src="stm32f429xx__i2c__driver_8h__incl.png" border="0" usemap="#a_inc_2stm32f429xx__i2c__driver_8h" alt=""/></div>
+<map name="a_inc_2stm32f429xx__i2c__driver_8h" id="a_inc_2stm32f429xx__i2c__driver_8h">
+<area shape="rect" title="Classes and API functions for driving an I2C peripheral for STM32F429xx MCUs Created on: Feb 11,..." alt="" coords="33,5,173,48"/>
+<area shape="rect" href="stm32f429xx__general_8h.html" title="All purpose defines and includes Created on: Feb 11, 2024." alt="" coords="15,245,170,272"/>
+<area shape="poly" title=" " alt="" coords="91,50,79,72,69,97,65,132,68,169,84,230,79,232,63,169,60,132,64,95,74,70,86,47"/>
+<area shape="rect" href="stm32f429xx__gpio__driver_8h.html" title="Classes and API functions for driving a GPIO peripheral for STM32F429xx MCUs Created on: Feb 15,..." alt="" coords="78,96,253,123"/>
+<area shape="poly" title=" " alt="" coords="121,47,148,82,144,85,117,50"/>
+<area shape="rect" title=" " alt="" coords="5,320,70,347"/>
+<area shape="poly" title=" " alt="" coords="85,274,58,309,54,306,81,271"/>
+<area shape="rect" title=" " alt="" coords="94,320,200,347"/>
+<area shape="poly" title=" " alt="" coords="104,271,130,306,126,309,100,274"/>
+<area shape="poly" title=" " alt="" coords="155,125,137,146,120,172,108,202,100,231,95,229,103,200,115,169,133,143,151,121"/>
+<area shape="rect" href="stm32f429xx__rcc__driver_8h.html" title=" " alt="" coords="129,171,298,197"/>
+<area shape="poly" title=" " alt="" coords="176,122,199,156,195,159,172,125"/>
+<area shape="poly" title=" " alt="" coords="194,200,128,239,125,235,191,196"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
+<div class="dyncontent">
+<div class="center"><img src="stm32f429xx__i2c__driver_8h__dep__incl.png" border="0" usemap="#a_inc_2stm32f429xx__i2c__driver_8hdep" alt=""/></div>
+<map name="a_inc_2stm32f429xx__i2c__driver_8hdep" id="a_inc_2stm32f429xx__i2c__driver_8hdep">
+<area shape="rect" title="Classes and API functions for driving an I2C peripheral for STM32F429xx MCUs Created on: Feb 11,..." alt="" coords="45,5,186,48"/>
+<area shape="rect" href="main_8c.html" title=": Main program body" alt="" coords="5,104,90,131"/>
+<area shape="poly" title=" " alt="" coords="93,62,59,105,55,102,88,59"/>
+<area shape="rect" href="stm32f429xx__i2c__driver_8c.html" title="Driver source code for I2C peripheral of STM32F429xx MCU Created: 15&#45;02&#45;2024." alt="" coords="113,96,257,139"/>
+<area shape="poly" title=" " alt="" coords="143,59,171,94,167,97,139,62"/>
+</map>
+</div>
+</div>
 <p><a href="stm32f429xx__i2c__driver_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
@@ -117,8 +153,27 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_i2_c___handle__t.html">I2C_Handle_t</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:gaa314cf7ad54bb5b7aac40e022704c3bb" id="r_gaa314cf7ad54bb5b7aac40e022704c3bb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___defines.html#gaa314cf7ad54bb5b7aac40e022704c3bb">I2C_DISABLE</a>&#160;&#160;&#160;(~<a class="el" href="group___defines.html#gad4d43f8748b542bce39e18790f845ecc">BIT0</a>)</td></tr>
+<tr class="separator:gaa314cf7ad54bb5b7aac40e022704c3bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1d30e026f613e2538785f28b708a8173" id="r_ga1d30e026f613e2538785f28b708a8173"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___defines.html#ga1d30e026f613e2538785f28b708a8173">I2C_SM_SPEED_LIMIT</a>&#160;&#160;&#160;(100*1000)</td></tr>
+<tr class="separator:ga1d30e026f613e2538785f28b708a8173"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf79d2f036dfdf7e9f0fe955394bce7ee" id="r_gaf79d2f036dfdf7e9f0fe955394bce7ee"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___defines.html#gaf79d2f036dfdf7e9f0fe955394bce7ee">I2C_FM_SPEED_LIMIT</a>&#160;&#160;&#160;(400*1000)</td></tr>
+<tr class="separator:gaf79d2f036dfdf7e9f0fe955394bce7ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:gadfdf854d8c5df694ffc1ee51fd01f3b9" id="r_gadfdf854d8c5df694ffc1ee51fd01f3b9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___classes.html#gadfdf854d8c5df694ffc1ee51fd01f3b9">FastMode_DutyCycle</a> { <a class="el" href="group___classes.html#ggadfdf854d8c5df694ffc1ee51fd01f3b9abc2e72cb3fa9a9cd561c55c8845083a3">PERCENT_33</a>
+, <a class="el" href="group___classes.html#ggadfdf854d8c5df694ffc1ee51fd01f3b9ad8efbec45c2c7fe076d2206c641e6be3">PERCENT_36</a>
+ }</td></tr>
+<tr class="separator:gadfdf854d8c5df694ffc1ee51fd01f3b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:gab1b217b9a85be4c9840e243bda3408e9" id="r_gab1b217b9a85be4c9840e243bda3408e9"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___functions.html#gab1b217b9a85be4c9840e243bda3408e9">GetPCLKFrequency</a> (<a class="el" href="struct_i2_c___handle__t.html">I2C_Handle_t</a> *)</td></tr>
+<tr class="memdesc:gab1b217b9a85be4c9840e243bda3408e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the clock frequency of PCLK.  <br /></td></tr>
+<tr class="separator:gab1b217b9a85be4c9840e243bda3408e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9b83058c3356c704a9c0f3cdfeff8260" id="r_ga9b83058c3356c704a9c0f3cdfeff8260"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___functions.html#ga9b83058c3356c704a9c0f3cdfeff8260">I2C_Init</a> (<a class="el" href="struct_i2_c___handle__t.html">I2C_Handle_t</a> *)</td></tr>
 <tr class="memdesc:ga9b83058c3356c704a9c0f3cdfeff8260"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the I2C peripheral module based on the SCLK frequency, Device address (if it is a slave), Acknowledgement enable, and Fast Mode Duty Cycle.  <br /></td></tr>
 <tr class="separator:ga9b83058c3356c704a9c0f3cdfeff8260"><td class="memSeparator" colspan="2">&#160;</td></tr>

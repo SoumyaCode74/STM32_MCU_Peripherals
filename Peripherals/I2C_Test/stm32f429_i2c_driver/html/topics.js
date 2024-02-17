@@ -1,4 +1,7 @@
 var topics =
 [
-    [ "I2C_Driver_Header", "d2/d8a/group___i2_c___driver___header.html", "d2/d8a/group___i2_c___driver___header" ]
+    [ "Aliases", "group___aliases.html", "group___aliases" ],
+    [ "I2C_Driver_Header", "group___i2_c___driver___header.html", "group___i2_c___driver___header" ],
+    [ "GPIO_Driver_Header", "group___g_p_i_o___driver___header.html", "group___g_p_i_o___driver___header" ],
+    [ "RCC_Driver_Header", "group___r_c_c___driver___header.html", "group___r_c_c___driver___header" ]
 ];

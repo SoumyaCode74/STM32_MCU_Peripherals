@@ -22,6 +22,7 @@
   * @{
 */
 #include "stm32f429xx_general.h"
+#include "stm32f429xx_rcc_driver.h"
 /**
  * @}
  */
@@ -40,20 +41,22 @@ typedef enum{
 	PORT_I,
 	PORT_J,
 	PORT_K
-}GPIO_Port; ///< Enum to determine which port is used
+}GPIO_Port; 								///< Enum to determine which port is used
 
 typedef struct{
-	uint8_t		Mode : 2;				///< The direction to set for the GPIO pin
-	uint8_t		OType : 1;				///< Output type: 0 - Push-pull, 1 - Open Drain
-	uint8_t		PullUpDown : 2;  		///< Push-pull
-	uint8_t		OutputSpeed : 2;		///< Speed at which output should be delivered
-	uint8_t		AlternateFunction : 4;	///< Alternate function mode value if required
-}GPIO_PinConfig_t;	///< Class defining the basic configuration to have for the GPIO port
+	uint8_t			Pin  : 4;				///< The pin to configure
+	uint8_t			Mode : 2;				///< The direction to set for the GPIO pin
+	uint8_t			OType : 1;				///< Output type: 0 - Push-pull, 1 - Open Drain
+	uint8_t			PullUpDown : 2;			///< Push-pull
+	uint8_t			OutputSpeed : 2;		///< Speed at which output should be delivered
+	uint8_t			AlternateFunction : 4;	///< Alternate function mode value if required
+}GPIO_PinConfig_t;							///< Class defining the basic configuration to have for the GPIO pin
 
 typedef struct{
-	GPIO_RegAddr_t *pGPIOx;				///< Pointer to the base address of the GPIO port needed
-	GPIO_PinConfig_t GPIO_PinConfig;	///< The PinConfig object for the basic configuration settings
-}GPIO_Handle_t;	///< Class defining the handle objects for the GPIO port to work with
+	RCC_Handle_t	*hRCC;					///< Pointer to the RCC handle created for the currently used GPIO instance
+	GPIO_RegAddr_t *pGPIOx;					///< Pointer to the base address of the GPIO port needed
+	GPIO_PinConfig_t GPIO_PinConfig;		///< The PinConfig object for the basic configuration settings
+}GPIO_Handle_t;								///< Class defining the handle objects for the GPIO port to work with
 /**
  * @}
  */
@@ -69,7 +72,7 @@ typedef struct{
   * @param  I2C_Handle_t * Pointer to instance of class I2C_Handle_t
   * @retval None
   */
-void GPIO_Init(GPIO_Handle_t * pGPIOHandle, uint8_t pin);
+void GPIO_Init(GPIO_Handle_t * pGPIOHandle);
 /**
   * @brief  De-initialize the I2C peripheral module
   * @param  I2C_Handle_t * Pointer to instance of class I2C_Handle_t
@@ -83,12 +86,12 @@ void GPIO_DeInit(GPIO_Handle_t * pGPIOHandle);
   * @param	pData			Pointer to the data byte to be sent
   * @retval None
   */
-void GPIO_ConfigureMode(GPIO_Handle_t * pGPIOHandle, uint8_t pin);
-void GPIO_ConfigureOutputType(GPIO_Handle_t * pGPIOHandle, uint8_t pin);
-void GPIO_ConfigureOutputSpeed(GPIO_Handle_t * pGPIOHandle, uint8_t pin);
-void GPIO_ConfigurePullUpDown(GPIO_Handle_t * pGPIOHandle, uint8_t pin);
-void GPIO_ConfigureAlternateFunction(GPIO_Handle_t * pGPIOHandle, uint8_t pin);
-void GPIO_Set_Bit(GPIO_Handle_t * pGPIOHandle, uint8_t pin);
+void GPIO_ConfigureMode(GPIO_Handle_t * pGPIOHandle);
+void GPIO_ConfigureOutputType(GPIO_Handle_t * pGPIOHandle);
+void GPIO_ConfigureOutputSpeed(GPIO_Handle_t * pGPIOHandle);
+void GPIO_ConfigurePullUpDown(GPIO_Handle_t * pGPIOHandle);
+void GPIO_ConfigureAlternateFunction(GPIO_Handle_t * pGPIOHandle);
+void GPIO_Set_Bit(GPIO_Handle_t * pGPIOHandle);
 /**
   * @brief  Receive the data byte from the slave
   * @param  pI2CHandle  	Pointer to the master I2C instance of class I2C_Handle_t
@@ -96,7 +99,7 @@ void GPIO_Set_Bit(GPIO_Handle_t * pGPIOHandle, uint8_t pin);
   * @param	pReceive		Pointer to the data byte where the data to receive
   * @retval None
   */
-void GPIO_Clear_Bit(GPIO_Handle_t * pGPIOHandle, uint8_t pin);
+void GPIO_Clear_Bit(GPIO_Handle_t * pGPIOHandle);
 /**
   * @brief  Transmit the data byte to the master
   * @param  pI2CHandle  	Pointer to the slave I2C instance of class I2C_Handle_t

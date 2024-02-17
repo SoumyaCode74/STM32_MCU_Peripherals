@@ -5,6 +5,22 @@
 \+: Main program body  
 
 
+{\ttfamily \#include "{}stm32f429xx\+\_\+gpio\+\_\+driver.\+h"{}}\newline
+{\ttfamily \#include "{}stm32f429xx\+\_\+rcc\+\_\+driver.\+h"{}}\newline
+{\ttfamily \#include "{}stm32f429xx\+\_\+i2c\+\_\+driver.\+h"{}}\newline
+Include dependency graph for main.\+c\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=333pt]{main_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{main_8c_a62249e384b997229a3e2ae74ade334e2}{DELAY}}~(5000\texorpdfstring{$\ast$}{*}1)
+\end{DoxyCompactItemize}
 \doxysubsubsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
@@ -25,6 +41,15 @@ Copyright (c) 2024 STMicroelectronics. All rights reserved.
 
 This software is licensed under terms that can be found in the LICENSE file in the root directory of this software component. If no LICENSE file comes with this software, it is provided AS-\/\+IS. 
 
+\doxysubsection{Macro Definition Documentation}
+\Hypertarget{main_8c_a62249e384b997229a3e2ae74ade334e2}\label{main_8c_a62249e384b997229a3e2ae74ade334e2} 
+\index{main.c@{main.c}!DELAY@{DELAY}}
+\index{DELAY@{DELAY}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{DELAY}{DELAY}}
+{\footnotesize\ttfamily \#define DELAY~(5000\texorpdfstring{$\ast$}{*}1)}
+
+
+
 \doxysubsection{Function Documentation}
 \Hypertarget{main_8c_a840291bc02cba5474a4cb46a9b9566fe}\label{main_8c_a840291bc02cba5474a4cb46a9b9566fe} 
 \index{main.c@{main.c}!main@{main}}
@@ -32,3 +57,48 @@ This software is licensed under terms that can be found in the LICENSE file in t
 \doxysubsubsection{\texorpdfstring{main()}{main()}}
 {\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
 
+\texorpdfstring{$<$}{<} Configure the RCC object handle
+
+\texorpdfstring{$<$}{<} Configure the GPIO object handle
+
+\texorpdfstring{$<$}{<} Configure the RCC object handle for I2C Master
+
+\texorpdfstring{$<$}{<} Configure the GPIO object handle for I2C Master
+
+\texorpdfstring{$<$}{<} SCL pin of I2C Master
+
+\texorpdfstring{$<$}{<} SDA pin of I2C Master
+
+\texorpdfstring{$<$}{<} Configure the I2C master object handle
+
+\texorpdfstring{$<$}{<} Set ACK to 1
+
+\texorpdfstring{$<$}{<} Set SCLK speed of master
+
+\texorpdfstring{$<$}{<} Set the duty cycle to 0 for Standard mode
+
+\texorpdfstring{$<$}{<} Use I2\+C1 as Master
+
+\texorpdfstring{$<$}{<} Configure the RCC object handle for I2C Slave
+
+\texorpdfstring{$<$}{<} Configure the GPIO object handle for I2C Slave
+
+\texorpdfstring{$<$}{<} SCL pin of I2C Slave
+
+\texorpdfstring{$<$}{<} SDA pin of I2C Slave
+
+\texorpdfstring{$<$}{<} Configure the I2C slave object handle
+
+\texorpdfstring{$<$}{<} Set ACK to 1
+
+\texorpdfstring{$<$}{<} 7-\/bit slave address
+
+\texorpdfstring{$<$}{<} Set SCLK speed of master
+
+\texorpdfstring{$<$}{<} Set the duty cycle to 0 for Standard Mode
+
+\texorpdfstring{$<$}{<} Use I2\+C2 as Slave
+
+\texorpdfstring{$<$}{<} Set up clock access to GPIOG port
+
+\texorpdfstring{$<$}{<} Initialize GPIOG for LED operation

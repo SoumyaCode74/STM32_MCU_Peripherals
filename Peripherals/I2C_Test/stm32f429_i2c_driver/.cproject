@@ -72,6 +72,9 @@
 						</toolChain>
 					</folderInfo>
 					<fileInfo id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1176109833.155372347" name="system_stm32f4xx.h" rcbsApplicability="disable" resourcePath="Drivers/system_stm32f4xx.h" toolsToInvoke=""/>
+					<fileInfo id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1176109833.1924801500" name="stm32f429xx_i2c_driver.c" rcbsApplicability="disable" resourcePath="Src/stm32f429xx_i2c_driver.c" toolsToInvoke="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.946358092.1765731616">
+						<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.946358092.1765731616" name="MCU GCC Compiler" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.946358092"/>
+					</fileInfo>
 					<sourceEntries>
 						<entry excluding="STM32F4xx_HAL_Driver" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers"/>
 						<entry excluding="system_stm32f4xx.h" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Inc"/>

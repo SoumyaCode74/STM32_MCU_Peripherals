@@ -15,9 +15,11 @@
  *
  ******************************************************************************
  */
-
-#include <stdint.h>
+#include "stm32f429xx_gpio_driver.h"
+#include "stm32f429xx_rcc_driver.h"
 #include "stm32f429xx_i2c_driver.h"
+
+#define DELAY (5000*1)
 
 #if !defined(__SOFT_FP__) && defined(__ARM_FP) && 0
   #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use."
@@ -25,10 +27,87 @@
 
 int main(void)
 {
-    /* Loop forever */
-	I2C_Handle_t hI2C_Master;
-	I2C_Handle_t hI2C_Slave;
-	hI2C_Master.pI2Cx = I2C1;
-	hI2C_Slave.pI2Cx = I2C2;
-	for(;;);
+    /*!< Configure the RCC object handle */
+	RCC_Handle_t hRCC_Led;
+	hRCC_Led.RCC_Config.bus = AHB1;
+	hRCC_Led.RCC_Config.prescaler = AHB_DIVIDE_BY_64;
+	hRCC_Led.RCC_Config.clock_source = HSI;
+	hRCC_Led.pRCC = RCC;
+	/*!< Configure the GPIO object handle */
+	GPIO_Handle_t hGPIO_Led;
+	hGPIO_Led.hRCC	 = &hRCC_Led;
+	hGPIO_Led.pGPIOx = GPIOG;
+	hGPIO_Led.GPIO_PinConfig.Pin = 13;
+	hGPIO_Led.GPIO_PinConfig.Mode = 1;
+
+	/*!< Configure the RCC object handle for I2C Master */
+	RCC_Handle_t hRCC_I2C_Master;
+	hRCC_I2C_Master.RCC_Config.bus = APB1;
+	hRCC_I2C_Master.RCC_Config.prescaler = APB1_DIVIDE_BY_1;
+	hRCC_I2C_Master.RCC_Config.clock_source = HSI;
+	hRCC_I2C_Master.pRCC = RCC;
+	/*!< Configure the GPIO object handle for I2C Master */
+	GPIO_Handle_t hGPIO_I2C_Master[2];
+	/*!< SCL pin of I2C Master */
+	hGPIO_I2C_Master[0].hRCC = &hRCC_I2C_Master;
+	hGPIO_I2C_Master[0].pGPIOx = GPIOB;
+	hGPIO_I2C_Master[0].GPIO_PinConfig.Pin = 6;
+	hGPIO_I2C_Master[0].GPIO_PinConfig.Mode = 2;
+	hGPIO_I2C_Master[0].GPIO_PinConfig.AlternateFunction = 4;
+	/*!< SDA pin of I2C Master */
+	hGPIO_I2C_Master[1].hRCC = &hRCC_I2C_Master;
+	hGPIO_I2C_Master[1].pGPIOx = GPIOB;
+	hGPIO_I2C_Master[1].GPIO_PinConfig.Pin = 7;
+	hGPIO_I2C_Master[1].GPIO_PinConfig.Mode = 2;
+	hGPIO_I2C_Master[1].GPIO_PinConfig.AlternateFunction = 4;
+	/*!< Configure the I2C master object handle */
+	I2C_Handle_t hI2CMaster;
+	hI2CMaster.hGPIO							= hGPIO_I2C_Master;
+	hI2CMaster.I2C_PinConfig.I2C_AckControl 	= 1; 			///< Set ACK to 1
+	hI2CMaster.I2C_PinConfig.I2C_SCLSpeed 		= 1000; 		///< Set SCLK speed of master
+	hI2CMaster.I2C_PinConfig.I2C_FMDutyCycle 	= 0;			///< Set the duty cycle to 0 for Standard mode
+	hI2CMaster.pI2Cx 							= I2C1;			///< Use I2C1 as Master
+
+	/*!< Configure the RCC object handle for I2C Slave */
+	RCC_Handle_t hRCC_I2C_Slave;
+	hRCC_I2C_Slave.RCC_Config.bus = APB1;
+	hRCC_I2C_Slave.RCC_Config.prescaler = APB1_DIVIDE_BY_1;
+	hRCC_I2C_Slave.RCC_Config.clock_source = HSI;
+	hRCC_I2C_Slave.pRCC = RCC;
+	/*!< Configure the GPIO object handle for I2C Slave */
+	GPIO_Handle_t hGPIO_I2C_Slave[2];
+	/*!< SCL pin of I2C Slave */
+	hGPIO_I2C_Slave[0].hRCC = &hRCC_I2C_Slave;
+	hGPIO_I2C_Slave[0].pGPIOx = GPIOB;
+	hGPIO_I2C_Slave[0].GPIO_PinConfig.Pin = 6;
+	hGPIO_I2C_Slave[0].GPIO_PinConfig.Mode = 2;
+	hGPIO_I2C_Slave[0].GPIO_PinConfig.AlternateFunction = 4;
+	/*!< SDA pin of I2C Slave */
+	hGPIO_I2C_Slave[1].hRCC = &hRCC_I2C_Slave;
+	hGPIO_I2C_Slave[1].pGPIOx = GPIOB;
+	hGPIO_I2C_Slave[1].GPIO_PinConfig.Pin = 7;
+	hGPIO_I2C_Slave[1].GPIO_PinConfig.Mode = 2;
+	hGPIO_I2C_Slave[1].GPIO_PinConfig.AlternateFunction = 4;
+
+	/*!< Configure the I2C slave object handle */
+	I2C_Handle_t hI2CSlave;
+	hI2CSlave.hGPIO								= hGPIO_I2C_Slave;
+	hI2CSlave.I2C_PinConfig.I2C_AckControl		= 1;			///< Set ACK to 1
+	hI2CSlave.I2C_PinConfig.I2C_DeviceAddress 	= 0b1010111; 	///< 7-bit slave address
+	hI2CSlave.I2C_PinConfig.I2C_SCLSpeed		= 1000;			///< Set SCLK speed of master
+	hI2CSlave.I2C_PinConfig.I2C_FMDutyCycle		= 0;			///< Set the duty cycle to 0 for Standard Mode
+	hI2CSlave.pI2Cx 							= I2C2;			///< Use I2C2 as Slave
+
+	/*!< Set up clock access to GPIOG port */
+	RCC_SetPrescaler(&hRCC_Led, hRCC_Led.RCC_Config.prescaler);
+	RCC_EnableClock(&hRCC_Led, PORT_G);
+	/*!< Initialize GPIOG for LED operation */
+	GPIO_Init(&hGPIO_Led);
+
+	for(;;){
+		GPIO_Set_Bit(&hGPIO_Led);
+		for(int i = 0; i < DELAY; i++);
+		GPIO_Clear_Bit(&hGPIO_Led);
+		for(int i = 0; i < DELAY; i++);
+	}
 }

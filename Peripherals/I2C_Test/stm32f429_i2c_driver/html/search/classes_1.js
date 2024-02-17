@@ -1,8 +1,5 @@
 var searchData=
 [
-  ['can_5ffifomailbox_5ftypedef_0',['CAN_FIFOMailBox_TypeDef',['../struct_c_a_n___f_i_f_o_mail_box___type_def.html',1,'']]],
-  ['can_5ffilterregister_5ftypedef_1',['CAN_FilterRegister_TypeDef',['../struct_c_a_n___filter_register___type_def.html',1,'']]],
-  ['can_5ftxmailbox_5ftypedef_2',['CAN_TxMailBox_TypeDef',['../struct_c_a_n___tx_mail_box___type_def.html',1,'']]],
-  ['can_5ftypedef_3',['CAN_TypeDef',['../struct_c_a_n___type_def.html',1,'']]],
-  ['crc_5ftypedef_4',['CRC_TypeDef',['../struct_c_r_c___type_def.html',1,'']]]
+  ['i2c_5fhandle_5ft_0',['I2C_Handle_t',['../struct_i2_c___handle__t.html',1,'']]],
+  ['i2c_5fpinconfig_5ft_1',['I2C_PinConfig_t',['../struct_i2_c___pin_config__t.html',1,'']]]
 ];

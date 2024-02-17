@@ -1,8 +1,37 @@
 \doxysubsection{Functions}
 \hypertarget{group___functions}{}\label{group___functions}\index{Functions@{Functions}}
+Collaboration diagram for Functions\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=280pt]{group___functions}
+\end{center}
+\end{figure}
 \doxysubsubsubsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
+void \mbox{\hyperlink{group___functions_ga214003040f1f142c43080ef8ced72b00}{GPIO\+\_\+\+Init}} (\mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+GPIOHandle)
+\begin{DoxyCompactList}\small\item\em Initialize the I2C peripheral module based on the SCLK frequency, Device address (if it is a slave), Acknowledgement enable, and Fast Mode Duty Cycle. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___functions_gac87bcc66bbf621515a2627f50e74a520}{GPIO\+\_\+\+De\+Init}} (\mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+GPIOHandle)
+\begin{DoxyCompactList}\small\item\em De-\/initialize the I2C peripheral module. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___functions_ga5418297e27ceacb605473edddb261792}{GPIO\+\_\+\+Configure\+Mode}} (\mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+GPIOHandle)
+\begin{DoxyCompactList}\small\item\em Transmit the data byte to the slave. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___functions_ga5228555df01705504acf8befb919955a}{GPIO\+\_\+\+Configure\+Output\+Type}} (\mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+GPIOHandle)
+\item 
+void \mbox{\hyperlink{group___functions_ga527cd1ffdf4974cd9b34e43eaf12ca12}{GPIO\+\_\+\+Configure\+Output\+Speed}} (\mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+GPIOHandle)
+\item 
+void \mbox{\hyperlink{group___functions_ga67e043d8a1ecbbd59cb3ea359fa71cc4}{GPIO\+\_\+\+Configure\+Pull\+Up\+Down}} (\mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+GPIOHandle)
+\item 
+void \mbox{\hyperlink{group___functions_gab07969b42ece5ed127f09fd7ef4d2c86}{GPIO\+\_\+\+Configure\+Alternate\+Function}} (\mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+GPIOHandle)
+\item 
+void \mbox{\hyperlink{group___functions_ga07edb8b4a61d4c35a57cdef56877fc5c}{GPIO\+\_\+\+Set\+\_\+\+Bit}} (\mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+GPIOHandle)
+\item 
+void \mbox{\hyperlink{group___functions_gaddc5fb1726e458acbcb3a2bf25fe2fc4}{GPIO\+\_\+\+Clear\+\_\+\+Bit}} (\mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+GPIOHandle)
+\begin{DoxyCompactList}\small\item\em Receive the data byte from the slave. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{group___functions_ga69fa9b3a9975667c753241da1d6b95a5}{GPIO\+\_\+\+Get\+\_\+\+Bit\+Value}} (\mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+GPIOHandle)
+\begin{DoxyCompactList}\small\item\em Transmit the data byte to the master. \end{DoxyCompactList}\item 
+uint32\+\_\+t \mbox{\hyperlink{group___functions_gab1b217b9a85be4c9840e243bda3408e9}{Get\+PCLKFrequency}} (\mbox{\hyperlink{struct_i2_c___handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*})
+\begin{DoxyCompactList}\small\item\em Return the clock frequency of PCLK. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{group___functions_ga9b83058c3356c704a9c0f3cdfeff8260}{I2\+C\+\_\+\+Init}} (\mbox{\hyperlink{struct_i2_c___handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*})
 \begin{DoxyCompactList}\small\item\em Initialize the I2C peripheral module based on the SCLK frequency, Device address (if it is a slave), Acknowledgement enable, and Fast Mode Duty Cycle. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{group___functions_gad34e477f4c0f4353b2b94e2e81da4731}{I2\+C\+\_\+\+De\+Init}} (\mbox{\hyperlink{struct_i2_c___handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*})
@@ -18,13 +47,195 @@ void \mbox{\hyperlink{group___functions_ga78afc3540aff2e93710b4b9c576888c7}{I2\+
 void \mbox{\hyperlink{group___functions_ga7e033efba44b5def1d7cf19e86829559}{I2\+C\+\_\+\+Error\+\_\+\+Interrupt\+\_\+\+Handler}} (\mbox{\hyperlink{struct_i2_c___handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+I2\+CHandle)
 \begin{DoxyCompactList}\small\item\em Callback function for I2C Error Interrupt handler. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{group___functions_ga656d1fe643316c70add3464dc899af02}{I2\+C\+\_\+\+Event\+\_\+\+Interrupt\+\_\+\+Handler}} (\mbox{\hyperlink{struct_i2_c___handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+I2\+CHandle)
-\begin{DoxyCompactList}\small\item\em Callback function for I2C Event Interrupt handler. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Callback function for I2C Event Interrupt handler. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___functions_ga6a838efaa43c0fd4eabcdacbb20e7f12}{RCC\+\_\+\+Enable\+Clock}} (\mbox{\hyperlink{struct_r_c_c___handle__t}{RCC\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+RCC, uint8\+\_\+t port)
+\item 
+void \mbox{\hyperlink{group___functions_ga849a86a2b1aa1629d8e523327e3a3b3c}{RCC\+\_\+\+Reset\+Clock}} (\mbox{\hyperlink{struct_r_c_c___handle__t}{RCC\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+RCC, uint8\+\_\+t port)
+\item 
+void \mbox{\hyperlink{group___functions_gac2be2c79ec733dd8b1f373a3ca22547b}{RCC\+\_\+\+Set\+Prescaler}} (\mbox{\hyperlink{struct_r_c_c___handle__t}{RCC\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+RCC, uint8\+\_\+t scaler)
+\item 
+\mbox{\hyperlink{group___classes_ga02e55ce66a310468cd5996a5769a1e77}{Clock\+Src\+\_\+t}} \mbox{\hyperlink{group___functions_ga23b00e327ddae3ac4af10494df251633}{RCC\+\_\+\+Get\+System\+Clock}} ()
+\item 
+uint16\+\_\+t \mbox{\hyperlink{group___functions_ga4e008a71d3368a20d7322cf1d7572f6c}{RCC\+\_\+\+Get\+Prescaler}} (\mbox{\hyperlink{struct_r_c_c___handle__t}{RCC\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+RCC)
+\end{DoxyCompactItemize}
 
 
 \doxysubsubsection{Detailed Description}
 
 
 \doxysubsubsection{Function Documentation}
+\Hypertarget{group___functions_gab1b217b9a85be4c9840e243bda3408e9}\label{group___functions_gab1b217b9a85be4c9840e243bda3408e9} 
+\index{Functions@{Functions}!GetPCLKFrequency@{GetPCLKFrequency}}
+\index{GetPCLKFrequency@{GetPCLKFrequency}!Functions@{Functions}}
+\doxysubsubsubsection{\texorpdfstring{GetPCLKFrequency()}{GetPCLKFrequency()}}
+{\footnotesize\ttfamily uint32\+\_\+t Get\+PCLKFrequency (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_i2_c___handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{p\+I2\+CHanlde }\end{DoxyParamCaption})}
+
+
+
+Return the clock frequency of PCLK. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \doxylink{struct_i2_c___handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} & \texorpdfstring{$\ast$}{*} Pointer to instance of class \doxylink{struct_i2_c___handle__t}{I2\+C\+\_\+\+Handle\+\_\+t} \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em Clock} & frequency of PCLK \\
+\hline
+\end{DoxyRetVals}
+\texorpdfstring{$<$}{<} First find the clock source
+
+\texorpdfstring{$<$}{<} Second, find the prescaler setting
+
+\texorpdfstring{$<$}{<} Third, calculate and return the PCLK frequency
+
+\texorpdfstring{$<$}{<} This function is not yet developed for PLL\Hypertarget{group___functions_gaddc5fb1726e458acbcb3a2bf25fe2fc4}\label{group___functions_gaddc5fb1726e458acbcb3a2bf25fe2fc4} 
+\index{Functions@{Functions}!GPIO\_Clear\_Bit@{GPIO\_Clear\_Bit}}
+\index{GPIO\_Clear\_Bit@{GPIO\_Clear\_Bit}!Functions@{Functions}}
+\doxysubsubsubsection{\texorpdfstring{GPIO\_Clear\_Bit()}{GPIO\_Clear\_Bit()}}
+{\footnotesize\ttfamily void GPIO\+\_\+\+Clear\+\_\+\+Bit (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{p\+GPIOHandle }\end{DoxyParamCaption})}
+
+
+
+Receive the data byte from the slave. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+I2\+CHandle} & Pointer to the master I2C instance of class \doxylink{struct_i2_c___handle__t}{I2\+C\+\_\+\+Handle\+\_\+t} \\
+\hline
+{\em p\+Slave\+Address} & Pointer to the slave address \\
+\hline
+{\em p\+Receive} & Pointer to the data byte where the data to receive \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\Hypertarget{group___functions_gab07969b42ece5ed127f09fd7ef4d2c86}\label{group___functions_gab07969b42ece5ed127f09fd7ef4d2c86} 
+\index{Functions@{Functions}!GPIO\_ConfigureAlternateFunction@{GPIO\_ConfigureAlternateFunction}}
+\index{GPIO\_ConfigureAlternateFunction@{GPIO\_ConfigureAlternateFunction}!Functions@{Functions}}
+\doxysubsubsubsection{\texorpdfstring{GPIO\_ConfigureAlternateFunction()}{GPIO\_ConfigureAlternateFunction()}}
+{\footnotesize\ttfamily void GPIO\+\_\+\+Configure\+Alternate\+Function (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{p\+GPIOHandle }\end{DoxyParamCaption})}
+
+\Hypertarget{group___functions_ga5418297e27ceacb605473edddb261792}\label{group___functions_ga5418297e27ceacb605473edddb261792} 
+\index{Functions@{Functions}!GPIO\_ConfigureMode@{GPIO\_ConfigureMode}}
+\index{GPIO\_ConfigureMode@{GPIO\_ConfigureMode}!Functions@{Functions}}
+\doxysubsubsubsection{\texorpdfstring{GPIO\_ConfigureMode()}{GPIO\_ConfigureMode()}}
+{\footnotesize\ttfamily void GPIO\+\_\+\+Configure\+Mode (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{p\+GPIOHandle }\end{DoxyParamCaption})}
+
+
+
+Transmit the data byte to the slave. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+I2\+CHandle} & Pointer to the master I2C instance of class \doxylink{struct_i2_c___handle__t}{I2\+C\+\_\+\+Handle\+\_\+t} \\
+\hline
+{\em p\+Slave\+Address} & Pointer to the slave address \\
+\hline
+{\em p\+Data} & Pointer to the data byte to be sent \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\Hypertarget{group___functions_ga527cd1ffdf4974cd9b34e43eaf12ca12}\label{group___functions_ga527cd1ffdf4974cd9b34e43eaf12ca12} 
+\index{Functions@{Functions}!GPIO\_ConfigureOutputSpeed@{GPIO\_ConfigureOutputSpeed}}
+\index{GPIO\_ConfigureOutputSpeed@{GPIO\_ConfigureOutputSpeed}!Functions@{Functions}}
+\doxysubsubsubsection{\texorpdfstring{GPIO\_ConfigureOutputSpeed()}{GPIO\_ConfigureOutputSpeed()}}
+{\footnotesize\ttfamily void GPIO\+\_\+\+Configure\+Output\+Speed (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{p\+GPIOHandle }\end{DoxyParamCaption})}
+
+\Hypertarget{group___functions_ga5228555df01705504acf8befb919955a}\label{group___functions_ga5228555df01705504acf8befb919955a} 
+\index{Functions@{Functions}!GPIO\_ConfigureOutputType@{GPIO\_ConfigureOutputType}}
+\index{GPIO\_ConfigureOutputType@{GPIO\_ConfigureOutputType}!Functions@{Functions}}
+\doxysubsubsubsection{\texorpdfstring{GPIO\_ConfigureOutputType()}{GPIO\_ConfigureOutputType()}}
+{\footnotesize\ttfamily void GPIO\+\_\+\+Configure\+Output\+Type (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{p\+GPIOHandle }\end{DoxyParamCaption})}
+
+\Hypertarget{group___functions_ga67e043d8a1ecbbd59cb3ea359fa71cc4}\label{group___functions_ga67e043d8a1ecbbd59cb3ea359fa71cc4} 
+\index{Functions@{Functions}!GPIO\_ConfigurePullUpDown@{GPIO\_ConfigurePullUpDown}}
+\index{GPIO\_ConfigurePullUpDown@{GPIO\_ConfigurePullUpDown}!Functions@{Functions}}
+\doxysubsubsubsection{\texorpdfstring{GPIO\_ConfigurePullUpDown()}{GPIO\_ConfigurePullUpDown()}}
+{\footnotesize\ttfamily void GPIO\+\_\+\+Configure\+Pull\+Up\+Down (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{p\+GPIOHandle }\end{DoxyParamCaption})}
+
+\Hypertarget{group___functions_gac87bcc66bbf621515a2627f50e74a520}\label{group___functions_gac87bcc66bbf621515a2627f50e74a520} 
+\index{Functions@{Functions}!GPIO\_DeInit@{GPIO\_DeInit}}
+\index{GPIO\_DeInit@{GPIO\_DeInit}!Functions@{Functions}}
+\doxysubsubsubsection{\texorpdfstring{GPIO\_DeInit()}{GPIO\_DeInit()}}
+{\footnotesize\ttfamily void GPIO\+\_\+\+De\+Init (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{p\+GPIOHandle }\end{DoxyParamCaption})}
+
+
+
+De-\/initialize the I2C peripheral module. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \doxylink{struct_i2_c___handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} & \texorpdfstring{$\ast$}{*} Pointer to instance of class \doxylink{struct_i2_c___handle__t}{I2\+C\+\_\+\+Handle\+\_\+t} \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\Hypertarget{group___functions_ga69fa9b3a9975667c753241da1d6b95a5}\label{group___functions_ga69fa9b3a9975667c753241da1d6b95a5} 
+\index{Functions@{Functions}!GPIO\_Get\_BitValue@{GPIO\_Get\_BitValue}}
+\index{GPIO\_Get\_BitValue@{GPIO\_Get\_BitValue}!Functions@{Functions}}
+\doxysubsubsubsection{\texorpdfstring{GPIO\_Get\_BitValue()}{GPIO\_Get\_BitValue()}}
+{\footnotesize\ttfamily uint8\+\_\+t GPIO\+\_\+\+Get\+\_\+\+Bit\+Value (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{p\+GPIOHandle }\end{DoxyParamCaption})}
+
+
+
+Transmit the data byte to the master. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\+I2\+CHandle} & Pointer to the slave I2C instance of class \doxylink{struct_i2_c___handle__t}{I2\+C\+\_\+\+Handle\+\_\+t} \\
+\hline
+{\em p\+Data} & Pointer to the data byte to be sent \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\Hypertarget{group___functions_ga214003040f1f142c43080ef8ced72b00}\label{group___functions_ga214003040f1f142c43080ef8ced72b00} 
+\index{Functions@{Functions}!GPIO\_Init@{GPIO\_Init}}
+\index{GPIO\_Init@{GPIO\_Init}!Functions@{Functions}}
+\doxysubsubsubsection{\texorpdfstring{GPIO\_Init()}{GPIO\_Init()}}
+{\footnotesize\ttfamily void GPIO\+\_\+\+Init (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{p\+GPIOHandle }\end{DoxyParamCaption})}
+
+
+
+Initialize the I2C peripheral module based on the SCLK frequency, Device address (if it is a slave), Acknowledgement enable, and Fast Mode Duty Cycle. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \doxylink{struct_i2_c___handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} & \texorpdfstring{$\ast$}{*} Pointer to instance of class \doxylink{struct_i2_c___handle__t}{I2\+C\+\_\+\+Handle\+\_\+t} \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\texorpdfstring{$<$}{<} Determine which port is passed to this function
+
+\texorpdfstring{$<$}{<} Set mode of GPIO pin
+
+\texorpdfstring{$<$}{<} Set pin to pull-\/up
+
+\texorpdfstring{$<$}{<} Set pin to alternate function mode if mode is set to be\Hypertarget{group___functions_ga07edb8b4a61d4c35a57cdef56877fc5c}\label{group___functions_ga07edb8b4a61d4c35a57cdef56877fc5c} 
+\index{Functions@{Functions}!GPIO\_Set\_Bit@{GPIO\_Set\_Bit}}
+\index{GPIO\_Set\_Bit@{GPIO\_Set\_Bit}!Functions@{Functions}}
+\doxysubsubsubsection{\texorpdfstring{GPIO\_Set\_Bit()}{GPIO\_Set\_Bit()}}
+{\footnotesize\ttfamily void GPIO\+\_\+\+Set\+\_\+\+Bit (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{p\+GPIOHandle }\end{DoxyParamCaption})}
+
 \Hypertarget{group___functions_gad34e477f4c0f4353b2b94e2e81da4731}\label{group___functions_gad34e477f4c0f4353b2b94e2e81da4731} 
 \index{Functions@{Functions}!I2C\_DeInit@{I2C\_DeInit}}
 \index{I2C\_DeInit@{I2C\_DeInit}!Functions@{Functions}}
@@ -89,7 +300,7 @@ Callback function for I2C Event Interrupt handler.
 \index{Functions@{Functions}!I2C\_Init@{I2C\_Init}}
 \index{I2C\_Init@{I2C\_Init}!Functions@{Functions}}
 \doxysubsubsubsection{\texorpdfstring{I2C\_Init()}{I2C\_Init()}}
-{\footnotesize\ttfamily void I2\+C\+\_\+\+Init (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_i2_c___handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{ }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily void I2\+C\+\_\+\+Init (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_i2_c___handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{p\+I2\+CHandle }\end{DoxyParamCaption})}
 
 
 
@@ -105,7 +316,23 @@ Initialize the I2C peripheral module based on the SCLK frequency, Device address
 {\em None} & \\
 \hline
 \end{DoxyRetVals}
-\Hypertarget{group___functions_ga2c652fec1139e8a2f22706fcf4e8a97c}\label{group___functions_ga2c652fec1139e8a2f22706fcf4e8a97c} 
+\texorpdfstring{$<$}{<} Variable to store the PCLK source
+
+\texorpdfstring{$<$}{<} Variable to store the SCLK speed setting to FREQ bits of CR2 register
+
+\texorpdfstring{$<$}{<} Variable to store the CCR value to write to the CCR bits of CCR register
+
+\texorpdfstring{$<$}{<} Variable to store the current configured PCLK frequency
+
+\texorpdfstring{$<$}{<} Disable the I2C peripheral
+
+\texorpdfstring{$<$}{<} Configure the mode (Standard or Fast)
+
+\texorpdfstring{$<$}{<} Configure the device address (if the device is slave)
+
+\texorpdfstring{$<$}{<} Enable the Acking
+
+\texorpdfstring{$<$}{<} Configure the rise time for I2C pins\Hypertarget{group___functions_ga2c652fec1139e8a2f22706fcf4e8a97c}\label{group___functions_ga2c652fec1139e8a2f22706fcf4e8a97c} 
 \index{Functions@{Functions}!I2C\_MasterReceiveData@{I2C\_MasterReceiveData}}
 \index{I2C\_MasterReceiveData@{I2C\_MasterReceiveData}!Functions@{Functions}}
 \doxysubsubsubsection{\texorpdfstring{I2C\_MasterReceiveData()}{I2C\_MasterReceiveData()}}
@@ -197,3 +424,38 @@ Transmit the data byte to the master.
 {\em None} & \\
 \hline
 \end{DoxyRetVals}
+\Hypertarget{group___functions_ga6a838efaa43c0fd4eabcdacbb20e7f12}\label{group___functions_ga6a838efaa43c0fd4eabcdacbb20e7f12} 
+\index{Functions@{Functions}!RCC\_EnableClock@{RCC\_EnableClock}}
+\index{RCC\_EnableClock@{RCC\_EnableClock}!Functions@{Functions}}
+\doxysubsubsubsection{\texorpdfstring{RCC\_EnableClock()}{RCC\_EnableClock()}}
+{\footnotesize\ttfamily void RCC\+\_\+\+Enable\+Clock (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_r_c_c___handle__t}{RCC\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{p\+RCC,  }\item[{uint8\+\_\+t}]{port }\end{DoxyParamCaption})}
+
+\texorpdfstring{$<$}{<} Obtain the address of the AHB1\+ENR
+
+\texorpdfstring{$<$}{<} Configure the ENR of the required bus using the address of AHB1\+ENR and offset\Hypertarget{group___functions_ga4e008a71d3368a20d7322cf1d7572f6c}\label{group___functions_ga4e008a71d3368a20d7322cf1d7572f6c} 
+\index{Functions@{Functions}!RCC\_GetPrescaler@{RCC\_GetPrescaler}}
+\index{RCC\_GetPrescaler@{RCC\_GetPrescaler}!Functions@{Functions}}
+\doxysubsubsubsection{\texorpdfstring{RCC\_GetPrescaler()}{RCC\_GetPrescaler()}}
+{\footnotesize\ttfamily uint16\+\_\+t RCC\+\_\+\+Get\+Prescaler (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_r_c_c___handle__t}{RCC\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{p\+RCC }\end{DoxyParamCaption})}
+
+\texorpdfstring{$<$}{<} Obtain whether clock bus is AHB category\Hypertarget{group___functions_ga23b00e327ddae3ac4af10494df251633}\label{group___functions_ga23b00e327ddae3ac4af10494df251633} 
+\index{Functions@{Functions}!RCC\_GetSystemClock@{RCC\_GetSystemClock}}
+\index{RCC\_GetSystemClock@{RCC\_GetSystemClock}!Functions@{Functions}}
+\doxysubsubsubsection{\texorpdfstring{RCC\_GetSystemClock()}{RCC\_GetSystemClock()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{group___classes_ga02e55ce66a310468cd5996a5769a1e77}{Clock\+Src\+\_\+t}} RCC\+\_\+\+Get\+System\+Clock (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\Hypertarget{group___functions_ga849a86a2b1aa1629d8e523327e3a3b3c}\label{group___functions_ga849a86a2b1aa1629d8e523327e3a3b3c} 
+\index{Functions@{Functions}!RCC\_ResetClock@{RCC\_ResetClock}}
+\index{RCC\_ResetClock@{RCC\_ResetClock}!Functions@{Functions}}
+\doxysubsubsubsection{\texorpdfstring{RCC\_ResetClock()}{RCC\_ResetClock()}}
+{\footnotesize\ttfamily void RCC\+\_\+\+Reset\+Clock (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_r_c_c___handle__t}{RCC\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{p\+RCC,  }\item[{uint8\+\_\+t}]{port }\end{DoxyParamCaption})}
+
+\texorpdfstring{$<$}{<} Obtain the address of the AHB1\+RST
+
+\texorpdfstring{$<$}{<} Configure the RST of the required bus using the address of AHB1\+ENR and offset\Hypertarget{group___functions_gac2be2c79ec733dd8b1f373a3ca22547b}\label{group___functions_gac2be2c79ec733dd8b1f373a3ca22547b} 
+\index{Functions@{Functions}!RCC\_SetPrescaler@{RCC\_SetPrescaler}}
+\index{RCC\_SetPrescaler@{RCC\_SetPrescaler}!Functions@{Functions}}
+\doxysubsubsubsection{\texorpdfstring{RCC\_SetPrescaler()}{RCC\_SetPrescaler()}}
+{\footnotesize\ttfamily void RCC\+\_\+\+Set\+Prescaler (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_r_c_c___handle__t}{RCC\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{p\+RCC,  }\item[{uint8\+\_\+t}]{scaler }\end{DoxyParamCaption})}
+
+\texorpdfstring{$<$}{<} Obtain whether clock bus is AHB category

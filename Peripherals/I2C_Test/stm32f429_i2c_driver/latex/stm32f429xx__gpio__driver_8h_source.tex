@@ -1,0 +1,51 @@
+\doxysection{stm32f429xx\+\_\+gpio\+\_\+driver.\+h}
+\hypertarget{stm32f429xx__gpio__driver_8h_source}{}\label{stm32f429xx__gpio__driver_8h_source}\index{Inc/stm32f429xx\_gpio\_driver.h@{Inc/stm32f429xx\_gpio\_driver.h}}
+\mbox{\hyperlink{stm32f429xx__gpio__driver_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00018\ \textcolor{preprocessor}{\#ifndef\ STM32F429XX\_GPIO\_DRIVER\_H\_}}
+\DoxyCodeLine{00019\ \textcolor{preprocessor}{\#define\ STM32F429XX\_GPIO\_DRIVER\_H\_}}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00024\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{stm32f429xx__general_8h}{stm32f429xx\_general.h}}"{}}}
+\DoxyCodeLine{00025\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{stm32f429xx__rcc__driver_8h}{stm32f429xx\_rcc\_driver.h}}"{}}}
+\DoxyCodeLine{00032\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{enum}\{}
+\DoxyCodeLine{00033\ \ \ \ \ \mbox{\hyperlink{group___classes_ggaf164c756418dde00ac07fd47d0962150aeb6782d9dfedf3c6a78ffdb1624fa454}{PORT\_A}},}
+\DoxyCodeLine{00034\ \ \ \ \ \mbox{\hyperlink{group___classes_ggaf164c756418dde00ac07fd47d0962150a16ada472d473fbd0207b99e9e4d68f4a}{PORT\_B}},}
+\DoxyCodeLine{00035\ \ \ \ \ \mbox{\hyperlink{group___classes_ggaf164c756418dde00ac07fd47d0962150a627cc690c37f97527dd2f07aa22092d9}{PORT\_C}},}
+\DoxyCodeLine{00036\ \ \ \ \ \mbox{\hyperlink{group___classes_ggaf164c756418dde00ac07fd47d0962150af7242fe75227a46a190645663f91ce69}{PORT\_D}},}
+\DoxyCodeLine{00037\ \ \ \ \ \mbox{\hyperlink{group___classes_ggaf164c756418dde00ac07fd47d0962150abad63f022d1fa37a66f87dc31a78f6a9}{PORT\_E}},}
+\DoxyCodeLine{00038\ \ \ \ \ \mbox{\hyperlink{group___classes_ggaf164c756418dde00ac07fd47d0962150aa3760b302740c7d09c93ec7a634f837c}{PORT\_F}},}
+\DoxyCodeLine{00039\ \ \ \ \ \mbox{\hyperlink{group___classes_ggaf164c756418dde00ac07fd47d0962150a48afb424254d52e7d97a7c1428f5aafa}{PORT\_G}},}
+\DoxyCodeLine{00040\ \ \ \ \ \mbox{\hyperlink{group___classes_ggaf164c756418dde00ac07fd47d0962150a31d1ae08c10668d936d1c2c6426c1c47}{PORT\_H}},}
+\DoxyCodeLine{00041\ \ \ \ \ \mbox{\hyperlink{group___classes_ggaf164c756418dde00ac07fd47d0962150aa4ce4b10b97f03ad33c276d87ccef088}{PORT\_I}},}
+\DoxyCodeLine{00042\ \ \ \ \ \mbox{\hyperlink{group___classes_ggaf164c756418dde00ac07fd47d0962150a3eea70262d530701087c2a3a09c475fe}{PORT\_J}},}
+\DoxyCodeLine{00043\ \ \ \ \ \mbox{\hyperlink{group___classes_ggaf164c756418dde00ac07fd47d0962150a23bae6dc45cdca7c90be62437df0f454}{PORT\_K}}}
+\DoxyCodeLine{00044\ \}\mbox{\hyperlink{group___classes_gaf164c756418dde00ac07fd47d0962150}{GPIO\_Port}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00045\ }
+\DoxyCodeLine{00046\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct}\{}
+\DoxyCodeLine{00047\ \ \ \ \ uint8\_t\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{group___g_p_i_o___driver___header_ga7838ca04e2ceba1a5895ec493e0e10d1}{Pin}}\ \ :\ 4;\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00048\ \ \ \ \ uint8\_t\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{group___g_p_i_o___driver___header_gaf582963784931a387bdb2a31c93f07e5}{Mode}}\ :\ 2;\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00049\ \ \ \ \ uint8\_t\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{group___g_p_i_o___driver___header_gaa8937a8eabf2358fc8a38c8f67fa98cc}{OType}}\ :\ 1;\ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00050\ \ \ \ \ uint8\_t\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{group___g_p_i_o___driver___header_gaa856c1501c06fc5c78a28071e78b53cf}{PullUpDown}}\ :\ 2;\ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00051\ \ \ \ \ uint8\_t\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{group___g_p_i_o___driver___header_ga3aa707ffa633fad03774a3df9b18e411}{OutputSpeed}}\ :\ 2;\ \ \ \ \ }
+\DoxyCodeLine{00052\ \ \ \ \ uint8\_t\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{group___g_p_i_o___driver___header_gace2ebe1b2201b762cab0bf7f821786e2}{AlternateFunction}}\ :\ 4;\ }
+\DoxyCodeLine{00053\ \}\mbox{\hyperlink{struct_g_p_i_o___pin_config__t}{GPIO\_PinConfig\_t}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00054\ }
+\DoxyCodeLine{00055\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct}\{}
+\DoxyCodeLine{00056\ \ \ \ \ \mbox{\hyperlink{struct_r_c_c___handle__t}{RCC\_Handle\_t}}\ \ \ \ *\mbox{\hyperlink{group___g_p_i_o___driver___header_ga5b86a2cea7bc03294663058283fbb740}{hRCC}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00057\ \ \ \ \ \mbox{\hyperlink{group___aliases_ga51e19dcff5aaac032509a7102fd26917}{GPIO\_RegAddr\_t}}\ *\mbox{\hyperlink{group___g_p_i_o___driver___header_gab2c22aa8e429496a1822328b7078984c}{pGPIOx}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00058\ \ \ \ \ \mbox{\hyperlink{struct_g_p_i_o___pin_config__t}{GPIO\_PinConfig\_t}}\ \mbox{\hyperlink{group___g_p_i_o___driver___header_ga33cefa400df9fdae0bbfd207a3d53551}{GPIO\_PinConfig}};\ \ \ \ \ \ }
+\DoxyCodeLine{00059\ \}\mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\_Handle\_t}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00075\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___functions_ga214003040f1f142c43080ef8ced72b00}{GPIO\_Init}}(\mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\_Handle\_t}}\ *\ pGPIOHandle);}
+\DoxyCodeLine{00081\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___functions_gac87bcc66bbf621515a2627f50e74a520}{GPIO\_DeInit}}(\mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\_Handle\_t}}\ *\ pGPIOHandle);}
+\DoxyCodeLine{00089\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___functions_ga5418297e27ceacb605473edddb261792}{GPIO\_ConfigureMode}}(\mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\_Handle\_t}}\ *\ pGPIOHandle);}
+\DoxyCodeLine{00090\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___functions_ga5228555df01705504acf8befb919955a}{GPIO\_ConfigureOutputType}}(\mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\_Handle\_t}}\ *\ pGPIOHandle);}
+\DoxyCodeLine{00091\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___functions_ga527cd1ffdf4974cd9b34e43eaf12ca12}{GPIO\_ConfigureOutputSpeed}}(\mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\_Handle\_t}}\ *\ pGPIOHandle);}
+\DoxyCodeLine{00092\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___functions_ga67e043d8a1ecbbd59cb3ea359fa71cc4}{GPIO\_ConfigurePullUpDown}}(\mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\_Handle\_t}}\ *\ pGPIOHandle);}
+\DoxyCodeLine{00093\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___functions_gab07969b42ece5ed127f09fd7ef4d2c86}{GPIO\_ConfigureAlternateFunction}}(\mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\_Handle\_t}}\ *\ pGPIOHandle);}
+\DoxyCodeLine{00094\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___functions_ga07edb8b4a61d4c35a57cdef56877fc5c}{GPIO\_Set\_Bit}}(\mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\_Handle\_t}}\ *\ pGPIOHandle);}
+\DoxyCodeLine{00102\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___functions_gaddc5fb1726e458acbcb3a2bf25fe2fc4}{GPIO\_Clear\_Bit}}(\mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\_Handle\_t}}\ *\ pGPIOHandle);}
+\DoxyCodeLine{00109\ uint8\_t\ \mbox{\hyperlink{group___functions_ga69fa9b3a9975667c753241da1d6b95a5}{GPIO\_Get\_BitValue}}(\mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\_Handle\_t}}\ *\ pGPIOHandle);}
+\DoxyCodeLine{00119\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ STM32F429XX\_I2C\_DRIVER\_H\_\ */}\textcolor{preprocessor}{}}
+
+\end{DoxyCode}

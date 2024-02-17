@@ -1,0 +1,17 @@
+<map id="Src/stm32f429xx_i2c_driver.c" name="Src/stm32f429xx_i2c_driver.c">
+<area shape="rect" id="Node000001" title="Driver source code for I2C peripheral of STM32F429xx MCU Created: 15&#45;02&#45;2024." alt="" coords="31,5,175,48"/>
+<area shape="rect" id="Node000002" href="$stm32f429xx__i2c__driver_8h.html" title="Classes and API functions for driving an I2C peripheral for STM32F429xx MCUs Created on: Feb 11,..." alt="" coords="19,96,187,123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,49,106,80,100,80,100,49"/>
+<area shape="rect" id="Node000003" href="$stm32f429xx__general_8h.html" title="All purpose defines and includes Created on: Feb 11, 2024." alt="" coords="15,320,170,347"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="95,125,81,146,69,171,65,207,67,243,84,305,79,306,62,244,59,207,64,170,76,143,90,122"/>
+<area shape="rect" id="Node000006" href="$stm32f429xx__gpio__driver_8h.html" title="Classes and API functions for driving a GPIO peripheral for STM32F429xx MCUs Created on: Feb 15,..." alt="" coords="78,171,253,197"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="116,121,147,157,143,161,112,125"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,395,70,421"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="85,349,58,384,54,380,81,346"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="94,395,200,421"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="104,346,130,380,126,384,100,349"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="155,199,137,221,120,247,108,276,100,305,95,304,103,275,115,244,133,217,151,196"/>
+<area shape="rect" id="Node000007" href="$stm32f429xx__rcc__driver_8h.html" title=" " alt="" coords="129,245,298,272"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="176,196,199,231,195,234,172,199"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="194,275,128,314,125,309,191,270"/>
+</map>

@@ -7,7 +7,7 @@
  ****************************************************************************
  */
 
-/** @addtogroup I2C_Driver_Header
+/** @defgroup I2C_Driver_Header
   * @{
   */
 /**
@@ -18,14 +18,25 @@
 #ifndef STM32F429XX_I2C_DRIVER_H_
 #define STM32F429XX_I2C_DRIVER_H_
 
-/** @addtogroup Includes
+/** @defgroup Includes
   * @{
 */
 #include "stm32f429xx_general.h"
+#include "stm32f429xx_gpio_driver.h"
 /**
  * @}
  */
-/** @addtogroup Classes
+/**
+ * @defgroup Defines
+ * @{
+ */
+#define I2C_DISABLE			(~BIT0)
+#define I2C_SM_SPEED_LIMIT	(100*1000)
+#define I2C_FM_SPEED_LIMIT	(400*1000)
+/**
+ * @}
+ */
+/** @defgroup Classes
  * @{
  */
 typedef struct{
@@ -33,21 +44,33 @@ typedef struct{
 	uint8_t		I2C_DeviceAddress;  	///< The 7-bit device address to configure, if it's a slave device
 	uint8_t		I2C_AckControl : 1;		///< The acknowledgement bit: 0 for No ACK, 1 for ACK, from slave
 	uint8_t		I2C_FMDutyCycle : 3;	///< The duty cycle setting for Fast mode communication
-}I2C_PinConfig_t;	///< Class defining the basic configuration to have for the I2C peripheral
+}I2C_PinConfig_t;						///< Class defining the basic configuration to have for the I2C peripheral
 
 typedef struct{
-	I2C_RegAddr_t *pI2Cx;				///< Pointer to the base address of the I2C peripheral needed
+	GPIO_Handle_t	*hGPIO;				///< Pointer to the GPIO handle created for the currently used I2C instance
+	I2C_RegAddr_t 	*pI2Cx;				///< Pointer to the base address of the I2C peripheral needed
 	I2C_PinConfig_t I2C_PinConfig;		///< The PinConfig object for the basic configuration settings
-}I2C_Handle_t;	///< Class defining the handle objects for the I2C peripheral to work with
+}I2C_Handle_t;							///< Class defining the handle objects for the I2C peripheral to work with
+
+typedef enum{
+	PERCENT_33,
+	PERCENT_36
+}FastMode_DutyCycle;
 /**
  * @}
  */
 
 /**
- * @addtogroup Functions
+ * @defgroup Functions
  * @{
  */
 
+/**
+  * @brief  Return the clock frequency of PCLK
+  * @param  I2C_Handle_t * Pointer to instance of class I2C_Handle_t
+  * @retval Clock frequency of PCLK
+  */
+uint32_t GetPCLKFrequency(I2C_Handle_t *);
 /**
   * @brief  Initialize the I2C peripheral module based on the SCLK frequency,
   *         Device address (if it is a slave), Acknowledgement enable, and Fast Mode Duty Cycle

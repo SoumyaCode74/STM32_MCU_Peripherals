@@ -1,0 +1,15 @@
+<map id="Inc/stm32f429xx_i2c_driver.h" name="Inc/stm32f429xx_i2c_driver.h">
+<area shape="rect" id="Node000001" title="Classes and API functions for driving an I2C peripheral for STM32F429xx MCUs Created on: Feb 11,..." alt="" coords="33,5,173,48"/>
+<area shape="rect" id="Node000002" href="$stm32f429xx__general_8h.html" title="All purpose defines and includes Created on: Feb 11, 2024." alt="" coords="15,245,170,272"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,50,79,72,69,97,65,132,68,169,84,230,79,232,63,169,60,132,64,95,74,70,86,47"/>
+<area shape="rect" id="Node000005" href="$stm32f429xx__gpio__driver_8h.html" title="Classes and API functions for driving a GPIO peripheral for STM32F429xx MCUs Created on: Feb 15,..." alt="" coords="78,96,253,123"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="121,47,148,82,144,85,117,50"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,320,70,347"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="85,274,58,309,54,306,81,271"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="94,320,200,347"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="104,271,130,306,126,309,100,274"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="155,125,137,146,120,172,108,202,100,231,95,229,103,200,115,169,133,143,151,121"/>
+<area shape="rect" id="Node000006" href="$stm32f429xx__rcc__driver_8h.html" title=" " alt="" coords="129,171,298,197"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="176,122,199,156,195,159,172,125"/>
+<area shape="poly" id="edge7_Node000006_Node000002" title=" " alt="" coords="194,200,128,239,125,235,191,196"/>
+</map>

@@ -1,0 +1,5 @@
+../Src/stm32f429xx_rcc_driver.c:8:6:RCC_EnableClock	24	static
+../Src/stm32f429xx_rcc_driver.c:12:6:RCC_ResetClock	24	static
+../Src/stm32f429xx_rcc_driver.c:17:6:RCC_SetPrescaler	24	static
+../Src/stm32f429xx_rcc_driver.c:33:12:RCC_GetSystemClock	16	static
+../Src/stm32f429xx_rcc_driver.c:36:10:RCC_GetPrescaler	24	static

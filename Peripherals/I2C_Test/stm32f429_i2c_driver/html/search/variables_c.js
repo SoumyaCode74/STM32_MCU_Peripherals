@@ -38,6 +38,7 @@ var searchData=
   ['mmctgfsccr_35',['MMCTGFSCCR',['../struct_e_t_h___type_def.html#a1b55806b0e28cc18316cb1b9350aab2c',1,'ETH_TypeDef']]],
   ['mmctimr_36',['MMCTIMR',['../struct_e_t_h___type_def.html#acbe0f472d72f011c5903806d12c4e086',1,'ETH_TypeDef']]],
   ['mmctir_37',['MMCTIR',['../struct_e_t_h___type_def.html#aa417b3dbd6f2bd86562b6a09f51d97ac',1,'ETH_TypeDef']]],
-  ['moder_38',['MODER',['../struct_g_p_i_o___type_def.html#ac2505d096b6b650f1647b8e0ff8b196b',1,'GPIO_TypeDef']]],
-  ['msr_39',['MSR',['../struct_c_a_n___type_def.html#af98b957a4e887751fbd407d3e2cf93b5',1,'CAN_TypeDef']]]
+  ['mode_38',['Mode',['../group___g_p_i_o___driver___header.html#gaf582963784931a387bdb2a31c93f07e5',1,'GPIO_PinConfig_t']]],
+  ['moder_39',['MODER',['../struct_g_p_i_o___type_def.html#ac2505d096b6b650f1647b8e0ff8b196b',1,'GPIO_TypeDef']]],
+  ['msr_40',['MSR',['../struct_c_a_n___type_def.html#af98b957a4e887751fbd407d3e2cf93b5',1,'CAN_TypeDef']]]
 ];

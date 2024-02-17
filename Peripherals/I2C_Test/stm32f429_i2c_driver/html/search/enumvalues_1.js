@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['busfault_5firqn_0',['BusFault_IRQn',['../group___peripheral__interrupt__number__definition.html#gga7e1129cd8a196f4284d41db3e82ad5c8a8693500eff174f16119e96234fee73af',1,'stm32f429xx.h']]]
+  ['hse_0',['HSE',['../group___classes.html#gga02e55ce66a310468cd5996a5769a1e77a744bf841212e605b891f8ced6e20eb43',1,'stm32f429xx_rcc_driver.h']]],
+  ['hsi_1',['HSI',['../group___classes.html#gga02e55ce66a310468cd5996a5769a1e77aae2bb333077d91b3c2aa75978f89e084',1,'stm32f429xx_rcc_driver.h']]]
 ];

@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxyfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="doxyfile.xsd" version="1.10.0" xml:lang="en-US">
   <option  id='DOXYFILE_ENCODING' default='yes' type='string'><value><![CDATA[UTF-8]]></value></option>
-  <option  id='PROJECT_NAME' default='yes' type='string'><value><![CDATA["My Project"]]></value></option>
-  <option  id='PROJECT_NUMBER' default='yes' type='string'><value><![CDATA[]]></value></option>
-  <option  id='PROJECT_BRIEF' default='yes' type='string'><value><![CDATA[]]></value></option>
+  <option  id='PROJECT_NAME' default='no' type='string'><value><![CDATA["I2C Driver"]]></value></option>
+  <option  id='PROJECT_NUMBER' default='no' type='string'><value><![CDATA[0.1]]></value></option>
+  <option  id='PROJECT_BRIEF' default='no' type='string'><value><![CDATA["This document talks about the development of driver source code for I2C peripherals of STM32F429xx 32-bit microcontrollers. By Soumyadeep Bose"]]></value></option>
   <option  id='PROJECT_LOGO' default='yes' type='string'><value><![CDATA[]]></value></option>
   <option  id='PROJECT_ICON' default='yes' type='string'><value><![CDATA[]]></value></option>
   <option  id='OUTPUT_DIRECTORY' default='yes' type='string'><value><![CDATA[]]></value></option>
-  <option  id='CREATE_SUBDIRS' default='yes' type='bool'><value>NO</value></option>
+  <option  id='CREATE_SUBDIRS' default='no' type='bool'><value>YES</value></option>
   <option  id='CREATE_SUBDIRS_LEVEL' default='yes' type='int'><value>8</value></option>
   <option  id='ALLOW_UNICODE_NAMES' default='yes' type='bool'><value>NO</value></option>
   <option  id='OUTPUT_LANGUAGE' default='yes' type='string'><value>English</value></option>
@@ -67,7 +67,7 @@
   <option  id='TYPEDEF_HIDES_STRUCT' default='yes' type='bool'><value>NO</value></option>
   <option  id='LOOKUP_CACHE_SIZE' default='yes' type='int'><value>0</value></option>
   <option  id='NUM_PROC_THREADS' default='yes' type='int'><value>1</value></option>
-  <option  id='TIMESTAMP' default='yes' type='string'><value>NO</value></option>
+  <option  id='TIMESTAMP' default='no' type='string'><value>DATETIME</value></option>
   <option  id='EXTRACT_ALL' default='no' type='bool'><value>YES</value></option>
   <option  id='EXTRACT_PRIVATE' default='yes' type='bool'><value>NO</value></option>
   <option  id='EXTRACT_PRIV_VIRTUAL' default='yes' type='bool'><value>NO</value></option>
@@ -96,10 +96,10 @@
   <option  id='SORT_GROUP_NAMES' default='yes' type='bool'><value>NO</value></option>
   <option  id='SORT_BY_SCOPE_NAME' default='yes' type='bool'><value>NO</value></option>
   <option  id='STRICT_PROTO_MATCHING' default='yes' type='bool'><value>NO</value></option>
-  <option  id='GENERATE_TODOLIST' default='yes' type='bool'><value>YES</value></option>
-  <option  id='GENERATE_TESTLIST' default='yes' type='bool'><value>YES</value></option>
-  <option  id='GENERATE_BUGLIST' default='yes' type='bool'><value>YES</value></option>
-  <option  id='GENERATE_DEPRECATEDLIST' default='yes' type='bool'><value>YES</value></option>
+  <option  id='GENERATE_TODOLIST' default='no' type='bool'><value>NO</value></option>
+  <option  id='GENERATE_TESTLIST' default='no' type='bool'><value>NO</value></option>
+  <option  id='GENERATE_BUGLIST' default='no' type='bool'><value>NO</value></option>
+  <option  id='GENERATE_DEPRECATEDLIST' default='no' type='bool'><value>NO</value></option>
   <option  id='ENABLED_SECTIONS' default='yes' type='stringlist'>
   </option>
   <option  id='MAX_INITIALIZER_LINES' default='yes' type='int'><value>30</value></option>
@@ -122,8 +122,8 @@
   <option  id='WARN_LINE_FORMAT' default='yes' type='string'><value><![CDATA["at line $line of file $file"]]></value></option>
   <option  id='WARN_LOGFILE' default='yes' type='string'><value><![CDATA[]]></value></option>
   <option  id='INPUT' default='no' type='stringlist'>
-    <value><![CDATA[Src/]]></value>
-    <value><![CDATA[Inc/]]></value>
+    <value><![CDATA[C:/Temp_work/Personal/GitHub/STM32_MCU_Peripherals/Peripherals/I2C_Test/stm32f429_i2c_driver/Inc]]></value>
+    <value><![CDATA[C:/Temp_work/Personal/GitHub/STM32_MCU_Peripherals/Peripherals/I2C_Test/stm32f429_i2c_driver/Src]]></value>
   </option>
   <option  id='INPUT_ENCODING' default='yes' type='string'><value><![CDATA[UTF-8]]></value></option>
   <option  id='INPUT_FILE_ENCODING' default='yes' type='stringlist'>
@@ -182,7 +182,8 @@
     <value><![CDATA[*.ice]]></value>
   </option>
   <option  id='RECURSIVE' default='yes' type='bool'><value>NO</value></option>
-  <option  id='EXCLUDE' default='yes' type='stringlist'>
+  <option  id='EXCLUDE' default='no' type='stringlist'>
+    <value><![CDATA[C:/Temp_work/Personal/GitHub/STM32_MCU_Peripherals/Peripherals/I2C_Test/stm32f429_i2c_driver/Inc/stm32f429xx.h]]></value>
   </option>
   <option  id='EXCLUDE_SYMLINKS' default='yes' type='bool'><value>NO</value></option>
   <option  id='EXCLUDE_PATTERNS' default='yes' type='stringlist'>
@@ -219,7 +220,7 @@
   <option  id='CLANG_OPTIONS' default='yes' type='stringlist'>
   </option>
   <option  id='CLANG_DATABASE_PATH' default='yes' type='string'><value><![CDATA[]]></value></option>
-  <option  id='ALPHABETICAL_INDEX' default='yes' type='bool'><value>YES</value></option>
+  <option  id='ALPHABETICAL_INDEX' default='no' type='bool'><value>NO</value></option>
   <option  id='IGNORE_PREFIX' default='yes' type='stringlist'>
   </option>
   <option  id='GENERATE_HTML' default='yes' type='bool'><value>YES</value></option>
@@ -266,8 +267,8 @@
   <option  id='QHG_LOCATION' default='yes' type='string'><value><![CDATA[]]></value></option>
   <option  id='GENERATE_ECLIPSEHELP' default='yes' type='bool'><value>NO</value></option>
   <option  id='ECLIPSE_DOC_ID' default='yes' type='string'><value><![CDATA[org.doxygen.Project]]></value></option>
-  <option  id='DISABLE_INDEX' default='yes' type='bool'><value>NO</value></option>
-  <option  id='GENERATE_TREEVIEW' default='yes' type='bool'><value>NO</value></option>
+  <option  id='DISABLE_INDEX' default='no' type='bool'><value>YES</value></option>
+  <option  id='GENERATE_TREEVIEW' default='no' type='bool'><value>YES</value></option>
   <option  id='FULL_SIDEBAR' default='yes' type='bool'><value>NO</value></option>
   <option  id='ENUM_VALUES_PER_LINE' default='yes' type='int'><value>4</value></option>
   <option  id='TREEVIEW_WIDTH' default='yes' type='int'><value>250</value></option>
@@ -326,7 +327,7 @@
   <option  id='GENERATE_XML' default='no' type='bool'><value>YES</value></option>
   <option  id='XML_OUTPUT' default='yes' type='string'><value><![CDATA[xml]]></value></option>
   <option  id='XML_PROGRAMLISTING' default='yes' type='bool'><value>YES</value></option>
-  <option  id='XML_NS_MEMB_FILE_SCOPE' default='yes' type='bool'><value>NO</value></option>
+  <option  id='XML_NS_MEMB_FILE_SCOPE' default='no' type='bool'><value>YES</value></option>
   <option  id='GENERATE_DOCBOOK' default='yes' type='bool'><value>NO</value></option>
   <option  id='DOCBOOK_OUTPUT' default='yes' type='string'><value><![CDATA[docbook]]></value></option>
   <option  id='GENERATE_AUTOGEN_DEF' default='yes' type='bool'><value>NO</value></option>
@@ -340,7 +341,7 @@
   <option  id='ENABLE_PREPROCESSING' default='yes' type='bool'><value>YES</value></option>
   <option  id='MACRO_EXPANSION' default='yes' type='bool'><value>NO</value></option>
   <option  id='EXPAND_ONLY_PREDEF' default='yes' type='bool'><value>NO</value></option>
-  <option  id='SEARCH_INCLUDES' default='yes' type='bool'><value>YES</value></option>
+  <option  id='SEARCH_INCLUDES' default='no' type='bool'><value>NO</value></option>
   <option  id='INCLUDE_PATH' default='yes' type='stringlist'>
   </option>
   <option  id='INCLUDE_FILE_PATTERNS' default='yes' type='stringlist'>
@@ -349,7 +350,7 @@
   </option>
   <option  id='EXPAND_AS_DEFINED' default='yes' type='stringlist'>
   </option>
-  <option  id='SKIP_FUNCTION_MACROS' default='yes' type='bool'><value>YES</value></option>
+  <option  id='SKIP_FUNCTION_MACROS' default='no' type='bool'><value>NO</value></option>
   <option  id='TAGFILES' default='yes' type='stringlist'>
   </option>
   <option  id='GENERATE_TAGFILE' default='yes' type='string'><value><![CDATA[]]></value></option>
@@ -357,7 +358,7 @@
   <option  id='EXTERNAL_GROUPS' default='yes' type='bool'><value>YES</value></option>
   <option  id='EXTERNAL_PAGES' default='yes' type='bool'><value>YES</value></option>
   <option  id='HIDE_UNDOC_RELATIONS' default='yes' type='bool'><value>YES</value></option>
-  <option  id='HAVE_DOT' default='yes' type='bool'><value>NO</value></option>
+  <option  id='HAVE_DOT' default='no' type='bool'><value>YES</value></option>
   <option  id='DOT_NUM_THREADS' default='yes' type='int'><value>0</value></option>
   <option  id='DOT_COMMON_ATTR' default='yes' type='string'><value><![CDATA["fontname=Helvetica,fontsize=10"]]></value></option>
   <option  id='DOT_EDGE_ATTR' default='yes' type='string'><value><![CDATA["labelfontname=Helvetica,labelfontsize=10"]]></value></option>
@@ -366,15 +367,15 @@
   <option  id='CLASS_GRAPH' default='yes' type='string'><value>YES</value></option>
   <option  id='COLLABORATION_GRAPH' default='yes' type='bool'><value>YES</value></option>
   <option  id='GROUP_GRAPHS' default='yes' type='bool'><value>YES</value></option>
-  <option  id='UML_LOOK' default='yes' type='bool'><value>NO</value></option>
+  <option  id='UML_LOOK' default='no' type='bool'><value>YES</value></option>
   <option  id='UML_LIMIT_NUM_FIELDS' default='yes' type='int'><value>10</value></option>
   <option  id='DOT_UML_DETAILS' default='yes' type='string'><value>NO</value></option>
   <option  id='DOT_WRAP_THRESHOLD' default='yes' type='int'><value>17</value></option>
   <option  id='TEMPLATE_RELATIONS' default='yes' type='bool'><value>NO</value></option>
   <option  id='INCLUDE_GRAPH' default='yes' type='bool'><value>YES</value></option>
   <option  id='INCLUDED_BY_GRAPH' default='yes' type='bool'><value>YES</value></option>
-  <option  id='CALL_GRAPH' default='yes' type='bool'><value>NO</value></option>
-  <option  id='CALLER_GRAPH' default='yes' type='bool'><value>NO</value></option>
+  <option  id='CALL_GRAPH' default='no' type='bool'><value>YES</value></option>
+  <option  id='CALLER_GRAPH' default='no' type='bool'><value>YES</value></option>
   <option  id='GRAPHICAL_HIERARCHY' default='yes' type='bool'><value>YES</value></option>
   <option  id='DIRECTORY_GRAPH' default='yes' type='bool'><value>YES</value></option>
   <option  id='DIR_GRAPH_MAX_DEPTH' default='yes' type='int'><value>1</value></option>

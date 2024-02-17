@@ -49,6 +49,27 @@ typedef enum{
 	HSE,
 	PLL
 }ClockSrc_t;
+typedef enum{
+	AHB_DIVIDE_BY_1 	= 	0,
+	AHB_DIVIDE_BY_2 	=	8,
+	AHB_DIVIDE_BY_4 	= 	9,
+	AHB_DIVIDE_BY_8 	= 	10,
+	AHB_DIVIDE_BY_16 	= 	11,
+	AHB_DIVIDE_BY_64 	= 	12,
+	AHB_DIVIDE_BY_128 	= 	13,
+	AHB_DIVIDE_BY_256 	= 	14,
+	AHB_DIVIDE_BY_512 	= 	15,
+	APB1_DIVIDE_BY_1	=	0,
+	APB1_DIVIDE_BY_2	=	4,
+	APB1_DIVIDE_BY_4	=	5,
+	APB1_DIVIDE_BY_8	=	6,
+	APB1_DIVIDE_BY_16	=	7,
+	APB2_DIVIDE_BY_1	=	0,
+	APB2_DIVIDE_BY_2	=	4,
+	APB2_DIVIDE_BY_4	=	5,
+	APB2_DIVIDE_BY_8	=	6,
+	APB2_DIVIDE_BY_16	=	7,
+}Prescaler_t;
 typedef struct{
 	uint8_t		clock_source;
 	ClockBus_t 	bus;
@@ -67,11 +88,11 @@ typedef struct{
  * @addtogroup Functions
  * @{
  */
-void RCC_EnableClock(RCC_Handle_t * pRCC, uint8_t pos);
-void RCC_ResetClock(RCC_Handle_t * pRCC, uint8_t pos);
+void RCC_EnableClock(RCC_Handle_t * pRCC, uint8_t port);
+void RCC_ResetClock(RCC_Handle_t * pRCC, uint8_t port);
 void RCC_SetPrescaler(RCC_Handle_t * pRCC, uint8_t scaler);
 ClockSrc_t RCC_GetSystemClock();
-uint8_t RCC_GetPrescaler(RCC_Handle_t * pRCC);
+uint16_t RCC_GetPrescaler(RCC_Handle_t * pRCC);
 /**
  * @}
  */

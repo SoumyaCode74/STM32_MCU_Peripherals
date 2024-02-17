@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['main_0',['main',['../d0/d29/main_8c.html#a840291bc02cba5474a4cb46a9b9566fe',1,'main.c']]],
-  ['main_2ec_1',['main.c',['../d0/d29/main_8c.html',1,'']]]
+  ['fastmode_5fdutycycle_0',['FastMode_DutyCycle',['../group___classes.html#gadfdf854d8c5df694ffc1ee51fd01f3b9',1,'stm32f429xx_i2c_driver.h']]],
+  ['functions_1',['Functions',['../group___functions.html',1,'']]]
 ];

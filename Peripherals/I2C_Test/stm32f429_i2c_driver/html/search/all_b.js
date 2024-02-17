@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['usart_5fregaddr_5ft_0',['USART_RegAddr_t',['../d4/ded/stm32f429xx__general_8h.html#a25c8606314cc943d21b2e264418f6808',1,'stm32f429xx_general.h']]]
+  ['otype_0',['OType',['../group___g_p_i_o___driver___header.html#gaa8937a8eabf2358fc8a38c8f67fa98cc',1,'GPIO_PinConfig_t']]],
+  ['outputspeed_1',['OutputSpeed',['../group___g_p_i_o___driver___header.html#ga3aa707ffa633fad03774a3df9b18e411',1,'GPIO_PinConfig_t']]]
 ];

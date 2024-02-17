@@ -12,5 +12,7 @@ var searchData=
   ['optkeyr_9',['OPTKEYR',['../struct_f_l_a_s_h___type_def.html#a793cd13a4636c9785fdb99316f7fd7ab',1,'FLASH_TypeDef']]],
   ['or_10',['OR',['../struct_t_i_m___type_def.html#acb0e8a4efa46dac4a2fb1aa3d45924fd',1,'TIM_TypeDef']]],
   ['ospeedr_11',['OSPEEDR',['../struct_g_p_i_o___type_def.html#a0d233d720f18ae2050f9131fa6faf7c6',1,'GPIO_TypeDef']]],
-  ['otyper_12',['OTYPER',['../struct_g_p_i_o___type_def.html#a910885e4d881c3a459dd11640237107f',1,'GPIO_TypeDef']]]
+  ['otype_12',['OType',['../group___g_p_i_o___driver___header.html#gaa8937a8eabf2358fc8a38c8f67fa98cc',1,'GPIO_PinConfig_t']]],
+  ['otyper_13',['OTYPER',['../struct_g_p_i_o___type_def.html#a910885e4d881c3a459dd11640237107f',1,'GPIO_TypeDef']]],
+  ['outputspeed_14',['OutputSpeed',['../group___g_p_i_o___driver___header.html#ga3aa707ffa633fad03774a3df9b18e411',1,'GPIO_PinConfig_t']]]
 ];

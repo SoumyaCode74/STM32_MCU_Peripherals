@@ -1,8 +1,11 @@
-/*---------------- Search Box */
+/*---------------- Search Box positioning */
 
 #MSearchBox {
-    position: absolute;
-    right: 5px;
+	margin: 5px;
+}
+
+dark-mode-toggle {
+        padding-top: 8px;
 }
 /*---------------- Search box styling */
 

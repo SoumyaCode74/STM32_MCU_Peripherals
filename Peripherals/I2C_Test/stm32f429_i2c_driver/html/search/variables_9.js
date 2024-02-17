@@ -1,12 +1,9 @@
 var searchData=
 [
-  ['jdr1_0',['JDR1',['../struct_a_d_c___type_def.html#ab4b0a79a9e4a9d5b0a24d7285cf55bdc',1,'ADC_TypeDef']]],
-  ['jdr2_1',['JDR2',['../struct_a_d_c___type_def.html#a898b87cab4f099bcca981cc4c9318b51',1,'ADC_TypeDef']]],
-  ['jdr3_2',['JDR3',['../struct_a_d_c___type_def.html#a40999cd0a255ef62b2340e2726695063',1,'ADC_TypeDef']]],
-  ['jdr4_3',['JDR4',['../struct_a_d_c___type_def.html#abae6e9d688b16ef350878998f5e21c0b',1,'ADC_TypeDef']]],
-  ['jofr1_4',['JOFR1',['../struct_a_d_c___type_def.html#aa005e656f528aaad28d70d61c9db9b81',1,'ADC_TypeDef']]],
-  ['jofr2_5',['JOFR2',['../struct_a_d_c___type_def.html#aa20f76044c11042dde41c1060853fb82',1,'ADC_TypeDef']]],
-  ['jofr3_6',['JOFR3',['../struct_a_d_c___type_def.html#ae9c78142f6edf8122384263878d09015',1,'ADC_TypeDef']]],
-  ['jofr4_7',['JOFR4',['../struct_a_d_c___type_def.html#a92f5c1a5aaa8b286317f923482e09d35',1,'ADC_TypeDef']]],
-  ['jsqr_8',['JSQR',['../struct_a_d_c___type_def.html#a5438a76a93ac1bd2526e92ef298dc193',1,'ADC_TypeDef']]]
+  ['pgpiox_0',['pGPIOx',['../group___g_p_i_o___driver___header.html#gab2c22aa8e429496a1822328b7078984c',1,'GPIO_Handle_t']]],
+  ['pi2cx_1',['pI2Cx',['../group___i2_c___driver___header.html#ga8a620ba905fc88fcbb5515bd4ce2303c',1,'I2C_Handle_t']]],
+  ['pin_2',['Pin',['../group___g_p_i_o___driver___header.html#ga7838ca04e2ceba1a5895ec493e0e10d1',1,'GPIO_PinConfig_t']]],
+  ['prcc_3',['pRCC',['../struct_r_c_c___handle__t.html#a2b10fa826b1f834f4a5a7a06d9d700a2',1,'RCC_Handle_t']]],
+  ['prescaler_4',['prescaler',['../struct_r_c_c___config__t.html#adda084b2e08ca68b2d78506b5770b8b3',1,'RCC_Config_t']]],
+  ['pullupdown_5',['PullUpDown',['../group___g_p_i_o___driver___header.html#gaa856c1501c06fc5c78a28071e78b53cf',1,'GPIO_PinConfig_t']]]
 ];
