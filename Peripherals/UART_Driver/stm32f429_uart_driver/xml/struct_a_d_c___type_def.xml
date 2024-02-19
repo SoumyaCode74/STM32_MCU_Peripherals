@@ -1,0 +1,338 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_a_d_c___type_def" kind="struct" language="C++" prot="public">
+    <compoundname>ADC_TypeDef</compoundname>
+    <includes refid="stm32f429xx_8h" local="no">stm32f429xx.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_a_d_c___type_def_1a9745df96e98f3cdc2d05ccefce681f64" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ADC_TypeDef::SR</definition>
+        <argsstring></argsstring>
+        <name>SR</name>
+        <qualifiedname>ADC_TypeDef::SR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>ADC status register, Address offset: 0x00 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="187" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_c___type_def_1a89b1ff4376683dd2896ea8b32ded05b2" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ADC_TypeDef::CR1</definition>
+        <argsstring></argsstring>
+        <name>CR1</name>
+        <qualifiedname>ADC_TypeDef::CR1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>ADC control register 1, Address offset: 0x04 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="188" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_c___type_def_1a1053a65a21af0d27afe1bf9cf7b7aca7" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ADC_TypeDef::CR2</definition>
+        <argsstring></argsstring>
+        <name>CR2</name>
+        <qualifiedname>ADC_TypeDef::CR2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>ADC control register 2, Address offset: 0x08 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="189" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_c___type_def_1a73009a8122fcc628f467a4e997109347" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ADC_TypeDef::SMPR1</definition>
+        <argsstring></argsstring>
+        <name>SMPR1</name>
+        <qualifiedname>ADC_TypeDef::SMPR1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>ADC sample time register 1, Address offset: 0x0C </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="190" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_c___type_def_1a9e68fe36c4c8fbbac294b5496ccf7130" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ADC_TypeDef::SMPR2</definition>
+        <argsstring></argsstring>
+        <name>SMPR2</name>
+        <qualifiedname>ADC_TypeDef::SMPR2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>ADC sample time register 2, Address offset: 0x10 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="191" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="191" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_c___type_def_1aa005e656f528aaad28d70d61c9db9b81" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ADC_TypeDef::JOFR1</definition>
+        <argsstring></argsstring>
+        <name>JOFR1</name>
+        <qualifiedname>ADC_TypeDef::JOFR1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>ADC injected channel data offset register 1, Address offset: 0x14 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="192" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_c___type_def_1aa20f76044c11042dde41c1060853fb82" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ADC_TypeDef::JOFR2</definition>
+        <argsstring></argsstring>
+        <name>JOFR2</name>
+        <qualifiedname>ADC_TypeDef::JOFR2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>ADC injected channel data offset register 2, Address offset: 0x18 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="193" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="193" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_c___type_def_1ae9c78142f6edf8122384263878d09015" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ADC_TypeDef::JOFR3</definition>
+        <argsstring></argsstring>
+        <name>JOFR3</name>
+        <qualifiedname>ADC_TypeDef::JOFR3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>ADC injected channel data offset register 3, Address offset: 0x1C </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="194" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="194" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_c___type_def_1a92f5c1a5aaa8b286317f923482e09d35" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ADC_TypeDef::JOFR4</definition>
+        <argsstring></argsstring>
+        <name>JOFR4</name>
+        <qualifiedname>ADC_TypeDef::JOFR4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>ADC injected channel data offset register 4, Address offset: 0x20 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="195" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_c___type_def_1a297ac2d83a1837bfdc0333474b977de0" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ADC_TypeDef::HTR</definition>
+        <argsstring></argsstring>
+        <name>HTR</name>
+        <qualifiedname>ADC_TypeDef::HTR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>ADC watchdog higher threshold register, Address offset: 0x24 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="196" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="196" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_c___type_def_1afdaf8050fb01739206a92c9ad610f396" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ADC_TypeDef::LTR</definition>
+        <argsstring></argsstring>
+        <name>LTR</name>
+        <qualifiedname>ADC_TypeDef::LTR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>ADC watchdog lower threshold register, Address offset: 0x28 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="197" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="197" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_c___type_def_1a0185aa54962ba987f192154fb7a2d673" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ADC_TypeDef::SQR1</definition>
+        <argsstring></argsstring>
+        <name>SQR1</name>
+        <qualifiedname>ADC_TypeDef::SQR1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>ADC regular sequence register 1, Address offset: 0x2C </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="198" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="198" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_c___type_def_1a6b6e55e6c667042e5a46a76518b73d5a" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ADC_TypeDef::SQR2</definition>
+        <argsstring></argsstring>
+        <name>SQR2</name>
+        <qualifiedname>ADC_TypeDef::SQR2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>ADC regular sequence register 2, Address offset: 0x30 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="199" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="199" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_c___type_def_1a51dbdba74c4d3559157392109af68fc6" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ADC_TypeDef::SQR3</definition>
+        <argsstring></argsstring>
+        <name>SQR3</name>
+        <qualifiedname>ADC_TypeDef::SQR3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>ADC regular sequence register 3, Address offset: 0x34 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="200" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="200" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_c___type_def_1a5438a76a93ac1bd2526e92ef298dc193" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ADC_TypeDef::JSQR</definition>
+        <argsstring></argsstring>
+        <name>JSQR</name>
+        <qualifiedname>ADC_TypeDef::JSQR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>ADC injected sequence register, Address offset: 0x38 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="201" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="201" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_c___type_def_1ab4b0a79a9e4a9d5b0a24d7285cf55bdc" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ADC_TypeDef::JDR1</definition>
+        <argsstring></argsstring>
+        <name>JDR1</name>
+        <qualifiedname>ADC_TypeDef::JDR1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>ADC injected data register 1, Address offset: 0x3C </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="202" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="202" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_c___type_def_1a898b87cab4f099bcca981cc4c9318b51" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ADC_TypeDef::JDR2</definition>
+        <argsstring></argsstring>
+        <name>JDR2</name>
+        <qualifiedname>ADC_TypeDef::JDR2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>ADC injected data register 2, Address offset: 0x40 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="203" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="203" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_c___type_def_1a40999cd0a255ef62b2340e2726695063" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ADC_TypeDef::JDR3</definition>
+        <argsstring></argsstring>
+        <name>JDR3</name>
+        <qualifiedname>ADC_TypeDef::JDR3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>ADC injected data register 3, Address offset: 0x44 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="204" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="204" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_c___type_def_1abae6e9d688b16ef350878998f5e21c0b" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ADC_TypeDef::JDR4</definition>
+        <argsstring></argsstring>
+        <name>JDR4</name>
+        <qualifiedname>ADC_TypeDef::JDR4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>ADC injected data register 4, Address offset: 0x48 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="205" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="205" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_a_d_c___type_def_1a84114accead82bd11a0e12a429cdfed9" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ADC_TypeDef::DR</definition>
+        <argsstring></argsstring>
+        <name>DR</name>
+        <qualifiedname>ADC_TypeDef::DR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>ADC regular data register, Address offset: 0x4C </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="206" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="206" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Analog to Digital Converter <linebreak/>
+ </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Inc/stm32f429xx.h" line="185" column="1" bodyfile="Inc/stm32f429xx.h" bodystart="186" bodyend="207"/>
+    <listofallmembers>
+      <member refid="struct_a_d_c___type_def_1a89b1ff4376683dd2896ea8b32ded05b2" prot="public" virt="non-virtual"><scope>ADC_TypeDef</scope><name>CR1</name></member>
+      <member refid="struct_a_d_c___type_def_1a1053a65a21af0d27afe1bf9cf7b7aca7" prot="public" virt="non-virtual"><scope>ADC_TypeDef</scope><name>CR2</name></member>
+      <member refid="struct_a_d_c___type_def_1a84114accead82bd11a0e12a429cdfed9" prot="public" virt="non-virtual"><scope>ADC_TypeDef</scope><name>DR</name></member>
+      <member refid="struct_a_d_c___type_def_1a297ac2d83a1837bfdc0333474b977de0" prot="public" virt="non-virtual"><scope>ADC_TypeDef</scope><name>HTR</name></member>
+      <member refid="struct_a_d_c___type_def_1ab4b0a79a9e4a9d5b0a24d7285cf55bdc" prot="public" virt="non-virtual"><scope>ADC_TypeDef</scope><name>JDR1</name></member>
+      <member refid="struct_a_d_c___type_def_1a898b87cab4f099bcca981cc4c9318b51" prot="public" virt="non-virtual"><scope>ADC_TypeDef</scope><name>JDR2</name></member>
+      <member refid="struct_a_d_c___type_def_1a40999cd0a255ef62b2340e2726695063" prot="public" virt="non-virtual"><scope>ADC_TypeDef</scope><name>JDR3</name></member>
+      <member refid="struct_a_d_c___type_def_1abae6e9d688b16ef350878998f5e21c0b" prot="public" virt="non-virtual"><scope>ADC_TypeDef</scope><name>JDR4</name></member>
+      <member refid="struct_a_d_c___type_def_1aa005e656f528aaad28d70d61c9db9b81" prot="public" virt="non-virtual"><scope>ADC_TypeDef</scope><name>JOFR1</name></member>
+      <member refid="struct_a_d_c___type_def_1aa20f76044c11042dde41c1060853fb82" prot="public" virt="non-virtual"><scope>ADC_TypeDef</scope><name>JOFR2</name></member>
+      <member refid="struct_a_d_c___type_def_1ae9c78142f6edf8122384263878d09015" prot="public" virt="non-virtual"><scope>ADC_TypeDef</scope><name>JOFR3</name></member>
+      <member refid="struct_a_d_c___type_def_1a92f5c1a5aaa8b286317f923482e09d35" prot="public" virt="non-virtual"><scope>ADC_TypeDef</scope><name>JOFR4</name></member>
+      <member refid="struct_a_d_c___type_def_1a5438a76a93ac1bd2526e92ef298dc193" prot="public" virt="non-virtual"><scope>ADC_TypeDef</scope><name>JSQR</name></member>
+      <member refid="struct_a_d_c___type_def_1afdaf8050fb01739206a92c9ad610f396" prot="public" virt="non-virtual"><scope>ADC_TypeDef</scope><name>LTR</name></member>
+      <member refid="struct_a_d_c___type_def_1a73009a8122fcc628f467a4e997109347" prot="public" virt="non-virtual"><scope>ADC_TypeDef</scope><name>SMPR1</name></member>
+      <member refid="struct_a_d_c___type_def_1a9e68fe36c4c8fbbac294b5496ccf7130" prot="public" virt="non-virtual"><scope>ADC_TypeDef</scope><name>SMPR2</name></member>
+      <member refid="struct_a_d_c___type_def_1a0185aa54962ba987f192154fb7a2d673" prot="public" virt="non-virtual"><scope>ADC_TypeDef</scope><name>SQR1</name></member>
+      <member refid="struct_a_d_c___type_def_1a6b6e55e6c667042e5a46a76518b73d5a" prot="public" virt="non-virtual"><scope>ADC_TypeDef</scope><name>SQR2</name></member>
+      <member refid="struct_a_d_c___type_def_1a51dbdba74c4d3559157392109af68fc6" prot="public" virt="non-virtual"><scope>ADC_TypeDef</scope><name>SQR3</name></member>
+      <member refid="struct_a_d_c___type_def_1a9745df96e98f3cdc2d05ccefce681f64" prot="public" virt="non-virtual"><scope>ADC_TypeDef</scope><name>SR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_f_m_c___bank1_e___type_def" kind="struct" language="C++" prot="public">
+    <compoundname>FMC_Bank1E_TypeDef</compoundname>
+    <includes refid="stm32f429xx_8h" local="no">stm32f429xx.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_f_m_c___bank1_e___type_def_1abd27ba74f0c9b180f713e7fad065a8d9" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t FMC_Bank1E_TypeDef::BWTR[7]</definition>
+        <argsstring>[7]</argsstring>
+        <name>BWTR</name>
+        <qualifiedname>FMC_Bank1E_TypeDef::BWTR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>NOR/PSRAM write timing registers, Address offset: 0x104-0x11C </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="520" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="520" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Flexible Memory Controller Bank1E. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Inc/stm32f429xx.h" line="518" column="1" bodyfile="Inc/stm32f429xx.h" bodystart="519" bodyend="521"/>
+    <listofallmembers>
+      <member refid="struct_f_m_c___bank1_e___type_def_1abd27ba74f0c9b180f713e7fad065a8d9" prot="public" virt="non-virtual"><scope>FMC_Bank1E_TypeDef</scope><name>BWTR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

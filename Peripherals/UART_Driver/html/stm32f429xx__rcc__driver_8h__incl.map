@@ -1,0 +1,14 @@
+<map id="D:/Users/soumy/GitHub/STM32_MCU_Peripherals/Peripherals/I2C_Test/stm32f429_i2c_driver/Inc/stm32f429xx_rcc_driver.h" name="D:/Users/soumy/GitHub/STM32_MCU_Peripherals/Peripherals/I2C_Test/stm32f429_i2c_driver/Inc/stm32f429xx_rcc_driver.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,215,96"/>
+<area shape="rect" id="Node000002" href="$stm32f429xx__general_8h.html" title="All purpose defines and includes Created on: Feb 11, 2024." alt="" coords="32,144,188,171"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,96,113,128,107,128,107,96"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="27,293,92,320"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="108,172,71,280,66,278,103,170"/>
+<area shape="rect" id="Node000004" href="$stm32f429xx_8h.html" title="CMSIS STM32F429xx Device Peripheral Access Layer Header File." alt="" coords="105,219,211,245"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="121,170,144,204,139,207,116,173"/>
+<area shape="poly" id="edge6_Node000004_Node000003" title=" " alt="" coords="142,248,90,286,87,282,139,244"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="116,293,205,320"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="161,246,162,278,157,278,156,246"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="230,293,427,320"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="189,243,286,284,284,289,187,248"/>
+</map>

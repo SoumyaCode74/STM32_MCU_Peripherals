@@ -1,0 +1,136 @@
+\doxysection{GPIO\+\_\+\+Driver\+\_\+\+Header}
+\hypertarget{group___g_p_i_o___driver___header}{}\label{group___g_p_i_o___driver___header}\index{GPIO\_Driver\_Header@{GPIO\_Driver\_Header}}
+Collaboration diagram for GPIO\+\_\+\+Driver\+\_\+\+Header\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=280pt]{group___g_p_i_o___driver___header}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Topics}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{group___includes}{Includes}}
+\begin{DoxyCompactList}\small\item\em Classes and API functions for driving an I2C peripheral for STM32\+F429xx MCUs Created on\+: Feb 11, 2024. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{group___classes}{Classes}}
+\item 
+\mbox{\hyperlink{group___functions}{Functions}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+uint8\+\_\+t \mbox{\hyperlink{group___g_p_i_o___driver___header_ga7838ca04e2ceba1a5895ec493e0e10d1}{GPIO\+\_\+\+Pin\+Config\+\_\+t\+::\+Pin}}\+: 4
+\begin{DoxyCompactList}\small\item\em The pin to configure. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{group___g_p_i_o___driver___header_gaf582963784931a387bdb2a31c93f07e5}{GPIO\+\_\+\+Pin\+Config\+\_\+t\+::\+Mode}}\+: 2
+\begin{DoxyCompactList}\small\item\em The direction to set for the GPIO pin. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{group___g_p_i_o___driver___header_gaa8937a8eabf2358fc8a38c8f67fa98cc}{GPIO\+\_\+\+Pin\+Config\+\_\+t\+::\+OType}}\+: 1
+\begin{DoxyCompactList}\small\item\em Output type\+: 0 -\/ Push-\/pull, 1 -\/ Open Drain. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{group___g_p_i_o___driver___header_gaa856c1501c06fc5c78a28071e78b53cf}{GPIO\+\_\+\+Pin\+Config\+\_\+t\+::\+Pull\+Up\+Down}}\+: 2
+\begin{DoxyCompactList}\small\item\em Push-\/pull. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{group___g_p_i_o___driver___header_ga3aa707ffa633fad03774a3df9b18e411}{GPIO\+\_\+\+Pin\+Config\+\_\+t\+::\+Output\+Speed}}\+: 2
+\begin{DoxyCompactList}\small\item\em Speed at which output should be delivered. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{group___g_p_i_o___driver___header_gace2ebe1b2201b762cab0bf7f821786e2}{GPIO\+\_\+\+Pin\+Config\+\_\+t\+::\+Alternate\+Function}}\+: 4
+\begin{DoxyCompactList}\small\item\em Alternate function mode value if required. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_r_c_c___handle__t}{RCC\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{group___g_p_i_o___driver___header_ga5b86a2cea7bc03294663058283fbb740}{GPIO\+\_\+\+Handle\+\_\+t\+::h\+RCC}}
+\begin{DoxyCompactList}\small\item\em Pointer to the RCC handle created for the currently used GPIO instance. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{group___aliases_ga51e19dcff5aaac032509a7102fd26917}{GPIO\+\_\+\+Reg\+Addr\+\_\+t}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{group___g_p_i_o___driver___header_gab2c22aa8e429496a1822328b7078984c}{GPIO\+\_\+\+Handle\+\_\+t\+::p\+GPIOx}}
+\begin{DoxyCompactList}\small\item\em Pointer to the base address of the GPIO port needed. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_g_p_i_o___pin_config__t}{GPIO\+\_\+\+Pin\+Config\+\_\+t}} \mbox{\hyperlink{group___g_p_i_o___driver___header_ga33cefa400df9fdae0bbfd207a3d53551}{GPIO\+\_\+\+Handle\+\_\+t\+::\+GPIO\+\_\+\+Pin\+Config}}
+\begin{DoxyCompactList}\small\item\em The Pin\+Config object for the basic configuration settings. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+\doxysubsection{Variable Documentation}
+\Hypertarget{group___g_p_i_o___driver___header_gace2ebe1b2201b762cab0bf7f821786e2}\label{group___g_p_i_o___driver___header_gace2ebe1b2201b762cab0bf7f821786e2} 
+\index{GPIO\_Driver\_Header@{GPIO\_Driver\_Header}!AlternateFunction@{AlternateFunction}}
+\index{AlternateFunction@{AlternateFunction}!GPIO\_Driver\_Header@{GPIO\_Driver\_Header}}
+\doxysubsubsection{\texorpdfstring{AlternateFunction}{AlternateFunction}}
+{\footnotesize\ttfamily uint8\+\_\+t GPIO\+\_\+\+Pin\+Config\+\_\+t\+::\+Alternate\+Function}
+
+
+
+Alternate function mode value if required. 
+
+\Hypertarget{group___g_p_i_o___driver___header_ga33cefa400df9fdae0bbfd207a3d53551}\label{group___g_p_i_o___driver___header_ga33cefa400df9fdae0bbfd207a3d53551} 
+\index{GPIO\_Driver\_Header@{GPIO\_Driver\_Header}!GPIO\_PinConfig@{GPIO\_PinConfig}}
+\index{GPIO\_PinConfig@{GPIO\_PinConfig}!GPIO\_Driver\_Header@{GPIO\_Driver\_Header}}
+\doxysubsubsection{\texorpdfstring{GPIO\_PinConfig}{GPIO\_PinConfig}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_g_p_i_o___pin_config__t}{GPIO\+\_\+\+Pin\+Config\+\_\+t}} GPIO\+\_\+\+Handle\+\_\+t\+::\+GPIO\+\_\+\+Pin\+Config}
+
+
+
+The Pin\+Config object for the basic configuration settings. 
+
+\Hypertarget{group___g_p_i_o___driver___header_ga5b86a2cea7bc03294663058283fbb740}\label{group___g_p_i_o___driver___header_ga5b86a2cea7bc03294663058283fbb740} 
+\index{GPIO\_Driver\_Header@{GPIO\_Driver\_Header}!hRCC@{hRCC}}
+\index{hRCC@{hRCC}!GPIO\_Driver\_Header@{GPIO\_Driver\_Header}}
+\doxysubsubsection{\texorpdfstring{hRCC}{hRCC}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_r_c_c___handle__t}{RCC\+\_\+\+Handle\+\_\+t}}\texorpdfstring{$\ast$}{*} GPIO\+\_\+\+Handle\+\_\+t\+::h\+RCC}
+
+
+
+Pointer to the RCC handle created for the currently used GPIO instance. 
+
+\Hypertarget{group___g_p_i_o___driver___header_gaf582963784931a387bdb2a31c93f07e5}\label{group___g_p_i_o___driver___header_gaf582963784931a387bdb2a31c93f07e5} 
+\index{GPIO\_Driver\_Header@{GPIO\_Driver\_Header}!Mode@{Mode}}
+\index{Mode@{Mode}!GPIO\_Driver\_Header@{GPIO\_Driver\_Header}}
+\doxysubsubsection{\texorpdfstring{Mode}{Mode}}
+{\footnotesize\ttfamily uint8\+\_\+t GPIO\+\_\+\+Pin\+Config\+\_\+t\+::\+Mode}
+
+
+
+The direction to set for the GPIO pin. 
+
+\Hypertarget{group___g_p_i_o___driver___header_gaa8937a8eabf2358fc8a38c8f67fa98cc}\label{group___g_p_i_o___driver___header_gaa8937a8eabf2358fc8a38c8f67fa98cc} 
+\index{GPIO\_Driver\_Header@{GPIO\_Driver\_Header}!OType@{OType}}
+\index{OType@{OType}!GPIO\_Driver\_Header@{GPIO\_Driver\_Header}}
+\doxysubsubsection{\texorpdfstring{OType}{OType}}
+{\footnotesize\ttfamily uint8\+\_\+t GPIO\+\_\+\+Pin\+Config\+\_\+t\+::\+OType}
+
+
+
+Output type\+: 0 -\/ Push-\/pull, 1 -\/ Open Drain. 
+
+\Hypertarget{group___g_p_i_o___driver___header_ga3aa707ffa633fad03774a3df9b18e411}\label{group___g_p_i_o___driver___header_ga3aa707ffa633fad03774a3df9b18e411} 
+\index{GPIO\_Driver\_Header@{GPIO\_Driver\_Header}!OutputSpeed@{OutputSpeed}}
+\index{OutputSpeed@{OutputSpeed}!GPIO\_Driver\_Header@{GPIO\_Driver\_Header}}
+\doxysubsubsection{\texorpdfstring{OutputSpeed}{OutputSpeed}}
+{\footnotesize\ttfamily uint8\+\_\+t GPIO\+\_\+\+Pin\+Config\+\_\+t\+::\+Output\+Speed}
+
+
+
+Speed at which output should be delivered. 
+
+\Hypertarget{group___g_p_i_o___driver___header_gab2c22aa8e429496a1822328b7078984c}\label{group___g_p_i_o___driver___header_gab2c22aa8e429496a1822328b7078984c} 
+\index{GPIO\_Driver\_Header@{GPIO\_Driver\_Header}!pGPIOx@{pGPIOx}}
+\index{pGPIOx@{pGPIOx}!GPIO\_Driver\_Header@{GPIO\_Driver\_Header}}
+\doxysubsubsection{\texorpdfstring{pGPIOx}{pGPIOx}}
+{\footnotesize\ttfamily \mbox{\hyperlink{group___aliases_ga51e19dcff5aaac032509a7102fd26917}{GPIO\+\_\+\+Reg\+Addr\+\_\+t}}\texorpdfstring{$\ast$}{*} GPIO\+\_\+\+Handle\+\_\+t\+::p\+GPIOx}
+
+
+
+Pointer to the base address of the GPIO port needed. 
+
+\Hypertarget{group___g_p_i_o___driver___header_ga7838ca04e2ceba1a5895ec493e0e10d1}\label{group___g_p_i_o___driver___header_ga7838ca04e2ceba1a5895ec493e0e10d1} 
+\index{GPIO\_Driver\_Header@{GPIO\_Driver\_Header}!Pin@{Pin}}
+\index{Pin@{Pin}!GPIO\_Driver\_Header@{GPIO\_Driver\_Header}}
+\doxysubsubsection{\texorpdfstring{Pin}{Pin}}
+{\footnotesize\ttfamily uint8\+\_\+t GPIO\+\_\+\+Pin\+Config\+\_\+t\+::\+Pin}
+
+
+
+The pin to configure. 
+
+\Hypertarget{group___g_p_i_o___driver___header_gaa856c1501c06fc5c78a28071e78b53cf}\label{group___g_p_i_o___driver___header_gaa856c1501c06fc5c78a28071e78b53cf} 
+\index{GPIO\_Driver\_Header@{GPIO\_Driver\_Header}!PullUpDown@{PullUpDown}}
+\index{PullUpDown@{PullUpDown}!GPIO\_Driver\_Header@{GPIO\_Driver\_Header}}
+\doxysubsubsection{\texorpdfstring{PullUpDown}{PullUpDown}}
+{\footnotesize\ttfamily uint8\+\_\+t GPIO\+\_\+\+Pin\+Config\+\_\+t\+::\+Pull\+Up\+Down}
+
+
+
+Push-\/pull. 
+

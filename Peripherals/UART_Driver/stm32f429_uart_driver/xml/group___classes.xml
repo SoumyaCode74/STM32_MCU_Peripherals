@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="group___classes" kind="group">
+    <compoundname>Classes</compoundname>
+    <title>Classes</title>
+    <innerclass refid="struct_i2_c___pin_config__t" prot="public">I2C_PinConfig_t</innerclass>
+    <innerclass refid="struct_i2_c___handle__t" prot="public">I2C_Handle_t</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

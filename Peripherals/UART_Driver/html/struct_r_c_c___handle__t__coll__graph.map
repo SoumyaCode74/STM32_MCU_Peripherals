@@ -1,0 +1,7 @@
+<map id="RCC_Handle_t" name="RCC_Handle_t">
+<area shape="rect" id="Node000001" title=" " alt="" coords="75,352,172,421"/>
+<area shape="rect" id="Node000002" href="$struct_r_c_c___type_def.html" title="Reset and Clock Control." alt="" coords="5,5,113,288"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,287,113,335,107,337,94,288"/>
+<area shape="rect" id="Node000003" href="$struct_r_c_c___config__t.html" title=" " alt="" coords="137,91,237,203"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="187,203,178,264,161,329,157,338,152,336,155,327,173,263,181,202"/>
+</map>

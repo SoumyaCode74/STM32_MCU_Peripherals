@@ -1,0 +1,130 @@
+\doxysection{I2\+C\+\_\+\+Driver\+\_\+\+Header}
+\hypertarget{group___i2_c___driver___header}{}\label{group___i2_c___driver___header}\index{I2C\_Driver\_Header@{I2C\_Driver\_Header}}
+Collaboration diagram for I2\+C\+\_\+\+Driver\+\_\+\+Header\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=270pt]{group___i2_c___driver___header}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Topics}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{group___includes}{Includes}}
+\begin{DoxyCompactList}\small\item\em Classes and API functions for driving an I2C peripheral for STM32\+F429xx MCUs Created on\+: Feb 11, 2024. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{group___defines}{Defines}}
+\item 
+\mbox{\hyperlink{group___classes}{Classes}}
+\item 
+\mbox{\hyperlink{group___functions}{Functions}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+uint32\+\_\+t \mbox{\hyperlink{group___i2_c___driver___header_gadbb082b2896fb5691b2ba1dceb8ca5ca}{I2\+C\+\_\+\+Pin\+Config\+\_\+t\+::\+I2\+C\+\_\+\+SCLSpeed}}
+\begin{DoxyCompactList}\small\item\em The SCLK speed required for the I2C communication. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{group___i2_c___driver___header_gae741b4bdc43cc40ccb24557ae4be6712}{I2\+C\+\_\+\+Pin\+Config\+\_\+t\+::\+I2\+C\+\_\+\+Device\+Address}}
+\begin{DoxyCompactList}\small\item\em The 7-\/bit device address to configure, if it\textquotesingle{}s a slave device. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{group___i2_c___driver___header_ga88720fb61655cb514b0f2bdaa4ee8c2f}{I2\+C\+\_\+\+Pin\+Config\+\_\+t\+::\+I2\+C\+\_\+\+Ack\+Control}}\+: 1
+\begin{DoxyCompactList}\small\item\em The acknowledgement bit\+: 0 for No ACK, 1 for ACK, from slave. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{group___i2_c___driver___header_gab4114e274f8848e073de0c689369f420}{I2\+C\+\_\+\+Pin\+Config\+\_\+t\+::\+I2\+C\+\_\+\+FMDuty\+Cycle}}\+: 3
+\begin{DoxyCompactList}\small\item\em The duty cycle setting for Fast mode communication. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{group___i2_c___driver___header_gac9ef90c2cf1fa10ab6a846573f1b0152}{I2\+C\+\_\+\+Handle\+\_\+t\+::h\+GPIO}}
+\begin{DoxyCompactList}\small\item\em Pointer to the GPIO handle created for the currently used I2C instance. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_r_c_c___handle__t}{RCC\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{group___i2_c___driver___header_gac249464bb5eadcdffb10425ed00c5c53}{I2\+C\+\_\+\+Handle\+\_\+t\+::h\+RCCPeriph}}
+\begin{DoxyCompactList}\small\item\em Pointer to RCC handle created specifically for the currently used I2C peripheral instance. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{group___aliases_gaae0399166eb7c9e558f61287856a996c}{I2\+C\+\_\+\+Reg\+Addr\+\_\+t}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{group___i2_c___driver___header_ga8a620ba905fc88fcbb5515bd4ce2303c}{I2\+C\+\_\+\+Handle\+\_\+t\+::p\+I2\+Cx}}
+\begin{DoxyCompactList}\small\item\em Pointer to the base address of the I2C peripheral needed. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_i2_c___pin_config__t}{I2\+C\+\_\+\+Pin\+Config\+\_\+t}} \mbox{\hyperlink{group___i2_c___driver___header_ga0b12cd2c9fc8177f1db4e89ce90627db}{I2\+C\+\_\+\+Handle\+\_\+t\+::\+I2\+C\+\_\+\+Pin\+Config}}
+\begin{DoxyCompactList}\small\item\em The Pin\+Config object for the basic configuration settings. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+\doxysubsection{Variable Documentation}
+\Hypertarget{group___i2_c___driver___header_gac9ef90c2cf1fa10ab6a846573f1b0152}\label{group___i2_c___driver___header_gac9ef90c2cf1fa10ab6a846573f1b0152} 
+\index{I2C\_Driver\_Header@{I2C\_Driver\_Header}!hGPIO@{hGPIO}}
+\index{hGPIO@{hGPIO}!I2C\_Driver\_Header@{I2C\_Driver\_Header}}
+\doxysubsubsection{\texorpdfstring{hGPIO}{hGPIO}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\+\_\+\+Handle\+\_\+t}}\texorpdfstring{$\ast$}{*} I2\+C\+\_\+\+Handle\+\_\+t\+::h\+GPIO}
+
+
+
+Pointer to the GPIO handle created for the currently used I2C instance. 
+
+\Hypertarget{group___i2_c___driver___header_gac249464bb5eadcdffb10425ed00c5c53}\label{group___i2_c___driver___header_gac249464bb5eadcdffb10425ed00c5c53} 
+\index{I2C\_Driver\_Header@{I2C\_Driver\_Header}!hRCCPeriph@{hRCCPeriph}}
+\index{hRCCPeriph@{hRCCPeriph}!I2C\_Driver\_Header@{I2C\_Driver\_Header}}
+\doxysubsubsection{\texorpdfstring{hRCCPeriph}{hRCCPeriph}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_r_c_c___handle__t}{RCC\+\_\+\+Handle\+\_\+t}}\texorpdfstring{$\ast$}{*} I2\+C\+\_\+\+Handle\+\_\+t\+::h\+RCCPeriph}
+
+
+
+Pointer to RCC handle created specifically for the currently used I2C peripheral instance. 
+
+\Hypertarget{group___i2_c___driver___header_ga88720fb61655cb514b0f2bdaa4ee8c2f}\label{group___i2_c___driver___header_ga88720fb61655cb514b0f2bdaa4ee8c2f} 
+\index{I2C\_Driver\_Header@{I2C\_Driver\_Header}!I2C\_AckControl@{I2C\_AckControl}}
+\index{I2C\_AckControl@{I2C\_AckControl}!I2C\_Driver\_Header@{I2C\_Driver\_Header}}
+\doxysubsubsection{\texorpdfstring{I2C\_AckControl}{I2C\_AckControl}}
+{\footnotesize\ttfamily uint8\+\_\+t I2\+C\+\_\+\+Pin\+Config\+\_\+t\+::\+I2\+C\+\_\+\+Ack\+Control}
+
+
+
+The acknowledgement bit\+: 0 for No ACK, 1 for ACK, from slave. 
+
+\Hypertarget{group___i2_c___driver___header_gae741b4bdc43cc40ccb24557ae4be6712}\label{group___i2_c___driver___header_gae741b4bdc43cc40ccb24557ae4be6712} 
+\index{I2C\_Driver\_Header@{I2C\_Driver\_Header}!I2C\_DeviceAddress@{I2C\_DeviceAddress}}
+\index{I2C\_DeviceAddress@{I2C\_DeviceAddress}!I2C\_Driver\_Header@{I2C\_Driver\_Header}}
+\doxysubsubsection{\texorpdfstring{I2C\_DeviceAddress}{I2C\_DeviceAddress}}
+{\footnotesize\ttfamily uint8\+\_\+t I2\+C\+\_\+\+Pin\+Config\+\_\+t\+::\+I2\+C\+\_\+\+Device\+Address}
+
+
+
+The 7-\/bit device address to configure, if it\textquotesingle{}s a slave device. 
+
+\Hypertarget{group___i2_c___driver___header_gab4114e274f8848e073de0c689369f420}\label{group___i2_c___driver___header_gab4114e274f8848e073de0c689369f420} 
+\index{I2C\_Driver\_Header@{I2C\_Driver\_Header}!I2C\_FMDutyCycle@{I2C\_FMDutyCycle}}
+\index{I2C\_FMDutyCycle@{I2C\_FMDutyCycle}!I2C\_Driver\_Header@{I2C\_Driver\_Header}}
+\doxysubsubsection{\texorpdfstring{I2C\_FMDutyCycle}{I2C\_FMDutyCycle}}
+{\footnotesize\ttfamily uint8\+\_\+t I2\+C\+\_\+\+Pin\+Config\+\_\+t\+::\+I2\+C\+\_\+\+FMDuty\+Cycle}
+
+
+
+The duty cycle setting for Fast mode communication. 
+
+\Hypertarget{group___i2_c___driver___header_ga0b12cd2c9fc8177f1db4e89ce90627db}\label{group___i2_c___driver___header_ga0b12cd2c9fc8177f1db4e89ce90627db} 
+\index{I2C\_Driver\_Header@{I2C\_Driver\_Header}!I2C\_PinConfig@{I2C\_PinConfig}}
+\index{I2C\_PinConfig@{I2C\_PinConfig}!I2C\_Driver\_Header@{I2C\_Driver\_Header}}
+\doxysubsubsection{\texorpdfstring{I2C\_PinConfig}{I2C\_PinConfig}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_i2_c___pin_config__t}{I2\+C\+\_\+\+Pin\+Config\+\_\+t}} I2\+C\+\_\+\+Handle\+\_\+t\+::\+I2\+C\+\_\+\+Pin\+Config}
+
+
+
+The Pin\+Config object for the basic configuration settings. 
+
+\Hypertarget{group___i2_c___driver___header_gadbb082b2896fb5691b2ba1dceb8ca5ca}\label{group___i2_c___driver___header_gadbb082b2896fb5691b2ba1dceb8ca5ca} 
+\index{I2C\_Driver\_Header@{I2C\_Driver\_Header}!I2C\_SCLSpeed@{I2C\_SCLSpeed}}
+\index{I2C\_SCLSpeed@{I2C\_SCLSpeed}!I2C\_Driver\_Header@{I2C\_Driver\_Header}}
+\doxysubsubsection{\texorpdfstring{I2C\_SCLSpeed}{I2C\_SCLSpeed}}
+{\footnotesize\ttfamily uint32\+\_\+t I2\+C\+\_\+\+Pin\+Config\+\_\+t\+::\+I2\+C\+\_\+\+SCLSpeed}
+
+
+
+The SCLK speed required for the I2C communication. 
+
+\Hypertarget{group___i2_c___driver___header_ga8a620ba905fc88fcbb5515bd4ce2303c}\label{group___i2_c___driver___header_ga8a620ba905fc88fcbb5515bd4ce2303c} 
+\index{I2C\_Driver\_Header@{I2C\_Driver\_Header}!pI2Cx@{pI2Cx}}
+\index{pI2Cx@{pI2Cx}!I2C\_Driver\_Header@{I2C\_Driver\_Header}}
+\doxysubsubsection{\texorpdfstring{pI2Cx}{pI2Cx}}
+{\footnotesize\ttfamily \mbox{\hyperlink{group___aliases_gaae0399166eb7c9e558f61287856a996c}{I2\+C\+\_\+\+Reg\+Addr\+\_\+t}}\texorpdfstring{$\ast$}{*} I2\+C\+\_\+\+Handle\+\_\+t\+::p\+I2\+Cx}
+
+
+
+Pointer to the base address of the I2C peripheral needed. 
+
+\input{group___includes}
+\input{group___defines}
+\input{group___classes}
+\input{group___functions}

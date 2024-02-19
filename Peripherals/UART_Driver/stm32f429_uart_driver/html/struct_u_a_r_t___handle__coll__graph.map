@@ -1,0 +1,7 @@
+<map id="UART_Handle" name="UART_Handle">
+<area shape="rect" id="Node000001" title=" " alt="" coords="87,288,180,357"/>
+<area shape="rect" id="Node000002" href="$struct_u_a_r_t___pin_config.html" title=" " alt="" coords="5,5,115,224"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="54,223,66,263,77,279,73,282,61,265,49,224"/>
+<area shape="rect" id="Node000003" href="$struct_u_a_r_t___interrupt_config.html" title=" " alt="" coords="139,27,277,203"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="201,203,193,235,181,265,176,276,171,273,176,263,187,233,195,202"/>
+</map>

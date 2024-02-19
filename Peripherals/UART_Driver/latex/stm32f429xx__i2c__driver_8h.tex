@@ -1,0 +1,105 @@
+\doxysection{D\+:/\+Users/soumy/\+Git\+Hub/\+STM32\+\_\+\+MCU\+\_\+\+Peripherals/\+Peripherals/\+I2\+C\+\_\+\+Test/stm32f429\+\_\+i2c\+\_\+driver/\+Inc/stm32f429xx\+\_\+i2c\+\_\+driver.h File Reference}
+\hypertarget{stm32f429xx__i2c__driver_8h}{}\label{stm32f429xx__i2c__driver_8h}\index{D:/Users/soumy/GitHub/STM32\_MCU\_Peripherals/Peripherals/I2C\_Test/stm32f429\_i2c\_driver/Inc/stm32f429xx\_i2c\_driver.h@{D:/Users/soumy/GitHub/STM32\_MCU\_Peripherals/Peripherals/I2C\_Test/stm32f429\_i2c\_driver/Inc/stm32f429xx\_i2c\_driver.h}}
+
+
+Classes and API functions for driving an I2C peripheral for STM32\+F429xx MCUs Created on\+: Feb 11, 2024.  
+
+
+{\ttfamily \#include "{}stm32f429xx\+\_\+general.\+h"{}}\newline
+{\ttfamily \#include "{}stm32f429xx\+\_\+gpio\+\_\+driver.\+h"{}}\newline
+Include dependency graph for stm32f429xx\+\_\+i2c\+\_\+driver.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{stm32f429xx__i2c__driver_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{stm32f429xx__i2c__driver_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_i2_c___pin_config__t}{I2\+C\+\_\+\+Pin\+Config\+\_\+t}}
+\item 
+struct \mbox{\hyperlink{struct_i2_c___handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{group___defines_gaa314cf7ad54bb5b7aac40e022704c3bb}{I2\+C\+\_\+\+DISABLE}}~(\texorpdfstring{$\sim$}{\string~}\mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4ae449a11932de76ea790b3e37d6d8e343}{BIT0}})
+\begin{DoxyCompactList}\small\item\em I2C Disable macro. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{group___defines_ga1d30e026f613e2538785f28b708a8173}{I2\+C\+\_\+\+SM\+\_\+\+SPEED\+\_\+\+LIMIT}}~(100\texorpdfstring{$\ast$}{*}1000)
+\begin{DoxyCompactList}\small\item\em I2C Standard mode speed limit 100k\+Hz. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{group___defines_gaf79d2f036dfdf7e9f0fe955394bce7ee}{I2\+C\+\_\+\+FM\+\_\+\+SPEED\+\_\+\+LIMIT}}~(400\texorpdfstring{$\ast$}{*}1000)
+\begin{DoxyCompactList}\small\item\em I2C Fast mode speed limit 400k\+Hz. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{group___defines_ga64e58744ca70ef9c53a78c90495d9b42}{I2\+C\+\_\+\+TIMEOUT\+\_\+F}}~\mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4a3773386df3b805a870a54253bb80d29b}{BIT14}}
+\begin{DoxyCompactList}\small\item\em I2C Timeout flag. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{group___defines_gabf93e673b50c4485e40307234f8ac716}{I2\+C\+\_\+\+PECERR\+\_\+F}}~\mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4a4c35513f5e428c2f97e7e88aed84bb52}{BIT12}}
+\begin{DoxyCompactList}\small\item\em I2C PEC Error flag. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{group___defines_gad058c8a20d0e11ee1d96fdddf0d12b19}{I2\+C\+\_\+\+OVR\+\_\+F}}~\mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4a8ed18ae25cbb93c41d6910f875f6be30}{BIT11}}
+\begin{DoxyCompactList}\small\item\em I2C Overrun/\+Underrun error. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{group___defines_ga9b6a5cbaddb7d8c5af438125fcf0a4f6}{I2\+C\+\_\+\+AF\+\_\+F}}~\mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4a6949f8b49dffb16c4e9ed406b9e8f408}{BIT10}}
+\begin{DoxyCompactList}\small\item\em I2C Acknowledge failure error. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{group___defines_ga6ea371755a3e646e982d8c47a8f239ed}{I2\+C\+\_\+\+ARLO\+\_\+F}}~\mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4a5ada3dd825b7f32870fa70c0de2b92d7}{BIT9}}
+\begin{DoxyCompactList}\small\item\em I2C Arbitration lost error. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{group___defines_ga36868285a23ee7d63c97c6f68a7aa286}{I2\+C\+\_\+\+BERR\+\_\+F}}~\mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4af64ab504b0994d78a4d72bba097ffaec}{BIT8}}
+\begin{DoxyCompactList}\small\item\em I2C Bus error. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{group___defines_gaabc3f543ac52f56be2b05288eb1ce78a}{I2\+C\+\_\+\+TXE\+\_\+F}}~\mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4a51444c7c78e72346c6414d7957f7ba76}{BIT7}}
+\begin{DoxyCompactList}\small\item\em I2C Transmitter data register empty. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{group___defines_gafefe919e91716958d6ce2a8b79b564eb}{I2\+C\+\_\+\+RXNE\+\_\+F}}~\mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4af96b70dd1f6609aaf1176a4403167cc0}{BIT6}}
+\begin{DoxyCompactList}\small\item\em I2C Receiver data register not empty. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{group___defines_ga47d3f0018965f09f0e37947a5deeb110}{I2\+C\+\_\+\+STOP\+\_\+F}}~\mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4acc5fce0dbb088f4799045e143d22a5be}{BIT4}}
+\begin{DoxyCompactList}\small\item\em I2C Stop detection error. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{group___defines_gafaa3194af81769f3d6f6166abbf655b6}{I2\+C\+\_\+\+ADD10\+\_\+F}}~\mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4a7218c08fa1734dd2c314543dbc1999b6}{BIT3}}
+\begin{DoxyCompactList}\small\item\em I2C 10-\/bit header sent (Master mode) \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{group___defines_ga919b3c1354dcb978ff415a015b614d6d}{I2\+C\+\_\+\+BTF\+\_\+F}}~\mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4a2f23a7cfab89a468978087049a184486}{BIT2}}
+\begin{DoxyCompactList}\small\item\em I2C Byte transfer finished error. \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{group___defines_ga177eb3c96512fbfea09b60becf990a73}{I2\+C\+\_\+\+ADDR\+\_\+F}}~\mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4a4982bc4d3de52713a035a54a501149f8}{BIT1}}
+\begin{DoxyCompactList}\small\item\em I2C Address sent(master mode)/matched (slave mode) \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{group___defines_ga63a8d6bea483f51b990187ef43ae11bd}{I2\+C\+\_\+\+SB\+\_\+F}}~\mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4ae449a11932de76ea790b3e37d6d8e343}{BIT0}}
+\begin{DoxyCompactList}\small\item\em I2C Start bit error (Master mode) \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{group___classes_gadfdf854d8c5df694ffc1ee51fd01f3b9}{Fast\+Mode\+\_\+\+Duty\+Cycle}} \{ \mbox{\hyperlink{group___classes_ggadfdf854d8c5df694ffc1ee51fd01f3b9abc2e72cb3fa9a9cd561c55c8845083a3}{PERCENT\+\_\+33}}
+, \mbox{\hyperlink{group___classes_ggadfdf854d8c5df694ffc1ee51fd01f3b9ad8efbec45c2c7fe076d2206c641e6be3}{PERCENT\+\_\+36}}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+uint32\+\_\+t \mbox{\hyperlink{group___functions_gab1b217b9a85be4c9840e243bda3408e9}{Get\+PCLKFrequency}} (\mbox{\hyperlink{struct_i2_c___handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*})
+\begin{DoxyCompactList}\small\item\em Return the clock frequency of PCLK. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___functions_ga9b83058c3356c704a9c0f3cdfeff8260}{I2\+C\+\_\+\+Init}} (\mbox{\hyperlink{struct_i2_c___handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*})
+\begin{DoxyCompactList}\small\item\em Initialize the I2C peripheral module based on the SCLK frequency, Device address (if it is a slave), Acknowledgement enable, and Fast Mode Duty Cycle. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___functions_gad34e477f4c0f4353b2b94e2e81da4731}{I2\+C\+\_\+\+De\+Init}} (\mbox{\hyperlink{struct_i2_c___handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*})
+\begin{DoxyCompactList}\small\item\em De-\/initialize the I2C peripheral module. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___functions_gaad2b04ff6fed6a2a2b672144daee1a05}{I2\+C\+\_\+\+Master\+Send\+Data}} (\mbox{\hyperlink{struct_i2_c___handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+I2\+CHandle, const uint8\+\_\+t \texorpdfstring{$\ast$}{*}p\+Slave\+Address, uint8\+\_\+t \texorpdfstring{$\ast$}{*}p\+Data, uint32\+\_\+t \texorpdfstring{$\ast$}{*}p\+Length)
+\begin{DoxyCompactList}\small\item\em Transmit the data byte to the slave. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___functions_ga2c652fec1139e8a2f22706fcf4e8a97c}{I2\+C\+\_\+\+Master\+Receive\+Data}} (\mbox{\hyperlink{struct_i2_c___handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+I2\+CHandle, const uint8\+\_\+t \texorpdfstring{$\ast$}{*}p\+Slave\+Address, uint8\+\_\+t \texorpdfstring{$\ast$}{*}p\+Receive)
+\begin{DoxyCompactList}\small\item\em Receive the data byte from the slave. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___functions_gaf199c15c6b266f41d6b0305cef8db719}{I2\+C\+\_\+\+Slave\+Send\+Data}} (\mbox{\hyperlink{struct_i2_c___handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+I2\+CHandle, uint8\+\_\+t \texorpdfstring{$\ast$}{*}p\+Data)
+\begin{DoxyCompactList}\small\item\em Transmit the data byte to the master. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___functions_ga78afc3540aff2e93710b4b9c576888c7}{I2\+C\+\_\+\+Slave\+Receive\+Data}} (\mbox{\hyperlink{struct_i2_c___handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+I2\+CHandle, uint8\+\_\+t \texorpdfstring{$\ast$}{*}p\+Receive)
+\begin{DoxyCompactList}\small\item\em Receive the data byte from the master. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___functions_ga7e033efba44b5def1d7cf19e86829559}{I2\+C\+\_\+\+Error\+\_\+\+Interrupt\+\_\+\+Handler}} (\mbox{\hyperlink{struct_i2_c___handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+I2\+CHandle)
+\begin{DoxyCompactList}\small\item\em Callback function for I2C Error Interrupt handler. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___functions_ga656d1fe643316c70add3464dc899af02}{I2\+C\+\_\+\+Event\+\_\+\+Interrupt\+\_\+\+Handler}} (\mbox{\hyperlink{struct_i2_c___handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+I2\+CHandle)
+\begin{DoxyCompactList}\small\item\em Callback function for I2C Event Interrupt handler. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{group___functions_ga89c612e2e289c8109f97abf850500bd2}{I2\+C\+\_\+\+Get\+Flag\+Status}} (\mbox{\hyperlink{group___aliases_gaae0399166eb7c9e558f61287856a996c}{I2\+C\+\_\+\+Reg\+Addr\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+I2\+Cx, uint8\+\_\+t flag\+\_\+pos)
+\begin{DoxyCompactList}\small\item\em Get the status of flags from status register. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classes and API functions for driving an I2C peripheral for STM32\+F429xx MCUs Created on\+: Feb 11, 2024. 
+
+\begin{DoxyAuthor}{Author}
+\+: Soumyadeep Bose 
+\end{DoxyAuthor}

@@ -1,0 +1,20 @@
+<map id="D:/Users/soumy/GitHub/STM32_MCU_Peripherals/Peripherals/I2C_Test/stm32f429_i2c_driver/Inc/stm32f429xx_i2c_driver.h" name="D:/Users/soumy/GitHub/STM32_MCU_Peripherals/Peripherals/I2C_Test/stm32f429_i2c_driver/Inc/stm32f429xx_i2c_driver.h">
+<area shape="rect" id="Node000001" title="Classes and API functions for driving an I2C peripheral for STM32F429xx MCUs Created on: Feb 11,..." alt="" coords="5,5,215,96"/>
+<area shape="rect" id="Node000002" href="$stm32f429xx__general_8h.html" title="All purpose defines and includes Created on: Feb 11, 2024." alt="" coords="22,293,177,320"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,97,77,145,74,180,77,217,92,278,87,279,72,217,69,180,71,143,86,96"/>
+<area shape="rect" id="Node000007" href="$stm32f429xx__gpio__driver_8h.html" title="Classes and API functions for driving a GPIO peripheral for STM32F429xx MCUs Created on: Feb 15,..." alt="" coords="86,144,260,171"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="139,95,160,129,155,132,134,97"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="17,443,81,469"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="98,321,60,429,55,427,92,320"/>
+<area shape="rect" id="Node000004" href="$stm32f429xx_8h.html" title="CMSIS STM32F429xx Device Peripheral Access Layer Header File." alt="" coords="94,368,201,395"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="110,319,133,354,128,357,105,322"/>
+<area shape="poly" id="edge6_Node000004_Node000003" title=" " alt="" coords="132,397,79,436,76,431,129,393"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="105,443,195,469"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="150,395,152,427,146,427,145,395"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="219,443,417,469"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="178,393,275,434,273,439,176,398"/>
+<area shape="poly" id="edge8_Node000007_Node000002" title=" " alt="" coords="162,173,144,194,127,220,115,250,107,279,102,277,110,248,122,217,140,191,158,169"/>
+<area shape="rect" id="Node000008" href="$stm32f429xx__rcc__driver_8h.html" title=" " alt="" coords="137,219,305,245"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="183,170,206,204,202,207,179,173"/>
+<area shape="poly" id="edge10_Node000008_Node000002" title=" " alt="" coords="201,248,135,287,132,283,198,244"/>
+</map>

@@ -1,0 +1,536 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_r_c_c___type_def" kind="struct" language="C++" prot="public">
+    <compoundname>RCC_TypeDef</compoundname>
+    <includes refid="stm32f429xx_8h" local="no">stm32f429xx.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_r_c_c___type_def_1abcb9ff48b9afb990283fefad0554b5b3" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t RCC_TypeDef::CR</definition>
+        <argsstring></argsstring>
+        <name>CR</name>
+        <qualifiedname>RCC_TypeDef::CR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>RCC clock control register, Address offset: 0x00 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="693" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="693" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_c_c___type_def_1a2a7ccb4e23cb05a574f243f6278b7b26" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t RCC_TypeDef::PLLCFGR</definition>
+        <argsstring></argsstring>
+        <name>PLLCFGR</name>
+        <qualifiedname>RCC_TypeDef::PLLCFGR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>RCC PLL configuration register, Address offset: 0x04 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="694" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="694" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_c_c___type_def_1a0721b1b729c313211126709559fad371" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t RCC_TypeDef::CFGR</definition>
+        <argsstring></argsstring>
+        <name>CFGR</name>
+        <qualifiedname>RCC_TypeDef::CFGR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>RCC clock configuration register, Address offset: 0x08 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="695" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="695" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_c_c___type_def_1aeadf3a69dd5795db4638f71938704ff0" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t RCC_TypeDef::CIR</definition>
+        <argsstring></argsstring>
+        <name>CIR</name>
+        <qualifiedname>RCC_TypeDef::CIR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>RCC clock interrupt register, Address offset: 0x0C </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="696" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="696" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_c_c___type_def_1ad6abf71a348744aa3f2b7e8b214c1ca4" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t RCC_TypeDef::AHB1RSTR</definition>
+        <argsstring></argsstring>
+        <name>AHB1RSTR</name>
+        <qualifiedname>RCC_TypeDef::AHB1RSTR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>RCC AHB1 peripheral reset register, Address offset: 0x10 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="697" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="697" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_c_c___type_def_1a343e0230ded55920ff2a04fbde0e5bcd" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t RCC_TypeDef::AHB2RSTR</definition>
+        <argsstring></argsstring>
+        <name>AHB2RSTR</name>
+        <qualifiedname>RCC_TypeDef::AHB2RSTR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>RCC AHB2 peripheral reset register, Address offset: 0x14 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="698" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="698" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_c_c___type_def_1a39a90d838fbd0b8515f03e4a1be6374f" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t RCC_TypeDef::AHB3RSTR</definition>
+        <argsstring></argsstring>
+        <name>AHB3RSTR</name>
+        <qualifiedname>RCC_TypeDef::AHB3RSTR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>RCC AHB3 peripheral reset register, Address offset: 0x18 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="699" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="699" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_c_c___type_def_1a646631532167f3386763a2d10a881a04" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t RCC_TypeDef::RESERVED0</definition>
+        <argsstring></argsstring>
+        <name>RESERVED0</name>
+        <qualifiedname>RCC_TypeDef::RESERVED0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved, 0x1C <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="700" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="700" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_c_c___type_def_1a600f4d6d592f43edb2fc653c5cba023a" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t RCC_TypeDef::APB1RSTR</definition>
+        <argsstring></argsstring>
+        <name>APB1RSTR</name>
+        <qualifiedname>RCC_TypeDef::APB1RSTR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>RCC APB1 peripheral reset register, Address offset: 0x20 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="701" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="701" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_c_c___type_def_1a4491ab20a44b70bf7abd247791676a59" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t RCC_TypeDef::APB2RSTR</definition>
+        <argsstring></argsstring>
+        <name>APB2RSTR</name>
+        <qualifiedname>RCC_TypeDef::APB2RSTR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>RCC APB2 peripheral reset register, Address offset: 0x24 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="702" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="702" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_c_c___type_def_1a291f9ae23a96c1bfbab257aad87597a5" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t RCC_TypeDef::RESERVED1[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>RESERVED1</name>
+        <qualifiedname>RCC_TypeDef::RESERVED1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved, 0x28-0x2C <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="703" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="703" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_c_c___type_def_1af58a7ad868f07f8759eac3e31b6fa79e" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t RCC_TypeDef::AHB1ENR</definition>
+        <argsstring></argsstring>
+        <name>AHB1ENR</name>
+        <qualifiedname>RCC_TypeDef::AHB1ENR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>RCC AHB1 peripheral clock register, Address offset: 0x30 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="704" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="704" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_c_c___type_def_1af326cb98c318fc08894a8dd79c2c675f" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t RCC_TypeDef::AHB2ENR</definition>
+        <argsstring></argsstring>
+        <name>AHB2ENR</name>
+        <qualifiedname>RCC_TypeDef::AHB2ENR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>RCC AHB2 peripheral clock register, Address offset: 0x34 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="705" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="705" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_c_c___type_def_1ad4ea7be562b42e2ae1a84db44121195d" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t RCC_TypeDef::AHB3ENR</definition>
+        <argsstring></argsstring>
+        <name>AHB3ENR</name>
+        <qualifiedname>RCC_TypeDef::AHB3ENR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>RCC AHB3 peripheral clock register, Address offset: 0x38 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="706" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="706" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_c_c___type_def_1a94cb7e7b923ebacab99c967d0f808235" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t RCC_TypeDef::RESERVED2</definition>
+        <argsstring></argsstring>
+        <name>RESERVED2</name>
+        <qualifiedname>RCC_TypeDef::RESERVED2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved, 0x3C <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="707" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="707" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_c_c___type_def_1aec7622ba90341c9faf843d9ee54a759f" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t RCC_TypeDef::APB1ENR</definition>
+        <argsstring></argsstring>
+        <name>APB1ENR</name>
+        <qualifiedname>RCC_TypeDef::APB1ENR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>RCC APB1 peripheral clock enable register, Address offset: 0x40 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="708" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="708" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_c_c___type_def_1a619b4c22f630a269dfd0c331f90f6868" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t RCC_TypeDef::APB2ENR</definition>
+        <argsstring></argsstring>
+        <name>APB2ENR</name>
+        <qualifiedname>RCC_TypeDef::APB2ENR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>RCC APB2 peripheral clock enable register, Address offset: 0x44 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="709" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="709" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_c_c___type_def_1a74071ea325d6bc064817ed0a7a4d7def" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t RCC_TypeDef::RESERVED3[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>RESERVED3</name>
+        <qualifiedname>RCC_TypeDef::RESERVED3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved, 0x48-0x4C <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="710" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="710" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_c_c___type_def_1a89d6c21f02196b7f59bcc30c1061dd87" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t RCC_TypeDef::AHB1LPENR</definition>
+        <argsstring></argsstring>
+        <name>AHB1LPENR</name>
+        <qualifiedname>RCC_TypeDef::AHB1LPENR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>RCC AHB1 peripheral clock enable in low power mode register, Address offset: 0x50 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="711" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="711" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_c_c___type_def_1a1de344446cba3f4dd15c56fbe20eb0dd" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t RCC_TypeDef::AHB2LPENR</definition>
+        <argsstring></argsstring>
+        <name>AHB2LPENR</name>
+        <qualifiedname>RCC_TypeDef::AHB2LPENR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>RCC AHB2 peripheral clock enable in low power mode register, Address offset: 0x54 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="712" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="712" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_c_c___type_def_1a95edda857c3725bfb410d3a4707edfd8" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t RCC_TypeDef::AHB3LPENR</definition>
+        <argsstring></argsstring>
+        <name>AHB3LPENR</name>
+        <qualifiedname>RCC_TypeDef::AHB3LPENR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>RCC AHB3 peripheral clock enable in low power mode register, Address offset: 0x58 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="713" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="713" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_c_c___type_def_1a0f009e4bd1777ac1b86ca27e23361a0e" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t RCC_TypeDef::RESERVED4</definition>
+        <argsstring></argsstring>
+        <name>RESERVED4</name>
+        <qualifiedname>RCC_TypeDef::RESERVED4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved, 0x5C <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="714" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="714" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_c_c___type_def_1a5c8e710c40b642dcbf296201a7ecb2da" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t RCC_TypeDef::APB1LPENR</definition>
+        <argsstring></argsstring>
+        <name>APB1LPENR</name>
+        <qualifiedname>RCC_TypeDef::APB1LPENR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>RCC APB1 peripheral clock enable in low power mode register, Address offset: 0x60 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="715" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="715" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_c_c___type_def_1a7e46c65220f00a6858a5b35b74a37b51" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t RCC_TypeDef::APB2LPENR</definition>
+        <argsstring></argsstring>
+        <name>APB2LPENR</name>
+        <qualifiedname>RCC_TypeDef::APB2LPENR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>RCC APB2 peripheral clock enable in low power mode register, Address offset: 0x64 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="716" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="716" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_c_c___type_def_1af9159a971013ef0592be8be3e256a344" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t RCC_TypeDef::RESERVED5[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>RESERVED5</name>
+        <qualifiedname>RCC_TypeDef::RESERVED5</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved, 0x68-0x6C <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="717" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="717" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_c_c___type_def_1a05be375db50e8c9dd24fb3bcf42d7cf1" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t RCC_TypeDef::BDCR</definition>
+        <argsstring></argsstring>
+        <name>BDCR</name>
+        <qualifiedname>RCC_TypeDef::BDCR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>RCC Backup domain control register, Address offset: 0x70 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="718" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="718" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_c_c___type_def_1a7e913b8bf59d4351e1f3d19387bd05b9" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t RCC_TypeDef::CSR</definition>
+        <argsstring></argsstring>
+        <name>CSR</name>
+        <qualifiedname>RCC_TypeDef::CSR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>RCC clock control &amp; status register, Address offset: 0x74 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="719" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="719" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_c_c___type_def_1a30cfd1a2f2eb931bacfd2be965e53d1b" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t RCC_TypeDef::RESERVED6[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>RESERVED6</name>
+        <qualifiedname>RCC_TypeDef::RESERVED6</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved, 0x78-0x7C <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="720" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="720" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_c_c___type_def_1a52270ad1423c68cd536f62657bb669f5" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t RCC_TypeDef::SSCGR</definition>
+        <argsstring></argsstring>
+        <name>SSCGR</name>
+        <qualifiedname>RCC_TypeDef::SSCGR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>RCC spread spectrum clock generation register, Address offset: 0x80 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="721" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="721" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_c_c___type_def_1ac3beb02dccd9131d6ce55bb29c5fa69f" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t RCC_TypeDef::PLLI2SCFGR</definition>
+        <argsstring></argsstring>
+        <name>PLLI2SCFGR</name>
+        <qualifiedname>RCC_TypeDef::PLLI2SCFGR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>RCC PLLI2S configuration register, Address offset: 0x84 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="722" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="722" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_c_c___type_def_1ac4b6f819b8e4f7981b998bd75dafcbce" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t RCC_TypeDef::PLLSAICFGR</definition>
+        <argsstring></argsstring>
+        <name>PLLSAICFGR</name>
+        <qualifiedname>RCC_TypeDef::PLLSAICFGR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>RCC PLLSAI configuration register, Address offset: 0x88 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="723" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="723" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_r_c_c___type_def_1a877ad70fcd4a215bc8f9bb31fdc8d3d1" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t RCC_TypeDef::DCKCFGR</definition>
+        <argsstring></argsstring>
+        <name>DCKCFGR</name>
+        <qualifiedname>RCC_TypeDef::DCKCFGR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>RCC Dedicated Clocks configuration register, Address offset: 0x8C </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="724" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="724" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Reset and Clock Control. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Inc/stm32f429xx.h" line="691" column="1" bodyfile="Inc/stm32f429xx.h" bodystart="692" bodyend="725"/>
+    <listofallmembers>
+      <member refid="struct_r_c_c___type_def_1af58a7ad868f07f8759eac3e31b6fa79e" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>AHB1ENR</name></member>
+      <member refid="struct_r_c_c___type_def_1a89d6c21f02196b7f59bcc30c1061dd87" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>AHB1LPENR</name></member>
+      <member refid="struct_r_c_c___type_def_1ad6abf71a348744aa3f2b7e8b214c1ca4" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>AHB1RSTR</name></member>
+      <member refid="struct_r_c_c___type_def_1af326cb98c318fc08894a8dd79c2c675f" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>AHB2ENR</name></member>
+      <member refid="struct_r_c_c___type_def_1a1de344446cba3f4dd15c56fbe20eb0dd" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>AHB2LPENR</name></member>
+      <member refid="struct_r_c_c___type_def_1a343e0230ded55920ff2a04fbde0e5bcd" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>AHB2RSTR</name></member>
+      <member refid="struct_r_c_c___type_def_1ad4ea7be562b42e2ae1a84db44121195d" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>AHB3ENR</name></member>
+      <member refid="struct_r_c_c___type_def_1a95edda857c3725bfb410d3a4707edfd8" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>AHB3LPENR</name></member>
+      <member refid="struct_r_c_c___type_def_1a39a90d838fbd0b8515f03e4a1be6374f" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>AHB3RSTR</name></member>
+      <member refid="struct_r_c_c___type_def_1aec7622ba90341c9faf843d9ee54a759f" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>APB1ENR</name></member>
+      <member refid="struct_r_c_c___type_def_1a5c8e710c40b642dcbf296201a7ecb2da" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>APB1LPENR</name></member>
+      <member refid="struct_r_c_c___type_def_1a600f4d6d592f43edb2fc653c5cba023a" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>APB1RSTR</name></member>
+      <member refid="struct_r_c_c___type_def_1a619b4c22f630a269dfd0c331f90f6868" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>APB2ENR</name></member>
+      <member refid="struct_r_c_c___type_def_1a7e46c65220f00a6858a5b35b74a37b51" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>APB2LPENR</name></member>
+      <member refid="struct_r_c_c___type_def_1a4491ab20a44b70bf7abd247791676a59" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>APB2RSTR</name></member>
+      <member refid="struct_r_c_c___type_def_1a05be375db50e8c9dd24fb3bcf42d7cf1" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>BDCR</name></member>
+      <member refid="struct_r_c_c___type_def_1a0721b1b729c313211126709559fad371" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>CFGR</name></member>
+      <member refid="struct_r_c_c___type_def_1aeadf3a69dd5795db4638f71938704ff0" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>CIR</name></member>
+      <member refid="struct_r_c_c___type_def_1abcb9ff48b9afb990283fefad0554b5b3" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>CR</name></member>
+      <member refid="struct_r_c_c___type_def_1a7e913b8bf59d4351e1f3d19387bd05b9" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>CSR</name></member>
+      <member refid="struct_r_c_c___type_def_1a877ad70fcd4a215bc8f9bb31fdc8d3d1" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>DCKCFGR</name></member>
+      <member refid="struct_r_c_c___type_def_1a2a7ccb4e23cb05a574f243f6278b7b26" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>PLLCFGR</name></member>
+      <member refid="struct_r_c_c___type_def_1ac3beb02dccd9131d6ce55bb29c5fa69f" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>PLLI2SCFGR</name></member>
+      <member refid="struct_r_c_c___type_def_1ac4b6f819b8e4f7981b998bd75dafcbce" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>PLLSAICFGR</name></member>
+      <member refid="struct_r_c_c___type_def_1a646631532167f3386763a2d10a881a04" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>RESERVED0</name></member>
+      <member refid="struct_r_c_c___type_def_1a291f9ae23a96c1bfbab257aad87597a5" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>RESERVED1</name></member>
+      <member refid="struct_r_c_c___type_def_1a94cb7e7b923ebacab99c967d0f808235" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>RESERVED2</name></member>
+      <member refid="struct_r_c_c___type_def_1a74071ea325d6bc064817ed0a7a4d7def" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>RESERVED3</name></member>
+      <member refid="struct_r_c_c___type_def_1a0f009e4bd1777ac1b86ca27e23361a0e" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>RESERVED4</name></member>
+      <member refid="struct_r_c_c___type_def_1af9159a971013ef0592be8be3e256a344" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>RESERVED5</name></member>
+      <member refid="struct_r_c_c___type_def_1a30cfd1a2f2eb931bacfd2be965e53d1b" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>RESERVED6</name></member>
+      <member refid="struct_r_c_c___type_def_1a52270ad1423c68cd536f62657bb669f5" prot="public" virt="non-virtual"><scope>RCC_TypeDef</scope><name>SSCGR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

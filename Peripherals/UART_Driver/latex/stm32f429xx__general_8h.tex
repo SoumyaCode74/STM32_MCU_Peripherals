@@ -1,0 +1,91 @@
+\doxysection{D\+:/\+Users/soumy/\+Git\+Hub/\+STM32\+\_\+\+MCU\+\_\+\+Peripherals/\+Peripherals/\+I2\+C\+\_\+\+Test/stm32f429\+\_\+i2c\+\_\+driver/\+Inc/stm32f429xx\+\_\+general.h File Reference}
+\hypertarget{stm32f429xx__general_8h}{}\label{stm32f429xx__general_8h}\index{D:/Users/soumy/GitHub/STM32\_MCU\_Peripherals/Peripherals/I2C\_Test/stm32f429\_i2c\_driver/Inc/stm32f429xx\_general.h@{D:/Users/soumy/GitHub/STM32\_MCU\_Peripherals/Peripherals/I2C\_Test/stm32f429\_i2c\_driver/Inc/stm32f429xx\_general.h}}
+
+
+All purpose defines and includes Created on\+: Feb 11, 2024.  
+
+
+{\ttfamily \#include $<$stdint.\+h$>$}\newline
+{\ttfamily \#include "{}stm32f429xx.\+h"{}}\newline
+Include dependency graph for stm32f429xx\+\_\+general.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{stm32f429xx__general_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{stm32f429xx__general_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef \mbox{\hyperlink{struct_r_c_c___type_def}{RCC\+\_\+\+Type\+Def}} \mbox{\hyperlink{group___aliases_ga3a62011ea00507b10cf91c5686a25737}{RCC\+\_\+\+Reg\+Addr\+\_\+t}}
+\item 
+typedef \mbox{\hyperlink{struct_g_p_i_o___type_def}{GPIO\+\_\+\+Type\+Def}} \mbox{\hyperlink{group___aliases_ga51e19dcff5aaac032509a7102fd26917}{GPIO\+\_\+\+Reg\+Addr\+\_\+t}}
+\item 
+typedef \mbox{\hyperlink{struct_u_s_a_r_t___type_def}{USART\+\_\+\+Type\+Def}} \mbox{\hyperlink{group___aliases_ga25c8606314cc943d21b2e264418f6808}{USART\+\_\+\+Reg\+Addr\+\_\+t}}
+\item 
+typedef \mbox{\hyperlink{struct_s_p_i___type_def}{SPI\+\_\+\+Type\+Def}} \mbox{\hyperlink{group___aliases_ga9f8fc6d34271a3e1701809f9f0980e02}{SPI\+\_\+\+Reg\+Addr\+\_\+t}}
+\item 
+typedef \mbox{\hyperlink{struct_i2_c___type_def}{I2\+C\+\_\+\+Type\+Def}} \mbox{\hyperlink{group___aliases_gaae0399166eb7c9e558f61287856a996c}{I2\+C\+\_\+\+Reg\+Addr\+\_\+t}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{group___classes_ga472e015c9d61011b9922016e6f0a70d4}{Bit\+\_\+t}} \{ \newline
+\mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4ae449a11932de76ea790b3e37d6d8e343}{BIT0}} = (0x1 \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} 0)
+, \mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4a4982bc4d3de52713a035a54a501149f8}{BIT1}} = (BIT0 \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} 1)
+, \mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4a2f23a7cfab89a468978087049a184486}{BIT2}} = (BIT1 \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} 1)
+, \mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4a7218c08fa1734dd2c314543dbc1999b6}{BIT3}} = (BIT2 \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} 1)
+, \newline
+\mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4acc5fce0dbb088f4799045e143d22a5be}{BIT4}} = (BIT3 \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} 1)
+, \mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4a89643e05978c4ea27b9fa0aa7c8dad72}{BIT5}} = (BIT4 \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} 1)
+, \mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4af96b70dd1f6609aaf1176a4403167cc0}{BIT6}} = (BIT5 \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} 1)
+, \mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4a51444c7c78e72346c6414d7957f7ba76}{BIT7}} = (BIT6 \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} 1)
+, \newline
+\mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4af64ab504b0994d78a4d72bba097ffaec}{BIT8}} = (BIT7 \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} 1)
+, \mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4a5ada3dd825b7f32870fa70c0de2b92d7}{BIT9}} = (BIT8 \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} 1)
+, \mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4a6949f8b49dffb16c4e9ed406b9e8f408}{BIT10}} = (BIT9 \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} 1)
+, \mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4a8ed18ae25cbb93c41d6910f875f6be30}{BIT11}} = (BIT10 \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} 1)
+, \newline
+\mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4a4c35513f5e428c2f97e7e88aed84bb52}{BIT12}} = (BIT11 \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} 1)
+, \mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4af2d10e82c2ff5ce44b3d4fba8139e456}{BIT13}} = (BIT12 \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} 1)
+, \mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4a3773386df3b805a870a54253bb80d29b}{BIT14}} = (BIT13 \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} 1)
+, \mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4a3eb1bfb3fd96a90c635908858669f987}{BIT15}} = (BIT14 \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} 1)
+, \newline
+\mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4a12b7defe5ace4d6bd26b7c9d0881689d}{BIT16}} = (BIT15 \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} 1)
+, \mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4a0cbd808e163380d726631a07b9772aea}{BIT17}} = (BIT16 \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} 1)
+, \mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4ac436958df26d73989eced1ecc3ce70fb}{BIT18}} = (BIT17 \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} 1)
+, \mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4a9c6007f128f0e2e63862f799c5afeb2c}{BIT19}} = (BIT18 \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} 1)
+, \newline
+\mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4a1e195f184ee0c9a78d0dd94390cf11f5}{BIT20}} = (BIT19 \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} 1)
+, \mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4a4d4ab6b8152ac76c8f55d7c9fbeb0b04}{BIT21}} = (BIT20 \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} 1)
+, \mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4a50a298e0e7f05ed686dde0697d55d58f}{BIT22}} = (BIT21 \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} 1)
+, \mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4ab173f9979dea12f0b44179be7ccecc70}{BIT23}} = (BIT22 \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} 1)
+, \newline
+\mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4acc3f590de4f72373988cb84a750cc559}{BIT24}} = (BIT23 \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} 1)
+, \mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4a7e0e3c0de7409d46353eb073b364ae5c}{BIT25}} = (BIT24 \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} 1)
+, \mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4adb8846b902c2c19577bca3f3a4486e5a}{BIT26}} = (BIT25 \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} 1)
+, \mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4a86d65eac6da8f7c2c2ab9c6437a2b6c4}{BIT27}} = (BIT26 \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} 1)
+, \newline
+\mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4a8ca3c6188e066822543923544c370bec}{BIT28}} = (BIT27 \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} 1)
+, \mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4adcae034af61184fcb3fe21d18d7045aa}{BIT29}} = (BIT28 \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} 1)
+, \mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4a4bfea00b651c4f5cb3065eb31135bdee}{BIT30}} = (BIT29 \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} 1)
+, \mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4ab41bcd7422285f645f80eb9bd7a0aab3}{BIT31}} = (BIT30 \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} 1)
+ \}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+All purpose defines and includes Created on\+: Feb 11, 2024. 
+
+\begin{DoxyAuthor}{Author}
+\+: Soumyadeep Bose 
+\end{DoxyAuthor}

@@ -1,0 +1,58 @@
+\doxysection{stm32f429xx\+\_\+i2c\+\_\+driver.\+h}
+\hypertarget{stm32f429xx__i2c__driver_8h_source}{}\label{stm32f429xx__i2c__driver_8h_source}\index{D:/Users/soumy/GitHub/STM32\_MCU\_Peripherals/Peripherals/I2C\_Test/stm32f429\_i2c\_driver/Inc/stm32f429xx\_i2c\_driver.h@{D:/Users/soumy/GitHub/STM32\_MCU\_Peripherals/Peripherals/I2C\_Test/stm32f429\_i2c\_driver/Inc/stm32f429xx\_i2c\_driver.h}}
+\mbox{\hyperlink{stm32f429xx__i2c__driver_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00018\ \textcolor{preprocessor}{\#ifndef\ STM32F429XX\_I2C\_DRIVER\_H\_}}
+\DoxyCodeLine{00019\ \textcolor{preprocessor}{\#define\ STM32F429XX\_I2C\_DRIVER\_H\_}}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00024\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{stm32f429xx__general_8h}{stm32f429xx\_general.h}}"{}}}
+\DoxyCodeLine{00025\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{stm32f429xx__gpio__driver_8h}{stm32f429xx\_gpio\_driver.h}}"{}}}
+\DoxyCodeLine{00033\ \textcolor{preprocessor}{\#define\ I2C\_DISABLE\ \ \ \ \ \ \ \ \ \ \ \ \ (\string~BIT0)\ \ \ \ \ \ \ \ \ \ \ \ \ }}
+\DoxyCodeLine{00034\ \textcolor{preprocessor}{\#define\ I2C\_SM\_SPEED\_LIMIT\ \ \ \ \ \ (100*1000)\ \ \ \ \ \ \ \ \ \ }}
+\DoxyCodeLine{00035\ \textcolor{preprocessor}{\#define\ I2C\_FM\_SPEED\_LIMIT\ \ \ \ \ \ (400*1000)\ \ \ \ \ \ \ \ \ \ }}
+\DoxyCodeLine{00036\ \textcolor{preprocessor}{\#define\ I2C\_TIMEOUT\_F\ \ \ \ \ \ \ \ \ \ \ BIT14\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+\DoxyCodeLine{00037\ \textcolor{preprocessor}{\#define\ I2C\_PECERR\_F\ \ \ \ \ \ \ \ \ \ \ \ BIT12\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+\DoxyCodeLine{00038\ \textcolor{preprocessor}{\#define\ I2C\_OVR\_F\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ BIT11\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+\DoxyCodeLine{00039\ \textcolor{preprocessor}{\#define\ I2C\_AF\_F\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ BIT10\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+\DoxyCodeLine{00040\ \textcolor{preprocessor}{\#define\ I2C\_ARLO\_F\ \ \ \ \ \ \ \ \ \ \ \ \ \ BIT9\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+\DoxyCodeLine{00041\ \textcolor{preprocessor}{\#define\ I2C\_BERR\_F\ \ \ \ \ \ \ \ \ \ \ \ \ \ BIT8\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+\DoxyCodeLine{00042\ \textcolor{preprocessor}{\#define\ I2C\_TXE\_F\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ BIT7\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+\DoxyCodeLine{00043\ \textcolor{preprocessor}{\#define\ I2C\_RXNE\_F\ \ \ \ \ \ \ \ \ \ \ \ \ \ BIT6\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+\DoxyCodeLine{00044\ \textcolor{preprocessor}{\#define\ I2C\_STOP\_F\ \ \ \ \ \ \ \ \ \ \ \ \ \ BIT4\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+\DoxyCodeLine{00045\ \textcolor{preprocessor}{\#define\ I2C\_ADD10\_F\ \ \ \ \ \ \ \ \ \ \ \ \ BIT3\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+\DoxyCodeLine{00046\ \textcolor{preprocessor}{\#define\ I2C\_BTF\_F\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ BIT2\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+\DoxyCodeLine{00047\ \textcolor{preprocessor}{\#define\ I2C\_ADDR\_F\ \ \ \ \ \ \ \ \ \ \ \ \ \ BIT1\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+\DoxyCodeLine{00048\ \textcolor{preprocessor}{\#define\ I2C\_SB\_F\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ BIT0\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+\DoxyCodeLine{00049\ }
+\DoxyCodeLine{00057\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct}\{}
+\DoxyCodeLine{00058\ \ \ \ \ uint32\_t\ \ \ \ \mbox{\hyperlink{group___i2_c___driver___header_gadbb082b2896fb5691b2ba1dceb8ca5ca}{I2C\_SCLSpeed}};\ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00059\ \ \ \ \ uint8\_t\ \ \ \ \ \mbox{\hyperlink{group___i2_c___driver___header_gae741b4bdc43cc40ccb24557ae4be6712}{I2C\_DeviceAddress}};\ \ \ \ \ }
+\DoxyCodeLine{00060\ \ \ \ \ uint8\_t\ \ \ \ \ \mbox{\hyperlink{group___i2_c___driver___header_ga88720fb61655cb514b0f2bdaa4ee8c2f}{I2C\_AckControl}}\ :\ 1;\ \ \ \ \ \ \ }
+\DoxyCodeLine{00061\ \ \ \ \ uint8\_t\ \ \ \ \ \mbox{\hyperlink{group___i2_c___driver___header_gab4114e274f8848e073de0c689369f420}{I2C\_FMDutyCycle}}\ :\ 3;\ }
+\DoxyCodeLine{00062\ \}\mbox{\hyperlink{struct_i2_c___pin_config__t}{I2C\_PinConfig\_t}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00063\ }
+\DoxyCodeLine{00064\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct}\{}
+\DoxyCodeLine{00065\ \ \ \ \ \mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\_Handle\_t}}\ \ *\mbox{\hyperlink{group___i2_c___driver___header_gac9ef90c2cf1fa10ab6a846573f1b0152}{hGPIO}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00066\ \ \ \ \ \mbox{\hyperlink{struct_r_c_c___handle__t}{RCC\_Handle\_t}}\ \ \ \ *\mbox{\hyperlink{group___i2_c___driver___header_gac249464bb5eadcdffb10425ed00c5c53}{hRCCPeriph}};\ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00067\ \ \ \ \ \mbox{\hyperlink{struct_i2_c___type_def}{I2C\_RegAddr\_t}}\ \ *\mbox{\hyperlink{group___i2_c___driver___header_ga8a620ba905fc88fcbb5515bd4ce2303c}{pI2Cx}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00068\ \ \ \ \ \mbox{\hyperlink{struct_i2_c___pin_config__t}{I2C\_PinConfig\_t}}\ \mbox{\hyperlink{group___i2_c___driver___header_ga0b12cd2c9fc8177f1db4e89ce90627db}{I2C\_PinConfig}};\ \ \ \ \ \ }
+\DoxyCodeLine{00069\ \}\mbox{\hyperlink{struct_i2_c___handle__t}{I2C\_Handle\_t}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00070\ }
+\DoxyCodeLine{00071\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{enum}\{}
+\DoxyCodeLine{00072\ \ \ \ \ \mbox{\hyperlink{group___classes_ggadfdf854d8c5df694ffc1ee51fd01f3b9abc2e72cb3fa9a9cd561c55c8845083a3}{PERCENT\_33}},}
+\DoxyCodeLine{00073\ \ \ \ \ \mbox{\hyperlink{group___classes_ggadfdf854d8c5df694ffc1ee51fd01f3b9ad8efbec45c2c7fe076d2206c641e6be3}{PERCENT\_36}}}
+\DoxyCodeLine{00074\ \}\mbox{\hyperlink{group___classes_gadfdf854d8c5df694ffc1ee51fd01f3b9}{FastMode\_DutyCycle}};}
+\DoxyCodeLine{00089\ uint32\_t\ \mbox{\hyperlink{group___functions_gab1b217b9a85be4c9840e243bda3408e9}{GetPCLKFrequency}}(\mbox{\hyperlink{struct_i2_c___handle__t}{I2C\_Handle\_t}}\ *);}
+\DoxyCodeLine{00096\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___functions_ga9b83058c3356c704a9c0f3cdfeff8260}{I2C\_Init}}(\mbox{\hyperlink{struct_i2_c___handle__t}{I2C\_Handle\_t}}\ *);}
+\DoxyCodeLine{00102\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___functions_gad34e477f4c0f4353b2b94e2e81da4731}{I2C\_DeInit}}(\mbox{\hyperlink{struct_i2_c___handle__t}{I2C\_Handle\_t}}\ *);}
+\DoxyCodeLine{00111\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___functions_gaad2b04ff6fed6a2a2b672144daee1a05}{I2C\_MasterSendData}}(\mbox{\hyperlink{struct_i2_c___handle__t}{I2C\_Handle\_t}}\ *\ pI2CHandle,\ \textcolor{keyword}{const}\ uint8\_t\ *\ pSlaveAddress,\ uint8\_t\ *\ pData,\ uint32\_t\ *\ pLength);}
+\DoxyCodeLine{00119\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___functions_ga2c652fec1139e8a2f22706fcf4e8a97c}{I2C\_MasterReceiveData}}(\mbox{\hyperlink{struct_i2_c___handle__t}{I2C\_Handle\_t}}\ *\ pI2CHandle,\ \textcolor{keyword}{const}\ uint8\_t\ *\ pSlaveAddress,\ uint8\_t\ *\ pReceive);}
+\DoxyCodeLine{00126\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___functions_gaf199c15c6b266f41d6b0305cef8db719}{I2C\_SlaveSendData}}(\mbox{\hyperlink{struct_i2_c___handle__t}{I2C\_Handle\_t}}\ *\ pI2CHandle,\ uint8\_t\ *\ pData);}
+\DoxyCodeLine{00133\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___functions_ga78afc3540aff2e93710b4b9c576888c7}{I2C\_SlaveReceiveData}}(\mbox{\hyperlink{struct_i2_c___handle__t}{I2C\_Handle\_t}}\ *\ pI2CHandle,\ uint8\_t\ *\ pReceive);}
+\DoxyCodeLine{00139\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___functions_ga7e033efba44b5def1d7cf19e86829559}{I2C\_Error\_Interrupt\_Handler}}(\mbox{\hyperlink{struct_i2_c___handle__t}{I2C\_Handle\_t}}\ *\ pI2CHandle);}
+\DoxyCodeLine{00145\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___functions_ga656d1fe643316c70add3464dc899af02}{I2C\_Event\_Interrupt\_Handler}}(\mbox{\hyperlink{struct_i2_c___handle__t}{I2C\_Handle\_t}}\ *\ pI2CHandle);}
+\DoxyCodeLine{00152\ uint8\_t\ \mbox{\hyperlink{group___functions_ga89c612e2e289c8109f97abf850500bd2}{I2C\_GetFlagStatus}}(\mbox{\hyperlink{struct_i2_c___type_def}{I2C\_RegAddr\_t}}\ *\ pI2Cx,\ uint8\_t\ flag\_pos);}
+\DoxyCodeLine{00156\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ STM32F429XX\_I2C\_DRIVER\_H\_\ */}\textcolor{preprocessor}{}}
+
+\end{DoxyCode}

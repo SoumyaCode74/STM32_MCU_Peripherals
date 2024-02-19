@@ -1,0 +1,82 @@
+\doxysection{Inc/stm32f429xx\+\_\+gpio\+\_\+driver.h File Reference}
+\hypertarget{stm32f429xx__gpio__driver_8h}{}\label{stm32f429xx__gpio__driver_8h}\index{Inc/stm32f429xx\_gpio\_driver.h@{Inc/stm32f429xx\_gpio\_driver.h}}
+
+
+Classes and API functions for driving a GPIO peripheral for STM32\+F429xx MCUs Created on\+: Feb 15, 2024.  
+
+
+{\ttfamily \#include "{}stm32f429xx\+\_\+general.\+h"{}}\newline
+{\ttfamily \#include "{}stm32f429xx\+\_\+rcc\+\_\+driver.\+h"{}}\newline
+Include dependency graph for stm32f429xx\+\_\+gpio\+\_\+driver.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=254pt]{stm32f429xx__gpio__driver_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=274pt]{stm32f429xx__gpio__driver_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_g_p_i_o___pin_config__t}{GPIO\+\_\+\+Pin\+Config\+\_\+t}}
+\item 
+struct \mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\+\_\+\+Handle\+\_\+t}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{group___classes_gaf164c756418dde00ac07fd47d0962150}{GPIO\+\_\+\+Port}} \{ \newline
+\mbox{\hyperlink{group___classes_ggaf164c756418dde00ac07fd47d0962150aeb6782d9dfedf3c6a78ffdb1624fa454}{PORT\+\_\+A}}
+, \mbox{\hyperlink{group___classes_ggaf164c756418dde00ac07fd47d0962150a16ada472d473fbd0207b99e9e4d68f4a}{PORT\+\_\+B}}
+, \mbox{\hyperlink{group___classes_ggaf164c756418dde00ac07fd47d0962150a627cc690c37f97527dd2f07aa22092d9}{PORT\+\_\+C}}
+, \mbox{\hyperlink{group___classes_ggaf164c756418dde00ac07fd47d0962150af7242fe75227a46a190645663f91ce69}{PORT\+\_\+D}}
+, \newline
+\mbox{\hyperlink{group___classes_ggaf164c756418dde00ac07fd47d0962150abad63f022d1fa37a66f87dc31a78f6a9}{PORT\+\_\+E}}
+, \mbox{\hyperlink{group___classes_ggaf164c756418dde00ac07fd47d0962150aa3760b302740c7d09c93ec7a634f837c}{PORT\+\_\+F}}
+, \mbox{\hyperlink{group___classes_ggaf164c756418dde00ac07fd47d0962150a48afb424254d52e7d97a7c1428f5aafa}{PORT\+\_\+G}}
+, \mbox{\hyperlink{group___classes_ggaf164c756418dde00ac07fd47d0962150a31d1ae08c10668d936d1c2c6426c1c47}{PORT\+\_\+H}}
+, \newline
+\mbox{\hyperlink{group___classes_ggaf164c756418dde00ac07fd47d0962150aa4ce4b10b97f03ad33c276d87ccef088}{PORT\+\_\+I}}
+, \mbox{\hyperlink{group___classes_ggaf164c756418dde00ac07fd47d0962150a3eea70262d530701087c2a3a09c475fe}{PORT\+\_\+J}}
+, \mbox{\hyperlink{group___classes_ggaf164c756418dde00ac07fd47d0962150a23bae6dc45cdca7c90be62437df0f454}{PORT\+\_\+K}}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group___functions_ga214003040f1f142c43080ef8ced72b00}{GPIO\+\_\+\+Init}} (\mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+GPIOHandle)
+\begin{DoxyCompactList}\small\item\em Initialize the I2C peripheral module based on the SCLK frequency, Device address (if it is a slave), Acknowledgement enable, and Fast Mode Duty Cycle. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___functions_gac87bcc66bbf621515a2627f50e74a520}{GPIO\+\_\+\+De\+Init}} (\mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+GPIOHandle)
+\begin{DoxyCompactList}\small\item\em De-\/initialize the I2C peripheral module. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___functions_ga5418297e27ceacb605473edddb261792}{GPIO\+\_\+\+Configure\+Mode}} (\mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+GPIOHandle)
+\begin{DoxyCompactList}\small\item\em Transmit the data byte to the slave. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___functions_ga5228555df01705504acf8befb919955a}{GPIO\+\_\+\+Configure\+Output\+Type}} (\mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+GPIOHandle)
+\item 
+void \mbox{\hyperlink{group___functions_ga527cd1ffdf4974cd9b34e43eaf12ca12}{GPIO\+\_\+\+Configure\+Output\+Speed}} (\mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+GPIOHandle)
+\item 
+void \mbox{\hyperlink{group___functions_ga67e043d8a1ecbbd59cb3ea359fa71cc4}{GPIO\+\_\+\+Configure\+Pull\+Up\+Down}} (\mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+GPIOHandle)
+\item 
+void \mbox{\hyperlink{group___functions_gab07969b42ece5ed127f09fd7ef4d2c86}{GPIO\+\_\+\+Configure\+Alternate\+Function}} (\mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+GPIOHandle)
+\item 
+void \mbox{\hyperlink{group___functions_ga07edb8b4a61d4c35a57cdef56877fc5c}{GPIO\+\_\+\+Set\+\_\+\+Bit}} (\mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+GPIOHandle)
+\item 
+void \mbox{\hyperlink{group___functions_gaddc5fb1726e458acbcb3a2bf25fe2fc4}{GPIO\+\_\+\+Clear\+\_\+\+Bit}} (\mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+GPIOHandle)
+\begin{DoxyCompactList}\small\item\em Receive the data byte from the slave. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{group___functions_ga69fa9b3a9975667c753241da1d6b95a5}{GPIO\+\_\+\+Get\+\_\+\+Bit\+Value}} (\mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+GPIOHandle)
+\begin{DoxyCompactList}\small\item\em Transmit the data byte to the master. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classes and API functions for driving a GPIO peripheral for STM32\+F429xx MCUs Created on\+: Feb 15, 2024. 
+
+\begin{DoxyAuthor}{Author}
+\+: Soumyadeep Bose 
+\end{DoxyAuthor}

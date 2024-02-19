@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="stm32f429xx__general_8h" kind="file" language="C++">
+    <compoundname>stm32f429xx_general.h</compoundname>
+    <includes local="no">stdint.h</includes>
+    <includes refid="stm32f429xx_8h" local="yes">stm32f429xx.h</includes>
+    <includedby refid="stm32f429xx__i2c__driver_8h" local="yes">Inc/stm32f429xx_i2c_driver.h</includedby>
+    <incdepgraph>
+      <node id="5">
+        <label>../Drivers/system_stm32f4xx.h</label>
+      </node>
+      <node id="3">
+        <label>stm32f429xx.h</label>
+        <link refid="stm32f429xx_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Inc/stm32f429xx_general.h</label>
+        <link refid="stm32f429xx__general_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>core_cm4.h</label>
+      </node>
+      <node id="2">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>Inc/stm32f429xx_general.h</label>
+        <link refid="stm32f429xx__general_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Inc/stm32f429xx_i2c_driver.h</label>
+        <link refid="stm32f429xx__i2c__driver_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Src/main.c</label>
+        <link refid="main_8c"/>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="stm32f429xx__general_8h_1a3a62011ea00507b10cf91c5686a25737" prot="public" static="no">
+        <type><ref refid="struct_r_c_c___type_def" kindref="compound">RCC_TypeDef</ref></type>
+        <definition>typedef RCC_TypeDef RCC_RegAddr_t</definition>
+        <argsstring></argsstring>
+        <name>RCC_RegAddr_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx_general.h" line="14" column="21" bodyfile="Inc/stm32f429xx_general.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="stm32f429xx__general_8h_1a51e19dcff5aaac032509a7102fd26917" prot="public" static="no">
+        <type><ref refid="struct_g_p_i_o___type_def" kindref="compound">GPIO_TypeDef</ref></type>
+        <definition>typedef GPIO_TypeDef GPIO_RegAddr_t</definition>
+        <argsstring></argsstring>
+        <name>GPIO_RegAddr_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx_general.h" line="15" column="22" bodyfile="Inc/stm32f429xx_general.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="stm32f429xx__general_8h_1a25c8606314cc943d21b2e264418f6808" prot="public" static="no">
+        <type><ref refid="struct_u_s_a_r_t___type_def" kindref="compound">USART_TypeDef</ref></type>
+        <definition>typedef USART_TypeDef USART_RegAddr_t</definition>
+        <argsstring></argsstring>
+        <name>USART_RegAddr_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx_general.h" line="16" column="23" bodyfile="Inc/stm32f429xx_general.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="stm32f429xx__general_8h_1a9f8fc6d34271a3e1701809f9f0980e02" prot="public" static="no">
+        <type><ref refid="struct_s_p_i___type_def" kindref="compound">SPI_TypeDef</ref></type>
+        <definition>typedef SPI_TypeDef SPI_RegAddr_t</definition>
+        <argsstring></argsstring>
+        <name>SPI_RegAddr_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx_general.h" line="17" column="21" bodyfile="Inc/stm32f429xx_general.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="stm32f429xx__general_8h_1aae0399166eb7c9e558f61287856a996c" prot="public" static="no">
+        <type><ref refid="struct_i2_c___type_def" kindref="compound">I2C_TypeDef</ref></type>
+        <definition>typedef I2C_TypeDef I2C_RegAddr_t</definition>
+        <argsstring></argsstring>
+        <name>I2C_RegAddr_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx_general.h" line="18" column="21" bodyfile="Inc/stm32f429xx_general.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>stm32f429xx_general.h</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/>Created<sp/>on:<sp/>Feb<sp/>11,<sp/>2024</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>Author:<sp/>Soumyadeep<sp/>Bose</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>STM32F429XX_GENERAL_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM32F429XX_GENERAL_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="stm32f429xx_8h" kindref="compound">stm32f429xx.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="stm32f429xx__general_8h_1a3a62011ea00507b10cf91c5686a25737" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="struct_r_c_c___type_def" kindref="compound">RCC_TypeDef</ref><sp/><ref refid="stm32f429xx__general_8h_1a3a62011ea00507b10cf91c5686a25737" kindref="member">RCC_RegAddr_t</ref>;</highlight></codeline>
+<codeline lineno="15" refid="stm32f429xx__general_8h_1a51e19dcff5aaac032509a7102fd26917" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="struct_g_p_i_o___type_def" kindref="compound">GPIO_TypeDef</ref><sp/><ref refid="stm32f429xx__general_8h_1a51e19dcff5aaac032509a7102fd26917" kindref="member">GPIO_RegAddr_t</ref>;</highlight></codeline>
+<codeline lineno="16" refid="stm32f429xx__general_8h_1a25c8606314cc943d21b2e264418f6808" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="struct_u_s_a_r_t___type_def" kindref="compound">USART_TypeDef</ref><sp/><ref refid="stm32f429xx__general_8h_1a25c8606314cc943d21b2e264418f6808" kindref="member">USART_RegAddr_t</ref>;</highlight></codeline>
+<codeline lineno="17" refid="stm32f429xx__general_8h_1a9f8fc6d34271a3e1701809f9f0980e02" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="struct_s_p_i___type_def" kindref="compound">SPI_TypeDef</ref><sp/><ref refid="stm32f429xx__general_8h_1a9f8fc6d34271a3e1701809f9f0980e02" kindref="member">SPI_RegAddr_t</ref>;</highlight></codeline>
+<codeline lineno="18" refid="stm32f429xx__general_8h_1aae0399166eb7c9e558f61287856a996c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="struct_i2_c___type_def" kindref="compound">I2C_TypeDef</ref><sp/><ref refid="stm32f429xx__general_8h_1aae0399166eb7c9e558f61287856a996c" kindref="member">I2C_RegAddr_t</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>STM32F429XX_GENERAL_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="Inc/stm32f429xx_general.h"/>
+  </compounddef>
+</doxygen>

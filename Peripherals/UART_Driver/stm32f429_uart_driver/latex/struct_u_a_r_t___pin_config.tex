@@ -1,0 +1,123 @@
+\doxysection{UART\+\_\+\+Pin\+Config Struct Reference}
+\hypertarget{struct_u_a_r_t___pin_config}{}\label{struct_u_a_r_t___pin_config}\index{UART\_PinConfig@{UART\_PinConfig}}
+
+
+{\ttfamily \#include $<$stm32f429xx\+\_\+uart\+\_\+driver.\+h$>$}
+
+
+
+Collaboration diagram for UART\+\_\+\+Pin\+Config\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=162pt]{struct_u_a_r_t___pin_config__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+uint8\+\_\+t \mbox{\hyperlink{struct_u_a_r_t___pin_config_ab13df1535e7ab6edd6e2877f189a49bf}{mode}}\+:1
+\begin{DoxyCompactList}\small\item\em UART mode\+: 0 -\/ Receiver, 1 -\/ Transmitter. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{struct_u_a_r_t___pin_config_ad7e36a7cc3b951091b2dce1d70e8bf31}{stop\+\_\+bits}}\+:2
+\begin{DoxyCompactList}\small\item\em UART Number of stop bits\+: 0 -\/ 1 bit, 1 -\/ 0.\+5 bits, 2 -\/ 2 stop bits, 3 -\/ 1.\+5 stop bits. \end{DoxyCompactList}\item 
+uint32\+\_\+t \mbox{\hyperlink{struct_u_a_r_t___pin_config_a47188b0d3c8db02ba94c2c0735c91658}{baud\+\_\+rate}}\+:17
+\begin{DoxyCompactList}\small\item\em UART baud rate\+: min 2400, max 115200. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{struct_u_a_r_t___pin_config_aec7c9fcec5ea65bb6774b9fa4bebc6b3}{word\+\_\+length}}\+:1
+\begin{DoxyCompactList}\small\item\em UART Word length\+: 0 -\/ 8-\/bit message, 1 -\/ 9-\/bit message. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{struct_u_a_r_t___pin_config_aff5f1f88e0628ed21a4222a19b6266de}{parity\+\_\+enable}}\+:1
+\begin{DoxyCompactList}\small\item\em UART choice to enable parity. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{struct_u_a_r_t___pin_config_ad66531b8392018fb13f928ae616ed262}{parity\+\_\+choice}}\+:1
+\begin{DoxyCompactList}\small\item\em UART choice of parity\+: 0 -\/ even, 1 -\/ odd. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{struct_u_a_r_t___pin_config_a8fbaa395615f714add65617d1ae01e1a}{oversampling}}\+:1
+\begin{DoxyCompactList}\small\item\em UART choice of oversampling\+: 0 -\/ 16-\/bit, 1 -\/ 8-\/bit. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{struct_u_a_r_t___pin_config_a98fded05e4b1968f08249fe7b36ed7ba}{hw\+\_\+control}}\+:1
+\begin{DoxyCompactList}\small\item\em UART Hardware flow control\+: 0 -\/ no hw control, 1 -\/ CTS and RTS enabled. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{struct_u_a_r_t___pin_config_a47188b0d3c8db02ba94c2c0735c91658}\label{struct_u_a_r_t___pin_config_a47188b0d3c8db02ba94c2c0735c91658} 
+\index{UART\_PinConfig@{UART\_PinConfig}!baud\_rate@{baud\_rate}}
+\index{baud\_rate@{baud\_rate}!UART\_PinConfig@{UART\_PinConfig}}
+\doxysubsubsection{\texorpdfstring{baud\_rate}{baud\_rate}}
+{\footnotesize\ttfamily uint32\+\_\+t UART\+\_\+\+Pin\+Config\+::baud\+\_\+rate}
+
+
+
+UART baud rate\+: min 2400, max 115200. 
+
+\Hypertarget{struct_u_a_r_t___pin_config_a98fded05e4b1968f08249fe7b36ed7ba}\label{struct_u_a_r_t___pin_config_a98fded05e4b1968f08249fe7b36ed7ba} 
+\index{UART\_PinConfig@{UART\_PinConfig}!hw\_control@{hw\_control}}
+\index{hw\_control@{hw\_control}!UART\_PinConfig@{UART\_PinConfig}}
+\doxysubsubsection{\texorpdfstring{hw\_control}{hw\_control}}
+{\footnotesize\ttfamily uint8\+\_\+t UART\+\_\+\+Pin\+Config\+::hw\+\_\+control}
+
+
+
+UART Hardware flow control\+: 0 -\/ no hw control, 1 -\/ CTS and RTS enabled. 
+
+\Hypertarget{struct_u_a_r_t___pin_config_ab13df1535e7ab6edd6e2877f189a49bf}\label{struct_u_a_r_t___pin_config_ab13df1535e7ab6edd6e2877f189a49bf} 
+\index{UART\_PinConfig@{UART\_PinConfig}!mode@{mode}}
+\index{mode@{mode}!UART\_PinConfig@{UART\_PinConfig}}
+\doxysubsubsection{\texorpdfstring{mode}{mode}}
+{\footnotesize\ttfamily uint8\+\_\+t UART\+\_\+\+Pin\+Config\+::mode}
+
+
+
+UART mode\+: 0 -\/ Receiver, 1 -\/ Transmitter. 
+
+\Hypertarget{struct_u_a_r_t___pin_config_a8fbaa395615f714add65617d1ae01e1a}\label{struct_u_a_r_t___pin_config_a8fbaa395615f714add65617d1ae01e1a} 
+\index{UART\_PinConfig@{UART\_PinConfig}!oversampling@{oversampling}}
+\index{oversampling@{oversampling}!UART\_PinConfig@{UART\_PinConfig}}
+\doxysubsubsection{\texorpdfstring{oversampling}{oversampling}}
+{\footnotesize\ttfamily uint8\+\_\+t UART\+\_\+\+Pin\+Config\+::oversampling}
+
+
+
+UART choice of oversampling\+: 0 -\/ 16-\/bit, 1 -\/ 8-\/bit. 
+
+\Hypertarget{struct_u_a_r_t___pin_config_ad66531b8392018fb13f928ae616ed262}\label{struct_u_a_r_t___pin_config_ad66531b8392018fb13f928ae616ed262} 
+\index{UART\_PinConfig@{UART\_PinConfig}!parity\_choice@{parity\_choice}}
+\index{parity\_choice@{parity\_choice}!UART\_PinConfig@{UART\_PinConfig}}
+\doxysubsubsection{\texorpdfstring{parity\_choice}{parity\_choice}}
+{\footnotesize\ttfamily uint8\+\_\+t UART\+\_\+\+Pin\+Config\+::parity\+\_\+choice}
+
+
+
+UART choice of parity\+: 0 -\/ even, 1 -\/ odd. 
+
+\Hypertarget{struct_u_a_r_t___pin_config_aff5f1f88e0628ed21a4222a19b6266de}\label{struct_u_a_r_t___pin_config_aff5f1f88e0628ed21a4222a19b6266de} 
+\index{UART\_PinConfig@{UART\_PinConfig}!parity\_enable@{parity\_enable}}
+\index{parity\_enable@{parity\_enable}!UART\_PinConfig@{UART\_PinConfig}}
+\doxysubsubsection{\texorpdfstring{parity\_enable}{parity\_enable}}
+{\footnotesize\ttfamily uint8\+\_\+t UART\+\_\+\+Pin\+Config\+::parity\+\_\+enable}
+
+
+
+UART choice to enable parity. 
+
+\Hypertarget{struct_u_a_r_t___pin_config_ad7e36a7cc3b951091b2dce1d70e8bf31}\label{struct_u_a_r_t___pin_config_ad7e36a7cc3b951091b2dce1d70e8bf31} 
+\index{UART\_PinConfig@{UART\_PinConfig}!stop\_bits@{stop\_bits}}
+\index{stop\_bits@{stop\_bits}!UART\_PinConfig@{UART\_PinConfig}}
+\doxysubsubsection{\texorpdfstring{stop\_bits}{stop\_bits}}
+{\footnotesize\ttfamily uint8\+\_\+t UART\+\_\+\+Pin\+Config\+::stop\+\_\+bits}
+
+
+
+UART Number of stop bits\+: 0 -\/ 1 bit, 1 -\/ 0.\+5 bits, 2 -\/ 2 stop bits, 3 -\/ 1.\+5 stop bits. 
+
+\Hypertarget{struct_u_a_r_t___pin_config_aec7c9fcec5ea65bb6774b9fa4bebc6b3}\label{struct_u_a_r_t___pin_config_aec7c9fcec5ea65bb6774b9fa4bebc6b3} 
+\index{UART\_PinConfig@{UART\_PinConfig}!word\_length@{word\_length}}
+\index{word\_length@{word\_length}!UART\_PinConfig@{UART\_PinConfig}}
+\doxysubsubsection{\texorpdfstring{word\_length}{word\_length}}
+{\footnotesize\ttfamily uint8\+\_\+t UART\+\_\+\+Pin\+Config\+::word\+\_\+length}
+
+
+
+UART Word length\+: 0 -\/ 8-\/bit message, 1 -\/ 9-\/bit message. 
+
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Inc/\mbox{\hyperlink{stm32f429xx__uart__driver_8h}{stm32f429xx\+\_\+uart\+\_\+driver.\+h}}\end{DoxyCompactItemize}

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="group__stm32f429xx" kind="group">
+    <compoundname>stm32f429xx</compoundname>
+    <title>Stm32f429xx</title>
+    <innergroup refid="group___configuration__section__for___c_m_s_i_s">Configuration_section_for_CMSIS</innergroup>
+    <innergroup refid="group___peripheral__interrupt__number__definition">Peripheral_interrupt_number_definition</innergroup>
+    <innergroup refid="group___peripheral__registers__structures">Peripheral_registers_structures</innergroup>
+    <innergroup refid="group___peripheral__memory__map">Peripheral_memory_map</innergroup>
+    <innergroup refid="group___peripheral__declaration">Peripheral_declaration</innergroup>
+    <innergroup refid="group___exported__constants">Exported_constants</innergroup>
+    <innergroup refid="group___exported__macros">Exported_macros</innergroup>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>
