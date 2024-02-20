@@ -1,0 +1,110 @@
+\doxysection{handle Struct Reference}
+\hypertarget{structhandle}{}\label{structhandle}\index{handle@{handle}}
+
+
+Collaboration diagram for handle\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{structhandle__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+UART\+\_\+\+Reg\+Addr\+\_\+t volatile  \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{structhandle_a406f44d1a7f7723c822eb1c2ba5f03b0}{p\+UARTx}}
+\begin{DoxyCompactList}\small\item\em For UART peripheral registers. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\+\_\+\+Handle\+\_\+t}} volatile  \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{structhandle_aae32a6270e0f5b200c23fbb2fd23b19e}{h\+UARTx\+\_\+\+GPIO}}
+\begin{DoxyCompactList}\small\item\em For GPIOs to act for the UART peripheral. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_r_c_c___handle__t}{RCC\+\_\+\+Handle\+\_\+t}} volatile  \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{structhandle_ab3d4121862089418b840207198cdca99}{h\+UARTx\+\_\+\+RCC}}
+\begin{DoxyCompactList}\small\item\em For the clock access to bus and periph enable. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{structpinconfig}{UART\+\_\+\+Pin\+Config\+\_\+t}} \mbox{\hyperlink{structhandle_a993126f5d1043acd5f1778ebc82c60fe}{UART\+\_\+\+Pin\+\_\+\+Config}}
+\begin{DoxyCompactList}\small\item\em For UART communication specifics. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{structinterrupts}{UART\+\_\+\+Interrupt\+Config\+\_\+t}} \mbox{\hyperlink{structhandle_a483911248f3dc0893e730d124cca6077}{UART\+\_\+\+Interrupt\+\_\+\+Config}}
+\begin{DoxyCompactList}\small\item\em For UART interrupt configs. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line \mbox{\hyperlink{stm32f429xx__uart__driver_8h_source_l00064}{64}} of file \mbox{\hyperlink{stm32f429xx__uart__driver_8h_source}{stm32f429xx\+\_\+uart\+\_\+driver.\+h}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{structhandle_aae32a6270e0f5b200c23fbb2fd23b19e}\label{structhandle_aae32a6270e0f5b200c23fbb2fd23b19e} 
+\index{handle@{handle}!hUARTx\_GPIO@{hUARTx\_GPIO}}
+\index{hUARTx\_GPIO@{hUARTx\_GPIO}!handle@{handle}}
+\doxysubsubsection{\texorpdfstring{hUARTx\_GPIO}{hUARTx\_GPIO}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\+\_\+\+Handle\+\_\+t}} volatile\texorpdfstring{$\ast$}{*} handle\+::h\+UARTx\+\_\+\+GPIO}
+
+
+
+For GPIOs to act for the UART peripheral. 
+
+
+
+Definition at line \mbox{\hyperlink{stm32f429xx__uart__driver_8h_source_l00066}{66}} of file \mbox{\hyperlink{stm32f429xx__uart__driver_8h_source}{stm32f429xx\+\_\+uart\+\_\+driver.\+h}}.
+
+\Hypertarget{structhandle_ab3d4121862089418b840207198cdca99}\label{structhandle_ab3d4121862089418b840207198cdca99} 
+\index{handle@{handle}!hUARTx\_RCC@{hUARTx\_RCC}}
+\index{hUARTx\_RCC@{hUARTx\_RCC}!handle@{handle}}
+\doxysubsubsection{\texorpdfstring{hUARTx\_RCC}{hUARTx\_RCC}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_r_c_c___handle__t}{RCC\+\_\+\+Handle\+\_\+t}} volatile\texorpdfstring{$\ast$}{*} handle\+::h\+UARTx\+\_\+\+RCC}
+
+
+
+For the clock access to bus and periph enable. 
+
+
+
+Definition at line \mbox{\hyperlink{stm32f429xx__uart__driver_8h_source_l00067}{67}} of file \mbox{\hyperlink{stm32f429xx__uart__driver_8h_source}{stm32f429xx\+\_\+uart\+\_\+driver.\+h}}.
+
+\Hypertarget{structhandle_a406f44d1a7f7723c822eb1c2ba5f03b0}\label{structhandle_a406f44d1a7f7723c822eb1c2ba5f03b0} 
+\index{handle@{handle}!pUARTx@{pUARTx}}
+\index{pUARTx@{pUARTx}!handle@{handle}}
+\doxysubsubsection{\texorpdfstring{pUARTx}{pUARTx}}
+{\footnotesize\ttfamily UART\+\_\+\+Reg\+Addr\+\_\+t volatile\texorpdfstring{$\ast$}{*} handle\+::p\+UARTx}
+
+
+
+For UART peripheral registers. 
+
+
+
+Definition at line \mbox{\hyperlink{stm32f429xx__uart__driver_8h_source_l00065}{65}} of file \mbox{\hyperlink{stm32f429xx__uart__driver_8h_source}{stm32f429xx\+\_\+uart\+\_\+driver.\+h}}.
+
+\Hypertarget{structhandle_a483911248f3dc0893e730d124cca6077}\label{structhandle_a483911248f3dc0893e730d124cca6077} 
+\index{handle@{handle}!UART\_Interrupt\_Config@{UART\_Interrupt\_Config}}
+\index{UART\_Interrupt\_Config@{UART\_Interrupt\_Config}!handle@{handle}}
+\doxysubsubsection{\texorpdfstring{UART\_Interrupt\_Config}{UART\_Interrupt\_Config}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structinterrupts}{UART\+\_\+\+Interrupt\+Config\+\_\+t}} handle\+::\+UART\+\_\+\+Interrupt\+\_\+\+Config}
+
+
+
+For UART interrupt configs. 
+
+
+
+Definition at line \mbox{\hyperlink{stm32f429xx__uart__driver_8h_source_l00069}{69}} of file \mbox{\hyperlink{stm32f429xx__uart__driver_8h_source}{stm32f429xx\+\_\+uart\+\_\+driver.\+h}}.
+
+\Hypertarget{structhandle_a993126f5d1043acd5f1778ebc82c60fe}\label{structhandle_a993126f5d1043acd5f1778ebc82c60fe} 
+\index{handle@{handle}!UART\_Pin\_Config@{UART\_Pin\_Config}}
+\index{UART\_Pin\_Config@{UART\_Pin\_Config}!handle@{handle}}
+\doxysubsubsection{\texorpdfstring{UART\_Pin\_Config}{UART\_Pin\_Config}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structpinconfig}{UART\+\_\+\+Pin\+Config\+\_\+t}} handle\+::\+UART\+\_\+\+Pin\+\_\+\+Config}
+
+
+
+For UART communication specifics. 
+
+
+
+Definition at line \mbox{\hyperlink{stm32f429xx__uart__driver_8h_source_l00068}{68}} of file \mbox{\hyperlink{stm32f429xx__uart__driver_8h_source}{stm32f429xx\+\_\+uart\+\_\+driver.\+h}}.
+
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Inc/\mbox{\hyperlink{stm32f429xx__uart__driver_8h}{stm32f429xx\+\_\+uart\+\_\+driver.\+h}}\end{DoxyCompactItemize}

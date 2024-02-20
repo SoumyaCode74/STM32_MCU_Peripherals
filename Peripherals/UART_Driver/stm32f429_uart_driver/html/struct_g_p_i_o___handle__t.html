@@ -5,9 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>UART Driver: GPIO_Handle_t Struct Reference</title>
+<title>My Project: GPIO_Handle_t Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript">var page_layout=1;</script>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <script type="text/javascript" src="clipboard.js"></script>
@@ -27,18 +26,16 @@
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-<div id="side-nav" class="ui-resizable side-nav-resizable"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">UART Driver<span id="projectnumber">&#160;0.1</span>
+   <div id="projectname">My Project
    </div>
   </td>
- </tr>
-   <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
           <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
           <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
@@ -49,7 +46,8 @@
             <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
           </span>
         </div>
-</td></tr>
+</td>
+ </tr>
  </tbody>
 </table>
 </div>
@@ -61,6 +59,7 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
     <div id="nav-tree-contents">
       <div id="nav-sync" class="sync"></div>
@@ -104,8 +103,6 @@ $(function(){initNavTree('struct_g_p_i_o___handle__t.html',''); initResizable();
   <div class="headertitle"><div class="title">GPIO_Handle_t Struct Reference<div class="ingroups"><a class="el" href="group___r_c_c___driver___header.html">RCC_Driver_Header</a> &#124; <a class="el" href="group___g_p_i_o___driver___header.html">GPIO_Driver_Header</a> &raquo; <a class="el" href="group___classes.html">Classes</a></div></div></div>
 </div><!--header-->
 <div class="contents">
-
-<p><code>#include &lt;<a class="el" href="stm32f429xx__gpio__driver_8h_source.html">stm32f429xx_gpio_driver.h</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for GPIO_Handle_t:</div>
 <div class="dyncontent">
@@ -126,14 +123,17 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ga5b86a2cea7bc03294663058283fbb740" id="r_ga5b86a2cea7bc03294663058283fbb740"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_r_c_c___handle__t.html">RCC_Handle_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_p_i_o___driver___header.html#ga5b86a2cea7bc03294663058283fbb740">hRCC</a></td></tr>
 <tr class="memdesc:ga5b86a2cea7bc03294663058283fbb740"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to the RCC handle created for the currently used GPIO instance.  <br /></td></tr>
 <tr class="separator:ga5b86a2cea7bc03294663058283fbb740"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab2c22aa8e429496a1822328b7078984c" id="r_gab2c22aa8e429496a1822328b7078984c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group___aliases.html#ga51e19dcff5aaac032509a7102fd26917">GPIO_RegAddr_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_p_i_o___driver___header.html#gab2c22aa8e429496a1822328b7078984c">pGPIOx</a></td></tr>
+<tr class="memitem:gab2c22aa8e429496a1822328b7078984c" id="r_gab2c22aa8e429496a1822328b7078984c"><td class="memItemLeft" align="right" valign="top">GPIO_RegAddr_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_p_i_o___driver___header.html#gab2c22aa8e429496a1822328b7078984c">pGPIOx</a></td></tr>
 <tr class="memdesc:gab2c22aa8e429496a1822328b7078984c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to the base address of the GPIO port needed.  <br /></td></tr>
 <tr class="separator:gab2c22aa8e429496a1822328b7078984c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga33cefa400df9fdae0bbfd207a3d53551" id="r_ga33cefa400df9fdae0bbfd207a3d53551"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_g_p_i_o___pin_config__t.html">GPIO_PinConfig_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___g_p_i_o___driver___header.html#ga33cefa400df9fdae0bbfd207a3d53551">GPIO_PinConfig</a></td></tr>
 <tr class="memdesc:ga33cefa400df9fdae0bbfd207a3d53551"><td class="mdescLeft">&#160;</td><td class="mdescRight">The PinConfig object for the basic configuration settings.  <br /></td></tr>
 <tr class="separator:ga33cefa400df9fdae0bbfd207a3d53551"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<hr/>The documentation for this struct was generated from the following file:<ul>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="stm32f429xx__gpio__driver_8h_source.html#l00055">55</a> of file <a class="el" href="stm32f429xx__gpio__driver_8h_source.html">stm32f429xx_gpio_driver.h</a>.</p>
+</div><hr/>The documentation for this struct was generated from the following file:<ul>
 <li>Inc/<a class="el" href="stm32f429xx__gpio__driver_8h_source.html">stm32f429xx_gpio_driver.h</a></li>
 </ul>
 </div><!-- contents -->

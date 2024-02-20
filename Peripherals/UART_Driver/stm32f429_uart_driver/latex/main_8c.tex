@@ -23,7 +23,7 @@ Include dependency graph for main.\+c\+:
 \item 
 \#define \mbox{\hyperlink{main_8c_aeff11beaebe3b87708cea01369997d89}{I2\+C\+\_\+\+SCL\+\_\+\+SPEED}}~(50\texorpdfstring{$\ast$}{*}1000)
 \item 
-\#define \mbox{\hyperlink{main_8c_adf79e90c57842a859a93fb6bdad3d43a}{I2\+C1\+\_\+\+CLKPOS}}~(\mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4a4d4ab6b8152ac76c8f55d7c9fbeb0b04}{BIT21}})
+\#define \mbox{\hyperlink{main_8c_adf79e90c57842a859a93fb6bdad3d43a}{I2\+C1\+\_\+\+CLKPOS}}~(BIT21)
 \end{DoxyCompactItemize}
 \doxysubsubsection*{Functions}
 \begin{DoxyCompactItemize}
@@ -45,6 +45,10 @@ Copyright (c) 2024 STMicroelectronics. All rights reserved.
 
 This software is licensed under terms that can be found in the LICENSE file in the root directory of this software component. If no LICENSE file comes with this software, it is provided AS-\/\+IS. 
 
+Definition in file \mbox{\hyperlink{main_8c_source}{main.\+c}}.
+
+
+
 \doxysubsection{Macro Definition Documentation}
 \Hypertarget{main_8c_a62249e384b997229a3e2ae74ade334e2}\label{main_8c_a62249e384b997229a3e2ae74ade334e2} 
 \index{main.c@{main.c}!DELAY@{DELAY}}
@@ -52,17 +56,29 @@ This software is licensed under terms that can be found in the LICENSE file in t
 \doxysubsubsection{\texorpdfstring{DELAY}{DELAY}}
 {\footnotesize\ttfamily \#define DELAY~(5000\texorpdfstring{$\ast$}{*}1)}
 
+
+
+Definition at line \mbox{\hyperlink{main_8c_source_l00022}{22}} of file \mbox{\hyperlink{main_8c_source}{main.\+c}}.
+
 \Hypertarget{main_8c_adf79e90c57842a859a93fb6bdad3d43a}\label{main_8c_adf79e90c57842a859a93fb6bdad3d43a} 
 \index{main.c@{main.c}!I2C1\_CLKPOS@{I2C1\_CLKPOS}}
 \index{I2C1\_CLKPOS@{I2C1\_CLKPOS}!main.c@{main.c}}
 \doxysubsubsection{\texorpdfstring{I2C1\_CLKPOS}{I2C1\_CLKPOS}}
-{\footnotesize\ttfamily \#define I2\+C1\+\_\+\+CLKPOS~(\mbox{\hyperlink{group___classes_gga472e015c9d61011b9922016e6f0a70d4a4d4ab6b8152ac76c8f55d7c9fbeb0b04}{BIT21}})}
+{\footnotesize\ttfamily \#define I2\+C1\+\_\+\+CLKPOS~(BIT21)}
+
+
+
+Definition at line \mbox{\hyperlink{main_8c_source_l00024}{24}} of file \mbox{\hyperlink{main_8c_source}{main.\+c}}.
 
 \Hypertarget{main_8c_aeff11beaebe3b87708cea01369997d89}\label{main_8c_aeff11beaebe3b87708cea01369997d89} 
 \index{main.c@{main.c}!I2C\_SCL\_SPEED@{I2C\_SCL\_SPEED}}
 \index{I2C\_SCL\_SPEED@{I2C\_SCL\_SPEED}!main.c@{main.c}}
 \doxysubsubsection{\texorpdfstring{I2C\_SCL\_SPEED}{I2C\_SCL\_SPEED}}
 {\footnotesize\ttfamily \#define I2\+C\+\_\+\+SCL\+\_\+\+SPEED~(50\texorpdfstring{$\ast$}{*}1000)}
+
+
+
+Definition at line \mbox{\hyperlink{main_8c_source_l00023}{23}} of file \mbox{\hyperlink{main_8c_source}{main.\+c}}.
 
 
 
@@ -77,54 +93,19 @@ This software is licensed under terms that can be found in the LICENSE file in t
 
 \texorpdfstring{$<$}{<} Configure the GPIO object handle
 
-\texorpdfstring{$<$}{<} Configure the RCC object handle for I2C Master peripheral
-
-\texorpdfstring{$<$}{<} Configure the RCC object handle for I2C Master GPIO
-
-\texorpdfstring{$<$}{<} Configure the GPIO object handle for I2C Master
-
-\texorpdfstring{$<$}{<} SCL pin of I2C Master
-
-\texorpdfstring{$<$}{<} SDA pin of I2C Master
-
-\texorpdfstring{$<$}{<} Configure the I2C master object handle
-
-\texorpdfstring{$<$}{<} Set ACK to 1
-
-\texorpdfstring{$<$}{<} Set SCLK speed of master
-
-\texorpdfstring{$<$}{<} Set the duty cycle to 0 for Standard mode
-
-\texorpdfstring{$<$}{<} Use I2\+C1 as Master
-
-\texorpdfstring{$<$}{<} Configure the RCC object handle for I2C Slave
-
-\texorpdfstring{$<$}{<} Configure the GPIO object handle for I2C Slave
-
-\texorpdfstring{$<$}{<} SCL pin of I2C Slave
-
-\texorpdfstring{$<$}{<} SDA pin of I2C Slave
-
-\texorpdfstring{$<$}{<} Configure the I2C slave object handle
-
-\texorpdfstring{$<$}{<} Set ACK to 1
-
-\texorpdfstring{$<$}{<} 7-\/bit slave address, padded by MSB 0
-
-\texorpdfstring{$<$}{<} Set SCLK speed of master
-
-\texorpdfstring{$<$}{<} Set the duty cycle to 0 for Standard Mode
-
-\texorpdfstring{$<$}{<} Use I2\+C2 as Slave
-
 \texorpdfstring{$<$}{<} Set up clock access to GPIOG port
-
-\texorpdfstring{$<$}{<} Set up clock access to I2C master peripheral
 
 \texorpdfstring{$<$}{<} Initialize GPIOG for LED operation
 
-\texorpdfstring{$<$}{<} Initialize GPIO for I2C master SCL and SDA
-
-\texorpdfstring{$<$}{<} Configure I2C Master
-
 Continuously send an array of bytes from I2C Master
+
+Definition at line \mbox{\hyperlink{main_8c_source_l00030}{30}} of file \mbox{\hyperlink{main_8c_source}{main.\+c}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8c_a840291bc02cba5474a4cb46a9b9566fe_cgraph}
+\end{center}
+\end{figure}

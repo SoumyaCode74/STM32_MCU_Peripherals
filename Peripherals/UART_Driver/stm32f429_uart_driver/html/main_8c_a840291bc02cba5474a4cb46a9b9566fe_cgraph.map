@@ -1,0 +1,14 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,81,55,108"/>
+<area shape="rect" id="Node000002" href="$group___functions.html#gaddc5fb1726e458acbcb3a2bf25fe2fc4" title="Receive the data byte from the slave." alt="" coords="111,5,225,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="47,79,101,42,112,36,114,41,104,46,50,83"/>
+<area shape="rect" id="Node000003" href="$group___functions.html#ga214003040f1f142c43080ef8ced72b00" title="Initialize the I2C peripheral module based on the SCLK frequency, Device address (if it is a slave),..." alt="" coords="129,56,207,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="54,88,114,76,115,82,55,93"/>
+<area shape="rect" id="Node000005" href="$group___functions.html#ga6a838efaa43c0fd4eabcdacbb20e7f12" title=" " alt="" coords="290,107,418,133"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="55,94,274,111,274,116,55,99"/>
+<area shape="rect" id="Node000006" href="$group___functions.html#gac2be2c79ec733dd8b1f373a3ca22547b" title=" " alt="" coords="103,157,233,184"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="54,106,104,136,125,148,123,152,101,141,52,111"/>
+<area shape="rect" id="Node000004" href="$group___functions.html#ga5418297e27ceacb605473edddb261792" title="Transmit the data byte to the slave." alt="" coords="281,56,427,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="207,67,265,67,265,72,207,72"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="207,77,288,99,287,105,206,82"/>
+</map>

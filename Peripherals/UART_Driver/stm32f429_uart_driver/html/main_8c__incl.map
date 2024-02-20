@@ -2,7 +2,7 @@
 <area shape="rect" id="Node000001" title=": Main program body" alt="" coords="174,5,259,32"/>
 <area shape="rect" id="Node000002" href="$stm32f429xx__gpio__driver_8h.html" title="Classes and API functions for driving a GPIO peripheral for STM32F429xx MCUs Created on: Feb 15,..." alt="" coords="5,80,180,107"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="196,35,128,74,126,70,194,30"/>
-<area shape="rect" id="Node000006" href="$stm32f429xx__rcc__driver_8h.html" title=" " alt="" coords="70,155,238,181"/>
+<area shape="rect" id="Node000006" href="$stm32f429xx__rcc__driver_8h_source.html" title=" " alt="" coords="70,155,238,181"/>
 <area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="217,33,208,67,194,108,174,143,169,141,189,106,203,65,211,31"/>
 <area shape="rect" id="Node000007" href="$stm32f429xx__uart__driver_8h.html" title="Prototype of peripheral driver API functions for the UART peripheral of STM32F429xx MCU." alt="" coords="262,155,435,181"/>
 <area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="230,31,329,141,325,145,226,34"/>

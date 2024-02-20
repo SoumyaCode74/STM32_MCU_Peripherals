@@ -1,0 +1,223 @@
+\doxysection{Src/stm32f429xx\+\_\+uart\+\_\+driver.c File Reference}
+\hypertarget{stm32f429xx__uart__driver_8c}{}\label{stm32f429xx__uart__driver_8c}\index{Src/stm32f429xx\_uart\_driver.c@{Src/stm32f429xx\_uart\_driver.c}}
+
+
+Driver source code for UART peripheral driver of STM32\+F429xx MCU.  
+
+
+{\ttfamily \#include "{}stm32f429xx\+\_\+uart\+\_\+driver.\+h"{}}\newline
+Include dependency graph for stm32f429xx\+\_\+uart\+\_\+driver.\+c\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=226pt]{stm32f429xx__uart__driver_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+uint32\+\_\+t \mbox{\hyperlink{stm32f429xx__uart__driver_8c_af4b25fa3755eccfd76de059ccb7320b9}{Get\+PCLKFrequency}} (\mbox{\hyperlink{structhandle}{UART\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}h\+UARTHandle)
+\begin{DoxyCompactList}\small\item\em Return the clock frequency of PCLK. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{stm32f429xx__uart__driver_8c_a27a46996111bd90125774b835afabc06}{UART\+\_\+\+Interrupt\+Config}} (USART\+\_\+\+Reg\+Addr\+\_\+t \texorpdfstring{$\ast$}{*}p\+UART, \mbox{\hyperlink{structinterrupts}{UART\+\_\+\+Interrupt\+Config\+\_\+t}} interruptconfig)
+\item 
+uint8\+\_\+t \mbox{\hyperlink{stm32f429xx__uart__driver_8c_a0bea1f590563ce8f536bf9284850fee3}{UART\+\_\+\+Get\+Flag\+Status}} (USART\+\_\+\+Reg\+Addr\+\_\+t \texorpdfstring{$\ast$}{*}p\+UART, UART\+\_\+\+Flag\+\_\+t flag)
+\item 
+void \mbox{\hyperlink{stm32f429xx__uart__driver_8c_a34264420c4783dcebbf430c2ff707763}{UART\+\_\+\+Init}} (\mbox{\hyperlink{structhandle}{UART\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+Uart\+Handle)
+\begin{DoxyCompactList}\small\item\em Function to initialize the UART peripheral. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{stm32f429xx__uart__driver_8c_aa2b107cde9cf6a7e1c8459e325f7e86d}{UART\+\_\+\+Transmit}} (USART\+\_\+\+Reg\+Addr\+\_\+t \texorpdfstring{$\ast$}{*}p\+UART, uint8\+\_\+t \texorpdfstring{$\ast$}{*}p\+Data, uint32\+\_\+t length)
+\item 
+void \mbox{\hyperlink{stm32f429xx__uart__driver_8c_ad3ab5c1ce37102c108333f9d22b49009}{UART\+\_\+\+Receive}} (USART\+\_\+\+Reg\+Addr\+\_\+t \texorpdfstring{$\ast$}{*}p\+UART, uint8\+\_\+t \texorpdfstring{$\ast$}{*}p\+Data)
+\item 
+void \mbox{\hyperlink{stm32f429xx__uart__driver_8c_a7139cd4baabbbcbab0c1fe6d7d4ae1cc}{USART1\+\_\+\+IRQHandler}} (void)
+\item 
+void \mbox{\hyperlink{stm32f429xx__uart__driver_8c_a0ca6fd0e6f77921dd1123539857ba0a8}{USART2\+\_\+\+IRQHandler}} (void)
+\item 
+void \mbox{\hyperlink{stm32f429xx__uart__driver_8c_a0d108a3468b2051548183ee5ca2158a0}{USART3\+\_\+\+IRQHandler}} (void)
+\item 
+void \mbox{\hyperlink{stm32f429xx__uart__driver_8c_a88774889b903ae43403cd7e7a11a8f4f}{UART4\+\_\+\+IRQHandler}} (void)
+\item 
+void \mbox{\hyperlink{stm32f429xx__uart__driver_8c_aa1c474cac5abda23ebbe8a9e8f4d7551}{UART5\+\_\+\+IRQHandler}} (void)
+\item 
+void \mbox{\hyperlink{stm32f429xx__uart__driver_8c_a12c827857d907ad0cccd586fd934d446}{USART6\+\_\+\+IRQHandler}} (void)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Driver source code for UART peripheral driver of STM32\+F429xx MCU. 
+
+\begin{DoxyNote}{Note}
+Written and tested on STM32\+F429 Discovery board 
+\end{DoxyNote}
+\begin{DoxyAuthor}{Author}
+Soumyadeep Bose 
+\end{DoxyAuthor}
+
+
+Definition in file \mbox{\hyperlink{stm32f429xx__uart__driver_8c_source}{stm32f429xx\+\_\+uart\+\_\+driver.\+c}}.
+
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{stm32f429xx__uart__driver_8c_af4b25fa3755eccfd76de059ccb7320b9}\label{stm32f429xx__uart__driver_8c_af4b25fa3755eccfd76de059ccb7320b9} 
+\index{stm32f429xx\_uart\_driver.c@{stm32f429xx\_uart\_driver.c}!GetPCLKFrequency@{GetPCLKFrequency}}
+\index{GetPCLKFrequency@{GetPCLKFrequency}!stm32f429xx\_uart\_driver.c@{stm32f429xx\_uart\_driver.c}}
+\doxysubsubsection{\texorpdfstring{GetPCLKFrequency()}{GetPCLKFrequency()}}
+{\footnotesize\ttfamily uint32\+\_\+t Get\+PCLKFrequency (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structhandle}{UART\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{h\+UARTHandle }\end{DoxyParamCaption})}
+
+
+
+Return the clock frequency of PCLK. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Pointer} & to instance of class UART\+\_\+\+Handle\+\_\+t \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em Clock} & frequency of PCLK \\
+\hline
+\end{DoxyRetVals}
+\texorpdfstring{$<$}{<} First find the clock source
+
+\texorpdfstring{$<$}{<} Second, find the prescaler setting
+
+\texorpdfstring{$<$}{<} Third, calculate and return the PCLK frequency
+
+\texorpdfstring{$<$}{<} This function is not yet developed for PLL
+
+Definition at line \mbox{\hyperlink{stm32f429xx__uart__driver_8c_source_l00010}{10}} of file \mbox{\hyperlink{stm32f429xx__uart__driver_8c_source}{stm32f429xx\+\_\+uart\+\_\+driver.\+c}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=318pt]{stm32f429xx__uart__driver_8c_af4b25fa3755eccfd76de059ccb7320b9_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{stm32f429xx__uart__driver_8c_a88774889b903ae43403cd7e7a11a8f4f}\label{stm32f429xx__uart__driver_8c_a88774889b903ae43403cd7e7a11a8f4f} 
+\index{stm32f429xx\_uart\_driver.c@{stm32f429xx\_uart\_driver.c}!UART4\_IRQHandler@{UART4\_IRQHandler}}
+\index{UART4\_IRQHandler@{UART4\_IRQHandler}!stm32f429xx\_uart\_driver.c@{stm32f429xx\_uart\_driver.c}}
+\doxysubsubsection{\texorpdfstring{UART4\_IRQHandler()}{UART4\_IRQHandler()}}
+{\footnotesize\ttfamily void UART4\+\_\+\+IRQHandler (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{stm32f429xx__uart__driver_8c_source_l00052}{52}} of file \mbox{\hyperlink{stm32f429xx__uart__driver_8c_source}{stm32f429xx\+\_\+uart\+\_\+driver.\+c}}.
+
+\Hypertarget{stm32f429xx__uart__driver_8c_aa1c474cac5abda23ebbe8a9e8f4d7551}\label{stm32f429xx__uart__driver_8c_aa1c474cac5abda23ebbe8a9e8f4d7551} 
+\index{stm32f429xx\_uart\_driver.c@{stm32f429xx\_uart\_driver.c}!UART5\_IRQHandler@{UART5\_IRQHandler}}
+\index{UART5\_IRQHandler@{UART5\_IRQHandler}!stm32f429xx\_uart\_driver.c@{stm32f429xx\_uart\_driver.c}}
+\doxysubsubsection{\texorpdfstring{UART5\_IRQHandler()}{UART5\_IRQHandler()}}
+{\footnotesize\ttfamily void UART5\+\_\+\+IRQHandler (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{stm32f429xx__uart__driver_8c_source_l00055}{55}} of file \mbox{\hyperlink{stm32f429xx__uart__driver_8c_source}{stm32f429xx\+\_\+uart\+\_\+driver.\+c}}.
+
+\Hypertarget{stm32f429xx__uart__driver_8c_a0bea1f590563ce8f536bf9284850fee3}\label{stm32f429xx__uart__driver_8c_a0bea1f590563ce8f536bf9284850fee3} 
+\index{stm32f429xx\_uart\_driver.c@{stm32f429xx\_uart\_driver.c}!UART\_GetFlagStatus@{UART\_GetFlagStatus}}
+\index{UART\_GetFlagStatus@{UART\_GetFlagStatus}!stm32f429xx\_uart\_driver.c@{stm32f429xx\_uart\_driver.c}}
+\doxysubsubsection{\texorpdfstring{UART\_GetFlagStatus()}{UART\_GetFlagStatus()}}
+{\footnotesize\ttfamily uint8\+\_\+t UART\+\_\+\+Get\+Flag\+Status (\begin{DoxyParamCaption}\item[{USART\+\_\+\+Reg\+Addr\+\_\+t \texorpdfstring{$\ast$}{*}}]{p\+UART,  }\item[{UART\+\_\+\+Flag\+\_\+t}]{flag }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{stm32f429xx__uart__driver_8c_source_l00029}{29}} of file \mbox{\hyperlink{stm32f429xx__uart__driver_8c_source}{stm32f429xx\+\_\+uart\+\_\+driver.\+c}}.
+
+\Hypertarget{stm32f429xx__uart__driver_8c_a34264420c4783dcebbf430c2ff707763}\label{stm32f429xx__uart__driver_8c_a34264420c4783dcebbf430c2ff707763} 
+\index{stm32f429xx\_uart\_driver.c@{stm32f429xx\_uart\_driver.c}!UART\_Init@{UART\_Init}}
+\index{UART\_Init@{UART\_Init}!stm32f429xx\_uart\_driver.c@{stm32f429xx\_uart\_driver.c}}
+\doxysubsubsection{\texorpdfstring{UART\_Init()}{UART\_Init()}}
+{\footnotesize\ttfamily void UART\+\_\+\+Init (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structhandle}{UART\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{p\+Uart\+Handle }\end{DoxyParamCaption})}
+
+
+
+Function to initialize the UART peripheral. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em Pointer} & to the UART handle instance \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+
+
+Definition at line \mbox{\hyperlink{stm32f429xx__uart__driver_8c_source_l00033}{33}} of file \mbox{\hyperlink{stm32f429xx__uart__driver_8c_source}{stm32f429xx\+\_\+uart\+\_\+driver.\+c}}.
+
+\Hypertarget{stm32f429xx__uart__driver_8c_a27a46996111bd90125774b835afabc06}\label{stm32f429xx__uart__driver_8c_a27a46996111bd90125774b835afabc06} 
+\index{stm32f429xx\_uart\_driver.c@{stm32f429xx\_uart\_driver.c}!UART\_InterruptConfig@{UART\_InterruptConfig}}
+\index{UART\_InterruptConfig@{UART\_InterruptConfig}!stm32f429xx\_uart\_driver.c@{stm32f429xx\_uart\_driver.c}}
+\doxysubsubsection{\texorpdfstring{UART\_InterruptConfig()}{UART\_InterruptConfig()}}
+{\footnotesize\ttfamily void UART\+\_\+\+Interrupt\+Config (\begin{DoxyParamCaption}\item[{USART\+\_\+\+Reg\+Addr\+\_\+t \texorpdfstring{$\ast$}{*}}]{p\+UART,  }\item[{\mbox{\hyperlink{structinterrupts}{UART\+\_\+\+Interrupt\+Config\+\_\+t}}}]{interruptconfig }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{stm32f429xx__uart__driver_8c_source_l00025}{25}} of file \mbox{\hyperlink{stm32f429xx__uart__driver_8c_source}{stm32f429xx\+\_\+uart\+\_\+driver.\+c}}.
+
+\Hypertarget{stm32f429xx__uart__driver_8c_ad3ab5c1ce37102c108333f9d22b49009}\label{stm32f429xx__uart__driver_8c_ad3ab5c1ce37102c108333f9d22b49009} 
+\index{stm32f429xx\_uart\_driver.c@{stm32f429xx\_uart\_driver.c}!UART\_Receive@{UART\_Receive}}
+\index{UART\_Receive@{UART\_Receive}!stm32f429xx\_uart\_driver.c@{stm32f429xx\_uart\_driver.c}}
+\doxysubsubsection{\texorpdfstring{UART\_Receive()}{UART\_Receive()}}
+{\footnotesize\ttfamily void UART\+\_\+\+Receive (\begin{DoxyParamCaption}\item[{USART\+\_\+\+Reg\+Addr\+\_\+t \texorpdfstring{$\ast$}{*}}]{p\+UART,  }\item[{uint8\+\_\+t \texorpdfstring{$\ast$}{*}}]{p\+Data }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{stm32f429xx__uart__driver_8c_source_l00040}{40}} of file \mbox{\hyperlink{stm32f429xx__uart__driver_8c_source}{stm32f429xx\+\_\+uart\+\_\+driver.\+c}}.
+
+\Hypertarget{stm32f429xx__uart__driver_8c_aa2b107cde9cf6a7e1c8459e325f7e86d}\label{stm32f429xx__uart__driver_8c_aa2b107cde9cf6a7e1c8459e325f7e86d} 
+\index{stm32f429xx\_uart\_driver.c@{stm32f429xx\_uart\_driver.c}!UART\_Transmit@{UART\_Transmit}}
+\index{UART\_Transmit@{UART\_Transmit}!stm32f429xx\_uart\_driver.c@{stm32f429xx\_uart\_driver.c}}
+\doxysubsubsection{\texorpdfstring{UART\_Transmit()}{UART\_Transmit()}}
+{\footnotesize\ttfamily void UART\+\_\+\+Transmit (\begin{DoxyParamCaption}\item[{USART\+\_\+\+Reg\+Addr\+\_\+t \texorpdfstring{$\ast$}{*}}]{p\+UART,  }\item[{uint8\+\_\+t \texorpdfstring{$\ast$}{*}}]{p\+Data,  }\item[{uint32\+\_\+t}]{length }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{stm32f429xx__uart__driver_8c_source_l00037}{37}} of file \mbox{\hyperlink{stm32f429xx__uart__driver_8c_source}{stm32f429xx\+\_\+uart\+\_\+driver.\+c}}.
+
+\Hypertarget{stm32f429xx__uart__driver_8c_a7139cd4baabbbcbab0c1fe6d7d4ae1cc}\label{stm32f429xx__uart__driver_8c_a7139cd4baabbbcbab0c1fe6d7d4ae1cc} 
+\index{stm32f429xx\_uart\_driver.c@{stm32f429xx\_uart\_driver.c}!USART1\_IRQHandler@{USART1\_IRQHandler}}
+\index{USART1\_IRQHandler@{USART1\_IRQHandler}!stm32f429xx\_uart\_driver.c@{stm32f429xx\_uart\_driver.c}}
+\doxysubsubsection{\texorpdfstring{USART1\_IRQHandler()}{USART1\_IRQHandler()}}
+{\footnotesize\ttfamily void USART1\+\_\+\+IRQHandler (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{stm32f429xx__uart__driver_8c_source_l00043}{43}} of file \mbox{\hyperlink{stm32f429xx__uart__driver_8c_source}{stm32f429xx\+\_\+uart\+\_\+driver.\+c}}.
+
+\Hypertarget{stm32f429xx__uart__driver_8c_a0ca6fd0e6f77921dd1123539857ba0a8}\label{stm32f429xx__uart__driver_8c_a0ca6fd0e6f77921dd1123539857ba0a8} 
+\index{stm32f429xx\_uart\_driver.c@{stm32f429xx\_uart\_driver.c}!USART2\_IRQHandler@{USART2\_IRQHandler}}
+\index{USART2\_IRQHandler@{USART2\_IRQHandler}!stm32f429xx\_uart\_driver.c@{stm32f429xx\_uart\_driver.c}}
+\doxysubsubsection{\texorpdfstring{USART2\_IRQHandler()}{USART2\_IRQHandler()}}
+{\footnotesize\ttfamily void USART2\+\_\+\+IRQHandler (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{stm32f429xx__uart__driver_8c_source_l00046}{46}} of file \mbox{\hyperlink{stm32f429xx__uart__driver_8c_source}{stm32f429xx\+\_\+uart\+\_\+driver.\+c}}.
+
+\Hypertarget{stm32f429xx__uart__driver_8c_a0d108a3468b2051548183ee5ca2158a0}\label{stm32f429xx__uart__driver_8c_a0d108a3468b2051548183ee5ca2158a0} 
+\index{stm32f429xx\_uart\_driver.c@{stm32f429xx\_uart\_driver.c}!USART3\_IRQHandler@{USART3\_IRQHandler}}
+\index{USART3\_IRQHandler@{USART3\_IRQHandler}!stm32f429xx\_uart\_driver.c@{stm32f429xx\_uart\_driver.c}}
+\doxysubsubsection{\texorpdfstring{USART3\_IRQHandler()}{USART3\_IRQHandler()}}
+{\footnotesize\ttfamily void USART3\+\_\+\+IRQHandler (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{stm32f429xx__uart__driver_8c_source_l00049}{49}} of file \mbox{\hyperlink{stm32f429xx__uart__driver_8c_source}{stm32f429xx\+\_\+uart\+\_\+driver.\+c}}.
+
+\Hypertarget{stm32f429xx__uart__driver_8c_a12c827857d907ad0cccd586fd934d446}\label{stm32f429xx__uart__driver_8c_a12c827857d907ad0cccd586fd934d446} 
+\index{stm32f429xx\_uart\_driver.c@{stm32f429xx\_uart\_driver.c}!USART6\_IRQHandler@{USART6\_IRQHandler}}
+\index{USART6\_IRQHandler@{USART6\_IRQHandler}!stm32f429xx\_uart\_driver.c@{stm32f429xx\_uart\_driver.c}}
+\doxysubsubsection{\texorpdfstring{USART6\_IRQHandler()}{USART6\_IRQHandler()}}
+{\footnotesize\ttfamily void USART6\+\_\+\+IRQHandler (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{stm32f429xx__uart__driver_8c_source_l00058}{58}} of file \mbox{\hyperlink{stm32f429xx__uart__driver_8c_source}{stm32f429xx\+\_\+uart\+\_\+driver.\+c}}.
+

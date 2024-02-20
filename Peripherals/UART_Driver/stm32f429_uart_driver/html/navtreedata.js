@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "UART Driver", "index.html", [
+  [ "My Project", "index.html", [
     [ "Topics", "topics.html", "topics" ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
@@ -37,11 +37,7 @@ var NAVTREE =
       [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [
         [ "All", "globals.html", null ],
-        [ "Functions", "globals_func.html", null ],
-        [ "Typedefs", "globals_type.html", null ],
-        [ "Enumerations", "globals_enum.html", null ],
-        [ "Enumerator", "globals_eval.html", null ],
-        [ "Macros", "globals_defs.html", null ]
+        [ "Functions", "globals_func.html", null ]
       ] ]
     ] ]
   ] ]
@@ -49,8 +45,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"annotated.html",
-"group___functions.html#ga07edb8b4a61d4c35a57cdef56877fc5c"
+"annotated.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

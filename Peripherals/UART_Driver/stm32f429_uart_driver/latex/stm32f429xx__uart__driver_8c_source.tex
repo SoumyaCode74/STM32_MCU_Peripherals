@@ -1,0 +1,56 @@
+\doxysection{stm32f429xx\+\_\+uart\+\_\+driver.\+c}
+\hypertarget{stm32f429xx__uart__driver_8c_source}{}\label{stm32f429xx__uart__driver_8c_source}\index{Src/stm32f429xx\_uart\_driver.c@{Src/stm32f429xx\_uart\_driver.c}}
+\mbox{\hyperlink{stm32f429xx__uart__driver_8c}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00001}00001\ }
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00008}00008\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{stm32f429xx__uart__driver_8h}{stm32f429xx\_uart\_driver.h}}"{}}}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00009}00009\ }
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00010}\mbox{\hyperlink{stm32f429xx__uart__driver_8h_af4b25fa3755eccfd76de059ccb7320b9}{00010}}\ uint32\_t\ \mbox{\hyperlink{stm32f429xx__uart__driver_8c_af4b25fa3755eccfd76de059ccb7320b9}{GetPCLKFrequency}}(\mbox{\hyperlink{structhandle}{UART\_Handle\_t}}\ *\ hUARTHandle)\{}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00015}00015\ \ \ \ \ uint8\_t\ clock\_source\ =\ \ hUARTHandle-\/>\mbox{\hyperlink{structhandle_ab3d4121862089418b840207198cdca99}{hUARTx\_RCC}}-\/>RCC\_Config.clock\_source;}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00016}00016\ \ \ \ \ uint16\_t\ prescaler\ \ \ =\ \mbox{\hyperlink{group___functions_ga4e008a71d3368a20d7322cf1d7572f6c}{RCC\_GetPrescaler}}(hUARTHandle-\/>\mbox{\hyperlink{structhandle_ab3d4121862089418b840207198cdca99}{hUARTx\_RCC}});}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00017}00017\ \ \ \ \ \textcolor{keywordflow}{if}(clock\_source\ ==\ HSI\ ||\ clock\_source\ ==\ PLL)\{}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00018}00018\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ \mbox{\hyperlink{group___defines_gaaa8c76e274d0f6dd2cefb5d0b17fbc37}{HSI\_VALUE}}/prescaler;}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00019}00019\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00020}00020\ \ \ \ \ \textcolor{keywordflow}{else}\{}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00021}00021\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ \mbox{\hyperlink{group___defines_gaeafcff4f57440c60e64812dddd13e7cb}{HSE\_VALUE}}/prescaler;}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00022}00022\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00023}00023\ \}}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00024}00024\ }
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00025}00025\ \textcolor{keywordtype}{void}\ UART\_InterruptConfig(USART\_RegAddr\_t\ *\ pUART,\ \mbox{\hyperlink{structinterrupts}{UART\_InterruptConfig\_t}}\ interruptconfig)\{}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00026}00026\ \ \ \ \ ;}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00027}00027\ \}}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00028}00028\ }
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00029}00029\ uint8\_t\ UART\_GetFlagStatus(USART\_RegAddr\_t\ *\ pUART,\ UART\_Flag\_t\ flag)\{}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00030}00030\ \ \ \ \ \textcolor{keywordflow}{return}\ 0;}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00031}00031\ \}}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00032}00032\ }
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00033}\mbox{\hyperlink{stm32f429xx__uart__driver_8h_a34264420c4783dcebbf430c2ff707763}{00033}}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{stm32f429xx__uart__driver_8c_a34264420c4783dcebbf430c2ff707763}{UART\_Init}}(\mbox{\hyperlink{structhandle}{UART\_Handle\_t}}\ *\ pUartHandle)\{}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00034}00034\ \ \ \ \ ;}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00035}00035\ \}}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00036}00036\ }
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00037}00037\ \textcolor{keywordtype}{void}\ UART\_Transmit(USART\_RegAddr\_t\ *\ pUART,\ uint8\_t\ *\ pData,\ uint32\_t\ length)\{}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00038}00038\ \ \ \ \ ;}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00039}00039\ \}}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00040}00040\ \textcolor{keywordtype}{void}\ UART\_Receive(USART\_RegAddr\_t\ *\ pUART,\ uint8\_t\ *\ pData)\{}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00041}00041\ \ \ \ \ ;}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00042}00042\ \}}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00043}00043\ \textcolor{keywordtype}{void}\ USART1\_IRQHandler(\textcolor{keywordtype}{void})\{}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00044}00044\ \ \ \ \ ;}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00045}00045\ \}}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00046}00046\ \textcolor{keywordtype}{void}\ USART2\_IRQHandler(\textcolor{keywordtype}{void})\{}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00047}00047\ \ \ \ \ ;}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00048}00048\ \}}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00049}00049\ \textcolor{keywordtype}{void}\ USART3\_IRQHandler(\textcolor{keywordtype}{void})\{}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00050}00050\ \ \ \ \ ;}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00051}00051\ \}}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00052}00052\ \textcolor{keywordtype}{void}\ UART4\_IRQHandler(\textcolor{keywordtype}{void})\{}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00053}00053\ \ \ \ \ ;}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00054}00054\ \}}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00055}00055\ \textcolor{keywordtype}{void}\ UART5\_IRQHandler(\textcolor{keywordtype}{void})\{}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00056}00056\ \ \ \ \ ;}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00057}00057\ \}}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00058}00058\ \textcolor{keywordtype}{void}\ USART6\_IRQHandler(\textcolor{keywordtype}{void})\{}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00059}00059\ \ \ \ \ ;}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8c_source_l00060}00060\ \}}
+
+\end{DoxyCode}

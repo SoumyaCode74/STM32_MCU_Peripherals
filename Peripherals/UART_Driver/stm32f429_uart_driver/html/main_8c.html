@@ -5,9 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>UART Driver: Src/main.c File Reference</title>
+<title>My Project: Src/main.c File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript">var page_layout=1;</script>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <script type="text/javascript" src="clipboard.js"></script>
@@ -27,18 +26,16 @@
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-<div id="side-nav" class="ui-resizable side-nav-resizable"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">UART Driver<span id="projectnumber">&#160;0.1</span>
+   <div id="projectname">My Project
    </div>
   </td>
- </tr>
-   <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
           <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
           <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
@@ -49,7 +46,8 @@
             <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
           </span>
         </div>
-</td></tr>
+</td>
+ </tr>
  </tbody>
 </table>
 </div>
@@ -61,6 +59,7 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
     <div id="nav-tree-contents">
       <div id="nav-sync" class="sync"></div>
@@ -108,7 +107,7 @@ $(function(){initNavTree('main_8c.html',''); initResizable(); });
 <p>: Main program body  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="stm32f429xx__gpio__driver_8h_source.html">stm32f429xx_gpio_driver.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="stm32f429xx__rcc__driver_8h_source.html">stm32f429xx_rcc_driver.h</a>&quot;</code><br />
+<code>#include &quot;stm32f429xx_rcc_driver.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="stm32f429xx__uart__driver_8h_source.html">stm32f429xx_uart_driver.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for main.c:</div>
@@ -118,7 +117,7 @@ Include dependency graph for main.c:</div>
 <area shape="rect" title=": Main program body" alt="" coords="174,5,259,32"/>
 <area shape="rect" href="stm32f429xx__gpio__driver_8h.html" title="Classes and API functions for driving a GPIO peripheral for STM32F429xx MCUs Created on: Feb 15,..." alt="" coords="5,80,180,107"/>
 <area shape="poly" title=" " alt="" coords="196,35,128,74,126,70,194,30"/>
-<area shape="rect" href="stm32f429xx__rcc__driver_8h.html" title=" " alt="" coords="70,155,238,181"/>
+<area shape="rect" href="stm32f429xx__rcc__driver_8h_source.html" title=" " alt="" coords="70,155,238,181"/>
 <area shape="poly" title=" " alt="" coords="217,33,208,67,194,108,174,143,169,141,189,106,203,65,211,31"/>
 <area shape="rect" href="stm32f429xx__uart__driver_8h.html" title="Prototype of peripheral driver API functions for the UART peripheral of STM32F429xx MCU." alt="" coords="262,155,435,181"/>
 <area shape="poly" title=" " alt="" coords="230,31,329,141,325,145,226,34"/>
@@ -133,14 +132,16 @@ Include dependency graph for main.c:</div>
 <area shape="poly" title=" " alt="" coords="316,184,203,226,201,221,314,179"/>
 </map>
 </div>
-</div><table class="memberdecls">
+</div>
+<p><a href="main_8c_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:a62249e384b997229a3e2ae74ade334e2" id="r_a62249e384b997229a3e2ae74ade334e2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62249e384b997229a3e2ae74ade334e2">DELAY</a>&#160;&#160;&#160;(5000*1)</td></tr>
 <tr class="separator:a62249e384b997229a3e2ae74ade334e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeff11beaebe3b87708cea01369997d89" id="r_aeff11beaebe3b87708cea01369997d89"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeff11beaebe3b87708cea01369997d89">I2C_SCL_SPEED</a>&#160;&#160;&#160;(50*1000)</td></tr>
 <tr class="separator:aeff11beaebe3b87708cea01369997d89"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf79e90c57842a859a93fb6bdad3d43a" id="r_adf79e90c57842a859a93fb6bdad3d43a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf79e90c57842a859a93fb6bdad3d43a">I2C1_CLKPOS</a>&#160;&#160;&#160;(<a class="el" href="group___classes.html#gga472e015c9d61011b9922016e6f0a70d4a4d4ab6b8152ac76c8f55d7c9fbeb0b04">BIT21</a>)</td></tr>
+<tr class="memitem:adf79e90c57842a859a93fb6bdad3d43a" id="r_adf79e90c57842a859a93fb6bdad3d43a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf79e90c57842a859a93fb6bdad3d43a">I2C1_CLKPOS</a>&#160;&#160;&#160;(BIT21)</td></tr>
 <tr class="separator:adf79e90c57842a859a93fb6bdad3d43a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -154,6 +155,8 @@ Functions</h2></td></tr>
 <dl class="section attention"><dt>Attention</dt><dd></dd></dl>
 <p>Copyright (c) 2024 STMicroelectronics. All rights reserved.</p>
 <p>This software is licensed under terms that can be found in the LICENSE file in the root directory of this software component. If no LICENSE file comes with this software, it is provided AS-IS. </p>
+
+<p class="definition">Definition in file <a class="el" href="main_8c_source.html">main.c</a>.</p>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a62249e384b997229a3e2ae74ade334e2" name="a62249e384b997229a3e2ae74ade334e2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a62249e384b997229a3e2ae74ade334e2">&#9670;&#160;</a></span>DELAY</h2>
@@ -167,6 +170,8 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="main_8c_source.html#l00022">22</a> of file <a class="el" href="main_8c_source.html">main.c</a>.</p>
+
 </div>
 </div>
 <a id="adf79e90c57842a859a93fb6bdad3d43a" name="adf79e90c57842a859a93fb6bdad3d43a"></a>
@@ -176,10 +181,12 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define I2C1_CLKPOS&#160;&#160;&#160;(<a class="el" href="group___classes.html#gga472e015c9d61011b9922016e6f0a70d4a4d4ab6b8152ac76c8f55d7c9fbeb0b04">BIT21</a>)</td>
+          <td class="memname">#define I2C1_CLKPOS&#160;&#160;&#160;(BIT21)</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="main_8c_source.html#l00024">24</a> of file <a class="el" href="main_8c_source.html">main.c</a>.</p>
 
 </div>
 </div>
@@ -194,6 +201,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="main_8c_source.html#l00023">23</a> of file <a class="el" href="main_8c_source.html">main.c</a>.</p>
 
 </div>
 </div>
@@ -214,32 +223,30 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>&lt; Configure the RCC object handle</p>
 <p>&lt; Configure the GPIO object handle</p>
-<p>&lt; Configure the RCC object handle for I2C Master peripheral</p>
-<p>&lt; Configure the RCC object handle for I2C Master GPIO</p>
-<p>&lt; Configure the GPIO object handle for I2C Master</p>
-<p>&lt; SCL pin of I2C Master</p>
-<p>&lt; SDA pin of I2C Master</p>
-<p>&lt; Configure the I2C master object handle</p>
-<p>&lt; Set ACK to 1</p>
-<p>&lt; Set SCLK speed of master</p>
-<p>&lt; Set the duty cycle to 0 for Standard mode</p>
-<p>&lt; Use I2C1 as Master</p>
-<p>&lt; Configure the RCC object handle for I2C Slave</p>
-<p>&lt; Configure the GPIO object handle for I2C Slave</p>
-<p>&lt; SCL pin of I2C Slave</p>
-<p>&lt; SDA pin of I2C Slave</p>
-<p>&lt; Configure the I2C slave object handle</p>
-<p>&lt; Set ACK to 1</p>
-<p>&lt; 7-bit slave address, padded by MSB 0</p>
-<p>&lt; Set SCLK speed of master</p>
-<p>&lt; Set the duty cycle to 0 for Standard Mode</p>
-<p>&lt; Use I2C2 as Slave</p>
 <p>&lt; Set up clock access to GPIOG port</p>
-<p>&lt; Set up clock access to I2C master peripheral</p>
 <p>&lt; Initialize GPIOG for LED operation</p>
-<p>&lt; Initialize GPIO for I2C master SCL and SDA</p>
-<p>&lt; Configure I2C Master</p>
 <p>Continuously send an array of bytes from I2C Master</p>
+
+<p class="definition">Definition at line <a class="el" href="main_8c_source.html#l00030">30</a> of file <a class="el" href="main_8c_source.html">main.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="main_8c_a840291bc02cba5474a4cb46a9b9566fe_cgraph.png" border="0" usemap="#amain_8c_a840291bc02cba5474a4cb46a9b9566fe_cgraph" alt=""/></div>
+<map name="amain_8c_a840291bc02cba5474a4cb46a9b9566fe_cgraph" id="amain_8c_a840291bc02cba5474a4cb46a9b9566fe_cgraph">
+<area shape="rect" title=" " alt="" coords="5,81,55,108"/>
+<area shape="rect" href="group___functions.html#gaddc5fb1726e458acbcb3a2bf25fe2fc4" title="Receive the data byte from the slave." alt="" coords="111,5,225,32"/>
+<area shape="poly" title=" " alt="" coords="47,79,101,42,112,36,114,41,104,46,50,83"/>
+<area shape="rect" href="group___functions.html#ga214003040f1f142c43080ef8ced72b00" title="Initialize the I2C peripheral module based on the SCLK frequency, Device address (if it is a slave),..." alt="" coords="129,56,207,83"/>
+<area shape="poly" title=" " alt="" coords="54,88,114,76,115,82,55,93"/>
+<area shape="rect" href="group___functions.html#ga6a838efaa43c0fd4eabcdacbb20e7f12" title=" " alt="" coords="290,107,418,133"/>
+<area shape="poly" title=" " alt="" coords="55,94,274,111,274,116,55,99"/>
+<area shape="rect" href="group___functions.html#gac2be2c79ec733dd8b1f373a3ca22547b" title=" " alt="" coords="103,157,233,184"/>
+<area shape="poly" title=" " alt="" coords="54,106,104,136,125,148,123,152,101,141,52,111"/>
+<area shape="rect" href="group___functions.html#ga5418297e27ceacb605473edddb261792" title="Transmit the data byte to the slave." alt="" coords="281,56,427,83"/>
+<area shape="poly" title=" " alt="" coords="207,67,265,67,265,72,207,72"/>
+<area shape="poly" title=" " alt="" coords="207,77,288,99,287,105,206,82"/>
+</map>
+</div>
 
 </div>
 </div>

@@ -2,36 +2,91 @@
 \hypertarget{stm32f429xx__uart__driver_8h_source}{}\label{stm32f429xx__uart__driver_8h_source}\index{Inc/stm32f429xx\_uart\_driver.h@{Inc/stm32f429xx\_uart\_driver.h}}
 \mbox{\hyperlink{stm32f429xx__uart__driver_8h}{Go to the documentation of this file.}}
 \begin{DoxyCode}{0}
-\DoxyCodeLine{00001\ }
-\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#ifndef\ STM32F429XX\_UART\_DRIVER\_H\_}}
-\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#define\ STM32F429XX\_UART\_DRIVER\_H\_}}
-\DoxyCodeLine{00010\ }
-\DoxyCodeLine{00016\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{stm32f429xx__general_8h}{stm32f429xx\_general.h}}"{}}}
-\DoxyCodeLine{00017\ }
-\DoxyCodeLine{00032\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct}\{}
-\DoxyCodeLine{00033\ \ \ \ \ uint8\_t\ \ \ \ \ \mbox{\hyperlink{struct_u_a_r_t___pin_config_ab13df1535e7ab6edd6e2877f189a49bf}{mode}}\ \ \ \ \ \ \ \ \ \ \ \ :1;\ \ \ \ \ }
-\DoxyCodeLine{00034\ \ \ \ \ uint8\_t\ \ \ \ \ \mbox{\hyperlink{struct_u_a_r_t___pin_config_ad7e36a7cc3b951091b2dce1d70e8bf31}{stop\_bits}}\ \ \ \ \ \ :2;\ \ \ \ \ }
-\DoxyCodeLine{00035\ \ \ \ \ uint32\_t\ \ \ \ \mbox{\hyperlink{struct_u_a_r_t___pin_config_a47188b0d3c8db02ba94c2c0735c91658}{baud\_rate}}\ \ \ \ \ \ :17;\ \ \ \ }
-\DoxyCodeLine{00036\ \ \ \ \ uint8\_t\ \ \ \ \ \mbox{\hyperlink{struct_u_a_r_t___pin_config_aec7c9fcec5ea65bb6774b9fa4bebc6b3}{word\_length}}\ \ \ \ \ \ :1;\ \ \ \ \ }
-\DoxyCodeLine{00037\ \ \ \ \ uint8\_t\ \ \ \ \ \mbox{\hyperlink{struct_u_a_r_t___pin_config_aff5f1f88e0628ed21a4222a19b6266de}{parity\_enable}}\ \ :1;\ \ \ \ \ }
-\DoxyCodeLine{00038\ \ \ \ \ uint8\_t\ \ \ \ \ \mbox{\hyperlink{struct_u_a_r_t___pin_config_ad66531b8392018fb13f928ae616ed262}{parity\_choice}}\ \ :1;\ \ \ \ \ }
-\DoxyCodeLine{00039\ \ \ \ \ uint8\_t\ \ \ \ \ \mbox{\hyperlink{struct_u_a_r_t___pin_config_a8fbaa395615f714add65617d1ae01e1a}{oversampling}}\ \ \ \ :1;\ \ \ \ \ }
-\DoxyCodeLine{00040\ \ \ \ \ uint8\_t\ \ \ \ \ \mbox{\hyperlink{struct_u_a_r_t___pin_config_a98fded05e4b1968f08249fe7b36ed7ba}{hw\_control}}\ \ \ \ \ \ \ \ :1;\ \ \ \ \ }
-\DoxyCodeLine{00041\ \}\mbox{\hyperlink{struct_u_a_r_t___pin_config}{UART\_PinConfig}};}
-\DoxyCodeLine{00042\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct}\{}
-\DoxyCodeLine{00043\ \ \ \ \ uint8\_t\ \ \ \ \ \mbox{\hyperlink{struct_u_a_r_t___interrupt_config_aed0910b8b31c617a4b21f4d90da2099c}{periph\_enable}}\ \ :1;\ \ \ \ \ }
-\DoxyCodeLine{00044\ \ \ \ \ uint8\_t\ \ \ \ \ \mbox{\hyperlink{struct_u_a_r_t___interrupt_config_a2f61d21207bc5c36ced58ba39867c9ce}{transmit\_enable}}\ \ :1;\ \ \ \ \ }
-\DoxyCodeLine{00045\ \ \ \ \ uint8\_t\ \ \ \ \ \mbox{\hyperlink{struct_u_a_r_t___interrupt_config_ab34e70b63a3ccb1195b06b9bbdbc1e97}{transmit\_complt}}\ \ :1;\ \ \ \ \ }
-\DoxyCodeLine{00046\ \ \ \ \ uint8\_t\ \ \ \ \ \mbox{\hyperlink{struct_u_a_r_t___interrupt_config_a5628c46fdf231fab0f0f9987b92d8438}{receive\_enable}}\ \ \ \ :1;\ \ \ \ \ }
-\DoxyCodeLine{00047\ \ \ \ \ uint8\_t\ \ \ \ \ \mbox{\hyperlink{struct_u_a_r_t___interrupt_config_a9a7b1e85ed3264bdc0a341ffa600f2e8}{idle\_enable}}\ \ \ \ \ \ :1;\ \ \ \ \ }
-\DoxyCodeLine{00048\ \ \ \ \ uint8\_t\ \ \ \ \ \mbox{\hyperlink{struct_u_a_r_t___interrupt_config_a9c9c4da739a5395fbe82a92880ac1a4a}{hw\_ctrl\_enable}}\ \ \ \ :1;\ \ \ \ \ }
-\DoxyCodeLine{00049\ \}\mbox{\hyperlink{struct_u_a_r_t___interrupt_config}{UART\_InterruptConfig}};}
-\DoxyCodeLine{00050\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct}\{}
-\DoxyCodeLine{00051\ \ \ \ \ \mbox{\hyperlink{group___aliases_ga25c8606314cc943d21b2e264418f6808}{USART\_RegAddr\_t}}\ *\mbox{\hyperlink{struct_u_a_r_t___handle_a30034f9e9807bce322d0b3efb6e56f00}{pUARTx}};}
-\DoxyCodeLine{00052\ \ \ \ \ \mbox{\hyperlink{struct_u_a_r_t___pin_config}{UART\_PinConfig}}\ \ \ \ \mbox{\hyperlink{struct_u_a_r_t___handle_a57ec92f84311792041f34ad302a9bd7c}{UART\_Pin\_Config}};}
-\DoxyCodeLine{00053\ \ \ \ \ \mbox{\hyperlink{struct_u_a_r_t___interrupt_config}{UART\_InterruptConfig}}\ \mbox{\hyperlink{struct_u_a_r_t___handle_ad436c480638d29788f7f90cef2816d3c}{UART\_Interrupt\_Config}};}
-\DoxyCodeLine{00054\ \}\mbox{\hyperlink{struct_u_a_r_t___handle}{UART\_Handle}};}
-\DoxyCodeLine{00055\ }
-\DoxyCodeLine{00067\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ STM32F429XX\_UART\_DRIVER\_H\_\ */}\textcolor{preprocessor}{}}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00001}00001\ }
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00008}00008\ \textcolor{preprocessor}{\#ifndef\ STM32F429XX\_UART\_DRIVER\_H\_}}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00009}00009\ \textcolor{preprocessor}{\#define\ STM32F429XX\_UART\_DRIVER\_H\_}}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00010}00010\ }
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00016}00016\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{stm32f429xx__general_8h}{stm32f429xx\_general.h}}"{}}}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00017}00017\ }
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00032}00032\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{enum}\ baud\{}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00033}00033\ \ \ \ \ BAUD\_1200\ \ \ =\ 1200,}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00034}00034\ \ \ \ \ BAUD\_2400\ \ \ =\ 2400,}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00035}00035\ \ \ \ \ BAUD\_9600\ \ \ =\ 9600,}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00036}00036\ \ \ \ \ BAUD\_19200\ \ =\ 19200,}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00037}00037\ \ \ \ \ BAUD\_38400\ \ =\ 38400,}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00038}00038\ \ \ \ \ BAUD\_57600\ \ =\ 57600,}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00039}00039\ \ \ \ \ BAUD\_115200\ =\ 115200,}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00040}00040\ \ \ \ \ BAUD\_230400\ =\ 230400,}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00041}00041\ \ \ \ \ BAUD\_460800\ =\ 460800,}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00042}00042\ \ \ \ \ BAUD\_921600\ =\ 921600,}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00043}00043\ \ \ \ \ BAUD\_2M\ \ \ \ \ =\ 2000000,}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00044}00044\ \ \ \ \ BAUD\_3M\ \ \ \ \ =\ 3000000}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00045}00045\ \}BaudRate\_t;}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00046}\mbox{\hyperlink{structpinconfig}{00046}}\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structpinconfig}{pinconfig}}\{}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00047}\mbox{\hyperlink{structpinconfig_a55189f080ffb792d060180852a249034}{00047}}\ \ \ \ \ uint8\_t\ \ \ \ \ \mbox{\hyperlink{structpinconfig_a55189f080ffb792d060180852a249034}{mode}}\ \ \ \ \ \ \ \ \ \ \ \ :1;\ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00048}\mbox{\hyperlink{structpinconfig_acdda60b209314a14dfaa2d39a4205423}{00048}}\ \ \ \ \ uint8\_t\ \ \ \ \ \mbox{\hyperlink{structpinconfig_acdda60b209314a14dfaa2d39a4205423}{stop\_bits}}\ \ \ \ \ \ :2;\ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00049}\mbox{\hyperlink{structpinconfig_afaea35c3de9c41d31306e414e076a506}{00049}}\ \ \ \ \ BaudRate\_t\ \ \mbox{\hyperlink{structpinconfig_afaea35c3de9c41d31306e414e076a506}{baud\_rate}}\ \ \ \ \ \ :24;\ \ \ \ }
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00050}\mbox{\hyperlink{structpinconfig_a9e1fc467339de5f4b00486b8bc36a7ce}{00050}}\ \ \ \ \ uint8\_t\ \ \ \ \ \mbox{\hyperlink{structpinconfig_a9e1fc467339de5f4b00486b8bc36a7ce}{word\_length}}\ \ \ \ \ \ :1;\ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00051}\mbox{\hyperlink{structpinconfig_a88d3beb06d26380c36a4ee79f81985c2}{00051}}\ \ \ \ \ uint8\_t\ \ \ \ \ \mbox{\hyperlink{structpinconfig_a88d3beb06d26380c36a4ee79f81985c2}{parity\_enable}}\ \ :1;\ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00052}\mbox{\hyperlink{structpinconfig_a16399f4955c1e6865f12ba87dbc80d10}{00052}}\ \ \ \ \ uint8\_t\ \ \ \ \ \mbox{\hyperlink{structpinconfig_a16399f4955c1e6865f12ba87dbc80d10}{parity\_choice}}\ \ :1;\ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00053}\mbox{\hyperlink{structpinconfig_a750732c8e2c69134dc7acb6a0a397df5}{00053}}\ \ \ \ \ uint8\_t\ \ \ \ \ \mbox{\hyperlink{structpinconfig_a750732c8e2c69134dc7acb6a0a397df5}{oversampling}}\ \ \ \ :1;\ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00054}\mbox{\hyperlink{structpinconfig_a40f78614da14fa491269cb5ff7dbdb8a}{00054}}\ \ \ \ \ uint8\_t\ \ \ \ \ \mbox{\hyperlink{structpinconfig_a40f78614da14fa491269cb5ff7dbdb8a}{hw\_control}}\ \ \ \ \ \ \ \ :1;\ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00055}00055\ \}\mbox{\hyperlink{structpinconfig}{UART\_PinConfig\_t}};}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00056}\mbox{\hyperlink{structinterrupts}{00056}}\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structinterrupts}{interrupts}}\{}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00057}\mbox{\hyperlink{structinterrupts_a11ba312bcd638f7d36576d9b31cb87ae}{00057}}\ \ \ \ \ uint8\_t\ \ \ \ \ \mbox{\hyperlink{structinterrupts_a11ba312bcd638f7d36576d9b31cb87ae}{periph\_enable}}\ \ :1;\ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00058}\mbox{\hyperlink{structinterrupts_a79f4e63451c6c05b16136c4d1999f1b2}{00058}}\ \ \ \ \ uint8\_t\ \ \ \ \ \mbox{\hyperlink{structinterrupts_a79f4e63451c6c05b16136c4d1999f1b2}{transmit\_enable}}\ \ :1;\ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00059}\mbox{\hyperlink{structinterrupts_ac9c3e4a3411fa5f6f4ddd4c1f65d0ee3}{00059}}\ \ \ \ \ uint8\_t\ \ \ \ \ \mbox{\hyperlink{structinterrupts_ac9c3e4a3411fa5f6f4ddd4c1f65d0ee3}{transmit\_complt}}\ \ :1;\ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00060}\mbox{\hyperlink{structinterrupts_ac242ebebae9587a1277f290eee50b290}{00060}}\ \ \ \ \ uint8\_t\ \ \ \ \ \mbox{\hyperlink{structinterrupts_ac242ebebae9587a1277f290eee50b290}{receive\_enable}}\ \ \ \ :1;\ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00061}\mbox{\hyperlink{structinterrupts_a4ac54f185214be98db3f8b9f833d2cfd}{00061}}\ \ \ \ \ uint8\_t\ \ \ \ \ \mbox{\hyperlink{structinterrupts_a4ac54f185214be98db3f8b9f833d2cfd}{idle\_enable}}\ \ \ \ \ \ :1;\ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00062}\mbox{\hyperlink{structinterrupts_a135c19dd6bc591064aefc48c325cbb18}{00062}}\ \ \ \ \ uint8\_t\ \ \ \ \ \mbox{\hyperlink{structinterrupts_a135c19dd6bc591064aefc48c325cbb18}{hw\_ctrl\_enable}}\ \ \ \ :1;\ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00063}00063\ \}\mbox{\hyperlink{structinterrupts}{UART\_InterruptConfig\_t}};}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00064}\mbox{\hyperlink{structhandle}{00064}}\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structhandle}{handle}}\{}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00065}\mbox{\hyperlink{structhandle_a406f44d1a7f7723c822eb1c2ba5f03b0}{00065}}\ \ \ \ \ UART\_RegAddr\_t\ \textcolor{keyword}{volatile}\ *\mbox{\hyperlink{structhandle_a406f44d1a7f7723c822eb1c2ba5f03b0}{pUARTx}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00066}\mbox{\hyperlink{structhandle_aae32a6270e0f5b200c23fbb2fd23b19e}{00066}}\ \ \ \ \ \mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\_Handle\_t}}\ \textcolor{keyword}{volatile}\ *\mbox{\hyperlink{structhandle_aae32a6270e0f5b200c23fbb2fd23b19e}{hUARTx\_GPIO}};\ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00067}\mbox{\hyperlink{structhandle_ab3d4121862089418b840207198cdca99}{00067}}\ \ \ \ \ \mbox{\hyperlink{struct_r_c_c___handle__t}{RCC\_Handle\_t}}\ \ \textcolor{keyword}{volatile}\ *\mbox{\hyperlink{structhandle_ab3d4121862089418b840207198cdca99}{hUARTx\_RCC}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00068}\mbox{\hyperlink{structhandle_a993126f5d1043acd5f1778ebc82c60fe}{00068}}\ \ \ \ \ \mbox{\hyperlink{structpinconfig}{UART\_PinConfig\_t}}\ \ \ \ \mbox{\hyperlink{structhandle_a993126f5d1043acd5f1778ebc82c60fe}{UART\_Pin\_Config}};\ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00069}\mbox{\hyperlink{structhandle_a483911248f3dc0893e730d124cca6077}{00069}}\ \ \ \ \ \mbox{\hyperlink{structinterrupts}{UART\_InterruptConfig\_t}}\ \mbox{\hyperlink{structhandle_a483911248f3dc0893e730d124cca6077}{UART\_Interrupt\_Config}};\ \ \ \ }
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00070}00070\ \}\mbox{\hyperlink{structhandle}{UART\_Handle\_t}};}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00071}00071\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{enum}\ flags\{}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00072}00072\ \ \ \ \ PARITY\_ERROR\ =\ 0,}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00073}00073\ \ \ \ \ FRAME\_ERROR,}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00074}00074\ \ \ \ \ NOISE\_DETECTION,}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00075}00075\ \ \ \ \ OVERRUN\_ERROR,}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00076}00076\ \ \ \ \ IDLE\_DETECTION,}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00077}00077\ \ \ \ \ RX\_DATA\_REG\_NOT\_EMPTY,}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00078}00078\ \ \ \ \ TX\_DATA\_COMPLETE,}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00079}00079\ \ \ \ \ TX\_DATA\_REG\_EMPTY,}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00080}00080\ \ \ \ \ LIN\_BREAK\_DETECTION,}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00081}00081\ \ \ \ \ CTS\_LINE\_CHANGE}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00082}00082\ \}UART\_Flag\_t;}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00083}00083\ }
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00087}00087\ \textcolor{comment}{/******************************************************************************************}}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00088}00088\ \textcolor{comment}{\ *\ \ @brief\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ APIs\ supported\ by\ this\ driver}}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00089}00089\ \textcolor{comment}{\ *\ \ @note\ \ \ \ For\ more\ information\ about\ the\ APIs\ check\ the\ function\ definitions}}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00090}00090\ \textcolor{comment}{\ ******************************************************************************************}}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00091}00091\ \textcolor{comment}{/*}}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00092}00092\ \textcolor{comment}{}}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00102}00102\ uint32\_t\ GetPCLKFrequency(UART\_Handle\_t\ *\ hUARTHandle);}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00109}\mbox{\hyperlink{stm32f429xx__uart__driver_8h_aafce55a7c185acf6b41209b9bd4a7853}{00109}}\ void\ UART\_PeriClockControl(UART\_RegDef\_t\ *pUARTx,\ uint8\_t\ EnorDi);}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00115}00115\ void\ UART\_Init(UART\_Handle\_t\ *\ pUartHandle);}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00121}\mbox{\hyperlink{stm32f429xx__uart__driver_8h_a3a451ee366993c27d1bd90ed3c504d5e}{00121}}\ void\ UART\_DeInit(UART\_RegDef\_t\ *pUARTx);}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00125}\mbox{\hyperlink{stm32f429xx__uart__driver_8h_a27a49537d6b1458f218172c517fe0100}{00125}}\ void\ UART\_SendData(UART\_RegDef\_t\ *pUARTx,uint8\_t\ *pTxBuffer,\ uint32\_t\ Len);}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00126}00126\ void\ UART\_ReceiveData(UART\_RegDef\_t\ *pUARTx,\ uint8\_t\ *pRxBuffer,\ uint32\_t\ Len);}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00131}\mbox{\hyperlink{stm32f429xx__uart__driver_8h_a05b2405b827bf7c14e8643d704363b0c}{00131}}\ uint8\_t\ UART\_SendDataIT(UART\_Handle\_t\ *pUARTHandle,uint8\_t\ *pTxBuffer,\ uint32\_t\ Len);}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00132}00132\ uint8\_t\ UART\_ReceiveDataIT(UART\_Handle\_t\ *pUARTHandle,\ uint8\_t\ *pRxBuffer,\ uint32\_t\ Len);}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00133}00133\ }
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00137}\mbox{\hyperlink{stm32f429xx__uart__driver_8h_a3733f080a5e363008a81ea8296c9d025}{00137}}\ void\ UART\_IRQInterruptConfig(uint8\_t\ IRQNumber,\ uint8\_t\ EnorDi);}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00138}00138\ void\ UART\_IRQPriorityConfig(uint8\_t\ IRQNumber,\ uint32\_t\ IRQPriority);}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00139}00139\ void\ UART\_IRQHandling(UART\_Handle\_t\ *pHandle);}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00140}00140\ }
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00144}\mbox{\hyperlink{stm32f429xx__uart__driver_8h_a5584df7f62ea66c28e73fc617cea115d}{00144}}\ void\ UART\_PeripheralControl(UART\_RegDef\_t\ *pUARTx,\ uint8\_t\ EnOrDi);}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00145}00145\ uint8\_t\ UART\_GetFlagStatus(UART\_RegDef\_t\ *pUARTx\ ,\ uint32\_t\ FlagName);}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00146}00146\ void\ UART\_ClearFlag(UART\_RegDef\_t\ *pUARTx,\ uint16\_t\ StatusFlagName);}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00147}00147\ }
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00148}00148\ /*}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00149}00149\ \ *\ Application\ callback}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00150}00150\ \ */}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00151}00151\ \textcolor{keywordtype}{void}\ UART\_ApplicationEventCallback(\mbox{\hyperlink{structhandle}{UART\_Handle\_t}}\ *pUARTHandle,uint8\_t\ AppEv);}
+\DoxyCodeLine{\Hypertarget{stm32f429xx__uart__driver_8h_source_l00155}00155\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ STM32F429XX\_UART\_DRIVER\_H\_\ */}\textcolor{preprocessor}{}}
 
 \end{DoxyCode}

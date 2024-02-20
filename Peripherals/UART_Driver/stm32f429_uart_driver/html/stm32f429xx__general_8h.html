@@ -5,9 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>UART Driver: Inc/stm32f429xx_general.h File Reference</title>
+<title>My Project: Inc/stm32f429xx_general.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript">var page_layout=1;</script>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <script type="text/javascript" src="clipboard.js"></script>
@@ -27,18 +26,16 @@
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-<div id="side-nav" class="ui-resizable side-nav-resizable"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">UART Driver<span id="projectnumber">&#160;0.1</span>
+   <div id="projectname">My Project
    </div>
   </td>
- </tr>
-   <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
           <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
           <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
@@ -49,7 +46,8 @@
             <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
           </span>
         </div>
-</td></tr>
+</td>
+ </tr>
  </tbody>
 </table>
 </div>
@@ -61,6 +59,7 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
     <div id="nav-tree-contents">
       <div id="nav-sync" class="sync"></div>
@@ -129,19 +128,21 @@ This graph shows which files directly or indirectly include this file:</div>
 <area shape="rect" title="All purpose defines and includes Created on: Feb 11, 2024." alt="" coords="118,5,294,32"/>
 <area shape="rect" href="stm32f429xx__gpio__driver_8h.html" title="Classes and API functions for driving a GPIO peripheral for STM32F429xx MCUs Created on: Feb 15,..." alt="" coords="22,171,169,213"/>
 <area shape="poly" title=" " alt="" coords="169,42,145,60,125,82,114,103,106,127,99,171,94,170,101,126,109,101,121,78,142,56,166,38"/>
-<area shape="rect" href="stm32f429xx__rcc__driver_8h.html" title=" " alt="" coords="135,80,277,123"/>
+<area shape="rect" href="stm32f429xx__rcc__driver_8h_source.html" title=" " alt="" coords="135,80,277,123"/>
 <area shape="poly" title=" " alt="" coords="209,48,209,80,203,80,203,48"/>
-<area shape="rect" href="stm32f429xx__uart__driver_8h.html" title="Prototype of peripheral driver API functions for the UART peripheral of STM32F429xx MCU." alt="" coords="327,80,472,123"/>
-<area shape="poly" title=" " alt="" coords="251,36,350,77,348,82,249,41"/>
+<area shape="rect" href="stm32f429xx__uart__driver_8h.html" title="Prototype of peripheral driver API functions for the UART peripheral of STM32F429xx MCU." alt="" coords="352,80,497,123"/>
+<area shape="poly" title=" " alt="" coords="255,35,369,77,367,82,253,40"/>
 <area shape="rect" href="main_8c.html" title=": Main program body" alt="" coords="180,269,264,296"/>
 <area shape="poly" title=" " alt="" coords="138,220,205,267,202,271,135,224"/>
-<area shape="rect" href="stm32f429xx__gpio__driver_8c.html" title=" " alt="" coords="5,261,156,304"/>
+<area shape="rect" href="stm32f429xx__gpio__driver_8c_source.html" title=" " alt="" coords="5,261,156,304"/>
 <area shape="poly" title=" " alt="" coords="92,229,87,261,81,261,87,228"/>
 <area shape="poly" title=" " alt="" coords="170,135,123,172,119,168,167,130"/>
 <area shape="poly" title=" " alt="" coords="212,138,223,269,218,269,206,139"/>
 <area shape="rect" href="stm32f429xx__rcc__driver_8c.html" title="Created on: Feb 15, 2024." alt="" coords="243,171,387,213"/>
 <area shape="poly" title=" " alt="" coords="245,130,291,168,288,172,241,135"/>
-<area shape="poly" title=" " alt="" coords="411,138,414,176,410,196,401,215,373,243,337,263,300,275,265,281,264,276,298,269,335,258,370,239,397,212,405,195,409,176,406,138"/>
+<area shape="poly" title=" " alt="" coords="427,139,421,178,413,198,401,215,371,241,335,260,299,272,265,279,264,274,297,267,333,255,368,237,397,212,408,195,415,176,422,138"/>
+<area shape="rect" href="stm32f429xx__uart__driver_8c.html" title="Driver source code for UART peripheral driver of STM32F429xx MCU." alt="" coords="462,171,611,213"/>
+<area shape="poly" title=" " alt="" coords="464,130,512,168,509,172,461,135"/>
 </map>
 </div>
 </div>
@@ -162,46 +163,46 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:ga472e015c9d61011b9922016e6f0a70d4" id="r_ga472e015c9d61011b9922016e6f0a70d4"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___classes.html#ga472e015c9d61011b9922016e6f0a70d4">Bit_t</a> { <br />
-&#160;&#160;<a class="el" href="group___classes.html#gga472e015c9d61011b9922016e6f0a70d4ae449a11932de76ea790b3e37d6d8e343">BIT0</a> = (0x1 &lt;&lt; 0)
-, <a class="el" href="group___classes.html#gga472e015c9d61011b9922016e6f0a70d4a4982bc4d3de52713a035a54a501149f8">BIT1</a> = (BIT0 &lt;&lt; 1)
-, <a class="el" href="group___classes.html#gga472e015c9d61011b9922016e6f0a70d4a2f23a7cfab89a468978087049a184486">BIT2</a> = (BIT1 &lt;&lt; 1)
-, <a class="el" href="group___classes.html#gga472e015c9d61011b9922016e6f0a70d4a7218c08fa1734dd2c314543dbc1999b6">BIT3</a> = (BIT2 &lt;&lt; 1)
+<tr class="memitem:ga472e015c9d61011b9922016e6f0a70d4" id="r_ga472e015c9d61011b9922016e6f0a70d4"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><b>Bit_t</b> { <br />
+&#160;&#160;<b>BIT0</b> = (0x1 &lt;&lt; 0)
+, <b>BIT1</b> = (BIT0 &lt;&lt; 1)
+, <b>BIT2</b> = (BIT1 &lt;&lt; 1)
+, <b>BIT3</b> = (BIT2 &lt;&lt; 1)
 , <br />
-&#160;&#160;<a class="el" href="group___classes.html#gga472e015c9d61011b9922016e6f0a70d4acc5fce0dbb088f4799045e143d22a5be">BIT4</a> = (BIT3 &lt;&lt; 1)
-, <a class="el" href="group___classes.html#gga472e015c9d61011b9922016e6f0a70d4a89643e05978c4ea27b9fa0aa7c8dad72">BIT5</a> = (BIT4 &lt;&lt; 1)
-, <a class="el" href="group___classes.html#gga472e015c9d61011b9922016e6f0a70d4af96b70dd1f6609aaf1176a4403167cc0">BIT6</a> = (BIT5 &lt;&lt; 1)
-, <a class="el" href="group___classes.html#gga472e015c9d61011b9922016e6f0a70d4a51444c7c78e72346c6414d7957f7ba76">BIT7</a> = (BIT6 &lt;&lt; 1)
+&#160;&#160;<b>BIT4</b> = (BIT3 &lt;&lt; 1)
+, <b>BIT5</b> = (BIT4 &lt;&lt; 1)
+, <b>BIT6</b> = (BIT5 &lt;&lt; 1)
+, <b>BIT7</b> = (BIT6 &lt;&lt; 1)
 , <br />
-&#160;&#160;<a class="el" href="group___classes.html#gga472e015c9d61011b9922016e6f0a70d4af64ab504b0994d78a4d72bba097ffaec">BIT8</a> = (BIT7 &lt;&lt; 1)
-, <a class="el" href="group___classes.html#gga472e015c9d61011b9922016e6f0a70d4a5ada3dd825b7f32870fa70c0de2b92d7">BIT9</a> = (BIT8 &lt;&lt; 1)
-, <a class="el" href="group___classes.html#gga472e015c9d61011b9922016e6f0a70d4a6949f8b49dffb16c4e9ed406b9e8f408">BIT10</a> = (BIT9 &lt;&lt; 1)
-, <a class="el" href="group___classes.html#gga472e015c9d61011b9922016e6f0a70d4a8ed18ae25cbb93c41d6910f875f6be30">BIT11</a> = (BIT10 &lt;&lt; 1)
+&#160;&#160;<b>BIT8</b> = (BIT7 &lt;&lt; 1)
+, <b>BIT9</b> = (BIT8 &lt;&lt; 1)
+, <b>BIT10</b> = (BIT9 &lt;&lt; 1)
+, <b>BIT11</b> = (BIT10 &lt;&lt; 1)
 , <br />
-&#160;&#160;<a class="el" href="group___classes.html#gga472e015c9d61011b9922016e6f0a70d4a4c35513f5e428c2f97e7e88aed84bb52">BIT12</a> = (BIT11 &lt;&lt; 1)
-, <a class="el" href="group___classes.html#gga472e015c9d61011b9922016e6f0a70d4af2d10e82c2ff5ce44b3d4fba8139e456">BIT13</a> = (BIT12 &lt;&lt; 1)
-, <a class="el" href="group___classes.html#gga472e015c9d61011b9922016e6f0a70d4a3773386df3b805a870a54253bb80d29b">BIT14</a> = (BIT13 &lt;&lt; 1)
-, <a class="el" href="group___classes.html#gga472e015c9d61011b9922016e6f0a70d4a3eb1bfb3fd96a90c635908858669f987">BIT15</a> = (BIT14 &lt;&lt; 1)
+&#160;&#160;<b>BIT12</b> = (BIT11 &lt;&lt; 1)
+, <b>BIT13</b> = (BIT12 &lt;&lt; 1)
+, <b>BIT14</b> = (BIT13 &lt;&lt; 1)
+, <b>BIT15</b> = (BIT14 &lt;&lt; 1)
 , <br />
-&#160;&#160;<a class="el" href="group___classes.html#gga472e015c9d61011b9922016e6f0a70d4a12b7defe5ace4d6bd26b7c9d0881689d">BIT16</a> = (BIT15 &lt;&lt; 1)
-, <a class="el" href="group___classes.html#gga472e015c9d61011b9922016e6f0a70d4a0cbd808e163380d726631a07b9772aea">BIT17</a> = (BIT16 &lt;&lt; 1)
-, <a class="el" href="group___classes.html#gga472e015c9d61011b9922016e6f0a70d4ac436958df26d73989eced1ecc3ce70fb">BIT18</a> = (BIT17 &lt;&lt; 1)
-, <a class="el" href="group___classes.html#gga472e015c9d61011b9922016e6f0a70d4a9c6007f128f0e2e63862f799c5afeb2c">BIT19</a> = (BIT18 &lt;&lt; 1)
+&#160;&#160;<b>BIT16</b> = (BIT15 &lt;&lt; 1)
+, <b>BIT17</b> = (BIT16 &lt;&lt; 1)
+, <b>BIT18</b> = (BIT17 &lt;&lt; 1)
+, <b>BIT19</b> = (BIT18 &lt;&lt; 1)
 , <br />
-&#160;&#160;<a class="el" href="group___classes.html#gga472e015c9d61011b9922016e6f0a70d4a1e195f184ee0c9a78d0dd94390cf11f5">BIT20</a> = (BIT19 &lt;&lt; 1)
-, <a class="el" href="group___classes.html#gga472e015c9d61011b9922016e6f0a70d4a4d4ab6b8152ac76c8f55d7c9fbeb0b04">BIT21</a> = (BIT20 &lt;&lt; 1)
-, <a class="el" href="group___classes.html#gga472e015c9d61011b9922016e6f0a70d4a50a298e0e7f05ed686dde0697d55d58f">BIT22</a> = (BIT21 &lt;&lt; 1)
-, <a class="el" href="group___classes.html#gga472e015c9d61011b9922016e6f0a70d4ab173f9979dea12f0b44179be7ccecc70">BIT23</a> = (BIT22 &lt;&lt; 1)
+&#160;&#160;<b>BIT20</b> = (BIT19 &lt;&lt; 1)
+, <b>BIT21</b> = (BIT20 &lt;&lt; 1)
+, <b>BIT22</b> = (BIT21 &lt;&lt; 1)
+, <b>BIT23</b> = (BIT22 &lt;&lt; 1)
 , <br />
-&#160;&#160;<a class="el" href="group___classes.html#gga472e015c9d61011b9922016e6f0a70d4acc3f590de4f72373988cb84a750cc559">BIT24</a> = (BIT23 &lt;&lt; 1)
-, <a class="el" href="group___classes.html#gga472e015c9d61011b9922016e6f0a70d4a7e0e3c0de7409d46353eb073b364ae5c">BIT25</a> = (BIT24 &lt;&lt; 1)
-, <a class="el" href="group___classes.html#gga472e015c9d61011b9922016e6f0a70d4adb8846b902c2c19577bca3f3a4486e5a">BIT26</a> = (BIT25 &lt;&lt; 1)
-, <a class="el" href="group___classes.html#gga472e015c9d61011b9922016e6f0a70d4a86d65eac6da8f7c2c2ab9c6437a2b6c4">BIT27</a> = (BIT26 &lt;&lt; 1)
+&#160;&#160;<b>BIT24</b> = (BIT23 &lt;&lt; 1)
+, <b>BIT25</b> = (BIT24 &lt;&lt; 1)
+, <b>BIT26</b> = (BIT25 &lt;&lt; 1)
+, <b>BIT27</b> = (BIT26 &lt;&lt; 1)
 , <br />
-&#160;&#160;<a class="el" href="group___classes.html#gga472e015c9d61011b9922016e6f0a70d4a8ca3c6188e066822543923544c370bec">BIT28</a> = (BIT27 &lt;&lt; 1)
-, <a class="el" href="group___classes.html#gga472e015c9d61011b9922016e6f0a70d4adcae034af61184fcb3fe21d18d7045aa">BIT29</a> = (BIT28 &lt;&lt; 1)
-, <a class="el" href="group___classes.html#gga472e015c9d61011b9922016e6f0a70d4a4bfea00b651c4f5cb3065eb31135bdee">BIT30</a> = (BIT29 &lt;&lt; 1)
-, <a class="el" href="group___classes.html#gga472e015c9d61011b9922016e6f0a70d4ab41bcd7422285f645f80eb9bd7a0aab3">BIT31</a> = (BIT30 &lt;&lt; 1)
+&#160;&#160;<b>BIT28</b> = (BIT27 &lt;&lt; 1)
+, <b>BIT29</b> = (BIT28 &lt;&lt; 1)
+, <b>BIT30</b> = (BIT29 &lt;&lt; 1)
+, <b>BIT31</b> = (BIT30 &lt;&lt; 1)
 <br />
  }</td></tr>
 <tr class="separator:ga472e015c9d61011b9922016e6f0a70d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -209,6 +210,8 @@ Enumerations</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>All purpose defines and includes Created on: Feb 11, 2024. </p>
 <dl class="section author"><dt>Author</dt><dd>: Soumyadeep Bose </dd></dl>
+
+<p class="definition">Definition in file <a class="el" href="stm32f429xx__general_8h_source.html">stm32f429xx_general.h</a>.</p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

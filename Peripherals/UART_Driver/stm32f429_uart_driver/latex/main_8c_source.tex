@@ -1,0 +1,107 @@
+\doxysection{main.\+c}
+\hypertarget{main_8c_source}{}\label{main_8c_source}\index{Src/main.c@{Src/main.c}}
+\mbox{\hyperlink{main_8c}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00001}00001\ }
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00018}00018\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{stm32f429xx__gpio__driver_8h}{stm32f429xx\_gpio\_driver.h}}"{}}}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00019}00019\ \textcolor{preprocessor}{\#include\ "{}stm32f429xx\_rcc\_driver.h"{}}}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00020}00020\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{stm32f429xx__uart__driver_8h}{stm32f429xx\_uart\_driver.h}}"{}}}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00021}00021\ }
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00022}00022\ \textcolor{preprocessor}{\#define\ DELAY\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (5000*1)}}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00023}00023\ \textcolor{preprocessor}{\#define\ I2C\_SCL\_SPEED\ \ \ \ \ \ \ \ \ \ \ (50*1000)}}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00024}00024\ \textcolor{preprocessor}{\#define\ I2C1\_CLKPOS\ \ \ \ \ \ \ \ \ \ \ \ \ (BIT21)}}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00025}00025\ }
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00026}00026\ \textcolor{preprocessor}{\#if\ !defined(\_\_SOFT\_FP\_\_)\ \&\&\ defined(\_\_ARM\_FP)\ \&\&\ 0}}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00027}00027\ \textcolor{preprocessor}{\ \ \#warning\ "{}FPU\ is\ not\ initialized,\ but\ the\ project\ is\ compiling\ for\ an\ FPU.\ Please\ initialize\ the\ FPU\ before\ use."{}}}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00028}00028\ \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00029}00029\ }
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00030}\mbox{\hyperlink{main_8c_a840291bc02cba5474a4cb46a9b9566fe}{00030}}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{main_8c_a840291bc02cba5474a4cb46a9b9566fe}{main}}(\textcolor{keywordtype}{void})}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00031}00031\ \{}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00033}00033\ \ \ \ \ \mbox{\hyperlink{struct_r_c_c___handle__t}{RCC\_Handle\_t}}\ hRCC\_Led;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00034}00034\ \ \ \ \ hRCC\_Led.RCC\_Config.bus\ =\ AHB1;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00035}00035\ \ \ \ \ hRCC\_Led.RCC\_Config.prescaler\ =\ AHB\_DIVIDE\_BY\_64;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00036}00036\ \ \ \ \ hRCC\_Led.RCC\_Config.clock\_source\ =\ HSI;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00037}00037\ \ \ \ \ hRCC\_Led.pRCC\ =\ RCC;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00039}00039\ \ \ \ \ \mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\_Handle\_t}}\ hGPIO\_Led;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00040}00040\ \ \ \ \ hGPIO\_Led.\mbox{\hyperlink{group___g_p_i_o___driver___header_ga5b86a2cea7bc03294663058283fbb740}{hRCC}}\ \ \ =\ \&hRCC\_Led;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00041}00041\ \ \ \ \ hGPIO\_Led.\mbox{\hyperlink{group___g_p_i_o___driver___header_gab2c22aa8e429496a1822328b7078984c}{pGPIOx}}\ =\ GPIOG;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00042}00042\ \ \ \ \ hGPIO\_Led.\mbox{\hyperlink{group___g_p_i_o___driver___header_ga33cefa400df9fdae0bbfd207a3d53551}{GPIO\_PinConfig}}.\mbox{\hyperlink{group___g_p_i_o___driver___header_ga7838ca04e2ceba1a5895ec493e0e10d1}{Pin}}\ =\ 13;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00043}00043\ \ \ \ \ hGPIO\_Led.\mbox{\hyperlink{group___g_p_i_o___driver___header_ga33cefa400df9fdae0bbfd207a3d53551}{GPIO\_PinConfig}}.\mbox{\hyperlink{group___g_p_i_o___driver___header_gaf582963784931a387bdb2a31c93f07e5}{Mode}}\ =\ 1;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00044}00044\ \textcolor{preprocessor}{\#ifdef\ I2C}}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00046}00046\ \ \ \ \ \mbox{\hyperlink{struct_r_c_c___handle__t}{RCC\_Handle\_t}}\ hRCC\_I2C\_Master\_Periph;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00047}00047\ \ \ \ \ hRCC\_I2C\_Master\_Periph.RCC\_Config.bus\ =\ APB1;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00048}00048\ \ \ \ \ hRCC\_I2C\_Master\_Periph.RCC\_Config.prescaler\ =\ APB1\_DIVIDE\_BY\_1;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00049}00049\ \ \ \ \ hRCC\_I2C\_Master\_Periph.RCC\_Config.clock\_source\ =\ HSI;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00050}00050\ \ \ \ \ hRCC\_I2C\_Master\_Periph.pRCC\ =\ RCC;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00052}00052\ \ \ \ \ \mbox{\hyperlink{struct_r_c_c___handle__t}{RCC\_Handle\_t}}\ hRCC\_I2C\_Master\_GPIO;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00053}00053\ \ \ \ \ hRCC\_I2C\_Master\_GPIO.RCC\_Config.bus\ =\ AHB1;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00054}00054\ \ \ \ \ hRCC\_I2C\_Master\_GPIO.RCC\_Config.prescaler\ =\ AHB\_DIVIDE\_BY\_1;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00055}00055\ \ \ \ \ hRCC\_I2C\_Master\_GPIO.RCC\_Config.clock\_source\ =\ HSI;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00056}00056\ \ \ \ \ hRCC\_I2C\_Master\_GPIO.pRCC\ =\ RCC;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00058}00058\ \ \ \ \ \mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\_Handle\_t}}\ hGPIO\_I2C\_Master[2];}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00060}00060\ \ \ \ \ hGPIO\_I2C\_Master[0].\mbox{\hyperlink{group___g_p_i_o___driver___header_ga5b86a2cea7bc03294663058283fbb740}{hRCC}}\ =\ \&hRCC\_I2C\_Master\_GPIO;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00061}00061\ \ \ \ \ hGPIO\_I2C\_Master[0].\mbox{\hyperlink{group___g_p_i_o___driver___header_gab2c22aa8e429496a1822328b7078984c}{pGPIOx}}\ =\ GPIOB;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00062}00062\ \ \ \ \ hGPIO\_I2C\_Master[0].\mbox{\hyperlink{group___g_p_i_o___driver___header_ga33cefa400df9fdae0bbfd207a3d53551}{GPIO\_PinConfig}}.\mbox{\hyperlink{group___g_p_i_o___driver___header_ga7838ca04e2ceba1a5895ec493e0e10d1}{Pin}}\ =\ 6;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00063}00063\ \ \ \ \ hGPIO\_I2C\_Master[0].\mbox{\hyperlink{group___g_p_i_o___driver___header_ga33cefa400df9fdae0bbfd207a3d53551}{GPIO\_PinConfig}}.\mbox{\hyperlink{group___g_p_i_o___driver___header_gaf582963784931a387bdb2a31c93f07e5}{Mode}}\ =\ 2;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00064}00064\ \ \ \ \ hGPIO\_I2C\_Master[0].\mbox{\hyperlink{group___g_p_i_o___driver___header_ga33cefa400df9fdae0bbfd207a3d53551}{GPIO\_PinConfig}}.\mbox{\hyperlink{group___g_p_i_o___driver___header_gace2ebe1b2201b762cab0bf7f821786e2}{AlternateFunction}}\ =\ 4;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00065}00065\ \ \ \ \ hGPIO\_I2C\_Master[0].\mbox{\hyperlink{group___g_p_i_o___driver___header_ga33cefa400df9fdae0bbfd207a3d53551}{GPIO\_PinConfig}}.\mbox{\hyperlink{group___g_p_i_o___driver___header_gaa856c1501c06fc5c78a28071e78b53cf}{PullUpDown}}\ =\ 1;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00067}00067\ \ \ \ \ hGPIO\_I2C\_Master[1].\mbox{\hyperlink{group___g_p_i_o___driver___header_ga5b86a2cea7bc03294663058283fbb740}{hRCC}}\ =\ \&hRCC\_I2C\_Master\_GPIO;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00068}00068\ \ \ \ \ hGPIO\_I2C\_Master[1].\mbox{\hyperlink{group___g_p_i_o___driver___header_gab2c22aa8e429496a1822328b7078984c}{pGPIOx}}\ =\ GPIOB;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00069}00069\ \ \ \ \ hGPIO\_I2C\_Master[1].\mbox{\hyperlink{group___g_p_i_o___driver___header_ga33cefa400df9fdae0bbfd207a3d53551}{GPIO\_PinConfig}}.\mbox{\hyperlink{group___g_p_i_o___driver___header_ga7838ca04e2ceba1a5895ec493e0e10d1}{Pin}}\ =\ 7;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00070}00070\ \ \ \ \ hGPIO\_I2C\_Master[1].\mbox{\hyperlink{group___g_p_i_o___driver___header_ga33cefa400df9fdae0bbfd207a3d53551}{GPIO\_PinConfig}}.\mbox{\hyperlink{group___g_p_i_o___driver___header_gaf582963784931a387bdb2a31c93f07e5}{Mode}}\ =\ 2;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00071}00071\ \ \ \ \ hGPIO\_I2C\_Master[1].\mbox{\hyperlink{group___g_p_i_o___driver___header_ga33cefa400df9fdae0bbfd207a3d53551}{GPIO\_PinConfig}}.\mbox{\hyperlink{group___g_p_i_o___driver___header_gace2ebe1b2201b762cab0bf7f821786e2}{AlternateFunction}}\ =\ 4;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00072}00072\ \ \ \ \ hGPIO\_I2C\_Master[1].\mbox{\hyperlink{group___g_p_i_o___driver___header_ga33cefa400df9fdae0bbfd207a3d53551}{GPIO\_PinConfig}}.\mbox{\hyperlink{group___g_p_i_o___driver___header_gaa856c1501c06fc5c78a28071e78b53cf}{PullUpDown}}\ =\ 1;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00074}00074\ \ \ \ \ I2C\_Handle\_t\ hI2CMaster;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00075}00075\ \ \ \ \ hI2CMaster.hGPIO\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ hGPIO\_I2C\_Master;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00076}00076\ \ \ \ \ hI2CMaster.hRCCPeriph\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ \&hRCC\_I2C\_Master\_Periph;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00077}00077\ \ \ \ \ hI2CMaster.I2C\_PinConfig.I2C\_AckControl\ \ \ \ \ =\ 1;\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00078}00078\ \ \ \ \ hI2CMaster.I2C\_PinConfig.I2C\_SCLSpeed\ \ \ \ \ \ \ =\ I2C\_SCL\_SPEED;\ \ \ \ }
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00079}00079\ \ \ \ \ hI2CMaster.I2C\_PinConfig.I2C\_FMDutyCycle\ \ \ \ =\ 0;\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00080}00080\ \ \ \ \ hI2CMaster.pI2Cx\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ I2C1;\ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00081}00081\ }
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00083}00083\ \ \ \ \ \mbox{\hyperlink{struct_r_c_c___handle__t}{RCC\_Handle\_t}}\ hRCC\_I2C\_Slave;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00084}00084\ \ \ \ \ hRCC\_I2C\_Slave.RCC\_Config.bus\ =\ APB1;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00085}00085\ \ \ \ \ hRCC\_I2C\_Slave.RCC\_Config.prescaler\ =\ APB1\_DIVIDE\_BY\_1;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00086}00086\ \ \ \ \ hRCC\_I2C\_Slave.RCC\_Config.clock\_source\ =\ HSI;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00087}00087\ \ \ \ \ hRCC\_I2C\_Slave.pRCC\ =\ RCC;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00089}00089\ \ \ \ \ \mbox{\hyperlink{struct_g_p_i_o___handle__t}{GPIO\_Handle\_t}}\ hGPIO\_I2C\_Slave[2];}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00091}00091\ \ \ \ \ hGPIO\_I2C\_Slave[0].\mbox{\hyperlink{group___g_p_i_o___driver___header_ga5b86a2cea7bc03294663058283fbb740}{hRCC}}\ =\ \&hRCC\_I2C\_Slave;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00092}00092\ \ \ \ \ hGPIO\_I2C\_Slave[0].\mbox{\hyperlink{group___g_p_i_o___driver___header_gab2c22aa8e429496a1822328b7078984c}{pGPIOx}}\ =\ GPIOB;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00093}00093\ \ \ \ \ hGPIO\_I2C\_Slave[0].\mbox{\hyperlink{group___g_p_i_o___driver___header_ga33cefa400df9fdae0bbfd207a3d53551}{GPIO\_PinConfig}}.\mbox{\hyperlink{group___g_p_i_o___driver___header_ga7838ca04e2ceba1a5895ec493e0e10d1}{Pin}}\ =\ 6;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00094}00094\ \ \ \ \ hGPIO\_I2C\_Slave[0].\mbox{\hyperlink{group___g_p_i_o___driver___header_ga33cefa400df9fdae0bbfd207a3d53551}{GPIO\_PinConfig}}.\mbox{\hyperlink{group___g_p_i_o___driver___header_gaf582963784931a387bdb2a31c93f07e5}{Mode}}\ =\ 2;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00095}00095\ \ \ \ \ hGPIO\_I2C\_Slave[0].\mbox{\hyperlink{group___g_p_i_o___driver___header_ga33cefa400df9fdae0bbfd207a3d53551}{GPIO\_PinConfig}}.\mbox{\hyperlink{group___g_p_i_o___driver___header_gace2ebe1b2201b762cab0bf7f821786e2}{AlternateFunction}}\ =\ 4;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00097}00097\ \ \ \ \ hGPIO\_I2C\_Slave[1].\mbox{\hyperlink{group___g_p_i_o___driver___header_ga5b86a2cea7bc03294663058283fbb740}{hRCC}}\ =\ \&hRCC\_I2C\_Slave;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00098}00098\ \ \ \ \ hGPIO\_I2C\_Slave[1].\mbox{\hyperlink{group___g_p_i_o___driver___header_gab2c22aa8e429496a1822328b7078984c}{pGPIOx}}\ =\ GPIOB;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00099}00099\ \ \ \ \ hGPIO\_I2C\_Slave[1].\mbox{\hyperlink{group___g_p_i_o___driver___header_ga33cefa400df9fdae0bbfd207a3d53551}{GPIO\_PinConfig}}.\mbox{\hyperlink{group___g_p_i_o___driver___header_ga7838ca04e2ceba1a5895ec493e0e10d1}{Pin}}\ =\ 7;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00100}00100\ \ \ \ \ hGPIO\_I2C\_Slave[1].\mbox{\hyperlink{group___g_p_i_o___driver___header_ga33cefa400df9fdae0bbfd207a3d53551}{GPIO\_PinConfig}}.\mbox{\hyperlink{group___g_p_i_o___driver___header_gaf582963784931a387bdb2a31c93f07e5}{Mode}}\ =\ 2;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00101}00101\ \ \ \ \ hGPIO\_I2C\_Slave[1].\mbox{\hyperlink{group___g_p_i_o___driver___header_ga33cefa400df9fdae0bbfd207a3d53551}{GPIO\_PinConfig}}.\mbox{\hyperlink{group___g_p_i_o___driver___header_gace2ebe1b2201b762cab0bf7f821786e2}{AlternateFunction}}\ =\ 4;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00102}00102\ }
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00104}00104\ \ \ \ \ I2C\_Handle\_t\ hI2CSlave;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00105}00105\ \ \ \ \ hI2CSlave.hGPIO\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ hGPIO\_I2C\_Slave;}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00106}00106\ \ \ \ \ hI2CSlave.I2C\_PinConfig.I2C\_AckControl\ \ \ \ \ \ =\ 1;\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00107}00107\ \ \ \ \ hI2CSlave.I2C\_PinConfig.I2C\_DeviceAddress\ \ \ =\ 0b01010111;\ \ \ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00108}00108\ \ \ \ \ hI2CSlave.I2C\_PinConfig.I2C\_SCLSpeed\ \ \ \ \ \ \ \ =\ I2C\_SCL\_SPEED;\ \ \ \ }
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00109}00109\ \ \ \ \ hI2CSlave.I2C\_PinConfig.I2C\_FMDutyCycle\ \ \ \ \ =\ 0;\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00110}00110\ \ \ \ \ hI2CSlave.pI2Cx\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ =\ I2C2;\ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00111}00111\ \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00113}00113\ \ \ \ \ \mbox{\hyperlink{group___functions_gac2be2c79ec733dd8b1f373a3ca22547b}{RCC\_SetPrescaler}}(\&hRCC\_Led,\ hRCC\_Led.RCC\_Config.prescaler);}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00114}00114\ \textcolor{preprocessor}{\#ifdef\ I2C}}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00115}00115\ \textcolor{comment}{//\ \ RCC\_EnableClock(\&hRCC\_Led,\ PORT\_G);}}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00117}00117\ \ \ \ \ \mbox{\hyperlink{group___functions_gac2be2c79ec733dd8b1f373a3ca22547b}{RCC\_SetPrescaler}}(\&hRCC\_I2C\_Master\_Periph,\ hRCC\_I2C\_Master\_Periph.RCC\_Config.prescaler);}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00118}00118\ \ \ \ \ \mbox{\hyperlink{group___functions_ga6a838efaa43c0fd4eabcdacbb20e7f12}{RCC\_EnableClock}}(\&hRCC\_I2C\_Master\_Periph,\ 21);}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00119}00119\ \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00121}00121\ \ \ \ \ \mbox{\hyperlink{group___functions_ga214003040f1f142c43080ef8ced72b00}{GPIO\_Init}}(\&hGPIO\_Led);}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00122}00122\ \textcolor{preprocessor}{\#ifdef\ I2C}}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00124}00124\ \ \ \ \ \mbox{\hyperlink{group___functions_ga214003040f1f142c43080ef8ced72b00}{GPIO\_Init}}(\&hGPIO\_I2C\_Master[0]);}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00125}00125\ \ \ \ \ \mbox{\hyperlink{group___functions_ga214003040f1f142c43080ef8ced72b00}{GPIO\_Init}}(\&hGPIO\_I2C\_Master[1]);}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00127}00127\ \ \ \ \ I2C\_Init(\&hI2CMaster);}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00128}00128\ \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00129}00129\ \ \ \ \ \textcolor{keywordflow}{for}(;;)\{}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00130}00130\ \ \ \ \ \ \ \ \ GPIO\_Set\_Bit(\&hGPIO\_Led);}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00131}00131\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int}\ i\ =\ 0;\ i\ <\ DELAY;\ i++);}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00132}00132\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{group___functions_gaddc5fb1726e458acbcb3a2bf25fe2fc4}{GPIO\_Clear\_Bit}}(\&hGPIO\_Led);}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00133}00133\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{for}(\textcolor{keywordtype}{int}\ i\ =\ 0;\ i\ <\ DELAY;\ i++);}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00135}00135\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{main_8c_source_l00136}00136\ \}}
+
+\end{DoxyCode}

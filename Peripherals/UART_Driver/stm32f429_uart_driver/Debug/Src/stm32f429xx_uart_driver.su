@@ -1,0 +1,13 @@
+../Src/stm32f429xx_uart_driver.c:10:10:UART_GetPCLKFrequency	24	static
+../Src/stm32f429xx_uart_driver.c:25:6:USART_SetBaudRate	16	static
+../Src/stm32f429xx_uart_driver.c:36:6:UART_InterruptConfig	16	static
+../Src/stm32f429xx_uart_driver.c:40:9:UART_GetFlagStatus	16	static
+../Src/stm32f429xx_uart_driver.c:44:6:UART_Init	16	static
+../Src/stm32f429xx_uart_driver.c:48:6:UART_Transmit	24	static
+../Src/stm32f429xx_uart_driver.c:51:6:UART_Receive	16	static
+../Src/stm32f429xx_uart_driver.c:54:6:USART1_IRQHandler	4	static
+../Src/stm32f429xx_uart_driver.c:57:6:USART2_IRQHandler	4	static
+../Src/stm32f429xx_uart_driver.c:60:6:USART3_IRQHandler	4	static
+../Src/stm32f429xx_uart_driver.c:63:6:UART4_IRQHandler	4	static
+../Src/stm32f429xx_uart_driver.c:66:6:UART5_IRQHandler	4	static
+../Src/stm32f429xx_uart_driver.c:69:6:USART6_IRQHandler	4	static

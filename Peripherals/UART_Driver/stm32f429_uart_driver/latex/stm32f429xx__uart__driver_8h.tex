@@ -6,8 +6,7 @@ Prototype of peripheral driver API functions for the UART peripheral of STM32\+F
 
 
 {\ttfamily \#include "{}stm32f429xx\+\_\+general.\+h"{}}\newline
-Include dependency graph for stm32f429xx\+\_\+uart\+\_\+driver.\+h\+:
-\nopagebreak
+Include dependency graph for stm32f429xx\+\_\+uart\+\_\+driver.\+h\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -19,17 +18,109 @@ This graph shows which files directly or indirectly include this file\+:
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=189pt]{stm32f429xx__uart__driver_8h__dep__incl}
+\includegraphics[width=272pt]{stm32f429xx__uart__driver_8h__dep__incl}
 \end{center}
 \end{figure}
 \doxysubsubsection*{Classes}
 \begin{DoxyCompactItemize}
 \item 
-struct \mbox{\hyperlink{struct_u_a_r_t___pin_config}{UART\+\_\+\+Pin\+Config}}
+struct \mbox{\hyperlink{structpinconfig}{pinconfig}}
 \item 
-struct \mbox{\hyperlink{struct_u_a_r_t___interrupt_config}{UART\+\_\+\+Interrupt\+Config}}
+struct \mbox{\hyperlink{structinterrupts}{interrupts}}
 \item 
-struct \mbox{\hyperlink{struct_u_a_r_t___handle}{UART\+\_\+\+Handle}}
+struct \mbox{\hyperlink{structhandle}{handle}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef enum baud {\bfseries Baud\+Rate\+\_\+t}
+\item 
+typedef struct \mbox{\hyperlink{structpinconfig}{pinconfig}} {\bfseries UART\+\_\+\+Pin\+Config\+\_\+t}
+\item 
+typedef struct \mbox{\hyperlink{structinterrupts}{interrupts}} {\bfseries UART\+\_\+\+Interrupt\+Config\+\_\+t}
+\item 
+typedef struct \mbox{\hyperlink{structhandle}{handle}} {\bfseries UART\+\_\+\+Handle\+\_\+t}
+\item 
+typedef enum flags {\bfseries UART\+\_\+\+Flag\+\_\+t}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum {\bfseries baud} \{ \newline
+{\bfseries BAUD\+\_\+1200} = 1200
+, {\bfseries BAUD\+\_\+2400} = 2400
+, {\bfseries BAUD\+\_\+9600} = 9600
+, {\bfseries BAUD\+\_\+19200} = 19200
+, \newline
+{\bfseries BAUD\+\_\+38400} = 38400
+, {\bfseries BAUD\+\_\+57600} = 57600
+, {\bfseries BAUD\+\_\+115200} = 115200
+, {\bfseries BAUD\+\_\+230400} = 230400
+, \newline
+{\bfseries BAUD\+\_\+460800} = 460800
+, {\bfseries BAUD\+\_\+921600} = 921600
+, {\bfseries BAUD\+\_\+2M} = 2000000
+, {\bfseries BAUD\+\_\+3M} = 3000000
+ \}
+\item 
+enum {\bfseries flags} \{ \newline
+{\bfseries PARITY\+\_\+\+ERROR} = 0
+, {\bfseries FRAME\+\_\+\+ERROR}
+, {\bfseries NOISE\+\_\+\+DETECTION}
+, {\bfseries OVERRUN\+\_\+\+ERROR}
+, \newline
+{\bfseries IDLE\+\_\+\+DETECTION}
+, {\bfseries RX\+\_\+\+DATA\+\_\+\+REG\+\_\+\+NOT\+\_\+\+EMPTY}
+, {\bfseries TX\+\_\+\+DATA\+\_\+\+COMPLETE}
+, {\bfseries TX\+\_\+\+DATA\+\_\+\+REG\+\_\+\+EMPTY}
+, \newline
+{\bfseries LIN\+\_\+\+BREAK\+\_\+\+DETECTION}
+, {\bfseries CTS\+\_\+\+LINE\+\_\+\+CHANGE}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+uint32\+\_\+t \mbox{\hyperlink{stm32f429xx__uart__driver_8h_af4b25fa3755eccfd76de059ccb7320b9}{Get\+PCLKFrequency}} (\mbox{\hyperlink{structhandle}{UART\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}h\+UARTHandle)
+\begin{DoxyCompactList}\small\item\em Return the clock frequency of PCLK. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{stm32f429xx__uart__driver_8h_aafce55a7c185acf6b41209b9bd4a7853}{UART\+\_\+\+Peri\+Clock\+Control}} (UART\+\_\+\+Reg\+Def\+\_\+t \texorpdfstring{$\ast$}{*}p\+UARTx, uint8\+\_\+t Enor\+Di)
+\begin{DoxyCompactList}\small\item\em Peripheral Clock setup. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{stm32f429xx__uart__driver_8h_a34264420c4783dcebbf430c2ff707763}{UART\+\_\+\+Init}} (\mbox{\hyperlink{structhandle}{UART\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+Uart\+Handle)
+\begin{DoxyCompactList}\small\item\em Function to initialize the UART peripheral. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{stm32f429xx__uart__driver_8h_a3a451ee366993c27d1bd90ed3c504d5e}{UART\+\_\+\+De\+Init}} (UART\+\_\+\+Reg\+Def\+\_\+t \texorpdfstring{$\ast$}{*}p\+UARTx)
+\begin{DoxyCompactList}\small\item\em Function to de-\/initialize the UART peripheral. \end{DoxyCompactList}\item 
+\Hypertarget{stm32f429xx__uart__driver_8h_a27a49537d6b1458f218172c517fe0100}\label{stm32f429xx__uart__driver_8h_a27a49537d6b1458f218172c517fe0100} 
+void {\bfseries UART\+\_\+\+Send\+Data} (UART\+\_\+\+Reg\+Def\+\_\+t \texorpdfstring{$\ast$}{*}p\+UARTx, uint8\+\_\+t \texorpdfstring{$\ast$}{*}p\+Tx\+Buffer, uint32\+\_\+t Len)
+\begin{DoxyCompactList}\small\item\em Data Send and Receive APIs with blocking (polling mode) \end{DoxyCompactList}\item 
+\Hypertarget{stm32f429xx__uart__driver_8h_aeb2250576421ad7b7d5386646deb9c55}\label{stm32f429xx__uart__driver_8h_aeb2250576421ad7b7d5386646deb9c55} 
+void {\bfseries UART\+\_\+\+Receive\+Data} (UART\+\_\+\+Reg\+Def\+\_\+t \texorpdfstring{$\ast$}{*}p\+UARTx, uint8\+\_\+t \texorpdfstring{$\ast$}{*}p\+Rx\+Buffer, uint32\+\_\+t Len)
+\item 
+\Hypertarget{stm32f429xx__uart__driver_8h_a05b2405b827bf7c14e8643d704363b0c}\label{stm32f429xx__uart__driver_8h_a05b2405b827bf7c14e8643d704363b0c} 
+uint8\+\_\+t {\bfseries UART\+\_\+\+Send\+Data\+IT} (\mbox{\hyperlink{structhandle}{UART\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+UARTHandle, uint8\+\_\+t \texorpdfstring{$\ast$}{*}p\+Tx\+Buffer, uint32\+\_\+t Len)
+\begin{DoxyCompactList}\small\item\em Data Send and Receive APIs with non-\/blocking (interrupt mode) \end{DoxyCompactList}\item 
+\Hypertarget{stm32f429xx__uart__driver_8h_a0e122d8c928f13b7f60a02231e24d02a}\label{stm32f429xx__uart__driver_8h_a0e122d8c928f13b7f60a02231e24d02a} 
+uint8\+\_\+t {\bfseries UART\+\_\+\+Receive\+Data\+IT} (\mbox{\hyperlink{structhandle}{UART\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+UARTHandle, uint8\+\_\+t \texorpdfstring{$\ast$}{*}p\+Rx\+Buffer, uint32\+\_\+t Len)
+\item 
+\Hypertarget{stm32f429xx__uart__driver_8h_a3733f080a5e363008a81ea8296c9d025}\label{stm32f429xx__uart__driver_8h_a3733f080a5e363008a81ea8296c9d025} 
+void {\bfseries UART\+\_\+\+IRQInterrupt\+Config} (uint8\+\_\+t IRQNumber, uint8\+\_\+t Enor\+Di)
+\begin{DoxyCompactList}\small\item\em IRQ Configuration and ISR handling functions. \end{DoxyCompactList}\item 
+\Hypertarget{stm32f429xx__uart__driver_8h_a446152b7b722caab10c7d728e4583d8a}\label{stm32f429xx__uart__driver_8h_a446152b7b722caab10c7d728e4583d8a} 
+void {\bfseries UART\+\_\+\+IRQPriority\+Config} (uint8\+\_\+t IRQNumber, uint32\+\_\+t IRQPriority)
+\item 
+\Hypertarget{stm32f429xx__uart__driver_8h_a7ae9e8ba3a758488db400b7a9e6b2781}\label{stm32f429xx__uart__driver_8h_a7ae9e8ba3a758488db400b7a9e6b2781} 
+void {\bfseries UART\+\_\+\+IRQHandling} (\mbox{\hyperlink{structhandle}{UART\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+Handle)
+\item 
+\Hypertarget{stm32f429xx__uart__driver_8h_a5584df7f62ea66c28e73fc617cea115d}\label{stm32f429xx__uart__driver_8h_a5584df7f62ea66c28e73fc617cea115d} 
+void {\bfseries UART\+\_\+\+Peripheral\+Control} (UART\+\_\+\+Reg\+Def\+\_\+t \texorpdfstring{$\ast$}{*}p\+UARTx, uint8\+\_\+t En\+Or\+Di)
+\begin{DoxyCompactList}\small\item\em Other Peripheral Control APIs. \end{DoxyCompactList}\item 
+\Hypertarget{stm32f429xx__uart__driver_8h_a63f2fc3cb4071d0cddf1c218f35151e8}\label{stm32f429xx__uart__driver_8h_a63f2fc3cb4071d0cddf1c218f35151e8} 
+uint8\+\_\+t {\bfseries UART\+\_\+\+Get\+Flag\+Status} (UART\+\_\+\+Reg\+Def\+\_\+t \texorpdfstring{$\ast$}{*}p\+UARTx, uint32\+\_\+t Flag\+Name)
+\item 
+\Hypertarget{stm32f429xx__uart__driver_8h_a0872ab42ad31d0a23dd56c5d8eac60ea}\label{stm32f429xx__uart__driver_8h_a0872ab42ad31d0a23dd56c5d8eac60ea} 
+void {\bfseries UART\+\_\+\+Clear\+Flag} (UART\+\_\+\+Reg\+Def\+\_\+t \texorpdfstring{$\ast$}{*}p\+UARTx, uint16\+\_\+t Status\+Flag\+Name)
+\item 
+\Hypertarget{stm32f429xx__uart__driver_8h_a91bcd57e2937f97eb6912e35b9d3fb92}\label{stm32f429xx__uart__driver_8h_a91bcd57e2937f97eb6912e35b9d3fb92} 
+void {\bfseries UART\+\_\+\+Application\+Event\+Callback} (\mbox{\hyperlink{structhandle}{UART\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+UARTHandle, uint8\+\_\+t App\+Ev)
 \end{DoxyCompactItemize}
 
 
@@ -42,3 +133,114 @@ Written and tested on STM32\+F429 Discovery board
 \begin{DoxyAuthor}{Author}
 Soumyadeep Bose 
 \end{DoxyAuthor}
+
+
+Definition in file \mbox{\hyperlink{stm32f429xx__uart__driver_8h_source}{stm32f429xx\+\_\+uart\+\_\+driver.\+h}}.
+
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{stm32f429xx__uart__driver_8h_af4b25fa3755eccfd76de059ccb7320b9}\label{stm32f429xx__uart__driver_8h_af4b25fa3755eccfd76de059ccb7320b9} 
+\index{stm32f429xx\_uart\_driver.h@{stm32f429xx\_uart\_driver.h}!GetPCLKFrequency@{GetPCLKFrequency}}
+\index{GetPCLKFrequency@{GetPCLKFrequency}!stm32f429xx\_uart\_driver.h@{stm32f429xx\_uart\_driver.h}}
+\doxysubsubsection{\texorpdfstring{GetPCLKFrequency()}{GetPCLKFrequency()}}
+{\footnotesize\ttfamily uint32\+\_\+t Get\+PCLKFrequency (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structhandle}{UART\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{h\+UARTHandle }\end{DoxyParamCaption})}
+
+
+
+Return the clock frequency of PCLK. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Pointer} & to instance of class UART\+\_\+\+Handle\+\_\+t \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em Clock} & frequency of PCLK \\
+\hline
+\end{DoxyRetVals}
+\texorpdfstring{$<$}{<} First find the clock source
+
+\texorpdfstring{$<$}{<} Second, find the prescaler setting
+
+\texorpdfstring{$<$}{<} Third, calculate and return the PCLK frequency
+
+\texorpdfstring{$<$}{<} This function is not yet developed for PLL
+
+Definition at line \mbox{\hyperlink{stm32f429xx__uart__driver_8c_source_l00010}{10}} of file \mbox{\hyperlink{stm32f429xx__uart__driver_8c_source}{stm32f429xx\+\_\+uart\+\_\+driver.\+c}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=318pt]{stm32f429xx__uart__driver_8h_af4b25fa3755eccfd76de059ccb7320b9_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{stm32f429xx__uart__driver_8h_a3a451ee366993c27d1bd90ed3c504d5e}\label{stm32f429xx__uart__driver_8h_a3a451ee366993c27d1bd90ed3c504d5e} 
+\index{stm32f429xx\_uart\_driver.h@{stm32f429xx\_uart\_driver.h}!UART\_DeInit@{UART\_DeInit}}
+\index{UART\_DeInit@{UART\_DeInit}!stm32f429xx\_uart\_driver.h@{stm32f429xx\_uart\_driver.h}}
+\doxysubsubsection{\texorpdfstring{UART\_DeInit()}{UART\_DeInit()}}
+{\footnotesize\ttfamily void UART\+\_\+\+De\+Init (\begin{DoxyParamCaption}\item[{UART\+\_\+\+Reg\+Def\+\_\+t \texorpdfstring{$\ast$}{*}}]{p\+UARTx }\end{DoxyParamCaption})}
+
+
+
+Function to de-\/initialize the UART peripheral. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em Pointer} & to the UART peripheral register addresses \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+\Hypertarget{stm32f429xx__uart__driver_8h_a34264420c4783dcebbf430c2ff707763}\label{stm32f429xx__uart__driver_8h_a34264420c4783dcebbf430c2ff707763} 
+\index{stm32f429xx\_uart\_driver.h@{stm32f429xx\_uart\_driver.h}!UART\_Init@{UART\_Init}}
+\index{UART\_Init@{UART\_Init}!stm32f429xx\_uart\_driver.h@{stm32f429xx\_uart\_driver.h}}
+\doxysubsubsection{\texorpdfstring{UART\_Init()}{UART\_Init()}}
+{\footnotesize\ttfamily void UART\+\_\+\+Init (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structhandle}{UART\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{p\+Uart\+Handle }\end{DoxyParamCaption})}
+
+
+
+Function to initialize the UART peripheral. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em Pointer} & to the UART handle instance \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}
+
+
+Definition at line \mbox{\hyperlink{stm32f429xx__uart__driver_8c_source_l00033}{33}} of file \mbox{\hyperlink{stm32f429xx__uart__driver_8c_source}{stm32f429xx\+\_\+uart\+\_\+driver.\+c}}.
+
+\Hypertarget{stm32f429xx__uart__driver_8h_aafce55a7c185acf6b41209b9bd4a7853}\label{stm32f429xx__uart__driver_8h_aafce55a7c185acf6b41209b9bd4a7853} 
+\index{stm32f429xx\_uart\_driver.h@{stm32f429xx\_uart\_driver.h}!UART\_PeriClockControl@{UART\_PeriClockControl}}
+\index{UART\_PeriClockControl@{UART\_PeriClockControl}!stm32f429xx\_uart\_driver.h@{stm32f429xx\_uart\_driver.h}}
+\doxysubsubsection{\texorpdfstring{UART\_PeriClockControl()}{UART\_PeriClockControl()}}
+{\footnotesize\ttfamily void UART\+\_\+\+Peri\+Clock\+Control (\begin{DoxyParamCaption}\item[{UART\+\_\+\+Reg\+Def\+\_\+t \texorpdfstring{$\ast$}{*}}]{p\+UARTx,  }\item[{uint8\+\_\+t}]{Enor\+Di }\end{DoxyParamCaption})}
+
+
+
+Peripheral Clock setup. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em Pointer} & to UARTx peripheral register addresses \\
+\hline
+\mbox{\texttt{ in}}  & {\em Enable} & or Disable selection \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em None} & \\
+\hline
+\end{DoxyRetVals}

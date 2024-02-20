@@ -5,9 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>UART Driver: Inc/stm32f429xx_uart_driver.h File Reference</title>
+<title>My Project: Inc/stm32f429xx_uart_driver.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript">var page_layout=1;</script>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <script type="text/javascript" src="clipboard.js"></script>
@@ -27,18 +26,16 @@
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-<div id="side-nav" class="ui-resizable side-nav-resizable"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">UART Driver<span id="projectnumber">&#160;0.1</span>
+   <div id="projectname">My Project
    </div>
   </td>
- </tr>
-   <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
           <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
           <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
@@ -49,7 +46,8 @@
             <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
           </span>
         </div>
-</td></tr>
+</td>
+ </tr>
  </tbody>
 </table>
 </div>
@@ -61,6 +59,7 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
     <div id="nav-tree-contents">
       <div id="nav-sync" class="sync"></div>
@@ -99,7 +98,10 @@ $(function(){initNavTree('stm32f429xx__uart__driver_8h.html',''); initResizable(
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">stm32f429xx_uart_driver.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -126,9 +128,11 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="stm32f429xx__uart__driver_8h__dep__incl.png" border="0" usemap="#a_inc_2stm32f429xx__uart__driver_8hdep" alt=""/></div>
 <map name="a_inc_2stm32f429xx__uart__driver_8hdep" id="a_inc_2stm32f429xx__uart__driver_8hdep">
-<area shape="rect" title="Prototype of peripheral driver API functions for the UART peripheral of STM32F429xx MCU." alt="" coords="5,5,151,48"/>
-<area shape="rect" href="main_8c.html" title=": Main program body" alt="" coords="36,96,120,123"/>
-<area shape="poly" title=" " alt="" coords="81,64,81,95,75,95,75,64"/>
+<area shape="rect" title="Prototype of peripheral driver API functions for the UART peripheral of STM32F429xx MCU." alt="" coords="44,5,190,48"/>
+<area shape="rect" href="main_8c.html" title=": Main program body" alt="" coords="5,104,90,131"/>
+<area shape="poly" title=" " alt="" coords="93,62,59,105,55,102,89,59"/>
+<area shape="rect" href="stm32f429xx__uart__driver_8c.html" title="Driver source code for UART peripheral driver of STM32F429xx MCU." alt="" coords="113,96,262,139"/>
+<area shape="poly" title=" " alt="" coords="145,59,173,94,169,97,141,62"/>
 </map>
 </div>
 </div>
@@ -136,18 +140,275 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_u_a_r_t___pin_config.html">UART_PinConfig</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpinconfig.html">pinconfig</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_u_a_r_t___interrupt_config.html">UART_InterruptConfig</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structinterrupts.html">interrupts</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_u_a_r_t___handle.html">UART_Handle</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structhandle.html">handle</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:ga65ac72e2f34d43ff6cb4c4db529bdeb1" id="r_ga65ac72e2f34d43ff6cb4c4db529bdeb1"><td class="memItemLeft" align="right" valign="top">
+typedef enum baud&#160;</td><td class="memItemRight" valign="bottom"><b>BaudRate_t</b></td></tr>
+<tr class="separator:ga65ac72e2f34d43ff6cb4c4db529bdeb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac90a722b450c9855c94e2a7fbff29dbd" id="r_gac90a722b450c9855c94e2a7fbff29dbd"><td class="memItemLeft" align="right" valign="top">
+typedef struct <a class="el" href="structpinconfig.html">pinconfig</a>&#160;</td><td class="memItemRight" valign="bottom"><b>UART_PinConfig_t</b></td></tr>
+<tr class="separator:gac90a722b450c9855c94e2a7fbff29dbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga63f55a2aec7dfcb02f765908a1e45da2" id="r_ga63f55a2aec7dfcb02f765908a1e45da2"><td class="memItemLeft" align="right" valign="top">
+typedef struct <a class="el" href="structinterrupts.html">interrupts</a>&#160;</td><td class="memItemRight" valign="bottom"><b>UART_InterruptConfig_t</b></td></tr>
+<tr class="separator:ga63f55a2aec7dfcb02f765908a1e45da2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0d87a3fb3e26cb5075c0f749d2b6fa0a" id="r_ga0d87a3fb3e26cb5075c0f749d2b6fa0a"><td class="memItemLeft" align="right" valign="top">
+typedef struct <a class="el" href="structhandle.html">handle</a>&#160;</td><td class="memItemRight" valign="bottom"><b>UART_Handle_t</b></td></tr>
+<tr class="separator:ga0d87a3fb3e26cb5075c0f749d2b6fa0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabe3caa9a6a7a254338aed8de66ecb2f7" id="r_gabe3caa9a6a7a254338aed8de66ecb2f7"><td class="memItemLeft" align="right" valign="top">
+typedef enum flags&#160;</td><td class="memItemRight" valign="bottom"><b>UART_Flag_t</b></td></tr>
+<tr class="separator:gabe3caa9a6a7a254338aed8de66ecb2f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ga76432121357072730f76c1bf26df93ec" id="r_ga76432121357072730f76c1bf26df93ec"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><b>baud</b> { <br />
+&#160;&#160;<b>BAUD_1200</b> = 1200
+, <b>BAUD_2400</b> = 2400
+, <b>BAUD_9600</b> = 9600
+, <b>BAUD_19200</b> = 19200
+, <br />
+&#160;&#160;<b>BAUD_38400</b> = 38400
+, <b>BAUD_57600</b> = 57600
+, <b>BAUD_115200</b> = 115200
+, <b>BAUD_230400</b> = 230400
+, <br />
+&#160;&#160;<b>BAUD_460800</b> = 460800
+, <b>BAUD_921600</b> = 921600
+, <b>BAUD_2M</b> = 2000000
+, <b>BAUD_3M</b> = 3000000
+<br />
+ }</td></tr>
+<tr class="separator:ga76432121357072730f76c1bf26df93ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab6b306ef981f5e21bb41ea2c2dbe8cd9" id="r_gab6b306ef981f5e21bb41ea2c2dbe8cd9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><b>flags</b> { <br />
+&#160;&#160;<b>PARITY_ERROR</b> = 0
+, <b>FRAME_ERROR</b>
+, <b>NOISE_DETECTION</b>
+, <b>OVERRUN_ERROR</b>
+, <br />
+&#160;&#160;<b>IDLE_DETECTION</b>
+, <b>RX_DATA_REG_NOT_EMPTY</b>
+, <b>TX_DATA_COMPLETE</b>
+, <b>TX_DATA_REG_EMPTY</b>
+, <br />
+&#160;&#160;<b>LIN_BREAK_DETECTION</b>
+, <b>CTS_LINE_CHANGE</b>
+<br />
+ }</td></tr>
+<tr class="separator:gab6b306ef981f5e21bb41ea2c2dbe8cd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:af4b25fa3755eccfd76de059ccb7320b9" id="r_af4b25fa3755eccfd76de059ccb7320b9"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4b25fa3755eccfd76de059ccb7320b9">GetPCLKFrequency</a> (<a class="el" href="structhandle.html">UART_Handle_t</a> *hUARTHandle)</td></tr>
+<tr class="memdesc:af4b25fa3755eccfd76de059ccb7320b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the clock frequency of PCLK.  <br /></td></tr>
+<tr class="separator:af4b25fa3755eccfd76de059ccb7320b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafce55a7c185acf6b41209b9bd4a7853" id="r_aafce55a7c185acf6b41209b9bd4a7853"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafce55a7c185acf6b41209b9bd4a7853">UART_PeriClockControl</a> (UART_RegDef_t *pUARTx, uint8_t EnorDi)</td></tr>
+<tr class="memdesc:aafce55a7c185acf6b41209b9bd4a7853"><td class="mdescLeft">&#160;</td><td class="mdescRight">Peripheral Clock setup.  <br /></td></tr>
+<tr class="separator:aafce55a7c185acf6b41209b9bd4a7853"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34264420c4783dcebbf430c2ff707763" id="r_a34264420c4783dcebbf430c2ff707763"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34264420c4783dcebbf430c2ff707763">UART_Init</a> (<a class="el" href="structhandle.html">UART_Handle_t</a> *pUartHandle)</td></tr>
+<tr class="memdesc:a34264420c4783dcebbf430c2ff707763"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to initialize the UART peripheral.  <br /></td></tr>
+<tr class="separator:a34264420c4783dcebbf430c2ff707763"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a451ee366993c27d1bd90ed3c504d5e" id="r_a3a451ee366993c27d1bd90ed3c504d5e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a451ee366993c27d1bd90ed3c504d5e">UART_DeInit</a> (UART_RegDef_t *pUARTx)</td></tr>
+<tr class="memdesc:a3a451ee366993c27d1bd90ed3c504d5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to de-initialize the UART peripheral.  <br /></td></tr>
+<tr class="separator:a3a451ee366993c27d1bd90ed3c504d5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27a49537d6b1458f218172c517fe0100" id="r_a27a49537d6b1458f218172c517fe0100"><td class="memItemLeft" align="right" valign="top"><a id="a27a49537d6b1458f218172c517fe0100" name="a27a49537d6b1458f218172c517fe0100"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>UART_SendData</b> (UART_RegDef_t *pUARTx, uint8_t *pTxBuffer, uint32_t Len)</td></tr>
+<tr class="memdesc:a27a49537d6b1458f218172c517fe0100"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data Send and Receive APIs with blocking (polling mode) <br /></td></tr>
+<tr class="separator:a27a49537d6b1458f218172c517fe0100"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb2250576421ad7b7d5386646deb9c55" id="r_aeb2250576421ad7b7d5386646deb9c55"><td class="memItemLeft" align="right" valign="top"><a id="aeb2250576421ad7b7d5386646deb9c55" name="aeb2250576421ad7b7d5386646deb9c55"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>UART_ReceiveData</b> (UART_RegDef_t *pUARTx, uint8_t *pRxBuffer, uint32_t Len)</td></tr>
+<tr class="separator:aeb2250576421ad7b7d5386646deb9c55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05b2405b827bf7c14e8643d704363b0c" id="r_a05b2405b827bf7c14e8643d704363b0c"><td class="memItemLeft" align="right" valign="top"><a id="a05b2405b827bf7c14e8643d704363b0c" name="a05b2405b827bf7c14e8643d704363b0c"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>UART_SendDataIT</b> (<a class="el" href="structhandle.html">UART_Handle_t</a> *pUARTHandle, uint8_t *pTxBuffer, uint32_t Len)</td></tr>
+<tr class="memdesc:a05b2405b827bf7c14e8643d704363b0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data Send and Receive APIs with non-blocking (interrupt mode) <br /></td></tr>
+<tr class="separator:a05b2405b827bf7c14e8643d704363b0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e122d8c928f13b7f60a02231e24d02a" id="r_a0e122d8c928f13b7f60a02231e24d02a"><td class="memItemLeft" align="right" valign="top"><a id="a0e122d8c928f13b7f60a02231e24d02a" name="a0e122d8c928f13b7f60a02231e24d02a"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>UART_ReceiveDataIT</b> (<a class="el" href="structhandle.html">UART_Handle_t</a> *pUARTHandle, uint8_t *pRxBuffer, uint32_t Len)</td></tr>
+<tr class="separator:a0e122d8c928f13b7f60a02231e24d02a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3733f080a5e363008a81ea8296c9d025" id="r_a3733f080a5e363008a81ea8296c9d025"><td class="memItemLeft" align="right" valign="top"><a id="a3733f080a5e363008a81ea8296c9d025" name="a3733f080a5e363008a81ea8296c9d025"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>UART_IRQInterruptConfig</b> (uint8_t IRQNumber, uint8_t EnorDi)</td></tr>
+<tr class="memdesc:a3733f080a5e363008a81ea8296c9d025"><td class="mdescLeft">&#160;</td><td class="mdescRight">IRQ Configuration and ISR handling functions. <br /></td></tr>
+<tr class="separator:a3733f080a5e363008a81ea8296c9d025"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a446152b7b722caab10c7d728e4583d8a" id="r_a446152b7b722caab10c7d728e4583d8a"><td class="memItemLeft" align="right" valign="top"><a id="a446152b7b722caab10c7d728e4583d8a" name="a446152b7b722caab10c7d728e4583d8a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>UART_IRQPriorityConfig</b> (uint8_t IRQNumber, uint32_t IRQPriority)</td></tr>
+<tr class="separator:a446152b7b722caab10c7d728e4583d8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ae9e8ba3a758488db400b7a9e6b2781" id="r_a7ae9e8ba3a758488db400b7a9e6b2781"><td class="memItemLeft" align="right" valign="top"><a id="a7ae9e8ba3a758488db400b7a9e6b2781" name="a7ae9e8ba3a758488db400b7a9e6b2781"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>UART_IRQHandling</b> (<a class="el" href="structhandle.html">UART_Handle_t</a> *pHandle)</td></tr>
+<tr class="separator:a7ae9e8ba3a758488db400b7a9e6b2781"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5584df7f62ea66c28e73fc617cea115d" id="r_a5584df7f62ea66c28e73fc617cea115d"><td class="memItemLeft" align="right" valign="top"><a id="a5584df7f62ea66c28e73fc617cea115d" name="a5584df7f62ea66c28e73fc617cea115d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>UART_PeripheralControl</b> (UART_RegDef_t *pUARTx, uint8_t EnOrDi)</td></tr>
+<tr class="memdesc:a5584df7f62ea66c28e73fc617cea115d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Other Peripheral Control APIs. <br /></td></tr>
+<tr class="separator:a5584df7f62ea66c28e73fc617cea115d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63f2fc3cb4071d0cddf1c218f35151e8" id="r_a63f2fc3cb4071d0cddf1c218f35151e8"><td class="memItemLeft" align="right" valign="top"><a id="a63f2fc3cb4071d0cddf1c218f35151e8" name="a63f2fc3cb4071d0cddf1c218f35151e8"></a>
+uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>UART_GetFlagStatus</b> (UART_RegDef_t *pUARTx, uint32_t FlagName)</td></tr>
+<tr class="separator:a63f2fc3cb4071d0cddf1c218f35151e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0872ab42ad31d0a23dd56c5d8eac60ea" id="r_a0872ab42ad31d0a23dd56c5d8eac60ea"><td class="memItemLeft" align="right" valign="top"><a id="a0872ab42ad31d0a23dd56c5d8eac60ea" name="a0872ab42ad31d0a23dd56c5d8eac60ea"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>UART_ClearFlag</b> (UART_RegDef_t *pUARTx, uint16_t StatusFlagName)</td></tr>
+<tr class="separator:a0872ab42ad31d0a23dd56c5d8eac60ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91bcd57e2937f97eb6912e35b9d3fb92" id="r_a91bcd57e2937f97eb6912e35b9d3fb92"><td class="memItemLeft" align="right" valign="top"><a id="a91bcd57e2937f97eb6912e35b9d3fb92" name="a91bcd57e2937f97eb6912e35b9d3fb92"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>UART_ApplicationEventCallback</b> (<a class="el" href="structhandle.html">UART_Handle_t</a> *pUARTHandle, uint8_t AppEv)</td></tr>
+<tr class="separator:a91bcd57e2937f97eb6912e35b9d3fb92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Prototype of peripheral driver API functions for the UART peripheral of STM32F429xx MCU. </p>
 <dl class="section note"><dt>Note</dt><dd>Written and tested on STM32F429 Discovery board </dd></dl>
 <dl class="section author"><dt>Author</dt><dd>Soumyadeep Bose </dd></dl>
-</div></div><!-- contents -->
+
+<p class="definition">Definition in file <a class="el" href="stm32f429xx__uart__driver_8h_source.html">stm32f429xx_uart_driver.h</a>.</p>
+</div><h2 class="groupheader">Function Documentation</h2>
+<a id="af4b25fa3755eccfd76de059ccb7320b9" name="af4b25fa3755eccfd76de059ccb7320b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4b25fa3755eccfd76de059ccb7320b9">&#9670;&#160;</a></span>GetPCLKFrequency()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t GetPCLKFrequency </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structhandle.html">UART_Handle_t</a> *</td>          <td class="paramname"><span class="paramname"><em>hUARTHandle</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the clock frequency of PCLK. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Pointer</td><td>to instance of class UART_Handle_t </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">Clock</td><td>frequency of PCLK </td></tr>
+  </table>
+  </dd>
+</dl>
+<p>&lt; First find the clock source</p>
+<p>&lt; Second, find the prescaler setting</p>
+<p>&lt; Third, calculate and return the PCLK frequency</p>
+<p>&lt; This function is not yet developed for PLL</p>
+
+<p class="definition">Definition at line <a class="el" href="stm32f429xx__uart__driver_8c_source.html#l00010">10</a> of file <a class="el" href="stm32f429xx__uart__driver_8c_source.html">stm32f429xx_uart_driver.c</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="stm32f429xx__uart__driver_8h_af4b25fa3755eccfd76de059ccb7320b9_cgraph.png" border="0" usemap="#astm32f429xx__uart__driver_8h_af4b25fa3755eccfd76de059ccb7320b9_cgraph" alt=""/></div>
+<map name="astm32f429xx__uart__driver_8h_af4b25fa3755eccfd76de059ccb7320b9_cgraph" id="astm32f429xx__uart__driver_8h_af4b25fa3755eccfd76de059ccb7320b9_cgraph">
+<area shape="rect" title="Return the clock frequency of PCLK." alt="" coords="5,5,143,32"/>
+<area shape="rect" href="group___functions.html#ga4e008a71d3368a20d7322cf1d7572f6c" title=" " alt="" coords="191,5,322,32"/>
+<area shape="poly" title=" " alt="" coords="143,16,176,16,176,21,143,21"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a3a451ee366993c27d1bd90ed3c504d5e" name="a3a451ee366993c27d1bd90ed3c504d5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a451ee366993c27d1bd90ed3c504d5e">&#9670;&#160;</a></span>UART_DeInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UART_DeInit </td>
+          <td>(</td>
+          <td class="paramtype">UART_RegDef_t *</td>          <td class="paramname"><span class="paramname"><em>pUARTx</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function to de-initialize the UART peripheral. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">Pointer</td><td>to the UART peripheral register addresses </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a34264420c4783dcebbf430c2ff707763" name="a34264420c4783dcebbf430c2ff707763"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34264420c4783dcebbf430c2ff707763">&#9670;&#160;</a></span>UART_Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UART_Init </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structhandle.html">UART_Handle_t</a> *</td>          <td class="paramname"><span class="paramname"><em>pUartHandle</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function to initialize the UART peripheral. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">Pointer</td><td>to the UART handle instance </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="stm32f429xx__uart__driver_8c_source.html#l00033">33</a> of file <a class="el" href="stm32f429xx__uart__driver_8c_source.html">stm32f429xx_uart_driver.c</a>.</p>
+
+</div>
+</div>
+<a id="aafce55a7c185acf6b41209b9bd4a7853" name="aafce55a7c185acf6b41209b9bd4a7853"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafce55a7c185acf6b41209b9bd4a7853">&#9670;&#160;</a></span>UART_PeriClockControl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UART_PeriClockControl </td>
+          <td>(</td>
+          <td class="paramtype">UART_RegDef_t *</td>          <td class="paramname"><span class="paramname"><em>pUARTx</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>EnorDi</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Peripheral Clock setup. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">Pointer</td><td>to UARTx peripheral register addresses </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Enable</td><td>or Disable selection </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">None</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

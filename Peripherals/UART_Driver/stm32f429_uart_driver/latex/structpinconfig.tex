@@ -1,0 +1,158 @@
+\doxysection{pinconfig Struct Reference}
+\hypertarget{structpinconfig}{}\label{structpinconfig}\index{pinconfig@{pinconfig}}
+
+
+Collaboration diagram for pinconfig\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=155pt]{structpinconfig__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+uint8\+\_\+t \mbox{\hyperlink{structpinconfig_a55189f080ffb792d060180852a249034}{mode}}\+:1
+\begin{DoxyCompactList}\small\item\em UART mode\+: 0 -\/ Receiver, 1 -\/ Transmitter. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{structpinconfig_acdda60b209314a14dfaa2d39a4205423}{stop\+\_\+bits}}\+:2
+\begin{DoxyCompactList}\small\item\em UART Number of stop bits\+: 0 -\/ 1 bit, 1 -\/ 0.\+5 bits, 2 -\/ 2 stop bits, 3 -\/ 1.\+5 stop bits. \end{DoxyCompactList}\item 
+Baud\+Rate\+\_\+t \mbox{\hyperlink{structpinconfig_afaea35c3de9c41d31306e414e076a506}{baud\+\_\+rate}}\+:24
+\begin{DoxyCompactList}\small\item\em UART baud rate\+: min 1200, max 3000000. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{structpinconfig_a9e1fc467339de5f4b00486b8bc36a7ce}{word\+\_\+length}}\+:1
+\begin{DoxyCompactList}\small\item\em UART Word length\+: 0 -\/ 8-\/bit message, 1 -\/ 9-\/bit message. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{structpinconfig_a88d3beb06d26380c36a4ee79f81985c2}{parity\+\_\+enable}}\+:1
+\begin{DoxyCompactList}\small\item\em UART choice to enable parity. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{structpinconfig_a16399f4955c1e6865f12ba87dbc80d10}{parity\+\_\+choice}}\+:1
+\begin{DoxyCompactList}\small\item\em UART choice of parity\+: 0 -\/ even, 1 -\/ odd. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{structpinconfig_a750732c8e2c69134dc7acb6a0a397df5}{oversampling}}\+:1
+\begin{DoxyCompactList}\small\item\em UART choice of oversampling\+: 0 -\/ 16-\/bit, 1 -\/ 8-\/bit. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{structpinconfig_a40f78614da14fa491269cb5ff7dbdb8a}{hw\+\_\+control}}\+:1
+\begin{DoxyCompactList}\small\item\em UART Hardware flow control\+: 0 -\/ no hw control, 1 -\/ CTS and RTS enabled. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line \mbox{\hyperlink{stm32f429xx__uart__driver_8h_source_l00046}{46}} of file \mbox{\hyperlink{stm32f429xx__uart__driver_8h_source}{stm32f429xx\+\_\+uart\+\_\+driver.\+h}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{structpinconfig_afaea35c3de9c41d31306e414e076a506}\label{structpinconfig_afaea35c3de9c41d31306e414e076a506} 
+\index{pinconfig@{pinconfig}!baud\_rate@{baud\_rate}}
+\index{baud\_rate@{baud\_rate}!pinconfig@{pinconfig}}
+\doxysubsubsection{\texorpdfstring{baud\_rate}{baud\_rate}}
+{\footnotesize\ttfamily Baud\+Rate\+\_\+t pinconfig\+::baud\+\_\+rate}
+
+
+
+UART baud rate\+: min 1200, max 3000000. 
+
+
+
+Definition at line \mbox{\hyperlink{stm32f429xx__uart__driver_8h_source_l00049}{49}} of file \mbox{\hyperlink{stm32f429xx__uart__driver_8h_source}{stm32f429xx\+\_\+uart\+\_\+driver.\+h}}.
+
+\Hypertarget{structpinconfig_a40f78614da14fa491269cb5ff7dbdb8a}\label{structpinconfig_a40f78614da14fa491269cb5ff7dbdb8a} 
+\index{pinconfig@{pinconfig}!hw\_control@{hw\_control}}
+\index{hw\_control@{hw\_control}!pinconfig@{pinconfig}}
+\doxysubsubsection{\texorpdfstring{hw\_control}{hw\_control}}
+{\footnotesize\ttfamily uint8\+\_\+t pinconfig\+::hw\+\_\+control}
+
+
+
+UART Hardware flow control\+: 0 -\/ no hw control, 1 -\/ CTS and RTS enabled. 
+
+
+
+Definition at line \mbox{\hyperlink{stm32f429xx__uart__driver_8h_source_l00054}{54}} of file \mbox{\hyperlink{stm32f429xx__uart__driver_8h_source}{stm32f429xx\+\_\+uart\+\_\+driver.\+h}}.
+
+\Hypertarget{structpinconfig_a55189f080ffb792d060180852a249034}\label{structpinconfig_a55189f080ffb792d060180852a249034} 
+\index{pinconfig@{pinconfig}!mode@{mode}}
+\index{mode@{mode}!pinconfig@{pinconfig}}
+\doxysubsubsection{\texorpdfstring{mode}{mode}}
+{\footnotesize\ttfamily uint8\+\_\+t pinconfig\+::mode}
+
+
+
+UART mode\+: 0 -\/ Receiver, 1 -\/ Transmitter. 
+
+
+
+Definition at line \mbox{\hyperlink{stm32f429xx__uart__driver_8h_source_l00047}{47}} of file \mbox{\hyperlink{stm32f429xx__uart__driver_8h_source}{stm32f429xx\+\_\+uart\+\_\+driver.\+h}}.
+
+\Hypertarget{structpinconfig_a750732c8e2c69134dc7acb6a0a397df5}\label{structpinconfig_a750732c8e2c69134dc7acb6a0a397df5} 
+\index{pinconfig@{pinconfig}!oversampling@{oversampling}}
+\index{oversampling@{oversampling}!pinconfig@{pinconfig}}
+\doxysubsubsection{\texorpdfstring{oversampling}{oversampling}}
+{\footnotesize\ttfamily uint8\+\_\+t pinconfig\+::oversampling}
+
+
+
+UART choice of oversampling\+: 0 -\/ 16-\/bit, 1 -\/ 8-\/bit. 
+
+
+
+Definition at line \mbox{\hyperlink{stm32f429xx__uart__driver_8h_source_l00053}{53}} of file \mbox{\hyperlink{stm32f429xx__uart__driver_8h_source}{stm32f429xx\+\_\+uart\+\_\+driver.\+h}}.
+
+\Hypertarget{structpinconfig_a16399f4955c1e6865f12ba87dbc80d10}\label{structpinconfig_a16399f4955c1e6865f12ba87dbc80d10} 
+\index{pinconfig@{pinconfig}!parity\_choice@{parity\_choice}}
+\index{parity\_choice@{parity\_choice}!pinconfig@{pinconfig}}
+\doxysubsubsection{\texorpdfstring{parity\_choice}{parity\_choice}}
+{\footnotesize\ttfamily uint8\+\_\+t pinconfig\+::parity\+\_\+choice}
+
+
+
+UART choice of parity\+: 0 -\/ even, 1 -\/ odd. 
+
+
+
+Definition at line \mbox{\hyperlink{stm32f429xx__uart__driver_8h_source_l00052}{52}} of file \mbox{\hyperlink{stm32f429xx__uart__driver_8h_source}{stm32f429xx\+\_\+uart\+\_\+driver.\+h}}.
+
+\Hypertarget{structpinconfig_a88d3beb06d26380c36a4ee79f81985c2}\label{structpinconfig_a88d3beb06d26380c36a4ee79f81985c2} 
+\index{pinconfig@{pinconfig}!parity\_enable@{parity\_enable}}
+\index{parity\_enable@{parity\_enable}!pinconfig@{pinconfig}}
+\doxysubsubsection{\texorpdfstring{parity\_enable}{parity\_enable}}
+{\footnotesize\ttfamily uint8\+\_\+t pinconfig\+::parity\+\_\+enable}
+
+
+
+UART choice to enable parity. 
+
+
+
+Definition at line \mbox{\hyperlink{stm32f429xx__uart__driver_8h_source_l00051}{51}} of file \mbox{\hyperlink{stm32f429xx__uart__driver_8h_source}{stm32f429xx\+\_\+uart\+\_\+driver.\+h}}.
+
+\Hypertarget{structpinconfig_acdda60b209314a14dfaa2d39a4205423}\label{structpinconfig_acdda60b209314a14dfaa2d39a4205423} 
+\index{pinconfig@{pinconfig}!stop\_bits@{stop\_bits}}
+\index{stop\_bits@{stop\_bits}!pinconfig@{pinconfig}}
+\doxysubsubsection{\texorpdfstring{stop\_bits}{stop\_bits}}
+{\footnotesize\ttfamily uint8\+\_\+t pinconfig\+::stop\+\_\+bits}
+
+
+
+UART Number of stop bits\+: 0 -\/ 1 bit, 1 -\/ 0.\+5 bits, 2 -\/ 2 stop bits, 3 -\/ 1.\+5 stop bits. 
+
+
+
+Definition at line \mbox{\hyperlink{stm32f429xx__uart__driver_8h_source_l00048}{48}} of file \mbox{\hyperlink{stm32f429xx__uart__driver_8h_source}{stm32f429xx\+\_\+uart\+\_\+driver.\+h}}.
+
+\Hypertarget{structpinconfig_a9e1fc467339de5f4b00486b8bc36a7ce}\label{structpinconfig_a9e1fc467339de5f4b00486b8bc36a7ce} 
+\index{pinconfig@{pinconfig}!word\_length@{word\_length}}
+\index{word\_length@{word\_length}!pinconfig@{pinconfig}}
+\doxysubsubsection{\texorpdfstring{word\_length}{word\_length}}
+{\footnotesize\ttfamily uint8\+\_\+t pinconfig\+::word\+\_\+length}
+
+
+
+UART Word length\+: 0 -\/ 8-\/bit message, 1 -\/ 9-\/bit message. 
+
+
+
+Definition at line \mbox{\hyperlink{stm32f429xx__uart__driver_8h_source_l00050}{50}} of file \mbox{\hyperlink{stm32f429xx__uart__driver_8h_source}{stm32f429xx\+\_\+uart\+\_\+driver.\+h}}.
+
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Inc/\mbox{\hyperlink{stm32f429xx__uart__driver_8h}{stm32f429xx\+\_\+uart\+\_\+driver.\+h}}\end{DoxyCompactItemize}

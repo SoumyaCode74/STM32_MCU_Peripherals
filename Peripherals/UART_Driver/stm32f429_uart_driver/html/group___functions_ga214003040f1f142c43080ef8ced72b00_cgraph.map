@@ -1,0 +1,7 @@
+<map id="GPIO_Init" name="GPIO_Init">
+<area shape="rect" id="Node000001" title="Initialize the I2C peripheral module based on the SCLK frequency, Device address (if it is a slave),..." alt="" coords="5,31,83,57"/>
+<area shape="rect" id="Node000002" href="$group___functions.html#ga5418297e27ceacb605473edddb261792" title="Transmit the data byte to the slave." alt="" coords="131,5,277,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,35,115,30,116,35,83,41"/>
+<area shape="rect" id="Node000003" href="$group___functions.html#ga6a838efaa43c0fd4eabcdacbb20e7f12" title=" " alt="" coords="140,56,268,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="83,47,125,54,124,59,83,53"/>
+</map>

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['idle_5fenable_0',['idle_enable',['../struct_u_a_r_t___interrupt_config.html#a9a7b1e85ed3264bdc0a341ffa600f2e8',1,'UART_InterruptConfig']]]
+  ['mode_0',['Mode',['../group___g_p_i_o___driver___header.html#gaf582963784931a387bdb2a31c93f07e5',1,'GPIO_PinConfig_t']]],
+  ['mode_1',['mode',['../structpinconfig.html#a55189f080ffb792d060180852a249034',1,'pinconfig']]]
 ];

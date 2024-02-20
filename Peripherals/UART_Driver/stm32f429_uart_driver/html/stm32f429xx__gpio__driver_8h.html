@@ -5,9 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>UART Driver: Inc/stm32f429xx_gpio_driver.h File Reference</title>
+<title>My Project: Inc/stm32f429xx_gpio_driver.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript">var page_layout=1;</script>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <script type="text/javascript" src="clipboard.js"></script>
@@ -27,18 +26,16 @@
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-<div id="side-nav" class="ui-resizable side-nav-resizable"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">UART Driver<span id="projectnumber">&#160;0.1</span>
+   <div id="projectname">My Project
    </div>
   </td>
- </tr>
-   <tr><td colspan="2">        <div id="MSearchBox" class="MSearchBoxInactive">
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
           <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
           <input type="text" id="MSearchField" value="" placeholder="Search" accesskey="S"
@@ -49,7 +46,8 @@
             <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
           </span>
         </div>
-</td></tr>
+</td>
+ </tr>
  </tbody>
 </table>
 </div>
@@ -61,6 +59,7 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
     <div id="nav-tree-contents">
       <div id="nav-sync" class="sync"></div>
@@ -109,7 +108,7 @@ $(function(){initNavTree('stm32f429xx__gpio__driver_8h.html',''); initResizable(
 <p>Classes and API functions for driving a GPIO peripheral for STM32F429xx MCUs Created on: Feb 15, 2024.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="stm32f429xx__general_8h_source.html">stm32f429xx_general.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="stm32f429xx__rcc__driver_8h_source.html">stm32f429xx_rcc_driver.h</a>&quot;</code><br />
+<code>#include &quot;stm32f429xx_rcc_driver.h&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for stm32f429xx_gpio_driver.h:</div>
 <div class="dyncontent">
@@ -118,7 +117,7 @@ Include dependency graph for stm32f429xx_gpio_driver.h:</div>
 <area shape="rect" title="Classes and API functions for driving a GPIO peripheral for STM32F429xx MCUs Created on: Feb 15,..." alt="" coords="19,5,166,48"/>
 <area shape="rect" href="stm32f429xx__general_8h.html" title="All purpose defines and includes Created on: Feb 11, 2024." alt="" coords="15,171,170,197"/>
 <area shape="poly" title=" " alt="" coords="79,50,63,84,59,103,60,122,76,157,71,159,55,123,53,102,57,82,75,47"/>
-<area shape="rect" href="stm32f429xx__rcc__driver_8h.html" title=" " alt="" coords="69,96,238,123"/>
+<area shape="rect" href="stm32f429xx__rcc__driver_8h_source.html" title=" " alt="" coords="69,96,238,123"/>
 <area shape="poly" title=" " alt="" coords="110,47,137,82,133,85,106,50"/>
 <area shape="rect" title=" " alt="" coords="5,245,70,272"/>
 <area shape="poly" title=" " alt="" coords="85,199,58,234,54,231,81,196"/>
@@ -135,7 +134,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <area shape="rect" title="Classes and API functions for driving a GPIO peripheral for STM32F429xx MCUs Created on: Feb 15,..." alt="" coords="45,5,192,48"/>
 <area shape="rect" href="main_8c.html" title=": Main program body" alt="" coords="5,104,90,131"/>
 <area shape="poly" title=" " alt="" coords="95,62,60,105,55,102,90,58"/>
-<area shape="rect" href="stm32f429xx__gpio__driver_8c.html" title=" " alt="" coords="114,96,264,139"/>
+<area shape="rect" href="stm32f429xx__gpio__driver_8c_source.html" title=" " alt="" coords="114,96,264,139"/>
 <area shape="poly" title=" " alt="" coords="146,59,175,94,170,97,142,62"/>
 </map>
 </div>
@@ -151,20 +150,20 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:gaf164c756418dde00ac07fd47d0962150" id="r_gaf164c756418dde00ac07fd47d0962150"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___classes.html#gaf164c756418dde00ac07fd47d0962150">GPIO_Port</a> { <br />
-&#160;&#160;<a class="el" href="group___classes.html#ggaf164c756418dde00ac07fd47d0962150aeb6782d9dfedf3c6a78ffdb1624fa454">PORT_A</a>
-, <a class="el" href="group___classes.html#ggaf164c756418dde00ac07fd47d0962150a16ada472d473fbd0207b99e9e4d68f4a">PORT_B</a>
-, <a class="el" href="group___classes.html#ggaf164c756418dde00ac07fd47d0962150a627cc690c37f97527dd2f07aa22092d9">PORT_C</a>
-, <a class="el" href="group___classes.html#ggaf164c756418dde00ac07fd47d0962150af7242fe75227a46a190645663f91ce69">PORT_D</a>
+<tr class="memitem:gaf164c756418dde00ac07fd47d0962150" id="r_gaf164c756418dde00ac07fd47d0962150"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><b>GPIO_Port</b> { <br />
+&#160;&#160;<b>PORT_A</b>
+, <b>PORT_B</b>
+, <b>PORT_C</b>
+, <b>PORT_D</b>
 , <br />
-&#160;&#160;<a class="el" href="group___classes.html#ggaf164c756418dde00ac07fd47d0962150abad63f022d1fa37a66f87dc31a78f6a9">PORT_E</a>
-, <a class="el" href="group___classes.html#ggaf164c756418dde00ac07fd47d0962150aa3760b302740c7d09c93ec7a634f837c">PORT_F</a>
-, <a class="el" href="group___classes.html#ggaf164c756418dde00ac07fd47d0962150a48afb424254d52e7d97a7c1428f5aafa">PORT_G</a>
-, <a class="el" href="group___classes.html#ggaf164c756418dde00ac07fd47d0962150a31d1ae08c10668d936d1c2c6426c1c47">PORT_H</a>
+&#160;&#160;<b>PORT_E</b>
+, <b>PORT_F</b>
+, <b>PORT_G</b>
+, <b>PORT_H</b>
 , <br />
-&#160;&#160;<a class="el" href="group___classes.html#ggaf164c756418dde00ac07fd47d0962150aa4ce4b10b97f03ad33c276d87ccef088">PORT_I</a>
-, <a class="el" href="group___classes.html#ggaf164c756418dde00ac07fd47d0962150a3eea70262d530701087c2a3a09c475fe">PORT_J</a>
-, <a class="el" href="group___classes.html#ggaf164c756418dde00ac07fd47d0962150a23bae6dc45cdca7c90be62437df0f454">PORT_K</a>
+&#160;&#160;<b>PORT_I</b>
+, <b>PORT_J</b>
+, <b>PORT_K</b>
 <br />
  }</td></tr>
 <tr class="separator:gaf164c756418dde00ac07fd47d0962150"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -200,6 +199,8 @@ Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Classes and API functions for driving a GPIO peripheral for STM32F429xx MCUs Created on: Feb 15, 2024. </p>
 <dl class="section author"><dt>Author</dt><dd>: Soumyadeep Bose </dd></dl>
+
+<p class="definition">Definition in file <a class="el" href="stm32f429xx__gpio__driver_8h_source.html">stm32f429xx_gpio_driver.h</a>.</p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
