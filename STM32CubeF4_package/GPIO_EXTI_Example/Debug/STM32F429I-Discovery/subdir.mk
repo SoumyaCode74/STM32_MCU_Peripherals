@@ -1,0 +1,57 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+# Toolchain: GNU Tools for STM32 (11.3.rel1)
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4\ package/STM32CubeF4/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.c \
+D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4\ package/STM32CubeF4/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_eeprom.c \
+D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4\ package/STM32CubeF4/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_gyroscope.c \
+D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4\ package/STM32CubeF4/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_io.c \
+D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4\ package/STM32CubeF4/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.c \
+D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4\ package/STM32CubeF4/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_sdram.c \
+D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4\ package/STM32CubeF4/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.c 
+
+OBJS += \
+./STM32F429I-Discovery/stm32f429i_discovery.o \
+./STM32F429I-Discovery/stm32f429i_discovery_eeprom.o \
+./STM32F429I-Discovery/stm32f429i_discovery_gyroscope.o \
+./STM32F429I-Discovery/stm32f429i_discovery_io.o \
+./STM32F429I-Discovery/stm32f429i_discovery_lcd.o \
+./STM32F429I-Discovery/stm32f429i_discovery_sdram.o \
+./STM32F429I-Discovery/stm32f429i_discovery_ts.o 
+
+C_DEPS += \
+./STM32F429I-Discovery/stm32f429i_discovery.d \
+./STM32F429I-Discovery/stm32f429i_discovery_eeprom.d \
+./STM32F429I-Discovery/stm32f429i_discovery_gyroscope.d \
+./STM32F429I-Discovery/stm32f429i_discovery_io.d \
+./STM32F429I-Discovery/stm32f429i_discovery_lcd.d \
+./STM32F429I-Discovery/stm32f429i_discovery_sdram.d \
+./STM32F429I-Discovery/stm32f429i_discovery_ts.d 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+STM32F429I-Discovery/stm32f429i_discovery.o: D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4\ package/STM32CubeF4/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.c STM32F429I-Discovery/subdir.mk
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F429xx -DSTM32F429I_DISC1 -DSTM32 -DSTM32F429ZITx -DSTM32F4 -c -I../Inc -I"D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4 package/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4 package/STM32CubeF4/Drivers/BSP/STM32F429I-Discovery" -I"D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4 package/GPIO_EXTI_Example/CMSIS/Core/Include" -I"D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4 package/GPIO_EXTI_Example/CMSIS/ST/STM32F4xx/Include" -I"D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4 package/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
+STM32F429I-Discovery/stm32f429i_discovery_eeprom.o: D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4\ package/STM32CubeF4/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_eeprom.c STM32F429I-Discovery/subdir.mk
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F429xx -DSTM32F429I_DISC1 -DSTM32 -DSTM32F429ZITx -DSTM32F4 -c -I../Inc -I"D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4 package/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4 package/STM32CubeF4/Drivers/BSP/STM32F429I-Discovery" -I"D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4 package/GPIO_EXTI_Example/CMSIS/Core/Include" -I"D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4 package/GPIO_EXTI_Example/CMSIS/ST/STM32F4xx/Include" -I"D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4 package/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
+STM32F429I-Discovery/stm32f429i_discovery_gyroscope.o: D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4\ package/STM32CubeF4/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_gyroscope.c STM32F429I-Discovery/subdir.mk
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F429xx -DSTM32F429I_DISC1 -DSTM32 -DSTM32F429ZITx -DSTM32F4 -c -I../Inc -I"D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4 package/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4 package/STM32CubeF4/Drivers/BSP/STM32F429I-Discovery" -I"D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4 package/GPIO_EXTI_Example/CMSIS/Core/Include" -I"D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4 package/GPIO_EXTI_Example/CMSIS/ST/STM32F4xx/Include" -I"D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4 package/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
+STM32F429I-Discovery/stm32f429i_discovery_io.o: D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4\ package/STM32CubeF4/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_io.c STM32F429I-Discovery/subdir.mk
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F429xx -DSTM32F429I_DISC1 -DSTM32 -DSTM32F429ZITx -DSTM32F4 -c -I../Inc -I"D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4 package/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4 package/STM32CubeF4/Drivers/BSP/STM32F429I-Discovery" -I"D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4 package/GPIO_EXTI_Example/CMSIS/Core/Include" -I"D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4 package/GPIO_EXTI_Example/CMSIS/ST/STM32F4xx/Include" -I"D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4 package/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
+STM32F429I-Discovery/stm32f429i_discovery_lcd.o: D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4\ package/STM32CubeF4/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.c STM32F429I-Discovery/subdir.mk
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F429xx -DSTM32F429I_DISC1 -DSTM32 -DSTM32F429ZITx -DSTM32F4 -c -I../Inc -I"D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4 package/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4 package/STM32CubeF4/Drivers/BSP/STM32F429I-Discovery" -I"D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4 package/GPIO_EXTI_Example/CMSIS/Core/Include" -I"D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4 package/GPIO_EXTI_Example/CMSIS/ST/STM32F4xx/Include" -I"D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4 package/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
+STM32F429I-Discovery/stm32f429i_discovery_sdram.o: D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4\ package/STM32CubeF4/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_sdram.c STM32F429I-Discovery/subdir.mk
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F429xx -DSTM32F429I_DISC1 -DSTM32 -DSTM32F429ZITx -DSTM32F4 -c -I../Inc -I"D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4 package/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4 package/STM32CubeF4/Drivers/BSP/STM32F429I-Discovery" -I"D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4 package/GPIO_EXTI_Example/CMSIS/Core/Include" -I"D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4 package/GPIO_EXTI_Example/CMSIS/ST/STM32F4xx/Include" -I"D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4 package/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
+STM32F429I-Discovery/stm32f429i_discovery_ts.o: D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4\ package/STM32CubeF4/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.c STM32F429I-Discovery/subdir.mk
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F429xx -DSTM32F429I_DISC1 -DSTM32 -DSTM32F429ZITx -DSTM32F4 -c -I../Inc -I"D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4 package/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" -I"D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4 package/STM32CubeF4/Drivers/BSP/STM32F429I-Discovery" -I"D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4 package/GPIO_EXTI_Example/CMSIS/Core/Include" -I"D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4 package/GPIO_EXTI_Example/CMSIS/ST/STM32F4xx/Include" -I"D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32CubeF4 package/STM32CubeF4/Drivers/STM32F4xx_HAL_Driver/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
+
+clean: clean-STM32F429I-2d-Discovery
+
+clean-STM32F429I-2d-Discovery:
+	-$(RM) ./STM32F429I-Discovery/stm32f429i_discovery.cyclo ./STM32F429I-Discovery/stm32f429i_discovery.d ./STM32F429I-Discovery/stm32f429i_discovery.o ./STM32F429I-Discovery/stm32f429i_discovery.su ./STM32F429I-Discovery/stm32f429i_discovery_eeprom.cyclo ./STM32F429I-Discovery/stm32f429i_discovery_eeprom.d ./STM32F429I-Discovery/stm32f429i_discovery_eeprom.o ./STM32F429I-Discovery/stm32f429i_discovery_eeprom.su ./STM32F429I-Discovery/stm32f429i_discovery_gyroscope.cyclo ./STM32F429I-Discovery/stm32f429i_discovery_gyroscope.d ./STM32F429I-Discovery/stm32f429i_discovery_gyroscope.o ./STM32F429I-Discovery/stm32f429i_discovery_gyroscope.su ./STM32F429I-Discovery/stm32f429i_discovery_io.cyclo ./STM32F429I-Discovery/stm32f429i_discovery_io.d ./STM32F429I-Discovery/stm32f429i_discovery_io.o ./STM32F429I-Discovery/stm32f429i_discovery_io.su ./STM32F429I-Discovery/stm32f429i_discovery_lcd.cyclo ./STM32F429I-Discovery/stm32f429i_discovery_lcd.d ./STM32F429I-Discovery/stm32f429i_discovery_lcd.o ./STM32F429I-Discovery/stm32f429i_discovery_lcd.su ./STM32F429I-Discovery/stm32f429i_discovery_sdram.cyclo ./STM32F429I-Discovery/stm32f429i_discovery_sdram.d ./STM32F429I-Discovery/stm32f429i_discovery_sdram.o ./STM32F429I-Discovery/stm32f429i_discovery_sdram.su ./STM32F429I-Discovery/stm32f429i_discovery_ts.cyclo ./STM32F429I-Discovery/stm32f429i_discovery_ts.d ./STM32F429I-Discovery/stm32f429i_discovery_ts.o ./STM32F429I-Discovery/stm32f429i_discovery_ts.su
+
+.PHONY: clean-STM32F429I-2d-Discovery
+
