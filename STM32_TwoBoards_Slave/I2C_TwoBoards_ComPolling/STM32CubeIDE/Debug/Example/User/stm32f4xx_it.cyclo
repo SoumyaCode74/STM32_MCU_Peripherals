@@ -1,0 +1,9 @@
+D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32_TwoBoards_Slave/I2C_TwoBoards_ComPolling/Src/stm32f4xx_it.c:52:6:NMI_Handler	1
+D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32_TwoBoards_Slave/I2C_TwoBoards_ComPolling/Src/stm32f4xx_it.c:61:6:HardFault_Handler	1
+D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32_TwoBoards_Slave/I2C_TwoBoards_ComPolling/Src/stm32f4xx_it.c:74:6:MemManage_Handler	1
+D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32_TwoBoards_Slave/I2C_TwoBoards_ComPolling/Src/stm32f4xx_it.c:87:6:BusFault_Handler	1
+D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32_TwoBoards_Slave/I2C_TwoBoards_ComPolling/Src/stm32f4xx_it.c:100:6:UsageFault_Handler	1
+D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32_TwoBoards_Slave/I2C_TwoBoards_ComPolling/Src/stm32f4xx_it.c:113:6:SVC_Handler	1
+D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32_TwoBoards_Slave/I2C_TwoBoards_ComPolling/Src/stm32f4xx_it.c:122:6:DebugMon_Handler	1
+D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32_TwoBoards_Slave/I2C_TwoBoards_ComPolling/Src/stm32f4xx_it.c:131:6:PendSV_Handler	1
+D:/Users/soumy/GitHub/STM32_MCU_Peripherals/STM32_TwoBoards_Slave/I2C_TwoBoards_ComPolling/Src/stm32f4xx_it.c:140:6:SysTick_Handler	1
