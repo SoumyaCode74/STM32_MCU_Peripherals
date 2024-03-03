@@ -1,30 +1,148 @@
-11:51:02 **** Build of configuration Debug for project stm32f429_i2c_driver ****
+08:00:45 **** Incremental Build of configuration Debug for project stm32f429_i2c_driver ****
 make -j8 all 
-arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f429zitx.d" -MT"Startup/startup_stm32f429zitx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Startup/startup_stm32f429zitx.o" "../Startup/startup_stm32f429zitx.s"
 arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F429I_DISC1 -DSTM32 -DSTM32F429ZITx -DSTM32F4 -c -I../Inc -I"D:/Users/soumy/GitHub/STM32_MCU_Peripherals/Peripherals/I2C_Test/stm32f429_i2c_driver/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/stm32f407xx_i2c_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F429I_DISC1 -DSTM32 -DSTM32F429ZITx -DSTM32F4 -c -I../Inc -I"D:/Users/soumy/GitHub/STM32_MCU_Peripherals/Peripherals/I2C_Test/stm32f429_i2c_driver/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/stm32f407xx_i2c_driver.d" -MT"Src/stm32f407xx_i2c_driver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/stm32f407xx_i2c_driver.o"
 arm-none-eabi-gcc "../Src/stm32f429xx_gpio_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F429I_DISC1 -DSTM32 -DSTM32F429ZITx -DSTM32F4 -c -I../Inc -I"D:/Users/soumy/GitHub/STM32_MCU_Peripherals/Peripherals/I2C_Test/stm32f429_i2c_driver/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/stm32f429xx_gpio_driver.d" -MT"Src/stm32f429xx_gpio_driver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/stm32f429xx_gpio_driver.o"
 arm-none-eabi-gcc "../Src/stm32f429xx_i2c_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F429I_DISC1 -DSTM32 -DSTM32F429ZITx -DSTM32F4 -c -I../Inc -I"D:/Users/soumy/GitHub/STM32_MCU_Peripherals/Peripherals/I2C_Test/stm32f429_i2c_driver/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/stm32f429xx_i2c_driver.d" -MT"Src/stm32f429xx_i2c_driver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/stm32f429xx_i2c_driver.o"
 arm-none-eabi-gcc "../Src/stm32f429xx_rcc_driver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F429I_DISC1 -DSTM32 -DSTM32F429ZITx -DSTM32F4 -c -I../Inc -I"D:/Users/soumy/GitHub/STM32_MCU_Peripherals/Peripherals/I2C_Test/stm32f429_i2c_driver/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/stm32f429xx_rcc_driver.d" -MT"Src/stm32f429xx_rcc_driver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/stm32f429xx_rcc_driver.o"
 arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F429I_DISC1 -DSTM32 -DSTM32F429ZITx -DSTM32F4 -c -I../Inc -I"D:/Users/soumy/GitHub/STM32_MCU_Peripherals/Peripherals/I2C_Test/stm32f429_i2c_driver/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/syscalls.o"
 arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F429I_DISC1 -DSTM32 -DSTM32F429ZITx -DSTM32F4 -c -I../Inc -I"D:/Users/soumy/GitHub/STM32_MCU_Peripherals/Peripherals/I2C_Test/stm32f429_i2c_driver/Drivers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/sysmem.o"
+In file included from ../Src/stm32f407xx_i2c_driver.c:8:
+../Inc/stm32f407xx_i2c_driver.h:11:10: fatal error: stm32f407xx.h: No such file or directory
+   11 | #include "stm32f407xx.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Src/subdir.mk:37: Src/stm32f407xx_i2c_driver.o] Error 1
+make: *** Waiting for unfinished jobs....
 ../Src/main.c: In function 'main':
-../Src/main.c:93:22: warning: variable 'hI2CSlave' set but not used [-Wunused-but-set-variable]
-   93 |         I2C_Handle_t hI2CSlave;
+../Src/main.c:104:22: warning: variable 'hI2CSlave' set but not used [-Wunused-but-set-variable]
+  104 |         I2C_Handle_t hI2CSlave;
       |                      ^~~~~~~~~
-../Src/main.c:64:22: warning: variable 'hI2CMaster' set but not used [-Wunused-but-set-variable]
-   64 |         I2C_Handle_t hI2CMaster;
-      |                      ^~~~~~~~~~
-arm-none-eabi-gcc -o "stm32f429_i2c_driver.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Users\soumy\GitHub\STM32_MCU_Peripherals\Peripherals\I2C_Test\stm32f429_i2c_driver\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stm32f429_i2c_driver.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: stm32f429_i2c_driver.elf
- 
-arm-none-eabi-size   stm32f429_i2c_driver.elf 
-arm-none-eabi-objdump -h -S  stm32f429_i2c_driver.elf  > "stm32f429_i2c_driver.list"
-   text	   data	    bss	    dec	    hex	filename
-   1960	      8	   1568	   3536	    dd0	stm32f429_i2c_driver.elf
-Finished building: default.size.stdout
- 
-Finished building: stm32f429_i2c_driver.list
- 
+../Src/stm32f429xx_i2c_driver.c: In function 'I2C_Event_Interrupt_Handler':
+../Src/stm32f429xx_i2c_driver.c:133:48: warning: left shift count >= width of type [-Wshift-count-overflow]
+  133 |         temp1   = pI2CHandle->pI2Cx->CR2 & ( 1 << I2C_CR2_ITEVTEN) ;
+      |                                                ^~
+../Src/stm32f429xx_i2c_driver.c:134:48: warning: left shift count >= width of type [-Wshift-count-overflow]
+  134 |         temp2   = pI2CHandle->pI2Cx->CR2 & ( 1 << I2C_CR2_ITBUFEN) ;
+      |                                                ^~
+../Src/stm32f429xx_i2c_driver.c:144:45: error: 'I2C_BUSY_IN_TX' undeclared (first use in this function)
+  144 |                 if(pI2CHandle->TxRxState == I2C_BUSY_IN_TX)
+      |                                             ^~~~~~~~~~~~~~
+../Src/stm32f429xx_i2c_driver.c:144:45: note: each undeclared identifier is reported only once for each function it appears in
+../Src/stm32f429xx_i2c_driver.c:146:25: warning: implicit declaration of function 'I2C_ExecuteAddressPhaseWrite'; did you mean 'I2C_ExecuteAddressPhase'? [-Wimplicit-function-declaration]
+  146 |                         I2C_ExecuteAddressPhaseWrite(pI2CHandle->pI2Cx,pI2CHandle->DevAddr);
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                         I2C_ExecuteAddressPhase
+../Src/stm32f429xx_i2c_driver.c:147:52: error: 'I2C_BUSY_IN_RX' undeclared (first use in this function)
+  147 |                 }else if (pI2CHandle->TxRxState == I2C_BUSY_IN_RX )
+      |                                                    ^~~~~~~~~~~~~~
+../Src/stm32f429xx_i2c_driver.c:149:25: warning: implicit declaration of function 'I2C_ExecuteAddressPhaseRead'; did you mean 'I2C_ExecuteAddressPhase'? [-Wimplicit-function-declaration]
+  149 |                         I2C_ExecuteAddressPhaseRead(pI2CHandle->pI2Cx,pI2CHandle->DevAddr);
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                         I2C_ExecuteAddressPhase
+../Src/stm32f429xx_i2c_driver.c:160:35: warning: passing argument 1 of 'I2C_ClearADDRFlag' from incompatible pointer type [-Wincompatible-pointer-types]
+  160 |                 I2C_ClearADDRFlag(pI2CHandle);
+      |                                   ^~~~~~~~~~
+      |                                   |
+      |                                   I2C_Handle_t *
+../Src/stm32f429xx_i2c_driver.c:22:47: note: expected 'I2C_RegAddr_t *' {aka 'I2C_TypeDef *'} but argument is of type 'I2C_Handle_t *'
+   22 | static void I2C_ClearADDRFlag(I2C_RegAddr_t * pI2Cx){
+      |                               ~~~~~~~~~~~~~~~~^~~~~
+../Src/stm32f429xx_i2c_driver.c:171:57: warning: left shift count >= width of type [-Wshift-count-overflow]
+  171 |                         if(pI2CHandle->pI2Cx->SR1 & ( 1 << I2C_SR1_TXE) )
+      |                                                         ^~
+../Src/stm32f429xx_i2c_driver.c:177:62: error: 'I2C_DISABLE_SR' undeclared (first use in this function); did you mean 'I2C_DISABLE'?
+  177 |                                         if(pI2CHandle->Sr == I2C_DISABLE_SR)
+      |                                                              ^~~~~~~~~~~~~~
+      |                                                              I2C_DISABLE
+../Src/stm32f429xx_i2c_driver.c:181:41: warning: implicit declaration of function 'I2C_CloseSendData'; did you mean 'I2C_SlaveSendData'? [-Wimplicit-function-declaration]
+  181 |                                         I2C_CloseSendData(pI2CHandle);
+      |                                         ^~~~~~~~~~~~~~~~~
+      |                                         I2C_SlaveSendData
+../Src/stm32f429xx_i2c_driver.c:184:41: warning: implicit declaration of function 'I2C_ApplicationEventCallback' [-Wimplicit-function-declaration]
+  184 |                                         I2C_ApplicationEventCallback(pI2CHandle,I2C_EV_TX_CMPLT);
+      |                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Src/stm32f429xx_i2c_driver.c:184:81: error: 'I2C_EV_TX_CMPLT' undeclared (first use in this function)
+  184 |                                         I2C_ApplicationEventCallback(pI2CHandle,I2C_EV_TX_CMPLT);
+      |                                                                                 ^~~~~~~~~~~~~~~
+../Src/stm32f429xx_i2c_driver.c:207:57: error: 'I2C_EV_STOP' undeclared (first use in this function); did you mean 'I2C_CR1_STOP'?
+  207 |                 I2C_ApplicationEventCallback(pI2CHandle,I2C_EV_STOP);
+      |                                                         ^~~~~~~~~~~
+      |                                                         I2C_CR1_STOP
+../Src/stm32f429xx_i2c_driver.c:211:47: warning: left shift count >= width of type [-Wshift-count-overflow]
+  211 |         temp3  = pI2CHandle->pI2Cx->SR1 & ( 1 << I2C_SR1_TXE);
+      |                                               ^~
+../Src/stm32f429xx_i2c_driver.c:222:33: warning: implicit declaration of function 'I2C_MasterHandleTXEInterrupt' [-Wimplicit-function-declaration]
+  222 |                                 I2C_MasterHandleTXEInterrupt(pI2CHandle);
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Src/stm32f429xx_i2c_driver.c:230:65: error: 'I2C_EV_DATA_REQ' undeclared (first use in this function)
+  230 |                         I2C_ApplicationEventCallback(pI2CHandle,I2C_EV_DATA_REQ);
+      |                                                                 ^~~~~~~~~~~~~~~
+../Src/stm32f429xx_i2c_driver.c:235:47: warning: left shift count >= width of type [-Wshift-count-overflow]
+  235 |         temp3  = pI2CHandle->pI2Cx->SR1 & ( 1 << I2C_SR1_RXNE);
+      |                                               ^~
+../Src/stm32f429xx_i2c_driver.c:247:33: warning: implicit declaration of function 'I2C_MasterHandleRXNEInterrupt' [-Wimplicit-function-declaration]
+  247 |                                 I2C_MasterHandleRXNEInterrupt(pI2CHandle);
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Src/stm32f429xx_i2c_driver.c:257:73: error: 'I2C_EV_DATA_RCV' undeclared (first use in this function)
+  257 |                                 I2C_ApplicationEventCallback(pI2CHandle,I2C_EV_DATA_RCV);
+      |                                                                         ^~~~~~~~~~~~~~~
+../Src/stm32f429xx_i2c_driver.c: In function 'I2C_Error_Interrupt_Handler':
+../Src/stm32f429xx_i2c_driver.c:269:48: warning: left shift count >= width of type [-Wshift-count-overflow]
+  269 |         temp2 = (pI2CHandle->pI2Cx->CR2) & ( 1 << I2C_CR2_ITERREN);
+      |                                                ^~
+../Src/stm32f429xx_i2c_driver.c:273:47: warning: left shift count >= width of type [-Wshift-count-overflow]
+  273 |         temp1 = (pI2CHandle->pI2Cx->SR1) & ( 1<< I2C_SR1_BERR);
+      |                                               ^~
+../Src/stm32f429xx_i2c_driver.c:279:48: warning: left shift count >= width of type [-Wshift-count-overflow]
+  279 |                 pI2CHandle->pI2Cx->SR1 &= ~( 1 << I2C_SR1_BERR);
+      |                                                ^~
+../Src/stm32f429xx_i2c_driver.c:282:52: error: 'I2C_ERROR_BERR' undeclared (first use in this function); did you mean 'I2C_SR1_BERR'?
+  282 |            I2C_ApplicationEventCallback(pI2CHandle,I2C_ERROR_BERR);
+      |                                                    ^~~~~~~~~~~~~~
+      |                                                    I2C_SR1_BERR
+../Src/stm32f429xx_i2c_driver.c:286:48: warning: left shift count >= width of type [-Wshift-count-overflow]
+  286 |         temp1 = (pI2CHandle->pI2Cx->SR1) & ( 1 << I2C_SR1_ARLO );
+      |                                                ^~
+../Src/stm32f429xx_i2c_driver.c:292:48: warning: left shift count >= width of type [-Wshift-count-overflow]
+  292 |                 pI2CHandle->pI2Cx->SR1 &= ~( 1 << I2C_SR1_ARLO);
+      |                                                ^~
+../Src/stm32f429xx_i2c_driver.c:295:57: error: 'I2C_ERROR_ARLO' undeclared (first use in this function); did you mean 'I2C_SR1_ARLO'?
+  295 |                 I2C_ApplicationEventCallback(pI2CHandle,I2C_ERROR_ARLO);
+      |                                                         ^~~~~~~~~~~~~~
+      |                                                         I2C_SR1_ARLO
+../Src/stm32f429xx_i2c_driver.c:301:48: warning: left shift count >= width of type [-Wshift-count-overflow]
+  301 |         temp1 = (pI2CHandle->pI2Cx->SR1) & ( 1 << I2C_SR1_AF);
+      |                                                ^~
+../Src/stm32f429xx_i2c_driver.c:307:48: warning: left shift count >= width of type [-Wshift-count-overflow]
+  307 |                 pI2CHandle->pI2Cx->SR1 &= ~( 1 << I2C_SR1_AF);
+      |                                                ^~
+../Src/stm32f429xx_i2c_driver.c:310:57: error: 'I2C_ERROR_AF' undeclared (first use in this function); did you mean 'I2C_ARLO_F'?
+  310 |                 I2C_ApplicationEventCallback(pI2CHandle,I2C_ERROR_AF);
+      |                                                         ^~~~~~~~~~~~
+      |                                                         I2C_ARLO_F
+../Src/stm32f429xx_i2c_driver.c:314:48: warning: left shift count >= width of type [-Wshift-count-overflow]
+  314 |         temp1 = (pI2CHandle->pI2Cx->SR1) & ( 1 << I2C_SR1_OVR);
+      |                                                ^~
+../Src/stm32f429xx_i2c_driver.c:320:48: warning: left shift count >= width of type [-Wshift-count-overflow]
+  320 |                 pI2CHandle->pI2Cx->SR1 &= ~( 1 << I2C_SR1_OVR);
+      |                                                ^~
+../Src/stm32f429xx_i2c_driver.c:323:57: error: 'I2C_ERROR_OVR' undeclared (first use in this function); did you mean 'I2C_SR1_OVR'?
+  323 |                 I2C_ApplicationEventCallback(pI2CHandle,I2C_ERROR_OVR);
+      |                                                         ^~~~~~~~~~~~~
+      |                                                         I2C_SR1_OVR
+../Src/stm32f429xx_i2c_driver.c:327:48: warning: left shift count >= width of type [-Wshift-count-overflow]
+  327 |         temp1 = (pI2CHandle->pI2Cx->SR1) & ( 1 << I2C_SR1_TIMEOUT);
+      |                                                ^~
+../Src/stm32f429xx_i2c_driver.c:333:48: warning: left shift count >= width of type [-Wshift-count-overflow]
+  333 |                 pI2CHandle->pI2Cx->SR1 &= ~( 1 << I2C_SR1_TIMEOUT);
+      |                                                ^~
+../Src/stm32f429xx_i2c_driver.c:336:57: error: 'I2C_ERROR_TIMEOUT' undeclared (first use in this function); did you mean 'I2C_SR1_TIMEOUT'?
+  336 |                 I2C_ApplicationEventCallback(pI2CHandle,I2C_ERROR_TIMEOUT);
+      |                                                         ^~~~~~~~~~~~~~~~~
+      |                                                         I2C_SR1_TIMEOUT
+make: *** [Src/subdir.mk:37: Src/stm32f429xx_i2c_driver.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
 
-11:51:04 Build Finished. 0 errors, 2 warnings. (took 2s.112ms)
+08:00:49 Build Failed. 16 errors, 24 warnings. (took 3s.593ms)
 

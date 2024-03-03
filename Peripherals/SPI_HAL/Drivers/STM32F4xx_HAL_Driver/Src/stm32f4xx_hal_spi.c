@@ -207,7 +207,7 @@
   * @brief SPI HAL module driver
   * @{
   */
-#ifdef HAL_SPI_MODULE_ENABLED
+#ifndef HAL_SPI_MODULE_ENABLED
 
 /* Private typedef -----------------------------------------------------------*/
 /* Private defines -----------------------------------------------------------*/

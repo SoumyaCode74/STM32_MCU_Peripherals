@@ -1,0 +1,21 @@
+<map id="Inc/stm32f429xx_general.h" name="Inc/stm32f429xx_general.h">
+<area shape="rect" id="Node000001" title="All purpose defines and includes Created on: Feb 11, 2024." alt="" coords="169,5,345,32"/>
+<area shape="rect" id="Node000002" href="$stm32f429xx__gpio__driver_8h.html" title="Classes and API functions for driving a GPIO peripheral for STM32F429xx MCUs Created on: Feb 15,..." alt="" coords="183,171,331,213"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="260,47,260,170,254,170,254,47"/>
+<area shape="rect" id="Node000003" href="$stm32f429xx__i2c__driver_8h.html" title="Classes and API functions for driving an I2C peripheral for STM32F429xx MCUs Created on: Feb 11,..." alt="" coords="22,261,162,304"/>
+<area shape="poly" id="edge7_Node000001_Node000003" title=" " alt="" coords="243,47,107,262,102,260,239,44"/>
+<area shape="rect" id="Node000007" href="$stm32f429xx__rcc__driver_8h.html" title=" " alt="" coords="296,80,437,123"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="288,39,340,77,337,82,285,43"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="206,223,131,263,129,258,204,219"/>
+<area shape="rect" id="Node000004" href="$main_8c.html" title=": Main program body" alt="" coords="172,360,257,387"/>
+<area shape="poly" id="edge5_Node000002_Node000004" title=" " alt="" coords="241,228,228,262,219,316,217,360,211,359,213,315,222,261,236,226"/>
+<area shape="rect" id="Node000006" href="$stm32f429xx__gpio__driver_8c.html" title=" " alt="" coords="237,261,387,304"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="280,225,301,260,297,262,275,228"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="134,311,199,357,195,362,131,315"/>
+<area shape="rect" id="Node000005" href="$stm32f429xx__i2c__driver_8c.html" title="Driver source code for I2C peripheral of STM32F429xx MCU Created: 15&#45;02&#45;2024." alt="" coords="5,352,149,395"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="88,320,83,352,78,351,83,319"/>
+<area shape="poly" id="edge9_Node000007_Node000002" title=" " alt="" coords="331,135,284,172,281,168,328,130"/>
+<area shape="poly" id="edge10_Node000007_Node000004" title=" " alt="" coords="388,135,404,173,415,217,417,263,411,285,400,306,371,335,333,355,294,366,257,372,257,367,292,361,331,350,367,331,396,302,406,283,411,262,410,218,399,174,383,137"/>
+<area shape="rect" id="Node000008" href="$stm32f429xx__rcc__driver_8c.html" title="Created on: Feb 15, 2024." alt="" coords="461,171,605,213"/>
+<area shape="poly" id="edge11_Node000007_Node000008" title=" " alt="" coords="420,128,495,168,493,173,418,133"/>
+</map>

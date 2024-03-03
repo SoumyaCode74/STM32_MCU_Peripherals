@@ -1,24 +1,11 @@
 var searchData=
 [
-  ['percent_5f33_0',['PERCENT_33',['../group___classes.html#ggadfdf854d8c5df694ffc1ee51fd01f3b9abc2e72cb3fa9a9cd561c55c8845083a3',1,'stm32f429xx_i2c_driver.h']]],
-  ['percent_5f36_1',['PERCENT_36',['../group___classes.html#ggadfdf854d8c5df694ffc1ee51fd01f3b9ad8efbec45c2c7fe076d2206c641e6be3',1,'stm32f429xx_i2c_driver.h']]],
-  ['pgpiox_2',['pGPIOx',['../group___g_p_i_o___driver___header.html#gab2c22aa8e429496a1822328b7078984c',1,'GPIO_Handle_t']]],
-  ['pi2cx_3',['pI2Cx',['../group___i2_c___driver___header.html#ga8a620ba905fc88fcbb5515bd4ce2303c',1,'I2C_Handle_t']]],
-  ['pin_4',['Pin',['../group___g_p_i_o___driver___header.html#ga7838ca04e2ceba1a5895ec493e0e10d1',1,'GPIO_PinConfig_t']]],
-  ['pll_5',['PLL',['../group___classes.html#gga02e55ce66a310468cd5996a5769a1e77a5c7fe827c28117f11dd14f9197d7d5a2',1,'stm32f429xx_rcc_driver.h']]],
-  ['port_5fa_6',['PORT_A',['../group___classes.html#ggaf164c756418dde00ac07fd47d0962150aeb6782d9dfedf3c6a78ffdb1624fa454',1,'stm32f429xx_gpio_driver.h']]],
-  ['port_5fb_7',['PORT_B',['../group___classes.html#ggaf164c756418dde00ac07fd47d0962150a16ada472d473fbd0207b99e9e4d68f4a',1,'stm32f429xx_gpio_driver.h']]],
-  ['port_5fc_8',['PORT_C',['../group___classes.html#ggaf164c756418dde00ac07fd47d0962150a627cc690c37f97527dd2f07aa22092d9',1,'stm32f429xx_gpio_driver.h']]],
-  ['port_5fd_9',['PORT_D',['../group___classes.html#ggaf164c756418dde00ac07fd47d0962150af7242fe75227a46a190645663f91ce69',1,'stm32f429xx_gpio_driver.h']]],
-  ['port_5fe_10',['PORT_E',['../group___classes.html#ggaf164c756418dde00ac07fd47d0962150abad63f022d1fa37a66f87dc31a78f6a9',1,'stm32f429xx_gpio_driver.h']]],
-  ['port_5ff_11',['PORT_F',['../group___classes.html#ggaf164c756418dde00ac07fd47d0962150aa3760b302740c7d09c93ec7a634f837c',1,'stm32f429xx_gpio_driver.h']]],
-  ['port_5fg_12',['PORT_G',['../group___classes.html#ggaf164c756418dde00ac07fd47d0962150a48afb424254d52e7d97a7c1428f5aafa',1,'stm32f429xx_gpio_driver.h']]],
-  ['port_5fh_13',['PORT_H',['../group___classes.html#ggaf164c756418dde00ac07fd47d0962150a31d1ae08c10668d936d1c2c6426c1c47',1,'stm32f429xx_gpio_driver.h']]],
-  ['port_5fi_14',['PORT_I',['../group___classes.html#ggaf164c756418dde00ac07fd47d0962150aa4ce4b10b97f03ad33c276d87ccef088',1,'stm32f429xx_gpio_driver.h']]],
-  ['port_5fj_15',['PORT_J',['../group___classes.html#ggaf164c756418dde00ac07fd47d0962150a3eea70262d530701087c2a3a09c475fe',1,'stm32f429xx_gpio_driver.h']]],
-  ['port_5fk_16',['PORT_K',['../group___classes.html#ggaf164c756418dde00ac07fd47d0962150a23bae6dc45cdca7c90be62437df0f454',1,'stm32f429xx_gpio_driver.h']]],
-  ['prcc_17',['pRCC',['../struct_r_c_c___handle__t.html#a2b10fa826b1f834f4a5a7a06d9d700a2',1,'RCC_Handle_t']]],
-  ['prescaler_18',['prescaler',['../struct_r_c_c___config__t.html#adda084b2e08ca68b2d78506b5770b8b3',1,'RCC_Config_t']]],
-  ['prescaler_5ft_19',['Prescaler_t',['../group___classes.html#ga9579063d5933ce9e8e5917370c48d337',1,'stm32f429xx_rcc_driver.h']]],
-  ['pullupdown_20',['PullUpDown',['../group___g_p_i_o___driver___header.html#gaa856c1501c06fc5c78a28071e78b53cf',1,'GPIO_PinConfig_t']]]
+  ['spi_5fregaddr_5ft_0',['SPI_RegAddr_t',['../group___aliases.html#ga9f8fc6d34271a3e1701809f9f0980e02',1,'stm32f429xx_general.h']]],
+  ['stm32f429xx_5fgeneral_2eh_1',['stm32f429xx_general.h',['../stm32f429xx__general_8h.html',1,'']]],
+  ['stm32f429xx_5fgpio_5fdriver_2ec_2',['stm32f429xx_gpio_driver.c',['../stm32f429xx__gpio__driver_8c.html',1,'']]],
+  ['stm32f429xx_5fgpio_5fdriver_2eh_3',['stm32f429xx_gpio_driver.h',['../stm32f429xx__gpio__driver_8h.html',1,'']]],
+  ['stm32f429xx_5fi2c_5fdriver_2ec_4',['stm32f429xx_i2c_driver.c',['../stm32f429xx__i2c__driver_8c.html',1,'']]],
+  ['stm32f429xx_5fi2c_5fdriver_2eh_5',['stm32f429xx_i2c_driver.h',['../stm32f429xx__i2c__driver_8h.html',1,'']]],
+  ['stm32f429xx_5frcc_5fdriver_2ec_6',['stm32f429xx_rcc_driver.c',['../stm32f429xx__rcc__driver_8c.html',1,'']]],
+  ['stm32f429xx_5frcc_5fdriver_2eh_7',['stm32f429xx_rcc_driver.h',['../stm32f429xx__rcc__driver_8h.html',1,'']]]
 ];

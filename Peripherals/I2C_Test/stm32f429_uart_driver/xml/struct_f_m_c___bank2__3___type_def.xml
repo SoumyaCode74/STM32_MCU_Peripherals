@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_f_m_c___bank2__3___type_def" kind="struct" language="C++" prot="public">
+    <compoundname>FMC_Bank2_3_TypeDef</compoundname>
+    <includes refid="stm32f429xx_8h" local="no">stm32f429xx.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_f_m_c___bank2__3___type_def_1a683944fc2dc9071838516a61211460ba" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t FMC_Bank2_3_TypeDef::PCR2</definition>
+        <argsstring></argsstring>
+        <name>PCR2</name>
+        <qualifiedname>FMC_Bank2_3_TypeDef::PCR2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>NAND Flash control register 2, Address offset: 0x60 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="528" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="528" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_m_c___bank2__3___type_def_1aba13a6af1577f1ba0d2f0b4b0826fc6e" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t FMC_Bank2_3_TypeDef::SR2</definition>
+        <argsstring></argsstring>
+        <name>SR2</name>
+        <qualifiedname>FMC_Bank2_3_TypeDef::SR2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>NAND Flash FIFO status and interrupt register 2, Address offset: 0x64 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="529" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="529" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_m_c___bank2__3___type_def_1a6462068f44050e8eb926fac9fe4616f1" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t FMC_Bank2_3_TypeDef::PMEM2</definition>
+        <argsstring></argsstring>
+        <name>PMEM2</name>
+        <qualifiedname>FMC_Bank2_3_TypeDef::PMEM2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>NAND Flash Common memory space timing register 2, Address offset: 0x68 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="530" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="530" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_m_c___bank2__3___type_def_1af40ee5c849352ce62ce3bede53c077d8" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t FMC_Bank2_3_TypeDef::PATT2</definition>
+        <argsstring></argsstring>
+        <name>PATT2</name>
+        <qualifiedname>FMC_Bank2_3_TypeDef::PATT2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>NAND Flash Attribute memory space timing register 2, Address offset: 0x6C </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="531" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="531" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_m_c___bank2__3___type_def_1a616ee0bf6ed744088c6b80762dd7fb88" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t FMC_Bank2_3_TypeDef::RESERVED0</definition>
+        <argsstring></argsstring>
+        <name>RESERVED0</name>
+        <qualifiedname>FMC_Bank2_3_TypeDef::RESERVED0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved, 0x70 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="532" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="532" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_m_c___bank2__3___type_def_1a9ee22fc779c938e3f53b189e44a7dea4" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t FMC_Bank2_3_TypeDef::ECCR2</definition>
+        <argsstring></argsstring>
+        <name>ECCR2</name>
+        <qualifiedname>FMC_Bank2_3_TypeDef::ECCR2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>NAND Flash ECC result registers 2, Address offset: 0x74 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="533" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="533" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_m_c___bank2__3___type_def_1a047ae1315f859dcef7b4546cb7ad6237" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t FMC_Bank2_3_TypeDef::RESERVED1</definition>
+        <argsstring></argsstring>
+        <name>RESERVED1</name>
+        <qualifiedname>FMC_Bank2_3_TypeDef::RESERVED1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved, 0x78 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="534" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="534" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_m_c___bank2__3___type_def_1a6ad137c907cf4b99f0457b0b35d9cf66" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t FMC_Bank2_3_TypeDef::RESERVED2</definition>
+        <argsstring></argsstring>
+        <name>RESERVED2</name>
+        <qualifiedname>FMC_Bank2_3_TypeDef::RESERVED2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved, 0x7C <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="535" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="535" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_m_c___bank2__3___type_def_1a978915d68eff7bc5534c0a9b1b39e55d" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t FMC_Bank2_3_TypeDef::PCR3</definition>
+        <argsstring></argsstring>
+        <name>PCR3</name>
+        <qualifiedname>FMC_Bank2_3_TypeDef::PCR3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>NAND Flash control register 3, Address offset: 0x80 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="536" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="536" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_m_c___bank2__3___type_def_1a0f9fac8999449c641995f53869f66f7c" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t FMC_Bank2_3_TypeDef::SR3</definition>
+        <argsstring></argsstring>
+        <name>SR3</name>
+        <qualifiedname>FMC_Bank2_3_TypeDef::SR3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>NAND Flash FIFO status and interrupt register 3, Address offset: 0x84 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="537" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="537" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_m_c___bank2__3___type_def_1a6f713b17377ce443685592c7a07a0074" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t FMC_Bank2_3_TypeDef::PMEM3</definition>
+        <argsstring></argsstring>
+        <name>PMEM3</name>
+        <qualifiedname>FMC_Bank2_3_TypeDef::PMEM3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>NAND Flash Common memory space timing register 3, Address offset: 0x88 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="538" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="538" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_m_c___bank2__3___type_def_1a538ae21bafacce1a7b5f82dbe060ae4a" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t FMC_Bank2_3_TypeDef::PATT3</definition>
+        <argsstring></argsstring>
+        <name>PATT3</name>
+        <qualifiedname>FMC_Bank2_3_TypeDef::PATT3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>NAND Flash Attribute memory space timing register 3, Address offset: 0x8C </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="539" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="539" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_m_c___bank2__3___type_def_1af2332ba5b55b05ede2065fe54720ab4b" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t FMC_Bank2_3_TypeDef::RESERVED3</definition>
+        <argsstring></argsstring>
+        <name>RESERVED3</name>
+        <qualifiedname>FMC_Bank2_3_TypeDef::RESERVED3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved, 0x90 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="540" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="540" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_f_m_c___bank2__3___type_def_1ad7c5a40bbf4521adfb9458c2274077b4" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t FMC_Bank2_3_TypeDef::ECCR3</definition>
+        <argsstring></argsstring>
+        <name>ECCR3</name>
+        <qualifiedname>FMC_Bank2_3_TypeDef::ECCR3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>NAND Flash ECC result registers 3, Address offset: 0x94 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="541" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="541" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Flexible Memory Controller Bank2. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Inc/stm32f429xx.h" line="526" column="1" bodyfile="Inc/stm32f429xx.h" bodystart="527" bodyend="542"/>
+    <listofallmembers>
+      <member refid="struct_f_m_c___bank2__3___type_def_1a9ee22fc779c938e3f53b189e44a7dea4" prot="public" virt="non-virtual"><scope>FMC_Bank2_3_TypeDef</scope><name>ECCR2</name></member>
+      <member refid="struct_f_m_c___bank2__3___type_def_1ad7c5a40bbf4521adfb9458c2274077b4" prot="public" virt="non-virtual"><scope>FMC_Bank2_3_TypeDef</scope><name>ECCR3</name></member>
+      <member refid="struct_f_m_c___bank2__3___type_def_1af40ee5c849352ce62ce3bede53c077d8" prot="public" virt="non-virtual"><scope>FMC_Bank2_3_TypeDef</scope><name>PATT2</name></member>
+      <member refid="struct_f_m_c___bank2__3___type_def_1a538ae21bafacce1a7b5f82dbe060ae4a" prot="public" virt="non-virtual"><scope>FMC_Bank2_3_TypeDef</scope><name>PATT3</name></member>
+      <member refid="struct_f_m_c___bank2__3___type_def_1a683944fc2dc9071838516a61211460ba" prot="public" virt="non-virtual"><scope>FMC_Bank2_3_TypeDef</scope><name>PCR2</name></member>
+      <member refid="struct_f_m_c___bank2__3___type_def_1a978915d68eff7bc5534c0a9b1b39e55d" prot="public" virt="non-virtual"><scope>FMC_Bank2_3_TypeDef</scope><name>PCR3</name></member>
+      <member refid="struct_f_m_c___bank2__3___type_def_1a6462068f44050e8eb926fac9fe4616f1" prot="public" virt="non-virtual"><scope>FMC_Bank2_3_TypeDef</scope><name>PMEM2</name></member>
+      <member refid="struct_f_m_c___bank2__3___type_def_1a6f713b17377ce443685592c7a07a0074" prot="public" virt="non-virtual"><scope>FMC_Bank2_3_TypeDef</scope><name>PMEM3</name></member>
+      <member refid="struct_f_m_c___bank2__3___type_def_1a616ee0bf6ed744088c6b80762dd7fb88" prot="public" virt="non-virtual"><scope>FMC_Bank2_3_TypeDef</scope><name>RESERVED0</name></member>
+      <member refid="struct_f_m_c___bank2__3___type_def_1a047ae1315f859dcef7b4546cb7ad6237" prot="public" virt="non-virtual"><scope>FMC_Bank2_3_TypeDef</scope><name>RESERVED1</name></member>
+      <member refid="struct_f_m_c___bank2__3___type_def_1a6ad137c907cf4b99f0457b0b35d9cf66" prot="public" virt="non-virtual"><scope>FMC_Bank2_3_TypeDef</scope><name>RESERVED2</name></member>
+      <member refid="struct_f_m_c___bank2__3___type_def_1af2332ba5b55b05ede2065fe54720ab4b" prot="public" virt="non-virtual"><scope>FMC_Bank2_3_TypeDef</scope><name>RESERVED3</name></member>
+      <member refid="struct_f_m_c___bank2__3___type_def_1aba13a6af1577f1ba0d2f0b4b0826fc6e" prot="public" virt="non-virtual"><scope>FMC_Bank2_3_TypeDef</scope><name>SR2</name></member>
+      <member refid="struct_f_m_c___bank2__3___type_def_1a0f9fac8999449c641995f53869f66f7c" prot="public" virt="non-virtual"><scope>FMC_Bank2_3_TypeDef</scope><name>SR3</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

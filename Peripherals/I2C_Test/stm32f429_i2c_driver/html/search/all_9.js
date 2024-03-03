@@ -1,25 +1,5 @@
 var searchData=
 [
-  ['i2c_5fackcontrol_0',['I2C_AckControl',['../group___i2_c___driver___header.html#ga88720fb61655cb514b0f2bdaa4ee8c2f',1,'I2C_PinConfig_t']]],
-  ['i2c_5fdeinit_1',['I2C_DeInit',['../group___functions.html#gad34e477f4c0f4353b2b94e2e81da4731',1,'stm32f429xx_i2c_driver.h']]],
-  ['i2c_5fdeviceaddress_2',['I2C_DeviceAddress',['../group___i2_c___driver___header.html#gae741b4bdc43cc40ccb24557ae4be6712',1,'I2C_PinConfig_t']]],
-  ['i2c_5fdisable_3',['I2C_DISABLE',['../group___defines.html#gaa314cf7ad54bb5b7aac40e022704c3bb',1,'stm32f429xx_i2c_driver.h']]],
-  ['i2c_5fdriver_5fheader_4',['I2C_Driver_Header',['../group___i2_c___driver___header.html',1,'']]],
-  ['i2c_5ferror_5finterrupt_5fhandler_5',['I2C_Error_Interrupt_Handler',['../group___functions.html#ga7e033efba44b5def1d7cf19e86829559',1,'stm32f429xx_i2c_driver.h']]],
-  ['i2c_5fevent_5finterrupt_5fhandler_6',['I2C_Event_Interrupt_Handler',['../group___functions.html#ga656d1fe643316c70add3464dc899af02',1,'stm32f429xx_i2c_driver.h']]],
-  ['i2c_5ffm_5fspeed_5flimit_7',['I2C_FM_SPEED_LIMIT',['../group___defines.html#gaf79d2f036dfdf7e9f0fe955394bce7ee',1,'stm32f429xx_i2c_driver.h']]],
-  ['i2c_5ffmdutycycle_8',['I2C_FMDutyCycle',['../group___i2_c___driver___header.html#gab4114e274f8848e073de0c689369f420',1,'I2C_PinConfig_t']]],
-  ['i2c_5fhandle_5ft_9',['I2C_Handle_t',['../struct_i2_c___handle__t.html',1,'']]],
-  ['i2c_5finit_10',['I2C_Init',['../group___functions.html#ga9b83058c3356c704a9c0f3cdfeff8260',1,'I2C_Init(I2C_Handle_t *):&#160;stm32f429xx_i2c_driver.c'],['../group___functions.html#ga9b83058c3356c704a9c0f3cdfeff8260',1,'I2C_Init(I2C_Handle_t *pI2CHandle):&#160;stm32f429xx_i2c_driver.c']]],
-  ['i2c_5fmasterreceivedata_11',['I2C_MasterReceiveData',['../group___functions.html#ga2c652fec1139e8a2f22706fcf4e8a97c',1,'stm32f429xx_i2c_driver.h']]],
-  ['i2c_5fmastersenddata_12',['I2C_MasterSendData',['../group___functions.html#ga5b14253ed9daf7d17a80cfc5624ed24f',1,'stm32f429xx_i2c_driver.h']]],
-  ['i2c_5fpinconfig_13',['I2C_PinConfig',['../group___i2_c___driver___header.html#ga0b12cd2c9fc8177f1db4e89ce90627db',1,'I2C_Handle_t']]],
-  ['i2c_5fpinconfig_5ft_14',['I2C_PinConfig_t',['../struct_i2_c___pin_config__t.html',1,'']]],
-  ['i2c_5fregaddr_5ft_15',['I2C_RegAddr_t',['../group___aliases.html#gaae0399166eb7c9e558f61287856a996c',1,'stm32f429xx_general.h']]],
-  ['i2c_5fsclspeed_16',['I2C_SCLSpeed',['../group___i2_c___driver___header.html#gadbb082b2896fb5691b2ba1dceb8ca5ca',1,'I2C_PinConfig_t']]],
-  ['i2c_5fslavereceivedata_17',['I2C_SlaveReceiveData',['../group___functions.html#ga78afc3540aff2e93710b4b9c576888c7',1,'stm32f429xx_i2c_driver.h']]],
-  ['i2c_5fslavesenddata_18',['I2C_SlaveSendData',['../group___functions.html#gaf199c15c6b266f41d6b0305cef8db719',1,'stm32f429xx_i2c_driver.h']]],
-  ['i2c_5fsm_5fspeed_5flimit_19',['I2C_SM_SPEED_LIMIT',['../group___defines.html#ga1d30e026f613e2538785f28b708a8173',1,'stm32f429xx_i2c_driver.h']]],
-  ['includes_20',['Includes',['../group___includes.html',1,'']]],
-  ['initialise_5fmonitor_5fhandles_21',['initialise_monitor_handles',['../syscalls_8c.html#a25c7f100d498300fff65568c2fcfe639',1,'syscalls.c']]]
+  ['otype_0',['OType',['../group___g_p_i_o___driver___header.html#gaa8937a8eabf2358fc8a38c8f67fa98cc',1,'GPIO_PinConfig_t']]],
+  ['outputspeed_1',['OutputSpeed',['../group___g_p_i_o___driver___header.html#ga3aa707ffa633fad03774a3df9b18e411',1,'GPIO_PinConfig_t']]]
 ];

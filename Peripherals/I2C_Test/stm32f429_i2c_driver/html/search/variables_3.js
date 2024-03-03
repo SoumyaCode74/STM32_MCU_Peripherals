@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['environ_0',['environ',['../syscalls_8c.html#aa006daaf11f1e2e45a6ababaf463212b',1,'syscalls.c']]]
+  ['gpio_5fpinconfig_0',['GPIO_PinConfig',['../group___g_p_i_o___driver___header.html#ga33cefa400df9fdae0bbfd207a3d53551',1,'GPIO_Handle_t']]]
 ];

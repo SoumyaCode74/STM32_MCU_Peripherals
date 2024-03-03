@@ -1,5 +1,8 @@
 var searchData=
 [
-  ['hgpio_0',['hGPIO',['../group___i2_c___driver___header.html#gac9ef90c2cf1fa10ab6a846573f1b0152',1,'I2C_Handle_t']]],
-  ['hrcc_1',['hRCC',['../group___g_p_i_o___driver___header.html#ga5b86a2cea7bc03294663058283fbb740',1,'GPIO_Handle_t']]]
+  ['i2c_5fackcontrol_0',['I2C_AckControl',['../group___i2_c___driver___header.html#ga88720fb61655cb514b0f2bdaa4ee8c2f',1,'I2C_PinConfig_t']]],
+  ['i2c_5fdeviceaddress_1',['I2C_DeviceAddress',['../group___i2_c___driver___header.html#gae741b4bdc43cc40ccb24557ae4be6712',1,'I2C_PinConfig_t']]],
+  ['i2c_5ffmdutycycle_2',['I2C_FMDutyCycle',['../group___i2_c___driver___header.html#gab4114e274f8848e073de0c689369f420',1,'I2C_PinConfig_t']]],
+  ['i2c_5fpinconfig_3',['I2C_PinConfig',['../group___i2_c___driver___header.html#ga0b12cd2c9fc8177f1db4e89ce90627db',1,'I2C_Handle_t']]],
+  ['i2c_5fsclspeed_4',['I2C_SCLSpeed',['../group___i2_c___driver___header.html#gadbb082b2896fb5691b2ba1dceb8ca5ca',1,'I2C_PinConfig_t']]]
 ];

@@ -1,13 +1,14 @@
 <map id="I2C_Handle_t" name="I2C_Handle_t">
-<area shape="rect" id="Node000001" title=" " alt="" coords="151,619,240,688"/>
-<area shape="rect" id="Node000002" href="$struct_g_p_i_o___handle__t.html" title=" " alt="" coords="72,453,175,523"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="141,522,176,602,171,604,136,524"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="157,619,247,688"/>
+<area shape="rect" id="Node000002" href="$struct_g_p_i_o___handle__t.html" title=" " alt="" coords="151,453,253,523"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="205,523,205,601,199,601,199,523"/>
 <area shape="rect" id="Node000003" href="$struct_r_c_c___handle__t.html" title=" " alt="" coords="7,235,104,304"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="68,303,110,436,105,438,63,305"/>
+<area shape="poly" id="edge5_Node000001_Node000003" title=" " alt="" coords="48,304,38,355,31,420,36,489,44,522,57,553,74,577,95,597,143,627,140,631,92,601,70,580,53,556,39,524,31,489,26,420,32,355,43,303"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="80,302,172,438,168,441,76,305"/>
 <area shape="rect" id="Node000004" href="$struct_r_c_c___config__t.html" title=" " alt="" coords="5,5,105,117"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="58,117,58,218,53,218,53,117"/>
-<area shape="rect" id="Node000005" href="$struct_g_p_i_o___pin_config__t.html" title=" " alt="" coords="129,181,254,357"/>
-<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="167,358,142,438,136,436,162,356"/>
-<area shape="rect" id="Node000006" href="$struct_i2_c___pin_config__t.html" title=" " alt="" coords="199,421,335,555"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="244,555,227,596,223,604,218,602,222,594,240,553"/>
+<area shape="rect" id="Node000005" href="$struct_g_p_i_o___pin_config__t.html" title=" " alt="" coords="139,181,265,357"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="205,357,205,436,199,436,199,357"/>
+<area shape="rect" id="Node000006" href="$struct_i2_c___pin_config__t.html" title=" " alt="" coords="278,421,414,555"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="295,556,260,596,249,608,245,605,256,593,291,553"/>
 </map>

@@ -19,7 +19,9 @@
 #include "stm32f429xx_rcc_driver.h"
 #include "stm32f429xx_i2c_driver.h"
 
-#define DELAY (5000*1)
+#define DELAY 					(5000*1)
+#define I2C_SCL_SPEED			(50*1000)
+#define I2C1_CLKPOS				(BIT21)
 
 #if !defined(__SOFT_FP__) && defined(__ARM_FP) && 0
   #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use."
@@ -40,33 +42,42 @@ int main(void)
 	hGPIO_Led.GPIO_PinConfig.Pin = 13;
 	hGPIO_Led.GPIO_PinConfig.Mode = 1;
 
-	/*!< Configure the RCC object handle for I2C Master */
-	RCC_Handle_t hRCC_I2C_Master;
-	hRCC_I2C_Master.RCC_Config.bus = APB1;
-	hRCC_I2C_Master.RCC_Config.prescaler = APB1_DIVIDE_BY_1;
-	hRCC_I2C_Master.RCC_Config.clock_source = HSI;
-	hRCC_I2C_Master.pRCC = RCC;
+	/*!< Configure the RCC object handle for I2C Master peripheral*/
+	RCC_Handle_t hRCC_I2C_Master_Periph;
+	hRCC_I2C_Master_Periph.RCC_Config.bus = APB1;
+	hRCC_I2C_Master_Periph.RCC_Config.prescaler = APB1_DIVIDE_BY_1;
+	hRCC_I2C_Master_Periph.RCC_Config.clock_source = HSI;
+	hRCC_I2C_Master_Periph.pRCC = RCC;
+	/*!< Configure the RCC object handle for I2C Master GPIO*/
+	RCC_Handle_t hRCC_I2C_Master_GPIO;
+	hRCC_I2C_Master_GPIO.RCC_Config.bus = AHB1;
+	hRCC_I2C_Master_GPIO.RCC_Config.prescaler = AHB_DIVIDE_BY_1;
+	hRCC_I2C_Master_GPIO.RCC_Config.clock_source = HSI;
+	hRCC_I2C_Master_GPIO.pRCC = RCC;
 	/*!< Configure the GPIO object handle for I2C Master */
 	GPIO_Handle_t hGPIO_I2C_Master[2];
 	/*!< SCL pin of I2C Master */
-	hGPIO_I2C_Master[0].hRCC = &hRCC_I2C_Master;
+	hGPIO_I2C_Master[0].hRCC = &hRCC_I2C_Master_GPIO;
 	hGPIO_I2C_Master[0].pGPIOx = GPIOB;
 	hGPIO_I2C_Master[0].GPIO_PinConfig.Pin = 6;
 	hGPIO_I2C_Master[0].GPIO_PinConfig.Mode = 2;
 	hGPIO_I2C_Master[0].GPIO_PinConfig.AlternateFunction = 4;
+	hGPIO_I2C_Master[0].GPIO_PinConfig.PullUpDown = 1;
 	/*!< SDA pin of I2C Master */
-	hGPIO_I2C_Master[1].hRCC = &hRCC_I2C_Master;
+	hGPIO_I2C_Master[1].hRCC = &hRCC_I2C_Master_GPIO;
 	hGPIO_I2C_Master[1].pGPIOx = GPIOB;
 	hGPIO_I2C_Master[1].GPIO_PinConfig.Pin = 7;
 	hGPIO_I2C_Master[1].GPIO_PinConfig.Mode = 2;
 	hGPIO_I2C_Master[1].GPIO_PinConfig.AlternateFunction = 4;
+	hGPIO_I2C_Master[1].GPIO_PinConfig.PullUpDown = 1;
 	/*!< Configure the I2C master object handle */
 	I2C_Handle_t hI2CMaster;
 	hI2CMaster.hGPIO							= hGPIO_I2C_Master;
-	hI2CMaster.I2C_PinConfig.I2C_AckControl 	= 1; 			///< Set ACK to 1
-	hI2CMaster.I2C_PinConfig.I2C_SCLSpeed 		= 1000; 		///< Set SCLK speed of master
-	hI2CMaster.I2C_PinConfig.I2C_FMDutyCycle 	= 0;			///< Set the duty cycle to 0 for Standard mode
-	hI2CMaster.pI2Cx 							= I2C1;			///< Use I2C1 as Master
+	hI2CMaster.hRCCPeriph						= &hRCC_I2C_Master_Periph;
+	hI2CMaster.I2C_PinConfig.I2C_AckControl 	= 1; 				///< Set ACK to 1
+	hI2CMaster.I2C_PinConfig.I2C_SCLSpeed 		= I2C_SCL_SPEED; 	///< Set SCLK speed of master
+	hI2CMaster.I2C_PinConfig.I2C_FMDutyCycle 	= 0;				///< Set the duty cycle to 0 for Standard mode
+	hI2CMaster.pI2Cx 							= I2C1;				///< Use I2C1 as Master
 
 	/*!< Configure the RCC object handle for I2C Slave */
 	RCC_Handle_t hRCC_I2C_Slave;
@@ -92,22 +103,30 @@ int main(void)
 	/*!< Configure the I2C slave object handle */
 	I2C_Handle_t hI2CSlave;
 	hI2CSlave.hGPIO								= hGPIO_I2C_Slave;
-	hI2CSlave.I2C_PinConfig.I2C_AckControl		= 1;			///< Set ACK to 1
-	hI2CSlave.I2C_PinConfig.I2C_DeviceAddress 	= 0b1010111; 	///< 7-bit slave address
-	hI2CSlave.I2C_PinConfig.I2C_SCLSpeed		= 1000;			///< Set SCLK speed of master
-	hI2CSlave.I2C_PinConfig.I2C_FMDutyCycle		= 0;			///< Set the duty cycle to 0 for Standard Mode
-	hI2CSlave.pI2Cx 							= I2C2;			///< Use I2C2 as Slave
+	hI2CSlave.I2C_PinConfig.I2C_AckControl		= 1;				///< Set ACK to 1
+	hI2CSlave.I2C_PinConfig.I2C_DeviceAddress 	= 0b01010111; 		///< 7-bit slave address, padded by MSB 0
+	hI2CSlave.I2C_PinConfig.I2C_SCLSpeed		= I2C_SCL_SPEED;	///< Set SCLK speed of master
+	hI2CSlave.I2C_PinConfig.I2C_FMDutyCycle		= 0;				///< Set the duty cycle to 0 for Standard Mode
+	hI2CSlave.pI2Cx 							= I2C2;				///< Use I2C2 as Slave
 
 	/*!< Set up clock access to GPIOG port */
 	RCC_SetPrescaler(&hRCC_Led, hRCC_Led.RCC_Config.prescaler);
-	RCC_EnableClock(&hRCC_Led, PORT_G);
+//	RCC_EnableClock(&hRCC_Led, PORT_G);
+	/*!< Set up clock access to I2C master peripheral */
+	RCC_SetPrescaler(&hRCC_I2C_Master_Periph, hRCC_I2C_Master_Periph.RCC_Config.prescaler);
+	RCC_EnableClock(&hRCC_I2C_Master_Periph, 21);
 	/*!< Initialize GPIOG for LED operation */
 	GPIO_Init(&hGPIO_Led);
-
+	/*!< Initialize GPIO for I2C master SCL and SDA */
+	GPIO_Init(&hGPIO_I2C_Master[0]);
+	GPIO_Init(&hGPIO_I2C_Master[1]);
+	/*!< Configure I2C Master */
+	I2C_Init(&hI2CMaster);
 	for(;;){
 		GPIO_Set_Bit(&hGPIO_Led);
 		for(int i = 0; i < DELAY; i++);
 		GPIO_Clear_Bit(&hGPIO_Led);
 		for(int i = 0; i < DELAY; i++);
+		/*! Continuously send an array of bytes from I2C Master */
 	}
 }

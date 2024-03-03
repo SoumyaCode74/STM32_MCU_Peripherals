@@ -132,12 +132,18 @@ Include dependency graph for stm32f429xx_i2c_driver.c:</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gab1b217b9a85be4c9840e243bda3408e9" id="r_gab1b217b9a85be4c9840e243bda3408e9"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___functions.html#gab1b217b9a85be4c9840e243bda3408e9">GetPCLKFrequency</a> (<a class="el" href="struct_i2_c___handle__t.html">I2C_Handle_t</a> *pI2CHanlde)</td></tr>
+<tr class="memitem:gab1b217b9a85be4c9840e243bda3408e9" id="r_gab1b217b9a85be4c9840e243bda3408e9"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___functions.html#gab1b217b9a85be4c9840e243bda3408e9">GetPCLKFrequency</a> (<a class="el" href="struct_i2_c___handle__t.html">I2C_Handle_t</a> *pI2CHandle)</td></tr>
 <tr class="memdesc:gab1b217b9a85be4c9840e243bda3408e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the clock frequency of PCLK.  <br /></td></tr>
 <tr class="separator:gab1b217b9a85be4c9840e243bda3408e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9b83058c3356c704a9c0f3cdfeff8260" id="r_ga9b83058c3356c704a9c0f3cdfeff8260"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___functions.html#ga9b83058c3356c704a9c0f3cdfeff8260">I2C_Init</a> (<a class="el" href="struct_i2_c___handle__t.html">I2C_Handle_t</a> *pI2CHandle)</td></tr>
 <tr class="memdesc:ga9b83058c3356c704a9c0f3cdfeff8260"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the I2C peripheral module based on the SCLK frequency, Device address (if it is a slave), Acknowledgement enable, and Fast Mode Duty Cycle.  <br /></td></tr>
 <tr class="separator:ga9b83058c3356c704a9c0f3cdfeff8260"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaad2b04ff6fed6a2a2b672144daee1a05" id="r_gaad2b04ff6fed6a2a2b672144daee1a05"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___functions.html#gaad2b04ff6fed6a2a2b672144daee1a05">I2C_MasterSendData</a> (<a class="el" href="struct_i2_c___handle__t.html">I2C_Handle_t</a> *pI2CHandle, const uint8_t *pSlaveAddress, uint8_t *pData, uint32_t *pLength)</td></tr>
+<tr class="memdesc:gaad2b04ff6fed6a2a2b672144daee1a05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transmit the data byte to the slave.  <br /></td></tr>
+<tr class="separator:gaad2b04ff6fed6a2a2b672144daee1a05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga89c612e2e289c8109f97abf850500bd2" id="r_ga89c612e2e289c8109f97abf850500bd2"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___functions.html#ga89c612e2e289c8109f97abf850500bd2">I2C_GetFlagStatus</a> (<a class="el" href="group___aliases.html#gaae0399166eb7c9e558f61287856a996c">I2C_RegAddr_t</a> *pI2Cx, uint8_t flag_pos)</td></tr>
+<tr class="memdesc:ga89c612e2e289c8109f97abf850500bd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the status of flags from status register.  <br /></td></tr>
+<tr class="separator:ga89c612e2e289c8109f97abf850500bd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Driver source code for I2C peripheral of STM32F429xx MCU Created: 15-02-2024. </p>

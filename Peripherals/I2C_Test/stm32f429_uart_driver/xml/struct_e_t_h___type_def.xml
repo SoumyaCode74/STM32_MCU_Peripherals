@@ -1,0 +1,1022 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_e_t_h___type_def" kind="struct" language="C++" prot="public">
+    <compoundname>ETH_TypeDef</compoundname>
+    <includes refid="stm32f429xx_8h" local="no">stm32f429xx.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1a68d7e7c68b5b8adcf7b2b96bc1eea7d9" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::MACCR</definition>
+        <argsstring></argsstring>
+        <name>MACCR</name>
+        <qualifiedname>ETH_TypeDef::MACCR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="407" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="407" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1afdf573860dd5dcd13f2b6b19dcb92cc1" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::MACFFR</definition>
+        <argsstring></argsstring>
+        <name>MACFFR</name>
+        <qualifiedname>ETH_TypeDef::MACFFR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="408" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="408" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1ace541cc94118ec2db7c930a44960aa18" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::MACHTHR</definition>
+        <argsstring></argsstring>
+        <name>MACHTHR</name>
+        <qualifiedname>ETH_TypeDef::MACHTHR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="409" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="409" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1a22bd30c653a4c1c8f46a59e0a821dcf8" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::MACHTLR</definition>
+        <argsstring></argsstring>
+        <name>MACHTLR</name>
+        <qualifiedname>ETH_TypeDef::MACHTLR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="410" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="410" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1af697fcc940139f7dcb483766420852be" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::MACMIIAR</definition>
+        <argsstring></argsstring>
+        <name>MACMIIAR</name>
+        <qualifiedname>ETH_TypeDef::MACMIIAR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="411" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="411" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1a3d4c60bb689285b937c939b36a1233a3" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::MACMIIDR</definition>
+        <argsstring></argsstring>
+        <name>MACMIIDR</name>
+        <qualifiedname>ETH_TypeDef::MACMIIDR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="412" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="412" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1acdbe493d9d68ddfed4c758f0a7bde058" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::MACFCR</definition>
+        <argsstring></argsstring>
+        <name>MACFCR</name>
+        <qualifiedname>ETH_TypeDef::MACFCR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="413" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="413" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1a0792c8c170502e3466518d200ca297c3" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::MACVLANTR</definition>
+        <argsstring></argsstring>
+        <name>MACVLANTR</name>
+        <qualifiedname>ETH_TypeDef::MACVLANTR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="414" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="414" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1a77b23b4cce3105e15265164ed009c25e" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t ETH_TypeDef::RESERVED0[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>RESERVED0</name>
+        <qualifiedname>ETH_TypeDef::RESERVED0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="415" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="415" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1a8cd8da723ca1469d767de1334e16ec9d" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::MACRWUFFR</definition>
+        <argsstring></argsstring>
+        <name>MACRWUFFR</name>
+        <qualifiedname>ETH_TypeDef::MACRWUFFR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="416" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="416" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1a1deaafa44dbc3c8a2daaaf317dee5624" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::MACPMTCSR</definition>
+        <argsstring></argsstring>
+        <name>MACPMTCSR</name>
+        <qualifiedname>ETH_TypeDef::MACPMTCSR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="417" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="417" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1ae84a49b5db45bb77b8b9fe72a6c980f5" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t ETH_TypeDef::RESERVED1</definition>
+        <argsstring></argsstring>
+        <name>RESERVED1</name>
+        <qualifiedname>ETH_TypeDef::RESERVED1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="418" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="418" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1a6ea6ed971b3b0039cedcebcfdaf59f16" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::MACDBGR</definition>
+        <argsstring></argsstring>
+        <name>MACDBGR</name>
+        <qualifiedname>ETH_TypeDef::MACDBGR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="419" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="419" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1a9bee2fa58555f6725fc14a8d42484d42" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::MACSR</definition>
+        <argsstring></argsstring>
+        <name>MACSR</name>
+        <qualifiedname>ETH_TypeDef::MACSR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="420" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="420" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1a45d413bc59caf6c14eb230266d7ab8c3" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::MACIMR</definition>
+        <argsstring></argsstring>
+        <name>MACIMR</name>
+        <qualifiedname>ETH_TypeDef::MACIMR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="421" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="421" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1aee8d5fcb4edf8c156e70188d7ab24423" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::MACA0HR</definition>
+        <argsstring></argsstring>
+        <name>MACA0HR</name>
+        <qualifiedname>ETH_TypeDef::MACA0HR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="422" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="422" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1a9c939e1e21924c888ee2c31dee9e810a" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::MACA0LR</definition>
+        <argsstring></argsstring>
+        <name>MACA0LR</name>
+        <qualifiedname>ETH_TypeDef::MACA0LR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="423" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="423" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1a8f7f8cbf64bf3ce73a6d25ca019ca712" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::MACA1HR</definition>
+        <argsstring></argsstring>
+        <name>MACA1HR</name>
+        <qualifiedname>ETH_TypeDef::MACA1HR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="424" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="424" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1ad0b7882917068bd398d4d8e209794ead" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::MACA1LR</definition>
+        <argsstring></argsstring>
+        <name>MACA1LR</name>
+        <qualifiedname>ETH_TypeDef::MACA1LR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="425" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="425" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1a1ad00033d223abb9075df5bf38894445" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::MACA2HR</definition>
+        <argsstring></argsstring>
+        <name>MACA2HR</name>
+        <qualifiedname>ETH_TypeDef::MACA2HR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="426" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="426" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1ae9332525bb7ec86518eecf7153caef19" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::MACA2LR</definition>
+        <argsstring></argsstring>
+        <name>MACA2LR</name>
+        <qualifiedname>ETH_TypeDef::MACA2LR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="427" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="427" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1ad4dd976fada7085d87aa017f160e70d4" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::MACA3HR</definition>
+        <argsstring></argsstring>
+        <name>MACA3HR</name>
+        <qualifiedname>ETH_TypeDef::MACA3HR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="428" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="428" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1af31f33c1487ae0ee89ac427d9f0f037d" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::MACA3LR</definition>
+        <argsstring></argsstring>
+        <name>MACA3LR</name>
+        <qualifiedname>ETH_TypeDef::MACA3LR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="429" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="429" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1a47cde93bacea505d8d5534aa9b995e91" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t ETH_TypeDef::RESERVED2[40]</definition>
+        <argsstring>[40]</argsstring>
+        <name>RESERVED2</name>
+        <qualifiedname>ETH_TypeDef::RESERVED2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="430" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="430" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1a530d6551e73b9b616d8dc23a53e29708" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::MMCCR</definition>
+        <argsstring></argsstring>
+        <name>MMCCR</name>
+        <qualifiedname>ETH_TypeDef::MMCCR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="431" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="431" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1a336820119836db549e754619be7f6aa5" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::MMCRIR</definition>
+        <argsstring></argsstring>
+        <name>MMCRIR</name>
+        <qualifiedname>ETH_TypeDef::MMCRIR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="432" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="432" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1aa417b3dbd6f2bd86562b6a09f51d97ac" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::MMCTIR</definition>
+        <argsstring></argsstring>
+        <name>MMCTIR</name>
+        <qualifiedname>ETH_TypeDef::MMCTIR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="433" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="433" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1a80c2cf41b95fc14f304d60e4421b1bbd" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::MMCRIMR</definition>
+        <argsstring></argsstring>
+        <name>MMCRIMR</name>
+        <qualifiedname>ETH_TypeDef::MMCRIMR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="434" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="434" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1acbe0f472d72f011c5903806d12c4e086" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::MMCTIMR</definition>
+        <argsstring></argsstring>
+        <name>MMCTIMR</name>
+        <qualifiedname>ETH_TypeDef::MMCTIMR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="435" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="435" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1a29ee4a2d45de49e668cb116aaf8f81be" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t ETH_TypeDef::RESERVED3[14]</definition>
+        <argsstring>[14]</argsstring>
+        <name>RESERVED3</name>
+        <qualifiedname>ETH_TypeDef::RESERVED3</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="436" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="436" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1a1b55806b0e28cc18316cb1b9350aab2c" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::MMCTGFSCCR</definition>
+        <argsstring></argsstring>
+        <name>MMCTGFSCCR</name>
+        <qualifiedname>ETH_TypeDef::MMCTGFSCCR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="437" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="437" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1acec318669d03f140af4a760093411150" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::MMCTGFMSCCR</definition>
+        <argsstring></argsstring>
+        <name>MMCTGFMSCCR</name>
+        <qualifiedname>ETH_TypeDef::MMCTGFMSCCR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="438" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="438" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1a4ee31fe4f86d03838346172e368842d6" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t ETH_TypeDef::RESERVED4[5]</definition>
+        <argsstring>[5]</argsstring>
+        <name>RESERVED4</name>
+        <qualifiedname>ETH_TypeDef::RESERVED4</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="439" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="439" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1a0e2a79b3b31db0f07e269db092a74f1e" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::MMCTGFCR</definition>
+        <argsstring></argsstring>
+        <name>MMCTGFCR</name>
+        <qualifiedname>ETH_TypeDef::MMCTGFCR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="440" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="440" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1a109a8b399964988c3cf76db98789e2c1" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t ETH_TypeDef::RESERVED5[10]</definition>
+        <argsstring>[10]</argsstring>
+        <name>RESERVED5</name>
+        <qualifiedname>ETH_TypeDef::RESERVED5</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="441" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="441" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1afe50f13adc614758cba541f942e8ef0e" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::MMCRFCECR</definition>
+        <argsstring></argsstring>
+        <name>MMCRFCECR</name>
+        <qualifiedname>ETH_TypeDef::MMCRFCECR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="442" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="442" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1ad057b9031295ab3b64e79145f7607469" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::MMCRFAECR</definition>
+        <argsstring></argsstring>
+        <name>MMCRFAECR</name>
+        <qualifiedname>ETH_TypeDef::MMCRFAECR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="443" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="443" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1a385c760f26ab4a4f8ce38a956e20d453" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t ETH_TypeDef::RESERVED6[10]</definition>
+        <argsstring>[10]</argsstring>
+        <name>RESERVED6</name>
+        <qualifiedname>ETH_TypeDef::RESERVED6</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="444" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="444" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1a832a684c8f476941845d0fcba0fb75fc" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::MMCRGUFCR</definition>
+        <argsstring></argsstring>
+        <name>MMCRGUFCR</name>
+        <qualifiedname>ETH_TypeDef::MMCRGUFCR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="445" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="445" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1ad7dff0a9ab65fe6273a8cab3e4152ed3" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t ETH_TypeDef::RESERVED7[334]</definition>
+        <argsstring>[334]</argsstring>
+        <name>RESERVED7</name>
+        <qualifiedname>ETH_TypeDef::RESERVED7</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="446" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="446" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1a09c223e5355a8c5885f3e168dd568079" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::PTPTSCR</definition>
+        <argsstring></argsstring>
+        <name>PTPTSCR</name>
+        <qualifiedname>ETH_TypeDef::PTPTSCR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="447" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="447" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1ae4f81e69555bf3deef2f1404752861ad" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::PTPSSIR</definition>
+        <argsstring></argsstring>
+        <name>PTPSSIR</name>
+        <qualifiedname>ETH_TypeDef::PTPSSIR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="448" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="448" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1a30881f198009fd17e28644d9449045f5" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::PTPTSHR</definition>
+        <argsstring></argsstring>
+        <name>PTPTSHR</name>
+        <qualifiedname>ETH_TypeDef::PTPTSHR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="449" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="449" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1a56638794c54141bb1b8ef6ac31a6997d" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::PTPTSLR</definition>
+        <argsstring></argsstring>
+        <name>PTPTSLR</name>
+        <qualifiedname>ETH_TypeDef::PTPTSLR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="450" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="450" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1a5e5c20f4ddc155ec5c7f976ebfb60c2a" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::PTPTSHUR</definition>
+        <argsstring></argsstring>
+        <name>PTPTSHUR</name>
+        <qualifiedname>ETH_TypeDef::PTPTSHUR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="451" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="451" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1a0b388c052998631c58d82536ecf3c560" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::PTPTSLUR</definition>
+        <argsstring></argsstring>
+        <name>PTPTSLUR</name>
+        <qualifiedname>ETH_TypeDef::PTPTSLUR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="452" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="452" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1aa10f988327487d24260f0af1890273b2" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::PTPTSAR</definition>
+        <argsstring></argsstring>
+        <name>PTPTSAR</name>
+        <qualifiedname>ETH_TypeDef::PTPTSAR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="453" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="453" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1a10ebf9b64b96114e8bc16bf03d24a4b2" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::PTPTTHR</definition>
+        <argsstring></argsstring>
+        <name>PTPTTHR</name>
+        <qualifiedname>ETH_TypeDef::PTPTTHR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="454" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="454" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1a018a92d638dd4bd98b1640c8dae2a289" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::PTPTTLR</definition>
+        <argsstring></argsstring>
+        <name>PTPTTLR</name>
+        <qualifiedname>ETH_TypeDef::PTPTTLR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="455" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="455" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1a4b086ebc9087098ce0909c37d9f784b9" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::RESERVED8</definition>
+        <argsstring></argsstring>
+        <name>RESERVED8</name>
+        <qualifiedname>ETH_TypeDef::RESERVED8</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="456" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="456" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1a42a4a6ca26d00623ed87ff25483a6dfb" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::PTPTSSR</definition>
+        <argsstring></argsstring>
+        <name>PTPTSSR</name>
+        <qualifiedname>ETH_TypeDef::PTPTSSR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="457" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="457" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1adcfd698765291bf8e4f5d6724bf42c1c" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t ETH_TypeDef::RESERVED9[565]</definition>
+        <argsstring>[565]</argsstring>
+        <name>RESERVED9</name>
+        <qualifiedname>ETH_TypeDef::RESERVED9</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="458" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="458" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1a32b1c260b8ab0b3f67cbfa97f4d910d1" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::DMABMR</definition>
+        <argsstring></argsstring>
+        <name>DMABMR</name>
+        <qualifiedname>ETH_TypeDef::DMABMR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="459" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="459" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1aab836646e2e03cde9af74e439e875403" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::DMATPDR</definition>
+        <argsstring></argsstring>
+        <name>DMATPDR</name>
+        <qualifiedname>ETH_TypeDef::DMATPDR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="460" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="460" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1aedb2e74c294ffed25c952b17e5bc0fc4" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::DMARPDR</definition>
+        <argsstring></argsstring>
+        <name>DMARPDR</name>
+        <qualifiedname>ETH_TypeDef::DMARPDR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="461" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="461" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1a46aafb9acbd753c23f89a9f57b68b64f" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::DMARDLAR</definition>
+        <argsstring></argsstring>
+        <name>DMARDLAR</name>
+        <qualifiedname>ETH_TypeDef::DMARDLAR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="462" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="462" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1a480a59fd0e4c6088a693fc8160831154" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::DMATDLAR</definition>
+        <argsstring></argsstring>
+        <name>DMATDLAR</name>
+        <qualifiedname>ETH_TypeDef::DMATDLAR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="463" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="463" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1aa55a721ec8bb2239012aa7202e75abef" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::DMASR</definition>
+        <argsstring></argsstring>
+        <name>DMASR</name>
+        <qualifiedname>ETH_TypeDef::DMASR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="464" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="464" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1a28b3943a7ad7db88c59a5f690446eacd" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::DMAOMR</definition>
+        <argsstring></argsstring>
+        <name>DMAOMR</name>
+        <qualifiedname>ETH_TypeDef::DMAOMR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="465" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="465" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1af35764e78c9cb2a8743822f63134ef42" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::DMAIER</definition>
+        <argsstring></argsstring>
+        <name>DMAIER</name>
+        <qualifiedname>ETH_TypeDef::DMAIER</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="466" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="466" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1aa031754e61b60bbbec393be19fb30036" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::DMAMFBOCR</definition>
+        <argsstring></argsstring>
+        <name>DMAMFBOCR</name>
+        <qualifiedname>ETH_TypeDef::DMAMFBOCR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="467" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="467" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1a2dd103ceba1159cefa4307bc31786640" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::DMARSWTR</definition>
+        <argsstring></argsstring>
+        <name>DMARSWTR</name>
+        <qualifiedname>ETH_TypeDef::DMARSWTR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="468" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="468" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1a830d55501ce06b93d8670ec02e58bb3e" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t ETH_TypeDef::RESERVED10[8]</definition>
+        <argsstring>[8]</argsstring>
+        <name>RESERVED10</name>
+        <qualifiedname>ETH_TypeDef::RESERVED10</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="469" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="469" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1ab02310e389320a383022b666af621ba9" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::DMACHTDR</definition>
+        <argsstring></argsstring>
+        <name>DMACHTDR</name>
+        <qualifiedname>ETH_TypeDef::DMACHTDR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="470" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="470" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1ab4a222f725cc43952993519b20466637" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::DMACHRDR</definition>
+        <argsstring></argsstring>
+        <name>DMACHRDR</name>
+        <qualifiedname>ETH_TypeDef::DMACHRDR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="471" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="471" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1abb2eba5ee2a1621abeeb59e3aadc0318" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::DMACHTBAR</definition>
+        <argsstring></argsstring>
+        <name>DMACHTBAR</name>
+        <qualifiedname>ETH_TypeDef::DMACHTBAR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="472" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="472" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_t_h___type_def_1a03160db5ffae457bab55c0358c4ef998" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t ETH_TypeDef::DMACHRBAR</definition>
+        <argsstring></argsstring>
+        <name>DMACHRBAR</name>
+        <qualifiedname>ETH_TypeDef::DMACHRBAR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="473" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="473" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Ethernet MAC. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Inc/stm32f429xx.h" line="405" column="1" bodyfile="Inc/stm32f429xx.h" bodystart="406" bodyend="474"/>
+    <listofallmembers>
+      <member refid="struct_e_t_h___type_def_1a32b1c260b8ab0b3f67cbfa97f4d910d1" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>DMABMR</name></member>
+      <member refid="struct_e_t_h___type_def_1a03160db5ffae457bab55c0358c4ef998" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>DMACHRBAR</name></member>
+      <member refid="struct_e_t_h___type_def_1ab4a222f725cc43952993519b20466637" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>DMACHRDR</name></member>
+      <member refid="struct_e_t_h___type_def_1abb2eba5ee2a1621abeeb59e3aadc0318" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>DMACHTBAR</name></member>
+      <member refid="struct_e_t_h___type_def_1ab02310e389320a383022b666af621ba9" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>DMACHTDR</name></member>
+      <member refid="struct_e_t_h___type_def_1af35764e78c9cb2a8743822f63134ef42" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>DMAIER</name></member>
+      <member refid="struct_e_t_h___type_def_1aa031754e61b60bbbec393be19fb30036" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>DMAMFBOCR</name></member>
+      <member refid="struct_e_t_h___type_def_1a28b3943a7ad7db88c59a5f690446eacd" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>DMAOMR</name></member>
+      <member refid="struct_e_t_h___type_def_1a46aafb9acbd753c23f89a9f57b68b64f" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>DMARDLAR</name></member>
+      <member refid="struct_e_t_h___type_def_1aedb2e74c294ffed25c952b17e5bc0fc4" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>DMARPDR</name></member>
+      <member refid="struct_e_t_h___type_def_1a2dd103ceba1159cefa4307bc31786640" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>DMARSWTR</name></member>
+      <member refid="struct_e_t_h___type_def_1aa55a721ec8bb2239012aa7202e75abef" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>DMASR</name></member>
+      <member refid="struct_e_t_h___type_def_1a480a59fd0e4c6088a693fc8160831154" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>DMATDLAR</name></member>
+      <member refid="struct_e_t_h___type_def_1aab836646e2e03cde9af74e439e875403" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>DMATPDR</name></member>
+      <member refid="struct_e_t_h___type_def_1aee8d5fcb4edf8c156e70188d7ab24423" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MACA0HR</name></member>
+      <member refid="struct_e_t_h___type_def_1a9c939e1e21924c888ee2c31dee9e810a" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MACA0LR</name></member>
+      <member refid="struct_e_t_h___type_def_1a8f7f8cbf64bf3ce73a6d25ca019ca712" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MACA1HR</name></member>
+      <member refid="struct_e_t_h___type_def_1ad0b7882917068bd398d4d8e209794ead" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MACA1LR</name></member>
+      <member refid="struct_e_t_h___type_def_1a1ad00033d223abb9075df5bf38894445" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MACA2HR</name></member>
+      <member refid="struct_e_t_h___type_def_1ae9332525bb7ec86518eecf7153caef19" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MACA2LR</name></member>
+      <member refid="struct_e_t_h___type_def_1ad4dd976fada7085d87aa017f160e70d4" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MACA3HR</name></member>
+      <member refid="struct_e_t_h___type_def_1af31f33c1487ae0ee89ac427d9f0f037d" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MACA3LR</name></member>
+      <member refid="struct_e_t_h___type_def_1a68d7e7c68b5b8adcf7b2b96bc1eea7d9" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MACCR</name></member>
+      <member refid="struct_e_t_h___type_def_1a6ea6ed971b3b0039cedcebcfdaf59f16" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MACDBGR</name></member>
+      <member refid="struct_e_t_h___type_def_1acdbe493d9d68ddfed4c758f0a7bde058" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MACFCR</name></member>
+      <member refid="struct_e_t_h___type_def_1afdf573860dd5dcd13f2b6b19dcb92cc1" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MACFFR</name></member>
+      <member refid="struct_e_t_h___type_def_1ace541cc94118ec2db7c930a44960aa18" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MACHTHR</name></member>
+      <member refid="struct_e_t_h___type_def_1a22bd30c653a4c1c8f46a59e0a821dcf8" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MACHTLR</name></member>
+      <member refid="struct_e_t_h___type_def_1a45d413bc59caf6c14eb230266d7ab8c3" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MACIMR</name></member>
+      <member refid="struct_e_t_h___type_def_1af697fcc940139f7dcb483766420852be" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MACMIIAR</name></member>
+      <member refid="struct_e_t_h___type_def_1a3d4c60bb689285b937c939b36a1233a3" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MACMIIDR</name></member>
+      <member refid="struct_e_t_h___type_def_1a1deaafa44dbc3c8a2daaaf317dee5624" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MACPMTCSR</name></member>
+      <member refid="struct_e_t_h___type_def_1a8cd8da723ca1469d767de1334e16ec9d" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MACRWUFFR</name></member>
+      <member refid="struct_e_t_h___type_def_1a9bee2fa58555f6725fc14a8d42484d42" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MACSR</name></member>
+      <member refid="struct_e_t_h___type_def_1a0792c8c170502e3466518d200ca297c3" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MACVLANTR</name></member>
+      <member refid="struct_e_t_h___type_def_1a530d6551e73b9b616d8dc23a53e29708" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MMCCR</name></member>
+      <member refid="struct_e_t_h___type_def_1ad057b9031295ab3b64e79145f7607469" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MMCRFAECR</name></member>
+      <member refid="struct_e_t_h___type_def_1afe50f13adc614758cba541f942e8ef0e" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MMCRFCECR</name></member>
+      <member refid="struct_e_t_h___type_def_1a832a684c8f476941845d0fcba0fb75fc" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MMCRGUFCR</name></member>
+      <member refid="struct_e_t_h___type_def_1a80c2cf41b95fc14f304d60e4421b1bbd" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MMCRIMR</name></member>
+      <member refid="struct_e_t_h___type_def_1a336820119836db549e754619be7f6aa5" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MMCRIR</name></member>
+      <member refid="struct_e_t_h___type_def_1a0e2a79b3b31db0f07e269db092a74f1e" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MMCTGFCR</name></member>
+      <member refid="struct_e_t_h___type_def_1acec318669d03f140af4a760093411150" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MMCTGFMSCCR</name></member>
+      <member refid="struct_e_t_h___type_def_1a1b55806b0e28cc18316cb1b9350aab2c" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MMCTGFSCCR</name></member>
+      <member refid="struct_e_t_h___type_def_1acbe0f472d72f011c5903806d12c4e086" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MMCTIMR</name></member>
+      <member refid="struct_e_t_h___type_def_1aa417b3dbd6f2bd86562b6a09f51d97ac" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>MMCTIR</name></member>
+      <member refid="struct_e_t_h___type_def_1ae4f81e69555bf3deef2f1404752861ad" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>PTPSSIR</name></member>
+      <member refid="struct_e_t_h___type_def_1aa10f988327487d24260f0af1890273b2" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>PTPTSAR</name></member>
+      <member refid="struct_e_t_h___type_def_1a09c223e5355a8c5885f3e168dd568079" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>PTPTSCR</name></member>
+      <member refid="struct_e_t_h___type_def_1a30881f198009fd17e28644d9449045f5" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>PTPTSHR</name></member>
+      <member refid="struct_e_t_h___type_def_1a5e5c20f4ddc155ec5c7f976ebfb60c2a" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>PTPTSHUR</name></member>
+      <member refid="struct_e_t_h___type_def_1a56638794c54141bb1b8ef6ac31a6997d" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>PTPTSLR</name></member>
+      <member refid="struct_e_t_h___type_def_1a0b388c052998631c58d82536ecf3c560" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>PTPTSLUR</name></member>
+      <member refid="struct_e_t_h___type_def_1a42a4a6ca26d00623ed87ff25483a6dfb" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>PTPTSSR</name></member>
+      <member refid="struct_e_t_h___type_def_1a10ebf9b64b96114e8bc16bf03d24a4b2" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>PTPTTHR</name></member>
+      <member refid="struct_e_t_h___type_def_1a018a92d638dd4bd98b1640c8dae2a289" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>PTPTTLR</name></member>
+      <member refid="struct_e_t_h___type_def_1a77b23b4cce3105e15265164ed009c25e" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>RESERVED0</name></member>
+      <member refid="struct_e_t_h___type_def_1ae84a49b5db45bb77b8b9fe72a6c980f5" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>RESERVED1</name></member>
+      <member refid="struct_e_t_h___type_def_1a830d55501ce06b93d8670ec02e58bb3e" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>RESERVED10</name></member>
+      <member refid="struct_e_t_h___type_def_1a47cde93bacea505d8d5534aa9b995e91" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>RESERVED2</name></member>
+      <member refid="struct_e_t_h___type_def_1a29ee4a2d45de49e668cb116aaf8f81be" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>RESERVED3</name></member>
+      <member refid="struct_e_t_h___type_def_1a4ee31fe4f86d03838346172e368842d6" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>RESERVED4</name></member>
+      <member refid="struct_e_t_h___type_def_1a109a8b399964988c3cf76db98789e2c1" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>RESERVED5</name></member>
+      <member refid="struct_e_t_h___type_def_1a385c760f26ab4a4f8ce38a956e20d453" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>RESERVED6</name></member>
+      <member refid="struct_e_t_h___type_def_1ad7dff0a9ab65fe6273a8cab3e4152ed3" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>RESERVED7</name></member>
+      <member refid="struct_e_t_h___type_def_1a4b086ebc9087098ce0909c37d9f784b9" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>RESERVED8</name></member>
+      <member refid="struct_e_t_h___type_def_1adcfd698765291bf8e4f5d6724bf42c1c" prot="public" virt="non-virtual"><scope>ETH_TypeDef</scope><name>RESERVED9</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

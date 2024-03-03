@@ -17,10 +17,14 @@ Include dependency graph for stm32f429xx\+\_\+i2c\+\_\+driver.\+c\+:
 \doxysubsubsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
-uint32\+\_\+t \mbox{\hyperlink{group___functions_gab1b217b9a85be4c9840e243bda3408e9}{Get\+PCLKFrequency}} (\mbox{\hyperlink{struct_i2_c___handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+I2\+CHanlde)
+uint32\+\_\+t \mbox{\hyperlink{group___functions_gab1b217b9a85be4c9840e243bda3408e9}{Get\+PCLKFrequency}} (\mbox{\hyperlink{struct_i2_c___handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+I2\+CHandle)
 \begin{DoxyCompactList}\small\item\em Return the clock frequency of PCLK. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{group___functions_ga9b83058c3356c704a9c0f3cdfeff8260}{I2\+C\+\_\+\+Init}} (\mbox{\hyperlink{struct_i2_c___handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+I2\+CHandle)
-\begin{DoxyCompactList}\small\item\em Initialize the I2C peripheral module based on the SCLK frequency, Device address (if it is a slave), Acknowledgement enable, and Fast Mode Duty Cycle. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Initialize the I2C peripheral module based on the SCLK frequency, Device address (if it is a slave), Acknowledgement enable, and Fast Mode Duty Cycle. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___functions_gaad2b04ff6fed6a2a2b672144daee1a05}{I2\+C\+\_\+\+Master\+Send\+Data}} (\mbox{\hyperlink{struct_i2_c___handle__t}{I2\+C\+\_\+\+Handle\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+I2\+CHandle, const uint8\+\_\+t \texorpdfstring{$\ast$}{*}p\+Slave\+Address, uint8\+\_\+t \texorpdfstring{$\ast$}{*}p\+Data, uint32\+\_\+t \texorpdfstring{$\ast$}{*}p\+Length)
+\begin{DoxyCompactList}\small\item\em Transmit the data byte to the slave. \end{DoxyCompactList}\item 
+uint8\+\_\+t \mbox{\hyperlink{group___functions_ga89c612e2e289c8109f97abf850500bd2}{I2\+C\+\_\+\+Get\+Flag\+Status}} (\mbox{\hyperlink{group___aliases_gaae0399166eb7c9e558f61287856a996c}{I2\+C\+\_\+\+Reg\+Addr\+\_\+t}} \texorpdfstring{$\ast$}{*}p\+I2\+Cx, uint8\+\_\+t flag\+\_\+pos)
+\begin{DoxyCompactList}\small\item\em Get the status of flags from status register. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \doxysubsection{Detailed Description}

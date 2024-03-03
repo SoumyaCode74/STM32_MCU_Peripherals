@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_e_x_t_i___type_def" kind="struct" language="C++" prot="public">
+    <compoundname>EXTI_TypeDef</compoundname>
+    <includes refid="stm32f429xx_8h" local="no">stm32f429xx.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_e_x_t_i___type_def_1a17d061db586d4a5aa646b68495a8e6a4" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t EXTI_TypeDef::IMR</definition>
+        <argsstring></argsstring>
+        <name>IMR</name>
+        <qualifiedname>EXTI_TypeDef::IMR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>EXTI Interrupt mask register, Address offset: 0x00 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="482" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="482" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_x_t_i___type_def_1a9c5bff67bf9499933959df7eb91a1bd6" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t EXTI_TypeDef::EMR</definition>
+        <argsstring></argsstring>
+        <name>EMR</name>
+        <qualifiedname>EXTI_TypeDef::EMR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>EXTI Event mask register, Address offset: 0x04 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="483" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="483" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_x_t_i___type_def_1ac019d211d8c880b327a1b90a06cc0675" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t EXTI_TypeDef::RTSR</definition>
+        <argsstring></argsstring>
+        <name>RTSR</name>
+        <qualifiedname>EXTI_TypeDef::RTSR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>EXTI Rising trigger selection register, Address offset: 0x08 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="484" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="484" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_x_t_i___type_def_1aee667dc148250bbf37fdc66dc4a9874d" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t EXTI_TypeDef::FTSR</definition>
+        <argsstring></argsstring>
+        <name>FTSR</name>
+        <qualifiedname>EXTI_TypeDef::FTSR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>EXTI Falling trigger selection register, Address offset: 0x0C </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="485" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="485" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_x_t_i___type_def_1a5c1f538e64ee90918cd158b808f5d4de" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t EXTI_TypeDef::SWIER</definition>
+        <argsstring></argsstring>
+        <name>SWIER</name>
+        <qualifiedname>EXTI_TypeDef::SWIER</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>EXTI Software interrupt event register, Address offset: 0x10 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="486" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="486" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_e_x_t_i___type_def_1a133294b87dbe6a01e8d9584338abc39a" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t EXTI_TypeDef::PR</definition>
+        <argsstring></argsstring>
+        <name>PR</name>
+        <qualifiedname>EXTI_TypeDef::PR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>EXTI Pending register, Address offset: 0x14 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="487" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="487" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>External Interrupt/Event Controller. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Inc/stm32f429xx.h" line="480" column="1" bodyfile="Inc/stm32f429xx.h" bodystart="481" bodyend="488"/>
+    <listofallmembers>
+      <member refid="struct_e_x_t_i___type_def_1a9c5bff67bf9499933959df7eb91a1bd6" prot="public" virt="non-virtual"><scope>EXTI_TypeDef</scope><name>EMR</name></member>
+      <member refid="struct_e_x_t_i___type_def_1aee667dc148250bbf37fdc66dc4a9874d" prot="public" virt="non-virtual"><scope>EXTI_TypeDef</scope><name>FTSR</name></member>
+      <member refid="struct_e_x_t_i___type_def_1a17d061db586d4a5aa646b68495a8e6a4" prot="public" virt="non-virtual"><scope>EXTI_TypeDef</scope><name>IMR</name></member>
+      <member refid="struct_e_x_t_i___type_def_1a133294b87dbe6a01e8d9584338abc39a" prot="public" virt="non-virtual"><scope>EXTI_TypeDef</scope><name>PR</name></member>
+      <member refid="struct_e_x_t_i___type_def_1ac019d211d8c880b327a1b90a06cc0675" prot="public" virt="non-virtual"><scope>EXTI_TypeDef</scope><name>RTSR</name></member>
+      <member refid="struct_e_x_t_i___type_def_1a5c1f538e64ee90918cd158b808f5d4de" prot="public" virt="non-virtual"><scope>EXTI_TypeDef</scope><name>SWIER</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

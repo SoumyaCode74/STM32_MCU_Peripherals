@@ -1,0 +1,306 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_u_s_b___o_t_g___global_type_def" kind="struct" language="C++" prot="public">
+    <compoundname>USB_OTG_GlobalTypeDef</compoundname>
+    <includes refid="stm32f429xx_8h" local="no">stm32f429xx.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_u_s_b___o_t_g___global_type_def_1a44d3a8825526e6f362da26bbdfb9c71d" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USB_OTG_GlobalTypeDef::GOTGCTL</definition>
+        <argsstring></argsstring>
+        <name>GOTGCTL</name>
+        <qualifiedname>USB_OTG_GlobalTypeDef::GOTGCTL</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>USB_OTG Control and Status Register 000h </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="913" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="913" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_s_b___o_t_g___global_type_def_1a09055525656d2be5adce9471c2590c49" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USB_OTG_GlobalTypeDef::GOTGINT</definition>
+        <argsstring></argsstring>
+        <name>GOTGINT</name>
+        <qualifiedname>USB_OTG_GlobalTypeDef::GOTGINT</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>USB_OTG Interrupt Register 004h </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="914" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="914" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_s_b___o_t_g___global_type_def_1a212059dc4a38136fee7fb358fc74c0d0" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USB_OTG_GlobalTypeDef::GAHBCFG</definition>
+        <argsstring></argsstring>
+        <name>GAHBCFG</name>
+        <qualifiedname>USB_OTG_GlobalTypeDef::GAHBCFG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Core AHB Configuration Register 008h </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="915" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="915" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_s_b___o_t_g___global_type_def_1a2094f12e3e4d4e6cc45047dedbfd0acd" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USB_OTG_GlobalTypeDef::GUSBCFG</definition>
+        <argsstring></argsstring>
+        <name>GUSBCFG</name>
+        <qualifiedname>USB_OTG_GlobalTypeDef::GUSBCFG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Core USB Configuration Register 00Ch </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="916" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="916" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_s_b___o_t_g___global_type_def_1a75148d8257eaeec482aa99f8b4a8b0fb" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USB_OTG_GlobalTypeDef::GRSTCTL</definition>
+        <argsstring></argsstring>
+        <name>GRSTCTL</name>
+        <qualifiedname>USB_OTG_GlobalTypeDef::GRSTCTL</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Core Reset Register 010h </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="917" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="917" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_s_b___o_t_g___global_type_def_1a0c0a00511f6c07b8609b54adb14319da" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USB_OTG_GlobalTypeDef::GINTSTS</definition>
+        <argsstring></argsstring>
+        <name>GINTSTS</name>
+        <qualifiedname>USB_OTG_GlobalTypeDef::GINTSTS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Core Interrupt Register 014h </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="918" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="918" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_s_b___o_t_g___global_type_def_1a42668fa352b82eb13164a99664956271" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USB_OTG_GlobalTypeDef::GINTMSK</definition>
+        <argsstring></argsstring>
+        <name>GINTMSK</name>
+        <qualifiedname>USB_OTG_GlobalTypeDef::GINTMSK</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Core Interrupt Mask Register 018h </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="919" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="919" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_s_b___o_t_g___global_type_def_1a77b651a1120fc5fb647eaccac6f002c6" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USB_OTG_GlobalTypeDef::GRXSTSR</definition>
+        <argsstring></argsstring>
+        <name>GRXSTSR</name>
+        <qualifiedname>USB_OTG_GlobalTypeDef::GRXSTSR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Receive Sts Q Read Register 01Ch </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="920" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="920" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_s_b___o_t_g___global_type_def_1a060364111cf507dfab9bb6503477983a" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USB_OTG_GlobalTypeDef::GRXSTSP</definition>
+        <argsstring></argsstring>
+        <name>GRXSTSP</name>
+        <qualifiedname>USB_OTG_GlobalTypeDef::GRXSTSP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Receive Sts Q Read &amp; POP Register 020h </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="921" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="921" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_s_b___o_t_g___global_type_def_1ade50afc41de620913eaf1bc66d93cd3a" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USB_OTG_GlobalTypeDef::GRXFSIZ</definition>
+        <argsstring></argsstring>
+        <name>GRXFSIZ</name>
+        <qualifiedname>USB_OTG_GlobalTypeDef::GRXFSIZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Receive FIFO Size Register 024h </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="922" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="922" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_s_b___o_t_g___global_type_def_1aa68d26991ddeec06897297c110c11503" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USB_OTG_GlobalTypeDef::DIEPTXF0_HNPTXFSIZ</definition>
+        <argsstring></argsstring>
+        <name>DIEPTXF0_HNPTXFSIZ</name>
+        <qualifiedname>USB_OTG_GlobalTypeDef::DIEPTXF0_HNPTXFSIZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>EP0 / Non Periodic Tx FIFO Size Register 028h </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="923" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="923" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_s_b___o_t_g___global_type_def_1a99c998f37e7a88a26f22defb10a1e83a" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USB_OTG_GlobalTypeDef::HNPTXSTS</definition>
+        <argsstring></argsstring>
+        <name>HNPTXSTS</name>
+        <qualifiedname>USB_OTG_GlobalTypeDef::HNPTXSTS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Non Periodic Tx FIFO/Queue Sts reg 02Ch </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="924" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="924" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_s_b___o_t_g___global_type_def_1a978a73c27d2afe65def81f28b881e138" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t USB_OTG_GlobalTypeDef::Reserved30[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>Reserved30</name>
+        <qualifiedname>USB_OTG_GlobalTypeDef::Reserved30</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved 030h </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="925" column="12" bodyfile="Inc/stm32f429xx.h" bodystart="925" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_s_b___o_t_g___global_type_def_1a9f94762e8ec6d3984e2da3f48bae8a7b" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USB_OTG_GlobalTypeDef::GCCFG</definition>
+        <argsstring></argsstring>
+        <name>GCCFG</name>
+        <qualifiedname>USB_OTG_GlobalTypeDef::GCCFG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>General Purpose IO Register 038h </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="926" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="926" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_s_b___o_t_g___global_type_def_1a5c67046606b7e64fb03c4ac550156156" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USB_OTG_GlobalTypeDef::CID</definition>
+        <argsstring></argsstring>
+        <name>CID</name>
+        <qualifiedname>USB_OTG_GlobalTypeDef::CID</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>User ID Register 03Ch </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="927" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="927" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_s_b___o_t_g___global_type_def_1ab32b3885e27effc89f6ffe83d46ddd8e" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t USB_OTG_GlobalTypeDef::Reserved40[48]</definition>
+        <argsstring>[48]</argsstring>
+        <name>Reserved40</name>
+        <qualifiedname>USB_OTG_GlobalTypeDef::Reserved40</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved 0x40-0xFF </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="928" column="13" bodyfile="Inc/stm32f429xx.h" bodystart="928" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_s_b___o_t_g___global_type_def_1ad50445f076f99e6b3d0cfb2643f40fac" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USB_OTG_GlobalTypeDef::HPTXFSIZ</definition>
+        <argsstring></argsstring>
+        <name>HPTXFSIZ</name>
+        <qualifiedname>USB_OTG_GlobalTypeDef::HPTXFSIZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Host Periodic Tx FIFO Size Reg 100h </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="929" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="929" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_s_b___o_t_g___global_type_def_1a8027d5b1a53306f5440506ae4915dd52" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t USB_OTG_GlobalTypeDef::DIEPTXF[0x0F]</definition>
+        <argsstring>[0x0F]</argsstring>
+        <name>DIEPTXF</name>
+        <qualifiedname>USB_OTG_GlobalTypeDef::DIEPTXF</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>dev Periodic Transmit FIFO <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="930" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="930" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>USB_OTG_Core_Registers. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Inc/stm32f429xx.h" line="911" column="1" bodyfile="Inc/stm32f429xx.h" bodystart="912" bodyend="931"/>
+    <listofallmembers>
+      <member refid="struct_u_s_b___o_t_g___global_type_def_1a5c67046606b7e64fb03c4ac550156156" prot="public" virt="non-virtual"><scope>USB_OTG_GlobalTypeDef</scope><name>CID</name></member>
+      <member refid="struct_u_s_b___o_t_g___global_type_def_1a8027d5b1a53306f5440506ae4915dd52" prot="public" virt="non-virtual"><scope>USB_OTG_GlobalTypeDef</scope><name>DIEPTXF</name></member>
+      <member refid="struct_u_s_b___o_t_g___global_type_def_1aa68d26991ddeec06897297c110c11503" prot="public" virt="non-virtual"><scope>USB_OTG_GlobalTypeDef</scope><name>DIEPTXF0_HNPTXFSIZ</name></member>
+      <member refid="struct_u_s_b___o_t_g___global_type_def_1a212059dc4a38136fee7fb358fc74c0d0" prot="public" virt="non-virtual"><scope>USB_OTG_GlobalTypeDef</scope><name>GAHBCFG</name></member>
+      <member refid="struct_u_s_b___o_t_g___global_type_def_1a9f94762e8ec6d3984e2da3f48bae8a7b" prot="public" virt="non-virtual"><scope>USB_OTG_GlobalTypeDef</scope><name>GCCFG</name></member>
+      <member refid="struct_u_s_b___o_t_g___global_type_def_1a42668fa352b82eb13164a99664956271" prot="public" virt="non-virtual"><scope>USB_OTG_GlobalTypeDef</scope><name>GINTMSK</name></member>
+      <member refid="struct_u_s_b___o_t_g___global_type_def_1a0c0a00511f6c07b8609b54adb14319da" prot="public" virt="non-virtual"><scope>USB_OTG_GlobalTypeDef</scope><name>GINTSTS</name></member>
+      <member refid="struct_u_s_b___o_t_g___global_type_def_1a44d3a8825526e6f362da26bbdfb9c71d" prot="public" virt="non-virtual"><scope>USB_OTG_GlobalTypeDef</scope><name>GOTGCTL</name></member>
+      <member refid="struct_u_s_b___o_t_g___global_type_def_1a09055525656d2be5adce9471c2590c49" prot="public" virt="non-virtual"><scope>USB_OTG_GlobalTypeDef</scope><name>GOTGINT</name></member>
+      <member refid="struct_u_s_b___o_t_g___global_type_def_1a75148d8257eaeec482aa99f8b4a8b0fb" prot="public" virt="non-virtual"><scope>USB_OTG_GlobalTypeDef</scope><name>GRSTCTL</name></member>
+      <member refid="struct_u_s_b___o_t_g___global_type_def_1ade50afc41de620913eaf1bc66d93cd3a" prot="public" virt="non-virtual"><scope>USB_OTG_GlobalTypeDef</scope><name>GRXFSIZ</name></member>
+      <member refid="struct_u_s_b___o_t_g___global_type_def_1a060364111cf507dfab9bb6503477983a" prot="public" virt="non-virtual"><scope>USB_OTG_GlobalTypeDef</scope><name>GRXSTSP</name></member>
+      <member refid="struct_u_s_b___o_t_g___global_type_def_1a77b651a1120fc5fb647eaccac6f002c6" prot="public" virt="non-virtual"><scope>USB_OTG_GlobalTypeDef</scope><name>GRXSTSR</name></member>
+      <member refid="struct_u_s_b___o_t_g___global_type_def_1a2094f12e3e4d4e6cc45047dedbfd0acd" prot="public" virt="non-virtual"><scope>USB_OTG_GlobalTypeDef</scope><name>GUSBCFG</name></member>
+      <member refid="struct_u_s_b___o_t_g___global_type_def_1a99c998f37e7a88a26f22defb10a1e83a" prot="public" virt="non-virtual"><scope>USB_OTG_GlobalTypeDef</scope><name>HNPTXSTS</name></member>
+      <member refid="struct_u_s_b___o_t_g___global_type_def_1ad50445f076f99e6b3d0cfb2643f40fac" prot="public" virt="non-virtual"><scope>USB_OTG_GlobalTypeDef</scope><name>HPTXFSIZ</name></member>
+      <member refid="struct_u_s_b___o_t_g___global_type_def_1a978a73c27d2afe65def81f28b881e138" prot="public" virt="non-virtual"><scope>USB_OTG_GlobalTypeDef</scope><name>Reserved30</name></member>
+      <member refid="struct_u_s_b___o_t_g___global_type_def_1ab32b3885e27effc89f6ffe83d46ddd8e" prot="public" virt="non-virtual"><scope>USB_OTG_GlobalTypeDef</scope><name>Reserved40</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

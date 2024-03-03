@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_c_a_n___tx_mail_box___type_def" kind="struct" language="C++" prot="public">
+    <compoundname>CAN_TxMailBox_TypeDef</compoundname>
+    <includes refid="stm32f429xx_8h" local="no">stm32f429xx.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_c_a_n___tx_mail_box___type_def_1a22f525c909de2dcec1d4093fe1d562b8" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CAN_TxMailBox_TypeDef::TIR</definition>
+        <argsstring></argsstring>
+        <name>TIR</name>
+        <qualifiedname>CAN_TxMailBox_TypeDef::TIR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>CAN TX mailbox identifier register </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="224" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="224" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_c_a_n___tx_mail_box___type_def_1a2351cb865d064cf75f61642aaa887f76" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CAN_TxMailBox_TypeDef::TDTR</definition>
+        <argsstring></argsstring>
+        <name>TDTR</name>
+        <qualifiedname>CAN_TxMailBox_TypeDef::TDTR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>CAN mailbox data length control and time stamp register </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="225" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="225" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_c_a_n___tx_mail_box___type_def_1a408c96501b1cc8bd527432736d132a39" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CAN_TxMailBox_TypeDef::TDLR</definition>
+        <argsstring></argsstring>
+        <name>TDLR</name>
+        <qualifiedname>CAN_TxMailBox_TypeDef::TDLR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>CAN mailbox data low register </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="226" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="226" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_c_a_n___tx_mail_box___type_def_1a98c6bcd7c9bae378ebf83fd9f5b59020" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t CAN_TxMailBox_TypeDef::TDHR</definition>
+        <argsstring></argsstring>
+        <name>TDHR</name>
+        <qualifiedname>CAN_TxMailBox_TypeDef::TDHR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>CAN mailbox data high register </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="227" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="227" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Controller Area Network TxMailBox. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Inc/stm32f429xx.h" line="222" column="1" bodyfile="Inc/stm32f429xx.h" bodystart="223" bodyend="228"/>
+    <listofallmembers>
+      <member refid="struct_c_a_n___tx_mail_box___type_def_1a98c6bcd7c9bae378ebf83fd9f5b59020" prot="public" virt="non-virtual"><scope>CAN_TxMailBox_TypeDef</scope><name>TDHR</name></member>
+      <member refid="struct_c_a_n___tx_mail_box___type_def_1a408c96501b1cc8bd527432736d132a39" prot="public" virt="non-virtual"><scope>CAN_TxMailBox_TypeDef</scope><name>TDLR</name></member>
+      <member refid="struct_c_a_n___tx_mail_box___type_def_1a2351cb865d064cf75f61642aaa887f76" prot="public" virt="non-virtual"><scope>CAN_TxMailBox_TypeDef</scope><name>TDTR</name></member>
+      <member refid="struct_c_a_n___tx_mail_box___type_def_1a22f525c909de2dcec1d4093fe1d562b8" prot="public" virt="non-virtual"><scope>CAN_TxMailBox_TypeDef</scope><name>TIR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

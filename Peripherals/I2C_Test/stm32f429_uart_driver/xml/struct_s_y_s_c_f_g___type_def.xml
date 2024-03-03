@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_s_y_s_c_f_g___type_def" kind="struct" language="C++" prot="public">
+    <compoundname>SYSCFG_TypeDef</compoundname>
+    <includes refid="stm32f429xx_8h" local="no">stm32f429xx.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_s_y_s_c_f_g___type_def_1a85b9d3df2274b730327b181c402a7bf5" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t SYSCFG_TypeDef::MEMRMP</definition>
+        <argsstring></argsstring>
+        <name>MEMRMP</name>
+        <qualifiedname>SYSCFG_TypeDef::MEMRMP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>SYSCFG memory remap register, Address offset: 0x00 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="593" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="593" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_y_s_c_f_g___type_def_1ab5c47c570566cb8ff9d0436c17cc9241" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t SYSCFG_TypeDef::PMC</definition>
+        <argsstring></argsstring>
+        <name>PMC</name>
+        <qualifiedname>SYSCFG_TypeDef::PMC</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>SYSCFG peripheral mode configuration register, Address offset: 0x04 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="594" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="594" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_y_s_c_f_g___type_def_1a66a06b3aab7ff5c8fa342f7c1994bf7d" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t SYSCFG_TypeDef::EXTICR[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>EXTICR</name>
+        <qualifiedname>SYSCFG_TypeDef::EXTICR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>SYSCFG external interrupt configuration registers, Address offset: 0x08-0x14 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="595" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="595" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_y_s_c_f_g___type_def_1a43926e6d31a976a0018b2d1f5c92645d" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t SYSCFG_TypeDef::RESERVED[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>RESERVED</name>
+        <qualifiedname>SYSCFG_TypeDef::RESERVED</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserved, 0x18-0x1C <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="596" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="596" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_y_s_c_f_g___type_def_1ada13497abc6402300570ff5f430a612e" prot="public" static="no" mutable="no">
+        <type>__IO uint32_t</type>
+        <definition>__IO uint32_t SYSCFG_TypeDef::CMPCR</definition>
+        <argsstring></argsstring>
+        <name>CMPCR</name>
+        <qualifiedname>SYSCFG_TypeDef::CMPCR</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>SYSCFG Compensation cell control register, Address offset: 0x20 <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="597" column="17" bodyfile="Inc/stm32f429xx.h" bodystart="597" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>System configuration controller. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Inc/stm32f429xx.h" line="591" column="1" bodyfile="Inc/stm32f429xx.h" bodystart="592" bodyend="598"/>
+    <listofallmembers>
+      <member refid="struct_s_y_s_c_f_g___type_def_1ada13497abc6402300570ff5f430a612e" prot="public" virt="non-virtual"><scope>SYSCFG_TypeDef</scope><name>CMPCR</name></member>
+      <member refid="struct_s_y_s_c_f_g___type_def_1a66a06b3aab7ff5c8fa342f7c1994bf7d" prot="public" virt="non-virtual"><scope>SYSCFG_TypeDef</scope><name>EXTICR</name></member>
+      <member refid="struct_s_y_s_c_f_g___type_def_1a85b9d3df2274b730327b181c402a7bf5" prot="public" virt="non-virtual"><scope>SYSCFG_TypeDef</scope><name>MEMRMP</name></member>
+      <member refid="struct_s_y_s_c_f_g___type_def_1ab5c47c570566cb8ff9d0436c17cc9241" prot="public" virt="non-virtual"><scope>SYSCFG_TypeDef</scope><name>PMC</name></member>
+      <member refid="struct_s_y_s_c_f_g___type_def_1a43926e6d31a976a0018b2d1f5c92645d" prot="public" virt="non-virtual"><scope>SYSCFG_TypeDef</scope><name>RESERVED</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

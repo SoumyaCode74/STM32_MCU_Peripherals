@@ -1,20 +1,7 @@
 var searchData=
 [
-  ['bit0_0',['BIT0',['../group___defines.html#gad4d43f8748b542bce39e18790f845ecc',1,'stm32f429xx_general.h']]],
-  ['bit1_1',['BIT1',['../group___defines.html#ga601923eba46784638244c1ebf2622a2a',1,'stm32f429xx_general.h']]],
-  ['bit10_2',['BIT10',['../group___defines.html#ga8c0f01fdf020d0f7467449b181fe95cb',1,'stm32f429xx_general.h']]],
-  ['bit11_3',['BIT11',['../group___defines.html#ga2cda1debde057b596766eba6a76daca0',1,'stm32f429xx_general.h']]],
-  ['bit12_4',['BIT12',['../group___defines.html#gaaa0a6acba8436baabcaa1e91fad6c0bd',1,'stm32f429xx_general.h']]],
-  ['bit13_5',['BIT13',['../group___defines.html#ga965dc1748ab1cf91426bd04a2fe16ecf',1,'stm32f429xx_general.h']]],
-  ['bit14_6',['BIT14',['../group___defines.html#ga41e750b67eb36c8da10328c565b90dd5',1,'stm32f429xx_general.h']]],
-  ['bit15_7',['BIT15',['../group___defines.html#gae40f5db1c57c98c6db42f15e0a56f03a',1,'stm32f429xx_general.h']]],
-  ['bit2_8',['BIT2',['../group___defines.html#ga9c9560bccccb00174801c728f1ed1399',1,'stm32f429xx_general.h']]],
-  ['bit3_9',['BIT3',['../group___defines.html#ga8e44574a8a8becc885b05f3bc367ef6a',1,'stm32f429xx_general.h']]],
-  ['bit4_10',['BIT4',['../group___defines.html#gaa731e0b6cf75f4e637ee88959315f5e4',1,'stm32f429xx_general.h']]],
-  ['bit5_11',['BIT5',['../group___defines.html#gae692bc3df48028ceb1ddc2534a993bb8',1,'stm32f429xx_general.h']]],
-  ['bit6_12',['BIT6',['../group___defines.html#gacc2d074401e2b6322ee8f03476c24677',1,'stm32f429xx_general.h']]],
-  ['bit7_13',['BIT7',['../group___defines.html#gaa6b8f3261ae9e2e1043380c192f7b5f0',1,'stm32f429xx_general.h']]],
-  ['bit8_14',['BIT8',['../group___defines.html#ga0e80e65237843fa1ff15c68cd78066f8',1,'stm32f429xx_general.h']]],
-  ['bit9_15',['BIT9',['../group___defines.html#ga3aa20ab5eb33383fa31b0e94f4401cdf',1,'stm32f429xx_general.h']]],
-  ['bus_16',['bus',['../struct_r_c_c___config__t.html#a6cd01da7cc4806829ae5db75f89544ec',1,'RCC_Config_t']]]
+  ['classes_0',['Classes',['../group___classes.html',1,'']]],
+  ['clock_5fsource_1',['clock_source',['../struct_r_c_c___config__t.html#aeab81a91b204c1843002156f77bd2fef',1,'RCC_Config_t']]],
+  ['clockbus_5ft_2',['ClockBus_t',['../group___classes.html#gae6f7dfb64f0fd48995ee0c71e0c9a8a4',1,'stm32f429xx_rcc_driver.h']]],
+  ['clocksrc_5ft_3',['ClockSrc_t',['../group___classes.html#ga02e55ce66a310468cd5996a5769a1e77',1,'stm32f429xx_rcc_driver.h']]]
 ];

@@ -1,0 +1,1776 @@
+[0.000] initConfigParams():  Configuration flags start
+[0.000] initConfigParams():   external-init                  false
+[0.000] initConfigParams():   pend-halt-timeout              (null)
+[0.000] initConfigParams():   halt                           false
+[0.000] initConfigParams():   config-file                    ""
+[0.000] initConfigParams():   persistent                     false
+[0.000] initConfigParams():  +log-file                       "D:\Users\soumy\GitHub\EmbeddedSystems\EmbeddedSystems\Israel_Gbati courses\Bare-Metal Programming Ground Up (STM32F4)\9a_OutputCompare\Debug\st-link_gdbserver_log.txt"
+[0.000] initConfigParams():  +log-level                      31
+[0.000] initConfigParams():  +port-number                    61234
+[0.000] initConfigParams():  +verbose                        true
+[0.000] initConfigParams():   refresh-delay                  15
+[0.000] initConfigParams():  +verify                         true
+[0.000] initConfigParams():  +swd                            true
+[0.000] initConfigParams():  +swo-port                       61235
+[0.000] initConfigParams():   cpu-clock                      8000000
+[0.000] initConfigParams():   swo-clock-div                  128
+[0.000] initConfigParams():  +initialize-reset               true
+[0.000] initConfigParams():   debuggers                      false
+[0.000] initConfigParams():   serial-number                  ""
+[0.000] initConfigParams():  +apid                           0
+[0.000] initConfigParams():   attach                         false
+[0.000] initConfigParams():   shared                         false
+[0.000] initConfigParams():   erase-all                      false
+[0.000] initConfigParams():   memory-map                     ""
+[0.000] initConfigParams():   ext-memory-loaders             false
+[0.000] initConfigParams():   extload_init                   (null)
+[0.000] initConfigParams():   extload                        (null)
+[0.000] initConfigParams():  +stm32cubeprogrammer-path       "D:\ST\STM32CubeIDE_1.9.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_2.1.0.202305091550\tools\bin"
+[0.000] initConfigParams():   temp-path                      ""
+[0.000] initConfigParams():   preserve-temps                 false
+[0.000] initConfigParams():   frequency                      0
+[0.000] initConfigParams():   licenses                       false
+[0.000] initConfigParams():   ignore-rest                    false
+[0.000] initConfigParams():   version                        false
+[0.000] initConfigParams():   help                           false
+[0.000] initConfigParams():  Configuration flags end
+[0.001] init():  STMicroelectronics ST-LINK GDB server. Version 7.4.0
+Copyright (c) 2023, STMicroelectronics. All rights reserved.
+[0.008] openDevice():  COM frequency = 4000 kHz
+[0.008] openDevice():  Target connection mode: Under reset
+[0.014] readFromTarget():  Reading ROM table for AP 0 @0xe00fffd0
+[0.017] reset_hw_wtchpt_module():  Hardware watchpoint supported by the target 
+[0.019] initContext():  ST-LINK Firmware version : V2J42M27
+[0.019] initContext():  Device ID: 0x419
+[0.019] initContext():  PC: 0x80002d4
+[0.020] Device_GetStatus():  ST-LINK device status: HALT_MODE
+[0.020] initContext():  ST-LINK detects target voltage = 2.91 V
+[0.020] initContext():  ST-LINK device status: HALT_MODE
+[0.020] initServerContext():  ST-LINK device initialization OK
+[0.020] pollAndNotifyRun():  Stm32Device, pollAndNotify running...
+[0.022] updateState():  SwvSrv state change: 0 -> 1
+[0.022] WaitConnection():  Waiting for connection on port 61235...
+[0.022] WaitConnection():  Waiting for connection on port 61234...
+[4.365] WaitConnection():  Accepted connection on port 61234...
+[4.365] WaitConnection():  Waiting for connection on port 61234...
+[4.365] run():  GDB session thread running
+[4.365] handleSessionEvent():  GdbSessionManager, session started: 1
+[4.380] read():  <768> Rx: +
+[4.380] read():  <768> Rx: $qSupported:multiprocess+;swbreak+;hwbreak+;qRelocInsn+;fork-events+;vfork-events+;exec-events+;vContSupported+;QThreadEvents+;no-resumed+;memory-tagging+#ec
+[4.380] write():  <768> Tx: +
+[4.380] write():  <768> Tx: $PacketSize=4000;qXfer:memory-map:read+;qXfer:features:read+;QStartNoAckMode+;QNonStop+;qXfer:threads:read+;hwbreak+;swbreak+#f3
+[4.380] read():  <768> Rx: +
+[4.381] read():  <768> Rx: $vMustReplyEmpty#3a
+[4.381] write():  <768> Tx: +
+[4.381] write():  <768> Tx: $#00
+[4.381] read():  <768> Rx: +$QStartNoAckMode#b0
+[4.396] write():  <768> Tx: +
+[4.396] write():  <768> Tx: $OK#9a
+[4.396] read():  <768> Rx: +
+[4.396] read():  <768> Rx: $Hg0#df
+[4.396] write():  <768> Tx: $#00
+[4.396] read():  <768> Rx: $qXfer:features:read:target.xml:0,1000#0c
+[4.396] write():  <768> Tx: $l<?xml version="1.0"?><!-- Copyright (C) 2009, 2010, 2011 Free Software Foundation, Inc.     Copying and distribution of this file, with or without modification,     are permitted in any medium without royalty provided the copyright     notice and this notice are preserved.  --><!DOCTYPE target SYSTEM "gdb-target.dtd"><target><feature name="org.gnu.gdb.arm.m-profile">  <reg name="r0" bitsize="32"/>  <reg name="r1" bitsize="32"/>  <reg name="r2" bitsize="32"/>  <reg name="r3" bitsize="32"/>  <reg name="r4" bitsize="32"/>  <reg name="r5" bitsize="32"/>  <reg name="r6" bitsize="32"/>  <reg name="r7" bitsize="32"/>  <reg name="r8" bitsize="32"/>  <reg name="r9" bitsize="32"/>  <reg name="r10" bitsize="32"/>  <reg name="r11" bitsize="32"/>  <reg name="r12" bitsize="32"/>  <reg name="sp" bitsize="32" type="data_ptr"/>  <reg name="lr" bitsize="32"/>  <reg name="pc" bitsize="32" type="code_ptr"/>  <reg name="xpsr" bitsize="32" regnum="25"/></feature><feature name="org.gnu.gdb.arm.vfp">  <reg name="d0" bitsize="64" type="ieee_double"/>  <reg name="d1" bitsize="64" type="ieee_double"/>  <reg name="d2" bitsize="64" type="ieee_double"/>  <reg name="d3" bitsize="64" type="ieee_double"/>  <reg name="d4" bitsize="64" type="ieee_double"/>  <reg name="d5" bitsize="64" type="ieee_double"/>  <reg name="d6" bitsize="64" type="ieee_double"/>  <reg name="d7" bitsize="64" type="ieee_double"/>  <reg name="d8" bitsize="64" type="ieee_double"/>  <reg name="d9" bitsize="64" type="ieee_double"/>  <reg name="d10" bitsize="64" type="ieee_double"/>  <reg name="d11" bitsize="64" type="ieee_double"/>  <reg name="d12" bitsize="64" type="ieee_double"/>  <reg name="d13" bitsize="64" type="ieee_double"/>  <reg name="d14" bitsize="64" type="ieee_double"/>  <reg name="d15" bitsize="64" type="ieee_double"/>  <reg name="fpscr" bitsize="32" type="int" group="float"/></feature><feature name="org.gnu.gdb.arm.m-system">  <reg name="primask" bitsize="32" regnum="93"/>  <reg name="basepri" bitsize="32" regnum="94"/>  <reg name="faultmask" bitsize="32" regnum="95"/>  <reg name="control" bitsize="32" regnum="96"/>  <reg name="msp" bitsize="32" type="data_ptr" regnum="97"/>  <reg name="psp" bitsize="32" type="data_ptr" regnum="98"/></feature></target>#ad
+[4.397] read():  <768> Rx: $QNonStop:0#8c
+[4.397] write():  <768> Tx: $OK#9a
+[4.397] read():  <768> Rx: $qTStatus#49
+[4.398] write():  <768> Tx: $#00
+[4.398] read():  <768> Rx: $?#3f
+[4.398] write():  <768> Tx: $S05#b8
+[4.398] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[4.398] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[4.398] read():  <768> Rx: $qAttached#8f
+[4.398] write():  <768> Tx: $#00
+[4.398] read():  <768> Rx: $Hc-1#09
+[4.399] write():  <768> Tx: $#00
+[4.399] read():  <768> Rx: $qC#b4
+[4.399] write():  <768> Tx: $QC1#c5
+[4.399] read():  <768> Rx: $qOffsets#4b
+[4.399] write():  <768> Tx: $#00
+[4.399] read():  <768> Rx: $g#67
+[4.409] write():  <768> Tx: $0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000320ffffffffd402000800000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000032000000000#fd
+[4.409] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[4.409] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[4.409] read():  <768> Rx: $qXfer:memory-map:read::0,1000#ab
+[4.504] write():  <768> Tx: $l<?xml version="1.0"?>\x0a<!DOCTYPE memory-map\x0a          PUBLIC "+//IDN gnu.org//DTD GDB Memory Map V1.0//EN"\x0a                 "http://sourceware.org/gdb/gdb-memory-map.dtd">\x0a<memory-map>\x0a<memory type="ram" start="0x0" length="0x8000000"/>\x0a<memory type="flash" start="0x8000000" length="0x200000">\x0a<property name="blocksize">0x4000</property>\x0a</memory>\x0a<memory type="ram" start="0x8200000" length="0xf7dfffff"/>\x0a</memory-map>#03
+[4.504] read():  <768> Rx: $m80002d4,4#5f
+[4.504] handlePacket():  Reading 0x4 bytes of memory from addr 0x80002d4 
+[4.505] write():  <768> Tx: $0d488546#d7
+[4.505] read():  <768> Rx: $m80002d4,2#5d
+[4.505] handlePacket():  Reading 0x2 bytes of memory from addr 0x80002d4 
+[4.505] write():  <768> Tx: $0d48#00
+[4.506] read():  <768> Rx: $qSymbol::#5b
+[4.506] write():  <768> Tx: $#00
+[4.506] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[4.506] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[4.520] read():  <768> Rx: $qRcmd,5265616441504578203078302030784638#08
+[4.520] write():  <768> Tx: $4f2e4b2e3a307865303066663030330a#8a
+[4.536] read():  <768> Rx: $qRcmd,526561644d656d41502030783020307845303046464644302030783820307830#66
+[4.537] write():  <768> Tx: $4f2e4b2e3a3078302c3078302c3078302c3078302c307831312c3078342c3078612c3078300a#ab
+[4.693] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[4.693] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[4.757] read():  <768> Rx: $me000ed04,4#ef
+[4.757] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed04 
+[4.757] write():  <768> Tx: $00000000#80
+[4.773] read():  <768> Rx: $me000ed2c,4#20
+[4.773] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed2c 
+[4.773] write():  <768> Tx: $00000000#80
+[4.774] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[4.774] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[4.774] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[4.774] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[4.774] read():  <768> Rx: $me000ed28,4#f5
+[4.774] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed28 
+[4.775] write():  <768> Tx: $00000000#80
+[4.789] read():  <768> Rx: $me000ed38,4#f6
+[4.789] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed38 
+[4.789] write():  <768> Tx: $f8ed00e0#5c
+[4.805] read():  <768> Rx: $me000ed34,4#f2
+[4.805] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed34 
+[4.805] write():  <768> Tx: $f8ed00e0#5c
+[4.853] read():  <768> Rx: $m80002c0,40#8a
+[4.853] handlePacket():  Reading 0x40 bytes of memory from addr 0x80002c0 
+[4.854] write():  <768> Tx: $22f001021a6138bd003802400024f400000002400d488546aff300800c480d490d4a002302e0d458c4500433c4188c42f9d30a4a0a4c002301e013600432a242#39
+[6.612] WaitConnection():  Accepted connection on port 61234...
+[6.613] WaitConnection():  Waiting for connection on port 61234...
+[6.613] run():  GDB session thread running
+[6.613] handleSessionEvent():  GdbSessionManager, session started: 2
+[6.613] read():  <804> Rx: +$qSupported:multiprocess+;swbreak+;hwbreak+;qRelocInsn+;fork-events+;vfork-events+;exec-events+;vContSupported+;QThreadEvents+;no-resumed+;memory-tagging+#ec
+[6.628] write():  <804> Tx: +
+[6.628] write():  <804> Tx: $PacketSize=4000;qXfer:memory-map:read+;qXfer:features:read+;QStartNoAckMode+;QNonStop+;qXfer:threads:read+;hwbreak+;swbreak+#f3
+[6.628] read():  <804> Rx: +
+[6.628] read():  <804> Rx: $vMustReplyEmpty#3a
+[6.628] write():  <804> Tx: +
+[6.628] write():  <804> Tx: $#00
+[6.628] read():  <804> Rx: +
+[6.628] read():  <804> Rx: $QStartNoAckMode#b0
+[6.628] write():  <804> Tx: +
+[6.628] write():  <804> Tx: $OK#9a
+[6.628] read():  <804> Rx: +$Hg0#df
+[6.643] write():  <804> Tx: $#00
+[6.643] read():  <804> Rx: $qXfer:features:read:target.xml:0,1000#0c
+[6.643] write():  <804> Tx: $l<?xml version="1.0"?><!-- Copyright (C) 2009, 2010, 2011 Free Software Foundation, Inc.     Copying and distribution of this file, with or without modification,     are permitted in any medium without royalty provided the copyright     notice and this notice are preserved.  --><!DOCTYPE target SYSTEM "gdb-target.dtd"><target><feature name="org.gnu.gdb.arm.m-profile">  <reg name="r0" bitsize="32"/>  <reg name="r1" bitsize="32"/>  <reg name="r2" bitsize="32"/>  <reg name="r3" bitsize="32"/>  <reg name="r4" bitsize="32"/>  <reg name="r5" bitsize="32"/>  <reg name="r6" bitsize="32"/>  <reg name="r7" bitsize="32"/>  <reg name="r8" bitsize="32"/>  <reg name="r9" bitsize="32"/>  <reg name="r10" bitsize="32"/>  <reg name="r11" bitsize="32"/>  <reg name="r12" bitsize="32"/>  <reg name="sp" bitsize="32" type="data_ptr"/>  <reg name="lr" bitsize="32"/>  <reg name="pc" bitsize="32" type="code_ptr"/>  <reg name="xpsr" bitsize="32" regnum="25"/></feature><feature name="org.gnu.gdb.arm.vfp">  <reg name="d0" bitsize="64" type="ieee_double"/>  <reg name="d1" bitsize="64" type="ieee_double"/>  <reg name="d2" bitsize="64" type="ieee_double"/>  <reg name="d3" bitsize="64" type="ieee_double"/>  <reg name="d4" bitsize="64" type="ieee_double"/>  <reg name="d5" bitsize="64" type="ieee_double"/>  <reg name="d6" bitsize="64" type="ieee_double"/>  <reg name="d7" bitsize="64" type="ieee_double"/>  <reg name="d8" bitsize="64" type="ieee_double"/>  <reg name="d9" bitsize="64" type="ieee_double"/>  <reg name="d10" bitsize="64" type="ieee_double"/>  <reg name="d11" bitsize="64" type="ieee_double"/>  <reg name="d12" bitsize="64" type="ieee_double"/>  <reg name="d13" bitsize="64" type="ieee_double"/>  <reg name="d14" bitsize="64" type="ieee_double"/>  <reg name="d15" bitsize="64" type="ieee_double"/>  <reg name="fpscr" bitsize="32" type="int" group="float"/></feature><feature name="org.gnu.gdb.arm.m-system">  <reg name="primask" bitsize="32" regnum="93"/>  <reg name="basepri" bitsize="32" regnum="94"/>  <reg name="faultmask" bitsize="32" regnum="95"/>  <reg name="control" bitsize="32" regnum="96"/>  <reg name="msp" bitsize="32" type="data_ptr" regnum="97"/>  <reg name="psp" bitsize="32" type="data_ptr" regnum="98"/></feature></target>#ad
+[6.644] read():  <804> Rx: $QNonStop:0#8c
+[6.644] write():  <804> Tx: $OK#9a
+[6.645] read():  <804> Rx: $qTStatus#49
+[6.645] write():  <804> Tx: $#00
+[6.645] read():  <804> Rx: $?#3f
+[6.645] write():  <804> Tx: $S05#b8
+[6.645] read():  <804> Rx: $qXfer:threads:read::0,1000#92
+[6.645] write():  <804> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[6.645] read():  <804> Rx: $qAttached#8f
+[6.645] write():  <804> Tx: $#00
+[6.646] read():  <804> Rx: $Hc-1#09
+[6.646] write():  <804> Tx: $#00
+[6.646] read():  <804> Rx: $qC#b4
+[6.646] write():  <804> Tx: $QC1#c5
+[6.646] read():  <804> Rx: $qOffsets#4b
+[6.646] write():  <804> Tx: $#00
+[6.646] read():  <804> Rx: $g#67
+[6.656] write():  <804> Tx: $0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000320ffffffffd402000800000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000032000000000#fd
+[6.656] read():  <804> Rx: $qXfer:threads:read::0,1000#92
+[6.656] write():  <804> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[6.656] read():  <804> Rx: $qXfer:memory-map:read::0,1000#ab
+[6.657] write():  <804> Tx: $l<?xml version="1.0"?>\x0a<!DOCTYPE memory-map\x0a          PUBLIC "+//IDN gnu.org//DTD GDB Memory Map V1.0//EN"\x0a                 "http://sourceware.org/gdb/gdb-memory-map.dtd">\x0a<memory-map>\x0a<memory type="ram" start="0x0" length="0x8000000"/>\x0a<memory type="flash" start="0x8000000" length="0x200000">\x0a<property name="blocksize">0x4000</property>\x0a</memory>\x0a<memory type="ram" start="0x8200000" length="0xf7dfffff"/>\x0a</memory-map>#03
+[6.657] read():  <804> Rx: $m80002d4,4#5f
+[6.657] handlePacket():  Reading 0x4 bytes of memory from addr 0x80002d4 
+[6.657] write():  <804> Tx: $0d488546#d7
+[6.658] read():  <804> Rx: $m80002d4,2#5d
+[6.658] handlePacket():  Reading 0x2 bytes of memory from addr 0x80002d4 
+[6.658] write():  <804> Tx: $0d48#00
+[6.659] read():  <804> Rx: $qSymbol::#5b
+[6.659] write():  <804> Tx: $#00
+[6.675] read():  <768> Rx: $qRcmd,73777620696e666f#dc
+[6.675] write():  <768> Tx: $4f4b3a3764303b313b386361302c31322c666666663b0a#f0
+[6.706] read():  <768> Rx: $qRcmd,73777620737461727420376430#73
+[6.707] write():  <768> Tx: $4f4b0a#c1
+[6.709] WaitConnection():  Accepted connection on port 61235...
+[6.709] openConnectionInt():  SWV collect poll delay set to 3413µs for baudrate 2000000Hz (buffer size 2048b)
+[6.709] updateState():  SwvSrv state change: 1 -> 2
+[6.722] read():  <768> Rx: $vFlashErase:08000000,00004000#c6
+[6.722] handleFlashPacket():  FlashErase skipped (Will be performed at flash done)
+[6.722] write():  <768> Tx: $OK#9a
+[6.722] read():  <768> Rx: $vFlashWrite:8000000:\x00\x00\x03 \xff\x02\x00\x08%\x03\x00\x08%\x03\x00\x08%\x03\x00\x08%\x03\x00\x08%\x03\x00\x08\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00%\x03\x00\x08%\x03\x00\x08\x00\x00\x00\x00%\x03\x00\x08%\x03\x00\x08\x00\x00\x00\x00%\x03\x00\x08%\x03\x00\x08%\x03\x00\x08%\x03\x00\x08%\x03\x00\x08%\x03\x00\x08%\x03\x00\x08%\x03\x00\x08%\x03\x00\x08%\x03\x00\x08\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00%\x03\x00\x08\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00%\x03\x00\x08%\x03\x00\x08%\x03\x00\x08%\x03\x00\x08%\x03\x00\x08%\x03\x00\x08%\x03\x00\x08%\x03\x00\x08%\x03\x00\x08%\x03\x00\x08%\x03\x00\x08%\x03\x00\x08%\x03\x00\x08%\x03\x00\x08%\x03\x00\x08%\x03\x00\x08\x00\x00\x00\x00%\x03\x00\x08%\x03\x00\x08%\x03\x00\x08\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00%\x03\x00\x08%\x03\x00\x08%\x03\x00\x08\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00%\x03\x00\x08\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00%\x03\x00\x08%\x03\x00\x08%\x03\x00\x08\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00%\x03\x00\x08\x00\x00\x00\x00\x00\x00\x00\x00%\x03\x00\x08#3d
+[6.722] handleFlashPacket():  Flash write: Address= 0x8000000, Length=404
+[6.722] write():  <768> Tx: $OK#9a
+[6.722] read():  <768> Rx: $vFlashWrite:8000194:\x10\xff\x05L}\x03x3\xff\x04K\x13\xff\x04H\xff\xff\x00\xff\x01}\x03}\x03p\x10\xff\x00\x00\x00 \x00\x00\x00\x00p\x03\x00\x08\x08\xff\x03K\x1b\xff\x03I\x03H\xff\xff\x00\xff\x08\xff\x00\x00\x00\x00\x04\x00\x00 p\x03\x00\x08\x07\xffO\xff\xffc\xff\xff\x040O\xffHs\xff\xff\x060\xff\xff\x06\x00\xff\xff\x04\x10\xff\xff\xff\xff\x00\xff\x09\xff\xff\xff\x02J\x13lC\xff\x01\x03\x13dpG\x008\x02@/J8\xff\x13k/LC\xff\x01\x03\x13c.K\x1ah"\xff@b\x1a`\x1ahB\xff\x00b\x1a`\x1aj"\xffp\x02\x1ab\x1ajB\xff\xff\x12\x1ab\xff\xff\xff\xffO\xff\xffCO\xffzR\xffb\xffjO\xffzu\x02\xff\x05R\xff\xff\xff\xff\x12\xff\x00\xff\x018\xff\xffXc\xffj\x02\xff\x05U\xff\xff\xff\xff\x14\xff\x01\xffL\x1e\xff\xff\xffb\xffi"\xff\xff\x02\xffa\xffi"\xffp\x02\xffa\xffiB\xff`\x02\xffa\xffi"\xff\x0f\x02\xffa\x1ajB\xff\x01\x02\x1ab\x00"Zb\x1ahB\xff\x01\x02\x1a`\x1ai\xff\x07\xff\xff\x1ai"\xff\x02\x02\x1aaO\xff\xffC\x1ai\xff\x07\xff\xff\x1ai"\xff\x01\x02\x1aa8\xff\x008\x02@\x00}\x04\xff\x00\x00\x00\x02@\x0dH\xffF\xff\xff\x00\xff\x0cH\x0dI\x0dJ\x00}\x03\x02\xff\xffX\xffP\x043\xff\x18\xffB\xff\xff\x0aJ\x0aL\x00}\x03\x01\xff\x13`\x042\xffB\xff\xff\x00\xff\x11\xff\xff\xffe\xff\xff\xff\x00\x00\x03 \x00\x00\x00 \x00\x00\x00 \xff\x03\x00\x08\x00\x00\x00 \x1c\x00\x00 \xff\xff\x00\x00p\xff\x0dM\x0dLd\x1b\xff\x10\x00&\xffB\x09\xff\x0bM\x0cL\x00\xff\x18\xffd\x1b\xff\x10\x00&\xffB\x05\xffp\xffU\xff\x04;\xffG\x016\xff\xffU\xff\x04;\xffG\x016\xff\xff\xff\x03\x00\x08\xff\x03\x00\x08\xff\x03\x00\x08\xff\x03\x00\x08\xff\xff\x00\xff\xff\xff\x08\xff\xffFpG\xff\xff\x00\xff\xff\xff\x08\xff\xffFpG#40
+[6.722] handleFlashPacket():  Flash write: Address= 0x8000194, Length=500
+[6.722] write():  <768> Tx: $OK#9a
+[6.723] read():  <768> Rx: $vFlashWrite:8000388:\xff\x01\x00\x08#10
+[6.723] handleFlashPacket():  Flash write: Address= 0x8000388, Length=4
+[6.723] write():  <768> Tx: $OK#9a
+[6.723] read():  <768> Rx: $vFlashWrite:800038c:\xff\x01\x00\x08#17
+[6.723] handleFlashPacket():  Flash write: Address= 0x800038c, Length=4
+[6.723] write():  <768> Tx: $OK#9a
+[6.723] read():  <768> Rx: $vFlashDone#ea
+[6.723] WriteFlashDone():  Writing to C:\Users\soumy\AppData\Local\Temp\ST-LINK_GDB_server_a23824.srec
+[6.724] closeDevice():  Stm32Device, closeDevice() entry
+[6.724] updateState():  SwvSrv state change: 2 -> 4
+[6.724] handleTargetDeviceEvent():  GDB session, device event: 5
+[6.724] handleTargetDeviceEvent():  GDB session, device event: 5
+[6.785] pollAndNotifyRun():  Stm32Device, pollAndNotify stopped
+[6.789] closeDevice():  Stm32Device, closeDevice() exit
+[6.789] spawnCubeProgrammer():   ------ Switching to STM32CubeProgrammer ----- 
+[6.789] file_utils_spawn():  Spawning "D:\ST\STM32CubeIDE_1.9.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_2.1.0.202305091550\tools\bin\STM32_Programmer_CLI.exe --connect port=SWD speed=fast mode=UR reset=hwRst --download C:\Users\soumy\AppData\Local\Temp\ST-LINK_GDB_server_a23824.srec --verify --log C:\Users\soumy\AppData\Local\Temp\STM32CubeProgrammer_a23824.log"
+[7.582] file_utils_spawn():  Return code 0
+[7.582] spawnCubeProgrammer():  19:18:19:262       -------------------------------------------------------------------
+[7.582] spawnCubeProgrammer():  19:18:19:263                        STM32CubeProgrammer v2.14.0                  
+[7.582] spawnCubeProgrammer():  19:18:19:263       -------------------------------------------------------------------
+[7.582] spawnCubeProgrammer():  
+[7.582] spawnCubeProgrammer():  19:18:19:263 
+[7.582] spawnCubeProgrammer():  
+[7.582] spawnCubeProgrammer():  19:18:19:263 Log output file:   C:\Users\soumy\AppData\Local\Temp\STM32CubeProgrammer_a23824.log
+[7.582] spawnCubeProgrammer():  19:18:19:263 Command line:  --connect port=SWD speed=fast mode=ur reset=hwrst --download "C:\Users\soumy\AppData\Local\Temp\ST-LINK_GDB_server_a23824.srec" --verify --log "C:\Users\soumy\AppData\Local\Temp\STM32CubeProgrammer_a23824.log"
+[7.582] spawnCubeProgrammer():  19:18:19:263 
+[7.582] spawnCubeProgrammer():  19:18:19:278 ST-LINK SN  : 0669FF545150898367211227
+[7.582] spawnCubeProgrammer():  19:18:19:278 ST-LINK FW  : V2J42M27
+[7.582] spawnCubeProgrammer():  19:18:19:278 Board       : 32F429IDISCOVERY
+[7.582] spawnCubeProgrammer():  19:18:19:279 Voltage     : 2.90V
+[7.582] spawnCubeProgrammer():  19:18:19:285 SWD freq    : 4000 KHz
+[7.582] spawnCubeProgrammer():  19:18:19:285 Connect mode: Under Reset
+[7.582] spawnCubeProgrammer():  19:18:19:285 Reset mode  : Hardware reset
+[7.582] spawnCubeProgrammer():  19:18:19:286 Device ID   : 0x419
+[7.582] spawnCubeProgrammer():  19:18:19:287 Revision ID : Rev 5/B
+[7.582] spawnCubeProgrammer():  19:18:19:292 Reading data...
+[7.582] spawnCubeProgrammer():  19:18:19:293 r ap 0 @0x40023C14 0x00000004 bytes Data 0x0FFFAAED
+[7.582] spawnCubeProgrammer():  19:18:19:293 Reading data...
+[7.582] spawnCubeProgrammer():  19:18:19:293 r ap 0 @0x1FFF7A22 0x00000004 bytes Data 0xA4C80800
+[7.582] spawnCubeProgrammer():  19:18:19:293 Database: Config 0 is active.
+[7.582] spawnCubeProgrammer():  19:18:19:294 flash loader D:/ST/STM32CubeIDE_1.9.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_2.1.0.202305091550/tools/bin/FlashLoader/0x419.stldr is loaded
+[7.582] spawnCubeProgrammer():  19:18:19:299 Reading data...
+[7.582] spawnCubeProgrammer():  19:18:19:300 r ap 0 @0x40023C14 0x00000004 bytes Data 0x0FFFAAED
+[7.582] spawnCubeProgrammer():  19:18:19:300 Reading data...
+[7.582] spawnCubeProgrammer():  19:18:19:300 r ap 0 @0x1FFF7A22 0x00000004 bytes Data 0xA4C80800
+[7.582] spawnCubeProgrammer():  19:18:19:300 Database: Config 0 is active.
+[7.582] spawnCubeProgrammer():  19:18:19:300 Device name : STM32F42xxx/F43xxx
+[7.582] spawnCubeProgrammer():  19:18:19:300 Reading data...
+[7.582] spawnCubeProgrammer():  19:18:19:301 r ap 0 @0x1FFF7A22 0x00000004 bytes Data 0xA4C80800
+[7.582] spawnCubeProgrammer():  19:18:19:301 Flash size  : 2 MBytes
+[7.582] spawnCubeProgrammer():  19:18:19:301 Device type : MCU
+[7.582] spawnCubeProgrammer():  19:18:19:301 Device CPU  : Cortex-M4
+[7.582] spawnCubeProgrammer():  19:18:19:302 BL Version  : 0x91
+[7.582] spawnCubeProgrammer():  19:18:19:302 
+[7.582] spawnCubeProgrammer():  19:18:19:305 
+[7.582] spawnCubeProgrammer():  
+[7.582] spawnCubeProgrammer():  19:18:19:305 Memory Programming ...
+[7.582] spawnCubeProgrammer():  19:18:19:305 Opening and parsing file: ST-LINK_GDB_server_a23824.srec
+[7.582] spawnCubeProgrammer():  19:18:19:306   File          : ST-LINK_GDB_server_a23824.srec
+[7.582] spawnCubeProgrammer():  19:18:19:306   Size          : 912.00 B 
+[7.582] spawnCubeProgrammer():  19:18:19:306   Address       : 0x08000000 
+[7.582] spawnCubeProgrammer():  19:18:19:306 
+[7.582] spawnCubeProgrammer():  
+[7.582] spawnCubeProgrammer():  19:18:19:306 Erasing Segment <0> Address <0x08000000> Size <912>Bytes
+[7.582] spawnCubeProgrammer():  19:18:19:306 Erasing memory corresponding to segment 0:
+[7.582] spawnCubeProgrammer():  19:18:19:306 Memory Erase via FlashLoader!
+[7.582] spawnCubeProgrammer():  19:18:19:306 Memory erase...
+[7.582] spawnCubeProgrammer():  19:18:19:307 halt ap 0 
+[7.582] spawnCubeProgrammer():  19:18:19:307 w ap 0 reg 15 PC   (0x20000000)  
+[7.582] spawnCubeProgrammer():  19:18:19:308 w ap 0 reg 17 MSP  (0x20000500)  
+[7.582] spawnCubeProgrammer():  19:18:19:308 w ap 0 reg 16 xPSR (0x01000000)  
+[7.582] spawnCubeProgrammer():  19:18:19:312 w ap 0 @0x20001160 : 0x00000200 bytes, Data 0x00000000...
+[7.582] spawnCubeProgrammer():  19:18:19:312 w ap 0 @0x20000000 : 0x00000004 bytes, Data 0x0000BE00...
+[7.582] spawnCubeProgrammer():  19:18:19:333 w ap 0 @0x20000004 : 0x00000D38 bytes, Data 0xF000B580...
+[7.582] spawnCubeProgrammer():  19:18:19:333 Erasing internal memory sector 0
+[7.582] spawnCubeProgrammer():  19:18:19:333 Init flashloader...
+[7.582] spawnCubeProgrammer():  19:18:19:333 halt ap 0 
+[7.582] spawnCubeProgrammer():  19:18:19:334 w ap 0 reg 0 R0   0x00000001
+[7.582] spawnCubeProgrammer():  19:18:19:334 w ap 0 reg 1 R1   0x00000000
+[7.582] spawnCubeProgrammer():  19:18:19:335 w ap 0 reg 2 R2   0x00000000
+[7.582] spawnCubeProgrammer():  19:18:19:335 w ap 0 reg 3 R3   0x00000000
+[7.582] spawnCubeProgrammer():  19:18:19:335 w ap 0 reg 4 R4   0x00000000
+[7.582] spawnCubeProgrammer():  19:18:19:336 w ap 0 reg 5 R5   0x00000000
+[7.582] spawnCubeProgrammer():  19:18:19:336 w ap 0 reg 6 R6   0x00000000
+[7.582] spawnCubeProgrammer():  19:18:19:337 w ap 0 reg 7 R7   0x00000000
+[7.582] spawnCubeProgrammer():  19:18:19:337 w ap 0 reg 8 R8   0x00000000
+[7.582] spawnCubeProgrammer():  19:18:19:338 w ap 0 reg 9 R9   0x00000000
+[7.582] spawnCubeProgrammer():  19:18:19:338 w ap 0 reg 10 R10  0x00000000
+[7.582] spawnCubeProgrammer():  19:18:19:339 w ap 0 reg 11 R11  0x00000000
+[7.582] spawnCubeProgrammer():  19:18:19:339 w ap 0 reg 12 R12  0x00000000
+[7.582] spawnCubeProgrammer():  19:18:19:340 w ap 0 reg 13 SP   0x00000000
+[7.582] spawnCubeProgrammer():  19:18:19:340 w ap 0 reg 14 LR   0x20000001
+[7.582] spawnCubeProgrammer():  19:18:19:341 w ap 0 reg 15 PC   0x20000005
+[7.582] spawnCubeProgrammer():  19:18:19:341 w ap 0 reg 16 xPSR 0x01000000
+[7.582] spawnCubeProgrammer():  19:18:19:342 w ap 0 reg 17 MSP  0x20001138
+[7.582] spawnCubeProgrammer():  19:18:19:342 w ap 0 reg 18 PSP  0x00000000
+[7.582] spawnCubeProgrammer():  19:18:19:342 run ap 0 
+[7.582] spawnCubeProgrammer():  19:18:19:343 halt ap 0 
+[7.582] spawnCubeProgrammer():  19:18:19:343 r ap 0 reg 0 R0   0x00000001
+[7.582] spawnCubeProgrammer():  19:18:19:343 Loader sector erase...
+[7.582] spawnCubeProgrammer():  19:18:19:344 w ap 0 reg 0 R0   0x08000000
+[7.582] spawnCubeProgrammer():  19:18:19:344 w ap 0 reg 1 R1   0x08000000
+[7.582] spawnCubeProgrammer():  19:18:19:345 w ap 0 reg 2 R2   0x00000002
+[7.582] spawnCubeProgrammer():  19:18:19:345 w ap 0 reg 3 R3   0x00000000
+[7.582] spawnCubeProgrammer():  19:18:19:346 w ap 0 reg 4 R4   0x00000000
+[7.582] spawnCubeProgrammer():  19:18:19:346 w ap 0 reg 5 R5   0x00000000
+[7.582] spawnCubeProgrammer():  19:18:19:347 w ap 0 reg 6 R6   0x00000000
+[7.582] spawnCubeProgrammer():  19:18:19:347 w ap 0 reg 7 R7   0x00000000
+[7.582] spawnCubeProgrammer():  19:18:19:348 w ap 0 reg 8 R8   0x00000000
+[7.582] spawnCubeProgrammer():  19:18:19:348 w ap 0 reg 9 R9   0x00000000
+[7.582] spawnCubeProgrammer():  19:18:19:349 w ap 0 reg 10 R10  0x00000000
+[7.582] spawnCubeProgrammer():  19:18:19:350 w ap 0 reg 11 R11  0x00000000
+[7.582] spawnCubeProgrammer():  19:18:19:350 w ap 0 reg 12 R12  0x00000000
+[7.582] spawnCubeProgrammer():  19:18:19:350 w ap 0 reg 13 SP   0x00000000
+[7.582] spawnCubeProgrammer():  19:18:19:351 w ap 0 reg 14 LR   0x20000001
+[7.582] spawnCubeProgrammer():  19:18:19:351 w ap 0 reg 15 PC   0x2000022B
+[7.582] spawnCubeProgrammer():  19:18:19:352 w ap 0 reg 16 xPSR 0x01000000
+[7.582] spawnCubeProgrammer():  19:18:19:352 w ap 0 reg 17 MSP  0x20001138
+[7.582] spawnCubeProgrammer():  19:18:19:352 w ap 0 reg 18 PSP  0x00000000
+[7.582] spawnCubeProgrammer():  19:18:19:352 run ap 0 
+[7.582] spawnCubeProgrammer():  19:18:19:583 halt ap 0 
+[7.582] spawnCubeProgrammer():  19:18:19:583 r ap 0 reg 0 R0   0x00000001
+[7.582] spawnCubeProgrammer():  19:18:19:583 erase: 0277ms
+[7.582] spawnCubeProgrammer():  19:18:19:583 Download in Progress:
+[7.582] spawnCubeProgrammer():  19:18:19:583   Size          : 912 Bytes
+[7.582] spawnCubeProgrammer():  19:18:19:584   Address       : 0x08000000 
+[7.582] spawnCubeProgrammer():  19:18:19:584 
+[7.582] spawnCubeProgrammer():  
+[7.582] spawnCubeProgrammer():  19:18:19:584 Buffer program...
+[7.583] spawnCubeProgrammer():  19:18:19:585 halt ap 0 
+[7.583] spawnCubeProgrammer():  19:18:19:585 w ap 0 reg 15 PC   (0x20000000)  
+[7.583] spawnCubeProgrammer():  19:18:19:585 w ap 0 reg 17 MSP  (0x20000500)  
+[7.583] spawnCubeProgrammer():  19:18:19:586 w ap 0 reg 16 xPSR (0x01000000)  
+[7.583] spawnCubeProgrammer():  19:18:19:590 w ap 0 @0x20001160 : 0x00000200 bytes, Data 0x00000000...
+[7.583] spawnCubeProgrammer():  19:18:19:590 w ap 0 @0x20000000 : 0x00000004 bytes, Data 0x0000BE00...
+[7.583] spawnCubeProgrammer():  19:18:19:611 w ap 0 @0x20000004 : 0x00000D38 bytes, Data 0xF000B580...
+[7.583] spawnCubeProgrammer():  19:18:19:611 Loader write range...
+[7.583] spawnCubeProgrammer():  19:18:19:614 w ap 0 @0x20001160 : 0x000001C8 bytes, Data 0x20030000...
+[7.583] spawnCubeProgrammer():  19:18:19:614 W B1 in RAM @0x20001160 size 0x000001C8 : 0003ms
+[7.583] spawnCubeProgrammer():  19:18:19:614 Init flashloader...
+[7.583] spawnCubeProgrammer():  19:18:19:615 halt ap 0 
+[7.583] spawnCubeProgrammer():  19:18:19:615 w ap 0 reg 0 R0   0x00000001
+[7.583] spawnCubeProgrammer():  19:18:19:616 w ap 0 reg 1 R1   0x00000000
+[7.583] spawnCubeProgrammer():  19:18:19:616 w ap 0 reg 2 R2   0x00000000
+[7.583] spawnCubeProgrammer():  19:18:19:617 w ap 0 reg 3 R3   0x00000000
+[7.583] spawnCubeProgrammer():  19:18:19:617 w ap 0 reg 4 R4   0x00000000
+[7.583] spawnCubeProgrammer():  19:18:19:618 w ap 0 reg 5 R5   0x00000000
+[7.583] spawnCubeProgrammer():  19:18:19:618 w ap 0 reg 6 R6   0x00000000
+[7.583] spawnCubeProgrammer():  19:18:19:618 w ap 0 reg 7 R7   0x00000000
+[7.583] spawnCubeProgrammer():  19:18:19:619 w ap 0 reg 8 R8   0x00000000
+[7.583] spawnCubeProgrammer():  19:18:19:619 w ap 0 reg 9 R9   0x00000000
+[7.583] spawnCubeProgrammer():  19:18:19:620 w ap 0 reg 10 R10  0x00000000
+[7.583] spawnCubeProgrammer():  19:18:19:620 w ap 0 reg 11 R11  0x00000000
+[7.583] spawnCubeProgrammer():  19:18:19:621 w ap 0 reg 12 R12  0x00000000
+[7.583] spawnCubeProgrammer():  19:18:19:621 w ap 0 reg 13 SP   0x00000000
+[7.583] spawnCubeProgrammer():  19:18:19:622 w ap 0 reg 14 LR   0x20000001
+[7.583] spawnCubeProgrammer():  19:18:19:622 w ap 0 reg 15 PC   0x20000005
+[7.583] spawnCubeProgrammer():  19:18:19:623 w ap 0 reg 16 xPSR 0x01000000
+[7.583] spawnCubeProgrammer():  19:18:19:623 w ap 0 reg 17 MSP  0x20001138
+[7.583] spawnCubeProgrammer():  19:18:19:623 w ap 0 reg 18 PSP  0x00000000
+[7.583] spawnCubeProgrammer():  19:18:19:624 run ap 0 
+[7.583] spawnCubeProgrammer():  19:18:19:624 halt ap 0 
+[7.583] spawnCubeProgrammer():  19:18:19:625 r ap 0 reg 0 R0   0x00000001
+[7.583] spawnCubeProgrammer():  19:18:19:625 w ap 0 reg 0 R0   0x08000000
+[7.583] spawnCubeProgrammer():  19:18:19:626 w ap 0 reg 1 R1   0x000001C8
+[7.583] spawnCubeProgrammer():  19:18:19:626 w ap 0 reg 2 R2   0x20001160
+[7.583] spawnCubeProgrammer():  19:18:19:626 w ap 0 reg 3 R3   0x00000002
+[7.583] spawnCubeProgrammer():  19:18:19:627 w ap 0 reg 4 R4   0x00000000
+[7.583] spawnCubeProgrammer():  19:18:19:627 w ap 0 reg 5 R5   0x00000000
+[7.583] spawnCubeProgrammer():  19:18:19:628 w ap 0 reg 6 R6   0x00000000
+[7.583] spawnCubeProgrammer():  19:18:19:628 w ap 0 reg 7 R7   0x00000000
+[7.583] spawnCubeProgrammer():  19:18:19:629 w ap 0 reg 8 R8   0x00000000
+[7.583] spawnCubeProgrammer():  19:18:19:629 w ap 0 reg 9 R9   0x00000000
+[7.583] spawnCubeProgrammer():  19:18:19:630 w ap 0 reg 10 R10  0x00000000
+[7.583] spawnCubeProgrammer():  19:18:19:630 w ap 0 reg 11 R11  0x00000000
+[7.583] spawnCubeProgrammer():  19:18:19:630 w ap 0 reg 12 R12  0x00000000
+[7.583] spawnCubeProgrammer():  19:18:19:632 w ap 0 reg 13 SP   0x00000000
+[7.583] spawnCubeProgrammer():  19:18:19:632 w ap 0 reg 14 LR   0x20000001
+[7.583] spawnCubeProgrammer():  19:18:19:632 w ap 0 reg 15 PC   0x20000033
+[7.583] spawnCubeProgrammer():  19:18:19:632 w ap 0 reg 16 xPSR 0x01000000
+[7.583] spawnCubeProgrammer():  19:18:19:633 w ap 0 reg 17 MSP  0x20001138
+[7.583] spawnCubeProgrammer():  19:18:19:633 w ap 0 reg 18 PSP  0x00000000
+[7.583] spawnCubeProgrammer():  19:18:19:633 run ap 0 
+[7.583] spawnCubeProgrammer():  19:18:19:637 w ap 0 @0x20001328 : 0x000001C8 bytes, Data 0x00000000...
+[7.583] spawnCubeProgrammer():  19:18:19:637 W B2 in RAM @0x20018760 size 0x000001C8: 0023ms
+[7.583] spawnCubeProgrammer():  19:18:19:637 r ap 0 reg 0 R0   0x00000001
+[7.583] spawnCubeProgrammer():  19:18:19:637 Wait W B1 in Flash @0x08000000 size 0x000001C8: 0000ms
+[7.583] spawnCubeProgrammer():  19:18:19:638 w ap 0 reg 0 R0   0x080001C8
+[7.583] spawnCubeProgrammer():  19:18:19:638 w ap 0 reg 1 R1   0x000001C8
+[7.583] spawnCubeProgrammer():  19:18:19:639 w ap 0 reg 2 R2   0x20001328
+[7.583] spawnCubeProgrammer():  19:18:19:639 w ap 0 reg 3 R3   0x00000002
+[7.583] spawnCubeProgrammer():  19:18:19:640 w ap 0 reg 4 R4   0x00000000
+[7.583] spawnCubeProgrammer():  19:18:19:640 w ap 0 reg 5 R5   0x00000000
+[7.583] spawnCubeProgrammer():  19:18:19:641 w ap 0 reg 6 R6   0x00000000
+[7.583] spawnCubeProgrammer():  19:18:19:641 w ap 0 reg 7 R7   0x00000000
+[7.583] spawnCubeProgrammer():  19:18:19:641 w ap 0 reg 8 R8   0x00000000
+[7.583] spawnCubeProgrammer():  19:18:19:642 w ap 0 reg 9 R9   0x00000000
+[7.583] spawnCubeProgrammer():  19:18:19:642 w ap 0 reg 10 R10  0x00000000
+[7.583] spawnCubeProgrammer():  19:18:19:643 w ap 0 reg 11 R11  0x00000000
+[7.583] spawnCubeProgrammer():  19:18:19:643 w ap 0 reg 12 R12  0x00000000
+[7.583] spawnCubeProgrammer():  19:18:19:644 w ap 0 reg 13 SP   0x00000000
+[7.583] spawnCubeProgrammer():  19:18:19:644 w ap 0 reg 14 LR   0x20000001
+[7.583] spawnCubeProgrammer():  19:18:19:645 w ap 0 reg 15 PC   0x20000033
+[7.583] spawnCubeProgrammer():  19:18:19:645 w ap 0 reg 16 xPSR 0x01000000
+[7.583] spawnCubeProgrammer():  19:18:19:645 w ap 0 reg 17 MSP  0x20001138
+[7.583] spawnCubeProgrammer():  19:18:19:646 w ap 0 reg 18 PSP  0x00000000
+[7.583] spawnCubeProgrammer():  19:18:19:646 run ap 0 
+[7.583] spawnCubeProgrammer():  19:18:19:650 r ap 0 reg 0 R0   0x00000001
+[7.583] spawnCubeProgrammer():  19:18:19:650 Write elapsed time: 0039ms
+[7.583] spawnCubeProgrammer():  19:18:19:650 Segment[0] downloaded successfully
+[7.583] spawnCubeProgrammer():  19:18:19:650 
+[7.583] spawnCubeProgrammer():  
+[7.583] spawnCubeProgrammer():  19:18:19:650 File download complete
+[7.583] spawnCubeProgrammer():  19:18:19:650 Time elapsed during download operation: 00:00:00.344
+[7.583] spawnCubeProgrammer():  19:18:19:650 
+[7.583] spawnCubeProgrammer():  
+[7.583] spawnCubeProgrammer():  19:18:19:650 
+[7.583] spawnCubeProgrammer():  Verifying ...
+[7.583] spawnCubeProgrammer():  19:18:19:650 
+[7.583] spawnCubeProgrammer():  
+[7.583] spawnCubeProgrammer():  19:18:19:650 Read progress:
+[7.583] spawnCubeProgrammer():  19:18:19:650 Reading data...
+[7.583] spawnCubeProgrammer():  19:18:19:657 r ap 0 @0x08000000 0x00000390 bytes Data 0x20030000
+[7.583] spawnCubeProgrammer():  19:18:19:657 
+[7.583] spawnCubeProgrammer():  
+[7.583] spawnCubeProgrammer():  19:18:19:657 Download verified successfully 
+[7.583] spawnCubeProgrammer():  19:18:19:657 
+[7.583] spawnCubeProgrammer():  
+[7.583] spawnCubeProgrammer():  19:18:19:659 Disconnected
+[7.583] spawnCubeProgrammer():   ------ Switching context ----- 
+[7.588] openDevice():  COM frequency = 4000 kHz
+[7.588] openDevice():  Target connection mode: Under reset
+[7.594] readFromTarget():  Reading ROM table for AP 0 @0xe00fffd0
+[7.597] reset_hw_wtchpt_module():  Hardware watchpoint supported by the target 
+[7.599] initContext():  ST-LINK Firmware version : V2J42M27
+[7.599] initContext():  Device ID: 0x419
+[7.600] initContext():  PC: 0x80002d4
+[7.600] initContext():  ST-LINK detects target voltage = 2.91 V
+[7.600] initContext():  ST-LINK device status: HALT_MODE
+[7.601] pollAndNotifyRun():  Stm32Device, pollAndNotify running...
+[7.601] openConnectionInt():  SWV collect poll delay set to 3413µs for baudrate 2000000Hz (buffer size 2048b)
+[7.601] updateState():  SwvSrv state change: 4 -> 2
+[7.601] handleTargetDeviceEvent():  GDB session, device event: 6
+[7.601] handleTargetDeviceEvent():  GDB session, device event: 6
+[7.601] write():  <768> Tx: $OK#9a
+[7.630] read():  <768> Rx: $m80001c0,40#89
+[7.630] handlePacket():  Reading 0x40 bytes of memory from addr 0x80001c0 
+[7.631] write():  <768> Tx: $0348aff3008008bd00000000040000207003000807b54ff4fa63adf804304ff44873adf80630bdf80600bdf8041080b289b200f009f8f6e7024a136c43f00103#bd
+[7.631] read():  <768> Rx: $m80001e6,2#5f
+[7.631] handlePacket():  Reading 0x2 bytes of memory from addr 0x80001e6 
+[7.631] write():  <768> Tx: $bdf8#64
+[7.645] read():  <768> Rx: $me000ed14,4#f0
+[7.645] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed14 
+[7.646] write():  <768> Tx: $00020000#82
+[7.646] read():  <768> Rx: $m80002d4,4#5f
+[7.646] handlePacket():  Reading 0x4 bytes of memory from addr 0x80002d4 
+[7.646] write():  <768> Tx: $0d488546#d7
+[7.646] read():  <768> Rx: $m80002d4,2#5d
+[7.646] handlePacket():  Reading 0x2 bytes of memory from addr 0x80002d4 
+[7.646] write():  <768> Tx: $0d48#00
+[7.647] read():  <768> Rx: $Xe000ed14,0:#11
+[7.647] write():  <768> Tx: $OK#9a
+[7.647] read():  <768> Rx: $Xe000ed14,4:\x10\x02\x00\x00#27
+[7.647] write():  <768> Tx: $OK#9a
+[7.647] read():  <768> Rx: $g#67
+[7.657] write():  <768> Tx: $0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000320ffffffffd402000800000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000032000000000#fd
+[7.657] read():  <768> Rx: $m80002d4,4#5f
+[7.657] handlePacket():  Reading 0x4 bytes of memory from addr 0x80002d4 
+[7.657] write():  <768> Tx: $0d488546#d7
+[7.657] read():  <768> Rx: $m80002d4,2#5d
+[7.657] handlePacket():  Reading 0x2 bytes of memory from addr 0x80002d4 
+[7.657] write():  <768> Tx: $0d48#00
+[7.658] read():  <768> Rx: $me000edfc,4#54
+[7.658] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000edfc 
+[7.658] write():  <768> Tx: $00000001#81
+[7.658] read():  <768> Rx: $Xe000edfc,4:\xff\x07\x00\x01#71
+[7.658] write():  <768> Tx: $OK#9a
+[7.658] read():  <768> Rx: $g#67
+[7.669] write():  <768> Tx: $0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000320ffffffffd402000800000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000032000000000#fd
+[7.669] read():  <768> Rx: $m80002d4,4#5f
+[7.669] handlePacket():  Reading 0x4 bytes of memory from addr 0x80002d4 
+[7.669] write():  <768> Tx: $0d488546#d7
+[7.669] read():  <768> Rx: $m80002d4,2#5d
+[7.669] handlePacket():  Reading 0x2 bytes of memory from addr 0x80002d4 
+[7.669] write():  <768> Tx: $0d48#00
+[7.670] read():  <768> Rx: $m80001d4,2#5c
+[7.670] handlePacket():  Reading 0x2 bytes of memory from addr 0x80001d4 
+[7.670] write():  <768> Tx: $07b5#fe
+[7.692] read():  <768> Rx: $me0042004,4#8c
+[7.692] handlePacket():  Reading 0x4 bytes of memory from addr 0xe0042004 
+[7.693] write():  <768> Tx: $07000000#87
+[7.693] read():  <768> Rx: $Xe0042004,4:\x07\x00\x00\x00#b8
+[7.693] write():  <768> Tx: $OK#9a
+[7.694] read():  <768> Rx: $g#67
+[7.704] write():  <768> Tx: $0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000320ffffffffd402000800000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000032000000000#fd
+[7.704] read():  <768> Rx: $m80002d4,4#5f
+[7.704] handlePacket():  Reading 0x4 bytes of memory from addr 0x80002d4 
+[7.704] write():  <768> Tx: $0d488546#d7
+[7.705] read():  <768> Rx: $m80002d4,2#5d
+[7.705] handlePacket():  Reading 0x2 bytes of memory from addr 0x80002d4 
+[7.705] write():  <768> Tx: $0d48#00
+[7.724] read():  <768> Rx: $Z1,80001d4,2#a6
+[7.724] write():  <768> Tx: $OK#9a
+[7.724] read():  <768> Rx: $Z1,80001e6,2#a9
+[7.725] write():  <768> Tx: $OK#9a
+[7.725] read():  <768> Rx: $vCont?#49
+[7.725] write():  <768> Tx: $vCont;c;s;t#05
+[7.725] read():  <768> Rx: $Hc0#db
+[7.725] write():  <768> Tx: $#00
+[7.725] read():  <768> Rx: $c#63
+[7.740] updateState():  SwvSrv state change: 2 -> 3
+[7.740] handleTargetDeviceEvent():  GDB session, device event: 3
+[7.740] handleTargetDeviceEvent():  GDB session, device event: 3
+[7.740] handleTargetDeviceEvent():  GDB session, device event: 1
+[7.740] handleTargetDeviceEvent():  GDB session, device event: 1
+[7.818] updateState():  SwvSrv state change: 3 -> 2
+[7.818] handleTargetDeviceEvent():  GDB session, device event: 0
+[7.818] handleTargetDeviceEvent():  GDB session, device event: 0
+[7.834] Device_GetHaltReason():  NVIC_DFSR_REG = 0x0000000A 
+[7.835] write():  <768> Tx: $T05#b9
+[7.835] read():  <768> Rx: $g#67
+[7.846] write():  <768> Tx: $00000020000000201c000020b90100081c0000200000000000000000000000000000000000000000000000000000000000000000000003200b030008d401000800000061000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000032000000000#43
+[7.846] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[7.846] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[7.846] read():  <768> Rx: $z1,80001d4,2#c6
+[7.846] write():  <768> Tx: $OK#9a
+[7.846] read():  <768> Rx: $z1,80001e6,2#c9
+[7.847] write():  <768> Tx: $OK#9a
+[7.847] read():  <768> Rx: $m80001d4,4#5e
+[7.847] handlePacket():  Reading 0x4 bytes of memory from addr 0x80001d4 
+[7.847] write():  <768> Tx: $07b54ff4#32
+[7.864] read():  <768> Rx: $me000ed04,4#ef
+[7.864] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed04 
+[7.864] write():  <768> Tx: $00000000#80
+[7.880] read():  <768> Rx: $me000ed2c,4#20
+[7.880] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed2c 
+[7.880] write():  <768> Tx: $00000000#80
+[7.896] read():  <768> Rx: $me000ed28,4#f5
+[7.896] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed28 
+[7.896] write():  <768> Tx: $00000000#80
+[7.912] read():  <768> Rx: $me000ed38,4#f6
+[7.912] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed38 
+[7.912] write():  <768> Tx: $f8ed00e0#5c
+[7.928] read():  <768> Rx: $me000ed34,4#f2
+[7.928] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed34 
+[7.928] write():  <768> Tx: $f8ed00e0#5c
+[7.959] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[7.959] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[7.959] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[7.959] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[7.990] read():  <768> Rx: $m800030a,4#59
+[7.990] handlePacket():  Reading 0x4 bytes of memory from addr 0x800030a 
+[7.991] write():  <768> Tx: $fee70000#27
+[7.991] read():  <768> Rx: $m80002c0,40#8a
+[7.991] handlePacket():  Reading 0x40 bytes of memory from addr 0x80002c0 
+[7.991] write():  <768> Tx: $22f001021a6138bd003802400024f400000002400d488546aff300800c480d490d4a002302e0d458c4500433c4188c42f9d30a4a0a4c002301e013600432a242#39
+[7.991] read():  <768> Rx: $m800030c,4#5b
+[7.991] handlePacket():  Reading 0x4 bytes of memory from addr 0x800030c 
+[7.992] write():  <768> Tx: $00000320#85
+[7.992] read():  <768> Rx: $m8000310,4#29
+[7.992] handlePacket():  Reading 0x4 bytes of memory from addr 0x8000310 
+[7.992] write():  <768> Tx: $00000020#82
+[7.992] read():  <768> Rx: $m8000316,4#2f
+[7.992] handlePacket():  Reading 0x4 bytes of memory from addr 0x8000316 
+[7.993] write():  <768> Tx: $00209003#8e
+[7.993] read():  <768> Rx: $m8000318,4#31
+[7.993] handlePacket():  Reading 0x4 bytes of memory from addr 0x8000318 
+[7.993] write():  <768> Tx: $90030008#94
+[7.993] read():  <768> Rx: $m2002ffc0,40#20
+[7.993] handlePacket():  Reading 0x40 bytes of memory from addr 0x2002ffc0 
+[7.994] write():  <768> Tx: $ee80b2a4b09bd69d6caf6effac9dc3c0a8d971111ca4e398000000008c0300088803000800000000b90100085d0300081c000020000000000000000007030008#73
+[14.366] read():  <768> Rx: $Z1,80001e6,2#a9
+[14.366] write():  <768> Tx: $OK#9a
+[14.366] read():  <768> Rx: $s#73
+[14.381] updateState():  SwvSrv state change: 2 -> 3
+[14.381] handleTargetDeviceEvent():  GDB session, device event: 3
+[14.381] handleTargetDeviceEvent():  GDB session, device event: 3
+[14.383] handleTargetDeviceEvent():  GDB session, device event: 1
+[14.383] handleTargetDeviceEvent():  GDB session, device event: 1
+[14.475] updateState():  SwvSrv state change: 3 -> 2
+[14.475] handleTargetDeviceEvent():  GDB session, device event: 0
+[14.475] handleTargetDeviceEvent():  GDB session, device event: 0
+[14.492] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[14.492] write():  <768> Tx: $T05#b9
+[14.492] read():  <768> Rx: $g#67
+[14.502] write():  <768> Tx: $00000020000000201c000020b90100081c0000200000000000000000000000000000000000000000000000000000000000000000f0ff02200b030008d60100080000006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000f0ff022000000000#87
+[14.502] read():  <768> Rx: $m80001d6,4#60
+[14.502] handlePacket():  Reading 0x4 bytes of memory from addr 0x80001d6 
+[14.503] write():  <768> Tx: $4ff4fa63#64
+[14.503] read():  <768> Rx: $m2002ffc0,40#20
+[14.503] handlePacket():  Reading 0x40 bytes of memory from addr 0x2002ffc0 
+[14.504] write():  <768> Tx: $ee80b2a4b09bd69d6caf6effac9dc3c0a8d971111ca4e398000000008c0300088803000800000000b90100085d03000800000020000000201c0000200b030008#a2
+[14.504] read():  <768> Rx: $s#73
+[14.522] updateState():  SwvSrv state change: 2 -> 3
+[14.522] handleTargetDeviceEvent():  GDB session, device event: 3
+[14.522] handleTargetDeviceEvent():  GDB session, device event: 3
+[14.523] handleTargetDeviceEvent():  GDB session, device event: 1
+[14.523] handleTargetDeviceEvent():  GDB session, device event: 1
+[14.583] updateState():  SwvSrv state change: 3 -> 2
+[14.583] handleTargetDeviceEvent():  GDB session, device event: 0
+[14.583] handleTargetDeviceEvent():  GDB session, device event: 0
+[14.599] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[14.600] write():  <768> Tx: $T05#b9
+[14.600] read():  <768> Rx: $g#67
+[14.611] write():  <768> Tx: $00000020000000201c000020d00700001c0000200000000000000000000000000000000000000000000000000000000000000000f0ff02200b030008da0100080000006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000f0ff022000000000#a9
+[14.611] read():  <768> Rx: $s#73
+[14.630] updateState():  SwvSrv state change: 2 -> 3
+[14.630] handleTargetDeviceEvent():  GDB session, device event: 3
+[14.630] handleTargetDeviceEvent():  GDB session, device event: 3
+[14.631] handleTargetDeviceEvent():  GDB session, device event: 1
+[14.631] handleTargetDeviceEvent():  GDB session, device event: 1
+[14.692] updateState():  SwvSrv state change: 3 -> 2
+[14.692] handleTargetDeviceEvent():  GDB session, device event: 0
+[14.692] handleTargetDeviceEvent():  GDB session, device event: 0
+[14.709] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[14.709] write():  <768> Tx: $T05#b9
+[14.709] read():  <768> Rx: $g#67
+[14.719] write():  <768> Tx: $00000020000000201c000020d00700001c0000200000000000000000000000000000000000000000000000000000000000000000f0ff02200b030008de0100080000006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000f0ff022000000000#ad
+[14.719] read():  <768> Rx: $m80001de,4#8f
+[14.719] handlePacket():  Reading 0x4 bytes of memory from addr 0x80001de 
+[14.720] write():  <768> Tx: $4ff44873#0a
+[14.720] read():  <768> Rx: $m2002ffc0,40#20
+[14.720] handlePacket():  Reading 0x40 bytes of memory from addr 0x2002ffc0 
+[14.721] write():  <768> Tx: $ee80b2a4b09bd69d6caf6effac9dc3c0a8d971111ca4e398000000008c0300088803000800000000b90100085d03000800000020d00700201c0000200b030008#dd
+[14.721] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[14.721] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[14.721] read():  <768> Rx: $z1,80001e6,2#c9
+[14.721] write():  <768> Tx: $OK#9a
+[14.721] read():  <768> Rx: $m80001de,4#8f
+[14.721] handlePacket():  Reading 0x4 bytes of memory from addr 0x80001de 
+[14.722] write():  <768> Tx: $4ff44873#0a
+[14.739] read():  <768> Rx: $m800030a,4#59
+[14.739] handlePacket():  Reading 0x4 bytes of memory from addr 0x800030a 
+[14.752] write():  <768> Tx: $fee70000#27
+[14.752] read():  <768> Rx: $m80002c0,40#8a
+[14.752] handlePacket():  Reading 0x40 bytes of memory from addr 0x80002c0 
+[14.753] write():  <768> Tx: $22f001021a6138bd003802400024f400000002400d488546aff300800c480d490d4a002302e0d458c4500433c4188c42f9d30a4a0a4c002301e013600432a242#39
+[14.753] read():  <768> Rx: $m800030c,4#5b
+[14.753] handlePacket():  Reading 0x4 bytes of memory from addr 0x800030c 
+[14.754] write():  <768> Tx: $00000320#85
+[14.754] read():  <768> Rx: $m8000310,4#29
+[14.754] handlePacket():  Reading 0x4 bytes of memory from addr 0x8000310 
+[14.754] write():  <768> Tx: $00000020#82
+[14.754] read():  <768> Rx: $m8000316,4#2f
+[14.754] handlePacket():  Reading 0x4 bytes of memory from addr 0x8000316 
+[14.755] write():  <768> Tx: $00209003#8e
+[14.755] read():  <768> Rx: $m8000318,4#31
+[14.755] handlePacket():  Reading 0x4 bytes of memory from addr 0x8000318 
+[14.756] write():  <768> Tx: $90030008#94
+[14.757] read():  <768> Rx: $me000ed04,4#ef
+[14.757] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed04 
+[14.757] write():  <768> Tx: $00000000#80
+[14.771] read():  <768> Rx: $me000ed2c,4#20
+[14.771] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed2c 
+[14.771] write():  <768> Tx: $00000000#80
+[14.771] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[14.772] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[14.772] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[14.772] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[14.773] read():  <768> Rx: $me000ed28,4#f5
+[14.773] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed28 
+[14.773] write():  <768> Tx: $00000000#80
+[14.786] read():  <768> Rx: $me000ed38,4#f6
+[14.786] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed38 
+[14.787] write():  <768> Tx: $f8ed00e0#5c
+[14.801] read():  <768> Rx: $me000ed34,4#f2
+[14.801] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed34 
+[14.802] write():  <768> Tx: $f8ed00e0#5c
+[20.183] read():  <768> Rx: $Z1,80001e6,2#a9
+[20.183] write():  <768> Tx: $OK#9a
+[20.184] read():  <768> Rx: $s#73
+[20.198] updateState():  SwvSrv state change: 2 -> 3
+[20.198] handleTargetDeviceEvent():  GDB session, device event: 3
+[20.198] handleTargetDeviceEvent():  GDB session, device event: 3
+[20.200] handleTargetDeviceEvent():  GDB session, device event: 1
+[20.200] handleTargetDeviceEvent():  GDB session, device event: 1
+[20.262] updateState():  SwvSrv state change: 3 -> 2
+[20.262] handleTargetDeviceEvent():  GDB session, device event: 0
+[20.262] handleTargetDeviceEvent():  GDB session, device event: 0
+[20.277] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[20.277] write():  <768> Tx: $T05#b9
+[20.277] read():  <768> Rx: $g#67
+[20.287] write():  <768> Tx: $00000020000000201c000020200300001c0000200000000000000000000000000000000000000000000000000000000000000000f0ff02200b030008e20100080000006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000f0ff022000000000#45
+[20.287] read():  <768> Rx: $s#73
+[20.309] updateState():  SwvSrv state change: 2 -> 3
+[20.309] handleTargetDeviceEvent():  GDB session, device event: 3
+[20.309] handleTargetDeviceEvent():  GDB session, device event: 3
+[20.311] handleTargetDeviceEvent():  GDB session, device event: 1
+[20.311] handleTargetDeviceEvent():  GDB session, device event: 1
+[20.370] updateState():  SwvSrv state change: 3 -> 2
+[20.370] handleTargetDeviceEvent():  GDB session, device event: 0
+[20.370] handleTargetDeviceEvent():  GDB session, device event: 0
+[20.387] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[20.387] write():  <768> Tx: $T05#b9
+[20.387] read():  <768> Rx: $g#67
+[20.398] write():  <768> Tx: $00000020000000201c000020200300001c0000200000000000000000000000000000000000000000000000000000000000000000f0ff02200b030008e60100080000006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000f0ff022000000000#49
+[20.398] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[20.398] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[20.398] read():  <768> Rx: $z1,80001e6,2#c9
+[20.398] write():  <768> Tx: $OK#9a
+[20.398] read():  <768> Rx: $m80001e6,4#61
+[20.398] handlePacket():  Reading 0x4 bytes of memory from addr 0x80001e6 
+[20.399] write():  <768> Tx: $bdf80600#2a
+[20.417] read():  <768> Rx: $m2002ffc0,40#20
+[20.417] handlePacket():  Reading 0x40 bytes of memory from addr 0x2002ffc0 
+[20.417] write():  <768> Tx: $ee80b2a4b09bd69d6caf6effac9dc3c0a8d971111ca4e398000000008c0300088803000800000000b90100085d03000800000020d00720031c0000200b030008#e0
+[20.417] read():  <768> Rx: $m800030a,4#59
+[20.417] handlePacket():  Reading 0x4 bytes of memory from addr 0x800030a 
+[20.417] write():  <768> Tx: $fee70000#27
+[20.417] read():  <768> Rx: $m80002c0,40#8a
+[20.417] handlePacket():  Reading 0x40 bytes of memory from addr 0x80002c0 
+[20.418] write():  <768> Tx: $22f001021a6138bd003802400024f400000002400d488546aff300800c480d490d4a002302e0d458c4500433c4188c42f9d30a4a0a4c002301e013600432a242#39
+[20.418] read():  <768> Rx: $m800030c,4#5b
+[20.418] handlePacket():  Reading 0x4 bytes of memory from addr 0x800030c 
+[20.419] write():  <768> Tx: $00000320#85
+[20.419] read():  <768> Rx: $m8000310,4#29
+[20.419] handlePacket():  Reading 0x4 bytes of memory from addr 0x8000310 
+[20.419] write():  <768> Tx: $00000020#82
+[20.419] read():  <768> Rx: $m8000316,4#2f
+[20.419] handlePacket():  Reading 0x4 bytes of memory from addr 0x8000316 
+[20.420] write():  <768> Tx: $00209003#8e
+[20.420] read():  <768> Rx: $m8000318,4#31
+[20.420] handlePacket():  Reading 0x4 bytes of memory from addr 0x8000318 
+[20.420] write():  <768> Tx: $90030008#94
+[20.421] read():  <768> Rx: $me000ed04,4#ef
+[20.421] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed04 
+[20.421] write():  <768> Tx: $00000000#80
+[20.432] read():  <768> Rx: $me000ed2c,4#20
+[20.432] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed2c 
+[20.432] write():  <768> Tx: $00000000#80
+[20.433] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[20.433] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[20.433] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[20.433] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[20.434] read():  <768> Rx: $me000ed28,4#f5
+[20.434] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed28 
+[20.434] write():  <768> Tx: $00000000#80
+[20.448] read():  <768> Rx: $me000ed38,4#f6
+[20.448] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed38 
+[20.448] write():  <768> Tx: $f8ed00e0#5c
+[20.464] read():  <768> Rx: $me000ed34,4#f2
+[20.464] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed34 
+[20.464] write():  <768> Tx: $f8ed00e0#5c
+[23.690] read():  <768> Rx: $Hc1#dc
+[23.690] write():  <768> Tx: $#00
+[23.690] read():  <768> Rx: $s#73
+[23.705] updateState():  SwvSrv state change: 2 -> 3
+[23.705] handleTargetDeviceEvent():  GDB session, device event: 3
+[23.705] handleTargetDeviceEvent():  GDB session, device event: 3
+[23.707] handleTargetDeviceEvent():  GDB session, device event: 1
+[23.707] handleTargetDeviceEvent():  GDB session, device event: 1
+[23.769] updateState():  SwvSrv state change: 3 -> 2
+[23.769] handleTargetDeviceEvent():  GDB session, device event: 0
+[23.769] handleTargetDeviceEvent():  GDB session, device event: 0
+[23.784] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[23.785] write():  <768> Tx: $T05#b9
+[23.785] read():  <768> Rx: $g#67
+[23.796] write():  <768> Tx: $20030000000000201c000020200300001c0000200000000000000000000000000000000000000000000000000000000000000000f0ff02200b030008ea0100080000006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000f0ff022000000000#77
+[23.796] read():  <768> Rx: $Z1,80001e6,2#a9
+[23.796] write():  <768> Tx: $OK#9a
+[23.796] read():  <768> Rx: $Hc0#db
+[23.797] write():  <768> Tx: $#00
+[23.797] read():  <768> Rx: $s#73
+[23.814] updateState():  SwvSrv state change: 2 -> 3
+[23.814] handleTargetDeviceEvent():  GDB session, device event: 3
+[23.814] handleTargetDeviceEvent():  GDB session, device event: 3
+[23.815] handleTargetDeviceEvent():  GDB session, device event: 1
+[23.815] handleTargetDeviceEvent():  GDB session, device event: 1
+[23.878] updateState():  SwvSrv state change: 3 -> 2
+[23.878] handleTargetDeviceEvent():  GDB session, device event: 0
+[23.878] handleTargetDeviceEvent():  GDB session, device event: 0
+[23.893] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[23.893] write():  <768> Tx: $T05#b9
+[23.893] read():  <768> Rx: $g#67
+[23.903] write():  <768> Tx: $20030000d00700001c000020200300001c0000200000000000000000000000000000000000000000000000000000000000000000f0ff02200b030008ee0100080000006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000f0ff022000000000#b4
+[23.903] read():  <768> Rx: $s#73
+[23.909] updateState():  SwvSrv state change: 2 -> 3
+[23.909] handleTargetDeviceEvent():  GDB session, device event: 3
+[23.909] handleTargetDeviceEvent():  GDB session, device event: 3
+[23.910] handleTargetDeviceEvent():  GDB session, device event: 1
+[23.910] handleTargetDeviceEvent():  GDB session, device event: 1
+[23.987] updateState():  SwvSrv state change: 3 -> 2
+[23.987] handleTargetDeviceEvent():  GDB session, device event: 0
+[23.987] handleTargetDeviceEvent():  GDB session, device event: 0
+[24.003] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[24.003] write():  <768> Tx: $T05#b9
+[24.003] read():  <768> Rx: $g#67
+[24.013] write():  <768> Tx: $20030000d00700001c000020200300001c0000200000000000000000000000000000000000000000000000000000000000000000f0ff02200b030008f00100080000006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000f0ff022000000000#80
+[24.013] read():  <768> Rx: $s#73
+[24.033] updateState():  SwvSrv state change: 2 -> 3
+[24.033] handleTargetDeviceEvent():  GDB session, device event: 3
+[24.033] handleTargetDeviceEvent():  GDB session, device event: 3
+[24.035] handleTargetDeviceEvent():  GDB session, device event: 1
+[24.035] handleTargetDeviceEvent():  GDB session, device event: 1
+[24.096] updateState():  SwvSrv state change: 3 -> 2
+[24.096] handleTargetDeviceEvent():  GDB session, device event: 0
+[24.096] handleTargetDeviceEvent():  GDB session, device event: 0
+[24.112] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[24.112] write():  <768> Tx: $T05#b9
+[24.112] read():  <768> Rx: $g#67
+[24.123] write():  <768> Tx: $20030000d00700001c000020200300001c0000200000000000000000000000000000000000000000000000000000000000000000f0ff02200b030008f20100080000006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000f0ff022000000000#82
+[24.123] read():  <768> Rx: $s#73
+[24.141] updateState():  SwvSrv state change: 2 -> 3
+[24.141] handleTargetDeviceEvent():  GDB session, device event: 3
+[24.141] handleTargetDeviceEvent():  GDB session, device event: 3
+[24.143] handleTargetDeviceEvent():  GDB session, device event: 1
+[24.143] handleTargetDeviceEvent():  GDB session, device event: 1
+[24.202] updateState():  SwvSrv state change: 3 -> 2
+[24.202] handleTargetDeviceEvent():  GDB session, device event: 0
+[24.202] handleTargetDeviceEvent():  GDB session, device event: 0
+[24.219] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[24.219] write():  <768> Tx: $T05#b9
+[24.219] read():  <768> Rx: $g#67
+[24.229] write():  <768> Tx: $20030000d00700001c000020200300001c0000200000000000000000000000000000000000000000000000000000000000000000f0ff0220f7010008080200080000006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000f0ff022000000000#5c
+[24.230] read():  <768> Rx: $m8000208,4#2f
+[24.230] handlePacket():  Reading 0x4 bytes of memory from addr 0x8000208 
+[24.231] write():  <768> Tx: $2f4a38b5#2f
+[24.231] read():  <768> Rx: $m80001f6,4#62
+[24.231] handlePacket():  Reading 0x4 bytes of memory from addr 0x80001f6 
+[24.232] write():  <768> Tx: $f6e7024a#2f
+[24.232] read():  <768> Rx: $m2002ffc0,40#20
+[24.232] handlePacket():  Reading 0x40 bytes of memory from addr 0x2002ffc0 
+[24.233] write():  <768> Tx: $ee80b2a4b09bd69d6caf6effac9dc3c0a8d971111ca4e398000000008c0300088803000800000000b90100085d03000800000020d00720031c0000200b030008#e0
+[24.233] read():  <768> Rx: $m8000200,40#57
+[24.233] handlePacket():  Reading 0x40 bytes of memory from addr 0x8000200 
+[24.233] write():  <768> Tx: $13647047003802402f4a38b5136b2f4c43f0010313632e4b1a6822f440621a601a6842f400621a601a6a22f470021a621a6a42f480121a62fff7deff4ff08043#9d
+[24.233] read():  <768> Rx: $m80002c8,4#62
+[24.234] handlePacket():  Reading 0x4 bytes of memory from addr 0x80002c8 
+[24.234] write():  <768> Tx: $00380240#91
+[24.234] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[24.234] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[24.234] read():  <768> Rx: $z1,80001e6,2#c9
+[24.234] write():  <768> Tx: $OK#9a
+[24.235] read():  <768> Rx: $m8000208,4#2f
+[24.235] handlePacket():  Reading 0x4 bytes of memory from addr 0x8000208 
+[24.235] write():  <768> Tx: $2f4a38b5#2f
+[24.235] read():  <768> Rx: $m80001f6,4#62
+[24.235] handlePacket():  Reading 0x4 bytes of memory from addr 0x80001f6 
+[24.236] write():  <768> Tx: $f6e7024a#2f
+[24.250] read():  <768> Rx: $me000ed04,4#ef
+[24.250] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed04 
+[24.251] write():  <768> Tx: $00000000#80
+[24.266] read():  <768> Rx: $me000ed2c,4#20
+[24.266] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed2c 
+[24.267] write():  <768> Tx: $00000000#80
+[24.268] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[24.268] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[24.269] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[24.269] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[24.269] read():  <768> Rx: $me000ed28,4#f5
+[24.269] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed28 
+[24.270] write():  <768> Tx: $00000000#80
+[24.282] read():  <768> Rx: $me000ed38,4#f6
+[24.282] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed38 
+[24.282] write():  <768> Tx: $f8ed00e0#5c
+[24.298] read():  <768> Rx: $me000ed34,4#f2
+[24.298] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed34 
+[24.298] write():  <768> Tx: $f8ed00e0#5c
+[25.662] read():  <768> Rx: $Z1,80001e6,2#a9
+[25.662] write():  <768> Tx: $OK#9a
+[25.662] read():  <768> Rx: $s#73
+[25.678] updateState():  SwvSrv state change: 2 -> 3
+[25.678] handleTargetDeviceEvent():  GDB session, device event: 3
+[25.678] handleTargetDeviceEvent():  GDB session, device event: 3
+[25.680] handleTargetDeviceEvent():  GDB session, device event: 1
+[25.680] handleTargetDeviceEvent():  GDB session, device event: 1
+[25.741] updateState():  SwvSrv state change: 3 -> 2
+[25.741] handleTargetDeviceEvent():  GDB session, device event: 0
+[25.741] handleTargetDeviceEvent():  GDB session, device event: 0
+[25.757] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[25.757] write():  <768> Tx: $T05#b9
+[25.757] read():  <768> Rx: $g#67
+[25.767] write():  <768> Tx: $20030000d007000000380240200300001c0000200000000000000000000000000000000000000000000000000000000000000000f0ff0220f70100080a0200080000006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000f0ff022000000000#60
+[25.767] read():  <768> Rx: $m800020a,4#58
+[25.767] handlePacket():  Reading 0x4 bytes of memory from addr 0x800020a 
+[25.768] write():  <768> Tx: $38b5136b#fe
+[25.768] read():  <768> Rx: $s#73
+[25.786] updateState():  SwvSrv state change: 2 -> 3
+[25.786] handleTargetDeviceEvent():  GDB session, device event: 3
+[25.786] handleTargetDeviceEvent():  GDB session, device event: 3
+[25.788] handleTargetDeviceEvent():  GDB session, device event: 1
+[25.788] handleTargetDeviceEvent():  GDB session, device event: 1
+[25.848] updateState():  SwvSrv state change: 3 -> 2
+[25.848] handleTargetDeviceEvent():  GDB session, device event: 0
+[25.848] handleTargetDeviceEvent():  GDB session, device event: 0
+[25.864] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[25.864] write():  <768> Tx: $T05#b9
+[25.864] read():  <768> Rx: $g#67
+[25.874] write():  <768> Tx: $20030000d007000000380240200300001c0000200000000000000000000000000000000000000000000000000000000000000000e0ff0220f70100080c0200080000006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e0ff022000000000#60
+[25.874] read():  <768> Rx: $m800020c,4#5a
+[25.874] handlePacket():  Reading 0x4 bytes of memory from addr 0x800020c 
+[25.875] write():  <768> Tx: $136b2f4c#2b
+[25.875] read():  <768> Rx: $m2002ffc0,40#20
+[25.875] handlePacket():  Reading 0x40 bytes of memory from addr 0x2002ffc0 
+[25.876] write():  <768> Tx: $ee80b2a4b09bd69d6caf6effac9dc3c0a8d971111ca4e398000000008c030008200300001c00002000000000f701000800000020d00720031c0000200b030008#be
+[25.876] read():  <768> Rx: $s#73
+[25.895] updateState():  SwvSrv state change: 2 -> 3
+[25.895] handleTargetDeviceEvent():  GDB session, device event: 3
+[25.895] handleTargetDeviceEvent():  GDB session, device event: 3
+[25.897] handleTargetDeviceEvent():  GDB session, device event: 1
+[25.897] handleTargetDeviceEvent():  GDB session, device event: 1
+[25.958] updateState():  SwvSrv state change: 3 -> 2
+[25.958] handleTargetDeviceEvent():  GDB session, device event: 0
+[25.958] handleTargetDeviceEvent():  GDB session, device event: 0
+[25.975] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[25.975] write():  <768> Tx: $T05#b9
+[25.976] read():  <768> Rx: $g#67
+[25.986] write():  <768> Tx: $20030000d007000000380240000010001c0000200000000000000000000000000000000000000000000000000000000000000000e0ff0220f70100080e0200080000006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e0ff022000000000#5e
+[25.986] read():  <768> Rx: $m800020e,4#5c
+[25.986] handlePacket():  Reading 0x4 bytes of memory from addr 0x800020e 
+[25.987] write():  <768> Tx: $2f4c43f0#2c
+[25.987] read():  <768> Rx: $m2002ffc0,40#20
+[25.987] handlePacket():  Reading 0x40 bytes of memory from addr 0x2002ffc0 
+[25.987] write():  <768> Tx: $ee80b2a4b09bd69d6caf6effac9dc3c0a8d971111ca4e398000000008c030008200300001c00002000000000f701000800000020d00720031c0000200b030008#be
+[25.987] read():  <768> Rx: $s#73
+[26.007] updateState():  SwvSrv state change: 2 -> 3
+[26.007] handleTargetDeviceEvent():  GDB session, device event: 3
+[26.007] handleTargetDeviceEvent():  GDB session, device event: 3
+[26.008] handleTargetDeviceEvent():  GDB session, device event: 1
+[26.008] handleTargetDeviceEvent():  GDB session, device event: 1
+[26.069] updateState():  SwvSrv state change: 3 -> 2
+[26.069] handleTargetDeviceEvent():  GDB session, device event: 0
+[26.069] handleTargetDeviceEvent():  GDB session, device event: 0
+[26.085] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[26.085] write():  <768> Tx: $T05#b9
+[26.085] read():  <768> Rx: $g#67
+[26.095] write():  <768> Tx: $20030000d007000000380240000010000024f4000000000000000000000000000000000000000000000000000000000000000000e0ff0220f7010008100200080000006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e0ff022000000000#34
+[26.095] read():  <768> Rx: $m8000210,4#28
+[26.095] handlePacket():  Reading 0x4 bytes of memory from addr 0x8000210 
+[26.096] write():  <768> Tx: $43f00103#c1
+[26.096] read():  <768> Rx: $m2002ffc0,40#20
+[26.096] handlePacket():  Reading 0x40 bytes of memory from addr 0x2002ffc0 
+[26.097] write():  <768> Tx: $ee80b2a4b09bd69d6caf6effac9dc3c0a8d971111ca4e398000000008c030008200300001c00002000000000f701000800000020d00720031c0000200b030008#be
+[26.097] read():  <768> Rx: $s#73
+[26.116] updateState():  SwvSrv state change: 2 -> 3
+[26.116] handleTargetDeviceEvent():  GDB session, device event: 3
+[26.116] handleTargetDeviceEvent():  GDB session, device event: 3
+[26.117] handleTargetDeviceEvent():  GDB session, device event: 1
+[26.117] handleTargetDeviceEvent():  GDB session, device event: 1
+[26.179] updateState():  SwvSrv state change: 3 -> 2
+[26.179] handleTargetDeviceEvent():  GDB session, device event: 0
+[26.179] handleTargetDeviceEvent():  GDB session, device event: 0
+[26.195] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[26.195] write():  <768> Tx: $T05#b9
+[26.196] read():  <768> Rx: $g#67
+[26.206] write():  <768> Tx: $20030000d007000000380240010010000024f4000000000000000000000000000000000000000000000000000000000000000000e0ff0220f7010008140200080000006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e0ff022000000000#39
+[26.206] read():  <768> Rx: $s#73
+[26.226] updateState():  SwvSrv state change: 2 -> 3
+[26.226] handleTargetDeviceEvent():  GDB session, device event: 3
+[26.226] handleTargetDeviceEvent():  GDB session, device event: 3
+[26.228] handleTargetDeviceEvent():  GDB session, device event: 1
+[26.228] handleTargetDeviceEvent():  GDB session, device event: 1
+[26.290] updateState():  SwvSrv state change: 3 -> 2
+[26.290] handleTargetDeviceEvent():  GDB session, device event: 0
+[26.290] handleTargetDeviceEvent():  GDB session, device event: 0
+[26.306] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[26.306] write():  <768> Tx: $T05#b9
+[26.306] read():  <768> Rx: $g#67
+[26.317] write():  <768> Tx: $20030000d007000000380240010010000024f4000000000000000000000000000000000000000000000000000000000000000000e0ff0220f7010008160200080000006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e0ff022000000000#3b
+[26.317] read():  <768> Rx: $m8000216,4#2e
+[26.317] handlePacket():  Reading 0x4 bytes of memory from addr 0x8000216 
+[26.318] write():  <768> Tx: $2e4b1a68#2d
+[26.318] read():  <768> Rx: $m2002ffc0,40#20
+[26.318] handlePacket():  Reading 0x40 bytes of memory from addr 0x2002ffc0 
+[26.320] write():  <768> Tx: $ee80b2a4b09bd69d6caf6effac9dc3c0a8d971111ca4e398000000008c030008200300001c00002000000000f701000800000020d00720031c0000200b030008#be
+[26.320] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[26.320] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[26.320] read():  <768> Rx: $z1,80001e6,2#c9
+[26.320] write():  <768> Tx: $OK#9a
+[26.321] read():  <768> Rx: $m8000216,4#2e
+[26.321] handlePacket():  Reading 0x4 bytes of memory from addr 0x8000216 
+[26.321] write():  <768> Tx: $2e4b1a68#2d
+[26.321] read():  <768> Rx: $m80001f6,4#62
+[26.321] handlePacket():  Reading 0x4 bytes of memory from addr 0x80001f6 
+[26.322] write():  <768> Tx: $f6e7024a#2f
+[26.337] read():  <768> Rx: $me000ed04,4#ef
+[26.337] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed04 
+[26.338] write():  <768> Tx: $00000000#80
+[26.353] read():  <768> Rx: $me000ed2c,4#20
+[26.353] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed2c 
+[26.353] write():  <768> Tx: $00000000#80
+[26.353] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[26.353] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[26.353] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[26.353] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[26.353] read():  <768> Rx: $me000ed28,4#f5
+[26.353] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed28 
+[26.354] write():  <768> Tx: $00000000#80
+[26.369] read():  <768> Rx: $me000ed38,4#f6
+[26.369] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed38 
+[26.369] write():  <768> Tx: $f8ed00e0#5c
+[26.385] read():  <768> Rx: $me000ed34,4#f2
+[26.385] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed34 
+[26.385] write():  <768> Tx: $f8ed00e0#5c
+[26.946] read():  <768> Rx: $Z1,80001e6,2#a9
+[26.947] write():  <768> Tx: $OK#9a
+[26.947] read():  <768> Rx: $s#73
+[26.962] updateState():  SwvSrv state change: 2 -> 3
+[26.962] handleTargetDeviceEvent():  GDB session, device event: 3
+[26.962] handleTargetDeviceEvent():  GDB session, device event: 3
+[26.964] handleTargetDeviceEvent():  GDB session, device event: 1
+[26.964] handleTargetDeviceEvent():  GDB session, device event: 1
+[27.054] updateState():  SwvSrv state change: 3 -> 2
+[27.054] handleTargetDeviceEvent():  GDB session, device event: 0
+[27.054] handleTargetDeviceEvent():  GDB session, device event: 0
+[27.070] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[27.070] write():  <768> Tx: $T05#b9
+[27.070] read():  <768> Rx: $g#67
+[27.081] write():  <768> Tx: $20030000d007000000380240000002400024f4000000000000000000000000000000000000000000000000000000000000000000e0ff0220f7010008180200080000006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e0ff022000000000#41
+[27.081] read():  <768> Rx: $s#73
+[27.086] updateState():  SwvSrv state change: 2 -> 3
+[27.086] handleTargetDeviceEvent():  GDB session, device event: 3
+[27.086] handleTargetDeviceEvent():  GDB session, device event: 3
+[27.087] handleTargetDeviceEvent():  GDB session, device event: 1
+[27.087] handleTargetDeviceEvent():  GDB session, device event: 1
+[27.165] updateState():  SwvSrv state change: 3 -> 2
+[27.166] handleTargetDeviceEvent():  GDB session, device event: 0
+[27.166] handleTargetDeviceEvent():  GDB session, device event: 0
+[27.181] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[27.181] write():  <768> Tx: $T05#b9
+[27.181] read():  <768> Rx: $g#67
+[27.191] write():  <768> Tx: $20030000d0070000000000a8000002400024f4000000000000000000000000000000000000000000000000000000000000000000e0ff0220f70100081a0200080000006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e0ff022000000000#92
+[27.191] read():  <768> Rx: $s#73
+[27.196] updateState():  SwvSrv state change: 2 -> 3
+[27.196] handleTargetDeviceEvent():  GDB session, device event: 3
+[27.196] handleTargetDeviceEvent():  GDB session, device event: 3
+[27.197] handleTargetDeviceEvent():  GDB session, device event: 1
+[27.197] handleTargetDeviceEvent():  GDB session, device event: 1
+[27.275] updateState():  SwvSrv state change: 3 -> 2
+[27.275] handleTargetDeviceEvent():  GDB session, device event: 0
+[27.275] handleTargetDeviceEvent():  GDB session, device event: 0
+[27.291] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[27.291] write():  <768> Tx: $T05#b9
+[27.291] read():  <768> Rx: $g#67
+[27.301] write():  <768> Tx: $20030000d0070000000000a8000002400024f4000000000000000000000000000000000000000000000000000000000000000000e0ff0220f70100081e0200080000006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e0ff022000000000#96
+[27.301] read():  <768> Rx: $s#73
+[27.321] updateState():  SwvSrv state change: 2 -> 3
+[27.321] handleTargetDeviceEvent():  GDB session, device event: 3
+[27.321] handleTargetDeviceEvent():  GDB session, device event: 3
+[27.323] handleTargetDeviceEvent():  GDB session, device event: 1
+[27.323] handleTargetDeviceEvent():  GDB session, device event: 1
+[27.383] updateState():  SwvSrv state change: 3 -> 2
+[27.383] handleTargetDeviceEvent():  GDB session, device event: 0
+[27.383] handleTargetDeviceEvent():  GDB session, device event: 0
+[27.399] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[27.399] write():  <768> Tx: $T05#b9
+[27.399] read():  <768> Rx: $g#67
+[27.410] write():  <768> Tx: $20030000d0070000000000a8000002400024f4000000000000000000000000000000000000000000000000000000000000000000e0ff0220f7010008200200080000006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e0ff022000000000#62
+[27.410] read():  <768> Rx: $m8000220,4#29
+[27.410] handlePacket():  Reading 0x4 bytes of memory from addr 0x8000220 
+[27.410] write():  <768> Tx: $1a6842f4#00
+[27.410] read():  <768> Rx: $m2002ffc0,40#20
+[27.410] handlePacket():  Reading 0x40 bytes of memory from addr 0x2002ffc0 
+[27.411] write():  <768> Tx: $ee80b2a4b09bd69d6caf6effac9dc3c0a8d971111ca4e398000000008c030008200300001c00002000000000f701000800000020d00720031c0000200b030008#be
+[27.411] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[27.411] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[27.411] read():  <768> Rx: $z1,80001e6,2#c9
+[27.412] write():  <768> Tx: $OK#9a
+[27.412] read():  <768> Rx: $m8000220,4#29
+[27.412] handlePacket():  Reading 0x4 bytes of memory from addr 0x8000220 
+[27.412] write():  <768> Tx: $1a6842f4#00
+[27.412] read():  <768> Rx: $m80001f6,4#62
+[27.412] handlePacket():  Reading 0x4 bytes of memory from addr 0x80001f6 
+[27.413] write():  <768> Tx: $f6e7024a#2f
+[27.430] read():  <768> Rx: $me000ed04,4#ef
+[27.430] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed04 
+[27.431] write():  <768> Tx: $00000000#80
+[27.446] read():  <768> Rx: $me000ed2c,4#20
+[27.446] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed2c 
+[27.447] write():  <768> Tx: $00000000#80
+[27.447] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[27.448] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[27.448] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[27.448] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[27.449] read():  <768> Rx: $me000ed28,4#f5
+[27.449] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed28 
+[27.449] write():  <768> Tx: $00000000#80
+[27.462] read():  <768> Rx: $me000ed38,4#f6
+[27.462] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed38 
+[27.462] write():  <768> Tx: $f8ed00e0#5c
+[27.477] read():  <768> Rx: $me000ed34,4#f2
+[27.477] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed34 
+[27.478] write():  <768> Tx: $f8ed00e0#5c
+[28.051] read():  <768> Rx: $Z1,80001e6,2#a9
+[28.051] write():  <768> Tx: $OK#9a
+[28.051] read():  <768> Rx: $s#73
+[28.067] updateState():  SwvSrv state change: 2 -> 3
+[28.067] handleTargetDeviceEvent():  GDB session, device event: 3
+[28.067] handleTargetDeviceEvent():  GDB session, device event: 3
+[28.068] handleTargetDeviceEvent():  GDB session, device event: 1
+[28.068] handleTargetDeviceEvent():  GDB session, device event: 1
+[28.145] updateState():  SwvSrv state change: 3 -> 2
+[28.145] handleTargetDeviceEvent():  GDB session, device event: 0
+[28.145] handleTargetDeviceEvent():  GDB session, device event: 0
+[28.160] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[28.161] write():  <768> Tx: $T05#b9
+[28.161] read():  <768> Rx: $g#67
+[28.171] write():  <768> Tx: $20030000d0070000000000a8000002400024f4000000000000000000000000000000000000000000000000000000000000000000e0ff0220f7010008220200080000006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e0ff022000000000#64
+[28.171] read():  <768> Rx: $s#73
+[28.191] updateState():  SwvSrv state change: 2 -> 3
+[28.191] handleTargetDeviceEvent():  GDB session, device event: 3
+[28.191] handleTargetDeviceEvent():  GDB session, device event: 3
+[28.192] handleTargetDeviceEvent():  GDB session, device event: 1
+[28.192] handleTargetDeviceEvent():  GDB session, device event: 1
+[28.253] updateState():  SwvSrv state change: 3 -> 2
+[28.253] handleTargetDeviceEvent():  GDB session, device event: 0
+[28.253] handleTargetDeviceEvent():  GDB session, device event: 0
+[28.270] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[28.270] write():  <768> Tx: $T05#b9
+[28.270] read():  <768> Rx: $g#67
+[28.280] write():  <768> Tx: $20030000d0070000000800a8000002400024f4000000000000000000000000000000000000000000000000000000000000000000e0ff0220f7010008260200080000006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e0ff022000000000#70
+[28.281] read():  <768> Rx: $s#73
+[28.300] updateState():  SwvSrv state change: 2 -> 3
+[28.300] handleTargetDeviceEvent():  GDB session, device event: 3
+[28.300] handleTargetDeviceEvent():  GDB session, device event: 3
+[28.302] handleTargetDeviceEvent():  GDB session, device event: 1
+[28.302] handleTargetDeviceEvent():  GDB session, device event: 1
+[28.362] updateState():  SwvSrv state change: 3 -> 2
+[28.362] handleTargetDeviceEvent():  GDB session, device event: 0
+[28.362] handleTargetDeviceEvent():  GDB session, device event: 0
+[28.378] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[28.378] write():  <768> Tx: $T05#b9
+[28.378] read():  <768> Rx: $g#67
+[28.388] write():  <768> Tx: $20030000d0070000000800a8000002400024f4000000000000000000000000000000000000000000000000000000000000000000e0ff0220f7010008280200080000006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e0ff022000000000#72
+[28.389] read():  <768> Rx: $m8000228,4#31
+[28.389] handlePacket():  Reading 0x4 bytes of memory from addr 0x8000228 
+[28.389] write():  <768> Tx: $1a6a22f4#27
+[28.389] read():  <768> Rx: $m2002ffc0,40#20
+[28.389] handlePacket():  Reading 0x40 bytes of memory from addr 0x2002ffc0 
+[28.390] write():  <768> Tx: $ee80b2a4b09bd69d6caf6effac9dc3c0a8d971111ca4e398000000008c030008200300001c00002000000000f701000800000020d00720031c0000200b030008#be
+[28.390] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[28.390] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[28.390] read():  <768> Rx: $z1,80001e6,2#c9
+[28.391] write():  <768> Tx: $OK#9a
+[28.391] read():  <768> Rx: $m8000228,4#31
+[28.391] handlePacket():  Reading 0x4 bytes of memory from addr 0x8000228 
+[28.391] write():  <768> Tx: $1a6a22f4#27
+[28.391] read():  <768> Rx: $m80001f6,4#62
+[28.391] handlePacket():  Reading 0x4 bytes of memory from addr 0x80001f6 
+[28.392] write():  <768> Tx: $f6e7024a#2f
+[28.409] read():  <768> Rx: $me000ed04,4#ef
+[28.409] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed04 
+[28.409] write():  <768> Tx: $00000000#80
+[28.425] read():  <768> Rx: $me000ed2c,4#20
+[28.425] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed2c 
+[28.425] write():  <768> Tx: $00000000#80
+[28.426] read():  <768> Rx: $me000ed28,4#f5
+[28.426] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed28 
+[28.426] write():  <768> Tx: $00000000#80
+[28.426] read():  <768> Rx: $me000ed38,4#f6
+[28.427] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed38 
+[28.427] write():  <768> Tx: $f8ed00e0#5c
+[28.441] read():  <768> Rx: $me000ed34,4#f2
+[28.441] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed34 
+[28.441] write():  <768> Tx: $f8ed00e0#5c
+[28.441] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[28.441] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[28.442] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[28.442] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[28.987] read():  <768> Rx: $Z1,80001e6,2#a9
+[28.987] write():  <768> Tx: $OK#9a
+[28.987] read():  <768> Rx: $s#73
+[29.002] updateState():  SwvSrv state change: 2 -> 3
+[29.002] handleTargetDeviceEvent():  GDB session, device event: 3
+[29.002] handleTargetDeviceEvent():  GDB session, device event: 3
+[29.004] handleTargetDeviceEvent():  GDB session, device event: 1
+[29.004] handleTargetDeviceEvent():  GDB session, device event: 1
+[29.019] updateState():  SwvSrv state change: 3 -> 2
+[29.019] handleTargetDeviceEvent():  GDB session, device event: 0
+[29.019] handleTargetDeviceEvent():  GDB session, device event: 0
+[29.035] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[29.035] write():  <768> Tx: $T05#b9
+[29.035] read():  <768> Rx: $g#67
+[29.045] write():  <768> Tx: $20030000d007000000000000000002400024f4000000000000000000000000000000000000000000000000000000000000000000e0ff0220f70100082a0200080000006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e0ff022000000000#5a
+[29.045] read():  <768> Rx: $s#73
+[29.065] updateState():  SwvSrv state change: 2 -> 3
+[29.065] handleTargetDeviceEvent():  GDB session, device event: 3
+[29.065] handleTargetDeviceEvent():  GDB session, device event: 3
+[29.067] handleTargetDeviceEvent():  GDB session, device event: 1
+[29.067] handleTargetDeviceEvent():  GDB session, device event: 1
+[29.129] updateState():  SwvSrv state change: 3 -> 2
+[29.129] handleTargetDeviceEvent():  GDB session, device event: 0
+[29.129] handleTargetDeviceEvent():  GDB session, device event: 0
+[29.144] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[29.144] write():  <768> Tx: $T05#b9
+[29.144] read():  <768> Rx: $g#67
+[29.154] write():  <768> Tx: $20030000d007000000000000000002400024f4000000000000000000000000000000000000000000000000000000000000000000e0ff0220f70100082e0200080000006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e0ff022000000000#5e
+[29.154] read():  <768> Rx: $s#73
+[29.174] updateState():  SwvSrv state change: 2 -> 3
+[29.174] handleTargetDeviceEvent():  GDB session, device event: 3
+[29.174] handleTargetDeviceEvent():  GDB session, device event: 3
+[29.175] handleTargetDeviceEvent():  GDB session, device event: 1
+[29.175] handleTargetDeviceEvent():  GDB session, device event: 1
+[29.237] updateState():  SwvSrv state change: 3 -> 2
+[29.237] handleTargetDeviceEvent():  GDB session, device event: 0
+[29.237] handleTargetDeviceEvent():  GDB session, device event: 0
+[29.253] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[29.253] write():  <768> Tx: $T05#b9
+[29.253] read():  <768> Rx: $g#67
+[29.263] write():  <768> Tx: $20030000d007000000000000000002400024f4000000000000000000000000000000000000000000000000000000000000000000e0ff0220f7010008300200080000006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e0ff022000000000#2a
+[29.263] read():  <768> Rx: $m8000230,4#2a
+[29.263] handlePacket():  Reading 0x4 bytes of memory from addr 0x8000230 
+[29.264] write():  <768> Tx: $1a6a42f4#29
+[29.264] read():  <768> Rx: $m2002ffc0,40#20
+[29.264] handlePacket():  Reading 0x40 bytes of memory from addr 0x2002ffc0 
+[29.264] write():  <768> Tx: $ee80b2a4b09bd69d6caf6effac9dc3c0a8d971111ca4e398000000008c030008200300001c00002000000000f701000800000020d00720031c0000200b030008#be
+[29.264] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[29.264] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[29.265] read():  <768> Rx: $z1,80001e6,2#c9
+[29.265] write():  <768> Tx: $OK#9a
+[29.265] read():  <768> Rx: $m8000230,4#2a
+[29.265] handlePacket():  Reading 0x4 bytes of memory from addr 0x8000230 
+[29.265] write():  <768> Tx: $1a6a42f4#29
+[29.265] read():  <768> Rx: $m80001f6,4#62
+[29.265] handlePacket():  Reading 0x4 bytes of memory from addr 0x80001f6 
+[29.266] write():  <768> Tx: $f6e7024a#2f
+[29.284] read():  <768> Rx: $me000ed04,4#ef
+[29.284] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed04 
+[29.284] write():  <768> Tx: $00000000#80
+[29.299] read():  <768> Rx: $me000ed2c,4#20
+[29.299] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed2c 
+[29.300] write():  <768> Tx: $00000000#80
+[29.300] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[29.300] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[29.301] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[29.301] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[29.301] read():  <768> Rx: $me000ed28,4#f5
+[29.301] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed28 
+[29.301] write():  <768> Tx: $00000000#80
+[29.315] read():  <768> Rx: $me000ed38,4#f6
+[29.315] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed38 
+[29.315] write():  <768> Tx: $f8ed00e0#5c
+[29.331] read():  <768> Rx: $me000ed34,4#f2
+[29.331] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed34 
+[29.332] write():  <768> Tx: $f8ed00e0#5c
+[30.813] read():  <768> Rx: $Z1,80001e6,2#a9
+[30.814] write():  <768> Tx: $OK#9a
+[30.814] read():  <768> Rx: $s#73
+[30.829] updateState():  SwvSrv state change: 2 -> 3
+[30.829] handleTargetDeviceEvent():  GDB session, device event: 3
+[30.829] handleTargetDeviceEvent():  GDB session, device event: 3
+[30.830] handleTargetDeviceEvent():  GDB session, device event: 1
+[30.830] handleTargetDeviceEvent():  GDB session, device event: 1
+[30.876] updateState():  SwvSrv state change: 3 -> 2
+[30.876] handleTargetDeviceEvent():  GDB session, device event: 0
+[30.876] handleTargetDeviceEvent():  GDB session, device event: 0
+[30.892] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[30.892] write():  <768> Tx: $T05#b9
+[30.892] read():  <768> Rx: $g#67
+[30.902] write():  <768> Tx: $20030000d007000000000000000002400024f4000000000000000000000000000000000000000000000000000000000000000000e0ff0220f7010008320200080000006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e0ff022000000000#2c
+[30.902] read():  <768> Rx: $s#73
+[30.921] updateState():  SwvSrv state change: 2 -> 3
+[30.921] handleTargetDeviceEvent():  GDB session, device event: 3
+[30.921] handleTargetDeviceEvent():  GDB session, device event: 3
+[30.923] handleTargetDeviceEvent():  GDB session, device event: 1
+[30.923] handleTargetDeviceEvent():  GDB session, device event: 1
+[30.985] updateState():  SwvSrv state change: 3 -> 2
+[30.985] handleTargetDeviceEvent():  GDB session, device event: 0
+[30.985] handleTargetDeviceEvent():  GDB session, device event: 0
+[31.000] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[31.000] write():  <768> Tx: $T05#b9
+[31.000] read():  <768> Rx: $g#67
+[31.010] write():  <768> Tx: $20030000d007000000001000000002400024f4000000000000000000000000000000000000000000000000000000000000000000e0ff0220f7010008360200080000006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e0ff022000000000#31
+[31.010] read():  <768> Rx: $s#73
+[31.030] updateState():  SwvSrv state change: 2 -> 3
+[31.030] handleTargetDeviceEvent():  GDB session, device event: 3
+[31.030] handleTargetDeviceEvent():  GDB session, device event: 3
+[31.032] handleTargetDeviceEvent():  GDB session, device event: 1
+[31.032] handleTargetDeviceEvent():  GDB session, device event: 1
+[31.093] updateState():  SwvSrv state change: 3 -> 2
+[31.093] handleTargetDeviceEvent():  GDB session, device event: 0
+[31.093] handleTargetDeviceEvent():  GDB session, device event: 0
+[31.109] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[31.109] write():  <768> Tx: $T05#b9
+[31.109] read():  <768> Rx: $g#67
+[31.121] write():  <768> Tx: $20030000d007000000001000000002400024f4000000000000000000000000000000000000000000000000000000000000000000e0ff0220f7010008380200080000006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e0ff022000000000#33
+[31.121] read():  <768> Rx: $m8000238,4#32
+[31.121] handlePacket():  Reading 0x4 bytes of memory from addr 0x8000238 
+[31.122] write():  <768> Tx: $fff7deff#fe
+[31.122] read():  <768> Rx: $m2002ffc0,40#20
+[31.122] handlePacket():  Reading 0x40 bytes of memory from addr 0x2002ffc0 
+[31.123] write():  <768> Tx: $ee80b2a4b09bd69d6caf6effac9dc3c0a8d971111ca4e398000000008c030008200300001c00002000000000f701000800000020d00720031c0000200b030008#be
+[31.123] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[31.123] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[31.123] read():  <768> Rx: $z1,80001e6,2#c9
+[31.123] write():  <768> Tx: $OK#9a
+[31.123] read():  <768> Rx: $m8000238,4#32
+[31.123] handlePacket():  Reading 0x4 bytes of memory from addr 0x8000238 
+[31.124] write():  <768> Tx: $fff7deff#fe
+[31.124] read():  <768> Rx: $m80001f6,4#62
+[31.124] handlePacket():  Reading 0x4 bytes of memory from addr 0x80001f6 
+[31.124] write():  <768> Tx: $f6e7024a#2f
+[31.141] read():  <768> Rx: $me000ed04,4#ef
+[31.141] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed04 
+[31.141] write():  <768> Tx: $00000000#80
+[31.142] read():  <768> Rx: $m8000200,40#57
+[31.142] handlePacket():  Reading 0x40 bytes of memory from addr 0x8000200 
+[31.142] write():  <768> Tx: $13647047003802402f4a38b5136b2f4c43f0010313632e4b1a6822f440621a601a6842f400621a601a6a22f470021a621a6a42f480121a62fff7deff4ff08043#9d
+[31.143] read():  <768> Rx: $m8000240,40#5b
+[31.143] handlePacket():  Reading 0x40 bytes of memory from addr 0x8000240 
+[31.143] write():  <768> Tx: $4ff47a529a629a6a4ff47a7502fb0552b4fbf2f212fb00f0013880b258639a6a02fb0555b4fbf5f414fb01f14c1ea4b2dc629a6922f080029a619a6922f07002#e2
+[31.144] read():  <768> Rx: $me000ed2c,4#20
+[31.144] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed2c 
+[31.144] write():  <768> Tx: $00000000#80
+[31.157] read():  <768> Rx: $me000ed28,4#f5
+[31.157] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed28 
+[31.157] write():  <768> Tx: $00000000#80
+[31.158] read():  <768> Rx: $me000ed38,4#f6
+[31.158] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed38 
+[31.158] write():  <768> Tx: $f8ed00e0#5c
+[31.158] read():  <768> Rx: $me000ed34,4#f2
+[31.159] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed34 
+[31.159] write():  <768> Tx: $f8ed00e0#5c
+[31.173] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[31.173] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[31.173] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[31.173] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[34.188] read():  <768> Rx: $Z1,80001e6,2#a9
+[34.189] write():  <768> Tx: $OK#9a
+[34.189] read():  <768> Rx: $s#73
+[34.204] updateState():  SwvSrv state change: 2 -> 3
+[34.204] handleTargetDeviceEvent():  GDB session, device event: 3
+[34.204] handleTargetDeviceEvent():  GDB session, device event: 3
+[34.206] handleTargetDeviceEvent():  GDB session, device event: 1
+[34.206] handleTargetDeviceEvent():  GDB session, device event: 1
+[34.267] updateState():  SwvSrv state change: 3 -> 2
+[34.267] handleTargetDeviceEvent():  GDB session, device event: 0
+[34.267] handleTargetDeviceEvent():  GDB session, device event: 0
+[34.282] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[34.282] write():  <768> Tx: $T05#b9
+[34.282] read():  <768> Rx: $g#67
+[34.293] write():  <768> Tx: $20030000d007000000001000000002400024f4000000000000000000000000000000000000000000000000000000000000000000e0ff02203d020008f80100080000006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e0ff022000000000#60
+[34.293] read():  <768> Rx: $m80001f8,4#64
+[34.293] handlePacket():  Reading 0x4 bytes of memory from addr 0x80001f8 
+[34.293] write():  <768> Tx: $024a136c#f4
+[34.293] read():  <768> Rx: $m800023c,4#5d
+[34.294] handlePacket():  Reading 0x4 bytes of memory from addr 0x800023c 
+[34.294] write():  <768> Tx: $4ff08043#ff
+[34.294] read():  <768> Rx: $m2002ffc0,40#20
+[34.294] handlePacket():  Reading 0x40 bytes of memory from addr 0x2002ffc0 
+[34.295] write():  <768> Tx: $ee80b2a4b09bd69d6caf6effac9dc3c0a8d971111ca4e398000000008c030008200300001c00002000000000f701000800000020d00720031c0000200b030008#be
+[34.295] read():  <768> Rx: $m80001c0,40#89
+[34.295] handlePacket():  Reading 0x40 bytes of memory from addr 0x80001c0 
+[34.296] write():  <768> Tx: $0348aff3008008bd00000000040000207003000807b54ff4fa63adf804304ff44873adf80630bdf80600bdf8041080b289b200f009f8f6e7024a136c43f00103#bd
+[34.296] read():  <768> Rx: $m8000204,4#2b
+[34.296] handlePacket():  Reading 0x4 bytes of memory from addr 0x8000204 
+[34.297] write():  <768> Tx: $00380240#91
+[34.297] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[34.297] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[34.297] read():  <768> Rx: $z1,80001e6,2#c9
+[34.297] write():  <768> Tx: $OK#9a
+[34.297] read():  <768> Rx: $m80001f8,4#64
+[34.297] handlePacket():  Reading 0x4 bytes of memory from addr 0x80001f8 
+[34.297] write():  <768> Tx: $024a136c#f4
+[34.313] read():  <768> Rx: $me000ed04,4#ef
+[34.313] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed04 
+[34.314] write():  <768> Tx: $00000000#80
+[34.314] read():  <768> Rx: $m8000200,40#57
+[34.314] handlePacket():  Reading 0x40 bytes of memory from addr 0x8000200 
+[34.315] write():  <768> Tx: $13647047003802402f4a38b5136b2f4c43f0010313632e4b1a6822f440621a601a6842f400621a601a6a22f470021a621a6a42f480121a62fff7deff4ff08043#9d
+[34.316] read():  <768> Rx: $m800023c,4#5d
+[34.316] handlePacket():  Reading 0x4 bytes of memory from addr 0x800023c 
+[34.316] write():  <768> Tx: $4ff08043#ff
+[34.316] read():  <768> Rx: $m80001f6,4#62
+[34.316] handlePacket():  Reading 0x4 bytes of memory from addr 0x80001f6 
+[34.317] write():  <768> Tx: $f6e7024a#2f
+[34.317] read():  <768> Rx: $me000ed2c,4#20
+[34.317] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed2c 
+[34.317] write():  <768> Tx: $00000000#80
+[34.328] read():  <768> Rx: $me000ed28,4#f5
+[34.328] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed28 
+[34.328] write():  <768> Tx: $00000000#80
+[34.344] read():  <768> Rx: $me000ed38,4#f6
+[34.344] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed38 
+[34.344] write():  <768> Tx: $f8ed00e0#5c
+[34.345] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[34.345] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[34.345] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[34.345] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[34.346] read():  <768> Rx: $me000ed34,4#f2
+[34.346] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed34 
+[34.347] write():  <768> Tx: $f8ed00e0#5c
+[36.185] read():  <768> Rx: $Z1,80001e6,2#a9
+[36.185] write():  <768> Tx: $OK#9a
+[36.186] read():  <768> Rx: $s#73
+[36.201] updateState():  SwvSrv state change: 2 -> 3
+[36.201] handleTargetDeviceEvent():  GDB session, device event: 3
+[36.201] handleTargetDeviceEvent():  GDB session, device event: 3
+[36.202] handleTargetDeviceEvent():  GDB session, device event: 1
+[36.202] handleTargetDeviceEvent():  GDB session, device event: 1
+[36.232] updateState():  SwvSrv state change: 3 -> 2
+[36.232] handleTargetDeviceEvent():  GDB session, device event: 0
+[36.232] handleTargetDeviceEvent():  GDB session, device event: 0
+[36.248] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[36.248] write():  <768> Tx: $T05#b9
+[36.248] read():  <768> Rx: $g#67
+[36.258] write():  <768> Tx: $20030000d007000000380240000002400024f4000000000000000000000000000000000000000000000000000000000000000000e0ff02203d020008fa0100080000006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e0ff022000000000#99
+[36.258] read():  <768> Rx: $s#73
+[36.263] updateState():  SwvSrv state change: 2 -> 3
+[36.263] handleTargetDeviceEvent():  GDB session, device event: 3
+[36.263] handleTargetDeviceEvent():  GDB session, device event: 3
+[36.265] handleTargetDeviceEvent():  GDB session, device event: 1
+[36.265] handleTargetDeviceEvent():  GDB session, device event: 1
+[36.341] updateState():  SwvSrv state change: 3 -> 2
+[36.341] handleTargetDeviceEvent():  GDB session, device event: 0
+[36.341] handleTargetDeviceEvent():  GDB session, device event: 0
+[36.357] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[36.357] write():  <768> Tx: $T05#b9
+[36.357] read():  <768> Rx: $g#67
+[36.368] write():  <768> Tx: $20030000d007000000380240000000000024f4000000000000000000000000000000000000000000000000000000000000000000e0ff02203d020008fc0100080000006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e0ff022000000000#95
+[36.368] read():  <768> Rx: $s#73
+[36.388] updateState():  SwvSrv state change: 2 -> 3
+[36.388] handleTargetDeviceEvent():  GDB session, device event: 3
+[36.388] handleTargetDeviceEvent():  GDB session, device event: 3
+[36.389] handleTargetDeviceEvent():  GDB session, device event: 1
+[36.389] handleTargetDeviceEvent():  GDB session, device event: 1
+[36.450] updateState():  SwvSrv state change: 3 -> 2
+[36.450] handleTargetDeviceEvent():  GDB session, device event: 0
+[36.450] handleTargetDeviceEvent():  GDB session, device event: 0
+[36.465] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[36.465] write():  <768> Tx: $T05#b9
+[36.466] read():  <768> Rx: $g#67
+[36.477] write():  <768> Tx: $20030000d007000000380240010000000024f4000000000000000000000000000000000000000000000000000000000000000000e0ff02203d020008000200080000006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e0ff022000000000#2e
+[36.477] read():  <768> Rx: $s#73
+[36.496] updateState():  SwvSrv state change: 2 -> 3
+[36.496] handleTargetDeviceEvent():  GDB session, device event: 3
+[36.496] handleTargetDeviceEvent():  GDB session, device event: 3
+[36.498] handleTargetDeviceEvent():  GDB session, device event: 1
+[36.498] handleTargetDeviceEvent():  GDB session, device event: 1
+[36.559] updateState():  SwvSrv state change: 3 -> 2
+[36.559] handleTargetDeviceEvent():  GDB session, device event: 0
+[36.559] handleTargetDeviceEvent():  GDB session, device event: 0
+[36.574] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[36.574] write():  <768> Tx: $T05#b9
+[36.575] read():  <768> Rx: $g#67
+[36.586] write():  <768> Tx: $20030000d007000000380240010000000024f4000000000000000000000000000000000000000000000000000000000000000000e0ff02203d020008020200080000006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e0ff022000000000#30
+[36.586] read():  <768> Rx: $m8000202,4#29
+[36.586] handlePacket():  Reading 0x4 bytes of memory from addr 0x8000202 
+[36.587] write():  <768> Tx: $70470038#9d
+[36.588] read():  <768> Rx: $s#73
+[36.605] updateState():  SwvSrv state change: 2 -> 3
+[36.605] handleTargetDeviceEvent():  GDB session, device event: 3
+[36.605] handleTargetDeviceEvent():  GDB session, device event: 3
+[36.606] handleTargetDeviceEvent():  GDB session, device event: 1
+[36.606] handleTargetDeviceEvent():  GDB session, device event: 1
+[36.668] updateState():  SwvSrv state change: 3 -> 2
+[36.668] handleTargetDeviceEvent():  GDB session, device event: 0
+[36.668] handleTargetDeviceEvent():  GDB session, device event: 0
+[36.683] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[36.683] write():  <768> Tx: $T05#b9
+[36.684] read():  <768> Rx: $g#67
+[36.694] write():  <768> Tx: $20030000d007000000380240010000000024f4000000000000000000000000000000000000000000000000000000000000000000e0ff02203d0200083c0200080000006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e0ff022000000000#64
+[36.694] read():  <768> Rx: $m800023c,4#5d
+[36.694] handlePacket():  Reading 0x4 bytes of memory from addr 0x800023c 
+[36.694] write():  <768> Tx: $4ff08043#ff
+[36.694] read():  <768> Rx: $m2002ffc0,40#20
+[36.694] handlePacket():  Reading 0x40 bytes of memory from addr 0x2002ffc0 
+[36.695] write():  <768> Tx: $ee80b2a4b09bd69d6caf6effac9dc3c0a8d971111ca4e398000000008c030008200300001c00002000000000f701000800000020d00720031c0000200b030008#be
+[36.695] read():  <768> Rx: $m80001f6,4#62
+[36.695] handlePacket():  Reading 0x4 bytes of memory from addr 0x80001f6 
+[36.696] write():  <768> Tx: $f6e7024a#2f
+[36.696] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[36.696] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[36.696] read():  <768> Rx: $z1,80001e6,2#c9
+[36.696] write():  <768> Tx: $OK#9a
+[36.696] read():  <768> Rx: $m800023c,4#5d
+[36.696] handlePacket():  Reading 0x4 bytes of memory from addr 0x800023c 
+[36.697] write():  <768> Tx: $4ff08043#ff
+[36.697] read():  <768> Rx: $m80001f6,4#62
+[36.697] handlePacket():  Reading 0x4 bytes of memory from addr 0x80001f6 
+[36.698] write():  <768> Tx: $f6e7024a#2f
+[36.714] read():  <768> Rx: $me000ed04,4#ef
+[36.714] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed04 
+[36.714] write():  <768> Tx: $00000000#80
+[36.730] read():  <768> Rx: $me000ed2c,4#20
+[36.730] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed2c 
+[36.730] write():  <768> Tx: $00000000#80
+[36.730] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[36.731] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[36.731] read():  <768> Rx: $me000ed28,4#f5
+[36.731] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed28 
+[36.731] write():  <768> Tx: $00000000#80
+[36.746] read():  <768> Rx: $me000ed38,4#f6
+[36.746] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed38 
+[36.747] write():  <768> Tx: $f8ed00e0#5c
+[36.747] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[36.747] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[36.747] read():  <768> Rx: $me000ed34,4#f2
+[36.747] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed34 
+[36.748] write():  <768> Tx: $f8ed00e0#5c
+[40.864] read():  <768> Rx: $Z1,80001e6,2#a9
+[40.864] write():  <768> Tx: $OK#9a
+[40.864] read():  <768> Rx: $s#73
+[40.879] updateState():  SwvSrv state change: 2 -> 3
+[40.879] handleTargetDeviceEvent():  GDB session, device event: 3
+[40.879] handleTargetDeviceEvent():  GDB session, device event: 3
+[40.881] handleTargetDeviceEvent():  GDB session, device event: 1
+[40.881] handleTargetDeviceEvent():  GDB session, device event: 1
+[40.927] updateState():  SwvSrv state change: 3 -> 2
+[40.927] handleTargetDeviceEvent():  GDB session, device event: 0
+[40.927] handleTargetDeviceEvent():  GDB session, device event: 0
+[40.943] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[40.943] write():  <768> Tx: $T05#b9
+[40.944] read():  <768> Rx: $g#67
+[40.954] write():  <768> Tx: $20030000d007000000380240000000400024f4000000000000000000000000000000000000000000000000000000000000000000e0ff02203d020008400200080000006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e0ff022000000000#35
+[40.954] read():  <768> Rx: $s#73
+[40.974] updateState():  SwvSrv state change: 2 -> 3
+[40.974] handleTargetDeviceEvent():  GDB session, device event: 3
+[40.974] handleTargetDeviceEvent():  GDB session, device event: 3
+[40.976] handleTargetDeviceEvent():  GDB session, device event: 1
+[40.976] handleTargetDeviceEvent():  GDB session, device event: 1
+[41.035] updateState():  SwvSrv state change: 3 -> 2
+[41.035] handleTargetDeviceEvent():  GDB session, device event: 0
+[41.035] handleTargetDeviceEvent():  GDB session, device event: 0
+[41.051] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[41.051] write():  <768> Tx: $T05#b9
+[41.051] read():  <768> Rx: $g#67
+[41.062] write():  <768> Tx: $20030000d0070000803e0000000000400024f4000000000000000000000000000000000000000000000000000000000000000000e0ff02203d020008440200080000006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e0ff022000000000#68
+[41.062] read():  <768> Rx: $s#73
+[41.082] updateState():  SwvSrv state change: 2 -> 3
+[41.082] handleTargetDeviceEvent():  GDB session, device event: 3
+[41.082] handleTargetDeviceEvent():  GDB session, device event: 3
+[41.084] handleTargetDeviceEvent():  GDB session, device event: 1
+[41.084] handleTargetDeviceEvent():  GDB session, device event: 1
+[41.145] updateState():  SwvSrv state change: 3 -> 2
+[41.145] handleTargetDeviceEvent():  GDB session, device event: 0
+[41.145] handleTargetDeviceEvent():  GDB session, device event: 0
+[41.161] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[41.161] write():  <768> Tx: $T05#b9
+[41.161] read():  <768> Rx: $g#67
+[41.172] write():  <768> Tx: $20030000d0070000803e0000000000400024f4000000000000000000000000000000000000000000000000000000000000000000e0ff02203d020008460200080000006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e0ff022000000000#6a
+[41.172] read():  <768> Rx: $m8000246,4#31
+[41.172] handlePacket():  Reading 0x4 bytes of memory from addr 0x8000246 
+[41.173] write():  <768> Tx: $9a6a4ff4#65
+[41.174] read():  <768> Rx: $m2002ffc0,40#20
+[41.174] handlePacket():  Reading 0x40 bytes of memory from addr 0x2002ffc0 
+[41.175] write():  <768> Tx: $ee80b2a4b09bd69d6caf6effac9dc3c0a8d971111ca4e398000000008c030008200300001c00002000000000f701000800000020d00720031c0000200b030008#be
+[41.175] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[41.175] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[41.175] read():  <768> Rx: $z1,80001e6,2#c9
+[41.175] write():  <768> Tx: $OK#9a
+[41.175] read():  <768> Rx: $m8000246,4#31
+[41.175] handlePacket():  Reading 0x4 bytes of memory from addr 0x8000246 
+[41.176] write():  <768> Tx: $9a6a4ff4#65
+[41.176] read():  <768> Rx: $m80001f6,4#62
+[41.176] handlePacket():  Reading 0x4 bytes of memory from addr 0x80001f6 
+[41.177] write():  <768> Tx: $f6e7024a#2f
+[41.192] read():  <768> Rx: $me000ed04,4#ef
+[41.192] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed04 
+[41.193] write():  <768> Tx: $00000000#80
+[41.208] read():  <768> Rx: $me000ed2c,4#20
+[41.208] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed2c 
+[41.208] write():  <768> Tx: $00000000#80
+[41.223] read():  <768> Rx: $me000ed28,4#f5
+[41.223] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed28 
+[41.223] write():  <768> Tx: $00000000#80
+[41.224] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[41.224] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[41.224] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[41.225] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[41.225] read():  <768> Rx: $me000ed38,4#f6
+[41.225] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed38 
+[41.225] write():  <768> Tx: $f8ed00e0#5c
+[41.239] read():  <768> Rx: $me000ed34,4#f2
+[41.239] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed34 
+[41.239] write():  <768> Tx: $f8ed00e0#5c
+[48.408] read():  <768> Rx: $Z1,80001e6,2#a9
+[48.408] write():  <768> Tx: $OK#9a
+[48.408] read():  <768> Rx: $s#73
+[48.424] updateState():  SwvSrv state change: 2 -> 3
+[48.424] handleTargetDeviceEvent():  GDB session, device event: 3
+[48.424] handleTargetDeviceEvent():  GDB session, device event: 3
+[48.425] handleTargetDeviceEvent():  GDB session, device event: 1
+[48.425] handleTargetDeviceEvent():  GDB session, device event: 1
+[48.472] updateState():  SwvSrv state change: 3 -> 2
+[48.472] handleTargetDeviceEvent():  GDB session, device event: 0
+[48.472] handleTargetDeviceEvent():  GDB session, device event: 0
+[48.489] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[48.489] write():  <768> Tx: $T05#b9
+[48.489] read():  <768> Rx: $g#67
+[48.499] write():  <768> Tx: $20030000d0070000803e0000000000400024f4000000000000000000000000000000000000000000000000000000000000000000e0ff02203d020008480200080000006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e0ff022000000000#6c
+[48.499] read():  <768> Rx: $m8000248,4#33
+[48.499] handlePacket():  Reading 0x4 bytes of memory from addr 0x8000248 
+[48.500] write():  <768> Tx: $4ff47a75#38
+[48.500] read():  <768> Rx: $m2002ffc0,40#20
+[48.500] handlePacket():  Reading 0x40 bytes of memory from addr 0x2002ffc0 
+[48.500] write():  <768> Tx: $ee80b2a4b09bd69d6caf6effac9dc3c0a8d971111ca4e398000000008c030008200300001c00002000000000f701000800000020d00720031c0000200b030008#be
+[48.500] read():  <768> Rx: $s#73
+[48.520] updateState():  SwvSrv state change: 2 -> 3
+[48.520] handleTargetDeviceEvent():  GDB session, device event: 3
+[48.520] handleTargetDeviceEvent():  GDB session, device event: 3
+[48.522] handleTargetDeviceEvent():  GDB session, device event: 1
+[48.522] handleTargetDeviceEvent():  GDB session, device event: 1
+[48.583] updateState():  SwvSrv state change: 3 -> 2
+[48.583] handleTargetDeviceEvent():  GDB session, device event: 0
+[48.583] handleTargetDeviceEvent():  GDB session, device event: 0
+[48.600] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[48.600] write():  <768> Tx: $T05#b9
+[48.600] read():  <768> Rx: $g#67
+[48.611] write():  <768> Tx: $20030000d0070000803e0000000000400024f400e803000000000000000000000000000000000000000000000000000000000000e0ff02203d0200084c0200080000006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e0ff022000000000#d7
+[48.611] read():  <768> Rx: $s#73
+[48.629] updateState():  SwvSrv state change: 2 -> 3
+[48.629] handleTargetDeviceEvent():  GDB session, device event: 3
+[48.629] handleTargetDeviceEvent():  GDB session, device event: 3
+[48.630] handleTargetDeviceEvent():  GDB session, device event: 1
+[48.630] handleTargetDeviceEvent():  GDB session, device event: 1
+[48.692] updateState():  SwvSrv state change: 3 -> 2
+[48.692] handleTargetDeviceEvent():  GDB session, device event: 0
+[48.692] handleTargetDeviceEvent():  GDB session, device event: 0
+[48.708] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[48.708] write():  <768> Tx: $T05#b9
+[48.708] read():  <768> Rx: $g#67
+[48.719] write():  <768> Tx: $20030000d0070000e827f400000000400024f400e803000000000000000000000000000000000000000000000000000000000000e0ff02203d020008500200080000006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e0ff022000000000#e5
+[48.719] read():  <768> Rx: $m8000250,4#2c
+[48.719] handlePacket():  Reading 0x4 bytes of memory from addr 0x8000250 
+[48.719] write():  <768> Tx: $b4fbf2f2#8e
+[48.719] read():  <768> Rx: $m2002ffc0,40#20
+[48.719] handlePacket():  Reading 0x40 bytes of memory from addr 0x2002ffc0 
+[48.720] write():  <768> Tx: $ee80b2a4b09bd69d6caf6effac9dc3c0a8d971111ca4e398000000008c030008200300001c00002000000000f701000800000020d00720031c0000200b030008#be
+[48.720] read():  <768> Rx: $s#73
+[48.738] updateState():  SwvSrv state change: 2 -> 3
+[48.738] handleTargetDeviceEvent():  GDB session, device event: 3
+[48.738] handleTargetDeviceEvent():  GDB session, device event: 3
+[48.740] handleTargetDeviceEvent():  GDB session, device event: 1
+[48.740] handleTargetDeviceEvent():  GDB session, device event: 1
+[48.801] updateState():  SwvSrv state change: 3 -> 2
+[48.801] handleTargetDeviceEvent():  GDB session, device event: 0
+[48.801] handleTargetDeviceEvent():  GDB session, device event: 0
+[48.818] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[48.818] write():  <768> Tx: $T05#b9
+[48.818] read():  <768> Rx: $g#67
+[48.829] write():  <768> Tx: $20030000d007000000000000000000400024f400e803000000000000000000000000000000000000000000000000000000000000e0ff02203d020008540200080000006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e0ff022000000000#69
+[48.829] read():  <768> Rx: $m8000254,4#30
+[48.829] handlePacket():  Reading 0x4 bytes of memory from addr 0x8000254 
+[48.829] write():  <768> Tx: $12fb00f0#21
+[48.829] read():  <768> Rx: $m2002ffc0,40#20
+[48.829] handlePacket():  Reading 0x40 bytes of memory from addr 0x2002ffc0 
+[48.830] write():  <768> Tx: $ee80b2a4b09bd69d6caf6effac9dc3c0a8d971111ca4e398000000008c030008200300001c00002000000000f701000800000020d00720031c0000200b030008#be
+[48.830] read():  <768> Rx: $s#73
+[48.848] updateState():  SwvSrv state change: 2 -> 3
+[48.848] handleTargetDeviceEvent():  GDB session, device event: 3
+[48.848] handleTargetDeviceEvent():  GDB session, device event: 3
+[48.850] handleTargetDeviceEvent():  GDB session, device event: 1
+[48.850] handleTargetDeviceEvent():  GDB session, device event: 1
+[48.912] updateState():  SwvSrv state change: 3 -> 2
+[48.912] handleTargetDeviceEvent():  GDB session, device event: 0
+[48.912] handleTargetDeviceEvent():  GDB session, device event: 0
+[48.928] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[48.928] write():  <768> Tx: $T05#b9
+[48.929] read():  <768> Rx: $g#67
+[48.939] write():  <768> Tx: $00000000d007000000000000000000400024f400e803000000000000000000000000000000000000000000000000000000000000e0ff02203d020008580200080000006100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e0ff022000000000#68
+[48.939] read():  <768> Rx: $m8000258,4#34
+[48.939] handlePacket():  Reading 0x4 bytes of memory from addr 0x8000258 
+[48.939] write():  <768> Tx: $013880b2#c8
+[48.939] read():  <768> Rx: $m2002ffc0,40#20
+[48.939] handlePacket():  Reading 0x40 bytes of memory from addr 0x2002ffc0 
+[48.940] write():  <768> Tx: $ee80b2a4b09bd69d6caf6effac9dc3c0a8d971111ca4e398000000008c030008200300001c00002000000000f701000800000020d00720031c0000200b030008#be
+[48.940] read():  <768> Rx: $s#73
+[48.960] updateState():  SwvSrv state change: 2 -> 3
+[48.960] handleTargetDeviceEvent():  GDB session, device event: 3
+[48.960] handleTargetDeviceEvent():  GDB session, device event: 3
+[48.961] handleTargetDeviceEvent():  GDB session, device event: 1
+[48.961] handleTargetDeviceEvent():  GDB session, device event: 1
+[49.022] updateState():  SwvSrv state change: 3 -> 2
+[49.022] handleTargetDeviceEvent():  GDB session, device event: 0
+[49.022] handleTargetDeviceEvent():  GDB session, device event: 0
+[49.039] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[49.039] write():  <768> Tx: $T05#b9
+[49.039] read():  <768> Rx: $g#67
+[49.049] write():  <768> Tx: $ffffffffd007000000000000000000400024f400e803000000000000000000000000000000000000000000000000000000000000e0ff02203d0200085a0200080000008100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e0ff022000000000#43
+[49.049] read():  <768> Rx: $s#73
+[49.070] updateState():  SwvSrv state change: 2 -> 3
+[49.070] handleTargetDeviceEvent():  GDB session, device event: 3
+[49.070] handleTargetDeviceEvent():  GDB session, device event: 3
+[49.072] handleTargetDeviceEvent():  GDB session, device event: 1
+[49.072] handleTargetDeviceEvent():  GDB session, device event: 1
+[49.133] updateState():  SwvSrv state change: 3 -> 2
+[49.133] handleTargetDeviceEvent():  GDB session, device event: 0
+[49.133] handleTargetDeviceEvent():  GDB session, device event: 0
+[49.148] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[49.148] write():  <768> Tx: $T05#b9
+[49.148] read():  <768> Rx: $g#67
+[49.159] write():  <768> Tx: $ffff0000d007000000000000000000400024f400e803000000000000000000000000000000000000000000000000000000000000e0ff02203d0200085c0200080000008100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e0ff022000000000#6d
+[49.159] read():  <768> Rx: $m800025c,4#5f
+[49.159] handlePacket():  Reading 0x4 bytes of memory from addr 0x800025c 
+[49.159] write():  <768> Tx: $58639a6a#07
+[49.160] read():  <768> Rx: $m2002ffc0,40#20
+[49.160] handlePacket():  Reading 0x40 bytes of memory from addr 0x2002ffc0 
+[49.160] write():  <768> Tx: $ee80b2a4b09bd69d6caf6effac9dc3c0a8d971111ca4e398000000008c030008200300001c00002000000000f701000800000020d00720031c0000200b030008#be
+[49.160] read():  <768> Rx: $s#73
+[49.178] updateState():  SwvSrv state change: 2 -> 3
+[49.178] handleTargetDeviceEvent():  GDB session, device event: 3
+[49.178] handleTargetDeviceEvent():  GDB session, device event: 3
+[49.179] handleTargetDeviceEvent():  GDB session, device event: 1
+[49.179] handleTargetDeviceEvent():  GDB session, device event: 1
+[49.241] updateState():  SwvSrv state change: 3 -> 2
+[49.241] handleTargetDeviceEvent():  GDB session, device event: 0
+[49.241] handleTargetDeviceEvent():  GDB session, device event: 0
+[49.256] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000001 
+[49.256] write():  <768> Tx: $T05#b9
+[49.256] read():  <768> Rx: $g#67
+[49.268] write():  <768> Tx: $ffff0000d007000000000000000000400024f400e803000000000000000000000000000000000000000000000000000000000000e0ff02203d0200085e0200080000008100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e0ff022000000000#6f
+[49.268] read():  <768> Rx: $m800025e,4#61
+[49.268] handlePacket():  Reading 0x4 bytes of memory from addr 0x800025e 
+[49.269] write():  <768> Tx: $9a6a02fb#5b
+[49.269] read():  <768> Rx: $m2002ffc0,40#20
+[49.269] handlePacket():  Reading 0x40 bytes of memory from addr 0x2002ffc0 
+[49.270] write():  <768> Tx: $ee80b2a4b09bd69d6caf6effac9dc3c0a8d971111ca4e398000000008c030008200300001c00002000000000f701000800000020d00720031c0000200b030008#be
+[49.270] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[49.270] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[49.270] read():  <768> Rx: $z1,80001e6,2#c9
+[49.270] write():  <768> Tx: $OK#9a
+[49.270] read():  <768> Rx: $m800025e,4#61
+[49.270] handlePacket():  Reading 0x4 bytes of memory from addr 0x800025e 
+[49.271] write():  <768> Tx: $9a6a02fb#5b
+[49.271] read():  <768> Rx: $m80001f6,4#62
+[49.271] handlePacket():  Reading 0x4 bytes of memory from addr 0x80001f6 
+[49.272] write():  <768> Tx: $f6e7024a#2f
+[49.287] read():  <768> Rx: $me000ed04,4#ef
+[49.287] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed04 
+[49.287] write():  <768> Tx: $00000000#80
+[49.287] read():  <768> Rx: $m8000240,40#5b
+[49.287] handlePacket():  Reading 0x40 bytes of memory from addr 0x8000240 
+[49.288] write():  <768> Tx: $4ff47a529a629a6a4ff47a7502fb0552b4fbf2f212fb00f0013880b258639a6a02fb0555b4fbf5f414fb01f14c1ea4b2dc629a6922f080029a619a6922f07002#e2
+[49.288] read():  <768> Rx: $m8000280,40#5f
+[49.288] handlePacket():  Reading 0x40 bytes of memory from addr 0x8000280 
+[49.289] write():  <768> Tx: $9a619a6942f060029a619a6922f00f029a611a6a42f001021a6200225a621a6842f001021a601a699107fcd51a6922f002021a614ff080431a69d207fcd51a69#72
+[49.289] read():  <768> Rx: $me000ed2c,4#20
+[49.289] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed2c 
+[49.290] write():  <768> Tx: $00000000#80
+[49.301] read():  <768> Rx: $me000ed28,4#f5
+[49.301] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed28 
+[49.302] write():  <768> Tx: $00000000#80
+[49.302] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[49.302] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[49.302] read():  <768> Rx: $qXfer:threads:read::0,1000#92
+[49.302] write():  <768> Tx: $l<?xml version="1.0"?><threads><thread id="1" core="0" name="main"></thread></threads>#f7
+[49.303] read():  <768> Rx: $me000ed38,4#f6
+[49.303] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed38 
+[49.303] write():  <768> Tx: $f8ed00e0#5c
+[49.317] read():  <768> Rx: $me000ed34,4#f2
+[49.317] handlePacket():  Reading 0x4 bytes of memory from addr 0xe000ed34 
+[49.317] write():  <768> Tx: $f8ed00e0#5c
+[69.578] read():  <768> Rx: $vKill;a410#33
+[69.578] handlePacket():  Hidden/Unsupported v-command 'vKill', see RSP for details
+[69.578] write():  <768> Tx: $#00
+[69.578] read():  <768> Rx: $k#6b
+[69.578] run():  GDB session terminated: Client connection lost
+[69.578] handleSessionEvent():  GdbSessionManager, session terminated: 1
+[69.610] cleanup():  Cleanup session: 1
+[69.610] ~GdbSession():  GDB session disposed: 1
+[70.105] read():  <804> Rx: $vKill;a410#33
+[70.105] handlePacket():  Hidden/Unsupported v-command 'vKill', see RSP for details
+[70.105] write():  <804> Tx: $#00
+[70.105] read():  <804> Rx: $k#6b
+[70.105] run():  GDB session terminated: Client connection lost
+[70.105] handleSessionEvent():  GdbSessionManager, session terminated: 2
+[70.105] handleSessionEvent():  GdbSrv, last session terminated, signal dispose
+[70.105] stop():  Stopping port 61234
+[70.112] updateState():  SwvSrv state change: 2 -> 1
+[70.112] handleSession():  SwvSrv session thread disposed
+[70.112] WaitConnection():  Waiting for connection on port 61235...
+[70.158] cleanup():  Cleanup session: 2
+[70.158] ~GdbSession():  GDB session disposed: 2
+[70.204] WaitConnection():  Received stop for port 61234, not accepting new connections.
+[70.204] deInit():  GdbSrv, deInit entry.
+[70.204] deInit():  GdbSessionManager, deInit entry.
+[70.205] stop():  Stopping port 61234
+[70.267] deInit():  GdbSessionManager, deInit exit
+[70.267] deInit():  SwvSrv deInit entry
+[70.267] stop():  Stopping port 61235
+[70.331] WaitConnection():  Received stop for port 61235, not accepting new connections.
+[70.331] deInit():  SwvSrv deInit exit
+[70.331] closeDevice():  Stm32Device, closeDevice() entry
+[70.423] pollAndNotifyRun():  Stm32Device, pollAndNotify stopped
+[70.427] closeDevice():  Stm32Device, closeDevice() exit
+[70.427] deInit():  Stm32Device, deInit success
+[70.427] deInit():  GdbSrv, deInit exit.

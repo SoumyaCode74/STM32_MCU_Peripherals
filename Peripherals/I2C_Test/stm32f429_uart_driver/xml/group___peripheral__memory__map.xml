@@ -1,0 +1,1600 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="group___peripheral__memory__map" kind="group">
+    <compoundname>Peripheral_memory_map</compoundname>
+    <title>Peripheral_memory_map</title>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga23a9099a5f8fc9c6e253c0eecb2be8db" prot="public" static="no">
+        <name>FLASH_BASE</name>
+        <initializer>0x08000000UL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="group___peripheral__declaration_1ga844ea28ba1e0a5a0e497f16b61ea306b" kindref="member">FLASH(up to 2 MB)</ref> base address in the alias region <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1024" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1024" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gabea1f1810ebeac402164b42ab54bcdf9" prot="public" static="no">
+        <name>CCMDATARAM_BASE</name>
+        <initializer>0x10000000UL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>CCM(core coupled memory) data RAM(64 KB) base address in the alias region <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1025" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1025" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga7d0fbfb8894012dbbb96754b95e562cd" prot="public" static="no">
+        <name>SRAM1_BASE</name>
+        <initializer>0x20000000UL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>SRAM1(112 KB) base address in the alias region <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1026" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1026" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gadbb42a3d0a8a90a79d2146e4014241b1" prot="public" static="no">
+        <name>SRAM2_BASE</name>
+        <initializer>0x2001C000UL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>SRAM2(16 KB) base address in the alias region <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1027" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1027" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gadb41012a2428a526d7ee5ff0f61d2344" prot="public" static="no">
+        <name>SRAM3_BASE</name>
+        <initializer>0x20020000UL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>SRAM3(64 KB) base address in the alias region <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1028" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1028" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga9171f49478fa86d932f89e78e73b88b0" prot="public" static="no">
+        <name>PERIPH_BASE</name>
+        <initializer>0x40000000UL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Peripheral base address in the alias region <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1029" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1029" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga52e57051bdf8909222b36e5408a48f32" prot="public" static="no">
+        <name>BKPSRAM_BASE</name>
+        <initializer>0x40024000UL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Backup SRAM(4 KB) base address in the alias region <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1030" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1030" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga7a599164cd92798542bc6288793d1ed5" prot="public" static="no">
+        <name>FMC_R_BASE</name>
+        <initializer>0xA0000000UL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>FMC registers base address <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1031" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1031" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gac4c4f61082e4b168f29d9cf97dc3ca5c" prot="public" static="no">
+        <name>SRAM1_BB_BASE</name>
+        <initializer>0x22000000UL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>SRAM1(112 KB) base address in the bit-band region <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1032" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1032" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gac33cb6edadf184ab9860d77089503922" prot="public" static="no">
+        <name>SRAM2_BB_BASE</name>
+        <initializer>0x22380000UL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>SRAM2(16 KB) base address in the bit-band region <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1033" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1033" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gaebfa4db60f9ac39c7c7f3fed98090410" prot="public" static="no">
+        <name>SRAM3_BB_BASE</name>
+        <initializer>0x22400000UL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>SRAM3(64 KB) base address in the bit-band region <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1034" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1034" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gaed7efc100877000845c236ccdc9e144a" prot="public" static="no">
+        <name>PERIPH_BB_BASE</name>
+        <initializer>0x42000000UL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Peripheral base address in the bit-band region <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1035" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1035" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gaee19a30c9fa326bb10b547e4eaf4e250" prot="public" static="no">
+        <name>BKPSRAM_BB_BASE</name>
+        <initializer>0x42480000UL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Backup SRAM(4 KB) base address in the bit-band region <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1036" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1036" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga8be554f354e5aa65370f6db63d4f3ee4" prot="public" static="no">
+        <name>FLASH_END</name>
+        <initializer>0x081FFFFFUL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>FLASH end address <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1037" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1037" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga91d296a67aec0da8f31c368cbc0eea94" prot="public" static="no">
+        <name>FLASH_OTP_BASE</name>
+        <initializer>0x1FFF7800UL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Base address of : (up to 528 Bytes) embedded FLASH OTP Area <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1038" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1038" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga5bec9c5a91e312fca36f256f508ceee1" prot="public" static="no">
+        <name>FLASH_OTP_END</name>
+        <initializer>0x1FFF7A0FUL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>End address of : (up to 528 Bytes) embedded FLASH OTP Area <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1039" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1039" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga9fbe263946209e6f09faf93512bd2f9a" prot="public" static="no">
+        <name>CCMDATARAM_END</name>
+        <initializer>0x1000FFFFUL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>CCM data RAM end address <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1040" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1040" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga05e8f3d2e5868754a7cd88614955aecc" prot="public" static="no">
+        <name>SRAM_BASE</name>
+        <initializer><ref refid="group___peripheral__memory__map_1ga7d0fbfb8894012dbbb96754b95e562cd" kindref="member">SRAM1_BASE</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1043" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1043" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gad3548b6e2f017f39d399358f3ac98454" prot="public" static="no">
+        <name>SRAM_BB_BASE</name>
+        <initializer><ref refid="group___peripheral__memory__map_1gac4c4f61082e4b168f29d9cf97dc3ca5c" kindref="member">SRAM1_BB_BASE</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Peripheral memory map </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1044" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1044" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga45666d911f39addd4c8c0a0ac3388cfb" prot="public" static="no">
+        <name>APB1PERIPH_BASE</name>
+        <initializer><ref refid="group___peripheral__memory__map_1ga9171f49478fa86d932f89e78e73b88b0" kindref="member">PERIPH_BASE</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1047" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1047" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga25b99d6065f1c8f751e78f43ade652cb" prot="public" static="no">
+        <name>APB2PERIPH_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga9171f49478fa86d932f89e78e73b88b0" kindref="member">PERIPH_BASE</ref> + 0x00010000UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1048" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1048" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga811a9a4ca17f0a50354a9169541d56c4" prot="public" static="no">
+        <name>AHB1PERIPH_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga9171f49478fa86d932f89e78e73b88b0" kindref="member">PERIPH_BASE</ref> + 0x00020000UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1049" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1049" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gaeedaa71d22a1948492365e2cd26cfd46" prot="public" static="no">
+        <name>AHB2PERIPH_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga9171f49478fa86d932f89e78e73b88b0" kindref="member">PERIPH_BASE</ref> + 0x10000000UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>APB1 peripherals </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1050" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1050" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga00d0fe6ad532ab32f0f81cafca8d3aa5" prot="public" static="no">
+        <name>TIM2_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga45666d911f39addd4c8c0a0ac3388cfb" kindref="member">APB1PERIPH_BASE</ref> + 0x0000UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1053" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1053" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gaf0c34a518f87e1e505cd2332e989564a" prot="public" static="no">
+        <name>TIM3_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga45666d911f39addd4c8c0a0ac3388cfb" kindref="member">APB1PERIPH_BASE</ref> + 0x0400UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1054" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1054" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga56e2d44b0002f316527b8913866a370d" prot="public" static="no">
+        <name>TIM4_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga45666d911f39addd4c8c0a0ac3388cfb" kindref="member">APB1PERIPH_BASE</ref> + 0x0800UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1055" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1055" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga3e1671477190d065ba7c944558336d7e" prot="public" static="no">
+        <name>TIM5_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga45666d911f39addd4c8c0a0ac3388cfb" kindref="member">APB1PERIPH_BASE</ref> + 0x0C00UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1056" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1056" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga8268ec947929f192559f28c6bf7d1eac" prot="public" static="no">
+        <name>TIM6_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga45666d911f39addd4c8c0a0ac3388cfb" kindref="member">APB1PERIPH_BASE</ref> + 0x1000UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1057" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1057" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga0ebf54364c6a2be6eb19ded6b18b6387" prot="public" static="no">
+        <name>TIM7_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga45666d911f39addd4c8c0a0ac3388cfb" kindref="member">APB1PERIPH_BASE</ref> + 0x1400UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1058" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1058" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga33dea32fadbaecea161c2ef7927992fd" prot="public" static="no">
+        <name>TIM12_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga45666d911f39addd4c8c0a0ac3388cfb" kindref="member">APB1PERIPH_BASE</ref> + 0x1800UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1059" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1059" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gad20f79948e9359125a40bbf6ed063590" prot="public" static="no">
+        <name>TIM13_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga45666d911f39addd4c8c0a0ac3388cfb" kindref="member">APB1PERIPH_BASE</ref> + 0x1C00UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1060" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1060" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga862855347d6e1d92730dfe17ee8e90b8" prot="public" static="no">
+        <name>TIM14_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga45666d911f39addd4c8c0a0ac3388cfb" kindref="member">APB1PERIPH_BASE</ref> + 0x2000UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1061" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1061" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga4265e665d56225412e57a61d87417022" prot="public" static="no">
+        <name>RTC_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga45666d911f39addd4c8c0a0ac3388cfb" kindref="member">APB1PERIPH_BASE</ref> + 0x2800UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1062" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1062" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga9a5bf4728ab93dea5b569f5b972cbe62" prot="public" static="no">
+        <name>WWDG_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga45666d911f39addd4c8c0a0ac3388cfb" kindref="member">APB1PERIPH_BASE</ref> + 0x2C00UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1063" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1063" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga8543ee4997296af5536b007cd4748f55" prot="public" static="no">
+        <name>IWDG_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga45666d911f39addd4c8c0a0ac3388cfb" kindref="member">APB1PERIPH_BASE</ref> + 0x3000UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1064" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1064" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gaa5f7b241ed5b756decd835300c9e7bc9" prot="public" static="no">
+        <name>I2S2ext_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga45666d911f39addd4c8c0a0ac3388cfb" kindref="member">APB1PERIPH_BASE</ref> + 0x3400UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1065" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1065" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gac3e357b4c25106ed375fb1affab6bb86" prot="public" static="no">
+        <name>SPI2_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga45666d911f39addd4c8c0a0ac3388cfb" kindref="member">APB1PERIPH_BASE</ref> + 0x3800UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1066" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1066" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gae634fe8faa6922690e90fbec2fc86162" prot="public" static="no">
+        <name>SPI3_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga45666d911f39addd4c8c0a0ac3388cfb" kindref="member">APB1PERIPH_BASE</ref> + 0x3C00UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1067" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1067" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga89b61d6e6b09e94f3fccb7bef34e0263" prot="public" static="no">
+        <name>I2S3ext_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga45666d911f39addd4c8c0a0ac3388cfb" kindref="member">APB1PERIPH_BASE</ref> + 0x4000UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1068" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1068" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gade83162a04bca0b15b39018a8e8ec090" prot="public" static="no">
+        <name>USART2_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga45666d911f39addd4c8c0a0ac3388cfb" kindref="member">APB1PERIPH_BASE</ref> + 0x4400UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1069" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1069" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gabe0d6539ac0026d598274ee7f45b0251" prot="public" static="no">
+        <name>USART3_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga45666d911f39addd4c8c0a0ac3388cfb" kindref="member">APB1PERIPH_BASE</ref> + 0x4800UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1070" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1070" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga94d92270bf587ccdc3a37a5bb5d20467" prot="public" static="no">
+        <name>UART4_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga45666d911f39addd4c8c0a0ac3388cfb" kindref="member">APB1PERIPH_BASE</ref> + 0x4C00UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1071" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1071" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gaa155689c0e206e6994951dc3cf31052a" prot="public" static="no">
+        <name>UART5_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga45666d911f39addd4c8c0a0ac3388cfb" kindref="member">APB1PERIPH_BASE</ref> + 0x5000UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1072" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1072" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gacd72dbffb1738ca87c838545c4eb85a3" prot="public" static="no">
+        <name>I2C1_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga45666d911f39addd4c8c0a0ac3388cfb" kindref="member">APB1PERIPH_BASE</ref> + 0x5400UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1073" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1073" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga04bda70f25c795fb79f163b633ad4a5d" prot="public" static="no">
+        <name>I2C2_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga45666d911f39addd4c8c0a0ac3388cfb" kindref="member">APB1PERIPH_BASE</ref> + 0x5800UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1074" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1074" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga4e8b9198748235a1729e1e8f8f24983b" prot="public" static="no">
+        <name>I2C3_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga45666d911f39addd4c8c0a0ac3388cfb" kindref="member">APB1PERIPH_BASE</ref> + 0x5C00UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1075" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1075" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gad8e45ea6c032d9fce1b0516fff9d8eaa" prot="public" static="no">
+        <name>CAN1_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga45666d911f39addd4c8c0a0ac3388cfb" kindref="member">APB1PERIPH_BASE</ref> + 0x6400UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1076" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1076" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gaf7b8267b0d439f8f3e82f86be4b9fba1" prot="public" static="no">
+        <name>CAN2_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga45666d911f39addd4c8c0a0ac3388cfb" kindref="member">APB1PERIPH_BASE</ref> + 0x6800UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1077" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1077" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gac691ec23dace8b7a649a25acb110217a" prot="public" static="no">
+        <name>PWR_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga45666d911f39addd4c8c0a0ac3388cfb" kindref="member">APB1PERIPH_BASE</ref> + 0x7000UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1078" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1078" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gad18d0b914c7f68cecbee1a2d23a67d38" prot="public" static="no">
+        <name>DAC_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga45666d911f39addd4c8c0a0ac3388cfb" kindref="member">APB1PERIPH_BASE</ref> + 0x7400UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1079" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1079" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga3150e4b10ec876c0b20f22de12a8fa40" prot="public" static="no">
+        <name>UART7_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga45666d911f39addd4c8c0a0ac3388cfb" kindref="member">APB1PERIPH_BASE</ref> + 0x7800UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1080" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1080" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gac9c6cd59a248941d9d2462ab21a2346e" prot="public" static="no">
+        <name>UART8_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga45666d911f39addd4c8c0a0ac3388cfb" kindref="member">APB1PERIPH_BASE</ref> + 0x7C00UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>APB2 peripherals </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1081" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1081" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gaf8aa324ca5011b8173ab16585ed7324a" prot="public" static="no">
+        <name>TIM1_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga25b99d6065f1c8f751e78f43ade652cb" kindref="member">APB2PERIPH_BASE</ref> + 0x0000UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1084" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1084" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga5b72f698b7a048a6f9fcfe2efe5bc1db" prot="public" static="no">
+        <name>TIM8_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga25b99d6065f1c8f751e78f43ade652cb" kindref="member">APB2PERIPH_BASE</ref> + 0x0400UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1085" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1085" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga86162ab3f740db9026c1320d46938b4d" prot="public" static="no">
+        <name>USART1_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga25b99d6065f1c8f751e78f43ade652cb" kindref="member">APB2PERIPH_BASE</ref> + 0x1000UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1086" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1086" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gade4d3907fd0387ee832f426f52d568bb" prot="public" static="no">
+        <name>USART6_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga25b99d6065f1c8f751e78f43ade652cb" kindref="member">APB2PERIPH_BASE</ref> + 0x1400UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1087" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1087" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga695c9a2f892363a1c942405c8d351b91" prot="public" static="no">
+        <name>ADC1_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga25b99d6065f1c8f751e78f43ade652cb" kindref="member">APB2PERIPH_BASE</ref> + 0x2000UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1088" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1088" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga6544abc57f9759f610eee09a02442ae6" prot="public" static="no">
+        <name>ADC2_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga25b99d6065f1c8f751e78f43ade652cb" kindref="member">APB2PERIPH_BASE</ref> + 0x2100UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1089" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1089" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gaca766f86c8e0b00a8e2b0224dcbb4c82" prot="public" static="no">
+        <name>ADC3_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga25b99d6065f1c8f751e78f43ade652cb" kindref="member">APB2PERIPH_BASE</ref> + 0x2200UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1090" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1090" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga58b9980508ab28022e3be7edc4eda72e" prot="public" static="no">
+        <name>ADC123_COMMON_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga25b99d6065f1c8f751e78f43ade652cb" kindref="member">APB2PERIPH_BASE</ref> + 0x2300UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1091" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1091" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gad06cb9e5985bd216a376f26f22303cd6" prot="public" static="no">
+        <name>ADC_BASE</name>
+        <initializer><ref refid="group___peripheral__memory__map_1ga58b9980508ab28022e3be7edc4eda72e" kindref="member">ADC123_COMMON_BASE</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1093" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1093" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga95dd0abbc6767893b4b02935fa846f52" prot="public" static="no">
+        <name>SDIO_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga25b99d6065f1c8f751e78f43ade652cb" kindref="member">APB2PERIPH_BASE</ref> + 0x2C00UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1094" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1094" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga50cd8b47929f18b05efbd0f41253bf8d" prot="public" static="no">
+        <name>SPI1_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga25b99d6065f1c8f751e78f43ade652cb" kindref="member">APB2PERIPH_BASE</ref> + 0x3000UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1095" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1095" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gac5cfaedf263cee1e79554665f921c708" prot="public" static="no">
+        <name>SPI4_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga25b99d6065f1c8f751e78f43ade652cb" kindref="member">APB2PERIPH_BASE</ref> + 0x3400UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1096" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1096" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga62246020bf3b34b6a4d8d0e84ec79d3d" prot="public" static="no">
+        <name>SYSCFG_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga25b99d6065f1c8f751e78f43ade652cb" kindref="member">APB2PERIPH_BASE</ref> + 0x3800UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1097" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1097" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga87371508b3bcdcd98cd1ec629be29061" prot="public" static="no">
+        <name>EXTI_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga25b99d6065f1c8f751e78f43ade652cb" kindref="member">APB2PERIPH_BASE</ref> + 0x3C00UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1098" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1098" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga92ae902be7902560939223dd765ece08" prot="public" static="no">
+        <name>TIM9_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga25b99d6065f1c8f751e78f43ade652cb" kindref="member">APB2PERIPH_BASE</ref> + 0x4000UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1099" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1099" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga3eff32f3801db31fb4b61d5618cad54a" prot="public" static="no">
+        <name>TIM10_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga25b99d6065f1c8f751e78f43ade652cb" kindref="member">APB2PERIPH_BASE</ref> + 0x4400UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1100" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga3a4a06bb84c703084f0509e105ffaf1d" prot="public" static="no">
+        <name>TIM11_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga25b99d6065f1c8f751e78f43ade652cb" kindref="member">APB2PERIPH_BASE</ref> + 0x4800UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1101" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gac1c58d33414e167d478ecd0e31331dfa" prot="public" static="no">
+        <name>SPI5_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga25b99d6065f1c8f751e78f43ade652cb" kindref="member">APB2PERIPH_BASE</ref> + 0x5000UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1102" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gaf69c602bd348dc0aa1b4e829e40ebb70" prot="public" static="no">
+        <name>SPI6_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga25b99d6065f1c8f751e78f43ade652cb" kindref="member">APB2PERIPH_BASE</ref> + 0x5400UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1103" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga24c1053b754946b512f9c31123e09d21" prot="public" static="no">
+        <name>SAI1_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga25b99d6065f1c8f751e78f43ade652cb" kindref="member">APB2PERIPH_BASE</ref> + 0x5800UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1104" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga31f72e5e5d7aea23bc8a5191bc32e900" prot="public" static="no">
+        <name>SAI1_Block_A_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga24c1053b754946b512f9c31123e09d21" kindref="member">SAI1_BASE</ref> + 0x004UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1105" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gacdb59b321830def8c7a57c154178bc48" prot="public" static="no">
+        <name>SAI1_Block_B_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga24c1053b754946b512f9c31123e09d21" kindref="member">SAI1_BASE</ref> + 0x024UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1106" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gac6e45c39fafa3e82cdedbf447b461704" prot="public" static="no">
+        <name>LTDC_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga25b99d6065f1c8f751e78f43ade652cb" kindref="member">APB2PERIPH_BASE</ref> + 0x6800UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1107" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga81a2641d0a8e698f32b160b2d20d070b" prot="public" static="no">
+        <name>LTDC_Layer1_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1gac6e45c39fafa3e82cdedbf447b461704" kindref="member">LTDC_BASE</ref> + 0x84UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1108" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga696614b764a3820d9f9560a0eec1e111" prot="public" static="no">
+        <name>LTDC_Layer2_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1gac6e45c39fafa3e82cdedbf447b461704" kindref="member">LTDC_BASE</ref> + 0x104UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>AHB1 peripherals </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1109" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gad7723846cc5db8e43a44d78cf21f6efa" prot="public" static="no">
+        <name>GPIOA_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga811a9a4ca17f0a50354a9169541d56c4" kindref="member">AHB1PERIPH_BASE</ref> + 0x0000UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1112" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gac944a89eb789000ece920c0f89cb6a68" prot="public" static="no">
+        <name>GPIOB_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga811a9a4ca17f0a50354a9169541d56c4" kindref="member">AHB1PERIPH_BASE</ref> + 0x0400UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1113" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga26f267dc35338eef219544c51f1e6b3f" prot="public" static="no">
+        <name>GPIOC_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga811a9a4ca17f0a50354a9169541d56c4" kindref="member">AHB1PERIPH_BASE</ref> + 0x0800UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1114" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga1a93ab27129f04064089616910c296ec" prot="public" static="no">
+        <name>GPIOD_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga811a9a4ca17f0a50354a9169541d56c4" kindref="member">AHB1PERIPH_BASE</ref> + 0x0C00UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1115" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gab487b1983d936c4fee3e9e88b95aad9d" prot="public" static="no">
+        <name>GPIOE_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga811a9a4ca17f0a50354a9169541d56c4" kindref="member">AHB1PERIPH_BASE</ref> + 0x1000UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1116" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga7f9a3f4223a1a784af464a114978d26e" prot="public" static="no">
+        <name>GPIOF_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga811a9a4ca17f0a50354a9169541d56c4" kindref="member">AHB1PERIPH_BASE</ref> + 0x1400UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1117" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga5d8ca4020f2e8c00bde974e8e7c13cfe" prot="public" static="no">
+        <name>GPIOG_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga811a9a4ca17f0a50354a9169541d56c4" kindref="member">AHB1PERIPH_BASE</ref> + 0x1800UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1118" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gaee4716389f3a1c727495375b76645608" prot="public" static="no">
+        <name>GPIOH_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga811a9a4ca17f0a50354a9169541d56c4" kindref="member">AHB1PERIPH_BASE</ref> + 0x1C00UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1119" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga50acf918c2e1c4597d5ccfe25eb3ad3d" prot="public" static="no">
+        <name>GPIOI_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga811a9a4ca17f0a50354a9169541d56c4" kindref="member">AHB1PERIPH_BASE</ref> + 0x2000UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1120" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga73f5a4e42f41acc614ee82c8ebfe0b85" prot="public" static="no">
+        <name>GPIOJ_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga811a9a4ca17f0a50354a9169541d56c4" kindref="member">AHB1PERIPH_BASE</ref> + 0x2400UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1121" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga46d3f8cd7c045b5e13cd7395b8e936e5" prot="public" static="no">
+        <name>GPIOK_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga811a9a4ca17f0a50354a9169541d56c4" kindref="member">AHB1PERIPH_BASE</ref> + 0x2800UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1122" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga656a447589e785594cbf2f45c835ad7e" prot="public" static="no">
+        <name>CRC_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga811a9a4ca17f0a50354a9169541d56c4" kindref="member">AHB1PERIPH_BASE</ref> + 0x3000UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1123" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga0e681b03f364532055d88f63fec0d99d" prot="public" static="no">
+        <name>RCC_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga811a9a4ca17f0a50354a9169541d56c4" kindref="member">AHB1PERIPH_BASE</ref> + 0x3800UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1124" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga8e21f4845015730c5731763169ec0e9b" prot="public" static="no">
+        <name>FLASH_R_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga811a9a4ca17f0a50354a9169541d56c4" kindref="member">AHB1PERIPH_BASE</ref> + 0x3C00UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1125" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gab2d8a917a0e4ea99a22ac6ebf279bc72" prot="public" static="no">
+        <name>DMA1_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga811a9a4ca17f0a50354a9169541d56c4" kindref="member">AHB1PERIPH_BASE</ref> + 0x6000UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1126" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga0d3c52aa35dcc68f78b704dfde57ba95" prot="public" static="no">
+        <name>DMA1_Stream0_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1gab2d8a917a0e4ea99a22ac6ebf279bc72" kindref="member">DMA1_BASE</ref> + 0x010UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1127" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga5b4152cef577e37eccc9311d8bdbf3c2" prot="public" static="no">
+        <name>DMA1_Stream1_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1gab2d8a917a0e4ea99a22ac6ebf279bc72" kindref="member">DMA1_BASE</ref> + 0x028UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1128" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga48a551ee91d3f07dd74347fdb35c703d" prot="public" static="no">
+        <name>DMA1_Stream2_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1gab2d8a917a0e4ea99a22ac6ebf279bc72" kindref="member">DMA1_BASE</ref> + 0x040UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1129" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gac51deb54ff7cfe1290dfcf517ae67127" prot="public" static="no">
+        <name>DMA1_Stream3_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1gab2d8a917a0e4ea99a22ac6ebf279bc72" kindref="member">DMA1_BASE</ref> + 0x058UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1130" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga757a3c0d866c0fe68c6176156065a26b" prot="public" static="no">
+        <name>DMA1_Stream4_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1gab2d8a917a0e4ea99a22ac6ebf279bc72" kindref="member">DMA1_BASE</ref> + 0x070UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1131" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga0ded7bed8969fe2e2d616e7f90eb7654" prot="public" static="no">
+        <name>DMA1_Stream5_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1gab2d8a917a0e4ea99a22ac6ebf279bc72" kindref="member">DMA1_BASE</ref> + 0x088UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1132" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga58998ddc40adb6361704d6c9dad08125" prot="public" static="no">
+        <name>DMA1_Stream6_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1gab2d8a917a0e4ea99a22ac6ebf279bc72" kindref="member">DMA1_BASE</ref> + 0x0A0UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1133" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga82186dd6d3f60995d428b34c041919d7" prot="public" static="no">
+        <name>DMA1_Stream7_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1gab2d8a917a0e4ea99a22ac6ebf279bc72" kindref="member">DMA1_BASE</ref> + 0x0B8UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1134" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gab72a9ae145053ee13d1d491fb5c1df64" prot="public" static="no">
+        <name>DMA2_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga811a9a4ca17f0a50354a9169541d56c4" kindref="member">AHB1PERIPH_BASE</ref> + 0x6400UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1135" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gac4c67b24726ba6b94d03adb351bcec4d" prot="public" static="no">
+        <name>DMA2_Stream0_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1gab72a9ae145053ee13d1d491fb5c1df64" kindref="member">DMA2_BASE</ref> + 0x010UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1136" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga35512bdc3f5e9df4557c2fbe7935d0b1" prot="public" static="no">
+        <name>DMA2_Stream1_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1gab72a9ae145053ee13d1d491fb5c1df64" kindref="member">DMA2_BASE</ref> + 0x028UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1137" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gaed33a06f08188466f2ede06160984e9a" prot="public" static="no">
+        <name>DMA2_Stream2_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1gab72a9ae145053ee13d1d491fb5c1df64" kindref="member">DMA2_BASE</ref> + 0x040UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1138" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gaf3a9480e08c6ae94f4482e0cdaebdd17" prot="public" static="no">
+        <name>DMA2_Stream3_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1gab72a9ae145053ee13d1d491fb5c1df64" kindref="member">DMA2_BASE</ref> + 0x058UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1139" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gad1e67740e6301233473f64638145dd1f" prot="public" static="no">
+        <name>DMA2_Stream4_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1gab72a9ae145053ee13d1d491fb5c1df64" kindref="member">DMA2_BASE</ref> + 0x070UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1140" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gaed1460fdc407b6decfbffccb0260d0af" prot="public" static="no">
+        <name>DMA2_Stream5_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1gab72a9ae145053ee13d1d491fb5c1df64" kindref="member">DMA2_BASE</ref> + 0x088UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1141" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga5e81174c96fd204fa7c82c815e85c8e6" prot="public" static="no">
+        <name>DMA2_Stream6_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1gab72a9ae145053ee13d1d491fb5c1df64" kindref="member">DMA2_BASE</ref> + 0x0A0UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1142" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gaa9faa708ad2440d24eb1064cba9bb06d" prot="public" static="no">
+        <name>DMA2_Stream7_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1gab72a9ae145053ee13d1d491fb5c1df64" kindref="member">DMA2_BASE</ref> + 0x0B8UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1143" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gad965a7b1106ece575ed3da10c45c65cc" prot="public" static="no">
+        <name>ETH_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga811a9a4ca17f0a50354a9169541d56c4" kindref="member">AHB1PERIPH_BASE</ref> + 0x8000UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1144" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga3cf7005808feb61bff1fee01e50a711a" prot="public" static="no">
+        <name>ETH_MAC_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1gad965a7b1106ece575ed3da10c45c65cc" kindref="member">ETH_BASE</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1145" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga4946f2b3b03f7998343ac1778fbcf725" prot="public" static="no">
+        <name>ETH_MMC_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1gad965a7b1106ece575ed3da10c45c65cc" kindref="member">ETH_BASE</ref> + 0x0100UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1146" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gaa0f60b922aeb7275c785cbaa8f94ecf0" prot="public" static="no">
+        <name>ETH_PTP_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1gad965a7b1106ece575ed3da10c45c65cc" kindref="member">ETH_BASE</ref> + 0x0700UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1147" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gace2114e1b37c1ba88d60f3e831b67e93" prot="public" static="no">
+        <name>ETH_DMA_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1gad965a7b1106ece575ed3da10c45c65cc" kindref="member">ETH_BASE</ref> + 0x1000UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1148" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gacec66385fd1604e69584eb19a0aaa303" prot="public" static="no">
+        <name>DMA2D_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga811a9a4ca17f0a50354a9169541d56c4" kindref="member">AHB1PERIPH_BASE</ref> + 0xB000UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>AHB2 peripherals </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1149" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga55b794507e021135486de57129a2505c" prot="public" static="no">
+        <name>DCMI_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1gaeedaa71d22a1948492365e2cd26cfd46" kindref="member">AHB2PERIPH_BASE</ref> + 0x50000UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1152" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gab92662976cfe62457141e5b4f83d541c" prot="public" static="no">
+        <name>RNG_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1gaeedaa71d22a1948492365e2cd26cfd46" kindref="member">AHB2PERIPH_BASE</ref> + 0x60800UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>FMC Bankx registers base address </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1153" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga1d581e6f64ed2e5d97c11c58285a21b6" prot="public" static="no">
+        <name>FMC_Bank1_R_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga7a599164cd92798542bc6288793d1ed5" kindref="member">FMC_R_BASE</ref> + 0x0000UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1156" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gad82d3a6bac014fa645fb67a63fae4bc0" prot="public" static="no">
+        <name>FMC_Bank1E_R_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga7a599164cd92798542bc6288793d1ed5" kindref="member">FMC_R_BASE</ref> + 0x0104UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1157" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga48c2af45e9b49fa719236a2e71d2f8b2" prot="public" static="no">
+        <name>FMC_Bank2_3_R_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga7a599164cd92798542bc6288793d1ed5" kindref="member">FMC_R_BASE</ref> + 0x0060UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1158" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gadca715802374c00fafb6b4eb3e4d9a91" prot="public" static="no">
+        <name>FMC_Bank4_R_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga7a599164cd92798542bc6288793d1ed5" kindref="member">FMC_R_BASE</ref> + 0x00A0UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1159" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gace117149a4fc0d07c38cc997fe4c4a73" prot="public" static="no">
+        <name>FMC_Bank5_6_R_BASE</name>
+        <initializer>(<ref refid="group___peripheral__memory__map_1ga7a599164cd92798542bc6288793d1ed5" kindref="member">FMC_R_BASE</ref> + 0x0140UL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Debug MCU registers base address </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1160" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga4adaf4fd82ccc3a538f1f27a70cdbbef" prot="public" static="no">
+        <name>DBGMCU_BASE</name>
+        <initializer>0xE0042000UL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>USB registers base address </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1164" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gaa405d2ebfd7e9394237b6639f16a5409" prot="public" static="no">
+        <name>USB_OTG_HS_PERIPH_BASE</name>
+        <initializer>0x40040000UL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1166" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gaa86d4c80849a74938924e73937b904e7" prot="public" static="no">
+        <name>USB_OTG_FS_PERIPH_BASE</name>
+        <initializer>0x50000000UL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1167" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga044aa4388e72d9d47a03f387fb8926fb" prot="public" static="no">
+        <name>USB_OTG_GLOBAL_BASE</name>
+        <initializer>0x000UL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1169" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga4d74a337597a77b1fca978202b519a18" prot="public" static="no">
+        <name>USB_OTG_DEVICE_BASE</name>
+        <initializer>0x800UL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1170" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gad8f69041452615aeb3948600e3882246" prot="public" static="no">
+        <name>USB_OTG_IN_ENDPOINT_BASE</name>
+        <initializer>0x900UL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1171" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gaf0e972b8f028ecf44a652029efbd4642" prot="public" static="no">
+        <name>USB_OTG_OUT_ENDPOINT_BASE</name>
+        <initializer>0xB00UL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1172" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga6fdb7429ad88e2d69440d6ecc4f4199e" prot="public" static="no">
+        <name>USB_OTG_EP_REG_SIZE</name>
+        <initializer>0x20UL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1173" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga3bb2dd6c82eefd8587b6146ba36ae071" prot="public" static="no">
+        <name>USB_OTG_HOST_BASE</name>
+        <initializer>0x400UL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1174" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga42f433cb79ca69f09972e690fda6737a" prot="public" static="no">
+        <name>USB_OTG_HOST_PORT_BASE</name>
+        <initializer>0x440UL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1175" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1175" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga942c8c5241b80fbcf638fea0fa18bebd" prot="public" static="no">
+        <name>USB_OTG_HOST_CHANNEL_BASE</name>
+        <initializer>0x500UL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1176" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1176" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga266cb1dbb50faf447f9c15d2ee93a522" prot="public" static="no">
+        <name>USB_OTG_HOST_CHANNEL_SIZE</name>
+        <initializer>0x20UL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1177" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1177" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gaa9766975aca084c257730879568bc7cf" prot="public" static="no">
+        <name>USB_OTG_PCGCCTL_BASE</name>
+        <initializer>0xE00UL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1178" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1178" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1gace340350802904868673f0e839c4fa04" prot="public" static="no">
+        <name>USB_OTG_FIFO_BASE</name>
+        <initializer>0x1000UL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1179" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1179" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga8781c4b2406c740d9fe540737a6a0188" prot="public" static="no">
+        <name>USB_OTG_FIFO_SIZE</name>
+        <initializer>0x1000UL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1180" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga664eda42b83c919b153b07b23348be67" prot="public" static="no">
+        <name>UID_BASE</name>
+        <initializer>0x1FFF7A10UL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Unique device ID register base address </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1182" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1182" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga776d985f2d4d40b588ef6ca9d573af78" prot="public" static="no">
+        <name>FLASHSIZE_BASE</name>
+        <initializer>0x1FFF7A22UL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>FLASH Size register base address <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1183" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1183" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___peripheral__memory__map_1ga88fc8a2912bd1ac72c6eddb456f0b096" prot="public" static="no">
+        <name>PACKAGE_BASE</name>
+        <initializer>0x1FFF7BF0UL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Package size register base address <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx.h" line="1184" column="9" bodyfile="Inc/stm32f429xx.h" bodystart="1184" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

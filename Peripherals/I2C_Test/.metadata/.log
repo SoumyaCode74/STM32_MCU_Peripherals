@@ -2997,3 +2997,36 @@ Caused by: org.eclipse.ecf.internal.ssl.ECFCertificateException: Valid cert chai
 
 !ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-02-17 08:53:13.714
 !MESSAGE Existing sessions are:
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-02-18 13:59:37.715
+!MESSAGE Indexed 'stm32f429_uart_driver' (6 sources, 85 headers) in 5.19 sec: 7,346 declarations; 13,779 references; 6 unresolved inclusions; 288 syntax errors; 997 unresolved names (4.5%)
+!SESSION 2024-02-23 07:04:07.870 -----------------------------------------------
+eclipse.buildId=Version 1.13.0
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:\Users\soumy\GitHub\STM32_MCU_Peripherals\Peripherals\I2C_Test
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-02-23 07:04:15.565
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-02-23 07:04:15.584
+!MESSAGE Log4j2 initialized with config file D:\Users\soumy\GitHub\STM32_MCU_Peripherals\Peripherals\I2C_Test\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-02-23 07:04:26.890
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2024-02-23 07:58:36.417
+!MESSAGE Using unsafe http transport to retrieve http://update.toem.de, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2024-02-23 07:58:37.762
+!MESSAGE Using unsafe http transport to retrieve http://update.toem.de/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2024-02-23 07:58:38.817
+!MESSAGE Using unsafe http transport to retrieve http://update.toem.de, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2024-02-23 07:58:41.240
+!MESSAGE No repository found at http://update.toem.de.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2024-02-23 07:58:41.596
+!MESSAGE Using unsafe http transport to retrieve http://update.toem.de/i1, see CVE-2021-41033. Consider using https instead.
