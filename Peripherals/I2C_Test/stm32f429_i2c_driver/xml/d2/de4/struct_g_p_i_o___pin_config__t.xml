@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d2/de4/struct_g_p_i_o___pin_config__t" kind="struct" language="C++" prot="public">
+    <compoundname>GPIO_PinConfig_t</compoundname>
+    <includes refid="d9/daa/stm32f429xx__gpio__driver_8h" local="no">stm32f429xx_gpio_driver.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="d6/d6c/group___g_p_i_o___driver___header_1gaf582963784931a387bdb2a31c93f07e5" kind="variable"><name>Mode</name></member>
+      <member refid="d6/d6c/group___g_p_i_o___driver___header_1gaa8937a8eabf2358fc8a38c8f67fa98cc" kind="variable"><name>OType</name></member>
+      <member refid="d6/d6c/group___g_p_i_o___driver___header_1gaa856c1501c06fc5c78a28071e78b53cf" kind="variable"><name>PullUpDown</name></member>
+      <member refid="d6/d6c/group___g_p_i_o___driver___header_1ga3aa707ffa633fad03774a3df9b18e411" kind="variable"><name>OutputSpeed</name></member>
+      <member refid="d6/d6c/group___g_p_i_o___driver___header_1gace2ebe1b2201b762cab0bf7f821786e2" kind="variable"><name>AlternateFunction</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>GPIO_PinConfig_t</label>
+        <link refid="d2/de4/struct_g_p_i_o___pin_config__t"/>
+      </node>
+    </collaborationgraph>
+    <location file="Inc/stm32f429xx_gpio_driver.h" line="45" column="1" bodyfile="Inc/stm32f429xx_gpio_driver.h" bodystart="45" bodyend="51"/>
+    <listofallmembers>
+      <member refid="d6/d6c/group___g_p_i_o___driver___header_1gace2ebe1b2201b762cab0bf7f821786e2" prot="public" virt="non-virtual"><scope>GPIO_PinConfig_t</scope><name>AlternateFunction</name></member>
+      <member refid="d6/d6c/group___g_p_i_o___driver___header_1gaf582963784931a387bdb2a31c93f07e5" prot="public" virt="non-virtual"><scope>GPIO_PinConfig_t</scope><name>Mode</name></member>
+      <member refid="d6/d6c/group___g_p_i_o___driver___header_1gaa8937a8eabf2358fc8a38c8f67fa98cc" prot="public" virt="non-virtual"><scope>GPIO_PinConfig_t</scope><name>OType</name></member>
+      <member refid="d6/d6c/group___g_p_i_o___driver___header_1ga3aa707ffa633fad03774a3df9b18e411" prot="public" virt="non-virtual"><scope>GPIO_PinConfig_t</scope><name>OutputSpeed</name></member>
+      <member refid="d6/d6c/group___g_p_i_o___driver___header_1gaa856c1501c06fc5c78a28071e78b53cf" prot="public" virt="non-virtual"><scope>GPIO_PinConfig_t</scope><name>PullUpDown</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d0/dde/stm32f429xx__gpio__driver_8c" kind="file" language="C++">
+    <compoundname>stm32f429xx_gpio_driver.c</compoundname>
+    <includes refid="d9/daa/stm32f429xx__gpio__driver_8h" local="yes">stm32f429xx_gpio_driver.h</includes>
+    <incdepgraph>
+      <node id="3">
+        <label>stm32f429xx_general.h</label>
+        <link refid="d4/ded/stm32f429xx__general_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>stm32f429xx_gpio_driver.h</label>
+        <link refid="d9/daa/stm32f429xx__gpio__driver_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Src/stm32f429xx_gpio_driver.c</label>
+        <link refid="d0/dde/stm32f429xx__gpio__driver_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>stm32f429xx.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="d0/dde/stm32f429xx__gpio__driver_8c_1a77dddc59313d440f52b4f7b9dcf71a52" prot="public" static="no" extern="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void RCC_AHBClockEnable</definition>
+        <argsstring>(uint8_t pos)</argsstring>
+        <name>RCC_AHBClockEnable</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Src/stm32f429xx_gpio_driver.c" line="10" column="13" declfile="Src/stm32f429xx_gpio_driver.c" declline="10" declcolumn="13"/>
+        <referencedby refid="d0/d7c/group___functions_1ga687dcd53b52670e1579afeaeb80015d3" compoundref="d0/dde/stm32f429xx__gpio__driver_8c" startline="32" endline="41">GPIO_Init</referencedby>
+      </memberdef>
+      <member refid="d0/d7c/group___functions_1ga639d0fb5e8242d4d162acabcf4a633af" kind="function"><name>GPIO_ConfigureMode</name></member>
+      <member refid="d0/d7c/group___functions_1ga3435576d6ead6bf69dbd35979bd36e6d" kind="function"><name>GPIO_ConfigureOutputType</name></member>
+      <member refid="d0/d7c/group___functions_1ga0c68b7f212c4dbe9b0684d2af1f49028" kind="function"><name>GPIO_ConfigureOutputSpeed</name></member>
+      <member refid="d0/d7c/group___functions_1gada28e76990b270e3642d27c27ab8312a" kind="function"><name>GPIO_ConfigurePullUpDown</name></member>
+      <member refid="d0/d7c/group___functions_1ga207beb599c53ec175b3c0423cad3bd52" kind="function"><name>GPIO_ConfigureAlternateFunction</name></member>
+      <member refid="d0/d7c/group___functions_1ga687dcd53b52670e1579afeaeb80015d3" kind="function"><name>GPIO_Init</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>stm32f429xx_gpio_driver.c</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/>Created<sp/>on:<sp/>Feb<sp/>15,<sp/>2024</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>Author:<sp/>Soumyadeep<sp/>Bose</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d9/daa/stm32f429xx__gpio__driver_8h" kindref="compound">stm32f429xx_gpio_driver.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="d0/dde/stm32f429xx__gpio__driver_8c_1a77dddc59313d440f52b4f7b9dcf71a52" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d0/dde/stm32f429xx__gpio__driver_8c_1a77dddc59313d440f52b4f7b9dcf71a52" kindref="member">RCC_AHBClockEnable</ref>(uint8_t<sp/>pos);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="d0/d7c/group___functions_1ga639d0fb5e8242d4d162acabcf4a633af" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d0/d7c/group___functions_1ga639d0fb5e8242d4d162acabcf4a633af" kindref="member">GPIO_ConfigureMode</ref>(<ref refid="d1/dcb/struct_g_p_i_o___handle__t" kindref="compound">GPIO_Handle_t</ref><sp/>*<sp/>pGPIOHandle,<sp/>uint8_t<sp/>pin){</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>pGPIOHandle-&gt;<ref refid="d6/d6c/group___g_p_i_o___driver___header_1gab2c22aa8e429496a1822328b7078984c" kindref="member">pGPIOx</ref>-&gt;MODER<sp/>&amp;=<sp/>~(0x3<sp/>&lt;&lt;<sp/>(pin<sp/>*<sp/>2));</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>pGPIOHandle-&gt;<ref refid="d6/d6c/group___g_p_i_o___driver___header_1gab2c22aa8e429496a1822328b7078984c" kindref="member">pGPIOx</ref>-&gt;MODER<sp/>|=<sp/>(<sp/>(pGPIOHandle-&gt;<ref refid="d6/d6c/group___g_p_i_o___driver___header_1ga33cefa400df9fdae0bbfd207a3d53551" kindref="member">GPIO_PinConfig</ref>.<ref refid="d6/d6c/group___g_p_i_o___driver___header_1gaf582963784931a387bdb2a31c93f07e5" kindref="member">Mode</ref>)<sp/>&lt;&lt;<sp/>(pin<sp/>*<sp/>2));</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="16" refid="d0/d7c/group___functions_1ga3435576d6ead6bf69dbd35979bd36e6d" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d0/d7c/group___functions_1ga3435576d6ead6bf69dbd35979bd36e6d" kindref="member">GPIO_ConfigureOutputType</ref>(<ref refid="d1/dcb/struct_g_p_i_o___handle__t" kindref="compound">GPIO_Handle_t</ref><sp/>*<sp/>pGPIOHandle,<sp/>uint8_t<sp/>pin){</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>pGPIOHandle-&gt;<ref refid="d6/d6c/group___g_p_i_o___driver___header_1gab2c22aa8e429496a1822328b7078984c" kindref="member">pGPIOx</ref>-&gt;OTYPER<sp/>&amp;=<sp/>~(0x1<sp/>&lt;&lt;<sp/>pin);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>pGPIOHandle-&gt;<ref refid="d6/d6c/group___g_p_i_o___driver___header_1gab2c22aa8e429496a1822328b7078984c" kindref="member">pGPIOx</ref>-&gt;OTYPER<sp/>|=<sp/>(<sp/>(pGPIOHandle-&gt;<ref refid="d6/d6c/group___g_p_i_o___driver___header_1ga33cefa400df9fdae0bbfd207a3d53551" kindref="member">GPIO_PinConfig</ref>.<ref refid="d6/d6c/group___g_p_i_o___driver___header_1gaa8937a8eabf2358fc8a38c8f67fa98cc" kindref="member">OType</ref>)<sp/>&lt;&lt;<sp/>pin);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="20" refid="d0/d7c/group___functions_1ga0c68b7f212c4dbe9b0684d2af1f49028" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d0/d7c/group___functions_1ga0c68b7f212c4dbe9b0684d2af1f49028" kindref="member">GPIO_ConfigureOutputSpeed</ref>(<ref refid="d1/dcb/struct_g_p_i_o___handle__t" kindref="compound">GPIO_Handle_t</ref><sp/>*<sp/>pGPIOHandle,<sp/>uint8_t<sp/>pin){</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>pGPIOHandle-&gt;<ref refid="d6/d6c/group___g_p_i_o___driver___header_1gab2c22aa8e429496a1822328b7078984c" kindref="member">pGPIOx</ref>-&gt;OSPEEDR<sp/>&amp;=<sp/>~(0x3<sp/>&lt;&lt;<sp/>(pin<sp/>*<sp/>2));</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>pGPIOHandle-&gt;<ref refid="d6/d6c/group___g_p_i_o___driver___header_1gab2c22aa8e429496a1822328b7078984c" kindref="member">pGPIOx</ref>-&gt;OSPEEDR<sp/>|=<sp/>(<sp/>(pGPIOHandle-&gt;<ref refid="d6/d6c/group___g_p_i_o___driver___header_1ga33cefa400df9fdae0bbfd207a3d53551" kindref="member">GPIO_PinConfig</ref>.<ref refid="d6/d6c/group___g_p_i_o___driver___header_1ga3aa707ffa633fad03774a3df9b18e411" kindref="member">OutputSpeed</ref>)<sp/>&lt;&lt;<sp/>(pin<sp/>*<sp/>2));</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="24" refid="d0/d7c/group___functions_1gada28e76990b270e3642d27c27ab8312a" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d0/d7c/group___functions_1gada28e76990b270e3642d27c27ab8312a" kindref="member">GPIO_ConfigurePullUpDown</ref>(<ref refid="d1/dcb/struct_g_p_i_o___handle__t" kindref="compound">GPIO_Handle_t</ref><sp/>*<sp/>pGPIOHandle,<sp/>uint8_t<sp/>pin){</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>pGPIOHandle-&gt;<ref refid="d6/d6c/group___g_p_i_o___driver___header_1gab2c22aa8e429496a1822328b7078984c" kindref="member">pGPIOx</ref>-&gt;PUPDR<sp/>&amp;=<sp/>~(0x3<sp/>&lt;&lt;<sp/>(pin<sp/>*<sp/>2));</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>pGPIOHandle-&gt;<ref refid="d6/d6c/group___g_p_i_o___driver___header_1gab2c22aa8e429496a1822328b7078984c" kindref="member">pGPIOx</ref>-&gt;PUPDR<sp/>|=<sp/>(<sp/>(pGPIOHandle-&gt;<ref refid="d6/d6c/group___g_p_i_o___driver___header_1ga33cefa400df9fdae0bbfd207a3d53551" kindref="member">GPIO_PinConfig</ref>.<ref refid="d6/d6c/group___g_p_i_o___driver___header_1gaa856c1501c06fc5c78a28071e78b53cf" kindref="member">PullUpDown</ref>)<sp/>&lt;&lt;<sp/>(pin<sp/>*<sp/>2));</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="28" refid="d0/d7c/group___functions_1ga207beb599c53ec175b3c0423cad3bd52" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d0/d7c/group___functions_1ga207beb599c53ec175b3c0423cad3bd52" kindref="member">GPIO_ConfigureAlternateFunction</ref>(<ref refid="d1/dcb/struct_g_p_i_o___handle__t" kindref="compound">GPIO_Handle_t</ref><sp/>*<sp/>pGPIOHandle,<sp/>uint8_t<sp/>pin){</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>pGPIOHandle-&gt;<ref refid="d6/d6c/group___g_p_i_o___driver___header_1gab2c22aa8e429496a1822328b7078984c" kindref="member">pGPIOx</ref>-&gt;AFR[(pin<sp/>%<sp/>8)]<sp/>&amp;=<sp/>~(0xF<sp/>&lt;&lt;<sp/>(pin<sp/>*<sp/>4));</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>pGPIOHandle-&gt;<ref refid="d6/d6c/group___g_p_i_o___driver___header_1gab2c22aa8e429496a1822328b7078984c" kindref="member">pGPIOx</ref>-&gt;AFR[(pin<sp/>%<sp/>8)]<sp/>|=<sp/>(<sp/>(pGPIOHandle-&gt;<ref refid="d6/d6c/group___g_p_i_o___driver___header_1ga33cefa400df9fdae0bbfd207a3d53551" kindref="member">GPIO_PinConfig</ref>.<ref refid="d6/d6c/group___g_p_i_o___driver___header_1gace2ebe1b2201b762cab0bf7f821786e2" kindref="member">AlternateFunction</ref>)<sp/>&lt;&lt;<sp/>(pin<sp/>*<sp/>4));</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32" refid="d0/d7c/group___functions_1ga687dcd53b52670e1579afeaeb80015d3" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d0/d7c/group___functions_1ga687dcd53b52670e1579afeaeb80015d3" kindref="member">GPIO_Init</ref>(<ref refid="d1/dcb/struct_g_p_i_o___handle__t" kindref="compound">GPIO_Handle_t</ref><sp/>*<sp/>pGPIOHandle,<sp/>uint8_t<sp/>pin){</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d22/group___classes_1gaf164c756418dde00ac07fd47d0962150" kindref="member">GPIO_Port</ref><sp/>Port<sp/>=<sp/>((uint32_t)pGPIOHandle-&gt;<ref refid="d6/d6c/group___g_p_i_o___driver___header_1gab2c22aa8e429496a1822328b7078984c" kindref="member">pGPIOx</ref><sp/>-<sp/>(uint32_t)GPIOA_BASE)/1024;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/dde/stm32f429xx__gpio__driver_8c_1a77dddc59313d440f52b4f7b9dcf71a52" kindref="member">RCC_AHBClockEnable</ref>((1<sp/>&lt;&lt;<sp/>Port));<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/d7c/group___functions_1ga639d0fb5e8242d4d162acabcf4a633af" kindref="member">GPIO_ConfigureMode</ref>(pGPIOHandle,<sp/>pin);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/d7c/group___functions_1gada28e76990b270e3642d27c27ab8312a" kindref="member">GPIO_ConfigurePullUpDown</ref>(pGPIOHandle,<sp/>pin);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(pGPIOHandle-&gt;<ref refid="d6/d6c/group___g_p_i_o___driver___header_1ga33cefa400df9fdae0bbfd207a3d53551" kindref="member">GPIO_PinConfig</ref>.<ref refid="d6/d6c/group___g_p_i_o___driver___header_1gaf582963784931a387bdb2a31c93f07e5" kindref="member">Mode</ref><sp/>==<sp/>0x2){</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d0/d7c/group___functions_1ga207beb599c53ec175b3c0423cad3bd52" kindref="member">GPIO_ConfigureAlternateFunction</ref>(pGPIOHandle,<sp/>pin);<sp/></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Src/stm32f429xx_gpio_driver.c"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d4/df1/group___includes" kind="group">
+    <compoundname>Includes</compoundname>
+    <title>Includes</title>
+    <briefdescription>
+<para>Classes and API functions for driving an RCC peripheral for STM32F429xx MCUs Created on: Feb 15, 2024. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Classes and API functions for driving an I2C peripheral for STM32F429xx MCUs Created on: Feb 11, 2024.</para>
+<para><simplesect kind="author"><para>: Soumyadeep Bose   </para>
+</simplesect>
+<simplesect kind="author"><para>: Soumyadeep Bose   </para>
+</simplesect>
+<simplesect kind="author"><para>: Soumyadeep Bose    </para>
+</simplesect>
+</para>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

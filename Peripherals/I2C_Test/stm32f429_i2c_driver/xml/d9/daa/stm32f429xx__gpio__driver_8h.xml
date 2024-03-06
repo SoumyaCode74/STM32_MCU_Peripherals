@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d9/daa/stm32f429xx__gpio__driver_8h" kind="file" language="C++">
+    <compoundname>stm32f429xx_gpio_driver.h</compoundname>
+    <includes refid="d4/ded/stm32f429xx__general_8h" local="yes">stm32f429xx_general.h</includes>
+    <includedby refid="d0/dde/stm32f429xx__gpio__driver_8c" local="yes">Src/stm32f429xx_gpio_driver.c</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>stm32f429xx_general.h</label>
+        <link refid="d4/ded/stm32f429xx__general_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Inc/stm32f429xx_gpio_driver.h</label>
+        <link refid="d9/daa/stm32f429xx__gpio__driver_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="4">
+        <label>stm32f429xx.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>Inc/stm32f429xx_gpio_driver.h</label>
+        <link refid="d9/daa/stm32f429xx__gpio__driver_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Src/stm32f429xx_gpio_driver.c</label>
+        <link refid="d0/dde/stm32f429xx__gpio__driver_8c"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="d2/de4/struct_g_p_i_o___pin_config__t" prot="public">GPIO_PinConfig_t</innerclass>
+    <innerclass refid="d1/dcb/struct_g_p_i_o___handle__t" prot="public">GPIO_Handle_t</innerclass>
+    <sectiondef kind="enum">
+      <member refid="d5/d22/group___classes_1gaf164c756418dde00ac07fd47d0962150" kind="enum"><name>GPIO_Port</name></member>
+    </sectiondef>
+    <sectiondef kind="func">
+      <member refid="d0/d7c/group___functions_1ga687dcd53b52670e1579afeaeb80015d3" kind="function"><name>GPIO_Init</name></member>
+      <member refid="d0/d7c/group___functions_1gac87bcc66bbf621515a2627f50e74a520" kind="function"><name>GPIO_DeInit</name></member>
+      <member refid="d0/d7c/group___functions_1ga639d0fb5e8242d4d162acabcf4a633af" kind="function"><name>GPIO_ConfigureMode</name></member>
+      <member refid="d0/d7c/group___functions_1ga3435576d6ead6bf69dbd35979bd36e6d" kind="function"><name>GPIO_ConfigureOutputType</name></member>
+      <member refid="d0/d7c/group___functions_1ga0c68b7f212c4dbe9b0684d2af1f49028" kind="function"><name>GPIO_ConfigureOutputSpeed</name></member>
+      <member refid="d0/d7c/group___functions_1gada28e76990b270e3642d27c27ab8312a" kind="function"><name>GPIO_ConfigurePullUpDown</name></member>
+      <member refid="d0/d7c/group___functions_1ga207beb599c53ec175b3c0423cad3bd52" kind="function"><name>GPIO_ConfigureAlternateFunction</name></member>
+      <member refid="d0/d7c/group___functions_1gafb2e58fcca2d543702cbcde224626f81" kind="function"><name>GPIO_Set_Bit</name></member>
+      <member refid="d0/d7c/group___functions_1gaa84d5517549fcf949313264c0abaa103" kind="function"><name>GPIO_Clear_Bit</name></member>
+      <member refid="d0/d7c/group___functions_1ga69fa9b3a9975667c753241da1d6b95a5" kind="function"><name>GPIO_Get_BitValue</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Classes and API functions for driving a GPIO peripheral for STM32F429xx MCUs Created on: Feb 15, 2024. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>: Soumyadeep Bose </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>STM32F429XX_GPIO_DRIVER_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM32F429XX_GPIO_DRIVER_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d4/ded/stm32f429xx__general_8h" kindref="compound">stm32f429xx_general.h</ref>&quot;</highlight></codeline>
+<codeline lineno="31" refid="d5/d22/group___classes_1gaf164c756418dde00ac07fd47d0962150" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="32" refid="d5/d22/group___classes_1ggaf164c756418dde00ac07fd47d0962150aeb6782d9dfedf3c6a78ffdb1624fa454" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d22/group___classes_1ggaf164c756418dde00ac07fd47d0962150aeb6782d9dfedf3c6a78ffdb1624fa454" kindref="member">PORT_A</ref>,</highlight></codeline>
+<codeline lineno="33" refid="d5/d22/group___classes_1ggaf164c756418dde00ac07fd47d0962150a16ada472d473fbd0207b99e9e4d68f4a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d22/group___classes_1ggaf164c756418dde00ac07fd47d0962150a16ada472d473fbd0207b99e9e4d68f4a" kindref="member">PORT_B</ref>,</highlight></codeline>
+<codeline lineno="34" refid="d5/d22/group___classes_1ggaf164c756418dde00ac07fd47d0962150a627cc690c37f97527dd2f07aa22092d9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d22/group___classes_1ggaf164c756418dde00ac07fd47d0962150a627cc690c37f97527dd2f07aa22092d9" kindref="member">PORT_C</ref>,</highlight></codeline>
+<codeline lineno="35" refid="d5/d22/group___classes_1ggaf164c756418dde00ac07fd47d0962150af7242fe75227a46a190645663f91ce69" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d22/group___classes_1ggaf164c756418dde00ac07fd47d0962150af7242fe75227a46a190645663f91ce69" kindref="member">PORT_D</ref>,</highlight></codeline>
+<codeline lineno="36" refid="d5/d22/group___classes_1ggaf164c756418dde00ac07fd47d0962150abad63f022d1fa37a66f87dc31a78f6a9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d22/group___classes_1ggaf164c756418dde00ac07fd47d0962150abad63f022d1fa37a66f87dc31a78f6a9" kindref="member">PORT_E</ref>,</highlight></codeline>
+<codeline lineno="37" refid="d5/d22/group___classes_1ggaf164c756418dde00ac07fd47d0962150aa3760b302740c7d09c93ec7a634f837c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d22/group___classes_1ggaf164c756418dde00ac07fd47d0962150aa3760b302740c7d09c93ec7a634f837c" kindref="member">PORT_F</ref>,</highlight></codeline>
+<codeline lineno="38" refid="d5/d22/group___classes_1ggaf164c756418dde00ac07fd47d0962150a48afb424254d52e7d97a7c1428f5aafa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d22/group___classes_1ggaf164c756418dde00ac07fd47d0962150a48afb424254d52e7d97a7c1428f5aafa" kindref="member">PORT_G</ref>,</highlight></codeline>
+<codeline lineno="39" refid="d5/d22/group___classes_1ggaf164c756418dde00ac07fd47d0962150a31d1ae08c10668d936d1c2c6426c1c47" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d22/group___classes_1ggaf164c756418dde00ac07fd47d0962150a31d1ae08c10668d936d1c2c6426c1c47" kindref="member">PORT_H</ref>,</highlight></codeline>
+<codeline lineno="40" refid="d5/d22/group___classes_1ggaf164c756418dde00ac07fd47d0962150aa4ce4b10b97f03ad33c276d87ccef088" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d22/group___classes_1ggaf164c756418dde00ac07fd47d0962150aa4ce4b10b97f03ad33c276d87ccef088" kindref="member">PORT_I</ref>,</highlight></codeline>
+<codeline lineno="41" refid="d5/d22/group___classes_1ggaf164c756418dde00ac07fd47d0962150a3eea70262d530701087c2a3a09c475fe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d22/group___classes_1ggaf164c756418dde00ac07fd47d0962150a3eea70262d530701087c2a3a09c475fe" kindref="member">PORT_J</ref>,</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d22/group___classes_1ggaf164c756418dde00ac07fd47d0962150a23bae6dc45cdca7c90be62437df0f454" kindref="member">PORT_K</ref></highlight></codeline>
+<codeline lineno="43" refid="d5/d22/group___classes_1ggaf164c756418dde00ac07fd47d0962150a23bae6dc45cdca7c90be62437df0f454" refkind="member"><highlight class="normal">}<ref refid="d5/d22/group___classes_1gaf164c756418dde00ac07fd47d0962150" kindref="member">GPIO_Port</ref>;<sp/></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="d2/de4/struct_g_p_i_o___pin_config__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="46" refid="d6/d6c/group___g_p_i_o___driver___header_1gaf582963784931a387bdb2a31c93f07e5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><sp/><sp/><sp/><sp/><ref refid="d6/d6c/group___g_p_i_o___driver___header_1gaf582963784931a387bdb2a31c93f07e5" kindref="member">Mode</ref><sp/>:<sp/>2;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="47" refid="d6/d6c/group___g_p_i_o___driver___header_1gaa8937a8eabf2358fc8a38c8f67fa98cc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><sp/><sp/><sp/><sp/><ref refid="d6/d6c/group___g_p_i_o___driver___header_1gaa8937a8eabf2358fc8a38c8f67fa98cc" kindref="member">OType</ref><sp/>:<sp/>1;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="48" refid="d6/d6c/group___g_p_i_o___driver___header_1gaa856c1501c06fc5c78a28071e78b53cf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><sp/><sp/><sp/><sp/><ref refid="d6/d6c/group___g_p_i_o___driver___header_1gaa856c1501c06fc5c78a28071e78b53cf" kindref="member">PullUpDown</ref><sp/>:<sp/>2;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="49" refid="d6/d6c/group___g_p_i_o___driver___header_1ga3aa707ffa633fad03774a3df9b18e411" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><sp/><sp/><sp/><sp/><ref refid="d6/d6c/group___g_p_i_o___driver___header_1ga3aa707ffa633fad03774a3df9b18e411" kindref="member">OutputSpeed</ref><sp/>:<sp/>2;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="50" refid="d6/d6c/group___g_p_i_o___driver___header_1gace2ebe1b2201b762cab0bf7f821786e2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><sp/><sp/><sp/><sp/><ref refid="d6/d6c/group___g_p_i_o___driver___header_1gace2ebe1b2201b762cab0bf7f821786e2" kindref="member">AlternateFunction</ref><sp/>:<sp/>4;<sp/><sp/></highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}<ref refid="d2/de4/struct_g_p_i_o___pin_config__t" kindref="compound">GPIO_PinConfig_t</ref>;<sp/><sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="d1/dcb/struct_g_p_i_o___handle__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="54" refid="d6/d6c/group___g_p_i_o___driver___header_1gab2c22aa8e429496a1822328b7078984c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/ded/stm32f429xx__general_8h_1a51e19dcff5aaac032509a7102fd26917" kindref="member">GPIO_RegAddr_t</ref><sp/>*<ref refid="d6/d6c/group___g_p_i_o___driver___header_1gab2c22aa8e429496a1822328b7078984c" kindref="member">pGPIOx</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="55" refid="d6/d6c/group___g_p_i_o___driver___header_1ga33cefa400df9fdae0bbfd207a3d53551" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d2/de4/struct_g_p_i_o___pin_config__t" kindref="compound">GPIO_PinConfig_t</ref><sp/><ref refid="d6/d6c/group___g_p_i_o___driver___header_1ga33cefa400df9fdae0bbfd207a3d53551" kindref="member">GPIO_PinConfig</ref>;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="56"><highlight class="normal">}<ref refid="d1/dcb/struct_g_p_i_o___handle__t" kindref="compound">GPIO_Handle_t</ref>;<sp/></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d0/d7c/group___functions_1ga687dcd53b52670e1579afeaeb80015d3" kindref="member">GPIO_Init</ref>(<ref refid="d1/dcb/struct_g_p_i_o___handle__t" kindref="compound">GPIO_Handle_t</ref><sp/>*<sp/>pGPIOHandle,<sp/>uint8_t<sp/>pin);</highlight></codeline>
+<codeline lineno="78" refid="d0/d7c/group___functions_1gac87bcc66bbf621515a2627f50e74a520" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d0/d7c/group___functions_1gac87bcc66bbf621515a2627f50e74a520" kindref="member">GPIO_DeInit</ref>(<ref refid="d1/dcb/struct_g_p_i_o___handle__t" kindref="compound">GPIO_Handle_t</ref><sp/>*<sp/>pGPIOHandle);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d0/d7c/group___functions_1ga639d0fb5e8242d4d162acabcf4a633af" kindref="member">GPIO_ConfigureMode</ref>(<ref refid="d1/dcb/struct_g_p_i_o___handle__t" kindref="compound">GPIO_Handle_t</ref><sp/>*<sp/>pGPIOHandle,<sp/>uint8_t<sp/>pin);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d0/d7c/group___functions_1ga3435576d6ead6bf69dbd35979bd36e6d" kindref="member">GPIO_ConfigureOutputType</ref>(<ref refid="d1/dcb/struct_g_p_i_o___handle__t" kindref="compound">GPIO_Handle_t</ref><sp/>*<sp/>pGPIOHandle,<sp/>uint8_t<sp/>pin);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d0/d7c/group___functions_1ga0c68b7f212c4dbe9b0684d2af1f49028" kindref="member">GPIO_ConfigureOutputSpeed</ref>(<ref refid="d1/dcb/struct_g_p_i_o___handle__t" kindref="compound">GPIO_Handle_t</ref><sp/>*<sp/>pGPIOHandle,<sp/>uint8_t<sp/>pin);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d0/d7c/group___functions_1gada28e76990b270e3642d27c27ab8312a" kindref="member">GPIO_ConfigurePullUpDown</ref>(<ref refid="d1/dcb/struct_g_p_i_o___handle__t" kindref="compound">GPIO_Handle_t</ref><sp/>*<sp/>pGPIOHandle,<sp/>uint8_t<sp/>pin);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d0/d7c/group___functions_1ga207beb599c53ec175b3c0423cad3bd52" kindref="member">GPIO_ConfigureAlternateFunction</ref>(<ref refid="d1/dcb/struct_g_p_i_o___handle__t" kindref="compound">GPIO_Handle_t</ref><sp/>*<sp/>pGPIOHandle,<sp/>uint8_t<sp/>pin);</highlight></codeline>
+<codeline lineno="91" refid="d0/d7c/group___functions_1gafb2e58fcca2d543702cbcde224626f81" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d0/d7c/group___functions_1gafb2e58fcca2d543702cbcde224626f81" kindref="member">GPIO_Set_Bit</ref>(<ref refid="d1/dcb/struct_g_p_i_o___handle__t" kindref="compound">GPIO_Handle_t</ref><sp/>*<sp/>pGPIOHandle,<sp/>uint8_t<sp/>pin);</highlight></codeline>
+<codeline lineno="99" refid="d0/d7c/group___functions_1gaa84d5517549fcf949313264c0abaa103" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d0/d7c/group___functions_1gaa84d5517549fcf949313264c0abaa103" kindref="member">GPIO_Clear_Bit</ref>(<ref refid="d1/dcb/struct_g_p_i_o___handle__t" kindref="compound">GPIO_Handle_t</ref><sp/>*<sp/>pGPIOHandle,<sp/>uint8_t<sp/>pin);</highlight></codeline>
+<codeline lineno="106" refid="d0/d7c/group___functions_1ga69fa9b3a9975667c753241da1d6b95a5" refkind="member"><highlight class="normal">uint8_t<sp/><ref refid="d0/d7c/group___functions_1ga69fa9b3a9975667c753241da1d6b95a5" kindref="member">GPIO_Get_BitValue</ref>(<ref refid="d1/dcb/struct_g_p_i_o___handle__t" kindref="compound">GPIO_Handle_t</ref><sp/>*<sp/>pGPIOHandle);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>STM32F429XX_I2C_DRIVER_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="Inc/stm32f429xx_gpio_driver.h"/>
+  </compounddef>
+</doxygen>

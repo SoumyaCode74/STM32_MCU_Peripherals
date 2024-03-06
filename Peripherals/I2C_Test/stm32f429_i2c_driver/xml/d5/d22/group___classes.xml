@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d5/d22/group___classes" kind="group">
+    <compoundname>Classes</compoundname>
+    <title>Classes</title>
+    <innerclass refid="d2/de4/struct_g_p_i_o___pin_config__t" prot="public">GPIO_PinConfig_t</innerclass>
+    <innerclass refid="d1/dcb/struct_g_p_i_o___handle__t" prot="public">GPIO_Handle_t</innerclass>
+    <innerclass refid="df/d65/struct_i2_c___pin_config__t" prot="public">I2C_PinConfig_t</innerclass>
+    <innerclass refid="da/dfe/struct_i2_c___handle__t" prot="public">I2C_Handle_t</innerclass>
+    <innerclass refid="dd/d66/struct_r_c_c___config__t" prot="public">RCC_Config_t</innerclass>
+    <innerclass refid="d9/da1/struct_r_c_c___handle__t" prot="public">RCC_Handle_t</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="d5/d22/group___classes_1gaf164c756418dde00ac07fd47d0962150" prot="public" static="no" strong="no">
+        <type></type>
+        <name>GPIO_Port</name>
+        <enumvalue id="d5/d22/group___classes_1ggaf164c756418dde00ac07fd47d0962150aeb6782d9dfedf3c6a78ffdb1624fa454" prot="public">
+          <name>PORT_A</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d5/d22/group___classes_1ggaf164c756418dde00ac07fd47d0962150a16ada472d473fbd0207b99e9e4d68f4a" prot="public">
+          <name>PORT_B</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d5/d22/group___classes_1ggaf164c756418dde00ac07fd47d0962150a627cc690c37f97527dd2f07aa22092d9" prot="public">
+          <name>PORT_C</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d5/d22/group___classes_1ggaf164c756418dde00ac07fd47d0962150af7242fe75227a46a190645663f91ce69" prot="public">
+          <name>PORT_D</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d5/d22/group___classes_1ggaf164c756418dde00ac07fd47d0962150abad63f022d1fa37a66f87dc31a78f6a9" prot="public">
+          <name>PORT_E</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d5/d22/group___classes_1ggaf164c756418dde00ac07fd47d0962150aa3760b302740c7d09c93ec7a634f837c" prot="public">
+          <name>PORT_F</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d5/d22/group___classes_1ggaf164c756418dde00ac07fd47d0962150a48afb424254d52e7d97a7c1428f5aafa" prot="public">
+          <name>PORT_G</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d5/d22/group___classes_1ggaf164c756418dde00ac07fd47d0962150a31d1ae08c10668d936d1c2c6426c1c47" prot="public">
+          <name>PORT_H</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d5/d22/group___classes_1ggaf164c756418dde00ac07fd47d0962150aa4ce4b10b97f03ad33c276d87ccef088" prot="public">
+          <name>PORT_I</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d5/d22/group___classes_1ggaf164c756418dde00ac07fd47d0962150a3eea70262d530701087c2a3a09c475fe" prot="public">
+          <name>PORT_J</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d5/d22/group___classes_1ggaf164c756418dde00ac07fd47d0962150a23bae6dc45cdca7c90be62437df0f454" prot="public">
+          <name>PORT_K</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx_gpio_driver.h" line="31" column="1" bodyfile="Inc/stm32f429xx_gpio_driver.h" bodystart="31" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="enum" id="d5/d22/group___classes_1gae6f7dfb64f0fd48995ee0c71e0c9a8a4" prot="public" static="no" strong="no">
+        <type></type>
+        <name>ClockBus_t</name>
+        <enumvalue id="d5/d22/group___classes_1ggae6f7dfb64f0fd48995ee0c71e0c9a8a4a75a5e90abcb1e35306aca2a77ff01833" prot="public">
+          <name>AHB1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d5/d22/group___classes_1ggae6f7dfb64f0fd48995ee0c71e0c9a8a4a2516474d80019e460dae478bb4521009" prot="public">
+          <name>AHB2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d5/d22/group___classes_1ggae6f7dfb64f0fd48995ee0c71e0c9a8a4a4fa163ec908ece5908470b05f19a791c" prot="public">
+          <name>AHB3</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d5/d22/group___classes_1ggae6f7dfb64f0fd48995ee0c71e0c9a8a4a0a7928dc21633f8cf78bf136bda6fe45" prot="public">
+          <name>APB1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d5/d22/group___classes_1ggae6f7dfb64f0fd48995ee0c71e0c9a8a4adfa21a626736aaaec7b1b077ebf3180b" prot="public">
+          <name>APB2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx_rcc_driver.h" line="40" column="1" bodyfile="Inc/stm32f429xx_rcc_driver.h" bodystart="40" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="enum" id="d5/d22/group___classes_1ga02e55ce66a310468cd5996a5769a1e77" prot="public" static="no" strong="no">
+        <type></type>
+        <name>ClockSrc_t</name>
+        <enumvalue id="d5/d22/group___classes_1gga02e55ce66a310468cd5996a5769a1e77aae2bb333077d91b3c2aa75978f89e084" prot="public">
+          <name>HSI</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d5/d22/group___classes_1gga02e55ce66a310468cd5996a5769a1e77a744bf841212e605b891f8ced6e20eb43" prot="public">
+          <name>HSE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d5/d22/group___classes_1gga02e55ce66a310468cd5996a5769a1e77a5c7fe827c28117f11dd14f9197d7d5a2" prot="public">
+          <name>PLL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx_rcc_driver.h" line="47" column="1" bodyfile="Inc/stm32f429xx_rcc_driver.h" bodystart="47" bodyend="51"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

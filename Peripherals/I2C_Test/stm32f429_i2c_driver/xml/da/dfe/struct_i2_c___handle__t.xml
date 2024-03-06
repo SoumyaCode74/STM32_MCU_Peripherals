@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="da/dfe/struct_i2_c___handle__t" kind="struct" language="C++" prot="public">
+    <compoundname>I2C_Handle_t</compoundname>
+    <includes refid="d8/d34/stm32f429xx__i2c__driver_8h" local="no">stm32f429xx_i2c_driver.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="d2/d8a/group___i2_c___driver___header_1ga8a620ba905fc88fcbb5515bd4ce2303c" kind="variable"><name>pI2Cx</name></member>
+      <member refid="d2/d8a/group___i2_c___driver___header_1ga0b12cd2c9fc8177f1db4e89ce90627db" kind="variable"><name>I2C_PinConfig</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>I2C_Handle_t</label>
+        <link refid="da/dfe/struct_i2_c___handle__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+I2C_PinConfig</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>I2C_PinConfig_t</label>
+        <link refid="df/d65/struct_i2_c___pin_config__t"/>
+      </node>
+    </collaborationgraph>
+    <location file="Inc/stm32f429xx_i2c_driver.h" line="38" column="1" bodyfile="Inc/stm32f429xx_i2c_driver.h" bodystart="38" bodyend="41"/>
+    <listofallmembers>
+      <member refid="d2/d8a/group___i2_c___driver___header_1ga0b12cd2c9fc8177f1db4e89ce90627db" prot="public" virt="non-virtual"><scope>I2C_Handle_t</scope><name>I2C_PinConfig</name></member>
+      <member refid="d2/d8a/group___i2_c___driver___header_1ga8a620ba905fc88fcbb5515bd4ce2303c" prot="public" virt="non-virtual"><scope>I2C_Handle_t</scope><name>pI2Cx</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

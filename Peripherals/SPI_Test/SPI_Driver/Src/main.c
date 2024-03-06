@@ -24,30 +24,30 @@ int main(void)
     /**
      * @brief Set clock speed of AHBx, APBy. Target: PCLK = HSICLK/16 = 1 MHz
      */
-	RCC->CFGR &= ~(0xF << 4);			///<- Reset bits of HPRE field
-	RCC->CFGR |=  (0xA << 4);			///<- Set HPRE field for pre-scaling by 8
-	RCC->CFGR &= ~(0x7 << 13);			///<- Reset bits of PPRE2 field for APB2
-	RCC->CFGR |=  (0x4 << 13);			///<- Set PPRE2 field for pre-scaling by 2
+	RCC->CFGR 		&= ~(0xF << 4);				///<- Reset bits of HPRE field
+	RCC->CFGR 		|=  (0xA << 4);				///<- Set HPRE field for pre-scaling by 8
+	RCC->CFGR 		&= ~(0x7 << 13);			///<- Reset bits of PPRE2 field for APB2
+	RCC->CFGR 		|=  (0x4 << 13);			///<- Set PPRE2 field for pre-scaling by 2
 	/**
 	 * @brief Enable clock access to GPIOA, GPIOE, SPI1, and SPI4
 	 */
-	RCC->AHB1ENR |= (1 << 0) | (1 << 4);	///<- Enable clock access to GPIOA, GPIOE
-	RCC->APB2ENR |= (1 << 12) | (1 << 13);	///<- Enable clock access to SPI1, SPI4
+	RCC->AHB1ENR 	|= (1 << 0) | (1 << 4);		///<- Enable clock access to GPIOA, GPIOE
+	RCC->APB2ENR 	|= (1 << 12) | (1 << 13);	///<- Enable clock access to SPI1, SPI4
 	/**
 	 * @brief Configure GPIOA pins to Alternate function mode for SPI1
 	 */
-	GPIOA->MODER &= ~( (0x3 << 8) | (0x3 << 10) | (0x3 << 12) | (0x3 << 14) );
-	GPIOA->MODER |=  ( (0x2 << 8) | (0x2 << 10) | (0x2 << 12) | (0x2 << 14));	///<- Set pins 4, 5, 6, 7 to AF mode
-	GPIOA->AFR[0] &= ~( (0xF << 4*4) | (0xF << 5*4) | (0xF << 6*4) | (0xF << 7*4) );
-	GPIOA->AFR[0] |= ( (0x5 << 4*4) | (0x5 << 5*4) | (0x5 << 6*4) | (0x5 << 7*4) ); ///<- Set pins 4, 5, 6, 7 to AFR5
+	GPIOA->MODER 	&= ~( (0x3 << 8) | (0x3 << 10) | (0x3 << 12) | (0x3 << 14) );
+	GPIOA->MODER 	|=  ( (0x2 << 8) | (0x2 << 10) | (0x2 << 12) | (0x1 << 14));	///<- Set pins 4, 5, 6 to AF mode and pin 7 to output mode
+	GPIOA->AFR[0] 	&= ~( (0xF << 4*4) | (0xF << 5*4) | (0xF << 6*4) | (0xF << 7*4) );
+	GPIOA->AFR[0] 	|= ( (0x5 << 4*4) | (0x5 << 5*4) | (0x5 << 6*4) ); 				///<- Set pins 4, 5, 6 to AFR5
 
 	/**
 	 * @brief Configure GPIOE pins to Alternate function mode for SPI4
 	 */
-	GPIOE->MODER &= ~( (0x3 << 4) | (0x3 << 8) | (0x3 << 10) | (0x3 << 12) );
-	GPIOE->MODER |=  ( (0x2 << 4) | (0x2 << 8) | (0x2 << 10) | (0x2 << 12) );	///<- Set pins 4, 5, 6, 7 to AF mode
-	GPIOE->AFR[0] &= ~( (0xF << 2*4) | (0xF << 4*4) | (0xF << 5*4) | (0xF << 6*4) );
-	GPIOE->AFR[0] |= ( (0x5 << 2*4) | (0x5 << 4*4) | (0x5 << 5*4) | (0x5 << 6*4) ); ///<- Set pins 4, 5, 6, 7 to AFR5
+	GPIOE->MODER 	&= ~( (0x3 << 2*2) | (0x3 << 4*2) | (0x3 << 5*2) | (0x3 << 6*2) );
+	GPIOE->MODER 	|=  ( (0x2 << 2*2) | (0x2 << 5*2) | (0x2 << 6*2) | (0x0 << 4*2) );	///<- Set pins 2, 5, 6 to AF mode and pin 4 to input mode
+	GPIOE->AFR[0] 	&= ~( (0xF << 2*4) | (0xF << 5*4) | (0xF << 6*4) );
+	GPIOE->AFR[0] 	|= ( (0x5 << 2*4) | (0x5 << 5*4) | (0x5 << 6*4) ); ///<- Set pins 2, 5, 6 to AFR5
 
 	/*!********************END OF RCC AND GPIO SETTINGS*************/
 	/*!********************BEGIN SPI SETTING************************/
@@ -57,8 +57,45 @@ int main(void)
 	SPI1->CR1 &= ~(0x1 << 6);	///<- Disable the SPI module for settings
 	SPI1->CR1 &= ~(0x1 << 15);	///<- Set full-duplex by resetting the BIDIMODE field
 	SPI1->CR1 &= ~(0x1 << 11);	///<- Set the Data frame format to 8-bit
+	SPI1->CR1 &= ~(0x1 << 7);	///<- Select MSB first by resetting the LSBFIRST field
+	SPI1->CR1 &= ~(0x7 << 3);	///<- Reset the BR field for baud rate setting
+	SPI1->CR1 |=  (0x2 << 3);	///<- Set the Baud rate to PCLK/4 i.e. 25kHz by setting 2 to BR field
+	SPI1->CR1 |=  (0x1 << 2);	///<- Set the peripheral as SPI master by setting the MSTR field
+	SPI1->CR1 &= ~(0x1 << 1);	///<- Select CK to 0 as idle state by resetting the CPOL field
+	SPI1->CR1 &= ~(0x1 << 0);	///<- Select CK to sample at first clock transition by resetting the CPHA field
+	SPI1->CR1 &= ~(0x1 << 9);	///<- Select hardware slave management by clearing SSM field
+	SPI1->CR1 |=  (0x1 << 6);	///<- Enable the SPI module
 
+	/**
+	 * @brief Configure SPI4 as SPI Slave
+	 */
+	SPI4->CR1 &= ~(0x1 << 6);	///<- Disable the SPI module for settings
+	SPI4->CR1 &= ~(0x1 << 15);	///<- Set full-duplex by resetting the BIDIMODE field
+	SPI4->CR1 &= ~(0x1 << 11);	///<- Set the Data frame format to 8-bit
+	SPI4->CR1 &= ~(0x1 << 7);	///<- Select MSB first by resetting the LSBFIRST field
+	SPI4->CR1 &= ~(0x7 << 3);	///<- Reset the BR field for baud rate setting
+	SPI4->CR1 |=  (0x2 << 3);	///<- Set the Baud rate to PCLK/4 i.e. 25kHz by setting 2 to BR field
+	SPI4->CR1 &= ~(0x1 << 2);	///<- Set the peripheral as SPI slave by clearing the MSTR field
+	SPI4->CR1 &= ~(0x1 << 1);	///<- Select CK to 0 as idle state by clearing the CPOL field
+	SPI4->CR1 &= ~(0x1 << 0);	///<- Select CK to sample at first clock transition by clearing the CPHA field
+	SPI4->CR1 &= ~(0x1 << 9);	///<- Select hardware slave management by clearing SSM field
+	SPI4->CR1 |=  (0x1 << 6);	///<- Enable the SPI module
+
+	/*!********************END SPI SETTING************************/
 
 	/* Loop forever */
-	for(;;);
+	uint8_t sent_data = 0;
+	uint8_t recv_data = 0;
+	for(;;){
+		/*!********Begin transmission**************/
+		GPIOA->ODR &= ~(0x1 << 7);		///<- Clear the CS pin to the slave
+		SPI1->DR = ++i;					///<- Put the value to send out in the DR
+		while(SPI1->SR & (0x1 << 7));	///<- Wait until SPI1 module is busy
+		/*!********End transmission***************/
+		/*!********Begin reception**************/
+		while(!(SPI1->SR & 0x1));		///<- Wait until the SPI1 module's RX buffer is empty
+		recv_data = SPI1->DR;			///<- Read from DR to read the received data
+		GPIOA->ODR |= (0x1 << 7);		///<- Disable the CS pin to deactivate the slave
+		/*!********End reception***************/
+	}
 }

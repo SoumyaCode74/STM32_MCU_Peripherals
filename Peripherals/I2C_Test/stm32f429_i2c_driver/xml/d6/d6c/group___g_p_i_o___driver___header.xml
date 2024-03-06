@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d6/d6c/group___g_p_i_o___driver___header" kind="group">
+    <compoundname>GPIO_Driver_Header</compoundname>
+    <title>GPIO_Driver_Header</title>
+    <innergroup refid="d4/df1/group___includes">Includes</innergroup>
+    <innergroup refid="d5/d22/group___classes">Classes</innergroup>
+    <innergroup refid="d0/d7c/group___functions">Functions</innergroup>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="d6/d6c/group___g_p_i_o___driver___header_1gaf582963784931a387bdb2a31c93f07e5" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t GPIO_PinConfig_t::Mode</definition>
+        <argsstring></argsstring>
+        <name>Mode</name>
+        <qualifiedname>GPIO_PinConfig_t::Mode</qualifiedname>
+        <bitfield> 2</bitfield>
+        <briefdescription>
+<para>The direction to set for the GPIO pin. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx_gpio_driver.h" line="46" column="8" bodyfile="Inc/stm32f429xx_gpio_driver.h" bodystart="46" bodyend="-1"/>
+        <referencedby refid="d0/d7c/group___functions_1ga639d0fb5e8242d4d162acabcf4a633af" compoundref="d0/dde/stm32f429xx__gpio__driver_8c" startline="12" endline="15">GPIO_ConfigureMode</referencedby>
+        <referencedby refid="d0/d7c/group___functions_1ga687dcd53b52670e1579afeaeb80015d3" compoundref="d0/dde/stm32f429xx__gpio__driver_8c" startline="32" endline="41">GPIO_Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d6c/group___g_p_i_o___driver___header_1gaa8937a8eabf2358fc8a38c8f67fa98cc" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t GPIO_PinConfig_t::OType</definition>
+        <argsstring></argsstring>
+        <name>OType</name>
+        <qualifiedname>GPIO_PinConfig_t::OType</qualifiedname>
+        <bitfield> 1</bitfield>
+        <briefdescription>
+<para>Output type: 0 - Push-pull, 1 - Open Drain. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx_gpio_driver.h" line="47" column="8" bodyfile="Inc/stm32f429xx_gpio_driver.h" bodystart="47" bodyend="-1"/>
+        <referencedby refid="d0/d7c/group___functions_1ga3435576d6ead6bf69dbd35979bd36e6d" compoundref="d0/dde/stm32f429xx__gpio__driver_8c" startline="16" endline="19">GPIO_ConfigureOutputType</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d6c/group___g_p_i_o___driver___header_1gaa856c1501c06fc5c78a28071e78b53cf" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t GPIO_PinConfig_t::PullUpDown</definition>
+        <argsstring></argsstring>
+        <name>PullUpDown</name>
+        <qualifiedname>GPIO_PinConfig_t::PullUpDown</qualifiedname>
+        <bitfield> 2</bitfield>
+        <briefdescription>
+<para>Push-pull. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx_gpio_driver.h" line="48" column="8" bodyfile="Inc/stm32f429xx_gpio_driver.h" bodystart="48" bodyend="-1"/>
+        <referencedby refid="d0/d7c/group___functions_1gada28e76990b270e3642d27c27ab8312a" compoundref="d0/dde/stm32f429xx__gpio__driver_8c" startline="24" endline="27">GPIO_ConfigurePullUpDown</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d6c/group___g_p_i_o___driver___header_1ga3aa707ffa633fad03774a3df9b18e411" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t GPIO_PinConfig_t::OutputSpeed</definition>
+        <argsstring></argsstring>
+        <name>OutputSpeed</name>
+        <qualifiedname>GPIO_PinConfig_t::OutputSpeed</qualifiedname>
+        <bitfield> 2</bitfield>
+        <briefdescription>
+<para>Speed at which output should be delivered. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx_gpio_driver.h" line="49" column="8" bodyfile="Inc/stm32f429xx_gpio_driver.h" bodystart="49" bodyend="-1"/>
+        <referencedby refid="d0/d7c/group___functions_1ga0c68b7f212c4dbe9b0684d2af1f49028" compoundref="d0/dde/stm32f429xx__gpio__driver_8c" startline="20" endline="23">GPIO_ConfigureOutputSpeed</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d6c/group___g_p_i_o___driver___header_1gace2ebe1b2201b762cab0bf7f821786e2" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t GPIO_PinConfig_t::AlternateFunction</definition>
+        <argsstring></argsstring>
+        <name>AlternateFunction</name>
+        <qualifiedname>GPIO_PinConfig_t::AlternateFunction</qualifiedname>
+        <bitfield> 4</bitfield>
+        <briefdescription>
+<para>Alternate function mode value if required. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx_gpio_driver.h" line="50" column="8" bodyfile="Inc/stm32f429xx_gpio_driver.h" bodystart="50" bodyend="-1"/>
+        <referencedby refid="d0/d7c/group___functions_1ga207beb599c53ec175b3c0423cad3bd52" compoundref="d0/dde/stm32f429xx__gpio__driver_8c" startline="28" endline="31">GPIO_ConfigureAlternateFunction</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d6c/group___g_p_i_o___driver___header_1gab2c22aa8e429496a1822328b7078984c" prot="public" static="no" mutable="no">
+        <type><ref refid="d4/ded/stm32f429xx__general_8h_1a51e19dcff5aaac032509a7102fd26917" kindref="member">GPIO_RegAddr_t</ref> *</type>
+        <definition>GPIO_RegAddr_t* GPIO_Handle_t::pGPIOx</definition>
+        <argsstring></argsstring>
+        <name>pGPIOx</name>
+        <qualifiedname>GPIO_Handle_t::pGPIOx</qualifiedname>
+        <briefdescription>
+<para>Pointer to the base address of the GPIO port needed. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx_gpio_driver.h" line="54" column="16" bodyfile="Inc/stm32f429xx_gpio_driver.h" bodystart="54" bodyend="-1"/>
+        <referencedby refid="d0/d7c/group___functions_1ga207beb599c53ec175b3c0423cad3bd52" compoundref="d0/dde/stm32f429xx__gpio__driver_8c" startline="28" endline="31">GPIO_ConfigureAlternateFunction</referencedby>
+        <referencedby refid="d0/d7c/group___functions_1ga639d0fb5e8242d4d162acabcf4a633af" compoundref="d0/dde/stm32f429xx__gpio__driver_8c" startline="12" endline="15">GPIO_ConfigureMode</referencedby>
+        <referencedby refid="d0/d7c/group___functions_1ga0c68b7f212c4dbe9b0684d2af1f49028" compoundref="d0/dde/stm32f429xx__gpio__driver_8c" startline="20" endline="23">GPIO_ConfigureOutputSpeed</referencedby>
+        <referencedby refid="d0/d7c/group___functions_1ga3435576d6ead6bf69dbd35979bd36e6d" compoundref="d0/dde/stm32f429xx__gpio__driver_8c" startline="16" endline="19">GPIO_ConfigureOutputType</referencedby>
+        <referencedby refid="d0/d7c/group___functions_1gada28e76990b270e3642d27c27ab8312a" compoundref="d0/dde/stm32f429xx__gpio__driver_8c" startline="24" endline="27">GPIO_ConfigurePullUpDown</referencedby>
+        <referencedby refid="d0/d7c/group___functions_1ga687dcd53b52670e1579afeaeb80015d3" compoundref="d0/dde/stm32f429xx__gpio__driver_8c" startline="32" endline="41">GPIO_Init</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d6c/group___g_p_i_o___driver___header_1ga33cefa400df9fdae0bbfd207a3d53551" prot="public" static="no" mutable="no">
+        <type><ref refid="d2/de4/struct_g_p_i_o___pin_config__t" kindref="compound">GPIO_PinConfig_t</ref></type>
+        <definition>GPIO_PinConfig_t GPIO_Handle_t::GPIO_PinConfig</definition>
+        <argsstring></argsstring>
+        <name>GPIO_PinConfig</name>
+        <qualifiedname>GPIO_Handle_t::GPIO_PinConfig</qualifiedname>
+        <briefdescription>
+<para>The PinConfig object for the basic configuration settings. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx_gpio_driver.h" line="55" column="18" bodyfile="Inc/stm32f429xx_gpio_driver.h" bodystart="55" bodyend="-1"/>
+        <referencedby refid="d0/d7c/group___functions_1ga207beb599c53ec175b3c0423cad3bd52" compoundref="d0/dde/stm32f429xx__gpio__driver_8c" startline="28" endline="31">GPIO_ConfigureAlternateFunction</referencedby>
+        <referencedby refid="d0/d7c/group___functions_1ga639d0fb5e8242d4d162acabcf4a633af" compoundref="d0/dde/stm32f429xx__gpio__driver_8c" startline="12" endline="15">GPIO_ConfigureMode</referencedby>
+        <referencedby refid="d0/d7c/group___functions_1ga0c68b7f212c4dbe9b0684d2af1f49028" compoundref="d0/dde/stm32f429xx__gpio__driver_8c" startline="20" endline="23">GPIO_ConfigureOutputSpeed</referencedby>
+        <referencedby refid="d0/d7c/group___functions_1ga3435576d6ead6bf69dbd35979bd36e6d" compoundref="d0/dde/stm32f429xx__gpio__driver_8c" startline="16" endline="19">GPIO_ConfigureOutputType</referencedby>
+        <referencedby refid="d0/d7c/group___functions_1gada28e76990b270e3642d27c27ab8312a" compoundref="d0/dde/stm32f429xx__gpio__driver_8c" startline="24" endline="27">GPIO_ConfigurePullUpDown</referencedby>
+        <referencedby refid="d0/d7c/group___functions_1ga687dcd53b52670e1579afeaeb80015d3" compoundref="d0/dde/stm32f429xx__gpio__driver_8c" startline="32" endline="41">GPIO_Init</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

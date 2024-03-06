@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d9/da1/struct_r_c_c___handle__t" kind="struct" language="C++" prot="public">
+    <compoundname>RCC_Handle_t</compoundname>
+    <includes refid="da/d2b/stm32f429xx__rcc__driver_8h" local="no">stm32f429xx_rcc_driver.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d9/da1/struct_r_c_c___handle__t_1a2b10fa826b1f834f4a5a7a06d9d700a2" prot="public" static="no" mutable="no">
+        <type><ref refid="d4/ded/stm32f429xx__general_8h_1a3a62011ea00507b10cf91c5686a25737" kindref="member">RCC_RegAddr_t</ref> *</type>
+        <definition>RCC_RegAddr_t* RCC_Handle_t::pRCC</definition>
+        <argsstring></argsstring>
+        <name>pRCC</name>
+        <qualifiedname>RCC_Handle_t::pRCC</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx_rcc_driver.h" line="58" column="15" bodyfile="Inc/stm32f429xx_rcc_driver.h" bodystart="58" bodyend="-1"/>
+        <referencedby refid="d0/d7c/group___functions_1gaeaaf36368c2b29f5923ff8b408fc1edf" compoundref="d8/d4f/stm32f429xx__rcc__driver_8c" startline="8" endline="11">RCC_EnableClock</referencedby>
+        <referencedby refid="d0/d7c/group___functions_1ga58a28f6f623fbcd7255d4d05b6a855c4" compoundref="d8/d4f/stm32f429xx__rcc__driver_8c" startline="36" endline="48">RCC_GetPrescaler</referencedby>
+        <referencedby refid="d8/d4f/stm32f429xx__rcc__driver_8c_1ad33d1cd5cc160426cb5566126cd2744a" compoundref="d8/d4f/stm32f429xx__rcc__driver_8c" startline="33" endline="35">RCC_GetSystemClock</referencedby>
+        <referencedby refid="d0/d7c/group___functions_1ga3259f930e29db98219fb8ff55dd8a039" compoundref="d8/d4f/stm32f429xx__rcc__driver_8c" startline="12" endline="16">RCC_ResetClock</referencedby>
+        <referencedby refid="d0/d7c/group___functions_1gac2be2c79ec733dd8b1f373a3ca22547b" compoundref="d8/d4f/stm32f429xx__rcc__driver_8c" startline="17" endline="32">RCC_SetPrescaler</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d9/da1/struct_r_c_c___handle__t_1a11e495c439bbdfc416fbd3cb207cf813" prot="public" static="no" mutable="no">
+        <type><ref refid="dd/d66/struct_r_c_c___config__t" kindref="compound">RCC_Config_t</ref></type>
+        <definition>RCC_Config_t RCC_Handle_t::RCC_Config</definition>
+        <argsstring></argsstring>
+        <name>RCC_Config</name>
+        <qualifiedname>RCC_Handle_t::RCC_Config</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx_rcc_driver.h" line="59" column="14" bodyfile="Inc/stm32f429xx_rcc_driver.h" bodystart="59" bodyend="-1"/>
+        <referencedby refid="d0/d7c/group___functions_1gaeaaf36368c2b29f5923ff8b408fc1edf" compoundref="d8/d4f/stm32f429xx__rcc__driver_8c" startline="8" endline="11">RCC_EnableClock</referencedby>
+        <referencedby refid="d0/d7c/group___functions_1ga58a28f6f623fbcd7255d4d05b6a855c4" compoundref="d8/d4f/stm32f429xx__rcc__driver_8c" startline="36" endline="48">RCC_GetPrescaler</referencedby>
+        <referencedby refid="d0/d7c/group___functions_1ga3259f930e29db98219fb8ff55dd8a039" compoundref="d8/d4f/stm32f429xx__rcc__driver_8c" startline="12" endline="16">RCC_ResetClock</referencedby>
+        <referencedby refid="d0/d7c/group___functions_1gac2be2c79ec733dd8b1f373a3ca22547b" compoundref="d8/d4f/stm32f429xx__rcc__driver_8c" startline="17" endline="32">RCC_SetPrescaler</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>RCC_Config_t</label>
+        <link refid="dd/d66/struct_r_c_c___config__t"/>
+      </node>
+      <node id="1">
+        <label>RCC_Handle_t</label>
+        <link refid="d9/da1/struct_r_c_c___handle__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+RCC_Config</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Inc/stm32f429xx_rcc_driver.h" line="57" column="1" bodyfile="Inc/stm32f429xx_rcc_driver.h" bodystart="57" bodyend="60"/>
+    <listofallmembers>
+      <member refid="d9/da1/struct_r_c_c___handle__t_1a2b10fa826b1f834f4a5a7a06d9d700a2" prot="public" virt="non-virtual"><scope>RCC_Handle_t</scope><name>pRCC</name></member>
+      <member refid="d9/da1/struct_r_c_c___handle__t_1a11e495c439bbdfc416fbd3cb207cf813" prot="public" virt="non-virtual"><scope>RCC_Handle_t</scope><name>RCC_Config</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

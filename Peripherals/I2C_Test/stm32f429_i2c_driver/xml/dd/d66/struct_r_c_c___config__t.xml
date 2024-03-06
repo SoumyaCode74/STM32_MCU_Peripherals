@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dd/d66/struct_r_c_c___config__t" kind="struct" language="C++" prot="public">
+    <compoundname>RCC_Config_t</compoundname>
+    <includes refid="da/d2b/stm32f429xx__rcc__driver_8h" local="no">stm32f429xx_rcc_driver.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="dd/d66/struct_r_c_c___config__t_1aeab81a91b204c1843002156f77bd2fef" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t RCC_Config_t::clock_source</definition>
+        <argsstring></argsstring>
+        <name>clock_source</name>
+        <qualifiedname>RCC_Config_t::clock_source</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx_rcc_driver.h" line="53" column="8" bodyfile="Inc/stm32f429xx_rcc_driver.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/d66/struct_r_c_c___config__t_1a6cd01da7cc4806829ae5db75f89544ec" prot="public" static="no" mutable="no">
+        <type><ref refid="d5/d22/group___classes_1gae6f7dfb64f0fd48995ee0c71e0c9a8a4" kindref="member">ClockBus_t</ref></type>
+        <definition>ClockBus_t RCC_Config_t::bus</definition>
+        <argsstring></argsstring>
+        <name>bus</name>
+        <qualifiedname>RCC_Config_t::bus</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx_rcc_driver.h" line="54" column="12" bodyfile="Inc/stm32f429xx_rcc_driver.h" bodystart="54" bodyend="-1"/>
+        <referencedby refid="d0/d7c/group___functions_1gaeaaf36368c2b29f5923ff8b408fc1edf" compoundref="d8/d4f/stm32f429xx__rcc__driver_8c" startline="8" endline="11">RCC_EnableClock</referencedby>
+        <referencedby refid="d0/d7c/group___functions_1ga58a28f6f623fbcd7255d4d05b6a855c4" compoundref="d8/d4f/stm32f429xx__rcc__driver_8c" startline="36" endline="48">RCC_GetPrescaler</referencedby>
+        <referencedby refid="d0/d7c/group___functions_1ga3259f930e29db98219fb8ff55dd8a039" compoundref="d8/d4f/stm32f429xx__rcc__driver_8c" startline="12" endline="16">RCC_ResetClock</referencedby>
+        <referencedby refid="d0/d7c/group___functions_1gac2be2c79ec733dd8b1f373a3ca22547b" compoundref="d8/d4f/stm32f429xx__rcc__driver_8c" startline="17" endline="32">RCC_SetPrescaler</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="dd/d66/struct_r_c_c___config__t_1adda084b2e08ca68b2d78506b5770b8b3" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t RCC_Config_t::prescaler</definition>
+        <argsstring></argsstring>
+        <name>prescaler</name>
+        <qualifiedname>RCC_Config_t::prescaler</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx_rcc_driver.h" line="55" column="8" bodyfile="Inc/stm32f429xx_rcc_driver.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>RCC_Config_t</label>
+        <link refid="dd/d66/struct_r_c_c___config__t"/>
+      </node>
+    </collaborationgraph>
+    <location file="Inc/stm32f429xx_rcc_driver.h" line="52" column="1" bodyfile="Inc/stm32f429xx_rcc_driver.h" bodystart="52" bodyend="56"/>
+    <listofallmembers>
+      <member refid="dd/d66/struct_r_c_c___config__t_1a6cd01da7cc4806829ae5db75f89544ec" prot="public" virt="non-virtual"><scope>RCC_Config_t</scope><name>bus</name></member>
+      <member refid="dd/d66/struct_r_c_c___config__t_1aeab81a91b204c1843002156f77bd2fef" prot="public" virt="non-virtual"><scope>RCC_Config_t</scope><name>clock_source</name></member>
+      <member refid="dd/d66/struct_r_c_c___config__t_1adda084b2e08ca68b2d78506b5770b8b3" prot="public" virt="non-virtual"><scope>RCC_Config_t</scope><name>prescaler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

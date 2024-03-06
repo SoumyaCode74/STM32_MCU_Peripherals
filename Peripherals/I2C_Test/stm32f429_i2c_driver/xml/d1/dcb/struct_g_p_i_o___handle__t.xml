@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d1/dcb/struct_g_p_i_o___handle__t" kind="struct" language="C++" prot="public">
+    <compoundname>GPIO_Handle_t</compoundname>
+    <includes refid="d9/daa/stm32f429xx__gpio__driver_8h" local="no">stm32f429xx_gpio_driver.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="d6/d6c/group___g_p_i_o___driver___header_1gab2c22aa8e429496a1822328b7078984c" kind="variable"><name>pGPIOx</name></member>
+      <member refid="d6/d6c/group___g_p_i_o___driver___header_1ga33cefa400df9fdae0bbfd207a3d53551" kind="variable"><name>GPIO_PinConfig</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>GPIO_Handle_t</label>
+        <link refid="d1/dcb/struct_g_p_i_o___handle__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+GPIO_PinConfig</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>GPIO_PinConfig_t</label>
+        <link refid="d2/de4/struct_g_p_i_o___pin_config__t"/>
+      </node>
+    </collaborationgraph>
+    <location file="Inc/stm32f429xx_gpio_driver.h" line="53" column="1" bodyfile="Inc/stm32f429xx_gpio_driver.h" bodystart="53" bodyend="56"/>
+    <listofallmembers>
+      <member refid="d6/d6c/group___g_p_i_o___driver___header_1ga33cefa400df9fdae0bbfd207a3d53551" prot="public" virt="non-virtual"><scope>GPIO_Handle_t</scope><name>GPIO_PinConfig</name></member>
+      <member refid="d6/d6c/group___g_p_i_o___driver___header_1gab2c22aa8e429496a1822328b7078984c" prot="public" virt="non-virtual"><scope>GPIO_Handle_t</scope><name>pGPIOx</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

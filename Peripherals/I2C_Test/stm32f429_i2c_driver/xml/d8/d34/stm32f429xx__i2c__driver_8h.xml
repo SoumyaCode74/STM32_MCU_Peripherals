@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d8/d34/stm32f429xx__i2c__driver_8h" kind="file" language="C++">
+    <compoundname>stm32f429xx_i2c_driver.h</compoundname>
+    <includes refid="d4/ded/stm32f429xx__general_8h" local="yes">stm32f429xx_general.h</includes>
+    <includedby refid="d0/d29/main_8c" local="yes">Src/main.c</includedby>
+    <includedby refid="de/da9/stm32f429xx__i2c__driver_8c" local="yes">Src/stm32f429xx_i2c_driver.c</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>stm32f429xx_general.h</label>
+        <link refid="d4/ded/stm32f429xx__general_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Inc/stm32f429xx_i2c_driver.h</label>
+        <link refid="d8/d34/stm32f429xx__i2c__driver_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="4">
+        <label>stm32f429xx.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>Inc/stm32f429xx_i2c_driver.h</label>
+        <link refid="d8/d34/stm32f429xx__i2c__driver_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Src/main.c</label>
+        <link refid="d0/d29/main_8c"/>
+      </node>
+      <node id="3">
+        <label>Src/stm32f429xx_i2c_driver.c</label>
+        <link refid="de/da9/stm32f429xx__i2c__driver_8c"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="df/d65/struct_i2_c___pin_config__t" prot="public">I2C_PinConfig_t</innerclass>
+    <innerclass refid="da/dfe/struct_i2_c___handle__t" prot="public">I2C_Handle_t</innerclass>
+    <sectiondef kind="func">
+      <member refid="d0/d7c/group___functions_1ga9b83058c3356c704a9c0f3cdfeff8260" kind="function"><name>I2C_Init</name></member>
+      <member refid="d0/d7c/group___functions_1gad34e477f4c0f4353b2b94e2e81da4731" kind="function"><name>I2C_DeInit</name></member>
+      <member refid="d0/d7c/group___functions_1ga5b14253ed9daf7d17a80cfc5624ed24f" kind="function"><name>I2C_MasterSendData</name></member>
+      <member refid="d0/d7c/group___functions_1ga2c652fec1139e8a2f22706fcf4e8a97c" kind="function"><name>I2C_MasterReceiveData</name></member>
+      <member refid="d0/d7c/group___functions_1gaf199c15c6b266f41d6b0305cef8db719" kind="function"><name>I2C_SlaveSendData</name></member>
+      <member refid="d0/d7c/group___functions_1ga78afc3540aff2e93710b4b9c576888c7" kind="function"><name>I2C_SlaveReceiveData</name></member>
+      <member refid="d0/d7c/group___functions_1ga7e033efba44b5def1d7cf19e86829559" kind="function"><name>I2C_Error_Interrupt_Handler</name></member>
+      <member refid="d0/d7c/group___functions_1ga656d1fe643316c70add3464dc899af02" kind="function"><name>I2C_Event_Interrupt_Handler</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Classes and API functions for driving an I2C peripheral for STM32F429xx MCUs Created on: Feb 11, 2024. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>: Soumyadeep Bose </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>STM32F429XX_I2C_DRIVER_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STM32F429XX_I2C_DRIVER_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d4/ded/stm32f429xx__general_8h" kindref="compound">stm32f429xx_general.h</ref>&quot;</highlight></codeline>
+<codeline lineno="31" refid="df/d65/struct_i2_c___pin_config__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="32" refid="d2/d8a/group___i2_c___driver___header_1gadbb082b2896fb5691b2ba1dceb8ca5ca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><sp/><sp/><sp/><ref refid="d2/d8a/group___i2_c___driver___header_1gadbb082b2896fb5691b2ba1dceb8ca5ca" kindref="member">I2C_SCLSpeed</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="33" refid="d2/d8a/group___i2_c___driver___header_1gae741b4bdc43cc40ccb24557ae4be6712" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><sp/><sp/><sp/><sp/><ref refid="d2/d8a/group___i2_c___driver___header_1gae741b4bdc43cc40ccb24557ae4be6712" kindref="member">I2C_DeviceAddress</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="34" refid="d2/d8a/group___i2_c___driver___header_1ga88720fb61655cb514b0f2bdaa4ee8c2f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><sp/><sp/><sp/><sp/><ref refid="d2/d8a/group___i2_c___driver___header_1ga88720fb61655cb514b0f2bdaa4ee8c2f" kindref="member">I2C_AckControl</ref><sp/>:<sp/>1;<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="35" refid="d2/d8a/group___i2_c___driver___header_1gab4114e274f8848e073de0c689369f420" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><sp/><sp/><sp/><sp/><ref refid="d2/d8a/group___i2_c___driver___header_1gab4114e274f8848e073de0c689369f420" kindref="member">I2C_FMDutyCycle</ref><sp/>:<sp/>3;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}<ref refid="df/d65/struct_i2_c___pin_config__t" kindref="compound">I2C_PinConfig_t</ref>;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="da/dfe/struct_i2_c___handle__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="39" refid="d2/d8a/group___i2_c___driver___header_1ga8a620ba905fc88fcbb5515bd4ce2303c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/ded/stm32f429xx__general_8h_1aae0399166eb7c9e558f61287856a996c" kindref="member">I2C_RegAddr_t</ref><sp/>*<ref refid="d2/d8a/group___i2_c___driver___header_1ga8a620ba905fc88fcbb5515bd4ce2303c" kindref="member">pI2Cx</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="40" refid="d2/d8a/group___i2_c___driver___header_1ga0b12cd2c9fc8177f1db4e89ce90627db" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d65/struct_i2_c___pin_config__t" kindref="compound">I2C_PinConfig_t</ref><sp/><ref refid="d2/d8a/group___i2_c___driver___header_1ga0b12cd2c9fc8177f1db4e89ce90627db" kindref="member">I2C_PinConfig</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}<ref refid="da/dfe/struct_i2_c___handle__t" kindref="compound">I2C_Handle_t</ref>;<sp/><sp/></highlight></codeline>
+<codeline lineno="57" refid="d0/d7c/group___functions_1ga9b83058c3356c704a9c0f3cdfeff8260" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d0/d7c/group___functions_1ga9b83058c3356c704a9c0f3cdfeff8260" kindref="member">I2C_Init</ref>(<ref refid="da/dfe/struct_i2_c___handle__t" kindref="compound">I2C_Handle_t</ref><sp/>*);</highlight></codeline>
+<codeline lineno="63" refid="d0/d7c/group___functions_1gad34e477f4c0f4353b2b94e2e81da4731" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d0/d7c/group___functions_1gad34e477f4c0f4353b2b94e2e81da4731" kindref="member">I2C_DeInit</ref>(<ref refid="da/dfe/struct_i2_c___handle__t" kindref="compound">I2C_Handle_t</ref><sp/>*);</highlight></codeline>
+<codeline lineno="71" refid="d0/d7c/group___functions_1ga5b14253ed9daf7d17a80cfc5624ed24f" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d0/d7c/group___functions_1ga5b14253ed9daf7d17a80cfc5624ed24f" kindref="member">I2C_MasterSendData</ref>(<ref refid="da/dfe/struct_i2_c___handle__t" kindref="compound">I2C_Handle_t</ref><sp/>*<sp/>pI2CHandle,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>*<sp/>pSlaveAddress,<sp/>uint8_t<sp/>*<sp/>pData);</highlight></codeline>
+<codeline lineno="79" refid="d0/d7c/group___functions_1ga2c652fec1139e8a2f22706fcf4e8a97c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d0/d7c/group___functions_1ga2c652fec1139e8a2f22706fcf4e8a97c" kindref="member">I2C_MasterReceiveData</ref>(<ref refid="da/dfe/struct_i2_c___handle__t" kindref="compound">I2C_Handle_t</ref><sp/>*<sp/>pI2CHandle,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>*<sp/>pSlaveAddress,<sp/>uint8_t<sp/>*<sp/>pReceive);</highlight></codeline>
+<codeline lineno="86" refid="d0/d7c/group___functions_1gaf199c15c6b266f41d6b0305cef8db719" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d0/d7c/group___functions_1gaf199c15c6b266f41d6b0305cef8db719" kindref="member">I2C_SlaveSendData</ref>(<ref refid="da/dfe/struct_i2_c___handle__t" kindref="compound">I2C_Handle_t</ref><sp/>*<sp/>pI2CHandle,<sp/>uint8_t<sp/>*<sp/>pData);</highlight></codeline>
+<codeline lineno="93" refid="d0/d7c/group___functions_1ga78afc3540aff2e93710b4b9c576888c7" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d0/d7c/group___functions_1ga78afc3540aff2e93710b4b9c576888c7" kindref="member">I2C_SlaveReceiveData</ref>(<ref refid="da/dfe/struct_i2_c___handle__t" kindref="compound">I2C_Handle_t</ref><sp/>*<sp/>pI2CHandle,<sp/>uint8_t<sp/>*<sp/>pReceive);</highlight></codeline>
+<codeline lineno="99" refid="d0/d7c/group___functions_1ga7e033efba44b5def1d7cf19e86829559" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d0/d7c/group___functions_1ga7e033efba44b5def1d7cf19e86829559" kindref="member">I2C_Error_Interrupt_Handler</ref>(<ref refid="da/dfe/struct_i2_c___handle__t" kindref="compound">I2C_Handle_t</ref><sp/>*<sp/>pI2CHandle);</highlight></codeline>
+<codeline lineno="105" refid="d0/d7c/group___functions_1ga656d1fe643316c70add3464dc899af02" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d0/d7c/group___functions_1ga656d1fe643316c70add3464dc899af02" kindref="member">I2C_Event_Interrupt_Handler</ref>(<ref refid="da/dfe/struct_i2_c___handle__t" kindref="compound">I2C_Handle_t</ref><sp/>*<sp/>pI2CHandle);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>STM32F429XX_I2C_DRIVER_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="Inc/stm32f429xx_i2c_driver.h"/>
+  </compounddef>
+</doxygen>

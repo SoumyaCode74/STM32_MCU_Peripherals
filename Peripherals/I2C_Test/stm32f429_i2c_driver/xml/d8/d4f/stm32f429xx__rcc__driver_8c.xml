@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d8/d4f/stm32f429xx__rcc__driver_8c" kind="file" language="C++">
+    <compoundname>stm32f429xx_rcc_driver.c</compoundname>
+    <includes refid="da/d2b/stm32f429xx__rcc__driver_8h" local="yes">stm32f429xx_rcc_driver.h</includes>
+    <incdepgraph>
+      <node id="3">
+        <label>stm32f429xx_general.h</label>
+        <link refid="d4/ded/stm32f429xx__general_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>stm32f429xx_rcc_driver.h</label>
+        <link refid="da/d2b/stm32f429xx__rcc__driver_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Src/stm32f429xx_rcc_driver.c</label>
+        <link refid="d8/d4f/stm32f429xx__rcc__driver_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>stm32f429xx.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <member refid="d0/d7c/group___functions_1gaeaaf36368c2b29f5923ff8b408fc1edf" kind="function"><name>RCC_EnableClock</name></member>
+      <member refid="d0/d7c/group___functions_1ga3259f930e29db98219fb8ff55dd8a039" kind="function"><name>RCC_ResetClock</name></member>
+      <member refid="d0/d7c/group___functions_1gac2be2c79ec733dd8b1f373a3ca22547b" kind="function"><name>RCC_SetPrescaler</name></member>
+      <memberdef kind="function" id="d8/d4f/stm32f429xx__rcc__driver_8c_1ad33d1cd5cc160426cb5566126cd2744a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d5/d22/group___classes_1ga02e55ce66a310468cd5996a5769a1e77" kindref="member">ClockSrc_t</ref></type>
+        <definition>ClockSrc_t RCC_GetSystemClock</definition>
+        <argsstring>(RCC_Handle_t *pRCC)</argsstring>
+        <name>RCC_GetSystemClock</name>
+        <param>
+          <type><ref refid="d9/da1/struct_r_c_c___handle__t" kindref="compound">RCC_Handle_t</ref> *</type>
+          <declname>pRCC</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Src/stm32f429xx_rcc_driver.c" line="33" column="12" bodyfile="Src/stm32f429xx_rcc_driver.c" bodystart="33" bodyend="35"/>
+        <references refid="d9/da1/struct_r_c_c___handle__t_1a2b10fa826b1f834f4a5a7a06d9d700a2" compoundref="da/d2b/stm32f429xx__rcc__driver_8h" startline="58">RCC_Handle_t::pRCC</references>
+      </memberdef>
+      <member refid="d0/d7c/group___functions_1ga58a28f6f623fbcd7255d4d05b6a855c4" kind="function"><name>RCC_GetPrescaler</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Created on: Feb 15, 2024. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>: Soumyadeep Bose </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="da/d2b/stm32f429xx__rcc__driver_8h" kindref="compound">stm32f429xx_rcc_driver.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="d0/d7c/group___functions_1gaeaaf36368c2b29f5923ff8b408fc1edf" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d0/d7c/group___functions_1gaeaaf36368c2b29f5923ff8b408fc1edf" kindref="member">RCC_EnableClock</ref>(<ref refid="d9/da1/struct_r_c_c___handle__t" kindref="compound">RCC_Handle_t</ref><sp/>*<sp/>pRCC,<sp/>uint8_t<sp/>pos){</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>*<sp/>pAHB1ENR<sp/>=<sp/>(uint32_t<sp/>*)&amp;pRCC-&gt;<ref refid="d9/da1/struct_r_c_c___handle__t_1a2b10fa826b1f834f4a5a7a06d9d700a2" kindref="member">pRCC</ref>-&gt;AHB1ENR;<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>pAHB1ENR[pRCC-&gt;<ref refid="d9/da1/struct_r_c_c___handle__t_1a11e495c439bbdfc416fbd3cb207cf813" kindref="member">RCC_Config</ref>.<ref refid="dd/d66/struct_r_c_c___config__t_1a6cd01da7cc4806829ae5db75f89544ec" kindref="member">bus</ref>]<sp/>|=<sp/>(0x1<sp/>&lt;&lt;<sp/>pos);<sp/></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="12" refid="d0/d7c/group___functions_1ga3259f930e29db98219fb8ff55dd8a039" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d0/d7c/group___functions_1ga3259f930e29db98219fb8ff55dd8a039" kindref="member">RCC_ResetClock</ref>(<ref refid="d9/da1/struct_r_c_c___handle__t" kindref="compound">RCC_Handle_t</ref><sp/>*<sp/>pRCC,<sp/>uint8_t<sp/>pos){</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>*<sp/>pAHB1RST<sp/>=<sp/>(uint32_t<sp/>*)&amp;pRCC-&gt;<ref refid="d9/da1/struct_r_c_c___handle__t_1a2b10fa826b1f834f4a5a7a06d9d700a2" kindref="member">pRCC</ref>-&gt;AHB1RSTR;<sp/></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>pAHB1RST[pRCC-&gt;<ref refid="d9/da1/struct_r_c_c___handle__t_1a11e495c439bbdfc416fbd3cb207cf813" kindref="member">RCC_Config</ref>.<ref refid="dd/d66/struct_r_c_c___config__t_1a6cd01da7cc4806829ae5db75f89544ec" kindref="member">bus</ref>]<sp/>|=<sp/>(0x1<sp/>&lt;&lt;<sp/>pos);<sp/></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="17" refid="d0/d7c/group___functions_1gac2be2c79ec733dd8b1f373a3ca22547b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d0/d7c/group___functions_1gac2be2c79ec733dd8b1f373a3ca22547b" kindref="member">RCC_SetPrescaler</ref>(<ref refid="d9/da1/struct_r_c_c___handle__t" kindref="compound">RCC_Handle_t</ref><sp/>*<sp/>pRCC,<sp/>uint8_t<sp/>scaler){</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d22/group___classes_1gae6f7dfb64f0fd48995ee0c71e0c9a8a4" kindref="member">ClockBus_t</ref><sp/>selected_bus<sp/>=<sp/>pRCC-&gt;<ref refid="d9/da1/struct_r_c_c___handle__t_1a11e495c439bbdfc416fbd3cb207cf813" kindref="member">RCC_Config</ref>.<ref refid="dd/d66/struct_r_c_c___config__t_1a6cd01da7cc4806829ae5db75f89544ec" kindref="member">bus</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(selected_bus<sp/>==<sp/><ref refid="d5/d22/group___classes_1ggae6f7dfb64f0fd48995ee0c71e0c9a8a4a75a5e90abcb1e35306aca2a77ff01833" kindref="member">AHB1</ref><sp/>||<sp/>selected_bus<sp/>==<sp/><ref refid="d5/d22/group___classes_1ggae6f7dfb64f0fd48995ee0c71e0c9a8a4a2516474d80019e460dae478bb4521009" kindref="member">AHB2</ref><sp/>||<sp/>selected_bus<sp/>==<sp/><ref refid="d5/d22/group___classes_1ggae6f7dfb64f0fd48995ee0c71e0c9a8a4a4fa163ec908ece5908470b05f19a791c" kindref="member">AHB3</ref>){</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pRCC-&gt;<ref refid="d9/da1/struct_r_c_c___handle__t_1a2b10fa826b1f834f4a5a7a06d9d700a2" kindref="member">pRCC</ref>-&gt;CFGR<sp/>&amp;=<sp/>~(0xF<sp/>&lt;&lt;<sp/>4);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pRCC-&gt;<ref refid="d9/da1/struct_r_c_c___handle__t_1a2b10fa826b1f834f4a5a7a06d9d700a2" kindref="member">pRCC</ref>-&gt;CFGR<sp/>|=<sp/><sp/>(scaler<sp/>&lt;&lt;<sp/>4);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(selected_bus<sp/>==<sp/><ref refid="d5/d22/group___classes_1ggae6f7dfb64f0fd48995ee0c71e0c9a8a4a0a7928dc21633f8cf78bf136bda6fe45" kindref="member">APB1</ref>){</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pRCC-&gt;<ref refid="d9/da1/struct_r_c_c___handle__t_1a2b10fa826b1f834f4a5a7a06d9d700a2" kindref="member">pRCC</ref>-&gt;CFGR<sp/>&amp;=<sp/>~(0x7<sp/>&lt;&lt;<sp/>10);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pRCC-&gt;<ref refid="d9/da1/struct_r_c_c___handle__t_1a2b10fa826b1f834f4a5a7a06d9d700a2" kindref="member">pRCC</ref>-&gt;CFGR<sp/>|=<sp/><sp/>(scaler<sp/>&lt;&lt;<sp/>10);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pRCC-&gt;<ref refid="d9/da1/struct_r_c_c___handle__t_1a2b10fa826b1f834f4a5a7a06d9d700a2" kindref="member">pRCC</ref>-&gt;CFGR<sp/>&amp;=<sp/>~(0x7<sp/>&lt;&lt;<sp/>13);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pRCC-&gt;<ref refid="d9/da1/struct_r_c_c___handle__t_1a2b10fa826b1f834f4a5a7a06d9d700a2" kindref="member">pRCC</ref>-&gt;CFGR<sp/>|=<sp/><sp/>(scaler<sp/>&lt;&lt;<sp/>13);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="33" refid="d8/d4f/stm32f429xx__rcc__driver_8c_1ad33d1cd5cc160426cb5566126cd2744a" refkind="member"><highlight class="normal"><ref refid="d5/d22/group___classes_1ga02e55ce66a310468cd5996a5769a1e77" kindref="member">ClockSrc_t</ref><sp/><ref refid="d0/d7c/group___functions_1ga23b00e327ddae3ac4af10494df251633" kindref="member">RCC_GetSystemClock</ref>(<ref refid="d9/da1/struct_r_c_c___handle__t" kindref="compound">RCC_Handle_t</ref><sp/>*<sp/>pRCC){</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<sp/>(pRCC-&gt;<ref refid="d9/da1/struct_r_c_c___handle__t_1a2b10fa826b1f834f4a5a7a06d9d700a2" kindref="member">pRCC</ref>-&gt;CFGR<sp/>&gt;&gt;<sp/>2)<sp/>&amp;<sp/>0x3);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="36" refid="d0/d7c/group___functions_1ga58a28f6f623fbcd7255d4d05b6a855c4" refkind="member"><highlight class="normal">uint8_t<sp/><ref refid="d0/d7c/group___functions_1ga58a28f6f623fbcd7255d4d05b6a855c4" kindref="member">RCC_GetPrescaler</ref>(<ref refid="d9/da1/struct_r_c_c___handle__t" kindref="compound">RCC_Handle_t</ref><sp/>*<sp/>pRCC){</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d22/group___classes_1gae6f7dfb64f0fd48995ee0c71e0c9a8a4" kindref="member">ClockBus_t</ref><sp/>selected_bus<sp/>=<sp/>pRCC-&gt;<ref refid="d9/da1/struct_r_c_c___handle__t_1a11e495c439bbdfc416fbd3cb207cf813" kindref="member">RCC_Config</ref>.<ref refid="dd/d66/struct_r_c_c___config__t_1a6cd01da7cc4806829ae5db75f89544ec" kindref="member">bus</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(selected_bus<sp/>==<sp/><ref refid="d5/d22/group___classes_1ggae6f7dfb64f0fd48995ee0c71e0c9a8a4a75a5e90abcb1e35306aca2a77ff01833" kindref="member">AHB1</ref><sp/>||<sp/>selected_bus<sp/>==<sp/><ref refid="d5/d22/group___classes_1ggae6f7dfb64f0fd48995ee0c71e0c9a8a4a2516474d80019e460dae478bb4521009" kindref="member">AHB2</ref><sp/>||<sp/>selected_bus<sp/>==<sp/><ref refid="d5/d22/group___classes_1ggae6f7dfb64f0fd48995ee0c71e0c9a8a4a4fa163ec908ece5908470b05f19a791c" kindref="member">AHB3</ref>){</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(pRCC-&gt;<ref refid="d9/da1/struct_r_c_c___handle__t_1a2b10fa826b1f834f4a5a7a06d9d700a2" kindref="member">pRCC</ref>-&gt;CFGR<sp/>&gt;&gt;<sp/>4)<sp/>&amp;<sp/>0xF;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(selected_bus<sp/>==<sp/><ref refid="d5/d22/group___classes_1ggae6f7dfb64f0fd48995ee0c71e0c9a8a4a0a7928dc21633f8cf78bf136bda6fe45" kindref="member">APB1</ref>){</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(pRCC-&gt;<ref refid="d9/da1/struct_r_c_c___handle__t_1a2b10fa826b1f834f4a5a7a06d9d700a2" kindref="member">pRCC</ref>-&gt;CFGR<sp/>&gt;&gt;<sp/>10)<sp/>&amp;<sp/>0x7;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(pRCC-&gt;<ref refid="d9/da1/struct_r_c_c___handle__t_1a2b10fa826b1f834f4a5a7a06d9d700a2" kindref="member">pRCC</ref>-&gt;CFGR<sp/>&gt;&gt;<sp/>13)<sp/>&amp;<sp/>0x7;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Src/stm32f429xx_rcc_driver.c"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="d6/dff/group___r_c_c___driver___header" kind="group">
+    <compoundname>RCC_Driver_Header</compoundname>
+    <title>RCC_Driver_Header</title>
+    <innergroup refid="d4/df1/group___includes">Includes</innergroup>
+    <innergroup refid="dc/d74/group___defines">Defines</innergroup>
+    <innergroup refid="d5/d22/group___classes">Classes</innergroup>
+    <innergroup refid="d0/d7c/group___functions">Functions</innergroup>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

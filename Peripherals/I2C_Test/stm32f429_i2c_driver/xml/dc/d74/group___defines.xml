@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dc/d74/group___defines" kind="group">
+    <compoundname>Defines</compoundname>
+    <title>Defines</title>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="dc/d74/group___defines_1gaaa8c76e274d0f6dd2cefb5d0b17fbc37" prot="public" static="no">
+        <name>HSI_VALUE</name>
+        <initializer>(16000000U)</initializer>
+        <briefdescription>
+<para>HSI clock frequency 16 MHz. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx_rcc_driver.h" line="31" column="9" bodyfile="Inc/stm32f429xx_rcc_driver.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dc/d74/group___defines_1gaeafcff4f57440c60e64812dddd13e7cb" prot="public" static="no">
+        <name>HSE_VALUE</name>
+        <initializer>(25000000U)</initializer>
+        <briefdescription>
+<para>HSE clock frequency 25 MHz. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Inc/stm32f429xx_rcc_driver.h" line="32" column="9" bodyfile="Inc/stm32f429xx_rcc_driver.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>
