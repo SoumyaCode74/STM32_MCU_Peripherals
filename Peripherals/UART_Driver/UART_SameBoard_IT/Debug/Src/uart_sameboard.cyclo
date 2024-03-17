@@ -1,0 +1,10 @@
+../Src/uart_sameboard.c:12:6:UART_GPIO_ClockEnable	6
+../Src/uart_sameboard.c:32:6:UART_GPIOConfig	4
+../Src/uart_sameboard.c:53:6:UART_Periph_ClockEnable	6
+../Src/uart_sameboard.c:73:6:UART_Init	2
+../Src/uart_sameboard.c:109:6:UART_DeInit	1
+../Src/uart_sameboard.c:120:10:UART_BaudRate	1
+../Src/uart_sameboard.c:138:6:UART_RxCmpltCallBack	8
+../Src/uart_sameboard.c:157:6:UART_RxHandler	1
+../Src/uart_sameboard.c:162:6:USART1_IRQHandler	1
+../Src/uart_sameboard.c:166:6:USART2_IRQHandler	1

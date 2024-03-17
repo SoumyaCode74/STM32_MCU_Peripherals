@@ -1,0 +1,84 @@
+\doxysection{Src/uart\+\_\+sameboard.c File Reference}
+\hypertarget{uart__sameboard_8c}{}\label{uart__sameboard_8c}\index{Src/uart\_sameboard.c@{Src/uart\_sameboard.c}}
+
+
+Source file for UART functions for the same board project.  
+
+
+{\ttfamily \#include "{}uart\+\_\+sameboard.\+h"{}}\newline
+Include dependency graph for uart\+\_\+sameboard.\+c\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=339pt]{uart__sameboard_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group___functions_ga98eb9d797b42f1c043b76633cb2a0985}{UART\+\_\+\+GPIO\+\_\+\+Clock\+Enable}} (\mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\+\_\+t}} \texorpdfstring{$\ast$}{*}h\+UART)
+\begin{DoxyCompactList}\small\item\em Function to enable clock access to the GPIO port for the UART. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___functions_ga81f4423fd3fd30a273801e235ad2e343}{UART\+\_\+\+GPIOConfig}} (\mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\+\_\+t}} \texorpdfstring{$\ast$}{*}h\+UART)
+\begin{DoxyCompactList}\small\item\em Function to configure the GPIO pins for the UART. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___functions_ga8c79ff940833a6107dcbfe347ee1487f}{UART\+\_\+\+Periph\+\_\+\+Clock\+Enable}} (\mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\+\_\+t}} \texorpdfstring{$\ast$}{*}h\+UART)
+\begin{DoxyCompactList}\small\item\em Function to enable clock access to UART. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___functions_ga42b647371ed3fdbf48b90614d511a67f}{UART\+\_\+\+Init}} (\mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\+\_\+t}} \texorpdfstring{$\ast$}{*}h\+UART)
+\begin{DoxyCompactList}\small\item\em Function to initialize the UART peripheral. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___functions_ga6049a18f6a9f415e1a8334e252aaddf6}{UART\+\_\+\+De\+Init}} (\mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\+\_\+t}} \texorpdfstring{$\ast$}{*}h\+UART)
+\begin{DoxyCompactList}\small\item\em Function to de-\/initialize the UART. \end{DoxyCompactList}\item 
+uint16\+\_\+t \mbox{\hyperlink{group___functions_ga41d103bab55cc9a05006f3a3c80d9a62}{UART\+\_\+\+Baud\+Rate}} (\mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\+\_\+t}} \texorpdfstring{$\ast$}{*}h\+UART)
+\begin{DoxyCompactList}\small\item\em Function to calculate the value for the USARTx\+\_\+\+BRR register for Baud Rate. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___functions_ga41ea9c5e18bd9c2a2df5107401c3881d}{UART\+\_\+\+Rx\+Cmplt\+Call\+Back}} (\mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\+\_\+t}} \texorpdfstring{$\ast$}{*}h\+UART)
+\begin{DoxyCompactList}\small\item\em Function to complete reception process after RXNE interrupt occurs. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___functions_ga0d5c68c25d3ca8282f7f33e037814b6e}{UART\+\_\+\+Rx\+Handler}} (void(\texorpdfstring{$\ast$}{*}Call\+Back)(\mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\+\_\+t}} \texorpdfstring{$\ast$}{*}), \mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\+\_\+t}} \texorpdfstring{$\ast$}{*}h\+UART)
+\begin{DoxyCompactList}\small\item\em Handler function to be called from the UARTx\+\_\+\+Handler functions. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{uart__sameboard_8c_a7139cd4baabbbcbab0c1fe6d7d4ae1cc}{USART1\+\_\+\+IRQHandler}} (void)
+\item 
+void \mbox{\hyperlink{uart__sameboard_8c_a0ca6fd0e6f77921dd1123539857ba0a8}{USART2\+\_\+\+IRQHandler}} (void)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\+\_\+t}} \mbox{\hyperlink{uart__sameboard_8c_abe5b38e0a88b9fcae37fca93df58b3ee}{h\+UART1}}
+\item 
+\mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\+\_\+t}} \mbox{\hyperlink{uart__sameboard_8c_a166e0d652fe6ab8c48ee1a734e02e7a2}{h\+UART2}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Source file for UART functions for the same board project. 
+
+\begin{DoxyAuthor}{Author}
+Soumyadeep Bose 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{uart__sameboard_8c_a7139cd4baabbbcbab0c1fe6d7d4ae1cc}\label{uart__sameboard_8c_a7139cd4baabbbcbab0c1fe6d7d4ae1cc} 
+\index{uart\_sameboard.c@{uart\_sameboard.c}!USART1\_IRQHandler@{USART1\_IRQHandler}}
+\index{USART1\_IRQHandler@{USART1\_IRQHandler}!uart\_sameboard.c@{uart\_sameboard.c}}
+\doxysubsubsection{\texorpdfstring{USART1\_IRQHandler()}{USART1\_IRQHandler()}}
+{\footnotesize\ttfamily void USART1\+\_\+\+IRQHandler (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\Hypertarget{uart__sameboard_8c_a0ca6fd0e6f77921dd1123539857ba0a8}\label{uart__sameboard_8c_a0ca6fd0e6f77921dd1123539857ba0a8} 
+\index{uart\_sameboard.c@{uart\_sameboard.c}!USART2\_IRQHandler@{USART2\_IRQHandler}}
+\index{USART2\_IRQHandler@{USART2\_IRQHandler}!uart\_sameboard.c@{uart\_sameboard.c}}
+\doxysubsubsection{\texorpdfstring{USART2\_IRQHandler()}{USART2\_IRQHandler()}}
+{\footnotesize\ttfamily void USART2\+\_\+\+IRQHandler (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Variable Documentation}
+\Hypertarget{uart__sameboard_8c_abe5b38e0a88b9fcae37fca93df58b3ee}\label{uart__sameboard_8c_abe5b38e0a88b9fcae37fca93df58b3ee} 
+\index{uart\_sameboard.c@{uart\_sameboard.c}!hUART1@{hUART1}}
+\index{hUART1@{hUART1}!uart\_sameboard.c@{uart\_sameboard.c}}
+\doxysubsubsection{\texorpdfstring{hUART1}{hUART1}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\+\_\+t}} h\+UART1\hspace{0.3cm}{\ttfamily [extern]}}
+
+\Hypertarget{uart__sameboard_8c_a166e0d652fe6ab8c48ee1a734e02e7a2}\label{uart__sameboard_8c_a166e0d652fe6ab8c48ee1a734e02e7a2} 
+\index{uart\_sameboard.c@{uart\_sameboard.c}!hUART2@{hUART2}}
+\index{hUART2@{hUART2}!uart\_sameboard.c@{uart\_sameboard.c}}
+\doxysubsubsection{\texorpdfstring{hUART2}{hUART2}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\+\_\+t}} h\+UART2\hspace{0.3cm}{\ttfamily [extern]}}
+

@@ -1,0 +1,6 @@
+../Src/uart.c:9:13:USART1_init	1
+../Src/uart.c:36:6:USART1_rx_interrupt_init	1
+../Src/uart.c:54:6:uart_set_baudrate	1
+../Src/uart.c:59:13:USART1_write	2
+../Src/uart.c:64:5:__io_putchar	1
+../Src/uart.c:69:13:delayMs	3

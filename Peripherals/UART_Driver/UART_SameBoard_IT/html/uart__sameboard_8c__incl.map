@@ -1,0 +1,14 @@
+<map id="Src/uart_sameboard.c" name="Src/uart_sameboard.c">
+<area shape="rect" id="Node000001" title="Source file for UART functions for the same board project." alt="" coords="14,5,163,32"/>
+<area shape="rect" id="Node000002" href="$uart__sameboard_8h.html" title="Header containing the handle for the UART module, interrupt callback function declarations." alt="" coords="25,80,151,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,33,91,64,86,64,86,33"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,229,70,256"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="86,108,49,216,44,214,81,106"/>
+<area shape="rect" id="Node000004" href="$stm32f429xx_8h.html" title="CMSIS STM32F429xx Device Peripheral Access Layer Header File." alt="" coords="83,155,189,181"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="99,106,122,140,117,143,94,109"/>
+<area shape="poly" id="edge6_Node000004_Node000003" title=" " alt="" coords="121,184,68,222,65,218,117,180"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="94,229,184,256"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="139,182,140,214,135,214,134,182"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="208,229,350,256"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="162,179,241,219,239,224,160,184"/>
+</map>

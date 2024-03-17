@@ -1,0 +1,117 @@
+\doxysection{uart\+\_\+sameboard.\+h}
+\hypertarget{uart__sameboard_8h_source}{}\label{uart__sameboard_8h_source}\index{Inc/uart\_sameboard.h@{Inc/uart\_sameboard.h}}
+\mbox{\hyperlink{uart__sameboard_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#ifndef\ UART\_SAMEBOARD\_H\_}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#define\ UART\_SAMEBOARD\_H\_}}
+\DoxyCodeLine{00009\ }
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#ifndef\ SystemClock}}
+\DoxyCodeLine{00015\ \textcolor{preprocessor}{\#define\ SystemClock\ \ \ \ \ (16000000U)}}
+\DoxyCodeLine{00016\ \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{00017\ }
+\DoxyCodeLine{00026\ \textcolor{preprocessor}{\#include\ <stdint.h>}}
+\DoxyCodeLine{00027\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{stm32f429xx_8h}{stm32f429xx.h}}"{}}}
+\DoxyCodeLine{00028\ }
+\DoxyCodeLine{00038\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{enum}\{}
+\DoxyCodeLine{00039\ \ \ \ \ \mbox{\hyperlink{group___classes_ggadb4d726f393238767b214f6aefab0f70a75a5e90abcb1e35306aca2a77ff01833}{AHB1}},}
+\DoxyCodeLine{00040\ \ \ \ \ \mbox{\hyperlink{group___classes_ggadb4d726f393238767b214f6aefab0f70a2516474d80019e460dae478bb4521009}{AHB2}},}
+\DoxyCodeLine{00041\ \ \ \ \ \mbox{\hyperlink{group___classes_ggadb4d726f393238767b214f6aefab0f70a4fa163ec908ece5908470b05f19a791c}{AHB3}},}
+\DoxyCodeLine{00042\ \ \ \ \ \mbox{\hyperlink{group___classes_ggadb4d726f393238767b214f6aefab0f70a0a7928dc21633f8cf78bf136bda6fe45}{APB1}},}
+\DoxyCodeLine{00043\ \ \ \ \ \mbox{\hyperlink{group___classes_ggadb4d726f393238767b214f6aefab0f70adfa21a626736aaaec7b1b077ebf3180b}{APB2}}}
+\DoxyCodeLine{00044\ \}\mbox{\hyperlink{group___classes_gadb4d726f393238767b214f6aefab0f70}{PeriphBus}};}
+\DoxyCodeLine{00045\ }
+\DoxyCodeLine{00046\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{enum}\{}
+\DoxyCodeLine{00047\ \ \ \ \ \mbox{\hyperlink{group___classes_gga2084699a4f6ec76f5bd2ffa9ae0bf042ae3201f6e0d0c1e138c60903276bb3859}{PORTA}},}
+\DoxyCodeLine{00048\ \ \ \ \ \mbox{\hyperlink{group___classes_gga2084699a4f6ec76f5bd2ffa9ae0bf042ae51dea4a37f3e2ede7ba6f27c563f6a4}{PORTB}},}
+\DoxyCodeLine{00049\ \ \ \ \ \mbox{\hyperlink{group___classes_gga2084699a4f6ec76f5bd2ffa9ae0bf042afcec7c36cc8137e94db854fdec9d2d50}{PORTC}},}
+\DoxyCodeLine{00050\ \ \ \ \ \mbox{\hyperlink{group___classes_gga2084699a4f6ec76f5bd2ffa9ae0bf042aa5a8b29c2aba917895d49297270bc877}{PORTD}},}
+\DoxyCodeLine{00051\ \ \ \ \ \mbox{\hyperlink{group___classes_gga2084699a4f6ec76f5bd2ffa9ae0bf042a5fecb6baf7de2a6d107ee433b4c08616}{PORTE}},}
+\DoxyCodeLine{00052\ \ \ \ \ \mbox{\hyperlink{group___classes_gga2084699a4f6ec76f5bd2ffa9ae0bf042ad0bc8b9ec107437a44fe380184add7c3}{PORTF}},}
+\DoxyCodeLine{00053\ \ \ \ \ \mbox{\hyperlink{group___classes_gga2084699a4f6ec76f5bd2ffa9ae0bf042acdf0eb3b90cca18a3172ae9309560879}{PORTG}}}
+\DoxyCodeLine{00054\ \}\mbox{\hyperlink{group___classes_ga2084699a4f6ec76f5bd2ffa9ae0bf042}{GPIO\_UART\_Port}};}
+\DoxyCodeLine{00055\ }
+\DoxyCodeLine{00056\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{enum}\{}
+\DoxyCodeLine{00057\ \ \ \ \ \mbox{\hyperlink{group___classes_ggae6e621352565b5c5c0f74d9df69e5bb9a1cf88edf80536f96358aa166c7690a0d}{OVR16}},}
+\DoxyCodeLine{00058\ \ \ \ \ \mbox{\hyperlink{group___classes_ggae6e621352565b5c5c0f74d9df69e5bb9a98565bbed5e92b00bddf220372ee0a40}{OVR8}}\ \ }
+\DoxyCodeLine{00059\ \}\mbox{\hyperlink{group___classes_gae6e621352565b5c5c0f74d9df69e5bb9}{Oversampling}};}
+\DoxyCodeLine{00060\ }
+\DoxyCodeLine{00061\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{enum}\{}
+\DoxyCodeLine{00062\ \ \ \ \ \mbox{\hyperlink{group___classes_gga899293ab3723a589be86dbd704724311ad89e33173450e98623e0e43685f29da6}{EIGHT\_BIT}},}
+\DoxyCodeLine{00063\ \ \ \ \ \mbox{\hyperlink{group___classes_gga899293ab3723a589be86dbd704724311aac2acd5a821b06683dda585a0283cc4e}{NINE\_BIT}}}
+\DoxyCodeLine{00064\ \}\mbox{\hyperlink{group___classes_ga899293ab3723a589be86dbd704724311}{Word\_Length}};}
+\DoxyCodeLine{00065\ }
+\DoxyCodeLine{00066\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{enum}\{}
+\DoxyCodeLine{00067\ \ \ \ \ \mbox{\hyperlink{group___classes_gga39db6982619d623273fad8a383489309aa1e095cc966dbecf6a0d8aad75348d1a}{FALSE}},}
+\DoxyCodeLine{00068\ \ \ \ \ \mbox{\hyperlink{group___classes_gga39db6982619d623273fad8a383489309aa82764c3079aea4e60c80e45befbb839}{TRUE}}}
+\DoxyCodeLine{00069\ \}\mbox{\hyperlink{group___classes_ga39db6982619d623273fad8a383489309}{Bool}};}
+\DoxyCodeLine{00070\ }
+\DoxyCodeLine{00071\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{enum}\ \mbox{\hyperlink{group___classes_ga76432121357072730f76c1bf26df93ec}{baud}}\{}
+\DoxyCodeLine{00072\ \ \ \ \ \mbox{\hyperlink{group___classes_gga76432121357072730f76c1bf26df93eca0e027fcd242101e1991370eebe58ce29}{BAUD\_1200}}\ \ =\ 1200U,}
+\DoxyCodeLine{00073\ \ \ \ \ \mbox{\hyperlink{group___classes_gga76432121357072730f76c1bf26df93ecae8a405d81b1b47c30df12135de7c1ca3}{BAUD\_2400}}\ \ =\ 2400U,}
+\DoxyCodeLine{00074\ \ \ \ \ \mbox{\hyperlink{group___classes_gga76432121357072730f76c1bf26df93eca65103a961b06b47cbcd54b42f477a665}{BAUD\_9600}}\ \ =\ 9600U,}
+\DoxyCodeLine{00075\ \ \ \ \ \mbox{\hyperlink{group___classes_gga76432121357072730f76c1bf26df93eca009b22a7d7900ef4338757c2b6757c47}{BAUD\_19200}}\ \ \ \ =\ 19200U,}
+\DoxyCodeLine{00076\ \ \ \ \ \mbox{\hyperlink{group___classes_gga76432121357072730f76c1bf26df93eca0ed140b6e8504cfaa95a349d9dca2f56}{BAUD\_38400}}\ \ \ \ =\ 38400U,}
+\DoxyCodeLine{00077\ \ \ \ \ \mbox{\hyperlink{group___classes_gga76432121357072730f76c1bf26df93eca40e0db13c9f3cc8d90e0d50beac0b3a2}{BAUD\_57600}}\ \ \ \ =\ 57600U,}
+\DoxyCodeLine{00078\ \ \ \ \ \mbox{\hyperlink{group___classes_gga76432121357072730f76c1bf26df93ecaeaebe809faf7dd2530167577aefa7f03}{BAUD\_115200}}\ \ =\ 115200U,}
+\DoxyCodeLine{00079\ \ \ \ \ \mbox{\hyperlink{group___classes_gga76432121357072730f76c1bf26df93ecaa620f50883740945acbbc181810fd8a6}{BAUD\_230400}}\ =\ 230400U,}
+\DoxyCodeLine{00080\ \ \ \ \ \mbox{\hyperlink{group___classes_gga76432121357072730f76c1bf26df93eca09b056539cf17cf460e02510ce97c4b9}{BAUD\_460800}}\ =\ 460800U,}
+\DoxyCodeLine{00081\ \ \ \ \ \mbox{\hyperlink{group___classes_gga76432121357072730f76c1bf26df93ecac9b176f09a957b54bbc9e115003de6f7}{BAUD\_921600}}\ \ =\ 921600U,}
+\DoxyCodeLine{00082\ \ \ \ \ \mbox{\hyperlink{group___classes_gga76432121357072730f76c1bf26df93eca6ff75083beffa84e70222c7f179c43dd}{BAUD\_2M}}\ \ \ \ \ \ =\ 2000000U,}
+\DoxyCodeLine{00083\ \ \ \ \ \mbox{\hyperlink{group___classes_gga76432121357072730f76c1bf26df93eca79d65ba443292f84600f54255c04b52e}{BAUD\_3M}}\ \ \ \ \ \ =\ 3000000U}
+\DoxyCodeLine{00084\ \}\mbox{\hyperlink{group___classes_ga65ac72e2f34d43ff6cb4c4db529bdeb1}{BaudRate\_t}};}
+\DoxyCodeLine{00085\ }
+\DoxyCodeLine{00086\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{enum}\{}
+\DoxyCodeLine{00087\ \ \ \ \ \mbox{\hyperlink{group___classes_ggac47b2bd906d2c843b97ecae6c1eea710ae19a2b096e346d54f83b83723a8af70d}{EVEN\_PARITY}},}
+\DoxyCodeLine{00088\ \ \ \ \ \mbox{\hyperlink{group___classes_ggac47b2bd906d2c843b97ecae6c1eea710afe2fed5b602e75007ad71639144b174b}{ODD\_PARITY}}}
+\DoxyCodeLine{00089\ \}\mbox{\hyperlink{group___classes_gac47b2bd906d2c843b97ecae6c1eea710}{Parity}};}
+\DoxyCodeLine{00090\ }
+\DoxyCodeLine{00091\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct}\{}
+\DoxyCodeLine{00092\ \ \ \ \ \mbox{\hyperlink{group___classes_gae6e621352565b5c5c0f74d9df69e5bb9}{Oversampling}}\ \ \mbox{\hyperlink{struct_u_a_r_t_handle__t_a2fdd0766ac146d770da45b0b4ebbe365}{oversampling}}\ \ \ \ \ \ \ :\ 1;}
+\DoxyCodeLine{00093\ \ \ \ \ uint8\_t\ \ \mbox{\hyperlink{struct_u_a_r_t_handle__t_a0fd7c01666833b925aae09cc3c3d0f1c}{enable}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ :\ 1;}
+\DoxyCodeLine{00094\ \ \ \ \ \mbox{\hyperlink{group___classes_ga899293ab3723a589be86dbd704724311}{Word\_Length}}\ \ \ \mbox{\hyperlink{struct_u_a_r_t_handle__t_ae3e6d6a30b1e1c4e4ab2cba349b3e2d6}{word\_length}}\ \ \ \ \ \ \ \ :\ 1;}
+\DoxyCodeLine{00095\ \ \ \ \ \mbox{\hyperlink{group___classes_ga39db6982619d623273fad8a383489309}{Bool}}\ \ \mbox{\hyperlink{struct_u_a_r_t_handle__t_ad917932b042bcfe45bdb4a9cf408c1c2}{parity\_enable}}\ \ \ \ \ \ :\ 1;}
+\DoxyCodeLine{00096\ \ \ \ \ \mbox{\hyperlink{group___classes_gac47b2bd906d2c843b97ecae6c1eea710}{Parity}}\ \ \mbox{\hyperlink{struct_u_a_r_t_handle__t_a54254c7b12b6b40b56d2e23a12b695ea}{parity\_setting}}\ \ \ \ \ :\ 1;}
+\DoxyCodeLine{00097\ \ \ \ \ \mbox{\hyperlink{group___classes_ga39db6982619d623273fad8a383489309}{Bool}}\ \ \ \ \ \mbox{\hyperlink{struct_u_a_r_t_handle__t_ad0a662b1454302d6e73ed34d868bff4c}{interrupt\_enable}}\ \ \ :\ 1;}
+\DoxyCodeLine{00098\ \ \ \ \ uint8\_t\ \ \mbox{\hyperlink{struct_u_a_r_t_handle__t_a78dadee77cb5796e759f34e9f45c6695}{interrupt\_number}};}
+\DoxyCodeLine{00099\ \ \ \ \ \mbox{\hyperlink{group___classes_ga39db6982619d623273fad8a383489309}{Bool}}\ \ \mbox{\hyperlink{struct_u_a_r_t_handle__t_a5b5cbc1a0bbaecd836d5c3d25df845f4}{receiver\_interrupt}}\ :\ 1;}
+\DoxyCodeLine{00100\ \ \ \ \ \mbox{\hyperlink{group___classes_ga39db6982619d623273fad8a383489309}{Bool}}\ \ \mbox{\hyperlink{struct_u_a_r_t_handle__t_a7f8a4743dd2950b07cc1fa41059595a8}{transmit\_interrupt}}\ :\ 1;}
+\DoxyCodeLine{00101\ \ \ \ \ \mbox{\hyperlink{group___classes_ga39db6982619d623273fad8a383489309}{Bool}}\ \ \ \ \ \mbox{\hyperlink{struct_u_a_r_t_handle__t_a387c5d1de2b9278d9610ee54398ffa29}{to\_transmit}}\ \ \ \ \ \ \ \ :\ 1;}
+\DoxyCodeLine{00102\ \ \ \ \ \mbox{\hyperlink{group___classes_ga39db6982619d623273fad8a383489309}{Bool}}\ \ \mbox{\hyperlink{struct_u_a_r_t_handle__t_a0f7aae4b9cb5f2fb3643c6b30ee659b2}{to\_receive}}\ \ \ \ \ \ \ \ \ \ :\ 1;}
+\DoxyCodeLine{00103\ \ \ \ \ \mbox{\hyperlink{group___classes_ga65ac72e2f34d43ff6cb4c4db529bdeb1}{BaudRate\_t}}\ \mbox{\hyperlink{struct_u_a_r_t_handle__t_a5d494876702c68f1ca2b403cc058964a}{baud\_rate}};}
+\DoxyCodeLine{00104\ \ \ \ \ uint8\_t\ *\ \mbox{\hyperlink{struct_u_a_r_t_handle__t_a883a9ee54a676fc695d505fdd0c6f917}{pTxBuffer}};}
+\DoxyCodeLine{00105\ \ \ \ \ uint8\_t\ *\ \mbox{\hyperlink{struct_u_a_r_t_handle__t_aa10e21db9cf9c5982729e8c13f5ccef6}{pRxBuffer}};}
+\DoxyCodeLine{00106\ \ \ \ \ uint32\_t\ \mbox{\hyperlink{struct_u_a_r_t_handle__t_a1e237ab9b6e172b0824df681a6f531a6}{TxLength}};}
+\DoxyCodeLine{00107\ \ \ \ \ uint32\_t\ \mbox{\hyperlink{struct_u_a_r_t_handle__t_a0a270e9b516452ff350ea40de18577d6}{TxIndex}};}
+\DoxyCodeLine{00108\ \ \ \ \ uint32\_t\ \mbox{\hyperlink{struct_u_a_r_t_handle__t_ad0245d65001afb99f216c66dd398e29c}{RxLength}};}
+\DoxyCodeLine{00109\ \ \ \ \ uint32\_t\ \mbox{\hyperlink{struct_u_a_r_t_handle__t_aa837c62b1c805c40e10e7f2f813e3943}{RxIndex}};}
+\DoxyCodeLine{00110\ \ \ \ \ \mbox{\hyperlink{struct_u_s_a_r_t___type_def}{USART\_TypeDef}}\ *\ \mbox{\hyperlink{struct_u_a_r_t_handle__t_a1fd01526629020eba4bf69fb75d28da1}{pUART}};}
+\DoxyCodeLine{00111\ \ \ \ \ \mbox{\hyperlink{struct_g_p_i_o___type_def}{GPIO\_TypeDef}}\ *\ \mbox{\hyperlink{struct_u_a_r_t_handle__t_ad4a8b63e4e376e2ff261f211a2fdf69a}{pGPIO}};}
+\DoxyCodeLine{00112\ \ \ \ \ \mbox{\hyperlink{struct_r_c_c___type_def}{RCC\_TypeDef}}\ *\ \mbox{\hyperlink{struct_u_a_r_t_handle__t_a5af791152556f34e03cc49ebe52dc88c}{pRCC}};}
+\DoxyCodeLine{00113\ \ \ \ \ \mbox{\hyperlink{group___classes_gadb4d726f393238767b214f6aefab0f70}{PeriphBus}}\ \ \mbox{\hyperlink{struct_u_a_r_t_handle__t_a71c2d73b85f3d58ace81fa5597ecc06d}{GPIO\_bus}};}
+\DoxyCodeLine{00114\ \ \ \ \ \mbox{\hyperlink{group___classes_ga2084699a4f6ec76f5bd2ffa9ae0bf042}{GPIO\_UART\_Port}}\ \mbox{\hyperlink{struct_u_a_r_t_handle__t_a4429bc7f8143822e0adfcd077aff26bc}{GPIO\_port}};}
+\DoxyCodeLine{00115\ \ \ \ \ \mbox{\hyperlink{group___classes_gadb4d726f393238767b214f6aefab0f70}{PeriphBus}}\ \ \mbox{\hyperlink{struct_u_a_r_t_handle__t_a6fa570d1ebecb122822a6f37c3386b8f}{UART\_bus}};}
+\DoxyCodeLine{00116\ \ \ \ \ uint8\_t\ \mbox{\hyperlink{struct_u_a_r_t_handle__t_a731bae3c3ce5b377fd41161ab94bdb51}{Clk\_pin}};}
+\DoxyCodeLine{00117\ \ \ \ \ uint8\_t\ \mbox{\hyperlink{struct_u_a_r_t_handle__t_a4a9da86d1a8ba55b09f6b7ce8ea7031c}{RX\_pin}};}
+\DoxyCodeLine{00118\ \ \ \ \ uint8\_t\ \mbox{\hyperlink{struct_u_a_r_t_handle__t_ab98858b2f16ef4c363a7de69e3896a48}{TX\_pin}};}
+\DoxyCodeLine{00119\ \}\mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\_t}};}
+\DoxyCodeLine{00120\ }
+\DoxyCodeLine{00133\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___functions_ga98eb9d797b42f1c043b76633cb2a0985}{UART\_GPIO\_ClockEnable}}(\mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\_t}}\ *\ hUART);}
+\DoxyCodeLine{00134\ }
+\DoxyCodeLine{00139\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___functions_ga81f4423fd3fd30a273801e235ad2e343}{UART\_GPIOConfig}}(\mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\_t}}\ *\ hUART);}
+\DoxyCodeLine{00140\ }
+\DoxyCodeLine{00146\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___functions_ga8c79ff940833a6107dcbfe347ee1487f}{UART\_Periph\_ClockEnable}}(\mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\_t}}\ *\ hUART);}
+\DoxyCodeLine{00147\ }
+\DoxyCodeLine{00152\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___functions_ga42b647371ed3fdbf48b90614d511a67f}{UART\_Init}}(\mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\_t}}\ *\ hUART);}
+\DoxyCodeLine{00153\ }
+\DoxyCodeLine{00158\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___functions_ga6049a18f6a9f415e1a8334e252aaddf6}{UART\_DeInit}}(\mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\_t}}\ *\ hUART);}
+\DoxyCodeLine{00159\ }
+\DoxyCodeLine{00166\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___functions_gad37a03989b26f227de2fe328477eca22}{UART\_SendData}}(\mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\_t}}\ *\ hUART,\ uint8\_t\ *\ pTX,\ uint32\_t\ length);}
+\DoxyCodeLine{00173\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___functions_ga6c10283b8d9157aab8c9cb08d90403cc}{UART\_ReceiveData}}(\mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\_t}}\ *\ hUART,\ uint8\_t\ *\ pRX,\ uint32\_t\ index);}
+\DoxyCodeLine{00179\ uint16\_t\ \mbox{\hyperlink{group___functions_ga41d103bab55cc9a05006f3a3c80d9a62}{UART\_BaudRate}}(\mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\_t}}\ *\ hUART);}
+\DoxyCodeLine{00184\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___functions_ga41ea9c5e18bd9c2a2df5107401c3881d}{UART\_RxCmpltCallBack}}(\mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\_t}}\ *\ hUART);}
+\DoxyCodeLine{00189\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{group___functions_ga0d5c68c25d3ca8282f7f33e037814b6e}{UART\_RxHandler}}(\textcolor{keywordtype}{void}\ (*CallBack)(\mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\_t}}\ *),\ \mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\_t}}\ *\ hUART);}
+\DoxyCodeLine{00190\ }
+\DoxyCodeLine{00195\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ UART\_SAMEBOARD\_H\_\ */}\textcolor{preprocessor}{}}
+
+\end{DoxyCode}

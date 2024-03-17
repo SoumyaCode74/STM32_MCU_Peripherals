@@ -1,0 +1,8 @@
+D:/Users/soumy/GitHub/STM32_MCU_Peripherals/Peripherals/SPI_Test/SPI_FullDuplex_ComPolling/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:2179:19:HAL_RCCEx_PeriphCLKConfig	29
+D:/Users/soumy/GitHub/STM32_MCU_Peripherals/Peripherals/SPI_Test/SPI_FullDuplex_ComPolling/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:2414:6:HAL_RCCEx_GetPeriphCLKConfig	2
+D:/Users/soumy/GitHub/STM32_MCU_Peripherals/Peripherals/SPI_Test/SPI_FullDuplex_ComPolling/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:2455:10:HAL_RCCEx_GetPeriphCLKFreq	5
+D:/Users/soumy/GitHub/STM32_MCU_Peripherals/Peripherals/SPI_Test/SPI_FullDuplex_ComPolling/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:2827:19:HAL_RCCEx_EnablePLLI2S	5
+D:/Users/soumy/GitHub/STM32_MCU_Peripherals/Peripherals/SPI_Test/SPI_FullDuplex_ComPolling/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:2910:19:HAL_RCCEx_DisablePLLI2S	3
+D:/Users/soumy/GitHub/STM32_MCU_Peripherals/Peripherals/SPI_Test/SPI_FullDuplex_ComPolling/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:2940:19:HAL_RCCEx_EnablePLLSAI	5
+D:/Users/soumy/GitHub/STM32_MCU_Peripherals/Peripherals/SPI_Test/SPI_FullDuplex_ComPolling/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:3014:19:HAL_RCCEx_DisablePLLSAI	3
+D:/Users/soumy/GitHub/STM32_MCU_Peripherals/Peripherals/SPI_Test/SPI_FullDuplex_ComPolling/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:3167:19:HAL_RCC_DeInit	14

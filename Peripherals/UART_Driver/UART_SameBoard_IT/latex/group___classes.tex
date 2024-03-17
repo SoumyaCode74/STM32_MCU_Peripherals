@@ -1,0 +1,267 @@
+\doxysection{Classes}
+\hypertarget{group___classes}{}\label{group___classes}\index{Classes@{Classes}}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\+\_\+t}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef enum \mbox{\hyperlink{group___classes_ga76432121357072730f76c1bf26df93ec}{baud}} \mbox{\hyperlink{group___classes_ga65ac72e2f34d43ff6cb4c4db529bdeb1}{Baud\+Rate\+\_\+t}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{group___classes_gadb4d726f393238767b214f6aefab0f70}{Periph\+Bus}} \{ \newline
+\mbox{\hyperlink{group___classes_ggadb4d726f393238767b214f6aefab0f70a75a5e90abcb1e35306aca2a77ff01833}{AHB1}}
+, \mbox{\hyperlink{group___classes_ggadb4d726f393238767b214f6aefab0f70a2516474d80019e460dae478bb4521009}{AHB2}}
+, \mbox{\hyperlink{group___classes_ggadb4d726f393238767b214f6aefab0f70a4fa163ec908ece5908470b05f19a791c}{AHB3}}
+, \mbox{\hyperlink{group___classes_ggadb4d726f393238767b214f6aefab0f70a0a7928dc21633f8cf78bf136bda6fe45}{APB1}}
+, \newline
+\mbox{\hyperlink{group___classes_ggadb4d726f393238767b214f6aefab0f70adfa21a626736aaaec7b1b077ebf3180b}{APB2}}
+ \}
+\item 
+enum \mbox{\hyperlink{group___classes_ga2084699a4f6ec76f5bd2ffa9ae0bf042}{GPIO\+\_\+\+UART\+\_\+\+Port}} \{ \newline
+\mbox{\hyperlink{group___classes_gga2084699a4f6ec76f5bd2ffa9ae0bf042ae3201f6e0d0c1e138c60903276bb3859}{PORTA}}
+, \mbox{\hyperlink{group___classes_gga2084699a4f6ec76f5bd2ffa9ae0bf042ae51dea4a37f3e2ede7ba6f27c563f6a4}{PORTB}}
+, \mbox{\hyperlink{group___classes_gga2084699a4f6ec76f5bd2ffa9ae0bf042afcec7c36cc8137e94db854fdec9d2d50}{PORTC}}
+, \mbox{\hyperlink{group___classes_gga2084699a4f6ec76f5bd2ffa9ae0bf042aa5a8b29c2aba917895d49297270bc877}{PORTD}}
+, \newline
+\mbox{\hyperlink{group___classes_gga2084699a4f6ec76f5bd2ffa9ae0bf042a5fecb6baf7de2a6d107ee433b4c08616}{PORTE}}
+, \mbox{\hyperlink{group___classes_gga2084699a4f6ec76f5bd2ffa9ae0bf042ad0bc8b9ec107437a44fe380184add7c3}{PORTF}}
+, \mbox{\hyperlink{group___classes_gga2084699a4f6ec76f5bd2ffa9ae0bf042acdf0eb3b90cca18a3172ae9309560879}{PORTG}}
+ \}
+\item 
+enum \mbox{\hyperlink{group___classes_gae6e621352565b5c5c0f74d9df69e5bb9}{Oversampling}} \{ \mbox{\hyperlink{group___classes_ggae6e621352565b5c5c0f74d9df69e5bb9a1cf88edf80536f96358aa166c7690a0d}{OVR16}}
+, \mbox{\hyperlink{group___classes_ggae6e621352565b5c5c0f74d9df69e5bb9a98565bbed5e92b00bddf220372ee0a40}{OVR8}}
+ \}
+\item 
+enum \mbox{\hyperlink{group___classes_ga899293ab3723a589be86dbd704724311}{Word\+\_\+\+Length}} \{ \mbox{\hyperlink{group___classes_gga899293ab3723a589be86dbd704724311ad89e33173450e98623e0e43685f29da6}{EIGHT\+\_\+\+BIT}}
+, \mbox{\hyperlink{group___classes_gga899293ab3723a589be86dbd704724311aac2acd5a821b06683dda585a0283cc4e}{NINE\+\_\+\+BIT}}
+ \}
+\item 
+enum \mbox{\hyperlink{group___classes_ga39db6982619d623273fad8a383489309}{Bool}} \{ \mbox{\hyperlink{group___classes_gga39db6982619d623273fad8a383489309aa1e095cc966dbecf6a0d8aad75348d1a}{FALSE}}
+, \mbox{\hyperlink{group___classes_gga39db6982619d623273fad8a383489309aa82764c3079aea4e60c80e45befbb839}{TRUE}}
+ \}
+\item 
+enum \mbox{\hyperlink{group___classes_ga76432121357072730f76c1bf26df93ec}{baud}} \{ \newline
+\mbox{\hyperlink{group___classes_gga76432121357072730f76c1bf26df93eca0e027fcd242101e1991370eebe58ce29}{BAUD\+\_\+1200}} = 1200U
+, \mbox{\hyperlink{group___classes_gga76432121357072730f76c1bf26df93ecae8a405d81b1b47c30df12135de7c1ca3}{BAUD\+\_\+2400}} = 2400U
+, \mbox{\hyperlink{group___classes_gga76432121357072730f76c1bf26df93eca65103a961b06b47cbcd54b42f477a665}{BAUD\+\_\+9600}} = 9600U
+, \mbox{\hyperlink{group___classes_gga76432121357072730f76c1bf26df93eca009b22a7d7900ef4338757c2b6757c47}{BAUD\+\_\+19200}} = 19200U
+, \newline
+\mbox{\hyperlink{group___classes_gga76432121357072730f76c1bf26df93eca0ed140b6e8504cfaa95a349d9dca2f56}{BAUD\+\_\+38400}} = 38400U
+, \mbox{\hyperlink{group___classes_gga76432121357072730f76c1bf26df93eca40e0db13c9f3cc8d90e0d50beac0b3a2}{BAUD\+\_\+57600}} = 57600U
+, \mbox{\hyperlink{group___classes_gga76432121357072730f76c1bf26df93ecaeaebe809faf7dd2530167577aefa7f03}{BAUD\+\_\+115200}} = 115200U
+, \mbox{\hyperlink{group___classes_gga76432121357072730f76c1bf26df93ecaa620f50883740945acbbc181810fd8a6}{BAUD\+\_\+230400}} = 230400U
+, \newline
+\mbox{\hyperlink{group___classes_gga76432121357072730f76c1bf26df93eca09b056539cf17cf460e02510ce97c4b9}{BAUD\+\_\+460800}} = 460800U
+, \mbox{\hyperlink{group___classes_gga76432121357072730f76c1bf26df93ecac9b176f09a957b54bbc9e115003de6f7}{BAUD\+\_\+921600}} = 921600U
+, \mbox{\hyperlink{group___classes_gga76432121357072730f76c1bf26df93eca6ff75083beffa84e70222c7f179c43dd}{BAUD\+\_\+2M}} = 2000000U
+, \mbox{\hyperlink{group___classes_gga76432121357072730f76c1bf26df93eca79d65ba443292f84600f54255c04b52e}{BAUD\+\_\+3M}} = 3000000U
+ \}
+\item 
+enum \mbox{\hyperlink{group___classes_gac47b2bd906d2c843b97ecae6c1eea710}{Parity}} \{ \mbox{\hyperlink{group___classes_ggac47b2bd906d2c843b97ecae6c1eea710ae19a2b096e346d54f83b83723a8af70d}{EVEN\+\_\+\+PARITY}}
+, \mbox{\hyperlink{group___classes_ggac47b2bd906d2c843b97ecae6c1eea710afe2fed5b602e75007ad71639144b174b}{ODD\+\_\+\+PARITY}}
+ \}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+\doxysubsection{Typedef Documentation}
+\Hypertarget{group___classes_ga65ac72e2f34d43ff6cb4c4db529bdeb1}\label{group___classes_ga65ac72e2f34d43ff6cb4c4db529bdeb1} 
+\index{Classes@{Classes}!BaudRate\_t@{BaudRate\_t}}
+\index{BaudRate\_t@{BaudRate\_t}!Classes@{Classes}}
+\doxysubsubsection{\texorpdfstring{BaudRate\_t}{BaudRate\_t}}
+{\footnotesize\ttfamily typedef enum \mbox{\hyperlink{group___classes_ga76432121357072730f76c1bf26df93ec}{baud}} \mbox{\hyperlink{group___classes_ga65ac72e2f34d43ff6cb4c4db529bdeb1}{Baud\+Rate\+\_\+t}}}
+
+
+
+\doxysubsection{Enumeration Type Documentation}
+\Hypertarget{group___classes_ga76432121357072730f76c1bf26df93ec}\label{group___classes_ga76432121357072730f76c1bf26df93ec} 
+\index{Classes@{Classes}!baud@{baud}}
+\index{baud@{baud}!Classes@{Classes}}
+\doxysubsubsection{\texorpdfstring{baud}{baud}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{group___classes_ga76432121357072730f76c1bf26df93ec}{baud}}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{BAUD\_1200@{BAUD\_1200}!Classes@{Classes}}\index{Classes@{Classes}!BAUD\_1200@{BAUD\_1200}}}\Hypertarget{group___classes_gga76432121357072730f76c1bf26df93eca0e027fcd242101e1991370eebe58ce29}\label{group___classes_gga76432121357072730f76c1bf26df93eca0e027fcd242101e1991370eebe58ce29} 
+BAUD\+\_\+1200&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{BAUD\_2400@{BAUD\_2400}!Classes@{Classes}}\index{Classes@{Classes}!BAUD\_2400@{BAUD\_2400}}}\Hypertarget{group___classes_gga76432121357072730f76c1bf26df93ecae8a405d81b1b47c30df12135de7c1ca3}\label{group___classes_gga76432121357072730f76c1bf26df93ecae8a405d81b1b47c30df12135de7c1ca3} 
+BAUD\+\_\+2400&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{BAUD\_9600@{BAUD\_9600}!Classes@{Classes}}\index{Classes@{Classes}!BAUD\_9600@{BAUD\_9600}}}\Hypertarget{group___classes_gga76432121357072730f76c1bf26df93eca65103a961b06b47cbcd54b42f477a665}\label{group___classes_gga76432121357072730f76c1bf26df93eca65103a961b06b47cbcd54b42f477a665} 
+BAUD\+\_\+9600&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{BAUD\_19200@{BAUD\_19200}!Classes@{Classes}}\index{Classes@{Classes}!BAUD\_19200@{BAUD\_19200}}}\Hypertarget{group___classes_gga76432121357072730f76c1bf26df93eca009b22a7d7900ef4338757c2b6757c47}\label{group___classes_gga76432121357072730f76c1bf26df93eca009b22a7d7900ef4338757c2b6757c47} 
+BAUD\+\_\+19200&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{BAUD\_38400@{BAUD\_38400}!Classes@{Classes}}\index{Classes@{Classes}!BAUD\_38400@{BAUD\_38400}}}\Hypertarget{group___classes_gga76432121357072730f76c1bf26df93eca0ed140b6e8504cfaa95a349d9dca2f56}\label{group___classes_gga76432121357072730f76c1bf26df93eca0ed140b6e8504cfaa95a349d9dca2f56} 
+BAUD\+\_\+38400&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{BAUD\_57600@{BAUD\_57600}!Classes@{Classes}}\index{Classes@{Classes}!BAUD\_57600@{BAUD\_57600}}}\Hypertarget{group___classes_gga76432121357072730f76c1bf26df93eca40e0db13c9f3cc8d90e0d50beac0b3a2}\label{group___classes_gga76432121357072730f76c1bf26df93eca40e0db13c9f3cc8d90e0d50beac0b3a2} 
+BAUD\+\_\+57600&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{BAUD\_115200@{BAUD\_115200}!Classes@{Classes}}\index{Classes@{Classes}!BAUD\_115200@{BAUD\_115200}}}\Hypertarget{group___classes_gga76432121357072730f76c1bf26df93ecaeaebe809faf7dd2530167577aefa7f03}\label{group___classes_gga76432121357072730f76c1bf26df93ecaeaebe809faf7dd2530167577aefa7f03} 
+BAUD\+\_\+115200&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{BAUD\_230400@{BAUD\_230400}!Classes@{Classes}}\index{Classes@{Classes}!BAUD\_230400@{BAUD\_230400}}}\Hypertarget{group___classes_gga76432121357072730f76c1bf26df93ecaa620f50883740945acbbc181810fd8a6}\label{group___classes_gga76432121357072730f76c1bf26df93ecaa620f50883740945acbbc181810fd8a6} 
+BAUD\+\_\+230400&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{BAUD\_460800@{BAUD\_460800}!Classes@{Classes}}\index{Classes@{Classes}!BAUD\_460800@{BAUD\_460800}}}\Hypertarget{group___classes_gga76432121357072730f76c1bf26df93eca09b056539cf17cf460e02510ce97c4b9}\label{group___classes_gga76432121357072730f76c1bf26df93eca09b056539cf17cf460e02510ce97c4b9} 
+BAUD\+\_\+460800&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{BAUD\_921600@{BAUD\_921600}!Classes@{Classes}}\index{Classes@{Classes}!BAUD\_921600@{BAUD\_921600}}}\Hypertarget{group___classes_gga76432121357072730f76c1bf26df93ecac9b176f09a957b54bbc9e115003de6f7}\label{group___classes_gga76432121357072730f76c1bf26df93ecac9b176f09a957b54bbc9e115003de6f7} 
+BAUD\+\_\+921600&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{BAUD\_2M@{BAUD\_2M}!Classes@{Classes}}\index{Classes@{Classes}!BAUD\_2M@{BAUD\_2M}}}\Hypertarget{group___classes_gga76432121357072730f76c1bf26df93eca6ff75083beffa84e70222c7f179c43dd}\label{group___classes_gga76432121357072730f76c1bf26df93eca6ff75083beffa84e70222c7f179c43dd} 
+BAUD\+\_\+2M&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{BAUD\_3M@{BAUD\_3M}!Classes@{Classes}}\index{Classes@{Classes}!BAUD\_3M@{BAUD\_3M}}}\Hypertarget{group___classes_gga76432121357072730f76c1bf26df93eca79d65ba443292f84600f54255c04b52e}\label{group___classes_gga76432121357072730f76c1bf26df93eca79d65ba443292f84600f54255c04b52e} 
+BAUD\+\_\+3M&\\
+\hline
+
+\end{DoxyEnumFields}
+\Hypertarget{group___classes_ga39db6982619d623273fad8a383489309}\label{group___classes_ga39db6982619d623273fad8a383489309} 
+\index{Classes@{Classes}!Bool@{Bool}}
+\index{Bool@{Bool}!Classes@{Classes}}
+\doxysubsubsection{\texorpdfstring{Bool}{Bool}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{group___classes_ga39db6982619d623273fad8a383489309}{Bool}}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{FALSE@{FALSE}!Classes@{Classes}}\index{Classes@{Classes}!FALSE@{FALSE}}}\Hypertarget{group___classes_gga39db6982619d623273fad8a383489309aa1e095cc966dbecf6a0d8aad75348d1a}\label{group___classes_gga39db6982619d623273fad8a383489309aa1e095cc966dbecf6a0d8aad75348d1a} 
+FALSE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{TRUE@{TRUE}!Classes@{Classes}}\index{Classes@{Classes}!TRUE@{TRUE}}}\Hypertarget{group___classes_gga39db6982619d623273fad8a383489309aa82764c3079aea4e60c80e45befbb839}\label{group___classes_gga39db6982619d623273fad8a383489309aa82764c3079aea4e60c80e45befbb839} 
+TRUE&\\
+\hline
+
+\end{DoxyEnumFields}
+\Hypertarget{group___classes_ga2084699a4f6ec76f5bd2ffa9ae0bf042}\label{group___classes_ga2084699a4f6ec76f5bd2ffa9ae0bf042} 
+\index{Classes@{Classes}!GPIO\_UART\_Port@{GPIO\_UART\_Port}}
+\index{GPIO\_UART\_Port@{GPIO\_UART\_Port}!Classes@{Classes}}
+\doxysubsubsection{\texorpdfstring{GPIO\_UART\_Port}{GPIO\_UART\_Port}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{group___classes_ga2084699a4f6ec76f5bd2ffa9ae0bf042}{GPIO\+\_\+\+UART\+\_\+\+Port}}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{PORTA@{PORTA}!Classes@{Classes}}\index{Classes@{Classes}!PORTA@{PORTA}}}\Hypertarget{group___classes_gga2084699a4f6ec76f5bd2ffa9ae0bf042ae3201f6e0d0c1e138c60903276bb3859}\label{group___classes_gga2084699a4f6ec76f5bd2ffa9ae0bf042ae3201f6e0d0c1e138c60903276bb3859} 
+PORTA&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{PORTB@{PORTB}!Classes@{Classes}}\index{Classes@{Classes}!PORTB@{PORTB}}}\Hypertarget{group___classes_gga2084699a4f6ec76f5bd2ffa9ae0bf042ae51dea4a37f3e2ede7ba6f27c563f6a4}\label{group___classes_gga2084699a4f6ec76f5bd2ffa9ae0bf042ae51dea4a37f3e2ede7ba6f27c563f6a4} 
+PORTB&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{PORTC@{PORTC}!Classes@{Classes}}\index{Classes@{Classes}!PORTC@{PORTC}}}\Hypertarget{group___classes_gga2084699a4f6ec76f5bd2ffa9ae0bf042afcec7c36cc8137e94db854fdec9d2d50}\label{group___classes_gga2084699a4f6ec76f5bd2ffa9ae0bf042afcec7c36cc8137e94db854fdec9d2d50} 
+PORTC&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{PORTD@{PORTD}!Classes@{Classes}}\index{Classes@{Classes}!PORTD@{PORTD}}}\Hypertarget{group___classes_gga2084699a4f6ec76f5bd2ffa9ae0bf042aa5a8b29c2aba917895d49297270bc877}\label{group___classes_gga2084699a4f6ec76f5bd2ffa9ae0bf042aa5a8b29c2aba917895d49297270bc877} 
+PORTD&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{PORTE@{PORTE}!Classes@{Classes}}\index{Classes@{Classes}!PORTE@{PORTE}}}\Hypertarget{group___classes_gga2084699a4f6ec76f5bd2ffa9ae0bf042a5fecb6baf7de2a6d107ee433b4c08616}\label{group___classes_gga2084699a4f6ec76f5bd2ffa9ae0bf042a5fecb6baf7de2a6d107ee433b4c08616} 
+PORTE&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{PORTF@{PORTF}!Classes@{Classes}}\index{Classes@{Classes}!PORTF@{PORTF}}}\Hypertarget{group___classes_gga2084699a4f6ec76f5bd2ffa9ae0bf042ad0bc8b9ec107437a44fe380184add7c3}\label{group___classes_gga2084699a4f6ec76f5bd2ffa9ae0bf042ad0bc8b9ec107437a44fe380184add7c3} 
+PORTF&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{PORTG@{PORTG}!Classes@{Classes}}\index{Classes@{Classes}!PORTG@{PORTG}}}\Hypertarget{group___classes_gga2084699a4f6ec76f5bd2ffa9ae0bf042acdf0eb3b90cca18a3172ae9309560879}\label{group___classes_gga2084699a4f6ec76f5bd2ffa9ae0bf042acdf0eb3b90cca18a3172ae9309560879} 
+PORTG&\\
+\hline
+
+\end{DoxyEnumFields}
+\Hypertarget{group___classes_gae6e621352565b5c5c0f74d9df69e5bb9}\label{group___classes_gae6e621352565b5c5c0f74d9df69e5bb9} 
+\index{Classes@{Classes}!Oversampling@{Oversampling}}
+\index{Oversampling@{Oversampling}!Classes@{Classes}}
+\doxysubsubsection{\texorpdfstring{Oversampling}{Oversampling}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{group___classes_gae6e621352565b5c5c0f74d9df69e5bb9}{Oversampling}}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{OVR16@{OVR16}!Classes@{Classes}}\index{Classes@{Classes}!OVR16@{OVR16}}}\Hypertarget{group___classes_ggae6e621352565b5c5c0f74d9df69e5bb9a1cf88edf80536f96358aa166c7690a0d}\label{group___classes_ggae6e621352565b5c5c0f74d9df69e5bb9a1cf88edf80536f96358aa166c7690a0d} 
+OVR16&OVR16 \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{OVR8@{OVR8}!Classes@{Classes}}\index{Classes@{Classes}!OVR8@{OVR8}}}\Hypertarget{group___classes_ggae6e621352565b5c5c0f74d9df69e5bb9a98565bbed5e92b00bddf220372ee0a40}\label{group___classes_ggae6e621352565b5c5c0f74d9df69e5bb9a98565bbed5e92b00bddf220372ee0a40} 
+OVR8&OVR8 \\
+\hline
+
+\end{DoxyEnumFields}
+\Hypertarget{group___classes_gac47b2bd906d2c843b97ecae6c1eea710}\label{group___classes_gac47b2bd906d2c843b97ecae6c1eea710} 
+\index{Classes@{Classes}!Parity@{Parity}}
+\index{Parity@{Parity}!Classes@{Classes}}
+\doxysubsubsection{\texorpdfstring{Parity}{Parity}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{group___classes_gac47b2bd906d2c843b97ecae6c1eea710}{Parity}}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{EVEN\_PARITY@{EVEN\_PARITY}!Classes@{Classes}}\index{Classes@{Classes}!EVEN\_PARITY@{EVEN\_PARITY}}}\Hypertarget{group___classes_ggac47b2bd906d2c843b97ecae6c1eea710ae19a2b096e346d54f83b83723a8af70d}\label{group___classes_ggac47b2bd906d2c843b97ecae6c1eea710ae19a2b096e346d54f83b83723a8af70d} 
+EVEN\+\_\+\+PARITY&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{ODD\_PARITY@{ODD\_PARITY}!Classes@{Classes}}\index{Classes@{Classes}!ODD\_PARITY@{ODD\_PARITY}}}\Hypertarget{group___classes_ggac47b2bd906d2c843b97ecae6c1eea710afe2fed5b602e75007ad71639144b174b}\label{group___classes_ggac47b2bd906d2c843b97ecae6c1eea710afe2fed5b602e75007ad71639144b174b} 
+ODD\+\_\+\+PARITY&\\
+\hline
+
+\end{DoxyEnumFields}
+\Hypertarget{group___classes_gadb4d726f393238767b214f6aefab0f70}\label{group___classes_gadb4d726f393238767b214f6aefab0f70} 
+\index{Classes@{Classes}!PeriphBus@{PeriphBus}}
+\index{PeriphBus@{PeriphBus}!Classes@{Classes}}
+\doxysubsubsection{\texorpdfstring{PeriphBus}{PeriphBus}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{group___classes_gadb4d726f393238767b214f6aefab0f70}{Periph\+Bus}}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{AHB1@{AHB1}!Classes@{Classes}}\index{Classes@{Classes}!AHB1@{AHB1}}}\Hypertarget{group___classes_ggadb4d726f393238767b214f6aefab0f70a75a5e90abcb1e35306aca2a77ff01833}\label{group___classes_ggadb4d726f393238767b214f6aefab0f70a75a5e90abcb1e35306aca2a77ff01833} 
+AHB1&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{AHB2@{AHB2}!Classes@{Classes}}\index{Classes@{Classes}!AHB2@{AHB2}}}\Hypertarget{group___classes_ggadb4d726f393238767b214f6aefab0f70a2516474d80019e460dae478bb4521009}\label{group___classes_ggadb4d726f393238767b214f6aefab0f70a2516474d80019e460dae478bb4521009} 
+AHB2&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{AHB3@{AHB3}!Classes@{Classes}}\index{Classes@{Classes}!AHB3@{AHB3}}}\Hypertarget{group___classes_ggadb4d726f393238767b214f6aefab0f70a4fa163ec908ece5908470b05f19a791c}\label{group___classes_ggadb4d726f393238767b214f6aefab0f70a4fa163ec908ece5908470b05f19a791c} 
+AHB3&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{APB1@{APB1}!Classes@{Classes}}\index{Classes@{Classes}!APB1@{APB1}}}\Hypertarget{group___classes_ggadb4d726f393238767b214f6aefab0f70a0a7928dc21633f8cf78bf136bda6fe45}\label{group___classes_ggadb4d726f393238767b214f6aefab0f70a0a7928dc21633f8cf78bf136bda6fe45} 
+APB1&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{APB2@{APB2}!Classes@{Classes}}\index{Classes@{Classes}!APB2@{APB2}}}\Hypertarget{group___classes_ggadb4d726f393238767b214f6aefab0f70adfa21a626736aaaec7b1b077ebf3180b}\label{group___classes_ggadb4d726f393238767b214f6aefab0f70adfa21a626736aaaec7b1b077ebf3180b} 
+APB2&\\
+\hline
+
+\end{DoxyEnumFields}
+\Hypertarget{group___classes_ga899293ab3723a589be86dbd704724311}\label{group___classes_ga899293ab3723a589be86dbd704724311} 
+\index{Classes@{Classes}!Word\_Length@{Word\_Length}}
+\index{Word\_Length@{Word\_Length}!Classes@{Classes}}
+\doxysubsubsection{\texorpdfstring{Word\_Length}{Word\_Length}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{group___classes_ga899293ab3723a589be86dbd704724311}{Word\+\_\+\+Length}}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{EIGHT\_BIT@{EIGHT\_BIT}!Classes@{Classes}}\index{Classes@{Classes}!EIGHT\_BIT@{EIGHT\_BIT}}}\Hypertarget{group___classes_gga899293ab3723a589be86dbd704724311ad89e33173450e98623e0e43685f29da6}\label{group___classes_gga899293ab3723a589be86dbd704724311ad89e33173450e98623e0e43685f29da6} 
+EIGHT\+\_\+\+BIT&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{NINE\_BIT@{NINE\_BIT}!Classes@{Classes}}\index{Classes@{Classes}!NINE\_BIT@{NINE\_BIT}}}\Hypertarget{group___classes_gga899293ab3723a589be86dbd704724311aac2acd5a821b06683dda585a0283cc4e}\label{group___classes_gga899293ab3723a589be86dbd704724311aac2acd5a821b06683dda585a0283cc4e} 
+NINE\+\_\+\+BIT&\\
+\hline
+
+\end{DoxyEnumFields}

@@ -1,0 +1,9 @@
+<map id="UARTHandle_t" name="UARTHandle_t">
+<area shape="rect" id="Node000001" title=" " alt="" coords="126,352,250,635"/>
+<area shape="rect" id="Node000002" href="$struct_u_s_a_r_t___type_def.html" title="Universal Synchronous Asynchronous Receiver Transmitter." alt="" coords="5,48,115,245"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,244,132,335,127,337,94,246"/>
+<area shape="rect" id="Node000003" href="$struct_g_p_i_o___type_def.html" title="General Purpose I/O." alt="" coords="139,27,237,267"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="191,266,191,335,185,335,185,266"/>
+<area shape="rect" id="Node000004" href="$struct_r_c_c___type_def.html" title="Reset and Clock Control." alt="" coords="262,5,370,288"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="266,289,248,337,243,335,261,287"/>
+</map>

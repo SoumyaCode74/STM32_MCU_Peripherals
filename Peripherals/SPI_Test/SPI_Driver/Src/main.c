@@ -89,12 +89,15 @@ int main(void)
 	for(;;){
 		/*!********Begin transmission**************/
 		GPIOA->ODR &= ~(0x1 << 7);		///<- Clear the CS pin to the slave
-		SPI1->DR = ++i;					///<- Put the value to send out in the DR
+		SPI1->DR = ++sent_data;					///<- Put the value to send out in the DR
 		while(SPI1->SR & (0x1 << 7));	///<- Wait until SPI1 module is busy
+		if(SPI4->SR & 0x1){
+			recv_data = SPI4->DR;
+		}
 		/*!********End transmission***************/
 		/*!********Begin reception**************/
-		while(!(SPI1->SR & 0x1));		///<- Wait until the SPI1 module's RX buffer is empty
-		recv_data = SPI1->DR;			///<- Read from DR to read the received data
+//		while(!(SPI1->SR & 0x1));		///<- Wait until the SPI1 module's RX buffer is empty
+//		recv_data = SPI1->DR;			///<- Read from DR to read the received data
 		GPIOA->ODR |= (0x1 << 7);		///<- Disable the CS pin to deactivate the slave
 		/*!********End reception***************/
 	}

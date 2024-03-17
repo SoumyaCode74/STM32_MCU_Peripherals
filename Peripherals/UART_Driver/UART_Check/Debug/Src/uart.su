@@ -1,0 +1,6 @@
+../Src/uart.c:9:13:USART1_init	16	static
+../Src/uart.c:36:6:USART1_rx_interrupt_init	16	static,ignoring_inline_asm
+../Src/uart.c:54:6:uart_set_baudrate	24	static
+../Src/uart.c:59:13:USART1_write	16	static
+../Src/uart.c:64:5:__io_putchar	16	static
+../Src/uart.c:69:13:delayMs	24	static

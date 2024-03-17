@@ -1,0 +1,232 @@
+\doxysection{Functions}
+\hypertarget{group___functions}{}\label{group___functions}\index{Functions@{Functions}}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{group___functions_ga98eb9d797b42f1c043b76633cb2a0985}{UART\+\_\+\+GPIO\+\_\+\+Clock\+Enable}} (\mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\+\_\+t}} \texorpdfstring{$\ast$}{*}h\+UART)
+\begin{DoxyCompactList}\small\item\em Function to enable clock access to the GPIO port for the UART. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___functions_ga81f4423fd3fd30a273801e235ad2e343}{UART\+\_\+\+GPIOConfig}} (\mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\+\_\+t}} \texorpdfstring{$\ast$}{*}h\+UART)
+\begin{DoxyCompactList}\small\item\em Function to configure the GPIO pins for the UART. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___functions_ga8c79ff940833a6107dcbfe347ee1487f}{UART\+\_\+\+Periph\+\_\+\+Clock\+Enable}} (\mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\+\_\+t}} \texorpdfstring{$\ast$}{*}h\+UART)
+\begin{DoxyCompactList}\small\item\em Function to enable clock access to UART. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___functions_ga42b647371ed3fdbf48b90614d511a67f}{UART\+\_\+\+Init}} (\mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\+\_\+t}} \texorpdfstring{$\ast$}{*}h\+UART)
+\begin{DoxyCompactList}\small\item\em Function to initialize the UART peripheral. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___functions_ga6049a18f6a9f415e1a8334e252aaddf6}{UART\+\_\+\+De\+Init}} (\mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\+\_\+t}} \texorpdfstring{$\ast$}{*}h\+UART)
+\begin{DoxyCompactList}\small\item\em Function to de-\/initialize the UART. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___functions_gad37a03989b26f227de2fe328477eca22}{UART\+\_\+\+Send\+Data}} (\mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\+\_\+t}} \texorpdfstring{$\ast$}{*}h\+UART, uint8\+\_\+t \texorpdfstring{$\ast$}{*}p\+TX, uint32\+\_\+t length)
+\begin{DoxyCompactList}\small\item\em Function to transmit data from the UART pointed by h\+UART. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___functions_ga6c10283b8d9157aab8c9cb08d90403cc}{UART\+\_\+\+Receive\+Data}} (\mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\+\_\+t}} \texorpdfstring{$\ast$}{*}h\+UART, uint8\+\_\+t \texorpdfstring{$\ast$}{*}p\+RX, uint32\+\_\+t index)
+\begin{DoxyCompactList}\small\item\em Function to receive data to the UART pointed by h\+UART. \end{DoxyCompactList}\item 
+uint16\+\_\+t \mbox{\hyperlink{group___functions_ga41d103bab55cc9a05006f3a3c80d9a62}{UART\+\_\+\+Baud\+Rate}} (\mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\+\_\+t}} \texorpdfstring{$\ast$}{*}h\+UART)
+\begin{DoxyCompactList}\small\item\em Function to calculate the value for the USARTx\+\_\+\+BRR register for Baud Rate. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___functions_ga41ea9c5e18bd9c2a2df5107401c3881d}{UART\+\_\+\+Rx\+Cmplt\+Call\+Back}} (\mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\+\_\+t}} \texorpdfstring{$\ast$}{*}h\+UART)
+\begin{DoxyCompactList}\small\item\em Function to complete reception process after RXNE interrupt occurs. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{group___functions_ga0d5c68c25d3ca8282f7f33e037814b6e}{UART\+\_\+\+Rx\+Handler}} (void(\texorpdfstring{$\ast$}{*}Call\+Back)(\mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\+\_\+t}} \texorpdfstring{$\ast$}{*}), \mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\+\_\+t}} \texorpdfstring{$\ast$}{*}h\+UART)
+\begin{DoxyCompactList}\small\item\em Handler function to be called from the UARTx\+\_\+\+Handler functions. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{group___functions_ga41d103bab55cc9a05006f3a3c80d9a62}\label{group___functions_ga41d103bab55cc9a05006f3a3c80d9a62} 
+\index{Functions@{Functions}!UART\_BaudRate@{UART\_BaudRate}}
+\index{UART\_BaudRate@{UART\_BaudRate}!Functions@{Functions}}
+\doxysubsubsection{\texorpdfstring{UART\_BaudRate()}{UART\_BaudRate()}}
+{\footnotesize\ttfamily uint16\+\_\+t UART\+\_\+\+Baud\+Rate (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{h\+UART }\end{DoxyParamCaption})}
+
+
+
+Function to calculate the value for the USARTx\+\_\+\+BRR register for Baud Rate. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em h\+UART} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Value to set to the USARTx\+\_\+\+BRR register 
+\end{DoxyReturn}
+Enable floating point unit only during the floating point baud rate calculation
+
+Obtain the mantissa
+
+Obtain the fraction
+
+Disable floating point unit
+
+Return the value to write to the USARTx\+\_\+\+BRR\Hypertarget{group___functions_ga6049a18f6a9f415e1a8334e252aaddf6}\label{group___functions_ga6049a18f6a9f415e1a8334e252aaddf6} 
+\index{Functions@{Functions}!UART\_DeInit@{UART\_DeInit}}
+\index{UART\_DeInit@{UART\_DeInit}!Functions@{Functions}}
+\doxysubsubsection{\texorpdfstring{UART\_DeInit()}{UART\_DeInit()}}
+{\footnotesize\ttfamily void UART\+\_\+\+De\+Init (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{h\+UART }\end{DoxyParamCaption})}
+
+
+
+Function to de-\/initialize the UART. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em h\+UART} & \\
+\hline
+\end{DoxyParams}
+Reset control registers
+
+Reset baud rate register
+
+Clear data register\Hypertarget{group___functions_ga98eb9d797b42f1c043b76633cb2a0985}\label{group___functions_ga98eb9d797b42f1c043b76633cb2a0985} 
+\index{Functions@{Functions}!UART\_GPIO\_ClockEnable@{UART\_GPIO\_ClockEnable}}
+\index{UART\_GPIO\_ClockEnable@{UART\_GPIO\_ClockEnable}!Functions@{Functions}}
+\doxysubsubsection{\texorpdfstring{UART\_GPIO\_ClockEnable()}{UART\_GPIO\_ClockEnable()}}
+{\footnotesize\ttfamily void UART\+\_\+\+GPIO\+\_\+\+Clock\+Enable (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{h\+UART }\end{DoxyParamCaption})}
+
+
+
+Function to enable clock access to the GPIO port for the UART. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em h\+UART} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{group___functions_ga81f4423fd3fd30a273801e235ad2e343}\label{group___functions_ga81f4423fd3fd30a273801e235ad2e343} 
+\index{Functions@{Functions}!UART\_GPIOConfig@{UART\_GPIOConfig}}
+\index{UART\_GPIOConfig@{UART\_GPIOConfig}!Functions@{Functions}}
+\doxysubsubsection{\texorpdfstring{UART\_GPIOConfig()}{UART\_GPIOConfig()}}
+{\footnotesize\ttfamily void UART\+\_\+\+GPIOConfig (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{h\+UART }\end{DoxyParamCaption})}
+
+
+
+Function to configure the GPIO pins for the UART. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em h\+UART} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{group___functions_ga42b647371ed3fdbf48b90614d511a67f}\label{group___functions_ga42b647371ed3fdbf48b90614d511a67f} 
+\index{Functions@{Functions}!UART\_Init@{UART\_Init}}
+\index{UART\_Init@{UART\_Init}!Functions@{Functions}}
+\doxysubsubsection{\texorpdfstring{UART\_Init()}{UART\_Init()}}
+{\footnotesize\ttfamily void UART\+\_\+\+Init (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{h\+UART }\end{DoxyParamCaption})}
+
+
+
+Function to initialize the UART peripheral. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em h\+UART} & \\
+\hline
+\end{DoxyParams}
+Reset the UART peripheral
+
+Configure clock of GPIO
+
+Configure GPIO pins
+
+Configure clock for UART
+
+Configure oversampling
+
+Configure data frame format
+
+Configure parity enable
+
+Configure parity setting
+
+Configure interrupt enable
+
+Configure transmit interrupt enable
+
+Configure receive interrupt enable
+
+Configure baud rate
+
+Configure transmit enable
+
+Configure receive enable
+
+Enable/\+Disable peripheral\Hypertarget{group___functions_ga8c79ff940833a6107dcbfe347ee1487f}\label{group___functions_ga8c79ff940833a6107dcbfe347ee1487f} 
+\index{Functions@{Functions}!UART\_Periph\_ClockEnable@{UART\_Periph\_ClockEnable}}
+\index{UART\_Periph\_ClockEnable@{UART\_Periph\_ClockEnable}!Functions@{Functions}}
+\doxysubsubsection{\texorpdfstring{UART\_Periph\_ClockEnable()}{UART\_Periph\_ClockEnable()}}
+{\footnotesize\ttfamily void UART\+\_\+\+Periph\+\_\+\+Clock\+Enable (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{h\+UART }\end{DoxyParamCaption})}
+
+
+
+Function to enable clock access to UART. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em h\+UART} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{group___functions_ga6c10283b8d9157aab8c9cb08d90403cc}\label{group___functions_ga6c10283b8d9157aab8c9cb08d90403cc} 
+\index{Functions@{Functions}!UART\_ReceiveData@{UART\_ReceiveData}}
+\index{UART\_ReceiveData@{UART\_ReceiveData}!Functions@{Functions}}
+\doxysubsubsection{\texorpdfstring{UART\_ReceiveData()}{UART\_ReceiveData()}}
+{\footnotesize\ttfamily void UART\+\_\+\+Receive\+Data (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{h\+UART,  }\item[{uint8\+\_\+t \texorpdfstring{$\ast$}{*}}]{p\+RX,  }\item[{uint32\+\_\+t}]{index }\end{DoxyParamCaption})}
+
+
+
+Function to receive data to the UART pointed by h\+UART. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em h\+UART} & \\
+\hline
+{\em p\+RX} & \\
+\hline
+{\em index} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{group___functions_ga41ea9c5e18bd9c2a2df5107401c3881d}\label{group___functions_ga41ea9c5e18bd9c2a2df5107401c3881d} 
+\index{Functions@{Functions}!UART\_RxCmpltCallBack@{UART\_RxCmpltCallBack}}
+\index{UART\_RxCmpltCallBack@{UART\_RxCmpltCallBack}!Functions@{Functions}}
+\doxysubsubsection{\texorpdfstring{UART\_RxCmpltCallBack()}{UART\_RxCmpltCallBack()}}
+{\footnotesize\ttfamily void UART\+\_\+\+Rx\+Cmplt\+Call\+Back (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{h\+UART }\end{DoxyParamCaption})}
+
+
+
+Function to complete reception process after RXNE interrupt occurs. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em h\+UART} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{group___functions_ga0d5c68c25d3ca8282f7f33e037814b6e}\label{group___functions_ga0d5c68c25d3ca8282f7f33e037814b6e} 
+\index{Functions@{Functions}!UART\_RxHandler@{UART\_RxHandler}}
+\index{UART\_RxHandler@{UART\_RxHandler}!Functions@{Functions}}
+\doxysubsubsection{\texorpdfstring{UART\_RxHandler()}{UART\_RxHandler()}}
+{\footnotesize\ttfamily void UART\+\_\+\+Rx\+Handler (\begin{DoxyParamCaption}\item[{void(\texorpdfstring{$\ast$}{*})(\mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\+\_\+t}} \texorpdfstring{$\ast$}{*})}]{Call\+Back,  }\item[{\mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{h\+UART }\end{DoxyParamCaption})}
+
+
+
+Handler function to be called from the UARTx\+\_\+\+Handler functions. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Call\+Back} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{group___functions_gad37a03989b26f227de2fe328477eca22}\label{group___functions_gad37a03989b26f227de2fe328477eca22} 
+\index{Functions@{Functions}!UART\_SendData@{UART\_SendData}}
+\index{UART\_SendData@{UART\_SendData}!Functions@{Functions}}
+\doxysubsubsection{\texorpdfstring{UART\_SendData()}{UART\_SendData()}}
+{\footnotesize\ttfamily void UART\+\_\+\+Send\+Data (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_u_a_r_t_handle__t}{UARTHandle\+\_\+t}} \texorpdfstring{$\ast$}{*}}]{h\+UART,  }\item[{uint8\+\_\+t \texorpdfstring{$\ast$}{*}}]{p\+TX,  }\item[{uint32\+\_\+t}]{length }\end{DoxyParamCaption})}
+
+
+
+Function to transmit data from the UART pointed by h\+UART. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em h\+UART} & \\
+\hline
+{\em p\+TX} & \\
+\hline
+{\em length} & \\
+\hline
+\end{DoxyParams}
