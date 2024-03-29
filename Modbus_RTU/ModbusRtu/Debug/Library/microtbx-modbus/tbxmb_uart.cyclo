@@ -1,0 +1,4 @@
+../Library/microtbx-modbus/tbxmb_uart.c:72:6:TbxMbUartInit	11
+../Library/microtbx-modbus/tbxmb_uart.c:116:9:TbxMbUartTransmit	7
+../Library/microtbx-modbus/tbxmb_uart.c:148:6:TbxMbUartTransmitComplete	4
+../Library/microtbx-modbus/tbxmb_uart.c:174:6:TbxMbUartDataReceived	8

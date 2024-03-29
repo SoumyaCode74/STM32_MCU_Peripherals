@@ -1,0 +1,7 @@
+../Library/microtbx-modbus/tbxmb_superloop.c:78:6:TbxMbOsalEventInit	2
+../Library/microtbx-modbus/tbxmb_superloop.c:101:6:TbxMbOsalEventPost	6
+../Library/microtbx-modbus/tbxmb_superloop.c:147:9:TbxMbOsalEventWait	5
+../Library/microtbx-modbus/tbxmb_superloop.c:192:15:TbxMbOsalSemCreate	4
+../Library/microtbx-modbus/tbxmb_superloop.c:229:6:TbxMbOsalSemFree	4
+../Library/microtbx-modbus/tbxmb_superloop.c:254:6:TbxMbOsalSemGive	4
+../Library/microtbx-modbus/tbxmb_superloop.c:287:9:TbxMbOsalSemTake	9

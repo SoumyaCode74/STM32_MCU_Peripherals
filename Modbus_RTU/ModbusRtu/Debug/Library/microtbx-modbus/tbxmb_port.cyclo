@@ -1,0 +1,5 @@
+../Library/microtbx-modbus/tbxmb_port.c:69:6:TbxMbPortUartInit	1
+../Library/microtbx-modbus/tbxmb_port.c:95:9:TbxMbPortUartTransmit	2
+../Library/microtbx-modbus/tbxmb_port.c:135:10:TbxMbPortTimerCount	2
+../Library/microtbx-modbus/tbxmb_port.c:158:6:HAL_UART_TxCpltCallback	1
+../Library/microtbx-modbus/tbxmb_port.c:170:6:HAL_UART_RxCpltCallback	2

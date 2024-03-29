@@ -1,0 +1,4 @@
+../Library/microtbx-modbus/tbxmb_uart.c:72:6:TbxMbUartInit	32	static
+../Library/microtbx-modbus/tbxmb_uart.c:116:9:TbxMbUartTransmit	24	static
+../Library/microtbx-modbus/tbxmb_uart.c:148:6:TbxMbUartTransmitComplete	16	static
+../Library/microtbx-modbus/tbxmb_uart.c:174:6:TbxMbUartDataReceived	16	static

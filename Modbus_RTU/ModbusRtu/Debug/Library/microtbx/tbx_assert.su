@@ -1,0 +1,2 @@
+../Library/microtbx/tbx_assert.c:60:6:TbxAssertSetHandler	16	static
+../Library/microtbx/tbx_assert.c:93:6:TbxAssertTrigger	16	static

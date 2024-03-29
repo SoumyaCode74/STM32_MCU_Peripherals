@@ -1,0 +1,2 @@
+../Library/microtbx/tbx_critsect.c:69:6:TbxCriticalSectionEnter	2
+../Library/microtbx/tbx_critsect.c:107:6:TbxCriticalSectionExit	4

@@ -1,0 +1,2 @@
+../Library/microtbx/tbx_checksum.c:93:10:TbxChecksumCrc16Calculate	32	static
+../Library/microtbx/tbx_checksum.c:146:10:TbxChecksumCrc32Calculate	32	static
